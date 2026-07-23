@@ -45,3 +45,13 @@ that every run occurred exactly on time.
 - Interactive chart ranges: 3, 6, and 12 hours
 - Richer methodology modal
 - Updated hospital-readiness indicator
+
+
+## V0.3
+
+- Fully responsive desktop/mobile layout
+- Stable circular gauge with no overlap
+- Responsive chart with fixed aspect ratio
+- Latest signals panel
+- Model-confidence display
+- Improved desktop two-column layout

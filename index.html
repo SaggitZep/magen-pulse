@@ -8,62 +8,80 @@
 <title>Magen Pulse</title>
 <style>
 :root{
-  --bg:#050b14;--panel:#0d1726;--panel2:#111d30;--border:#24344d;
+  --bg:#050b14;--panel:#0d1726;--panel2:#111d30;--border:#263853;
   --text:#f7f9fc;--muted:#9aa8bd;--low:#27c66d;--elevated:#f0b90b;
   --significant:#ff7a1a;--high:#ff4747;--critical:#9a59ff;
+  --shadow:0 18px 45px rgba(0,0,0,.24)
 }
 *{box-sizing:border-box}
 html,body{margin:0;min-height:100%;background:var(--bg);color:var(--text)}
 body{
   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
   background:
-    radial-gradient(circle at 50% -5%,rgba(40,86,176,.22),transparent 32%),
+    radial-gradient(circle at 50% -10%,rgba(40,86,176,.23),transparent 32%),
     linear-gradient(180deg,#06101d 0%,#050b14 100%);
 }
 button{font:inherit}
-.app{width:min(100%,460px);margin:0 auto;padding:calc(16px + env(safe-area-inset-top)) 15px calc(20px + env(safe-area-inset-bottom))}
-.topbar{display:grid;grid-template-columns:42px 1fr 42px;align-items:start;gap:8px}
-.brand{text-align:center}
-.brand h1{direction:ltr;margin:0;font-size:1.42rem;letter-spacing:.01em}
-.kicker{direction:ltr;color:#e8eef8;font-weight:700;font-size:.9rem;margin-top:3px}
-.sub{color:var(--muted);font-size:.78rem;line-height:1.4;margin-top:3px}
-.info-btn,.close-btn{width:38px;height:38px;border-radius:50%;border:1px solid var(--border);background:rgba(17,29,48,.84);color:#fff;cursor:pointer;backdrop-filter:blur(12px)}
+.app{width:min(100%,560px);margin:0 auto;padding:calc(16px + env(safe-area-inset-top)) 14px calc(24px + env(safe-area-inset-bottom))}
+.topbar{display:grid;grid-template-columns:42px 1fr 42px;gap:8px;align-items:start}
+.brand{text-align:center;min-width:0}
+.brand h1{direction:ltr;margin:0;font-size:clamp(1.35rem,4vw,1.8rem);letter-spacing:.01em}
+.kicker{direction:ltr;color:#e8eef8;font-weight:750;font-size:clamp(.82rem,2.5vw,1rem);margin-top:3px}
+.sub{color:var(--muted);font-size:clamp(.72rem,2.2vw,.86rem);line-height:1.4;margin-top:3px}
+.info-btn,.close-btn{width:38px;height:38px;border-radius:50%;border:1px solid var(--border);background:rgba(17,29,48,.88);color:#fff;cursor:pointer;backdrop-filter:blur(12px)}
 .info-btn{font-weight:900;font-size:1.05rem}
-.mode{display:inline-flex;margin-top:8px;padding:4px 9px;border-radius:999px;font-size:.67rem;font-weight:800;background:rgba(240,185,11,.12);border:1px solid rgba(240,185,11,.25);color:#ffe38a}
-.hero{text-align:center;padding:16px 0 8px}
-.horizon{color:var(--muted);font-size:.84rem}
-.gauge-wrap{position:relative;width:238px;height:150px;margin:8px auto 0}
-.gauge{width:238px;height:238px;transform:rotate(-90deg)}
-.gauge-bg,.gauge-fg{fill:none;stroke-width:16;stroke-linecap:round}
-.gauge-bg{stroke:#1b2638}
-.gauge-fg{stroke:var(--high);filter:drop-shadow(0 0 10px rgba(255,71,71,.42));transition:stroke-dashoffset .9s ease,stroke .4s ease}
-.gauge-center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding-top:30px}
-.score{font-size:4.3rem;font-weight:900;letter-spacing:-.06em;line-height:.9}
-.level{display:inline-flex;margin-top:12px;padding:7px 16px;border-radius:999px;background:var(--high);font-size:.88rem;font-weight:850}
-.trend{margin-top:10px;color:var(--muted);font-size:.8rem}
+.mode-row{display:flex;justify-content:center;gap:7px;flex-wrap:wrap;margin-top:8px}
+.badge{display:inline-flex;padding:4px 9px;border-radius:999px;font-size:.66rem;font-weight:800}
+.demo{background:rgba(240,185,11,.12);border:1px solid rgba(240,185,11,.26);color:#ffe38a}
+.beta{background:rgba(82,134,255,.12);border:1px solid rgba(82,134,255,.28);color:#a9c2ff}
+.hero{padding:18px 0 8px;text-align:center}
+.horizon{color:var(--muted);font-size:clamp(.8rem,2.3vw,.92rem)}
+.gauge-shell{
+  width:min(72vw,280px);aspect-ratio:1/1;margin:8px auto 0;position:relative;
+  display:grid;place-items:center
+}
+.gauge{width:100%;height:100%;transform:rotate(-90deg);overflow:visible}
+.gauge-track,.gauge-progress{fill:none;stroke-width:12;stroke-linecap:round}
+.gauge-track{stroke:#1b2638}
+.gauge-progress{stroke:var(--high);filter:drop-shadow(0 0 10px rgba(255,71,71,.45));transition:stroke-dashoffset .8s ease,stroke .35s ease}
+.gauge-center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.score{font-size:clamp(3.9rem,18vw,6.1rem);font-weight:900;letter-spacing:-.07em;line-height:.9}
+.level{display:inline-flex;margin-top:13px;padding:7px 16px;border-radius:999px;background:var(--high);font-size:.88rem;font-weight:850}
+.trend{margin-top:8px;color:var(--muted);font-size:.81rem}
 .trend strong{color:#fff}
-.glass{background:linear-gradient(180deg,rgba(19,32,52,.92),rgba(12,22,37,.92));border:1px solid var(--border);box-shadow:0 12px 32px rgba(0,0,0,.2);backdrop-filter:blur(14px)}
-.chart-card{margin-top:8px;border-radius:20px;padding:10px 8px 6px}
-.tabs{display:flex;justify-content:center;gap:7px;margin-bottom:4px}
-.tab{border:1px solid var(--border);background:transparent;color:var(--muted);border-radius:999px;padding:5px 10px;font-size:.69rem;cursor:pointer}
+.confidence{margin-top:7px;color:#b9c5d7;font-size:.72rem}
+.confidence strong{color:#fff}
+.glass{background:linear-gradient(180deg,rgba(19,32,52,.95),rgba(12,22,37,.95));border:1px solid var(--border);box-shadow:var(--shadow);backdrop-filter:blur(14px)}
+.section-title{font-size:.76rem;font-weight:850;letter-spacing:.02em;margin-bottom:8px}
+.chart-card{margin-top:12px;border-radius:20px;padding:12px 10px 8px;overflow:hidden}
+.tabs{display:flex;justify-content:center;gap:7px;margin-bottom:7px}
+.tab{border:1px solid var(--border);background:transparent;color:var(--muted);border-radius:999px;padding:5px 11px;font-size:.69rem;cursor:pointer}
 .tab.active{background:#1c2b43;color:#fff}
-svg{display:block;width:100%;height:auto}
-.legend{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:2px 0 4px;color:var(--muted);font-size:.64rem}
+.chart-wrap{width:100%;aspect-ratio:1.65/1;min-height:250px}
+#chart{display:block;width:100%;height:100%}
+.legend{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:3px 0 2px;color:var(--muted);font-size:.64rem}
 .legend span{display:flex;align-items:center;gap:4px}
 .dot{width:8px;height:8px;border-radius:50%}
 .cards{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:10px}
 .card{border-radius:17px;padding:13px 8px;text-align:center}
 .card-label{color:var(--muted);font-size:.73rem}
-.card-value{font-size:1.4rem;font-weight:900;margin-top:4px}
+.card-value{font-size:clamp(1.3rem,6vw,1.7rem);font-weight:900;margin-top:4px}
 .card-note{color:var(--muted);font-size:.68rem;margin-top:3px}
-.alert-card{margin-top:10px;border-radius:17px;padding:11px 13px}
-.alert-title{font-size:.76rem;font-weight:850}
-.alert-text{color:var(--muted);font-size:.7rem;line-height:1.45;margin-top:4px}
+.signals{margin-top:10px;border-radius:18px;padding:12px}
+.signal-list{display:grid;gap:8px}
+.signal{display:grid;grid-template-columns:auto 1fr auto;gap:9px;align-items:center;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+.signal:last-child{border-bottom:0}
+.arrow{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-weight:900;font-size:.72rem}
+.arrow.up{background:rgba(255,71,71,.14);color:#ff7b86}
+.arrow.down{background:rgba(39,198,109,.14);color:#58df91}
+.signal-name{font-size:.75rem;line-height:1.35}
+.signal-score{font-size:.8rem;font-weight:900}
+.signal-score.pos{color:#ff8b95}.signal-score.neg{color:#63e49a}
 .disclaimer{color:var(--muted);font-size:.67rem;line-height:1.45;text-align:center;margin:10px 5px 0}
 .error{display:none;margin-top:10px;padding:10px;border-radius:13px;border:1px solid rgba(255,71,71,.35);background:rgba(255,71,71,.1);color:#ffc6c6;font-size:.74rem}
 .overlay{position:fixed;inset:0;z-index:100;background:rgba(1,5,12,.82);display:none;align-items:flex-end;justify-content:center;padding:10px;backdrop-filter:blur(6px)}
 .overlay.open{display:flex}
-.modal{width:min(100%,460px);max-height:90vh;overflow:auto;border-radius:24px 24px 16px 16px;padding:16px;background:#0d1726;border:1px solid var(--border)}
+.modal{width:min(100%,520px);max-height:90vh;overflow:auto;border-radius:24px 24px 16px 16px;padding:16px;background:#0d1726;border:1px solid var(--border)}
 .modal-head{position:sticky;top:-16px;z-index:3;display:flex;justify-content:space-between;align-items:flex-start;gap:10px;background:#0d1726;padding:16px 0 10px}
 .modal h2{margin:0;font-size:1rem}
 .modal-intro{color:var(--muted);font-size:.74rem;line-height:1.45;margin-top:4px}
@@ -78,7 +96,22 @@ svg{display:block;width:100%;height:auto}
 .sumline{display:flex;justify-content:space-between}
 .sumline.total{border-top:1px solid var(--border);padding-top:8px;font-weight:850}
 .note{color:var(--muted);font-size:.69rem;line-height:1.45;margin-top:11px}
-@media(min-width:650px){.overlay{align-items:center}.modal{border-radius:24px}}
+@media(max-width:390px){
+  .app{padding-left:10px;padding-right:10px}
+  .topbar{grid-template-columns:38px 1fr 38px}
+  .info-btn,.close-btn{width:36px;height:36px}
+  .chart-wrap{min-height:225px}
+}
+@media(min-width:760px){
+  .app{width:min(100%,760px)}
+  .dashboard-grid{display:grid;grid-template-columns:.92fr 1.08fr;gap:14px;align-items:start;margin-top:6px}
+  .hero{padding-top:12px}
+  .gauge-shell{width:280px}
+  .chart-card{margin-top:0}
+  .cards,.signals{grid-column:1/-1}
+  .overlay{align-items:center}
+  .modal{border-radius:24px}
+}
 </style>
 </head>
 <body>
@@ -89,59 +122,68 @@ svg{display:block;width:100%;height:auto}
       <h1>Magen Pulse</h1>
       <div class="kicker">Iran → Israel Risk Radar</div>
       <div class="sub">הערכת סיכון לתקיפה איראנית ישירה נגד ישראל</div>
-      <span class="mode" id="modeBadge">מצב הדגמה</span>
+      <div class="mode-row">
+        <span class="badge beta">BETA V0.3</span>
+        <span class="badge demo" id="modeBadge">מצב הדגמה</span>
+      </div>
     </div>
     <div></div>
   </header>
 
-  <section class="hero" aria-live="polite">
-    <div class="horizon" id="horizon">הערכת הסיכון ב־12 השעות הקרובות</div>
-    <div class="gauge-wrap">
-      <svg class="gauge" viewBox="0 0 238 238" aria-hidden="true">
-        <circle class="gauge-bg" cx="119" cy="119" r="88" stroke-dasharray="414 553"/>
-        <circle class="gauge-fg" id="gaugeFg" cx="119" cy="119" r="88" stroke-dasharray="414 553" stroke-dashoffset="116"/>
-      </svg>
-      <div class="gauge-center">
-        <div class="score" id="score">--%</div>
-        <div class="level" id="level">טוען נתונים</div>
+  <div class="dashboard-grid">
+    <section class="hero" aria-live="polite">
+      <div class="horizon" id="horizon">הערכת הסיכון ב־12 השעות הקרובות</div>
+      <div class="gauge-shell">
+        <svg class="gauge" viewBox="0 0 220 220" aria-hidden="true">
+          <circle class="gauge-track" cx="110" cy="110" r="84"/>
+          <circle class="gauge-progress" id="gaugeProgress" cx="110" cy="110" r="84"/>
+        </svg>
+        <div class="gauge-center">
+          <div class="score" id="score">--%</div>
+          <div class="level" id="level">טוען נתונים</div>
+        </div>
       </div>
-    </div>
-    <div class="trend" id="trend">מחשב מגמה...</div>
-  </section>
+      <div class="trend" id="trend">מחשב מגמה...</div>
+      <div class="confidence">רמת ביטחון במודל: <strong>גבוהה</strong></div>
+    </section>
 
-  <section class="chart-card glass">
-    <div class="tabs">
-      <button class="tab active" data-range="all">12 שעות</button>
-      <button class="tab" data-range="6">6 שעות</button>
-      <button class="tab" data-range="3">3 שעות</button>
-    </div>
-    <svg id="chart" viewBox="0 0 420 250" role="img" aria-label="גרף שינוי הסיכון"></svg>
-    <div class="legend">
-      <span><i class="dot" style="background:var(--low)"></i>נמוך</span>
-      <span><i class="dot" style="background:var(--elevated)"></i>מוגבר</span>
-      <span><i class="dot" style="background:var(--significant)"></i>משמעותי</span>
-      <span><i class="dot" style="background:var(--high)"></i>גבוה</span>
-      <span><i class="dot" style="background:var(--critical)"></i>קריטי</span>
-    </div>
-  </section>
+    <section class="chart-card glass">
+      <div class="section-title">מגמת הסיכון</div>
+      <div class="tabs">
+        <button class="tab active" data-range="all">12 שעות</button>
+        <button class="tab" data-range="6">6 שעות</button>
+        <button class="tab" data-range="3">3 שעות</button>
+      </div>
+      <div class="chart-wrap">
+        <svg id="chart" viewBox="0 0 520 310" preserveAspectRatio="xMidYMid meet" role="img" aria-label="גרף שינוי הסיכון"></svg>
+      </div>
+      <div class="legend">
+        <span><i class="dot" style="background:var(--low)"></i>נמוך</span>
+        <span><i class="dot" style="background:var(--elevated)"></i>מוגבר</span>
+        <span><i class="dot" style="background:var(--significant)"></i>משמעותי</span>
+        <span><i class="dot" style="background:var(--high)"></i>גבוה</span>
+        <span><i class="dot" style="background:var(--critical)"></i>קריטי</span>
+      </div>
+    </section>
 
-  <section class="cards">
-    <div class="card glass">
-      <div class="card-label">עודכן לאחרונה</div>
-      <div class="card-value" id="updatedTime">--:--</div>
-      <div class="card-note" id="updatedDate">--.--.----</div>
-    </div>
-    <div class="card glass">
-      <div class="card-label">עדכון הבא בעוד</div>
-      <div class="card-value" id="countdown">--:--</div>
-      <div class="card-note">רענון כל 30 דקות</div>
-    </div>
-  </section>
+    <section class="cards">
+      <div class="card glass">
+        <div class="card-label">עודכן לאחרונה</div>
+        <div class="card-value" id="updatedTime">--:--</div>
+        <div class="card-note" id="updatedDate">--.--.----</div>
+      </div>
+      <div class="card glass">
+        <div class="card-label">עדכון הבא בעוד</div>
+        <div class="card-value" id="countdown">--:--</div>
+        <div class="card-note">בדיקה כל 30 דקות</div>
+      </div>
+    </section>
 
-  <section class="alert-card glass">
-    <div class="alert-title">הגורם החדש בעדכון הנוכחי</div>
-    <div class="alert-text">היערכות מערכת הבריאות למעבר מהיר למתכונת חירום נוספה כאינדיקטור נפרד. פירוט מלא נמצא בחלון המידע.</div>
-  </section>
+    <section class="signals glass">
+      <div class="section-title">האינדיקטורים המשפיעים כעת</div>
+      <div class="signal-list" id="signalList"></div>
+    </section>
+  </div>
 
   <div class="error" id="errorBox">לא ניתן היה לטעון את הנתונים. נסי לרענן את הדף.</div>
   <p class="disclaimer">אב־טיפוס המבוסס על נתוני הדגמה. אינו התרעה רשמית ואינו תחליף להנחיות פיקוד העורף.</p>
@@ -170,19 +212,28 @@ function fmtDate(iso){const d=new Date(iso);return{time:new Intl.DateTimeFormat(
 function esc(s=''){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}
 function selectHistory(){if(!model)return[];const h=model.history;if(currentRange==='all')return h.slice(-25);const hours=Number(currentRange),end=new Date(h[h.length-1].timestamp).getTime(),start=end-hours*3600000;return h.filter(x=>new Date(x.timestamp).getTime()>=start)}
 function drawChart(){
- const history=selectHistory(),svg=document.getElementById('chart'),W=420,H=250,m={top:16,right:16,bottom:48,left:54},w=W-m.left-m.right,h=H-m.top-m.bottom;
+ const history=selectHistory(); if(!history.length)return;
+ const svg=document.getElementById('chart'),W=520,H=310,m={top:18,right:18,bottom:60,left:62},w=W-m.left-m.right,h=H-m.top-m.bottom;
  const x=i=>m.left+(history.length<2?0:i*w/(history.length-1)),y=v=>m.top+h-(v/100)*h;
  let out='';
  [[80,100,COLORS.critical],[60,80,COLORS.high],[40,60,COLORS.significant],[20,40,COLORS.elevated],[0,20,COLORS.low]].forEach(([a,b,c])=>out+=`<rect x="${m.left}" y="${y(b)}" width="${w}" height="${y(a)-y(b)}" fill="${c}" opacity=".10"/>`);
- for(let v=0;v<=100;v+=20){out+=`<line x1="${m.left}" y1="${y(v)}" x2="${W-m.right}" y2="${y(v)}" stroke="rgba(255,255,255,.12)"/>`;out+=`<text x="${m.left-8}" y="${y(v)+4}" fill="#9aa8bd" font-size="10" text-anchor="end">${v}%</text>`}
+ for(let v=0;v<=100;v+=20){out+=`<line x1="${m.left}" y1="${y(v)}" x2="${W-m.right}" y2="${y(v)}" stroke="rgba(255,255,255,.12)"/>`;out+=`<text x="${m.left-10}" y="${y(v)+4}" fill="#9aa8bd" font-size="12" text-anchor="end">${v}%</text>`}
  out+=`<line x1="${m.left}" y1="${m.top}" x2="${m.left}" y2="${m.top+h}" stroke="rgba(255,255,255,.42)"/>`;
  out+=`<line x1="${m.left}" y1="${m.top+h}" x2="${W-m.right}" y2="${m.top+h}" stroke="rgba(255,255,255,.42)"/>`;
- out+=`<text x="15" y="${m.top+h/2}" fill="#f7f9fc" font-size="11" font-weight="700" transform="rotate(-90 15 ${m.top+h/2})" text-anchor="middle">סיכוי</text>`;
- out+=`<text x="${m.left+w/2}" y="${H-7}" fill="#f7f9fc" font-size="11" font-weight="700" text-anchor="middle">שעת העדכון</text>`;
- for(let i=0;i<history.length-1;i++){const c=meta(Math.max(history[i].score,history[i+1].score)).color;out+=`<line x1="${x(i)}" y1="${y(history[i].score)}" x2="${x(i+1)}" y2="${y(history[i+1].score)}" stroke="${c}" stroke-width="4.2" stroke-linecap="round"/>`}
+ out+=`<text x="18" y="${m.top+h/2}" fill="#f7f9fc" font-size="13" font-weight="700" transform="rotate(-90 18 ${m.top+h/2})" text-anchor="middle">סיכוי</text>`;
+ out+=`<text x="${m.left+w/2}" y="${H-10}" fill="#f7f9fc" font-size="13" font-weight="700" text-anchor="middle">שעת העדכון</text>`;
+ for(let i=0;i<history.length-1;i++){const c=meta(Math.max(history[i].score,history[i+1].score)).color;out+=`<line x1="${x(i)}" y1="${y(history[i].score)}" x2="${x(i+1)}" y2="${y(history[i+1].score)}" stroke="${c}" stroke-width="5" stroke-linecap="round"/>`}
  const step=Math.max(1,Math.ceil(history.length/5));
- history.forEach((d,i)=>{const c=meta(d.score).color;out+=`<circle cx="${x(i)}" cy="${y(d.score)}" r="${i===history.length-1?5.4:4.2}" fill="${c}" stroke="#050b14" stroke-width="2"/>`;if(i%step===0||i===history.length-1)out+=`<text x="${x(i)}" y="${m.top+h+20}" fill="#9aa8bd" font-size="9.2" text-anchor="middle">${fmtDate(d.timestamp).time}</text>`});
+ history.forEach((d,i)=>{const c=meta(d.score).color;out+=`<circle cx="${x(i)}" cy="${y(d.score)}" r="${i===history.length-1?6:4.8}" fill="${c}" stroke="#050b14" stroke-width="2.3"/>`;if(i%step===0||i===history.length-1)out+=`<text x="${x(i)}" y="${m.top+h+25}" fill="#9aa8bd" font-size="11" text-anchor="middle">${fmtDate(d.timestamp).time}</text>`});
  svg.innerHTML=out;
+}
+function renderSignals(items){
+ const top=[...items].sort((a,b)=>Math.abs(b.contribution)-Math.abs(a.contribution)).slice(0,6);
+ document.getElementById('signalList').innerHTML=top.map(i=>{
+   const up=i.contribution>=0;
+   const sign=i.contribution>0?'+':'';
+   return `<div class="signal"><span class="arrow ${up?'up':'down'}">${up?'▲':'▼'}</span><span class="signal-name">${esc(i.name)}</span><span class="signal-score ${up?'pos':'neg'}">${sign}${i.contribution}</span></div>`;
+ }).join('');
 }
 function renderIndicators(items,calc){document.getElementById('modalTitle').textContent=`כיצד חושב הציון ${calc.final_score}%?`;document.getElementById('indicatorRows').innerHTML=items.map(i=>{const cls=i.contribution>0?'pos':i.contribution<0?'neg':'neu',sign=i.contribution>0?'+':'';return`<div class="indicator"><div><strong>${esc(i.name)}</strong><div class="finding">${esc(i.finding)}</div></div><div class="meta">משקל מרבי: ${i.max_weight}<span class="contrib ${cls}">${sign}${i.contribution}</span></div></div>`}).join('');document.getElementById('summary').innerHTML=`<div class="sumline"><span>ציון בסיס</span><strong>${calc.base_score}</strong></div><div class="sumline"><span>תרומות מעלות סיכון</span><strong class="pos">+${calc.positive_total}</strong></div><div class="sumline"><span>גורמים מפחיתי סיכון</span><strong class="neg">${calc.negative_total}</strong></div><div class="sumline total"><span>ציון סופי</span><strong>${calc.final_score}%</strong></div>`}
 function render(d){
@@ -193,12 +244,14 @@ function render(d){
  document.getElementById('trend').innerHTML=c.trend_points===0?'ללא שינוי מאז העדכון הקודם':`${c.trend_points>0?'▲ עלייה':'▼ ירידה'} של <strong>${Math.abs(c.trend_points)} נקודות</strong> מאז העדכון הקודם`;
  document.getElementById('updatedTime').textContent=dt.time;document.getElementById('updatedDate').textContent=dt.date;
  document.getElementById('modeBadge').textContent=d.mode==='live'?'מצב חי':'מצב הדגמה';
- const circumference=414,offset=circumference*(1-c.score/100);const gf=document.getElementById('gaugeFg');gf.style.stroke=m.color;gf.style.strokeDashoffset=offset;
- renderIndicators(d.indicators,d.calculation);drawChart();updateCountdown()
+ const r=84,circ=2*Math.PI*r,offset=circ*(1-c.score/100),gp=document.getElementById('gaugeProgress');
+ gp.setAttribute('stroke-dasharray',circ);gp.setAttribute('stroke-dashoffset',offset);gp.style.stroke=m.color;
+ renderIndicators(d.indicators,d.calculation);renderSignals(d.indicators);drawChart();updateCountdown()
 }
-function updateCountdown(){if(!model)return;const elapsed=Date.now()-new Date(model.current.updated_at).getTime(),interval=1800000;let r=interval-(elapsed%interval);const t=Math.floor(r/1000);document.getElementById('countdown').textContent=String(Math.floor(t/60)).padStart(2,'0')+':'+String(t%60).padStart(2,'0')}
+function updateCountdown(){if(!model)return;const elapsed=Date.now()-new Date(model.current.updated_at).getTime(),interval=1800000;let r=interval-(elapsed%interval);if(r<0)r=0;const t=Math.floor(r/1000);document.getElementById('countdown').textContent=String(Math.floor(t/60)).padStart(2,'0')+':'+String(t%60).padStart(2,'0')}
 async function loadData(){try{const r=await fetch(`data/risk-data.json?v=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error();render(await r.json());document.getElementById('errorBox').style.display='none'}catch(e){document.getElementById('errorBox').style.display='block'}}
 document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');currentRange=b.dataset.range;drawChart()}));
+window.addEventListener('resize',()=>{clearTimeout(window.__rt);window.__rt=setTimeout(drawChart,120)});
 const overlay=document.getElementById('overlay');
 document.getElementById('openInfo').onclick=()=>{overlay.classList.add('open');document.body.style.overflow='hidden'};
 document.getElementById('closeInfo').onclick=()=>{overlay.classList.remove('open');document.body.style.overflow=''};
