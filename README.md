@@ -36,3 +36,12 @@ a live risk score. This is deliberate. Live mode should only be enabled after:
 GitHub scheduled workflows can be delayed during periods of high load. The web
 page therefore displays the actual last data timestamp rather than pretending
 that every run occurred exactly on time.
+
+
+## V0.2
+
+- Semi-circular risk gauge
+- Improved mobile visual design
+- Interactive chart ranges: 3, 6, and 12 hours
+- Richer methodology modal
+- Updated hospital-readiness indicator
