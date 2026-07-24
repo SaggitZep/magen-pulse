@@ -1,0 +1,266 @@
+window.MAGEN_STATE = {
+  "schema_version": 4,
+  "mode": "degraded",
+  "generated_at": "2026-07-24T17:51:50.966801Z",
+  "next_refresh_minutes": 10,
+  "assessment": {
+    "immediate": {
+      "label": "60 דקות",
+      "score": 5,
+      "low": 0,
+      "high": 19,
+      "confidence": 59,
+      "status": "לא זוהה אות חריג"
+    },
+    "short": {
+      "label": "6 שעות",
+      "score": 17,
+      "low": 3,
+      "high": 31,
+      "confidence": 59,
+      "status": "נמוך"
+    },
+    "extended": {
+      "label": "24 שעות",
+      "score": 28,
+      "low": 14,
+      "high": 42,
+      "confidence": 59,
+      "status": "מוגבר"
+    }
+  },
+  "coverage": {
+    "percent": 50,
+    "available": 1,
+    "expected": 2
+  },
+  "velocity": {
+    "level": "ירידה",
+    "points_60m": -85
+  },
+  "changes": [
+    {
+      "time": "19:45",
+      "text": "Jordan intercepts 7 missiles , 6 drones as Iran warns civilians near US bases",
+      "impact": "השפעה מיידית מחושבת: +1.9",
+      "direction": "up",
+      "source": "www.al-monitor.com",
+      "signal_id": "81b3e4e4a0c7b89e"
+    },
+    {
+      "time": "19:45",
+      "text": "Drones target northern Iraqi city where US forces are based as US - Iran fighting escalates",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "www.kob.com",
+      "signal_id": "3d626d22d1b632e3"
+    },
+    {
+      "time": "19:45",
+      "text": "US Missiles Strike Across Iran After Houthis Announce",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "www.marinelink.com",
+      "signal_id": "973f1e102b25702e"
+    },
+    {
+      "time": "19:45",
+      "text": "US Strikes Iran From South to North After Trump Threats Over Red Sea Shipping",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "gcaptain.com",
+      "signal_id": "1aaefb9b414d95ca"
+    }
+  ],
+  "signals": [
+    {
+      "id": "81b3e4e4a0c7b89e",
+      "name": "Jordan intercepts 7 missiles , 6 drones as Iran warns civilians near US bases",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "dependency_group": "81b3e4e4a0",
+      "strength": 0.53,
+      "reliability": 0.64,
+      "freshness": 0.727,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "www.al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/07/jordan-intercepts-7-missiles-6-drones-iran-warns-civilians-near-us-bases",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.9,
+        "short": 6.4,
+        "extended": 10.9
+      },
+      "evidence_type": "report",
+      "carried_forward": true
+    },
+    {
+      "id": "3d626d22d1b632e3",
+      "name": "Drones target northern Iraqi city where US forces are based as US - Iran fighting escalates",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "dependency_group": "3d626d22d1",
+      "strength": 0.48,
+      "reliability": 0.64,
+      "freshness": 0.727,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "www.kob.com",
+      "url": "https://www.kob.com/ap-top-news/drones-target-northern-iraqi-city-where-us-forces-are-based-as-us-iran-fighting-escalates/",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.8
+      },
+      "evidence_type": "report",
+      "carried_forward": true
+    },
+    {
+      "id": "973f1e102b25702e",
+      "name": "US Missiles Strike Across Iran After Houthis Announce",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "dependency_group": "973f1e102b",
+      "strength": 0.48,
+      "reliability": 0.64,
+      "freshness": 0.727,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "www.marinelink.com",
+      "url": "https://www.marinelink.com/news/us-missiles-strike-across-iran-houthis-541513",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.8
+      },
+      "evidence_type": "report",
+      "carried_forward": true
+    },
+    {
+      "id": "1aaefb9b414d95ca",
+      "name": "US Strikes Iran From South to North After Trump Threats Over Red Sea Shipping",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "dependency_group": "1aaefb9b41",
+      "strength": 0.45,
+      "reliability": 0.64,
+      "freshness": 0.727,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gcaptain.com",
+      "url": "https://gcaptain.com/us-strikes-iran-from-south-to-north-after-trump-threats-over-red-sea-shipping/",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      },
+      "evidence_type": "report",
+      "carried_forward": true
+    },
+    {
+      "id": "c53449d57a367de7",
+      "name": "Trump loses faith in Iran diplomacy , military option gains ground",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "dependency_group": "c53449d57a",
+      "strength": 0.4,
+      "reliability": 0.64,
+      "freshness": 0.727,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "www.middle-east-online.com",
+      "url": "https://www.middle-east-online.com/en/trump-loses-faith-iran-diplomacy-military-option-gains-ground",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      },
+      "evidence_type": "report",
+      "carried_forward": true
+    }
+  ],
+  "history": [
+    {
+      "timestamp": "2026-07-24T17:51:50.966801Z",
+      "immediate": 5,
+      "short": 17,
+      "extended": 28
+    }
+  ],
+  "health": {
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "last_success": null,
+    "sources": {
+      "gdelt": {
+        "ok": false,
+        "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+        "carried_forward": 5
+      },
+      "manual": {
+        "ok": true,
+        "items": 0
+      }
+    }
+  },
+  "methodology": {
+    "formula": "כל אות מסונן לפי רלוונטיות, מקור ועדכניות; כפילויות ופרסומים תלויים מופחתים. ריבוי מקורות נדרש לציון גבוה, למעט דיווח מפורש על שיגור לעבר ישראל.",
+    "calibrated": false,
+    "launch_rule": "דיווח מפורש על שיגור מאיראן לעבר ישראל יכול להפעיל את כלל השיגור גם ממקור יחיד."
+  }
+};
