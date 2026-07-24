@@ -2,19 +2,19 @@
   "gdelt_queries": [
     {
       "id": "iran_israel_attack",
-      "query": "(Iran OR IRGC) (Israel OR Israeli) (missile OR drone OR attack OR retaliation)",
+      "query": "Iran Israel (missile OR drone OR attack OR retaliation OR strike)",
       "category": "direct_intent",
       "source_tier": 0.68
     },
     {
       "id": "iran_military_preparation",
-      "query": "Iran (missile launch OR missile deployment OR drone launch OR military preparation)",
+      "query": "Iran (missile OR drone OR military) (launch OR deployment OR preparation)",
       "category": "capability",
       "source_tier": 0.62
     },
     {
       "id": "israel_emergency_readiness",
-      "query": "Israel (Home Front Command OR shelters OR hospitals OR airspace) Iran",
+      "query": "Israel Iran (\"Home Front Command\" OR shelters OR hospitals OR airspace)",
       "category": "israel_readiness",
       "source_tier": 0.64
     }

@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "mode": "initializing",
-  "generated_at": "2026-07-24T05:30:00Z",
+  "generated_at": "2026-07-24T00:00:00Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -10,7 +10,7 @@
       "low": null,
       "high": null,
       "confidence": 0,
-      "status": "ממתין לנתונים"
+      "status": "ממתין להרצה ראשונה"
     },
     "short": {
       "label": "6 שעות",
@@ -18,7 +18,7 @@
       "low": null,
       "high": null,
       "confidence": 0,
-      "status": "ממתין לנתונים"
+      "status": "ממתין להרצה ראשונה"
     },
     "extended": {
       "label": "24 שעות",
@@ -26,7 +26,7 @@
       "low": null,
       "high": null,
       "confidence": 0,
-      "status": "ממתין לנתונים"
+      "status": "ממתין להרצה ראשונה"
     }
   },
   "coverage": {
@@ -43,7 +43,7 @@
   "history": [],
   "health": {
     "pipeline": "not_run",
-    "message": "המערכת טרם השלימה איסוף ראשון.",
+    "message": "יש להריץ פעם אחת את תהליך האיסוף ב-GitHub Actions.",
     "last_success": null,
     "sources": {}
   },

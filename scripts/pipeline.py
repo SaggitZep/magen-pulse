@@ -1,5 +1,5 @@
 from __future__ import annotations
-import json, math, re, hashlib, urllib.parse, urllib.request
+import json, math, re, hashlib, urllib.parse, urllib.request, time
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -39,17 +39,43 @@ def clamp(x, lo=0.0, hi=1.0): return max(lo, min(hi, x))
 def now(): return datetime.now(timezone.utc)
 def iso(dt): return dt.isoformat().replace("+00:00","Z")
 
-def fetch_json(url):
-    req = urllib.request.Request(url, headers={"User-Agent":UA})
-    with urllib.request.urlopen(req, timeout=25) as r:
-        return json.load(r)
+def fetch_json(url, attempts=3):
+    last = None
+    for attempt in range(attempts):
+        try:
+            req = urllib.request.Request(
+                url,
+                headers={
+                    "User-Agent": UA,
+                    "Accept": "application/json",
+                    "Cache-Control": "no-cache",
+                },
+            )
+            with urllib.request.urlopen(req, timeout=35) as r:
+                raw = r.read()
+                ctype = r.headers.get("Content-Type", "")
+                if b"{" not in raw[:100] and "json" not in ctype.lower():
+                    raise RuntimeError(f"non-JSON response ({ctype or 'unknown type'})")
+                return json.loads(raw.decode("utf-8-sig"))
+        except Exception as e:
+            last = e
+            if attempt < attempts - 1:
+                time.sleep(2.5 * (attempt + 1))
+    raise last
 
 def gdelt(query, maxrecords=75):
     params = {
-        "query":query, "mode":"ArtList", "maxrecords":str(maxrecords),
-        "format":"json", "sort":"HybridRel", "timespan":"3h"
+        "query": query,
+        "mode": "ArtList",
+        "maxrecords": str(maxrecords),
+        "format": "json",
+        "sort": "DateDesc",
+        "timespan": "24h",
     }
-    return fetch_json("https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode(params))
+    return fetch_json(
+        "https://api.gdeltproject.org/api/v2/doc/doc?"
+        + urllib.parse.urlencode(params)
+    )
 
 def parse_dt(value):
     for fmt in ("%Y%m%dT%H%M%SZ", "%Y-%m-%dT%H:%M:%SZ"):
@@ -158,19 +184,30 @@ def main():
                 if k not in raw_seen:
                     raw_seen.add(k); signals.append(make_signal(a,q,cfg["trusted_domains"]))
         except Exception as e:
-            source_health[q["id"]]={"ok":False,"error":str(e)[:160]}
+            source_health[q["id"]]={"ok":False,"items":0,"error":str(e)[:160]}
+        time.sleep(1.2)
     try:
         manual=json.loads(MANUAL.read_text(encoding="utf-8")).get("signals",[])
         signals.extend(manual)
         source_health["manual"]={"ok":True,"items":len(manual)}
     except Exception as e:
         source_health["manual"]={"ok":False,"error":str(e)[:160]}
-    available=sum(1 for x in source_health.values() if x.get("ok"))
-    expected=len(source_health)
+    collector_ids=[q["id"] for q in cfg["gdelt_queries"]]
+    available=sum(1 for sid in collector_ids if source_health.get(sid,{}).get("ok") and source_health.get(sid,{}).get("items",0)>0)
+    expected=len(collector_ids)
     coverage=available/expected if expected else 0
     assessment={}
     scores={}
+    active_signals=[x for x in signals if x.get("active",True)]
     for h in HORIZONS:
+        if not active_signals:
+            assessment[h]={
+                "label":{"immediate":"60 דקות","short":"6 שעות","extended":"24 שעות"}[h],
+                "score":None,"low":None,"high":None,
+                "confidence":0,"status":"אין די נתונים"
+            }
+            scores[h]=None
+            continue
         p=score(signals,h); sc=round(100*p); conf=confidence(signals,coverage,h)
         width=round(8+(100-conf)*.23)
         assessment[h]={
@@ -184,13 +221,19 @@ def main():
     generated=iso(now())
     hist.append({"timestamp":generated,**scores})
     hist=hist[-1008:]
-    delta=scores["immediate"]-(prev.get("immediate",scores["immediate"]) if prev else scores["immediate"])
-    level="זינוק חריג" if delta>=15 else "עלייה מהירה" if delta>=7 else "עלייה מתונה" if delta>1 else "יציב" if delta>=-1 else "ירידה"
+    current_immediate=scores["immediate"]
+    previous_immediate=(prev or {}).get("immediate")
+    if current_immediate is None or previous_immediate is None:
+        delta=0
+        level="לא זמין"
+    else:
+        delta=current_immediate-previous_immediate
+        level="זינוק חריג" if delta>=15 else "עלייה מהירה" if delta>=7 else "עלייה מתונה" if delta>1 else "יציב" if delta>=-1 else "ירידה"
     for s in signals:
         s["computed"]={h:round(probability(s,h)*100,1)*(1 if s["direction"]=="up" else -1) for h in HORIZONS}
     strongest=sorted([s for s in signals if s.get("active",True)],key=lambda s:abs(s["computed"]["immediate"]),reverse=True)[:4]
     changes=[{"time":generated[11:16],"text":s["name"],"impact":f"השפעה מיידית מחושבת: {s['computed']['immediate']:+.1f}"} for s in strongest]
-    ok = available >= max(1, expected-1)
+    ok = available >= max(1, expected-1) and bool(active_signals)
     out={
         "schema_version":3,"mode":"live" if ok else "degraded","generated_at":generated,
         "next_refresh_minutes":10,"assessment":assessment,
@@ -198,7 +241,7 @@ def main():
         "velocity":{"level":level,"points_60m":delta},"changes":changes,
         "signals":sorted(signals,key=lambda s:abs(s["computed"]["immediate"]),reverse=True)[:40],
         "history":hist,
-        "health":{"pipeline":"ok" if ok else "degraded","message":"האיסוף הושלם." if ok else "חלק ממקורות האיסוף נכשלו.","last_success":generated if ok else old.get("health",{}).get("last_success"),"sources":source_health},
+        "health":{"pipeline":"ok" if ok else "degraded","message":"האיסוף הושלם." if ok else ("האיסוף הושלם, אך לא נמצאו דיווחים רלוונטיים." if not active_signals else "חלק ממקורות האיסוף נכשלו."),"last_success":generated if ok else old.get("health",{}).get("last_success"),"sources":source_health},
         "methodology":{"formula":"אות = עוצמה × אמינות מקור × עדכניות × רלוונטיות לחלון; איחוד Noisy‑OR עם הפחתת תלות.","calibrated":False}
     }
     STATE.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

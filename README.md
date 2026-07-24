@@ -16,3 +16,10 @@ Then wait about two minutes and reload the Pages site.
 
 ## Manual evidence
 Verified signals that cannot be collected automatically can be added to `data/manual_signals.json`.
+
+## V5 fix
+- GDELT window widened from 3 hours to 24 hours.
+- Queries simplified to valid, broader Boolean expressions.
+- Requests retry with backoff and are throttled.
+- A successful request with zero articles no longer counts as source coverage.
+- No evidence is displayed as missing data, never as a 0% risk estimate.
