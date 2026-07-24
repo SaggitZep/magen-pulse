@@ -1,138 +1,215 @@
 {
-  "mode": "demo",
-  "current": {
-    "score": 72,
-    "horizon_hours": 12,
-    "updated_at": "2026-07-23T20:15:00Z",
-    "trend_points": 4
+  "mode": "verified_snapshot",
+  "version": "1.1",
+  "updated_at": "2026-07-24T04:45:00Z",
+  "refresh_minutes": 10,
+  "assessment": {
+    "immediate": {
+      "label": "60 דקות",
+      "score": 9,
+      "confidence": 58,
+      "status": "נמוך אך לא אפסי"
+    },
+    "short": {
+      "label": "6 שעות",
+      "score": 24,
+      "confidence": 66,
+      "status": "מוגבר"
+    },
+    "extended": {
+      "label": "24 שעות",
+      "score": 39,
+      "confidence": 69,
+      "status": "מוגבר, סמוך למשמעותי"
+    }
   },
-  "calculation": {
-    "base_score": 58,
-    "positive_total": 24,
-    "negative_total": -10,
-    "final_score": 72
+  "velocity": {
+    "level": "עלייה מתונה",
+    "points_60m": 2,
+    "new_signals": 2
   },
-  "indicators": [
+  "coverage": {
+    "percent": 76,
+    "available": 13,
+    "expected": 17,
+    "note": "חלק ממקורות התעופה והפעילות המבצעית אינם מספקים תמונה ציבורית מלאה."
+  },
+  "methodology": {
+    "base_score": 0,
+    "formula": "תרומה = משקל מרבי × עוצמה × אמינות × עדכניות × התאמה לחלון הזמן",
+    "note": "הציונים הם הערכת OSINT שיפוטית ולא הסתברות מכוילת סטטיסטית. אין נקודת פתיחה שרירותית ואין ניקוד על עצם קיומו של מתח כללי ללא ראיה."
+  },
+  "signals": [
     {
-      "id": "iran_official",
-      "name": "הצהרות איראניות רשמיות",
-      "max_weight": 15,
-      "contribution": 8,
-      "finding": "נמשכות הצהרות רשמיות הכוללות איומים ישירים נגד ישראל.",
-      "source_name": "נתון הדגמה",
-      "source_url": ""
+      "id": "active_regional_conflict",
+      "name": "עימות אזורי פעיל ומתמשך",
+      "category": "רקע אסטרטגי",
+      "direction": "up",
+      "finding": "מתנהלת לחימה אמריקאית־איראנית פעילה, ולכן סיכון ההתרחבות אינו מתחיל מאפס. התרומה מוצגת כאינדיקטור גלוי ולא כציון בסיס נסתר.",
+      "reliability": 0.98,
+      "freshness": 0.98,
+      "contribution": {
+        "immediate": 10,
+        "short": 14,
+        "extended": 18
+      },
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/trump-vows-punish-iran-houthis-attacks-red-sea-2026-07-24/"
     },
     {
-      "id": "municipal_shelters",
+      "id": "us_strikes",
+      "name": "המשך תקיפות אמריקאיות באיראן",
+      "category": "רקע אסטרטגי",
+      "direction": "up",
+      "finding": "ארה״ב השלימה לילה 13 ברציפות של תקיפות באיראן.",
+      "reliability": 0.95,
+      "freshness": 0.98,
+      "contribution": {
+        "immediate": 1,
+        "short": 5,
+        "extended": 9
+      },
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/trump-vows-punish-iran-houthis-attacks-red-sea-2026-07-24/"
+    },
+    {
+      "id": "iran_retaliation",
+      "name": "תגובה איראנית פעילה באזור",
+      "category": "כוונה ויכולת",
+      "direction": "up",
+      "finding": "איראן ממשיכה בירי טילים וכטב״מים לעבר יעדים אמריקאיים באזור ומאיימת בהמשך תגובה.",
+      "reliability": 0.9,
+      "freshness": 0.95,
+      "contribution": {
+        "immediate": 2,
+        "short": 6,
+        "extended": 8
+      },
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/trump-vows-punish-iran-houthis-attacks-red-sea-2026-07-24/"
+    },
+    {
+      "id": "shelters",
       "name": "פתיחת מקלטים ברשויות",
-      "max_weight": 10,
-      "contribution": 5,
-      "finding": "מספר רשויות פתחו מקלטים למרות שלא פורסם שינוי בהנחיות פיקוד העורף.",
-      "source_name": "נתון הדגמה",
-      "source_url": ""
+      "category": "אינדיקציה מאשרת",
+      "direction": "up",
+      "finding": "מספר רשויות בישראל פתחו מקלטים כאמצעי זהירות, ללא שינוי ארצי בהנחיות.",
+      "reliability": 0.72,
+      "freshness": 0.9,
+      "contribution": {
+        "immediate": 1,
+        "short": 3,
+        "extended": 4
+      },
+      "source": "דיווחים פומביים על החלטות רשויות",
+      "url": "https://caliber.az/en/post/israeli-cities-activate-bomb-shelters-as-iran-tensions-escalate"
     },
     {
-      "id": "health_system",
+      "id": "hospitals",
       "name": "היערכות מערכת הבריאות",
-      "max_weight": 10,
-      "contribution": 4,
-      "finding": "בתי החולים הונחו להיערך למעבר מהיר למתכונת חירום ולפעילות במרחבים מוגנים.",
-      "source_name": "נתון הדגמה",
-      "source_url": ""
+      "category": "אינדיקציה מאשרת",
+      "direction": "up",
+      "finding": "בתי חולים נערכים למעבר מהיר לחירום; לא נמצא אישור למעבר ארצי בפועל למתחמים מוגנים בעת העדכון.",
+      "reliability": 0.78,
+      "freshness": 0.86,
+      "contribution": {
+        "immediate": 1,
+        "short": 3,
+        "extended": 4
+      },
+      "source": "דיווחים על הנחיות משרד הבריאות",
+      "url": ""
     },
     {
-      "id": "proxies",
-      "name": "הצהרות של שלוחות איראן",
-      "max_weight": 10,
-      "contribution": 4,
-      "finding": "נמשכים איומים מצד שלוחות איראן באזור.",
-      "source_name": "נתון הדגמה",
-      "source_url": ""
+      "id": "israel_out",
+      "name": "ישראל אינה משתתפת בגל התקיפות הנוכחי",
+      "category": "גורם ממתן",
+      "direction": "down",
+      "finding": "לפי דיווח, ישראל יושבת מחוץ למערכה האמריקאית הנוכחית ואיראן נמנעת בשלב זה מתקיפה ישירה של ישראל כדי לא להרחיב את העימות.",
+      "reliability": 0.82,
+      "freshness": 0.92,
+      "contribution": {
+        "immediate": -3,
+        "short": -5,
+        "extended": -4
+      },
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/world/middle-east/why-israel-is-sitting-out-the-latest-u-s-bombing-campaign-in-iran-55713b77"
     },
     {
-      "id": "strike_intensity",
-      "name": "הסלמה אזורית",
-      "max_weight": 12,
-      "contribution": 3,
-      "finding": "נמשכת הסלמה אזורית ללא אינדיקציה פומבית מכרעת לתזמון מיידי.",
-      "source_name": "נתון הדגמה",
-      "source_url": ""
-    },
-    {
-      "id": "home_front",
-      "name": "הנחיות פיקוד העורף",
-      "max_weight": 18,
-      "contribution": -7,
-      "finding": "לא פורסם שינוי בהנחיות לציבור.",
-      "source_name": "נתון הדגמה",
-      "source_url": ""
+      "id": "hfc",
+      "name": "ללא שינוי פומבי בהנחיות פיקוד העורף",
+      "category": "היעדר אינדיקציה מיידית",
+      "direction": "down",
+      "finding": "לא אותר שינוי פומבי במדיניות ההתגוננות לציבור בעת העדכון. היעדר שינוי מוריד מעט בלבד ואינו שולל שיגור פתאומי.",
+      "reliability": 0.95,
+      "freshness": 0.95,
+      "contribution": {
+        "immediate": -2,
+        "short": -1,
+        "extended": 0
+      },
+      "source": "פיקוד העורף",
+      "url": "https://www.oref.org.il/eng"
     },
     {
       "id": "airspace",
-      "name": "תעופה אזרחית ומרחבים אוויריים",
-      "max_weight": 15,
-      "contribution": -3,
-      "finding": "לא זוהה שינוי משמעותי ורחב בתעופה האזרחית באזור.",
-      "source_name": "נתון הדגמה",
-      "source_url": ""
+      "name": "אין אינדיקציה מאומתת לסגירה חריגה של המרחב הישראלי",
+      "category": "היעדר אינדיקציה מיידית",
+      "direction": "down",
+      "finding": "לא נמצא בעת העדכון סימן פומבי מאומת לסגירה רחבה חדשה של המרחב האווירי הישראלי.",
+      "reliability": 0.7,
+      "freshness": 0.82,
+      "contribution": {
+        "immediate": -1,
+        "short": -1,
+        "extended": 0
+      },
+      "source": "מקורות תעופה פומביים",
+      "url": "https://safeairspace.net/iran/"
+    }
+  ],
+  "changes": [
+    {
+      "time": "07:35",
+      "text": "נוסף דיווח על לילה 13 ברציפות של תקיפות אמריקאיות באיראן.",
+      "impact": "מעלה בעיקר את הסיכון ל־6 ול־24 שעות"
+    },
+    {
+      "time": "07:38",
+      "text": "נמשכות פעולות תגמול איראניות נגד יעדים אמריקאיים באזור.",
+      "impact": "מעלה את פוטנציאל ההתרחבות האזורית"
+    },
+    {
+      "time": "07:42",
+      "text": "לא אותר שינוי פומבי חדש בהנחיות פיקוד העורף.",
+      "impact": "ממתן מעט את הסיכון המיידי בלבד"
     }
   ],
   "history": [
     {
-      "timestamp": "2026-07-23T07:00:00Z",
-      "score": 24
+      "timestamp": "2026-07-23T22:45:00Z",
+      "immediate": 7,
+      "short": 21,
+      "extended": 36
     },
     {
-      "timestamp": "2026-07-23T08:00:00Z",
-      "score": 26
+      "timestamp": "2026-07-24T00:45:00Z",
+      "immediate": 7,
+      "short": 22,
+      "extended": 37
     },
     {
-      "timestamp": "2026-07-23T09:00:00Z",
-      "score": 28
+      "timestamp": "2026-07-24T02:45:00Z",
+      "immediate": 8,
+      "short": 23,
+      "extended": 38
     },
     {
-      "timestamp": "2026-07-23T10:00:00Z",
-      "score": 30
-    },
-    {
-      "timestamp": "2026-07-23T11:00:00Z",
-      "score": 33
-    },
-    {
-      "timestamp": "2026-07-23T12:00:00Z",
-      "score": 36
-    },
-    {
-      "timestamp": "2026-07-23T13:00:00Z",
-      "score": 39
-    },
-    {
-      "timestamp": "2026-07-23T14:00:00Z",
-      "score": 43
-    },
-    {
-      "timestamp": "2026-07-23T15:00:00Z",
-      "score": 47
-    },
-    {
-      "timestamp": "2026-07-23T16:00:00Z",
-      "score": 52
-    },
-    {
-      "timestamp": "2026-07-23T17:00:00Z",
-      "score": 57
-    },
-    {
-      "timestamp": "2026-07-23T18:00:00Z",
-      "score": 61
-    },
-    {
-      "timestamp": "2026-07-23T19:00:00Z",
-      "score": 65
-    },
-    {
-      "timestamp": "2026-07-23T20:15:00Z",
-      "score": 72
+      "timestamp": "2026-07-24T04:45:00Z",
+      "immediate": 9,
+      "short": 24,
+      "extended": 39
     }
   ]
 }

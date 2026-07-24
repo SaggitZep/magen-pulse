@@ -1,32 +1,22 @@
-name: Refresh Magen Pulse
-
+name: Validate Magen Pulse data
 on:
-  schedule:
-    - cron: "7,37 * * * *"
   workflow_dispatch:
-
+  schedule:
+    - cron: "*/10 * * * *"
 permissions:
   contents: write
-
 jobs:
-  refresh:
+  update:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Refresh data
-        run: python scripts/update_data.py
-
-      - name: Commit changed data
-        run: |
+      - run: python scripts/update_data.py
+      - run: |
           git config user.name "magen-pulse-bot"
-          git config user.email "magen-pulse-bot@users.noreply.github.com"
+          git config user.email "actions@users.noreply.github.com"
           git add data/risk-data.json
-          git diff --cached --quiet || git commit -m "Refresh risk data"
+          git diff --cached --quiet || git commit -m "Update verified risk snapshot"
           git push
