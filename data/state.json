@@ -1,45 +1,1267 @@
 {
   "schema_version": 3,
   "mode": "degraded",
-  "generated_at": "2026-07-24T11:56:44.432750Z",
+  "generated_at": "2026-07-24T14:05:23.810967Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
-      "low": 0,
-      "high": 31,
-      "confidence": 0,
-      "status": "נמוך אך לא אפסי"
+      "score": 80,
+      "low": 62,
+      "high": 98,
+      "confidence": 57,
+      "status": "קריטי"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 31,
-      "confidence": 0,
-      "status": "נמוך אך לא אפסי"
+      "score": 92,
+      "low": 74,
+      "high": 100,
+      "confidence": 57,
+      "status": "קריטי"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 31,
-      "confidence": 0,
-      "status": "נמוך אך לא אפסי"
+      "score": 81,
+      "low": 63,
+      "high": 99,
+      "confidence": 57,
+      "status": "קריטי"
     }
   },
   "coverage": {
-    "percent": 25,
-    "available": 1,
+    "percent": 50,
+    "available": 2,
     "expected": 4
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "זינוק חריג",
+    "points_60m": 80
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "14:05",
+      "text": "US strikes Iran from south to north after Trump threats over Red Sea shipping",
+      "impact": "השפעה מיידית מחושבת: +3.8"
+    },
+    {
+      "time": "14:05",
+      "text": "US strikes Iran after Trump threats over Red Sea ships",
+      "impact": "השפעה מיידית מחושבת: +3.8"
+    },
+    {
+      "time": "14:05",
+      "text": "Trump threatens more attacks on Iran after Houthis join war | Jefferson City News Tribune",
+      "impact": "השפעה מיידית מחושבת: +3.6"
+    },
+    {
+      "time": "14:05",
+      "text": "Trump threatens a major escalation in Iran as the war rounds its 4th month",
+      "impact": "השפעה מיידית מחושבת: +3.6"
+    }
+  ],
+  "signals": [
+    {
+      "id": "10ac46c50ebb542e",
+      "name": "US strikes Iran from south to north after Trump threats over Red Sea shipping",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "10ac46c50e",
+      "strength": 0.33,
+      "reliability": 0.62,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/07/us-strikes-iran-south-north-after-trump-threats-over-red-sea-shipping",
+      "published_at": "2026-07-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.8,
+        "short": 6.0,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "41a1e173d5d02510",
+      "name": "US strikes Iran after Trump threats over Red Sea ships",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "41a1e173d5",
+      "strength": 0.33,
+      "reliability": 0.62,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.northerndailyleader.com.au",
+      "url": "https://www.northerndailyleader.com.au/story/9316713/us-strikes-iran-after-trump-threats-over-red-sea-ships/",
+      "published_at": "2026-07-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.8,
+        "short": 6.0,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "6f23f77886547e8c",
+      "name": "Trump threatens more attacks on Iran after Houthis join war | Jefferson City News Tribune",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "6f23f77886",
+      "strength": 0.33,
+      "reliability": 0.62,
+      "freshness": 0.811,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.newstribune.com",
+      "url": "https://www.newstribune.com/news/2026/jul/24/trump-threatens-more-attacks-on-iran-after/",
+      "published_at": "2026-07-24T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.6,
+        "short": 5.6,
+        "extended": 3.7
+      }
+    },
+    {
+      "id": "e3c8ffeb71b80446",
+      "name": "Trump threatens a major escalation in Iran as the war rounds its 4th month",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "e3c8ffeb71",
+      "strength": 0.33,
+      "reliability": 0.62,
+      "freshness": 0.811,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.northcountrypublicradio.org",
+      "url": "https://www.northcountrypublicradio.org/news/npr/g-s1-135417/trump-threatens-a-major-escalation-in-iran-as-the-war-rounds-its-4th-month",
+      "published_at": "2026-07-24T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.6,
+        "short": 5.6,
+        "extended": 3.7
+      }
+    },
+    {
+      "id": "9629f5c829da7610",
+      "name": "UK says armed forces ready to defend country after Iran warns over US bombers",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "9629f5c829",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "tribune.com.pk",
+      "url": "https://tribune.com.pk/story/2620017/uk-says-armed-forces-ready-to-defend-country-after-iran-warns-over-us-bombers",
+      "published_at": "2026-07-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.8,
+        "short": 4.4,
+        "extended": 2.8
+      }
+    },
+    {
+      "id": "4a0e91f2203dff08",
+      "name": "UK says armed forces ready to defend country after Iran warns over US bombers",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "4a0e91f220",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/07/uk-says-armed-forces-ready-defend-country-after-iran-warns-over-us-bombers",
+      "published_at": "2026-07-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.8,
+        "short": 4.4,
+        "extended": 2.8
+      }
+    },
+    {
+      "id": "7fba6dd004135457",
+      "name": "Oriente Occidente di Rampini | La sorprendente ( e inquietante ) ricostruzione dellIran",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "7fba6dd004",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.corriere.it",
+      "url": "https://www.corriere.it/oriente-occidente-federico-rampini/26_luglio_24/sorprendente-ricostruzione-iran-9d0a1831-3047-4135-9375-89576faebxlk.shtml",
+      "published_at": "2026-07-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.8,
+        "short": 4.4,
+        "extended": 2.8
+      }
+    },
+    {
+      "id": "effc1e94004a7017",
+      "name": "Ürdün , İrandan gelen füze ve İHAları engelledi : Can kaybı yok",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "effc1e9400",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.haberler.com",
+      "url": "https://www.haberler.com/guncel/urdun-iran-dan-atilan-7-fuze-ve-6-iha-nin-hava-20084706-haberi/",
+      "published_at": "2026-07-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.8,
+        "short": 4.4,
+        "extended": 2.8
+      }
+    },
+    {
+      "id": "48fd10fe780589c9",
+      "name": "Explosive drones target US forces as Iran conflict widens",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "48fd10fe78",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "wpde.com",
+      "url": "https://wpde.com/news/nation-world/explosive-drones-target-us-forces-irbil-iraq-as-iran-war-conflict-widens-bahrain-central-command-american-military-strait-of-hormuz-shipping-oil-prices-houthi-rebels-oil-tankers-red-sea-president-trump",
+      "published_at": "2026-07-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.8,
+        "short": 4.4,
+        "extended": 2.8
+      }
+    },
+    {
+      "id": "dcb1dca6c116bb1a",
+      "name": "Irão terá ajudado houthis a reforçar capacidades militares",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "dcb1dca6c1",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "sapo.pt",
+      "url": "https://sapo.pt/artigo/irao-tera-ajudado-houthis-a-reforcar-capacidades-militares-6a63613739564b23da73af20",
+      "published_at": "2026-07-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.8,
+        "short": 4.4,
+        "extended": 2.8
+      }
+    },
+    {
+      "id": "92bdec8746204ed6",
+      "name": "Η νέα εξίσωση στη Μέση Ανατολή και η στρατηγική του φόβου – Γιατί το Ιράν ανεβάζει τους τόνους προς τον Κόλπο",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "92bdec8746",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.topontiki.gr",
+      "url": "https://www.topontiki.gr/2026/07/24/i-nea-exisosi-sti-mesi-anatoli-ke-i-stratigiki-tou-fovou-giati-to-iran-anevazi-tous-tonous-pros-ton-kolpo/",
+      "published_at": "2026-07-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.8,
+        "short": 4.4,
+        "extended": 2.8
+      }
+    },
+    {
+      "id": "aff5c750e87582e0",
+      "name": "Half the Price , Same Punch : Why Lockheed Martin Corporation ( LMT ) New Interceptor Could Reload Its Growth Story",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "aff5c750e8",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.insidermonkey.com",
+      "url": "https://www.insidermonkey.com/blog/half-the-price-same-punch-why-lockheed-martin-corporation-lmts-new-interceptor-could-reload-its-growth-story-1803826/",
+      "published_at": "2026-07-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.8,
+        "short": 4.4,
+        "extended": 2.8
+      }
+    },
+    {
+      "id": "6583bc94f614de85",
+      "name": "لندن : مستعدون للدفاع عن أنفسنا",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "6583bc94f6",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.albayan.ae",
+      "url": "https://www.albayan.ae/news/world/europe/1542206",
+      "published_at": "2026-07-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.8,
+        "short": 4.4,
+        "extended": 2.8
+      }
+    },
+    {
+      "id": "e8fd98506ea589a1",
+      "name": "Leadership : Russian Centralization Versus Ukrainian Adaptability",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "e8fd98506e",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.strategypage.com",
+      "url": "http://www.strategypage.com/htmw/htlead/articles/2026072455052.aspx",
+      "published_at": "2026-07-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.8,
+        "short": 4.4,
+        "extended": 2.8
+      }
+    },
+    {
+      "id": "a83c3ff369702ed3",
+      "name": "KBS 뉴스",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "a83c3ff369",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "news.kbs.co.kr",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8619662",
+      "published_at": "2026-07-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.8,
+        "short": 4.4,
+        "extended": 2.8
+      }
+    },
+    {
+      "id": "8f171877778a7ccb",
+      "name": "India arms airlift to Armenia : What lies behind the surge in military flights ? ",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "8f17187777",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "news.az",
+      "url": "https://news.az/news/indias-arms-airlift-to-armenia-what-lies-behind-the-surge-in-military-flights",
+      "published_at": "2026-07-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.8,
+        "short": 4.4,
+        "extended": 2.8
+      }
+    },
+    {
+      "id": "3464db44b5f2dc40",
+      "name": "Путин готовит наступление к выборам : эксперт назвал цели РФ",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "3464db44b5",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "society.comments.ua",
+      "url": "https://society.comments.ua/news/warrussia/putinu-nuzhna-pobeda-do-vyborov-ukraincev-oshelomili-prognozom-o-novoy-volne-nastupleniya-rf-811936.html",
+      "published_at": "2026-07-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.8,
+        "short": 4.4,
+        "extended": 2.8
+      }
+    },
+    {
+      "id": "03c9325a4beb22e2",
+      "name": "7月24日新闻联播速览24条",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "03c9325a4b",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.tmtpost.com",
+      "url": "https://www.tmtpost.com/nictation/8078808.html",
+      "published_at": "2026-07-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.8,
+        "short": 4.4,
+        "extended": 2.8
+      }
+    },
+    {
+      "id": "20aa5ac43174beae",
+      "name": "Trump vows to punish Iran for Houthi attacks in Red Sea ; oil surges over $100",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "20aa5ac431",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.811,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.hawaiitribune-herald.com",
+      "url": "https://www.hawaiitribune-herald.com/2026/07/24/nation-world-news/trump-vows-to-punish-iran-for-houthi-attacks-in-red-sea-oil-surges-over-100/",
+      "published_at": "2026-07-24T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.6,
+        "short": 4.1,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "e81db64bfa4f991a",
+      "name": "Jordan intercepts Iranian barrage after deadly US strikes in Iran",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "e81db64bfa",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.811,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/news/430680",
+      "published_at": "2026-07-24T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.6,
+        "short": 4.1,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "10128ce88dea49bf",
+      "name": "الأقمار الصناعية تكشف المفاجأة .. كيف تعيد إيران بناء قوتها بعد الضربات الأمريكية ؟ | سياسة",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "10128ce88d",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.811,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.aljazeera.net",
+      "url": "https://www.aljazeera.net/politics/2026/7/24/%D8%A7%D9%84%D8%A3%D9%82%D9%85%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D9%8A%D8%A9-%D8%AA%D9%83%D8%B4%D9%81-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D8%AC%D8%A3%D8%A9-%D9%83%D9%8A%D9%81",
+      "published_at": "2026-07-24T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.6,
+        "short": 4.1,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "a9bb772003ded698",
+      "name": "Irão terá ajudado houthis a reforçar capacidades militares – Observador",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "a9bb772003",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.811,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "observador.pt",
+      "url": "https://observador.pt/2026/07/24/irao-tera-enviado-comandantes-da-guarda-revolucionaria-e-equipamento-militar-para-o-iemen-para-apoiar-os-houthis/",
+      "published_at": "2026-07-24T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.6,
+        "short": 4.1,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "b79ad36f1d7fbf1e",
+      "name": "ইরান - সৌদি  গোপন সমঝোতা , নেপথ্যে পাক সেনাপ্রধান ? ",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "b79ad36f1d",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.811,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.mzamin.com",
+      "url": "https://www.mzamin.com/article/30243",
+      "published_at": "2026-07-24T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.6,
+        "short": 4.1,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "6366a02f28b451b2",
+      "name": "Gary Bauer : Comforter - in - Chief | The Patriot Post",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "6366a02f28",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.811,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "patriotpost.us",
+      "url": "https://patriotpost.us/articles/129381-comforter-in-chief-2026-07-24",
+      "published_at": "2026-07-24T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.6,
+        "short": 4.1,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "c28e71933f6d141c",
+      "name": "Iran military says attacked US bases in Bahrain , Jordan , Kuwait",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "c28e71933f",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.811,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.bssnews.net",
+      "url": "https://www.bssnews.net/international/408532",
+      "published_at": "2026-07-24T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.6,
+        "short": 4.1,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "8209cee683200527",
+      "name": "CENTCOM Completes 13th Night of Iran Strikes as Trump Weighs Massive Attack",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "8209cee683",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.811,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.breitbart.com",
+      "url": "https://www.breitbart.com/politics/2026/07/24/centcom-completes-13th-straight-night-of-iran-strikes-as-trump-weighs-massive-attack-tehran-rejects-ceasefire/",
+      "published_at": "2026-07-24T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.6,
+        "short": 4.1,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "3b99220553d436e8",
+      "name": "Upbeat Intel Earnings , Pullback By Oil Prices May Generate Early Buying Interest",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "3b99220553",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.811,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.rttnews.com",
+      "url": "https://www.rttnews.com/3670477/upbeat-intel-earnings-pullback-by-oil-prices-may-generate-early-buying-interest.aspx",
+      "published_at": "2026-07-24T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.6,
+        "short": 4.1,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "f0c24f52e306ef3f",
+      "name": "Irão :  Todos os caminhos parecem fechados  perante hipótese de invasão por parte dos EUA",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "f0c24f52e3",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.811,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "pt.euronews.com",
+      "url": "https://pt.euronews.com/2026/07/24/irao-todos-os-caminhos-parecem-fechados-perante-hipotese-de-invasao-por-parte-dos-eua",
+      "published_at": "2026-07-24T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.6,
+        "short": 4.1,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "f0865cb54a21ae24",
+      "name": "Si rischia il blocco di un altro stretto : quello di Bab el Mandeb",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "f0865cb54a",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.811,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.ilpost.it",
+      "url": "https://www.ilpost.it/2026/07/21/houthi-bab-el-mandeb-iran/?homepagePosition=4.1&referrerPost=3640591",
+      "published_at": "2026-07-24T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.6,
+        "short": 4.1,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "9769ea48b49a9ec0",
+      "name": "Explosions are heard near a US base in northern Iraq",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "9769ea48b4",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.811,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.chicagotribune.com",
+      "url": "https://www.chicagotribune.com/2026/07/24/explosions-us-base-northern-iraq/",
+      "published_at": "2026-07-24T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.6,
+        "short": 4.1,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "0ea398f08708336e",
+      "name": "Explosions are heard near a US base in northern Iraq as US - Iran fighting escalates - Boston News , Weather , Sports",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "0ea398f087",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.811,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "whdh.com",
+      "url": "https://whdh.com/news/explosions-are-heard-near-a-us-base-in-northern-iraq-as-us-iran-fighting-escalates/",
+      "published_at": "2026-07-24T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.6,
+        "short": 4.1,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "9738436c1b3e620f",
+      "name": "伊朗冲突风险升级 体育AI新能源获多重利好 - CFi . CN 中财网",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "9738436c1b",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.811,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.cfi.net.cn",
+      "url": "http://www.cfi.net.cn/p20260724002288.html",
+      "published_at": "2026-07-24T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.6,
+        "short": 4.1,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "5f5082b1cd09fc09",
+      "name": "Иран го одбил предлогот на Трамп",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "5f5082b1cd",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.762,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "vecer.mk",
+      "url": "https://vecer.mk/svet/iran-go-odbil-predlogot-na-tramp-12aa4424-b929-464a-9991-eb30f0d80527",
+      "published_at": "2026-07-24T13:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.4,
+        "short": 3.9,
+        "extended": 2.5
+      }
+    },
+    {
+      "id": "93c8ef1bbe9ceefa",
+      "name": "Wall Street vor Erholung : Ölpreis gibt nach , Intel und Alphabet im Fokus () ",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "93c8ef1bbe",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.762,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.aktiencheck.de",
+      "url": "https://www.aktiencheck.de/exklusiv/Artikel-Wall_Street_Erholung_Oelpreis_gibt_Intel_und_Alphabet_Fokus-19959873",
+      "published_at": "2026-07-24T13:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.4,
+        "short": 3.9,
+        "extended": 2.5
+      }
+    },
+    {
+      "id": "42b190eeab33cf7d",
+      "name": "  Ready to keep united kingdom safe : British govt after Iran threatens to attack RAF Fairford used for US strikes",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "42b190eeab",
+      "strength": 0.33,
+      "reliability": 0.62,
+      "freshness": 0.524,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.kenyastar.com",
+      "url": "http://www.kenyastar.com/news/279206930/ready-to-keep-uk-safe-british-govt-after-iran-threatens-to-attack-raf-fairford-used-for-us-strikes",
+      "published_at": "2026-07-24T11:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.3,
+        "short": 3.6,
+        "extended": 2.4
+      }
+    },
+    {
+      "id": "0063090fc89f4969",
+      "name": "Satellite images show Iran rebuilding fast despite US Israeli strikes",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "0063090fc8",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.716,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "investinglive.com:443",
+      "url": "https://investinglive.com:443/commodities/satellite-images-show-iran-rebuilding-fast-despite-us-israeli-strikes/",
+      "published_at": "2026-07-24T12:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.3,
+        "short": 3.6,
+        "extended": 2.4
+      }
+    },
+    {
+      "id": "258eadfa7959a8d6",
+      "name": "IranPressNews : ايران پرس نيوز اخبار ايران و جهان",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "258eadfa79",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.716,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "iranpressnews.com",
+      "url": "https://iranpressnews.com/source/246085.htm",
+      "published_at": "2026-07-24T12:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.3,
+        "short": 3.6,
+        "extended": 2.4
+      }
+    },
+    {
+      "id": "5778a855e405a6b7",
+      "name": "দ্রুত ক্ষেপণাস্ত্র ঘাঁটি পুনর্নির্মাণ করছে ইরান , উদ্বেগে ইসরাইল",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "5778a855e4",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.632,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.dailynayadiganta.com",
+      "url": "https://www.dailynayadiganta.com/international/asia/middle-east/kydMqDupBUkd",
+      "published_at": "2026-07-24T12:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.0,
+        "short": 3.2,
+        "extended": 2.1
+      }
+    },
+    {
+      "id": "252af19ca85f979b",
+      "name": "Series of explosions heard in Iraq Erbil",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "252af19ca8",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.632,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/middle-east/series-of-explosions-heard-in-iraqs-erbil/4008063",
+      "published_at": "2026-07-24T12:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.0,
+        "short": 3.2,
+        "extended": 2.1
+      }
+    },
+    {
+      "id": "bb8d8a2b120eb3c6",
+      "name": "이란 , 쿠웨이트 등에 보복 이어가 … 미군 주둔지 공격",
+      "finding": "דיווח שזוהה בקטגוריית capability.",
+      "category": "capability",
+      "direction": "up",
+      "dependency_group": "bb8d8a2b12",
+      "strength": 0.24,
+      "reliability": 0.62,
+      "freshness": 0.632,
+      "max_effect": {
+        "immediate": 30,
+        "short": 34,
+        "extended": 27
+      },
+      "relevance": {
+        "immediate": 0.72,
+        "short": 1.0,
+        "extended": 0.82
+      },
+      "source": "www.fnnews.com",
+      "url": "https://www.fnnews.com/news/202607241954160631",
+      "published_at": "2026-07-24T12:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.0,
+        "short": 3.2,
+        "extended": 2.1
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T10:04:07.098744Z",
@@ -52,6 +1274,12 @@
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-07-24T14:05:23.810967Z",
+      "immediate": 80,
+      "short": 92,
+      "extended": 81
     }
   ],
   "health": {
@@ -64,8 +1292,8 @@
         "error": "HTTP Error 429: Too Many Requests"
       },
       "iran_military_preparation": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests"
+        "ok": true,
+        "items": 75
       },
       "israel_emergency_readiness": {
         "ok": false,
