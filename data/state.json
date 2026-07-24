@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-07-24T21:34:29.431635Z",
+  "mode": "degraded",
+  "generated_at": "2026-07-24T22:43:42.547680Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 6,
+      "score": 5,
       "low": 0,
-      "high": 19,
-      "confidence": 65,
+      "high": 21,
+      "confidence": 48,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 19,
-      "low": 6,
-      "high": 32,
-      "confidence": 66,
+      "score": 14,
+      "low": 0,
+      "high": 30,
+      "confidence": 48,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 66,
-      "status": "מוגבר"
+      "score": 19,
+      "low": 3,
+      "high": 35,
+      "confidence": 48,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "21:30",
       "text": "Iran rebuilds missile sites after airstrikes",
-      "impact": "השפעה מיידית מחושבת: +2.5",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
       "source": "pakistantoday.com.pk",
       "signal_id": "038bab9faadc8122"
@@ -50,7 +50,7 @@
     {
       "time": "00:00",
       "text": "Trump threatens a major escalation in Iran after 13 straight nights of strikes",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "krwg.org",
       "signal_id": "04558e17a7142789"
@@ -58,7 +58,7 @@
     {
       "time": "22:30",
       "text": "Bahrain , Kuwait secretly sent fighter jets to strike Iran this month",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "358cdb139a55201e"
@@ -66,7 +66,7 @@
     {
       "time": "23:00",
       "text": "Trump threatens a major escalation in Iran as the war nears the 5 - month mark",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "capeandislands.org",
       "signal_id": "9ad6985850824fe5"
@@ -83,7 +83,7 @@
       "dependency_group": "038bab9faadc8122",
       "strength": 0.54,
       "reliability": 0.56,
-      "freshness": 0.415,
+      "freshness": 0.299,
       "max_effect": {
         "immediate": 34,
         "short": 48,
@@ -99,10 +99,11 @@
       "published_at": "2026-07-24T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 2.5,
-        "short": 6.0,
-        "extended": 4.4
-      }
+        "immediate": 1.8,
+        "short": 4.3,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "04558e17a7142789",
@@ -114,7 +115,7 @@
       "dependency_group": "04558e17a7142789",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.849,
+      "freshness": 0.61,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-07-24T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.4
-      }
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      },
+      "carried_forward": true
     },
     {
       "id": "358cdb139a55201e",
@@ -145,7 +147,7 @@
       "dependency_group": "358cdb139a55201e",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.553,
+      "freshness": 0.398,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-07-24T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.2
+      },
+      "carried_forward": true
     },
     {
       "id": "9ad6985850824fe5",
@@ -176,7 +179,7 @@
       "dependency_group": "9ad6985850824fe5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.638,
+      "freshness": 0.459,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-07-24T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      },
+      "carried_forward": true
     },
     {
       "id": "ad25762e7e2b8da2",
@@ -207,7 +211,7 @@
       "dependency_group": "ad25762e7e2b8da2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.638,
+      "freshness": 0.459,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-07-24T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      },
+      "carried_forward": true
     },
     {
       "id": "948938a19d1325a2",
@@ -238,7 +243,7 @@
       "dependency_group": "948938a19d1325a2",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.515,
+      "freshness": 0.37,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@
       "published_at": "2026-07-24T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      },
+      "carried_forward": true
     },
     {
       "id": "1446d1cdc2d325da",
@@ -269,7 +275,7 @@
       "dependency_group": "1446d1cdc2d325da",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.515,
+      "freshness": 0.37,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@
       "published_at": "2026-07-24T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "83153aecab333df1",
@@ -300,7 +307,7 @@
       "dependency_group": "83153aecab333df1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.515,
+      "freshness": 0.37,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@
       "published_at": "2026-07-24T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "094e2c41ea6ccdda",
@@ -331,7 +339,7 @@
       "dependency_group": "094e2c41ea6ccdda",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.479,
+      "freshness": 0.345,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@
       "published_at": "2026-07-24T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.7
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "b1d87a05434e3a26",
@@ -362,7 +371,7 @@
       "dependency_group": "b1d87a05434e3a26",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.553,
+      "freshness": 0.398,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@
       "published_at": "2026-07-24T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     },
     {
       "id": "5fc21e902f02ec46",
@@ -393,7 +403,7 @@
       "dependency_group": "5fc21e902f02ec46",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.553,
+      "freshness": 0.398,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@
       "published_at": "2026-07-24T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     },
     {
       "id": "c7eba18fa331f65b",
@@ -424,7 +435,7 @@
       "dependency_group": "c7eba18fa331f65b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.446,
+      "freshness": 0.321,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,41 +451,11 @@
       "published_at": "2026-07-24T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
-    },
-    {
-      "id": "472359b0959e9027",
-      "name": "All 28 Indian crew safe after tanker attacked in Iranian waters : Indian Embassy in Tehran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "472359b0959e9027",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.515,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260724/4478901.html",
-      "published_at": "2026-07-24T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
+      "carried_forward": true
     },
     {
       "id": "e65dcf03215aed09",
@@ -486,7 +467,7 @@
       "dependency_group": "e65dcf03215aed09",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.553,
+      "freshness": 0.398,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,10 +483,43 @@
       "published_at": "2026-07-24T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "472359b0959e9027",
+      "name": "All 28 Indian crew safe after tanker attacked in Iranian waters : Indian Embassy in Tehran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "472359b0959e9027",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.37,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260724/4478901.html",
+      "published_at": "2026-07-24T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      },
+      "carried_forward": true
     },
     {
       "id": "25d516ac8ad34254",
@@ -517,7 +531,7 @@
       "dependency_group": "25d516ac8ad34254",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.515,
+      "freshness": 0.37,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,41 +547,11 @@
       "published_at": "2026-07-24T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
-    },
-    {
-      "id": "930eb0d79be6fedc",
-      "name": "Pak Army chief Asim Munir used a private oil deal in Iran to shield Saudi from attacks : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "930eb0d79be6fedc",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.446,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279207740/pak-army-chief-asim-munir-used-a-private-oil-deal-in-iran-to-shield-saudi-from-attacks-report",
-      "published_at": "2026-07-24T18:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
+      "carried_forward": true
     },
     {
       "id": "556eeb032d268cb2",
@@ -579,7 +563,7 @@
       "dependency_group": "556eeb032d268cb2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.479,
+      "freshness": 0.345,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -595,10 +579,43 @@
       "published_at": "2026-07-24T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "930eb0d79be6fedc",
+      "name": "Pak Army chief Asim Munir used a private oil deal in Iran to shield Saudi from attacks : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "930eb0d79be6fedc",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.321,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iranherald.com",
+      "url": "http://www.iranherald.com/news/279207740/pak-army-chief-asim-munir-used-a-private-oil-deal-in-iran-to-shield-saudi-from-attacks-report",
+      "published_at": "2026-07-24T18:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "2e8513822427f8b3",
@@ -610,7 +627,7 @@
       "dependency_group": "2e8513822427f8b3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.415,
+      "freshness": 0.299,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -626,10 +643,11 @@
       "published_at": "2026-07-24T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
+      },
+      "carried_forward": true
     },
     {
       "id": "cccae3ffc6dcf39b",
@@ -641,7 +659,7 @@
       "dependency_group": "cccae3ffc6dcf39b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.415,
+      "freshness": 0.299,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -657,10 +675,11 @@
       "published_at": "2026-07-24T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
+      },
+      "carried_forward": true
     },
     {
       "id": "8dfadf7bf79d0f34",
@@ -672,7 +691,7 @@
       "dependency_group": "8dfadf7bf79d0f34",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.335,
+      "freshness": 0.241,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -688,10 +707,11 @@
       "published_at": "2026-07-24T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
+      },
+      "carried_forward": true
     },
     {
       "id": "dfa57edbf0012173",
@@ -703,7 +723,7 @@
       "dependency_group": "dfa57edbf0012173",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.335,
+      "freshness": 0.241,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -719,10 +739,11 @@
       "published_at": "2026-07-24T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -749,17 +770,23 @@
       "immediate": 6,
       "short": 19,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-07-24T22:43:42.547680Z",
+      "immediate": 5,
+      "short": 14,
+      "extended": 19
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-07-24T21:34:29.431635Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 21
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 21
       },
       "manual": {
         "ok": true,
