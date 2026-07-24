@@ -1,54 +1,78 @@
 {
   "schema_version": 3,
-  "mode": "initializing",
-  "generated_at": "2026-07-24T05:30:00Z",
+  "mode": "degraded",
+  "generated_at": "2026-07-24T10:04:07.098744Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": null,
-      "low": null,
-      "high": null,
+      "score": 0,
+      "low": 0,
+      "high": 31,
       "confidence": 0,
-      "status": "ממתין לנתונים"
+      "status": "נמוך אך לא אפסי"
     },
     "short": {
       "label": "6 שעות",
-      "score": null,
-      "low": null,
-      "high": null,
+      "score": 0,
+      "low": 0,
+      "high": 31,
       "confidence": 0,
-      "status": "ממתין לנתונים"
+      "status": "נמוך אך לא אפסי"
     },
     "extended": {
       "label": "24 שעות",
-      "score": null,
-      "low": null,
-      "high": null,
+      "score": 0,
+      "low": 0,
+      "high": 31,
       "confidence": 0,
-      "status": "ממתין לנתונים"
+      "status": "נמוך אך לא אפסי"
     }
   },
   "coverage": {
-    "percent": 0,
-    "available": 0,
-    "expected": 5
+    "percent": 25,
+    "available": 1,
+    "expected": 4
   },
   "velocity": {
-    "level": "לא זמין",
+    "level": "יציב",
     "points_60m": 0
   },
   "changes": [],
   "signals": [],
-  "history": [],
+  "history": [
+    {
+      "timestamp": "2026-07-24T10:04:07.098744Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
+    }
+  ],
   "health": {
-    "pipeline": "not_run",
-    "message": "המערכת טרם השלימה איסוף ראשון.",
+    "pipeline": "degraded",
+    "message": "חלק ממקורות האיסוף נכשלו.",
     "last_success": null,
-    "sources": {}
+    "sources": {
+      "iran_israel_attack": {
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      "iran_military_preparation": {
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      "israel_emergency_readiness": {
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests"
+      },
+      "manual": {
+        "ok": true,
+        "items": 0
+      }
+    }
   },
   "methodology": {
-    "formula": "אות = עוצמה × אמינות המקור × עדכניות × רלוונטיות לחלון; אותות תלויים מקובצים; האיחוד מבוצע באמצעות Noisy‑OR.",
+    "formula": "אות = עוצמה × אמינות מקור × עדכניות × רלוונטיות לחלון; איחוד Noisy‑OR עם הפחתת תלות.",
     "calibrated": false
   }
 }
