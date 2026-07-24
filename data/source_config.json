@@ -1,0 +1,38 @@
+{
+  "gdelt_queries": [
+    {
+      "id": "iran_israel_attack",
+      "query": "(Iran OR IRGC) (Israel OR Israeli) (missile OR drone OR attack OR retaliation)",
+      "category": "direct_intent",
+      "source_tier": 0.68
+    },
+    {
+      "id": "iran_military_preparation",
+      "query": "Iran (missile launch OR missile deployment OR drone launch OR military preparation)",
+      "category": "capability",
+      "source_tier": 0.62
+    },
+    {
+      "id": "israel_emergency_readiness",
+      "query": "Israel (Home Front Command OR shelters OR hospitals OR airspace) Iran",
+      "category": "israel_readiness",
+      "source_tier": 0.64
+    }
+  ],
+  "trusted_domains": {
+    "reuters.com": 0.96,
+    "apnews.com": 0.94,
+    "bbc.com": 0.88,
+    "bbc.co.uk": 0.88,
+    "idf.il": 0.95,
+    "oref.org.il": 0.98,
+    "gov.il": 0.95,
+    "faa.gov": 0.94,
+    "state.gov": 0.93,
+    "timesofisrael.com": 0.78,
+    "haaretz.com": 0.8,
+    "jpost.com": 0.72,
+    "ynet.co.il": 0.7,
+    "kan.org.il": 0.8
+  }
+}

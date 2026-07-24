@@ -1,0 +1,54 @@
+{
+  "schema_version": 3,
+  "mode": "initializing",
+  "generated_at": "2026-07-24T05:30:00Z",
+  "next_refresh_minutes": 10,
+  "assessment": {
+    "immediate": {
+      "label": "60 דקות",
+      "score": null,
+      "low": null,
+      "high": null,
+      "confidence": 0,
+      "status": "ממתין לנתונים"
+    },
+    "short": {
+      "label": "6 שעות",
+      "score": null,
+      "low": null,
+      "high": null,
+      "confidence": 0,
+      "status": "ממתין לנתונים"
+    },
+    "extended": {
+      "label": "24 שעות",
+      "score": null,
+      "low": null,
+      "high": null,
+      "confidence": 0,
+      "status": "ממתין לנתונים"
+    }
+  },
+  "coverage": {
+    "percent": 0,
+    "available": 0,
+    "expected": 5
+  },
+  "velocity": {
+    "level": "לא זמין",
+    "points_60m": 0
+  },
+  "changes": [],
+  "signals": [],
+  "history": [],
+  "health": {
+    "pipeline": "not_run",
+    "message": "המערכת טרם השלימה איסוף ראשון.",
+    "last_success": null,
+    "sources": {}
+  },
+  "methodology": {
+    "formula": "אות = עוצמה × אמינות המקור × עדכניות × רלוונטיות לחלון; אותות תלויים מקובצים; האיחוד מבוצע באמצעות Noisy‑OR.",
+    "calibrated": false
+  }
+}
