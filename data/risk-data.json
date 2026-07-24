@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "mode": "verified_snapshot",
   "version": "2.0",
   "updated_at": "2026-07-24T04:58:30.669210Z",
@@ -28,6 +29,14 @@
       "high": 46,
       "status": "מוגבר"
     }
+=======
+  "mode": "demo",
+  "current": {
+    "score": 72,
+    "horizon_hours": 12,
+    "updated_at": "2026-07-24T04:27:21.160526Z",
+    "trend_points": 4
+>>>>>>> 3529b5094b971b5c10d00bf8747e95a387644e00
   },
   "velocity": {
     "level": "עלייה מתונה",
