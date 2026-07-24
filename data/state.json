@@ -1,45 +1,1267 @@
 {
   "schema_version": 3,
   "mode": "degraded",
-  "generated_at": "2026-07-24T15:44:45.097845Z",
+  "generated_at": "2026-07-24T17:18:51.871335Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
-      "low": 0,
-      "high": 31,
-      "confidence": 0,
-      "status": "נמוך אך לא אפסי"
+      "score": 90,
+      "low": 72,
+      "high": 100,
+      "confidence": 58,
+      "status": "קריטי"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 31,
-      "confidence": 0,
-      "status": "נמוך אך לא אפסי"
+      "score": 82,
+      "low": 64,
+      "high": 100,
+      "confidence": 58,
+      "status": "קריטי"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 31,
-      "confidence": 0,
-      "status": "נמוך אך לא אפסי"
+      "score": 46,
+      "low": 28,
+      "high": 64,
+      "confidence": 58,
+      "status": "משמעותי"
     }
   },
   "coverage": {
-    "percent": 25,
-    "available": 1,
+    "percent": 50,
+    "available": 2,
     "expected": 4
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -80
+    "level": "זינוק חריג",
+    "points_60m": 90
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "17:18",
+      "text": "IDF Set to Launch West Bank Offensive After Deadly Israeli - Palestinian Clashes",
+      "impact": "השפעה מיידית מחושבת: +10.2"
+    },
+    {
+      "time": "17:18",
+      "text": "امریکہ کے ساتھ جوہری معاہدہ : محمد بن سلمان کی  سفارتی فتح  یا مشرقِ وسطیٰ کے لیے نیا امتحان ؟ ",
+      "impact": "השפעה מיידית מחושבת: +5.9"
+    },
+    {
+      "time": "17:18",
+      "text": "US Strikes Iran From South to North After Trump Threats Over Red Sea Shipping",
+      "impact": "השפעה מיידית מחושבת: +5.9"
+    },
+    {
+      "time": "17:18",
+      "text": "Trump threatens",
+      "impact": "השפעה מיידית מחושבת: +4.9"
+    }
+  ],
+  "signals": [
+    {
+      "id": "076fc393dd2b534c",
+      "name": "IDF Set to Launch West Bank Offensive After Deadly Israeli - Palestinian Clashes",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "076fc393dd",
+      "strength": 0.46,
+      "reliability": 0.8,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.haaretz.com",
+      "url": "https://www.haaretz.com/israel-news/israel-security/2026-07-24/ty-article/idf-readies-for-sweeping-west-bank-operation-after-deadly-clashes-near-nablus/0000019f-9414-d1a3-adff-f6d7ebf80000",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 10.2,
+        "short": 7.6,
+        "extended": 2.8
+      }
+    },
+    {
+      "id": "09f63c0c31f698b4",
+      "name": "امریکہ کے ساتھ جوہری معاہدہ : محمد بن سلمان کی  سفارتی فتح  یا مشرقِ وسطیٰ کے لیے نیا امتحان ؟ ",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "09f63c0c31",
+      "strength": 0.24,
+      "reliability": 0.88,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.bbc.com",
+      "url": "https://www.bbc.com/urdu/articles/c4g3x0dp7nko",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 5.9,
+        "short": 4.4,
+        "extended": 1.6
+      }
+    },
+    {
+      "id": "1aaefb9b414d95ca",
+      "name": "US Strikes Iran From South to North After Trump Threats Over Red Sea Shipping",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "1aaefb9b41",
+      "strength": 0.33,
+      "reliability": 0.64,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "gcaptain.com",
+      "url": "https://gcaptain.com/us-strikes-iran-from-south-to-north-after-trump-threats-over-red-sea-shipping/",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 5.9,
+        "short": 4.4,
+        "extended": 1.6
+      }
+    },
+    {
+      "id": "f0f5ce148dd82b8d",
+      "name": "Trump threatens",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "f0f5ce148d",
+      "strength": 0.33,
+      "reliability": 0.64,
+      "freshness": 0.72,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.arabherald.com",
+      "url": "http://www.arabherald.com/news/279207510/trump-threatens-bigger-than-ever-attack-on-iran-as-maritime-clashes-flare-up",
+      "published_at": "2026-07-24T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.9,
+        "short": 3.6,
+        "extended": 1.3
+      }
+    },
+    {
+      "id": "692a44aa58abf6b5",
+      "name": "Inside Amir Baram mission to secure Israel military future , defense ties",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "692a44aa58",
+      "strength": 0.24,
+      "reliability": 0.72,
+      "freshness": 0.816,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.jpost.com",
+      "url": "http://www.jpost.com/israel-news/defense-news/article-903485",
+      "published_at": "2026-07-24T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.5,
+        "short": 3.4,
+        "extended": 1.2
+      }
+    },
+    {
+      "id": "81b3e4e4a0c7b89e",
+      "name": "Jordan intercepts 7 missiles , 6 drones as Iran warns civilians near US bases",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "81b3e4e4a0",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/07/jordan-intercepts-7-missiles-6-drones-iran-warns-civilians-near-us-bases",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.3,
+        "short": 3.2,
+        "extended": 1.2
+      }
+    },
+    {
+      "id": "191da8ca2c202751",
+      "name": "الوضع الأمني معقد .. واشنطن تدعو مواطنيها لإعادة النظر في السفر إلى الشرق الأوسط",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "191da8ca2c",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.shorouknews.com",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=24072026&id=1793f722-8819-46c3-9554-a1267e6bfcd4",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.3,
+        "short": 3.2,
+        "extended": 1.2
+      }
+    },
+    {
+      "id": "3d626d22d1b632e3",
+      "name": "Drones target northern Iraqi city where US forces are based as US - Iran fighting escalates",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "3d626d22d1",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.kob.com",
+      "url": "https://www.kob.com/ap-top-news/drones-target-northern-iraqi-city-where-us-forces-are-based-as-us-iran-fighting-escalates/",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.3,
+        "short": 3.2,
+        "extended": 1.2
+      }
+    },
+    {
+      "id": "046efe9b9083da18",
+      "name": "Drones target northern Iraqi city where US forces are based as US - Iran fighting escalates",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "046efe9b90",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.jdnews.com",
+      "url": "https://www.jdnews.com/drones-target-northern-iraqi-city-where-us-forces-are-based-as-us-iran-fighting-escalates/article_57bcc608-a0c4-58e2-8b0c-d5bbf3fade14.html",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.3,
+        "short": 3.2,
+        "extended": 1.2
+      }
+    },
+    {
+      "id": "c12cbc65f1c6b7b3",
+      "name": "NYT : Iran hylkäsi Yhdysvaltojen aselepoehdotuksen – Irak kiist välittäneensä aseleposopimusta",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "c12cbc65f1",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.ess.fi",
+      "url": "https://www.ess.fi/uutissuomalainen/9645752",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.3,
+        "short": 3.2,
+        "extended": 1.2
+      }
+    },
+    {
+      "id": "a074e2891e4eaeee",
+      "name": "Война в Украине закончится превращением страны во второй Израиль – генерал",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "a074e2891e",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.unian.net",
+      "url": "https://www.unian.net/war/voyna-v-ukraine-zakonchitsya-prevrashcheniem-strany-vo-vtoroy-izrail-general-13450719.html",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.3,
+        "short": 3.2,
+        "extended": 1.2
+      }
+    },
+    {
+      "id": "96719657aa89fe52",
+      "name": "Ahead of Trump meeting , Netanyahu lays groundwork for Israel to rejoin Iran war",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "96719657aa",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/07/ahead-trump-meeting-netanyahu-lays-groundwork-israel-rejoin-iran-war",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.3,
+        "short": 3.2,
+        "extended": 1.2
+      }
+    },
+    {
+      "id": "37bf629a5e7becaf",
+      "name": "Mamdani says his wife , him received death threats over Gaza",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "37bf629a5e",
+      "strength": 0.33,
+      "reliability": 0.64,
+      "freshness": 0.635,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.siasat.com",
+      "url": "https://www.siasat.com/mamdani-says-his-wife-him-received-death-threats-over-gaza-3512794/",
+      "published_at": "2026-07-24T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.3,
+        "short": 3.2,
+        "extended": 1.2
+      }
+    },
+    {
+      "id": "973f1e102b25702e",
+      "name": "US Missiles Strike Across Iran After Houthis Announce",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "973f1e102b",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.marinelink.com",
+      "url": "https://www.marinelink.com/news/us-missiles-strike-across-iran-houthis-541513",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.3,
+        "short": 3.2,
+        "extended": 1.2
+      }
+    },
+    {
+      "id": "fae4b365430244a6",
+      "name": "Residents enter shattered south Lebanon town after Israeli withdrawal",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "fae4b36543",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/07/residents-enter-shattered-south-lebanon-town-after-israeli-withdrawal",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.3,
+        "short": 3.2,
+        "extended": 1.2
+      }
+    },
+    {
+      "id": "c53449d57a367de7",
+      "name": "Trump loses faith in Iran diplomacy , military option gains ground",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "c53449d57a",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.middle-east-online.com",
+      "url": "https://www.middle-east-online.com/en/trump-loses-faith-iran-diplomacy-military-option-gains-ground",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.3,
+        "short": 3.2,
+        "extended": 1.2
+      }
+    },
+    {
+      "id": "a73d1a1885156048",
+      "name": "A húszik támadásai újabb frontot nyithatnak az Irán körüli háborúkban",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "a73d1a1885",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "hirtv.origo.hu",
+      "url": "https://hirtv.origo.hu/hirtvkulfold/2026/07/irani-haboru-jemeni-huszi-tamadas",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.3,
+        "short": 3.2,
+        "extended": 1.2
+      }
+    },
+    {
+      "id": "5d7b1246d18ce396",
+      "name": "FOKUS – Netanyahu në vizitë zyrtare në Uashington , pritet të takohet me Trump",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "5d7b1246d1",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "24-ore.com",
+      "url": "https://24-ore.com/fokus-netanyahu-ne-vizite-zyrtare-ne-uashington-pritet-te-takohet-me-trump/",
+      "published_at": "2026-07-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.3,
+        "short": 3.2,
+        "extended": 1.2
+      }
+    },
+    {
+      "id": "49048dfb614449e4",
+      "name": " 〈 專文 〉 中國在南太平洋買到的只是面子 ， 裡子全被西方搬走了",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "49048dfb61",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.816,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "n.yam.com",
+      "url": "https://n.yam.com/Article/20260724661977",
+      "published_at": "2026-07-24T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.0,
+        "short": 3.0,
+        "extended": 1.1
+      }
+    },
+    {
+      "id": "9febc1418a51155f",
+      "name": "Dünya böyük müharibəyə doğru gedir ... - Səxavət Məmməd yazır",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "9febc1418a",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.816,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.adalet.az",
+      "url": "https://www.adalet.az/az/posts/detail/d-1784894510",
+      "published_at": "2026-07-24T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.0,
+        "short": 3.0,
+        "extended": 1.1
+      }
+    },
+    {
+      "id": "9232c8bc901a7738",
+      "name": "IRAN WAR WEEK 21 , day # 7 : entering the sixth month of war",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "9232c8bc90",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.816,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.dailykos.com",
+      "url": "https://www.dailykos.com/stories/2026/7/24/800074309/community/iww-21-day-7/",
+      "published_at": "2026-07-24T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.0,
+        "short": 3.0,
+        "extended": 1.1
+      }
+    },
+    {
+      "id": "bf232ea739b21e6f",
+      "name": "The fertiliser crisis driving US support for Morocco occupation of Western Sahara",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "bf232ea739",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.816,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "morningstaronline.co.uk",
+      "url": "https://morningstaronline.co.uk/article/fertiliser-crisis-driving-us-support-moroccos-occupation-western-sahara",
+      "published_at": "2026-07-24T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.0,
+        "short": 3.0,
+        "extended": 1.1
+      }
+    },
+    {
+      "id": "23ecf59f145801b0",
+      "name": "Israel can no longer take the US for granted",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "23ecf59f14",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.816,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "morningstaronline.co.uk",
+      "url": "https://morningstaronline.co.uk/article/israel-can-no-longer-take-us-granted",
+      "published_at": "2026-07-24T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.0,
+        "short": 3.0,
+        "extended": 1.1
+      }
+    },
+    {
+      "id": "cc9f40474108e3b0",
+      "name": "Drones target northern Iraqi city where US forces are based as US - Iran fighting escalates",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "cc9f404741",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.816,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.wptf.com",
+      "url": "https://www.wptf.com/2026/07/24/drones-target-northern-iraqi-city-where-us-forces-are-based-as-us-iran-fighting-escalates/",
+      "published_at": "2026-07-24T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.0,
+        "short": 3.0,
+        "extended": 1.1
+      }
+    },
+    {
+      "id": "f0865cb54a21ae24",
+      "name": "Si rischia il blocco di un altro stretto : quello di Bab el Mandeb",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "f0865cb54a",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.816,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.ilpost.it",
+      "url": "https://www.ilpost.it/2026/07/21/houthi-bab-el-mandeb-iran/?homepagePosition=11.1&referrerPost=3640591",
+      "published_at": "2026-07-24T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.0,
+        "short": 3.0,
+        "extended": 1.1
+      }
+    },
+    {
+      "id": "807c18533ba66a49",
+      "name": "ChatGPT Daring Escape Forces Dems to Pick a Path on AI Legislation",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "807c18533b",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.816,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "newrepublic.com",
+      "url": "https://newrepublic.com/post/213500/chatgpt-lab-breach-democrats-ai-legislation",
+      "published_at": "2026-07-24T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.0,
+        "short": 3.0,
+        "extended": 1.1
+      }
+    },
+    {
+      "id": "79a4c2124a0c1ba9",
+      "name": "Stranded seafarers remain trapped as Hormuz shipping stalls",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "79a4c2124a",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.816,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/07/iran-260723-unnews01.htm",
+      "published_at": "2026-07-24T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.0,
+        "short": 3.0,
+        "extended": 1.1
+      }
+    },
+    {
+      "id": "bff7d6cd4260b168",
+      "name": "האם ישראל בדרך למערכה מול איראן בסוף השבוע ? ",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "bff7d6cd42",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.72,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.srugim.co.il",
+      "url": "http://www.srugim.co.il/101006979-%D7%94%D7%90%D7%9D-%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%91%D7%93%D7%A8%D7%9A-%D7%9C%D7%9E%D7%A2%D7%A8%D7%9B%D7%94-%D7%9E%D7%95%D7%9C-%D7%90%D7%99%D7%A8%D7%90%D7%9F-%D7%91%D7%A1%D7%95%D7%A3",
+      "published_at": "2026-07-24T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.5,
+        "short": 2.6,
+        "extended": 1.0
+      }
+    },
+    {
+      "id": "2efcdb709d6fd989",
+      "name": "Премьер - министр Нетаниягу вылетит в США по приглашению Трампа | MigNews - Новости Израиля и Мира на русском языке",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "2efcdb709d",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.72,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "mignews.com",
+      "url": "https://mignews.com/news/politic/premer-ministr-netaniyagu-vyletit-v-ssha-po-priglasheniyu-trampa.html",
+      "published_at": "2026-07-24T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.5,
+        "short": 2.6,
+        "extended": 1.0
+      }
+    },
+    {
+      "id": "5b222fd7b53cfb95",
+      "name": "Could Israel - US - Iran war become another Ukraine ? ",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "5b222fd7b5",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.72,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.dailysabah.com",
+      "url": "https://www.dailysabah.com/opinion/columns/could-israel-us-iran-war-become-another-ukraine",
+      "published_at": "2026-07-24T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.5,
+        "short": 2.6,
+        "extended": 1.0
+      }
+    },
+    {
+      "id": "7a133c3b462b6df6",
+      "name": "Dubai ora paga per riavere i turisti allontanati dalla guerra",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "7a133c3b46",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.72,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.quotidiano.net",
+      "url": "https://www.quotidiano.net/esteri/dubai-paga-turisti-f5ef32fa",
+      "published_at": "2026-07-24T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.5,
+        "short": 2.6,
+        "extended": 1.0
+      }
+    },
+    {
+      "id": "e7f282059247f24b",
+      "name": "Drones target Iraqi city where US forces are based as US - Iran fighting escalates",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "e7f2820592",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.72,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.bournemouthecho.co.uk",
+      "url": "https://www.bournemouthecho.co.uk/news/national/26406094.drones-target-iraqi-city-us-forces-based-us-iran-fighting-escalates/",
+      "published_at": "2026-07-24T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.5,
+        "short": 2.6,
+        "extended": 1.0
+      }
+    },
+    {
+      "id": "69f88aab69a52006",
+      "name": "Mamdani Isnt The Problem , It Immigration",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "69f88aab69",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.72,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "thefederalist.com",
+      "url": "https://thefederalist.com/2026/07/24/mamdani-isnt-the-problem-its-immigration/",
+      "published_at": "2026-07-24T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.5,
+        "short": 2.6,
+        "extended": 1.0
+      }
+    },
+    {
+      "id": "76e06de85ce0a7fc",
+      "name": "Saudi money , Chinese weapons , American patronage : Can Pakistan balance all three ? ",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "76e06de85c",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.72,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/pakistan/saudi-money-chinese-weapons-american-patronage-can-pakistan-balance-all-three/articleshow/132608633.cms",
+      "published_at": "2026-07-24T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.5,
+        "short": 2.6,
+        "extended": 1.0
+      }
+    },
+    {
+      "id": "69c06e9504cc7761",
+      "name": "Saudi money , Chinese weapons , American patronage : Can Pakistan balance all three ? ",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "69c06e9504",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.72,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/us/saudi-money-chinese-weapons-american-patronage-can-pakistan-balance-all-three/articleshow/132609122.cms",
+      "published_at": "2026-07-24T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.5,
+        "short": 2.6,
+        "extended": 1.0
+      }
+    },
+    {
+      "id": "823b9159a97fa1ee",
+      "name": "Oil prices climb above $100 a barrel as Middle East conflict intensifies",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "823b9159a9",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.72,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.twincities.com",
+      "url": "https://www.twincities.com/2026/07/23/gas-groceries-and-back-to-school-items-are-where-shoppers-might-see-higher-oil-prices-surface/",
+      "published_at": "2026-07-24T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.5,
+        "short": 2.6,
+        "extended": 1.0
+      }
+    },
+    {
+      "id": "9a998492edca462c",
+      "name": "عزت إبراهيم : الحرب الأمريكية الإيرانية دخلت مرحلة أكثر خطورة",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "9a998492ed",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.676,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.elwatannews.com",
+      "url": "https://www.elwatannews.com/news/details/8325924",
+      "published_at": "2026-07-24T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.3,
+        "short": 2.5,
+        "extended": 0.9
+      }
+    },
+    {
+      "id": "6a98a1cb5e96efe1",
+      "name": "川普7 / 28會晤納坦雅胡 是否再聯手打擊伊朗引關注 - 國際",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "6a98a1cb5e",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.676,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "news.ltn.com.tw",
+      "url": "https://news.ltn.com.tw/news/world/breakingnews/5516937",
+      "published_at": "2026-07-24T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.3,
+        "short": 2.5,
+        "extended": 0.9
+      }
+    },
+    {
+      "id": "05f3f5377919938b",
+      "name": " 【 時事縱橫 】 兩大咽喉被鎖 美軍重磅集結 溫家寶秘書雙開 | 美特種部隊 | 轟炸機 | 史詩之怒",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "05f3f53779",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.676,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.ntdtv.com",
+      "url": "https://www.ntdtv.com/b5/2026/07/24/a104118296.html",
+      "published_at": "2026-07-24T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.3,
+        "short": 2.5,
+        "extended": 0.9
+      }
+    },
+    {
+      "id": "ed996d493052fdd3",
+      "name": "美軍最先進電子戰機抵歐 針對伊朗大動作在即 | 電子戰飛機 | 美國空軍 | EA - 37B 「 羅盤呼叫 」 ",
+      "finding": "דיווח שזוהה בקטגוריית israel_readiness.",
+      "category": "israel_readiness",
+      "direction": "up",
+      "dependency_group": "ed996d4930",
+      "strength": 0.24,
+      "reliability": 0.64,
+      "freshness": 0.676,
+      "max_effect": {
+        "immediate": 32,
+        "short": 29,
+        "extended": 18
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.82,
+        "extended": 0.48
+      },
+      "source": "www.ntdtv.com",
+      "url": "https://www.ntdtv.com/b5/2026/07/24/a104118309.html",
+      "published_at": "2026-07-24T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.3,
+        "short": 2.5,
+        "extended": 0.9
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T10:04:07.098744Z",
@@ -64,6 +1286,12 @@
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-07-24T17:18:51.871335Z",
+      "immediate": 90,
+      "short": 82,
+      "extended": 46
     }
   ],
   "health": {
@@ -80,8 +1308,8 @@
         "error": "HTTP Error 429: Too Many Requests"
       },
       "israel_emergency_readiness": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests"
+        "ok": true,
+        "items": 75
       },
       "manual": {
         "ok": true,
