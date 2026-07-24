@@ -1,7 +1,7 @@
 {
   "mode": "verified_snapshot",
   "version": "1.1",
-  "updated_at": "2026-07-24T07:39:58.353595Z",
+  "updated_at": "2026-07-24T09:59:19.033468Z",
   "refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -213,6 +213,12 @@
     },
     {
       "timestamp": "2026-07-24T07:39:58.353595Z",
+      "immediate": 9,
+      "short": 24,
+      "extended": 39
+    },
+    {
+      "timestamp": "2026-07-24T09:59:19.033468Z",
       "immediate": 9,
       "short": 24,
       "extended": 39
