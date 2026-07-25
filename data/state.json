@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-07-25T16:16:33.181729Z",
+  "generated_at": "2026-07-25T17:27:48.926514Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 13,
-      "low": 0,
-      "high": 26,
-      "confidence": 66,
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 65,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 19,
-      "low": 6,
-      "high": 32,
-      "confidence": 66,
+      "score": 20,
+      "low": 7,
+      "high": 33,
+      "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 23,
-      "low": 10,
-      "high": 36,
-      "confidence": 67,
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 65,
       "status": "מוגבר"
     }
   },
@@ -35,55 +35,55 @@
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -3
+    "level": "יציב",
+    "points_60m": 1
   },
   "changes": [
     {
-      "time": "15:30",
-      "text": "Iran prepares new list of targets inside Israel amid strike threats",
-      "impact": "השפעה מיידית מחושבת: +9.2",
+      "time": "16:30",
+      "text": "ישראל נערכה למתקפה דרמטית שלא קרתה :  איראן קנתה זמן",
+      "impact": "השפעה מיידית מחושבת: +10.5",
       "direction": "up",
-      "source": "news.az",
-      "signal_id": "e3fd8a4fa722a060"
+      "source": "ynet.co.il",
+      "signal_id": "debb013ff1376f53"
     },
     {
-      "time": "18:30",
-      "text": "Trump : Talks with Iran Underway Amid Military Strikes",
+      "time": "19:15",
+      "text": "Iranian Missiles Strike U . S . Military Sites in Jordan Aqaba – NaturalNews . com",
       "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "newkerala.com",
-      "signal_id": "02a747c90fcbd5dc"
+      "source": "naturalnews.com",
+      "signal_id": "e87ece790d214ebe"
     },
     {
-      "time": "18:15",
-      "text": "US - Iran war spreads as Saudi Arabia , Houthis trade airstrikes in Red Sea escalation",
+      "time": "19:45",
+      "text": "US holds off Iran strikes for first time in two weeks",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "newcastleherald.com.au",
+      "signal_id": "216af6fd60ef99f9"
+    },
+    {
+      "time": "19:30",
+      "text": "Houthis hit Saudi Arabia as US strikes Iran harder",
       "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "nypost.com",
-      "signal_id": "641b4d52bd3b80ff"
-    },
-    {
-      "time": "18:00",
-      "text": "Illegal and unsafe route : Iran IRGC fires on four ships in Strait of Hormuz over past 24 hours",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "aninews.in",
-      "signal_id": "695ffe646efe5dfe"
+      "source": "manilatimes.net",
+      "signal_id": "315341e40f0dd81a"
     }
   ],
   "signals": [
     {
-      "id": "e3fd8a4fa722a060",
-      "name": "Iran prepares new list of targets inside Israel amid strike threats",
+      "id": "debb013ff1376f53",
+      "name": "ישראל נערכה למתקפה דרמטית שלא קרתה :  איראן קנתה זמן",
       "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
       "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e3fd8a4fa722a060",
-      "strength": 0.55,
-      "reliability": 0.56,
-      "freshness": 0.34,
+      "dependency_group": "debb013ff1376f53",
+      "strength": 0.5,
+      "reliability": 0.74,
+      "freshness": 0.322,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -94,14 +94,107 @@
         "short": 0.88,
         "extended": 0.56
       },
-      "source": "news.az",
-      "url": "https://news.az/news/iran-prepares-new-list-of-targets-inside-israel-amid-strike-threats",
-      "published_at": "2026-07-25T12:30:00Z",
+      "source": "ynet.co.il",
+      "url": "https://www.ynet.co.il/news/article/r1erkeghze",
+      "published_at": "2026-07-25T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 9.2,
-        "short": 7.2,
-        "extended": 3.0
+        "immediate": 10.5,
+        "short": 8.2,
+        "extended": 3.5
+      }
+    },
+    {
+      "id": "e87ece790d214ebe",
+      "name": "Iranian Missiles Strike U . S . Military Sites in Jordan Aqaba – NaturalNews . com",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e87ece790d214ebe",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.707,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-07-25-iranian-missiles-strike-us-sites-jordans-aqaba.html",
+      "published_at": "2026-07-25T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "216af6fd60ef99f9",
+      "name": "US holds off Iran strikes for first time in two weeks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "216af6fd60ef99f9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.816,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newcastleherald.com.au",
+      "url": "https://www.newcastleherald.com.au/story/9317505/us-holds-off-iran-strikes-for-first-time-in-two-weeks/",
+      "published_at": "2026-07-25T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "315341e40f0dd81a",
+      "name": "Houthis hit Saudi Arabia as US strikes Iran harder",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "315341e40f0dd81a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.759,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "manilatimes.net",
+      "url": "https://www.manilatimes.net/2026/07/26/world/americas-emea/houthis-hit-saudi-arabia-as-us-strikes-iran-harder/2391472",
+      "published_at": "2026-07-25T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
       }
     },
     {
@@ -114,7 +207,7 @@
       "dependency_group": "02a747c90fcbd5dc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.801,
+      "freshness": 0.571,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +223,9 @@
       "published_at": "2026-07-25T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.9
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       }
     },
     {
@@ -145,7 +238,7 @@
       "dependency_group": "641b4d52bd3b80ff",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.746,
+      "freshness": 0.531,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,40 +254,9 @@
       "published_at": "2026-07-25T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.4
-      }
-    },
-    {
-      "id": "695ffe646efe5dfe",
-      "name": "Illegal and unsafe route : Iran IRGC fires on four ships in Strait of Hormuz over past 24 hours",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "695ffe646efe5dfe",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.695,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aninews.in",
-      "url": "https://aninews.in/news/world/middle-east/illegal-and-unsafe-route-irans-irgc-fires-on-four-ships-in-strait-of-hormuz-over-past-24-hours20260725194434/",
-      "published_at": "2026-07-25T15:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
       }
     },
     {
@@ -207,7 +269,7 @@
       "dependency_group": "06f22b09de12ad46",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.647,
+      "freshness": 0.461,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +285,40 @@
       "published_at": "2026-07-25T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      }
+    },
+    {
+      "id": "695ffe646efe5dfe",
+      "name": "Illegal and unsafe route : Iran IRGC fires on four ships in Strait of Hormuz over past 24 hours",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "695ffe646efe5dfe",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.495,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aninews.in",
+      "url": "https://aninews.in/news/world/middle-east/illegal-and-unsafe-route-irans-irgc-fires-on-four-ships-in-strait-of-hormuz-over-past-24-hours20260725194434/",
+      "published_at": "2026-07-25T15:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       }
     },
     {
@@ -238,7 +331,7 @@
       "dependency_group": "9edc308bbff9d6fa",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.647,
+      "freshness": 0.461,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +347,9 @@
       "published_at": "2026-07-25T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
       }
     },
     {
@@ -269,7 +362,7 @@
       "dependency_group": "31bac07b0f5ca5e8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.647,
+      "freshness": 0.461,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +378,9 @@
       "published_at": "2026-07-25T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
       }
     },
     {
@@ -300,7 +393,7 @@
       "dependency_group": "d75a13eefb77e13f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.561,
+      "freshness": 0.399,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,40 +409,9 @@
       "published_at": "2026-07-25T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.2,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "376960cecbf71b80",
-      "name": "Iran - Backed Houthis Claim Missile Strike On Saudi Arabia",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "376960cecbf71b80",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.421,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iraqsun.com",
-      "url": "http://www.iraqsun.com/news/279208955/iran-backed-houthis-claim-missile-strike-on-saudi-arabia",
-      "published_at": "2026-07-25T13:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     },
     {
@@ -362,7 +424,7 @@
       "dependency_group": "2c47a683d5317510",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.452,
+      "freshness": 0.322,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,9 +440,9 @@
       "published_at": "2026-07-25T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       }
     },
     {
@@ -393,7 +455,7 @@
       "dependency_group": "d034d611c9532163",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.452,
+      "freshness": 0.322,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,71 +471,9 @@
       "published_at": "2026-07-25T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "46601026e6c11d79",
-      "name": "Houthis say hit Saudi Arabia as Trump weighs harder Iran strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "46601026e6c11d79",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.392,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofearth.com",
-      "url": "https://www.timesofearth.com/2026/07/25/houthis-say-hit-saudi-arabia-as-trump-weighs-harder-iran-strikes/",
-      "published_at": "2026-07-25T13:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "a8f23d92e3cf04fa",
-      "name": "US fires on vessel attempting to breach Iran port blockade | The Arkansas Democrat - Gazette",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a8f23d92e3cf04fa",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.34,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arkansasonline.com",
-      "url": "https://www.arkansasonline.com/news/2026/jul/25/us-fires-on-vessel-attempting-to-breach-iran-port/",
-      "published_at": "2026-07-25T12:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       }
     }
   ],
@@ -567,12 +567,18 @@
       "immediate": 13,
       "short": 19,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-07-25T17:27:48.926514Z",
+      "immediate": 14,
+      "short": 20,
+      "extended": 25
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-07-25T16:16:33.181729Z",
+    "last_success": "2026-07-25T17:27:48.926514Z",
     "sources": {
       "gdelt": {
         "ok": true,
