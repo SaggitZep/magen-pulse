@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-07-25T18:32:18.793573Z",
+  "generated_at": "2026-07-25T19:51:08.461358Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,24 +9,24 @@ window.MAGEN_STATE = {
       "score": 4,
       "low": 0,
       "high": 17,
-      "confidence": 66,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
-      "low": 2,
-      "high": 28,
-      "confidence": 66,
+      "score": 13,
+      "low": 0,
+      "high": 26,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 66,
-      "status": "מוגבר"
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 67,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -35,44 +35,261 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -10
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
-      "time": "21:00",
-      "text": "Credible threat  from Iranian proxies prompted Trump mid - trip plane swap : Report",
+      "time": "22:00",
+      "text": "Iran - backed Houthis fire missiles at Saudi Arabia in response to airstrikes in Yemen",
       "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "aninews.in",
-      "signal_id": "2f25766c623dc11f"
+      "source": "economictimes.indiatimes.com",
+      "signal_id": "8d69e3b70f70878a"
     },
     {
-      "time": "21:00",
+      "time": "21:45",
       "text": "Middle East escalation : Bahrain and Kuwait carried out first Iran strikes with UAE help , reveals WSJ report",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "russiaherald.com",
+      "source": "iranherald.com",
       "signal_id": "5793ba7f94176c11"
     },
     {
-      "time": "21:00",
+      "time": "21:45",
       "text": "US holds off Iran strikes for first time in two weeks",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "queanbeyanage.com.au",
+      "source": "sconeadvocate.com.au",
       "signal_id": "216af6fd60ef99f9"
     },
     {
-      "time": "21:00",
-      "text": "US military says it fired on another merchant vessel trying to breach its blockade of Iranian ports",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "time": "21:45",
+      "text": "US military says it fired on another merchant vessel trying to breach blockade of Iranian ports",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "kmbc.com",
-      "signal_id": "dfca0df83f34fef3"
+      "source": "29news.com",
+      "signal_id": "baddc275cd6af314"
     }
   ],
   "signals": [
+    {
+      "id": "8d69e3b70f70878a",
+      "name": "Iran - backed Houthis fire missiles at Saudi Arabia in response to airstrikes in Yemen",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8d69e3b70f70878a",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.784,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/defence/iran-backed-houthis-fire-missiles-at-saudi-arabia-in-response-to-airstrikes-in-yemen/articleshow/132632167.cms",
+      "published_at": "2026-07-25T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.3
+      }
+    },
+    {
+      "id": "5793ba7f94176c11",
+      "name": "Middle East escalation : Bahrain and Kuwait carried out first Iran strikes with UAE help , reveals WSJ report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5793ba7f94176c11",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.73,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iranherald.com",
+      "url": "http://www.iranherald.com/news/279209456/middle-east-escalation-bahrain-and-kuwait-carried-out-first-iran-strikes-with-uae-help-reveals-wsj-report",
+      "published_at": "2026-07-25T18:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      }
+    },
+    {
+      "id": "216af6fd60ef99f9",
+      "name": "US holds off Iran strikes for first time in two weeks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "216af6fd60ef99f9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.73,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sconeadvocate.com.au",
+      "url": "https://www.sconeadvocate.com.au/story/9317505/us-holds-off-iran-strikes-for-first-time-in-two-weeks/",
+      "published_at": "2026-07-25T18:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      }
+    },
+    {
+      "id": "baddc275cd6af314",
+      "name": "US military says it fired on another merchant vessel trying to breach blockade of Iranian ports",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "baddc275cd6af314",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.73,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "29news.com",
+      "url": "https://www.29news.com/2026/07/24/explosions-break-out-near-military-base-hosting-us-troops-iraq/",
+      "published_at": "2026-07-25T18:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      }
+    },
+    {
+      "id": "695ffe646efe5dfe",
+      "name": "Illegal and unsafe route : Iran IRGC fires on four ships in Strait of Hormuz over past 24 hours",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "695ffe646efe5dfe",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.73,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iranherald.com",
+      "url": "http://www.iranherald.com/news/279209560/illegal-and-unsafe-route-iran-irgc-fires-on-four-ships-in-strait-of-hormuz-over-past-24-hours",
+      "published_at": "2026-07-25T18:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      }
+    },
+    {
+      "id": "1ee00e52afa8fa33",
+      "name": "UK  ready to defend itself  after Iran says bases are  legitimate targets",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1ee00e52afa8fa33",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.633,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yahoo.com",
+      "url": "https://www.yahoo.com/news/world/articles/uk-ready-defend-itself-iran-200031451.html",
+      "published_at": "2026-07-25T18:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "ebc7edd739d27ac1",
+      "name": "U . S . military goes silent on Iran airstrikes while Houthi rebels and Saudi Arabia exchange attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ebc7edd739d27ac1",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.633,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "fortune.com",
+      "url": "https://fortune.com/2026/07/25/us-military-silent-iran-airstrikes-houthi-rebels-saudi-arabia-battle-red-sea-shipping/",
+      "published_at": "2026-07-25T18:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.2
+      }
+    },
     {
       "id": "2f25766c623dc11f",
       "name": "Credible threat  from Iranian proxies prompted Trump mid - trip plane swap : Report",
@@ -83,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2f25766c623dc11f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.857,
+      "freshness": 0.589,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,102 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.6,
-        "extended": 9.5
-      }
-    },
-    {
-      "id": "5793ba7f94176c11",
-      "name": "Middle East escalation : Bahrain and Kuwait carried out first Iran strikes with UAE help , reveals WSJ report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5793ba7f94176c11",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.857,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "russiaherald.com",
-      "url": "http://www.russiaherald.com/news/279209456/middle-east-escalation-bahrain-and-kuwait-carried-out-first-iran-strikes-with-uae-help-reveals-wsj-report",
-      "published_at": "2026-07-25T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.4
-      }
-    },
-    {
-      "id": "216af6fd60ef99f9",
-      "name": "US holds off Iran strikes for first time in two weeks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "216af6fd60ef99f9",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.857,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "queanbeyanage.com.au",
-      "url": "https://www.queanbeyanage.com.au/story/9317505/us-holds-off-iran-strikes-for-first-time-in-two-weeks/",
-      "published_at": "2026-07-25T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.4
-      }
-    },
-    {
-      "id": "dfca0df83f34fef3",
-      "name": "US military says it fired on another merchant vessel trying to breach its blockade of Iranian ports",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "dfca0df83f34fef3",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.857,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kmbc.com",
-      "url": "https://www.kmbc.com/article/us-military-fire-merchant-vessel-blockade-iran/73260833",
-      "published_at": "2026-07-25T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.4
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       }
     },
     {
@@ -207,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8d9344ac29cb751d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.692,
+      "freshness": 0.475,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +347,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
+      }
+    },
+    {
+      "id": "ddeea81466ce2d6f",
+      "name": "Attacks will continue until the enemy surrenders completely , says Iranian security chief",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ddeea81466ce2d6f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.475,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailythepatriot.com",
+      "url": "https://dailythepatriot.com/attacks-will-continue-until-the-enemy-surrenders-completely-says-iranian-security-chief/",
+      "published_at": "2026-07-25T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
       }
     },
     {
@@ -238,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e87ece790d214ebe",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.52,
+      "freshness": 0.357,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +409,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     },
     {
@@ -269,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "315341e40f0dd81a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.559,
+      "freshness": 0.384,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,195 +440,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.2,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "02a747c90fcbd5dc",
-      "name": "Trump : Talks with Iran Underway Amid Military Strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "02a747c90fcbd5dc",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.42,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newkerala.com",
-      "url": "https://www.newkerala.com/news/a/theres-military-exitor-smarter-strategy-trump-reveals-active-752.htm",
-      "published_at": "2026-07-25T15:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "641b4d52bd3b80ff",
-      "name": "US - Iran war spreads as Saudi Arabia , Houthis trade airstrikes in Red Sea escalation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "641b4d52bd3b80ff",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.391,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nypost.com",
-      "url": "https://nypost.com/2026/07/25/world-news/us-iran-war-spreads-as-saudi-arabia-houthis-trade-airstrikes-in-red-sea-escalation/",
-      "published_at": "2026-07-25T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "06f22b09de12ad46",
-      "name": "Bahrain , Kuwait secretly carried out strikes on Iran earlier this month : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "06f22b09de12ad46",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.339,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/bahrain-kuwait-secretly-carried-out-strikes-on-iran-earlier-this-month-report-article-13983519.html",
-      "published_at": "2026-07-25T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
-      }
-    },
-    {
-      "id": "695ffe646efe5dfe",
-      "name": "Illegal and unsafe route : Iran IRGC fires on four ships in Strait of Hormuz over past 24 hours",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "695ffe646efe5dfe",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.364,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aninews.in",
-      "url": "https://aninews.in/news/world/middle-east/illegal-and-unsafe-route-irans-irgc-fires-on-four-ships-in-strait-of-hormuz-over-past-24-hours20260725194434/",
-      "published_at": "2026-07-25T15:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
-    },
-    {
-      "id": "9edc308bbff9d6fa",
-      "name": "Iran reports no new U . S . strikes as tensions remain high",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9edc308bbff9d6fa",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.339,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "abcnews.com",
-      "url": "https://abcnews.com/US/wireStory/iran-reports-new-us-strikes-tensions-remain-high-135077829",
-      "published_at": "2026-07-25T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
-      }
-    },
-    {
-      "id": "31bac07b0f5ca5e8",
-      "name": "Ukraine Claims Strike On Russia - Iran Military Route As Kyiv Mourns Dead",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "31bac07b0f5ca5e8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.339,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "rferl.org",
-      "url": "https://www.rferl.org/a/ukraine-claims-caspian-strike-russia-iran-military-route-kyiv-mourning/33812868.html",
-      "published_at": "2026-07-25T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
+        "short": 2.2,
+        "extended": 3.8
       }
     }
   ],
@@ -579,17 +548,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 15,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-07-25T19:51:08.461358Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 22
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-07-25T18:32:18.793573Z",
+    "last_success": "2026-07-25T19:51:08.461358Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 13
+        "relevant": 12
       },
       "manual": {
         "ok": true,
