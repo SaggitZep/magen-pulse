@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-07-25T19:51:08.461358Z",
+  "mode": "degraded",
+  "generated_at": "2026-07-25T20:43:04.902266Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 67,
+      "high": 19,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 10,
       "low": 0,
       "high": 26,
-      "confidence": 67,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 67,
+      "score": 17,
+      "low": 1,
+      "high": 33,
+      "confidence": 50,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "22:00",
       "text": "Iran - backed Houthis fire missiles at Saudi Arabia in response to airstrikes in Yemen",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "economictimes.indiatimes.com",
       "signal_id": "8d69e3b70f70878a"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:45",
       "text": "Middle East escalation : Bahrain and Kuwait carried out first Iran strikes with UAE help , reveals WSJ report",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "iranherald.com",
       "signal_id": "5793ba7f94176c11"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:45",
       "text": "US holds off Iran strikes for first time in two weeks",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "sconeadvocate.com.au",
       "signal_id": "216af6fd60ef99f9"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:45",
       "text": "US military says it fired on another merchant vessel trying to breach blockade of Iranian ports",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "29news.com",
       "signal_id": "baddc275cd6af314"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8d69e3b70f70878a",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.784,
+      "freshness": 0.612,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.3
-      }
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.2
+      },
+      "carried_forward": true
     },
     {
       "id": "5793ba7f94176c11",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5793ba7f94176c11",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.73,
+      "freshness": 0.57,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      },
+      "carried_forward": true
     },
     {
       "id": "216af6fd60ef99f9",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "216af6fd60ef99f9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.73,
+      "freshness": 0.57,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      },
+      "carried_forward": true
     },
     {
       "id": "baddc275cd6af314",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "baddc275cd6af314",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.73,
+      "freshness": 0.57,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      },
+      "carried_forward": true
     },
     {
       "id": "695ffe646efe5dfe",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "695ffe646efe5dfe",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.73,
+      "freshness": 0.57,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,72 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
-      }
-    },
-    {
-      "id": "1ee00e52afa8fa33",
-      "name": "UK  ready to defend itself  after Iran says bases are  legitimate targets",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1ee00e52afa8fa33",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.633,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yahoo.com",
-      "url": "https://www.yahoo.com/news/world/articles/uk-ready-defend-itself-iran-200031451.html",
-      "published_at": "2026-07-25T18:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
-      }
-    },
-    {
-      "id": "ebc7edd739d27ac1",
-      "name": "U . S . military goes silent on Iran airstrikes while Houthi rebels and Saudi Arabia exchange attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ebc7edd739d27ac1",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.633,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "fortune.com",
-      "url": "https://fortune.com/2026/07/25/us-military-silent-iran-airstrikes-houthi-rebels-saudi-arabia-battle-red-sea-shipping/",
-      "published_at": "2026-07-25T18:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
-      }
+      "carried_forward": true
     },
     {
       "id": "2f25766c623dc11f",
@@ -300,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2f25766c623dc11f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.589,
+      "freshness": 0.46,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +259,75 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "1ee00e52afa8fa33",
+      "name": "UK  ready to defend itself  after Iran says bases are  legitimate targets",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1ee00e52afa8fa33",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.494,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yahoo.com",
+      "url": "https://www.yahoo.com/news/world/articles/uk-ready-defend-itself-iran-200031451.html",
+      "published_at": "2026-07-25T18:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "ebc7edd739d27ac1",
+      "name": "U . S . military goes silent on Iran airstrikes while Houthi rebels and Saudi Arabia exchange attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ebc7edd739d27ac1",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.494,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "fortune.com",
+      "url": "https://fortune.com/2026/07/25/us-military-silent-iran-airstrikes-houthi-rebels-saudi-arabia-battle-red-sea-shipping/",
+      "published_at": "2026-07-25T18:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      },
+      "carried_forward": true
     },
     {
       "id": "8d9344ac29cb751d",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8d9344ac29cb751d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.475,
+      "freshness": 0.371,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "ddeea81466ce2d6f",
@@ -362,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ddeea81466ce2d6f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.475,
+      "freshness": 0.371,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "e87ece790d214ebe",
@@ -393,7 +403,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e87ece790d214ebe",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.357,
+      "freshness": 0.279,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
+      },
+      "carried_forward": true
     },
     {
       "id": "315341e40f0dd81a",
@@ -424,7 +435,7 @@ window.MAGEN_STATE = {
       "dependency_group": "315341e40f0dd81a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.384,
+      "freshness": 0.3,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,10 +451,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 3.0
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -554,17 +566,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-07-25T20:43:04.902266Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-07-25T19:51:08.461358Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 12
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 12
       },
       "manual": {
         "ok": true,
