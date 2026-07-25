@@ -1,89 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-07-25T01:21:34.245617Z",
+  "mode": "live",
+  "generated_at": "2026-07-25T04:40:15.612949Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 5,
       "low": 0,
       "high": 18,
-      "confidence": 44,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 5,
-      "low": 0,
-      "high": 22,
-      "confidence": 44,
-      "status": "לא זוהה אות חריג"
+      "score": 16,
+      "low": 3,
+      "high": 29,
+      "confidence": 67,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 8,
-      "low": 0,
-      "high": 25,
-      "confidence": 44,
-      "status": "לא זוהה אות חריג"
+      "score": 26,
+      "low": 13,
+      "high": 39,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "עלייה מתונה",
+    "points_60m": 4
   },
   "changes": [
     {
-      "time": "00:00",
-      "text": "Trump threatens a major escalation in Iran after 13 straight nights of strikes",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "07:30",
+      "text": "US & united kingdom Plan Global Coalition To Protect Commercial Shipping In Strait Of Hormuz Amid Escalating Tensions With Iran",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "krwg.org",
-      "signal_id": "04558e17a7142789"
+      "source": "freepressjournal.in",
+      "signal_id": "c13c4175699c4ee6"
     },
     {
-      "time": "22:30",
-      "text": "Bahrain , Kuwait secretly sent fighter jets to strike Iran this month",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "07:30",
+      "text": "Bahrain Kuwait Iran Strike , बहरीन और कुवैत ने पहली बार ईरान में की भारी बमबारी , ड्रोन - मिसाइल डिपो तबाह , खाड़ी में महायुद्ध का खतरा - bahrain kuwait secretly air strike iran earlier this month with uae help middle ea",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "358cdb139a55201e"
+      "source": "navbharattimes.indiatimes.com",
+      "signal_id": "1242afebe979db49"
     },
     {
-      "time": "23:00",
-      "text": "Trump threatens a major escalation in Iran as the war nears the 5 - month mark",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "07:30",
+      "text": "All 28 Indian Crew Safe After Iran Tanker Attack",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "capeandislands.org",
-      "signal_id": "9ad6985850824fe5"
+      "source": "deccanchronicle.com",
+      "signal_id": "0c1a50dec89b1635"
     },
     {
-      "time": "23:00",
-      "text": "US military damage sustained through Iran war marks  end of an era  in Middle East strategy - 25 - Jul - 2026",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "06:45",
+      "text": "Iranian threat forced Trump to switch planes after NATO summit",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "home.nzcity.co.nz",
-      "signal_id": "ad25762e7e2b8da2"
+      "source": "smh.com.au",
+      "signal_id": "e5b1d1183d6f5de6"
     }
   ],
   "signals": [
     {
-      "id": "04558e17a7142789",
-      "name": "Trump threatens a major escalation in Iran after 13 straight nights of strikes",
+      "id": "c13c4175699c4ee6",
+      "name": "US & united kingdom Plan Global Coalition To Protect Commercial Shipping In Strait Of Hormuz Amid Escalating Tensions With Iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "04558e17a7142789",
-      "strength": 0.45,
+      "dependency_group": "c13c4175699c4ee6",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.288,
+      "freshness": 0.952,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,92 +94,585 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "krwg.org",
-      "url": "https://www.krwg.org/national-news/2026-07-24/trump-threatens-a-major-escalation-in-iran-after-13-straight-nights-of-strikes",
-      "published_at": "2026-07-24T21:00:00Z",
+      "source": "freepressjournal.in",
+      "url": "https://www.freepressjournal.in/world/us-uk-plan-global-coalition-to-protect-commercial-shipping-in-strait-of-hormuz-amid-escalating-tensions-with-iran",
+      "published_at": "2026-07-25T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
+    },
+    {
+      "id": "1242afebe979db49",
+      "name": "Bahrain Kuwait Iran Strike , बहरीन और कुवैत ने पहली बार ईरान में की भारी बमबारी , ड्रोन - मिसाइल डिपो तबाह , खाड़ी में महायुद्ध का खतरा - bahrain kuwait secretly air strike iran earlier this month with uae help middle ea",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1242afebe979db49",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.952,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "navbharattimes.indiatimes.com",
+      "url": "https://navbharattimes.indiatimes.com/world/asian-countries/bahrain-kuwait-secretly-air-strike-iran-earlier-this-month-with-uae-help-middle-east-war-escalation/articleshow/132618561.cms",
+      "published_at": "2026-07-25T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
+    },
+    {
+      "id": "0c1a50dec89b1635",
+      "name": "All 28 Indian Crew Safe After Iran Tanker Attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0c1a50dec89b1635",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.952,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "deccanchronicle.com",
+      "url": "https://www.deccanchronicle.com/world/all-28-indian-crew-safe-after-tanker-attacked-in-iranian-waters-indian-embassy-in-tehran-1973759",
+      "published_at": "2026-07-25T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
+    },
+    {
+      "id": "e5b1d1183d6f5de6",
+      "name": "Iranian threat forced Trump to switch planes after NATO summit",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e5b1d1183d6f5de6",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.769,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "smh.com.au",
+      "url": "https://www.smh.com.au/world/north-america/iranian-threat-forced-trump-to-switch-planes-after-nato-summit-20260725-p60ih7.html",
+      "published_at": "2026-07-25T03:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
+    },
+    {
+      "id": "453e871b70ee931f",
+      "name": "Ops . Nasr - 2 and Saeqeh : Iran retaliatory strikes against US military assets on July 24",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "453e871b70ee931f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.826,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/07/24/772942/Iran-IRGC-Army-Operation-Nasr-2-Sa-eqeh-United-States",
+      "published_at": "2026-07-25T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "af4e35ed10ddc6df",
+      "name": "Iran : US attack on rescue vessels amounts to  war crime",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "af4e35ed10ddc6df",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.826,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/07/24/772943/Iran-United-States-attack-rescue-vessels-complaint-United-Nations",
+      "published_at": "2026-07-25T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "dfca0df83f34fef3",
+      "name": "US Military Says It Fired on Another Merchant Vessel Trying to Breach Its Blockade of Iranian Ports",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dfca0df83f34fef3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.826,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "oneindia.com",
+      "url": "https://www.oneindia.com/international/us-military-says-it-fired-on-another-merchant-vessel-trying-to-breach-its-blockade-of-iranian-ports-8156527.html",
+      "published_at": "2026-07-25T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "9c58324d62b955c2",
+      "name": "Trump weighs harder Iran strikes as war widens",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9c58324d62b955c2",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.826,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "straitstimes.com",
+      "url": "https://www.straitstimes.com/world/middle-east/trump-weighs-harder-iran-strikes-as-war-widens",
+      "published_at": "2026-07-25T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "afa7a6d063014282",
+      "name": "IRGC Claims Destroyed Amazon Bahrain Data Center in Missile Strike",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "afa7a6d063014282",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.501,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "techstory.in",
+      "url": "https://techstory.in/cloud-under-fire-irgc-claims-cruise-missile-strike-destroyed-amazons-bahrain-data-hub/",
+      "published_at": "2026-07-25T02:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      }
+    },
+    {
+      "id": "e10221b3e090dc89",
+      "name": "US , Iran Threaten Attacks on Civilian Infrastructure",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e10221b3e090dc89",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.538,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "philippinetimes.com",
+      "url": "http://www.philippinetimes.com/news/279208508/us-iran-threaten-attacks-on-civilian-infrastructure",
+      "published_at": "2026-07-25T02:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "4777bfba8ccb2f17",
+      "name": "US missiles hit Iran as path towards de - escalation uncertain",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4777bfba8ccb2f17",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.466,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/defence/us-missiles-hit-iran-as-path-towards-de-escalation-uncertain/articleshow/132617297.cms",
+      "published_at": "2026-07-25T02:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.2,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "fa2d1ecc90ffbc4c",
+      "name": "UK WARNING : Britain Says It Ready To Defend Itself After Iranian Threat – The Yeshiva World",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fa2d1ecc90ffbc4c",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.466,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2578477/uk-warning-britain-says-its-ready-to-defend-itself-after-iranian-threat.html",
+      "published_at": "2026-07-25T02:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.2
+      }
+    },
+    {
+      "id": "031c2bbcd4d84149",
+      "name": "US Military Fires on Vessel Breaching Iran Blockade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "031c2bbcd4d84149",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.501,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "deccanchronicle.com",
+      "url": "https://www.deccanchronicle.com/west-asia/us-military-fires-on-vessel-breaching-iran-blockade-1973756",
+      "published_at": "2026-07-25T02:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      }
+    },
+    {
+      "id": "3974c82977bdbe38",
+      "name": "Another Indian seafarer killed in Black Sea strike ; LPG carrier comes under fire near Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3974c82977bdbe38",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.501,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/india-news/another-indian-seafarer-killed-in-black-sea-strike-lpg-carrier-comes-under-fire-near-iran-101784941451279.html",
+      "published_at": "2026-07-25T02:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      }
+    },
+    {
+      "id": "64971702dcfd5632",
+      "name": "GULF STATES STRIKE BACK : Bahrain And Kuwait Secretly Bombed Iranian Military Sites",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "64971702dcfd5632",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.466,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2578600/gulf-states-strike-back-bahrain-and-kuwait-secretly-bombed-iranian-military-sites.html",
+      "published_at": "2026-07-25T02:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "dec6bdaf87bf82f5",
+      "name": "Iran war : Saudi - led coalition attacks Yemen Hodeida",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dec6bdaf87bf82f5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.466,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dw.com",
+      "url": "https://www.dw.com/en/iran-war-saudi-led-coalition-attacks-yemens-hodeida-port-city/live-78093040",
+      "published_at": "2026-07-25T02:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "1caa37ad2a94b437",
+      "name": "Trump Says No Decision on Major Iran Strikes as U . S .- Tehran Talks Intensify",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1caa37ad2a94b437",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.404,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "econotimes.com",
+      "url": "http://www.econotimes.com/Trump-Says-No-Decision-on-Major-Iran-Strikes-as-US-Tehran-Talks-Intensify-1747722",
+      "published_at": "2026-07-25T01:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      }
+    },
+    {
+      "id": "1cd627b623d1d582",
+      "name": "There a military exit ... or a smarter strategy : Trump reveals active talks with Iran amid ongoing strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1cd627b623d1d582",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.404,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260725/4478928.html",
+      "published_at": "2026-07-25T01:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      }
+    },
+    {
+      "id": "2c3eb5d00eb43a83",
+      "name": "Iran war nears turning point as Trump weighs broader attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2c3eb5d00eb43a83",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.326,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "foxrochester.com",
+      "url": "https://foxrochester.com/news/nation-world/iran-war-nears-turning-point-as-trump-weighs-broader-attack-strait-of-hormuz-nuclear-program-houthis-red-sea-middle-east-war",
+      "published_at": "2026-07-25T00:45:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
         "short": 1.9,
         "extended": 3.2
-      },
-      "carried_forward": true
+      }
     },
     {
-      "id": "358cdb139a55201e",
-      "name": "Bahrain , Kuwait secretly sent fighter jets to strike Iran this month",
+      "id": "5e71fe8fbe2bdce0",
+      "name": "US military says it fired on another vessel breaching Iranian blockade",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "358cdb139a55201e",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.187,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-903577",
-      "published_at": "2026-07-24T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9ad6985850824fe5",
-      "name": "Trump threatens a major escalation in Iran as the war nears the 5 - month mark",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9ad6985850824fe5",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.216,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "capeandislands.org",
-      "url": "https://www.capeandislands.org/2026-07-24/trump-threatens-a-major-escalation-in-iran-as-the-war-nears-the-5-month-mark",
-      "published_at": "2026-07-24T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ad25762e7e2b8da2",
-      "name": "US military damage sustained through Iran war marks  end of an era  in Middle East strategy - 25 - Jul - 2026",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ad25762e7e2b8da2",
+      "dependency_group": "5e71fe8fbe2bdce0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.216,
+      "freshness": 0.376,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -190,28 +683,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "home.nzcity.co.nz",
-      "url": "https://home.nzcity.co.nz/news/article.aspx?id=450595",
-      "published_at": "2026-07-24T20:00:00Z",
+      "source": "arabnews.com",
+      "url": "https://www.arabnews.com/node/2652235/middle-east",
+      "published_at": "2026-07-25T01:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      }
     },
     {
-      "id": "b1d87a05434e3a26",
-      "name": "Iran IRGC claims fresh strikes targeting U . S . bases , assets in Kuwait , Bahrain , Jordan",
+      "id": "4213740119828424",
+      "name": "La Guardia Revolucionaria iraní amenazó a los civiles que viven cerca de bases militares de Estados Unidos en Medio Oriente",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "b1d87a05434e3a26",
+      "dependency_group": "4213740119828424",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.187,
+      "freshness": 0.376,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -222,80 +714,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "iraqsun.com",
-      "url": "http://www.iraqsun.com/news/279207582/iran-irgc-claims-fresh-strikes-targeting-us-bases-assets-in-kuwait-bahrain-jordan",
-      "published_at": "2026-07-24T19:30:00Z",
+      "source": "infobae.com",
+      "url": "https://www.infobae.com/america/mundo/2026/07/25/la-guardia-revolucionaria-irani-amenazo-a-los-civiles-que-viven-cerca-de-bases-militares-de-estados-unidos-en-medio-oriente/",
+      "published_at": "2026-07-25T01:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5fc21e902f02ec46",
-      "name": "Iran targets American strongholds around the Gulf while US hits more Iranian military sites",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5fc21e902f02ec46",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.187,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailyadvance.com",
-      "url": "http://www.dailyadvance.com/news/world/iran-targets-american-strongholds-around-the-gulf-while-us-hits-more-iranian-military-sites/article_3ec6b3ea-bde4-57d8-b845-5f27f388a889.html",
-      "published_at": "2026-07-24T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e65dcf03215aed09",
-      "name": "Iran claims attacks on US bases in Jordan , Iraq",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e65dcf03215aed09",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.187,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "azernews.az",
-      "url": "https://www.azernews.az/region/261520.html",
-      "published_at": "2026-07-24T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      }
     }
   ],
   "history": [
@@ -340,17 +767,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 5,
       "extended": 8
+    },
+    {
+      "timestamp": "2026-07-25T04:40:15.612949Z",
+      "immediate": 5,
+      "short": 16,
+      "extended": 26
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-07-24T21:34:29.431635Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-07-25T04:40:15.612949Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "ok": true,
+        "items": 150,
+        "relevant": 21
       },
       "manual": {
         "ok": true,
