@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-07-25T11:56:08.034694Z",
+  "mode": "degraded",
+  "generated_at": "2026-07-25T13:56:26.979529Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 14,
-      "low": 1,
-      "high": 27,
-      "confidence": 65,
-      "status": "נמוך"
+      "score": 8,
+      "low": 0,
+      "high": 25,
+      "confidence": 46,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 66,
+      "score": 12,
+      "low": 0,
+      "high": 29,
+      "confidence": 46,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 66,
-      "status": "מוגבר"
+      "score": 15,
+      "low": 0,
+      "high": 32,
+      "confidence": 46,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -3
+    "points_60m": -6
   },
   "changes": [
     {
       "time": "11:45",
       "text": "Top Israeli Minister :  Best For U If US Fights Iran While Israel Sits Out New Round of War « nuclear - news",
-      "impact": "השפעה מיידית מחושבת: +9.9",
+      "impact": "השפעה מיידית מחושבת: +5.6",
       "direction": "up",
       "source": "nuclear-news.net",
       "signal_id": "50a001ec683777e2"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "14:30",
       "text": "Iran records first  peaceful night  following 13 days of US strikes",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "aninews.in",
       "signal_id": "b686b32555e0225d"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "14:15",
       "text": "Iran destroys US military residences , fighter jets in Jordan , Erbil",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "globalsecurity.org",
       "signal_id": "896c7b83d3eaa384"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "14:15",
       "text": "Iran FM says  no military solution  to Yemen conflict",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "arynews.tv",
       "signal_id": "11bab952f9a29988"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "50a001ec683777e2",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.402,
+      "freshness": 0.227,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 9.9,
-        "short": 7.7,
-        "extended": 3.3
-      }
+        "immediate": 5.6,
+        "short": 4.4,
+        "extended": 1.9
+      },
+      "carried_forward": true
     },
     {
       "id": "b686b32555e0225d",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b686b32555e0225d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.883,
+      "freshness": 0.498,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      }
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      },
+      "carried_forward": true
     },
     {
       "id": "896c7b83d3eaa384",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "896c7b83d3eaa384",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.822,
+      "freshness": 0.464,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T11:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.1
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      },
+      "carried_forward": true
     },
     {
       "id": "11bab952f9a29988",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "11bab952f9a29988",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.822,
+      "freshness": 0.464,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T11:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.1
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      },
+      "carried_forward": true
     },
     {
       "id": "9edc308bbff9d6fa",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9edc308bbff9d6fa",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.765,
+      "freshness": 0.432,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T11:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      },
+      "carried_forward": true
     },
     {
       "id": "2c47a683d5317510",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2c47a683d5317510",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.618,
+      "freshness": 0.348,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T10:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "376960cecbf71b80",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "376960cecbf71b80",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.499,
+      "freshness": 0.281,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,103 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      }
-    },
-    {
-      "id": "b2dcfc9bc794c10d",
-      "name": "Houthis claim missile strike on Saudi Arabia as Trump weighs fresh military action against Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b2dcfc9bc794c10d",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.375,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.3
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/houthis-claim-missile-strike-on-saudi-arabia-as-trump-weighs-fresh-military-action-against-iran-article-13983310.html",
-      "published_at": "2026-07-25T08:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "dfca0df83f34fef3",
-      "name": "US military says it fired on another merchant vessel trying to breach its blockade of Iranian ports",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "dfca0df83f34fef3",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.464,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "santafenewmexican.com",
-      "url": "https://www.santafenewmexican.com/news/us-military-says-it-fired-on-another-merchant-vessel-trying-to-breach-its-blockade-of/article_f5ecbe31-a22b-5a98-95ee-d11caa5a727f.html",
-      "published_at": "2026-07-25T09:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
-    },
-    {
-      "id": "5115268113551362",
-      "name": "Iran swift rescue of Indian , other crew after vessel attack highlights commitment to seafarer safety : Amb Fathali",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5115268113551362",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.464,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "indiagazette.com",
-      "url": "http://www.indiagazette.com/news/279208952/iran-swift-rescue-of-indian-other-crew-after-vessel-attack-highlights-commitment-to-seafarers-safety-amb-fathali",
-      "published_at": "2026-07-25T09:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
+      "carried_forward": true
     },
     {
       "id": "ece922ffccadf154",
@@ -393,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ece922ffccadf154",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.499,
+      "freshness": 0.281,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +323,107 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      }
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "b2dcfc9bc794c10d",
+      "name": "Houthis claim missile strike on Saudi Arabia as Trump weighs fresh military action against Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b2dcfc9bc794c10d",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.211,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/houthis-claim-missile-strike-on-saudi-arabia-as-trump-weighs-fresh-military-action-against-iran-article-13983310.html",
+      "published_at": "2026-07-25T08:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "dfca0df83f34fef3",
+      "name": "US military says it fired on another merchant vessel trying to breach its blockade of Iranian ports",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dfca0df83f34fef3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.262,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "santafenewmexican.com",
+      "url": "https://www.santafenewmexican.com/news/us-military-says-it-fired-on-another-merchant-vessel-trying-to-breach-its-blockade-of/article_f5ecbe31-a22b-5a98-95ee-d11caa5a727f.html",
+      "published_at": "2026-07-25T09:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "5115268113551362",
+      "name": "Iran swift rescue of Indian , other crew after vessel attack highlights commitment to seafarer safety : Amb Fathali",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5115268113551362",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.262,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "indiagazette.com",
+      "url": "http://www.indiagazette.com/news/279208952/iran-swift-rescue-of-indian-other-crew-after-vessel-attack-highlights-commitment-to-seafarers-safety-amb-fathali",
+      "published_at": "2026-07-25T09:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     },
     {
       "id": "8375266334ad5ed9",
@@ -424,7 +435,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8375266334ad5ed9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.432,
+      "freshness": 0.244,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,41 +451,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
-    },
-    {
-      "id": "da86dba367012807",
-      "name": "US evacuates Al Udeid , Al Dhafra air bases in Qatar , UAE after Iranian strikes : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "da86dba367012807",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.349,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/07/25/772955/US-evacuates-Al-Udeid,-Al-Dhafra-air-bases-in-Qatar,-UAE-after-Iranian-strikes--Report",
-      "published_at": "2026-07-25T08:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
+      "carried_forward": true
     },
     {
       "id": "1152f8007c4268a5",
@@ -486,7 +467,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1152f8007c4268a5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.375,
+      "freshness": 0.211,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,10 +483,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
+      },
+      "carried_forward": true
     },
     {
       "id": "7f2bcfe2caedf520",
@@ -517,7 +499,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7f2bcfe2caedf520",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.375,
+      "freshness": 0.211,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,10 +515,43 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-25T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "da86dba367012807",
+      "name": "US evacuates Al Udeid , Al Dhafra air bases in Qatar , UAE after Iranian strikes : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "da86dba367012807",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.197,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/07/25/772955/US-evacuates-Al-Udeid,-Al-Dhafra-air-bases-in-Qatar,-UAE-after-Iranian-strikes--Report",
+      "published_at": "2026-07-25T08:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -611,17 +626,23 @@ window.MAGEN_STATE = {
       "immediate": 14,
       "short": 21,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-07-25T13:56:26.979529Z",
+      "immediate": 8,
+      "short": 12,
+      "extended": 15
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-07-25T11:56:08.034694Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 15
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 15
       },
       "manual": {
         "ok": true,
