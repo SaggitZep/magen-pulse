@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-07-25T20:43:04.902266Z",
+  "generated_at": "2026-07-25T21:40:04.842443Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
       "high": 19,
-      "confidence": 50,
+      "confidence": 47,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 8,
       "low": 0,
-      "high": 26,
-      "confidence": 50,
+      "high": 25,
+      "confidence": 47,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 50,
+      "score": 13,
+      "low": 0,
+      "high": 30,
+      "confidence": 47,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@
     {
       "time": "22:00",
       "text": "Iran - backed Houthis fire missiles at Saudi Arabia in response to airstrikes in Yemen",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "economictimes.indiatimes.com",
       "signal_id": "8d69e3b70f70878a"
@@ -50,7 +50,7 @@
     {
       "time": "21:45",
       "text": "Middle East escalation : Bahrain and Kuwait carried out first Iran strikes with UAE help , reveals WSJ report",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "iranherald.com",
       "signal_id": "5793ba7f94176c11"
@@ -58,7 +58,7 @@
     {
       "time": "21:45",
       "text": "US holds off Iran strikes for first time in two weeks",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "sconeadvocate.com.au",
       "signal_id": "216af6fd60ef99f9"
@@ -66,7 +66,7 @@
     {
       "time": "21:45",
       "text": "US military says it fired on another merchant vessel trying to breach blockade of Iranian ports",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "29news.com",
       "signal_id": "baddc275cd6af314"
@@ -83,7 +83,7 @@
       "dependency_group": "8d69e3b70f70878a",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.612,
+      "freshness": 0.467,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-07-25T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.2
+        "immediate": 1.0,
+        "short": 3.2,
+        "extended": 5.5
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "5793ba7f94176c11",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.57,
+      "freshness": 0.434,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-07-25T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "216af6fd60ef99f9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.57,
+      "freshness": 0.434,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-07-25T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "baddc275cd6af314",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.57,
+      "freshness": 0.434,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-07-25T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "695ffe646efe5dfe",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.57,
+      "freshness": 0.434,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-07-25T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "2f25766c623dc11f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.46,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-07-25T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "1ee00e52afa8fa33",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.494,
+      "freshness": 0.377,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@
       "published_at": "2026-07-25T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@
       "dependency_group": "ebc7edd739d27ac1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.494,
+      "freshness": 0.377,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@
       "published_at": "2026-07-25T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -339,7 +339,7 @@
       "dependency_group": "8d9344ac29cb751d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.371,
+      "freshness": 0.283,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +355,9 @@
       "published_at": "2026-07-25T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.7
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -371,7 +371,7 @@
       "dependency_group": "ddeea81466ce2d6f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.371,
+      "freshness": 0.283,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -387,9 +387,9 @@
       "published_at": "2026-07-25T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.7
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -403,7 +403,7 @@
       "dependency_group": "e87ece790d214ebe",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.279,
+      "freshness": 0.213,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -419,9 +419,9 @@
       "published_at": "2026-07-25T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -435,7 +435,7 @@
       "dependency_group": "315341e40f0dd81a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.3,
+      "freshness": 0.228,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -451,9 +451,9 @@
       "published_at": "2026-07-25T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 3.0
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     }
@@ -572,6 +572,12 @@
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-07-25T21:40:04.842443Z",
+      "immediate": 2,
+      "short": 8,
+      "extended": 13
     }
   ],
   "health": {
