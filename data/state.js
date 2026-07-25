@@ -1,121 +1,120 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-07-25T09:13:20.397771Z",
+  "mode": "live",
+  "generated_at": "2026-07-25T10:47:39.125878Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
-      "low": 0,
-      "high": 18,
-      "confidence": 44,
-      "status": "לא זוהה אות חריג"
+      "score": 17,
+      "low": 4,
+      "high": 30,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
-      "low": 0,
-      "high": 21,
-      "confidence": 44,
-      "status": "לא זוהה אות חריג"
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 66,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 7,
-      "low": 0,
-      "high": 24,
-      "confidence": 44,
-      "status": "לא זוהה אות חריג"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 66,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "זינוק חריג",
+    "points_60m": 16
   },
   "changes": [
     {
-      "time": "07:30",
-      "text": "US & united kingdom Plan Global Coalition To Protect Commercial Shipping In Strait Of Hormuz Amid Escalating Tensions With Iran",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "11:45",
+      "text": "Top Israeli Minister :  Best For U If US Fights Iran While Israel Sits Out New Round of War « nuclear - news",
+      "impact": "השפעה מיידית מחושבת: +13.7",
       "direction": "up",
-      "source": "freepressjournal.in",
-      "signal_id": "c13c4175699c4ee6"
+      "source": "nuclear-news.net",
+      "signal_id": "50a001ec683777e2"
     },
     {
-      "time": "07:30",
-      "text": "Bahrain Kuwait Iran Strike , बहरीन और कुवैत ने पहली बार ईरान में की भारी बमबारी , ड्रोन - मिसाइल डिपो तबाह , खाड़ी में महायुद्ध का खतरा - bahrain kuwait secretly air strike iran earlier this month with uae help middle ea",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "13:15",
+      "text": "Bridges and infrastructure are hit as US strikes deeper into Iran",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "navbharattimes.indiatimes.com",
-      "signal_id": "1242afebe979db49"
+      "source": "durangoherald.com",
+      "signal_id": "2c47a683d5317510"
     },
     {
-      "time": "07:30",
-      "text": "All 28 Indian Crew Safe After Iran Tanker Attack",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "12:30",
+      "text": "Iran - Backed Houthis Claim Missile Strike On Saudi Arabia",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "deccanchronicle.com",
-      "signal_id": "0c1a50dec89b1635"
+      "source": "iranherald.com",
+      "signal_id": "376960cecbf71b80"
     },
     {
-      "time": "06:45",
-      "text": "Iranian threat forced Trump to switch planes after NATO summit",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "12:30",
+      "text": "Trump defends tariffs as economic boost , says Iran wants deal but wont get nuclear weapon",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "smh.com.au",
-      "signal_id": "e5b1d1183d6f5de6"
+      "source": "ibtimes.co.in",
+      "signal_id": "ece922ffccadf154"
     }
   ],
   "signals": [
     {
-      "id": "c13c4175699c4ee6",
-      "name": "US & united kingdom Plan Global Coalition To Protect Commercial Shipping In Strait Of Hormuz Amid Escalating Tensions With Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
+      "id": "50a001ec683777e2",
+      "name": "Top Israeli Minister :  Best For U If US Fights Iran While Israel Sits Out New Round of War « nuclear - news",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "c13c4175699c4ee6",
-      "strength": 0.4,
+      "dependency_group": "50a001ec683777e2",
+      "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.259,
+      "freshness": 0.558,
       "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
       },
       "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
       },
-      "source": "freepressjournal.in",
-      "url": "https://www.freepressjournal.in/world/us-uk-plan-global-coalition-to-protect-commercial-shipping-in-strait-of-hormuz-amid-escalating-tensions-with-iran",
-      "published_at": "2026-07-25T04:30:00Z",
+      "source": "nuclear-news.net",
+      "url": "https://nuclear-news.net/2026/07/25/3-a-top-israeli-minister-best-for-us-if-us-fights-iran-while-israel-sits-out-new-round-of-war/",
+      "published_at": "2026-07-25T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
+        "immediate": 13.7,
+        "short": 10.7,
+        "extended": 4.5
+      }
     },
     {
-      "id": "1242afebe979db49",
-      "name": "Bahrain Kuwait Iran Strike , बहरीन और कुवैत ने पहली बार ईरान में की भारी बमबारी , ड्रोन - मिसाइल डिपो तबाह , खाड़ी में महायुद्ध का खतरा - bahrain kuwait secretly air strike iran earlier this month with uae help middle ea",
+      "id": "2c47a683d5317510",
+      "name": "Bridges and infrastructure are hit as US strikes deeper into Iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "1242afebe979db49",
+      "dependency_group": "2c47a683d5317510",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.259,
+      "freshness": 0.856,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,28 +125,58 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "navbharattimes.indiatimes.com",
-      "url": "https://navbharattimes.indiatimes.com/world/asian-countries/bahrain-kuwait-secretly-air-strike-iran-earlier-this-month-with-uae-help-middle-east-war-escalation/articleshow/132618561.cms",
-      "published_at": "2026-07-25T04:30:00Z",
+      "source": "durangoherald.com",
+      "url": "https://www.durangoherald.com/articles/associated-press/bridges-and-infrastructure-are-hit-as-us-strikes-deeper-into-iran/",
+      "published_at": "2026-07-25T10:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.4
+      }
     },
     {
-      "id": "0c1a50dec89b1635",
-      "name": "All 28 Indian Crew Safe After Iran Tanker Attack",
+      "id": "376960cecbf71b80",
+      "name": "Iran - Backed Houthis Claim Missile Strike On Saudi Arabia",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "0c1a50dec89b1635",
+      "dependency_group": "376960cecbf71b80",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.691,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iranherald.com",
+      "url": "http://www.iranherald.com/news/279208955/iran-backed-houthis-claim-missile-strike-on-saudi-arabia",
+      "published_at": "2026-07-25T09:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "ece922ffccadf154",
+      "name": "Trump defends tariffs as economic boost , says Iran wants deal but wont get nuclear weapon",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ece922ffccadf154",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.259,
+      "freshness": 0.691,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,28 +187,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "deccanchronicle.com",
-      "url": "https://www.deccanchronicle.com/world/all-28-indian-crew-safe-after-tanker-attacked-in-iranian-waters-indian-embassy-in-tehran-1973759",
-      "published_at": "2026-07-25T04:30:00Z",
+      "source": "ibtimes.co.in",
+      "url": "https://www.ibtimes.co.in/trump-defends-tariffs-economic-boost-says-iran-wants-deal-wont-get-nuclear-weapon-904161",
+      "published_at": "2026-07-25T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
     },
     {
-      "id": "e5b1d1183d6f5de6",
-      "name": "Iranian threat forced Trump to switch planes after NATO summit",
+      "id": "b2dcfc9bc794c10d",
+      "name": "Houthis claim missile strike on Saudi Arabia as Trump weighs fresh military action against Iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e5b1d1183d6f5de6",
-      "strength": 0.45,
+      "dependency_group": "b2dcfc9bc794c10d",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.209,
+      "freshness": 0.519,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -190,84 +218,19 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "smh.com.au",
-      "url": "https://www.smh.com.au/world/north-america/iranian-threat-forced-trump-to-switch-planes-after-nato-summit-20260725-p60ih7.html",
-      "published_at": "2026-07-25T03:45:00Z",
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/houthis-claim-missile-strike-on-saudi-arabia-as-trump-weighs-fresh-military-action-against-iran-article-13983310.html",
+      "published_at": "2026-07-25T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "453e871b70ee931f",
-      "name": "Ops . Nasr - 2 and Saeqeh : Iran retaliatory strikes against US military assets on July 24",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "453e871b70ee931f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.225,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/07/24/772942/Iran-IRGC-Army-Operation-Nasr-2-Sa-eqeh-United-States",
-      "published_at": "2026-07-25T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "af4e35ed10ddc6df",
-      "name": "Iran : US attack on rescue vessels amounts to  war crime",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "af4e35ed10ddc6df",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.225,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/07/24/772943/Iran-United-States-attack-rescue-vessels-complaint-United-Nations",
-      "published_at": "2026-07-25T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
     },
     {
       "id": "dfca0df83f34fef3",
-      "name": "US Military Says It Fired on Another Merchant Vessel Trying to Breach Its Blockade of Iranian Ports",
+      "name": "US military says it fired on another merchant vessel trying to breach its blockade of Iranian ports",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
@@ -275,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "dfca0df83f34fef3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.225,
+      "freshness": 0.643,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -286,28 +249,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "oneindia.com",
-      "url": "https://www.oneindia.com/international/us-military-says-it-fired-on-another-merchant-vessel-trying-to-breach-its-blockade-of-iranian-ports-8156527.html",
-      "published_at": "2026-07-25T04:00:00Z",
+      "source": "santafenewmexican.com",
+      "url": "https://www.santafenewmexican.com/news/us-military-says-it-fired-on-another-merchant-vessel-trying-to-breach-its-blockade-of/article_f5ecbe31-a22b-5a98-95ee-d11caa5a727f.html",
+      "published_at": "2026-07-25T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
     },
     {
-      "id": "9c58324d62b955c2",
-      "name": "Trump weighs harder Iran strikes as war widens",
+      "id": "5115268113551362",
+      "name": "Iran swift rescue of Indian , other crew after vessel attack highlights commitment to seafarer safety : Amb Fathali",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "9c58324d62b955c2",
+      "dependency_group": "5115268113551362",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.225,
+      "freshness": 0.643,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -318,16 +280,263 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "straitstimes.com",
-      "url": "https://www.straitstimes.com/world/middle-east/trump-weighs-harder-iran-strikes-as-war-widens",
-      "published_at": "2026-07-25T04:00:00Z",
+      "source": "indiagazette.com",
+      "url": "http://www.indiagazette.com/news/279208952/iran-swift-rescue-of-indian-other-crew-after-vessel-attack-highlights-commitment-to-seafarers-safety-amb-fathali",
+      "published_at": "2026-07-25T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "8375266334ad5ed9",
+      "name": "Guerra in Iran : negli united states cresce il malcontento . Anche la base di Trump mostra crepe",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8375266334ad5ed9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.599,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "agensir.it",
+      "url": "https://www.agensir.it/mondo/2026/07/25/guerra-in-iran-negli-usa-cresce-il-malcontento-anche-la-base-di-trump-mostra-crepe/",
+      "published_at": "2026-07-25T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      }
+    },
+    {
+      "id": "1152f8007c4268a5",
+      "name": "Trump says US  locked and loaded , vows more Iran strikes while hinting at talks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1152f8007c4268a5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.519,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "scmp.com",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3361831/trump-says-us-locked-and-loaded-vows-more-iran-strikes-while-hinting-talks",
+      "published_at": "2026-07-25T08:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "7f2bcfe2caedf520",
+      "name": "Live updates : For first time in 2 weeks , US military does not announce new Iran strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7f2bcfe2caedf520",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.519,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "edition.cnn.com",
+      "url": "https://edition.cnn.com/2026/07/25/world/live-news/iran-war-trump",
+      "published_at": "2026-07-25T08:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "1594b5dca8e73bfb",
+      "name": "Trump abbassa i toni con lIran , ma avverte :  Non avranno larma nucleare . Escalation tra Hormuz , Mar Rosso e Cisgiordania",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1594b5dca8e73bfb",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.519,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "affaritaliani.it",
+      "url": "https://www.affaritaliani.it/esteri/trump-abbassa-i-toni-con-liran-ma-avverte-non-avranno-larma-nucleare-escalation-tra-hormuz-mar-rosso-e-cisgiordania.html",
+      "published_at": "2026-07-25T08:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "da86dba367012807",
+      "name": "US evacuates Al Udeid , Al Dhafra air bases in Qatar , UAE after Iranian strikes : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "da86dba367012807",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.483,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/07/25/772955/US-evacuates-Al-Udeid,-Al-Dhafra-air-bases-in-Qatar,-UAE-after-Iranian-strikes--Report",
+      "published_at": "2026-07-25T08:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
+    },
+    {
+      "id": "05668a2cc3237c0f",
+      "name": "UK  ready to defend itself  after Iran threatens Cotswolds RAF base",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "05668a2cc3237c0f",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.419,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thisisoxfordshire.co.uk",
+      "url": "https://www.thisisoxfordshire.co.uk/news/26408436.uk-ready-defend-itself-iran-threatens-cotswolds-raf-base/",
+      "published_at": "2026-07-25T07:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "b843d4e49815eb43",
+      "name": "US military says it disabled tanker attempting to breach Iran port blockade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b843d4e49815eb43",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.483,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thepeninsulaqatar.com",
+      "url": "http://thepeninsulaqatar.com/article/25/07/2026/us-military-says-it-disabled-tanker-attempting-to-breach-iran-port-blockade",
+      "published_at": "2026-07-25T08:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
+    },
+    {
+      "id": "55737e02b13786a8",
+      "name": "U . S . and Iran Are Stuck in a Cycle of Military Escalation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "55737e02b13786a8",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.338,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "politicalwire.com",
+      "url": "https://politicalwire.com/2026/07/25/u-s-and-iran-are-stuck-in-a-cycle-of-military-escalation/",
+      "published_at": "2026-07-25T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.3
+      }
     }
   ],
   "history": [
@@ -390,17 +599,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 7
+    },
+    {
+      "timestamp": "2026-07-25T10:47:39.125878Z",
+      "immediate": 17,
+      "short": 22,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-07-25T04:40:15.612949Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-07-25T10:47:39.125878Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 15
       },
       "manual": {
         "ok": true,
