@@ -1,78 +1,233 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-07-26T20:03:00.195055Z",
+  "mode": "live",
+  "generated_at": "2026-07-26T21:09:53.072383Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 22,
-      "low": 6,
-      "high": 38,
-      "confidence": 48,
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 69,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 23,
-      "low": 7,
-      "high": 39,
-      "confidence": 48,
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 69,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 5,
-      "high": 37,
-      "confidence": 48,
-      "status": "נמוך"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -9
+    "level": "עלייה מהירה",
+    "points_60m": 12
   },
   "changes": [
     {
-      "time": "21:00",
-      "text": "Abbas Araghchi Iran , यूक्रेन पर भड़का ईरान : अराघची बोले -  जेलेंस्की ने इजरायल के इशारे पर किया हमला , बदले की धमकी दी - ukraine attacked iranian ship at israel behest revenge will surely be taken says abbas araghchi -",
-      "impact": "השפעה מיידית מחושבת: +13.7",
+      "time": "23:30",
+      "text": "Iran claims Ukraine attacked vessel at Israel behest , warns retaliation",
+      "impact": "השפעה מיידית מחושבת: +22.4",
       "direction": "up",
-      "source": "navbharattimes.indiatimes.com",
-      "signal_id": "70de17f836f0cf69"
+      "source": "ynetnews.com",
+      "signal_id": "5f375727327452fa"
     },
     {
-      "time": "18:45",
-      "text": "Netanyahu claims US - Israeli strikes crippled Iran nuclear program  quite a bit",
-      "impact": "השפעה מיידית מחושבת: +7.2",
+      "time": "23:30",
+      "text": "Cannot Go Unanswered : Iran Threatens Action Against Ukraine , Claims Caspian Sea Strike Was Done  At Israel Behest",
+      "impact": "השפעה מיידית מחושבת: +22.4",
       "direction": "up",
-      "source": "aa.com.tr",
-      "signal_id": "5b1e397b7f38db5c"
+      "source": "newsx.com",
+      "signal_id": "d316d36fcde3f94d"
     },
     {
-      "time": "20:30",
-      "text": "PM Benjamin Netanyahu : Iran war will conclude with end of regime or nuclear program",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "22:15",
+      "text": "Biden admin . predicted how Israel would use Gaza war to escalate to Iran strikes",
+      "impact": "השפעה מיידית מחושבת: +18.9",
       "direction": "up",
       "source": "jpost.com",
-      "signal_id": "b2dbf642e87de7c9"
+      "signal_id": "ac87ebe3baa57aae"
     },
     {
-      "time": "21:00",
-      "text": "U . S . pauses attacks on Iran for a second straight day and Tehran does too",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "23:00",
+      "text": "They have to end their nuclear program : Israeli PM Netanyahu targets Iran ahead of US visit",
+      "impact": "השפעה מיידית מחושבת: +17.7",
       "direction": "up",
-      "source": "northernpublicradio.org",
-      "signal_id": "2222b7c2376ff1fc"
+      "source": "news.webindia123.com",
+      "signal_id": "30c6836292b1f9b2"
     }
   ],
   "signals": [
+    {
+      "id": "5f375727327452fa",
+      "name": "Iran claims Ukraine attacked vessel at Israel behest , warns retaliation",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5f375727327452fa",
+      "strength": 0.55,
+      "reliability": 0.56,
+      "freshness": 0.827,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "ynetnews.com",
+      "url": "https://www.ynetnews.com/article/r1o143qrmg",
+      "published_at": "2026-07-26T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 22.4,
+        "short": 17.5,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "d316d36fcde3f94d",
+      "name": "Cannot Go Unanswered : Iran Threatens Action Against Ukraine , Claims Caspian Sea Strike Was Done  At Israel Behest",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d316d36fcde3f94d",
+      "strength": 0.55,
+      "reliability": 0.56,
+      "freshness": 0.827,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "newsx.com",
+      "url": "https://www.newsx.com/world/cannot-go-unanswered-iran-threatens-action-against-ukraine-claims-caspian-sea-strike-was-done-at-israels-behest-252956/",
+      "published_at": "2026-07-26T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 22.4,
+        "short": 17.5,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "ac87ebe3baa57aae",
+      "name": "Biden admin . predicted how Israel would use Gaza war to escalate to Iran strikes",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ac87ebe3baa57aae",
+      "strength": 0.5,
+      "reliability": 0.74,
+      "freshness": 0.579,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "jpost.com",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-903717",
+      "published_at": "2026-07-26T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 18.9,
+        "short": 14.7,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "30c6836292b1f9b2",
+      "name": "They have to end their nuclear program : Israeli PM Netanyahu targets Iran ahead of US visit",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "30c6836292b1f9b2",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.717,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260726/4479542.html",
+      "published_at": "2026-07-26T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 17.7,
+        "short": 13.8,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "9030be0f34b80815",
+      "name": "Ukraine attack on Iranian commercial vessel is to drag Europe into Israel war : Iran FM",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9030be0f34b80815",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.539,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "prokerala.com",
+      "url": "https://www.prokerala.com/news/articles/a1792790.html",
+      "published_at": "2026-07-26T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 13.3,
+        "short": 10.4,
+        "extended": 4.4
+      }
+    },
     {
       "id": "70de17f836f0cf69",
       "name": "Abbas Araghchi Iran , यूक्रेन पर भड़का ईरान : अराघची बोले -  जेलेंस्की ने इजरायल के इशारे पर किया हमला , बदले की धमकी दी - ukraine attacked iranian ship at israel behest revenge will surely be taken says abbas araghchi -",
@@ -83,7 +238,7 @@
       "dependency_group": "70de17f836f0cf69",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.557,
+      "freshness": 0.405,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,43 +254,444 @@
       "published_at": "2026-07-26T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 13.7,
-        "short": 10.7,
-        "extended": 4.5
-      },
-      "carried_forward": true
+        "immediate": 10.0,
+        "short": 7.8,
+        "extended": 3.3
+      }
     },
     {
-      "id": "5b1e397b7f38db5c",
-      "name": "Netanyahu claims US - Israeli strikes crippled Iran nuclear program  quite a bit",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "de805f631eff2dea",
+      "name": "As US calls off bombing , Iran hints itll halt strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "5b1e397b7f38db5c",
-      "strength": 0.5,
+      "dependency_group": "de805f631eff2dea",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.293,
+      "freshness": 0.827,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/middle-east/netanyahu-claims-us-israeli-strikes-crippled-iran-s-nuclear-program-quite-a-bit/4009888",
-      "published_at": "2026-07-26T15:45:00Z",
+      "source": "theadvocate.com.au",
+      "url": "https://www.theadvocate.com.au/story/9317858/as-us-calls-off-bombing-iran-hints-itll-halt-strikes/",
+      "published_at": "2026-07-26T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 7.2,
-        "short": 5.6,
-        "extended": 2.4
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "2222b7c2376ff1fc",
+      "name": "U . S . pauses attacks on Iran for a second straight day and Tehran does too",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2222b7c2376ff1fc",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.827,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wnyc.org",
+      "url": "https://wnyc.org/npr/g-s1-135593",
+      "published_at": "2026-07-26T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "9bf44114b2071741",
+      "name": "Iranian crown prince rebukes Trump :  They died for freedom , not a nuclear deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9bf44114b2071741",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.827,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ynetnews.com",
+      "url": "https://www.ynetnews.com/article/h1y8dsxhfx",
+      "published_at": "2026-07-26T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "a68d2231608ae57c",
+      "name": "Iran supreme leader reaffirms support for Hezbollah , demands end to Israeli attacks on Lebanon",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a68d2231608ae57c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.827,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/middle-east/iran-s-supreme-leader-reaffirms-support-for-hezbollah-demands-end-to-israeli-attacks-on-lebanon/4009994",
+      "published_at": "2026-07-26T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "e6f535ccae0fb63c",
+      "name": "Iran threatens war could expand further if US resumes strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e6f535ccae0fb63c",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.717,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thenationalnews.com",
+      "url": "https://www.thenationalnews.com/news/mena/2026/07/26/iran-warns-war-could-expand-further-if-us-continues-strikes/",
+      "published_at": "2026-07-26T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "7140c258570be86c",
+      "name": "Iran accuses Ukraine of deadly attack on ship in Caspian Sea",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7140c258570be86c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.827,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "surinametimes.com",
+      "url": "https://www.surinametimes.com/artikel/iran-accuses-ukraine-of-deadly-attack-on-ship-in-caspian-sea",
+      "published_at": "2026-07-26T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "ec00b58e1b8c8723",
+      "name": "CENTCOM chief advised halt of Iran strikes due to  exhausted  targets : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ec00b58e1b8c8723",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.827,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/middle-east/centcom-chief-advised-halt-of-iran-strikes-due-to-exhausted-targets-report/4009985",
+      "published_at": "2026-07-26T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "b595efc157afd8fc",
+      "name": "Cannot go unanswered : Araghchi condemns Ukraine Caspian Sea strike on Iranian vessel",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b595efc157afd8fc",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.717,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260726/4479537.html",
+      "published_at": "2026-07-26T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      }
+    },
+    {
+      "id": "86a2a3a4d4bbd9c4",
+      "name": "Why Iran Kheibar Shekan Missile Is Drawing Attention",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "86a2a3a4d4bbd9c4",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.579,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newsweek.com",
+      "url": "https://www.newsweek.com/why-irans-kheibar-shekan-missile-is-drawing-attention-12245644",
+      "published_at": "2026-07-26T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "396d19b77e183ee9",
+      "name": "Ukraine claims Caspian Sea attack on ships carrying Iranian military hardware to Russia",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "396d19b77e183ee9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.717,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thenationalnews.com",
+      "url": "https://www.thenationalnews.com/news/europe/2026/07/26/ukraine-claims-caspian-sea-attack-on-ships-carrying-iranian-military-hardware-to-russia/",
+      "published_at": "2026-07-26T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      }
+    },
+    {
+      "id": "255ae397a8886778",
+      "name": "Iran threatens to attack Ukraine after an  attack  on one of its ships",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "255ae397a8886778",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.539,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailymail.com",
+      "url": "https://www.dailymail.com/news/article-16006431/Iran-threatens-attack-Ukraine-attack-one-ships-carrying-hardware-Russia.html",
+      "published_at": "2026-07-26T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "dfca0df83f34fef3",
+      "name": "US military says it fired on another merchant vessel trying to breach its blockade of Iranian ports",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dfca0df83f34fef3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.579,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hellenicshippingnews.com",
+      "url": "https://www.hellenicshippingnews.com/us-military-says-it-fired-on-another-merchant-vessel-trying-to-breach-its-blockade-of-iranian-ports/",
+      "published_at": "2026-07-26T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      }
+    },
+    {
+      "id": "a66c68141e063d91",
+      "name": "US pauses attacks on Iran for a second straight day and Tehran does too - Las Vegas Sun News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a66c68141e063d91",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.539,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "lasvegassun.com",
+      "url": "https://lasvegassun.com/news/2026/jul/26/us-pauses-attacks-on-iran-for-a-second-straight-da/",
+      "published_at": "2026-07-26T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
+    },
+    {
+      "id": "a8dc61fac611d1a9",
+      "name": "Trump Pauses US Strikes in Iran After 13 Days of Attacks , White House Says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a8dc61fac611d1a9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.502,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theepochtimes.com",
+      "url": "https://www.theepochtimes.com/world/trump-pauses-us-strikes-in-iran-after-13-days-of-attacks-white-house-says-6067587",
+      "published_at": "2026-07-26T18:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      }
     },
     {
       "id": "b2dbf642e87de7c9",
@@ -147,7 +703,7 @@
       "dependency_group": "b2dbf642e87de7c9",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.483,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,43 +719,10 @@
       "published_at": "2026-07-26T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2222b7c2376ff1fc",
-      "name": "U . S . pauses attacks on Iran for a second straight day and Tehran does too",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2222b7c2376ff1fc",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.557,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "northernpublicradio.org",
-      "url": "https://www.northernpublicradio.org/2026-07-26/u-s-pauses-attacks-on-iran-for-a-second-straight-day-and-tehran-does-too",
-      "published_at": "2026-07-26T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
     },
     {
       "id": "b9d10ae55067edcd",
@@ -211,7 +734,7 @@
       "dependency_group": "b9d10ae55067edcd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.449,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,11 +750,10 @@
       "published_at": "2026-07-26T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
     },
     {
       "id": "7aca8a0d9fd54958",
@@ -243,7 +765,7 @@
       "dependency_group": "7aca8a0d9fd54958",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.449,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,215 +781,22 @@
       "published_at": "2026-07-26T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "291ea8d26d9bab7e",
-      "name": "Iran will halt attacks as long as US maintains pause , Iranian source says after Trump calls off strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "291ea8d26d9bab7e",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.363,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "al-monitor.com",
-      "url": "https://www.al-monitor.com/originals/2026/07/iran-will-halt-attacks-long-us-maintains-pause-iranian-source-says-after-trump",
-      "published_at": "2026-07-26T16:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ad5c08037a8788a7",
-      "name": "US and Iran pause attacks as efforts for ceasefire negotiations continue",
-      "finding": "דיווח המצביע על רגיעה, הכחשה או הפחתת הסלמה.",
-      "category": "regional_escalation",
-      "direction": "down",
-      "evidence_type": "deescalation",
-      "dependency_group": "ad5c08037a8788a7",
-      "strength": 0.54,
-      "reliability": 0.56,
-      "freshness": 0.314,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wsbradio.com",
-      "url": "https://www.wsbradio.com/news/business/us-pauses-attacks/S33EXLSNYAZWPGQXV6FS2WSQLY/",
-      "published_at": "2026-07-26T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": -0.7,
-        "short": -2.5,
-        "extended": -4.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "826a7f60f1bdb1c8",
-      "name": "Oil tanker explodes after colliding with mine in Strait of Hormuz , Iranian media reports - as Trump pauses strikes to allow more time for  diplomacy",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "826a7f60f1bdb1c8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.418,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailymail.com",
-      "url": "https://www.dailymail.com/news/article-16006247/Oil-tanker-explodes-Strait-Hormuz.html",
-      "published_at": "2026-07-26T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "07f9cb8425dee03f",
-      "name": "US Pauses Iran Strikes Amid Munitions Concerns",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "07f9cb8425dee03f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.418,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kyivpost.com",
-      "url": "https://www.kyivpost.com/post/81098",
-      "published_at": "2026-07-26T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1296c61addb11e78",
-      "name": "Airstrikes have paused and talks are pressing forward . But can the US and Iran take the off - ramp ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1296c61addb11e78",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.418,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "stcatharinesstandard.ca",
-      "url": "https://www.stcatharinesstandard.ca/news/world/united-states/airstrikes-have-paused-and-talks-are-pressing-forward-but-can-the-us-and-iran-take-the-off-ramp/article_7640b966-1f2b-542d-ab2b-4f0dbb7fa10f.html",
-      "published_at": "2026-07-26T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "78cf9cace65abb68",
-      "name": "Trump pauses Iran air strikes to allow diplomacy , US envoy says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "78cf9cace65abb68",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.363,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arynews.tv",
-      "url": "https://arynews.tv/trump-pauses-iran-air-strikes-to-allow-diplomacy-us-envoy-says",
-      "published_at": "2026-07-26T16:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
         "short": 2.1,
         "extended": 3.6
-      },
-      "carried_forward": true
+      }
     },
     {
-      "id": "c5f765527513ac76",
-      "name": "U . S ., Iran pause attacks for a second straight day",
+      "id": "f0ff6d6ede467a4e",
+      "name": "Netanyahu to press Trump to keep watch on Iran nuclear aims",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "c5f765527513ac76",
+      "dependency_group": "f0ff6d6ede467a4e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.363,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -478,496 +807,15 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "ckom.com",
-      "url": "https://www.ckom.com/2026/07/26/u-s-iran-pause-attacks-for-a-second-straight-day/",
-      "published_at": "2026-07-26T16:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "dbdd9e0296527eed",
-      "name": "Trump pauses Iran strikes over missile shortages",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "dbdd9e0296527eed",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.293,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aol.com",
-      "url": "https://www.aol.com/articles/trump-pauses-iran-strikes-over-095817000.html",
-      "published_at": "2026-07-26T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1df69590a5182bf1",
-      "name": "US faces 4 - year missile rebuild as Iran nuclear sites remain possible targets",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1df69590a5182bf1",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.273,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/hjxanfmsme",
-      "published_at": "2026-07-26T15:30:00Z",
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/netanyahu-to-press-trump-to-keep-watch-on-iran-s-nuclear-aims-article-13983929.html",
+      "published_at": "2026-07-26T17:15:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
         "short": 1.9,
         "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9f128e704d8f8b33",
-      "name": "Iran says halts Middle East attacks as US holds fire",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9f128e704d8f8b33",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.338,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "omanobserver.om",
-      "url": "https://www.omanobserver.om/article/1193496/world/region/iran-says-halts-middle-east-attacks-as-us-holds-fire",
-      "published_at": "2026-07-26T16:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4e33d4bb8df5352f",
-      "name": "IRGC strike on King Faisal base in Jordan leaves trail of destruction , lays bare cracks in US military architecture",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4e33d4bb8df5352f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.314,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/07/26/773075/irgc-crushing-strike-king-faisal-base-jordan-lays-bare-cracks-us-military-architecture",
-      "published_at": "2026-07-26T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c2d343e0186877f9",
-      "name": "US pauses attacks on Iran and Tehran pauses , too",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c2d343e0186877f9",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.314,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "chicagotribune.com",
-      "url": "https://www.chicagotribune.com/2026/07/26/us-attacks-iran-pause/",
-      "published_at": "2026-07-26T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "91b52be5eea46a5a",
-      "name": "U . S . forgoes strikes on Iran , but conflict escalates in the Red Sea",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "91b52be5eea46a5a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.314,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nbcnews.com",
-      "url": "https://www.nbcnews.com/world/iran/us-forgoes-strikes-iran-conflict-escalates-red-sea-rcna589285",
-      "published_at": "2026-07-26T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "847213d5a2cf55c4",
-      "name": "Iran war : U . S . pauses attacks for second day ; Tehran pauses",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "847213d5a2cf55c4",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.273,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cp24.com",
-      "url": "https://www.cp24.com/news/world/2026/07/26/iran-war-us-pauses-attacks-on-iran-for-a-second-straight-day-and-tehran-pauses-too/",
-      "published_at": "2026-07-26T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8bfe8cad06e3fe09",
-      "name": "With the US suddenly halting attacks , what Iran thinking ?  More scepticism than optimism",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8bfe8cad06e3fe09",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.293,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/with-us-suddenly-stopping-attacks-what-iran-thinking-more-scepticism-than-optimism-israel-lebanon-donald-trump-islamabad-101785074716660.html",
-      "published_at": "2026-07-26T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "dd70e7a6e1a0ed28",
-      "name": "Ukraine Claims Long - range Strike On Russian And Iranian - linked Vessels In Caspian Sea",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "dd70e7a6e1a0ed28",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.293,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "i24news.tv",
-      "url": "https://www.i24news.tv/en/news/international/europe/artc-ukraine-claims-long-range-strike-on-russian-and-iranian-linked-vessels-in-caspian-sea",
-      "published_at": "2026-07-26T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d662c0db8624d5ac",
-      "name": "Iran , Oman discuss shipping deal for Hormuz after US strike pause",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d662c0db8624d5ac",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.293,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middle-east-online.com",
-      "url": "https://www.middle-east-online.com/en/iran-oman-discuss-shipping-deal-hormuz-after-us-strike-pause",
-      "published_at": "2026-07-26T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2dff974615be6887",
-      "name": "Iran Missile Attack US Military Bases , सस्ती भी , घातक भी : अमेरिकी एयर डिफेंस को मात दे रही ईरान की खैबर शेकन मिसाइल , टेंशन में पेंटागन - how iran kheibar shekan missile evading air defenses to strike us military base",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2dff974615be6887",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.22,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "navbharattimes.indiatimes.com",
-      "url": "https://navbharattimes.indiatimes.com/world/america/how-iran-kheibar-shekan-missile-evading-air-defenses-to-strike-us-military-bases-in-the-middle-east/articleshow/132642302.cms",
-      "published_at": "2026-07-26T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1d445ea54c1c10f2",
-      "name": "Desperation continues after Memorandum of Understanding fails to bring order : US military pounds Iranian city of Ahvaz – NaturalNews . com",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1d445ea54c1c10f2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.254,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-07-26-us-military-pounds-iranian-city-of-ahvaz.html",
-      "published_at": "2026-07-26T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1f70a9a0651e7938",
-      "name": "Iranian media says tanker exploded in Strait of Hormuz after mine strike ; Oman talks on shipping route move forward",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1f70a9a0651e7938",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.254,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "livemint.com",
-      "url": "https://www.livemint.com/news/world/iranian-media-says-tanker-exploded-in-strait-of-hormuz-after-mine-strike-oman-talks-on-shipping-route-move-forward-11785075265649.html",
-      "published_at": "2026-07-26T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9774077d7827e2ad",
-      "name": "Zwei Nächte in Folge keine US - Angriffe im Iran : Teheran stoppt seine Attacken",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9774077d7827e2ad",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.254,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "epochtimes.de",
-      "url": "https://www.epochtimes.de/politik/ausland/zwei-naechte-in-folge-keine-us-angriffe-im-iran-teheran-stoppt-seine-attacken-a5563788.html",
-      "published_at": "2026-07-26T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0b2f4740eff2514a",
-      "name": "U . S ., Iran enter second day of no new attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0b2f4740eff2514a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.254,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "upi.com",
-      "url": "https://www.upi.com/Top_News/World-News/2026/07/26/iran-war/5831785075271/",
-      "published_at": "2026-07-26T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
+      }
     }
   ],
   "history": [
@@ -1174,17 +1022,23 @@
       "immediate": 22,
       "short": 23,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-07-26T21:09:53.072383Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 34
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-07-26T18:44:09.427375Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-07-26T21:09:53.072383Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 28
+        "ok": true,
+        "items": 150,
+        "relevant": 24
       },
       "manual": {
         "ok": true,
