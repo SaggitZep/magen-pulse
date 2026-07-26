@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-07-26T09:49:13.264975Z",
+  "generated_at": "2026-07-26T11:13:02.251763Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 0,
       "low": 0,
-      "high": 18,
-      "confidence": 44,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
+      "score": 0,
       "low": 0,
-      "high": 21,
-      "confidence": 44,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 7,
+      "score": 0,
       "low": 0,
-      "high": 24,
-      "confidence": 44,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     }
   },
@@ -38,426 +38,8 @@ window.MAGEN_STATE = {
     "level": "יציב",
     "points_60m": -1
   },
-  "changes": [
-    {
-      "time": "07:30",
-      "text": "Trump Halts Wider Iran Strike Plans as Pentagon Warns of Patriot Missile Shortages : Report",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "openthemagazine.com",
-      "signal_id": "acfd166856ba52fa"
-    },
-    {
-      "time": "07:30",
-      "text": "Iran warns of retaliation after Ukraine confirms attack on vessel in Caspian Sea , call for UN , EU action",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "europesun.com",
-      "signal_id": "ed1d32162623d1f9"
-    },
-    {
-      "time": "07:30",
-      "text": "Trump pauses nightly Iran strikes as Oman - mediated talks gather pace ; US naval blockade remains in force",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "moneycontrol.com",
-      "signal_id": "32eab9e80b64b56e"
-    },
-    {
-      "time": "07:30",
-      "text": "US halts attacks at Iran , road to diplomacy open ? What is happening in West Asia",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "hindustantimes.com",
-      "signal_id": "b2788ccce330b9ee"
-    }
-  ],
-  "signals": [
-    {
-      "id": "acfd166856ba52fa",
-      "name": "Trump Halts Wider Iran Strike Plans as Pentagon Warns of Patriot Missile Shortages : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "acfd166856ba52fa",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.219,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "openthemagazine.com",
-      "url": "https://openthemagazine.com/world/trump-pauses-wider-iran-strike-plans-after-pentagon-warns-of-missile-shortages-report",
-      "published_at": "2026-07-26T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ed1d32162623d1f9",
-      "name": "Iran warns of retaliation after Ukraine confirms attack on vessel in Caspian Sea , call for UN , EU action",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ed1d32162623d1f9",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.219,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "europesun.com",
-      "url": "http://www.europesun.com/news/279209849/iran-warns-of-retaliation-after-ukraine-confirms-attack-on-vessel-in-caspian-sea-call-for-un-eu-action",
-      "published_at": "2026-07-26T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "32eab9e80b64b56e",
-      "name": "Trump pauses nightly Iran strikes as Oman - mediated talks gather pace ; US naval blockade remains in force",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "32eab9e80b64b56e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.219,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/trump-pauses-nightly-iran-strikes-as-oman-mediated-talks-gather-pace-us-naval-blockade-remains-in-force-article-13983604.html",
-      "published_at": "2026-07-26T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b2788ccce330b9ee",
-      "name": "US halts attacks at Iran , road to diplomacy open ? What is happening in West Asia",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b2788ccce330b9ee",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.219,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/us-halts-attacks-at-iran-road-to-diplomacy-open-what-is-happening-in-west-asia-101785032866279.html",
-      "published_at": "2026-07-26T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c4094df9c5dd3c82",
-      "name": "Houthi strike on Saudi oil facilities widens Iran conflict despite US strike pause",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c4094df9c5dd3c82",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.219,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/houthi-strike-on-saudi-oil-facilities-widens-iran-conflict-despite-us-strike-pause-article-13983654.html",
-      "published_at": "2026-07-26T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b01cf38c4a5e165d",
-      "name": "Trump shelves plans for wider Iran strikes after adviser warning over dwindling air defence munitions : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b01cf38c4a5e165d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.219,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260726/4479286.html",
-      "published_at": "2026-07-26T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1296c61addb11e78",
-      "name": "Airstrikes have paused and talks are pressing forward . But can the US and Iran take the off - ramp ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1296c61addb11e78",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.219,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "mymotherlode.com",
-      "url": "https://mymotherlode.com/news/world/11017940/airstrikes-have-paused-and-talks-are-pressing-forward-but-can-the-us-and-iran-take-the-off-ramp.html",
-      "published_at": "2026-07-26T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "275163a55a891dfc",
-      "name": "U . S .- Iran airstrikes have paused and talks are pressing forward",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "275163a55a891dfc",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.219,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kcra.com",
-      "url": "https://www.kcra.com/article/us-iran-airstrikes-paused-talks-pressing-forward/73263846",
-      "published_at": "2026-07-26T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5e370035196e10d9",
-      "name": "Zelenskyy says Russia supplied satellite intelligence that aided Iran Gulf attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5e370035196e10d9",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.219,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/europe/zelenskyy-says-russia-supplied-satellite-intelligence-that-aided-irans-gulf-attacks/articleshow/132635952.cms",
-      "published_at": "2026-07-26T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5545b6ead47c7741",
-      "name": "Araghchi speaks with EU leader Kaja Kallas ; calls for decisive action against Ukraine over attack on Iranian ship",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5545b6ead47c7741",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.219,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "khaskhabar.com",
-      "url": "https://www.khaskhabar.com/news/world-news/news-araghchi-speaks-with-eu-leader-kaja-kallas-calls-for-decisive-action-against-ukraine-over-attack-on-iranian-ship-news-hindi-1-831664-KKN.html",
-      "published_at": "2026-07-26T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2c3ca9cb43b2c1e8",
-      "name": "Iran says Ukrainian attack on vessel in Caspian Sea killed sailor",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2c3ca9cb43b2c1e8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.219,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "en.apa.az",
-      "url": "https://en.apa.az/asia/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor-517631",
-      "published_at": "2026-07-26T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3e0c2686a2656b40",
-      "name": "Zelenskyy claims Russia providing satellite intel on US bases and Gulf states to Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3e0c2686a2656b40",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.219,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/defence/zelenskyy-claims-russia-providing-satellite-intel-on-us-bases-and-gulf-states-to-iran/articleshow/132635844.cms",
-      "published_at": "2026-07-26T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -614,17 +196,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 7
+    },
+    {
+      "timestamp": "2026-07-26T11:13:02.251763Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-07-26T05:02:55.561708Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 12
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
