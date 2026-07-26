@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-07-26T18:44:09.427375Z",
+  "mode": "degraded",
+  "generated_at": "2026-07-26T20:03:00.195055Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 31,
-      "low": 18,
-      "high": 44,
-      "confidence": 66,
+      "score": 22,
+      "low": 6,
+      "high": 38,
+      "confidence": 48,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 32,
-      "low": 19,
-      "high": 45,
-      "confidence": 66,
+      "score": 23,
+      "low": 7,
+      "high": 39,
+      "confidence": 48,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 29,
-      "low": 16,
-      "high": 42,
-      "confidence": 65,
-      "status": "מוגבר"
+      "score": 21,
+      "low": 5,
+      "high": 37,
+      "confidence": 48,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 4
+    "level": "ירידה",
+    "points_60m": -9
   },
   "changes": [
     {
       "time": "21:00",
       "text": "Abbas Araghchi Iran , यूक्रेन पर भड़का ईरान : अराघची बोले -  जेलेंस्की ने इजरायल के इशारे पर किया हमला , बदले की धमकी दी - ukraine attacked iranian ship at israel behest revenge will surely be taken says abbas araghchi -",
-      "impact": "השפעה מיידית מחושבת: +20.0",
+      "impact": "השפעה מיידית מחושבת: +13.7",
       "direction": "up",
       "source": "navbharattimes.indiatimes.com",
       "signal_id": "70de17f836f0cf69"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:45",
       "text": "Netanyahu claims US - Israeli strikes crippled Iran nuclear program  quite a bit",
-      "impact": "השפעה מיידית מחושבת: +10.5",
+      "impact": "השפעה מיידית מחושבת: +7.2",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "5b1e397b7f38db5c"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:30",
       "text": "PM Benjamin Netanyahu : Iran war will conclude with end of regime or nuclear program",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "b2dbf642e87de7c9"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:00",
       "text": "U . S . pauses attacks on Iran for a second straight day and Tehran does too",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "northernpublicradio.org",
       "signal_id": "2222b7c2376ff1fc"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "70de17f836f0cf69",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.81,
+      "freshness": 0.557,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 20.0,
-        "short": 15.6,
-        "extended": 6.6
-      }
+        "immediate": 13.7,
+        "short": 10.7,
+        "extended": 4.5
+      },
+      "carried_forward": true
     },
     {
       "id": "5b1e397b7f38db5c",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5b1e397b7f38db5c",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.426,
+      "freshness": 0.293,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 10.5,
-        "short": 8.2,
-        "extended": 3.5
-      }
+        "immediate": 7.2,
+        "short": 5.6,
+        "extended": 2.4
+      },
+      "carried_forward": true
     },
     {
       "id": "b2dbf642e87de7c9",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b2dbf642e87de7c9",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.703,
+      "freshness": 0.483,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.2
-      }
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      },
+      "carried_forward": true
     },
     {
       "id": "2222b7c2376ff1fc",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2222b7c2376ff1fc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.81,
+      "freshness": 0.557,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
-      }
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      },
+      "carried_forward": true
     },
     {
       "id": "b9d10ae55067edcd",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b9d10ae55067edcd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.654,
+      "freshness": 0.449,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
-      }
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      },
+      "carried_forward": true
     },
     {
       "id": "7aca8a0d9fd54958",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7aca8a0d9fd54958",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.654,
+      "freshness": 0.449,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
-      }
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      },
+      "carried_forward": true
     },
     {
       "id": "291ea8d26d9bab7e",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "291ea8d26d9bab7e",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.528,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.9
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
+      },
+      "carried_forward": true
     },
     {
       "id": "ad5c08037a8788a7",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ad5c08037a8788a7",
       "strength": 0.54,
       "reliability": 0.56,
-      "freshness": 0.458,
+      "freshness": 0.314,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": -1.1,
-        "short": -3.6,
-        "extended": -6.1
-      }
+        "immediate": -0.7,
+        "short": -2.5,
+        "extended": -4.2
+      },
+      "carried_forward": true
     },
     {
       "id": "826a7f60f1bdb1c8",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "826a7f60f1bdb1c8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.609,
+      "freshness": 0.418,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "07f9cb8425dee03f",
@@ -362,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "07f9cb8425dee03f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.609,
+      "freshness": 0.418,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "1296c61addb11e78",
@@ -393,7 +403,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1296c61addb11e78",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.609,
+      "freshness": 0.418,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "78cf9cace65abb68",
@@ -424,7 +435,7 @@ window.MAGEN_STATE = {
       "dependency_group": "78cf9cace65abb68",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.528,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,10 +451,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      },
+      "carried_forward": true
     },
     {
       "id": "c5f765527513ac76",
@@ -455,7 +467,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c5f765527513ac76",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.528,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,10 +483,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      },
+      "carried_forward": true
     },
     {
       "id": "dbdd9e0296527eed",
@@ -486,7 +499,7 @@ window.MAGEN_STATE = {
       "dependency_group": "dbdd9e0296527eed",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.426,
+      "freshness": 0.293,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,72 +515,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
-      }
-    },
-    {
-      "id": "4e33d4bb8df5352f",
-      "name": "IRGC strike on King Faisal base in Jordan leaves trail of destruction , lays bare cracks in US military architecture",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4e33d4bb8df5352f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.458,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/07/26/773075/irgc-crushing-strike-king-faisal-base-jordan-lays-bare-cracks-us-military-architecture",
-      "published_at": "2026-07-26T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "c2d343e0186877f9",
-      "name": "US pauses attacks on Iran and Tehran pauses , too",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c2d343e0186877f9",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.458,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "chicagotribune.com",
-      "url": "https://www.chicagotribune.com/2026/07/26/us-attacks-iran-pause/",
-      "published_at": "2026-07-26T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
+      "carried_forward": true
     },
     {
       "id": "1df69590a5182bf1",
@@ -579,7 +531,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1df69590a5182bf1",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.397,
+      "freshness": 0.273,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -595,10 +547,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "9f128e704d8f8b33",
@@ -610,7 +563,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9f128e704d8f8b33",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.492,
+      "freshness": 0.338,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -626,10 +579,75 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.3
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "4e33d4bb8df5352f",
+      "name": "IRGC strike on King Faisal base in Jordan leaves trail of destruction , lays bare cracks in US military architecture",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4e33d4bb8df5352f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.314,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/07/26/773075/irgc-crushing-strike-king-faisal-base-jordan-lays-bare-cracks-us-military-architecture",
+      "published_at": "2026-07-26T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "c2d343e0186877f9",
+      "name": "US pauses attacks on Iran and Tehran pauses , too",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c2d343e0186877f9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.314,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "chicagotribune.com",
+      "url": "https://www.chicagotribune.com/2026/07/26/us-attacks-iran-pause/",
+      "published_at": "2026-07-26T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     },
     {
       "id": "91b52be5eea46a5a",
@@ -641,7 +659,7 @@ window.MAGEN_STATE = {
       "dependency_group": "91b52be5eea46a5a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.458,
+      "freshness": 0.314,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -657,10 +675,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     },
     {
       "id": "847213d5a2cf55c4",
@@ -672,7 +691,7 @@ window.MAGEN_STATE = {
       "dependency_group": "847213d5a2cf55c4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.397,
+      "freshness": 0.273,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -688,10 +707,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
+      },
+      "carried_forward": true
     },
     {
       "id": "8bfe8cad06e3fe09",
@@ -703,7 +723,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8bfe8cad06e3fe09",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.426,
+      "freshness": 0.293,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -719,41 +739,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
-    },
-    {
-      "id": "2dff974615be6887",
-      "name": "Iran Missile Attack US Military Bases , सस्ती भी , घातक भी : अमेरिकी एयर डिफेंस को मात दे रही ईरान की खैबर शेकन मिसाइल , टेंशन में पेंटागन - how iran kheibar shekan missile evading air defenses to strike us military base",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2dff974615be6887",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.32,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "navbharattimes.indiatimes.com",
-      "url": "https://navbharattimes.indiatimes.com/world/america/how-iran-kheibar-shekan-missile-evading-air-defenses-to-strike-us-military-bases-in-the-middle-east/articleshow/132642302.cms",
-      "published_at": "2026-07-26T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
+      "carried_forward": true
     },
     {
       "id": "dd70e7a6e1a0ed28",
@@ -765,7 +755,7 @@ window.MAGEN_STATE = {
       "dependency_group": "dd70e7a6e1a0ed28",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.426,
+      "freshness": 0.293,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -781,10 +771,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
+      },
+      "carried_forward": true
     },
     {
       "id": "d662c0db8624d5ac",
@@ -796,7 +787,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d662c0db8624d5ac",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.426,
+      "freshness": 0.293,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -812,10 +803,43 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "2dff974615be6887",
+      "name": "Iran Missile Attack US Military Bases , सस्ती भी , घातक भी : अमेरिकी एयर डिफेंस को मात दे रही ईरान की खैबर शेकन मिसाइल , टेंशन में पेंटागन - how iran kheibar shekan missile evading air defenses to strike us military base",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2dff974615be6887",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.22,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "navbharattimes.indiatimes.com",
+      "url": "https://navbharattimes.indiatimes.com/world/america/how-iran-kheibar-shekan-missile-evading-air-defenses-to-strike-us-military-bases-in-the-middle-east/articleshow/132642302.cms",
+      "published_at": "2026-07-26T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     },
     {
       "id": "1d445ea54c1c10f2",
@@ -827,7 +851,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1d445ea54c1c10f2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.369,
+      "freshness": 0.254,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -843,10 +867,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
     },
     {
       "id": "1f70a9a0651e7938",
@@ -858,7 +883,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1f70a9a0651e7938",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.369,
+      "freshness": 0.254,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -874,10 +899,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
     },
     {
       "id": "9774077d7827e2ad",
@@ -889,7 +915,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9774077d7827e2ad",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.369,
+      "freshness": 0.254,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -905,10 +931,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
     },
     {
       "id": "0b2f4740eff2514a",
@@ -920,7 +947,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0b2f4740eff2514a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.369,
+      "freshness": 0.254,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -936,10 +963,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1140,17 +1168,23 @@ window.MAGEN_STATE = {
       "immediate": 31,
       "short": 32,
       "extended": 29
+    },
+    {
+      "timestamp": "2026-07-26T20:03:00.195055Z",
+      "immediate": 22,
+      "short": 23,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-07-26T18:44:09.427375Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 28
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 28
       },
       "manual": {
         "ok": true,
