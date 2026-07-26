@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-07-26T07:45:55.306982Z",
+  "generated_at": "2026-07-26T09:49:13.264975Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 1,
       "low": 0,
       "high": 18,
-      "confidence": 48,
+      "confidence": 44,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 4,
       "low": 0,
-      "high": 24,
-      "confidence": 48,
+      "high": 21,
+      "confidence": 44,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
+      "score": 7,
       "low": 0,
-      "high": 29,
-      "confidence": 48,
-      "status": "נמוך"
+      "high": 24,
+      "confidence": 44,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -35,14 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -3
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "07:30",
       "text": "Trump Halts Wider Iran Strike Plans as Pentagon Warns of Patriot Missile Shortages : Report",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "openthemagazine.com",
       "signal_id": "acfd166856ba52fa"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:30",
       "text": "Iran warns of retaliation after Ukraine confirms attack on vessel in Caspian Sea , call for UN , EU action",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "europesun.com",
       "signal_id": "ed1d32162623d1f9"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:30",
       "text": "Trump pauses nightly Iran strikes as Oman - mediated talks gather pace ; US naval blockade remains in force",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "moneycontrol.com",
       "signal_id": "32eab9e80b64b56e"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:30",
       "text": "US halts attacks at Iran , road to diplomacy open ? What is happening in West Asia",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "hindustantimes.com",
       "signal_id": "b2788ccce330b9ee"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "acfd166856ba52fa",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.219,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ed1d32162623d1f9",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.219,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "32eab9e80b64b56e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.219,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b2788ccce330b9ee",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.219,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c4094df9c5dd3c82",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.219,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b01cf38c4a5e165d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.219,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1296c61addb11e78",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.219,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "275163a55a891dfc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.219,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -339,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5e370035196e10d9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.219,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +355,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -371,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5545b6ead47c7741",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.219,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -387,9 +387,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -403,7 +403,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2c3ca9cb43b2c1e8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.219,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -419,9 +419,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -435,7 +435,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3e0c2686a2656b40",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.219,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -451,233 +451,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7a9a49af15b89a3a",
-      "name": "World News : US steps up attacks on Iran after Trump threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7a9a49af15b89a3a",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.296,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gdnonline.com:443",
-      "url": "https://www.gdnonline.com:443/Details/1401575",
-      "published_at": "2026-07-26T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c5fd531ac6e58e43",
-      "name": "Trump halts US military strikes on day 13 to allow room for diplomacy with Iran : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c5fd531ac6e58e43",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.296,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "austinglobe.com",
-      "url": "http://www.austinglobe.com/news/279210030/trump-halts-us-military-strikes-on-day-13-to-allow-room-for-diplomacy-with-iran-report",
-      "published_at": "2026-07-26T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ee5b033dd04950ab",
-      "name": "Ukraine war briefing : Iran accuses Kyiv of deadly attack on Iranian vessel in Caspian Sea",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ee5b033dd04950ab",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.296,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theguardian.com",
-      "url": "https://www.theguardian.com/world/2026/jul/26/ukraine-war-briefing-iran-accuses-kyiv-vessel-caspian-sea",
-      "published_at": "2026-07-26T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2bf5237c0de06bd6",
-      "name": "Iran condemns Ukraine over reckless cargo ship attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2bf5237c0de06bd6",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.296,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iraqsun.com",
-      "url": "http://www.iraqsun.com/news/279209773/iran-condemns-ukraine-over-reckless-cargo-ship-attack",
-      "published_at": "2026-07-26T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "165949a2f0e34929",
-      "name": "US - Iran negotiations gain momentum after strikes pause",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "165949a2f0e34929",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.296,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "siasat.com",
-      "url": "https://www.siasat.com/us-iran-negotiations-gain-momentum-after-strikes-pause-3513594/",
-      "published_at": "2026-07-26T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0472b8609920bb19",
-      "name": "West Asia war LIVE : U . S . naval blockade against Iran remains in  full effect  even as the two sides pause airstrikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0472b8609920bb19",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.296,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thehindu.com",
-      "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-paused-donald-trump-gulf-countries-strait-of-hormuz-live-updates-july-26-2026/article71268545.ece",
-      "published_at": "2026-07-26T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ed59d2417e2b6ab5",
-      "name": "Iran FM urges EU to take  decisive  action against Ukraine attack on Iranian ship -- China Economic Net",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ed59d2417e2b6ab5",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.256,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "en.ce.cn",
-      "url": "http://en.ce.cn/main/latest/202607/t20260726_3108919.shtml",
-      "published_at": "2026-07-26T03:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     }
@@ -832,6 +608,12 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 8,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-07-26T09:49:13.264975Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 7
     }
   ],
   "health": {
@@ -842,7 +624,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 19
+        "carried_forward": 12
       },
       "manual": {
         "ok": true,
