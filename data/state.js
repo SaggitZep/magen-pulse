@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-07-26T22:15:01.284846Z",
+  "generated_at": "2026-07-26T23:26:20.121953Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 34,
-      "low": 18,
-      "high": 50,
-      "confidence": 51,
+      "score": 31,
+      "low": 15,
+      "high": 47,
+      "confidence": 48,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 34,
-      "low": 18,
-      "high": 50,
-      "confidence": 51,
+      "score": 28,
+      "low": 12,
+      "high": 44,
+      "confidence": 48,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 26,
-      "low": 10,
-      "high": 42,
-      "confidence": 50,
-      "status": "מוגבר"
+      "score": 19,
+      "low": 3,
+      "high": 35,
+      "confidence": 48,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -35,14 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "ירידה",
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "23:30",
       "text": "Iran claims Ukraine attacked vessel at Israel behest , warns retaliation",
-      "impact": "השפעה מיידית מחושבת: +16.4",
+      "impact": "השפעה מיידית מחושבת: +11.7",
       "direction": "up",
       "source": "ynetnews.com",
       "signal_id": "5f375727327452fa"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "23:30",
       "text": "Cannot Go Unanswered : Iran Threatens Action Against Ukraine , Claims Caspian Sea Strike Was Done  At Israel Behest",
-      "impact": "השפעה מיידית מחושבת: +16.4",
+      "impact": "השפעה מיידית מחושבת: +11.7",
       "direction": "up",
       "source": "newsx.com",
       "signal_id": "d316d36fcde3f94d"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:15",
       "text": "Biden admin . predicted how Israel would use Gaza war to escalate to Iran strikes",
-      "impact": "השפעה מיידית מחושבת: +13.8",
+      "impact": "השפעה מיידית מחושבת: +9.8",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "ac87ebe3baa57aae"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "23:00",
       "text": "They have to end their nuclear program : Israeli PM Netanyahu targets Iran ahead of US visit",
-      "impact": "השפעה מיידית מחושבת: +13.0",
+      "impact": "השפעה מיידית מחושבת: +9.2",
       "direction": "up",
       "source": "news.webindia123.com",
       "signal_id": "30c6836292b1f9b2"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5f375727327452fa",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.606,
+      "freshness": 0.432,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 16.4,
-        "short": 12.8,
-        "extended": 5.4
+        "immediate": 11.7,
+        "short": 9.1,
+        "extended": 3.9
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d316d36fcde3f94d",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.606,
+      "freshness": 0.432,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 16.4,
-        "short": 12.8,
-        "extended": 5.4
+        "immediate": 11.7,
+        "short": 9.1,
+        "extended": 3.9
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ac87ebe3baa57aae",
       "strength": 0.5,
       "reliability": 0.74,
-      "freshness": 0.424,
+      "freshness": 0.302,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 13.8,
-        "short": 10.8,
-        "extended": 4.6
+        "immediate": 9.8,
+        "short": 7.7,
+        "extended": 3.3
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "30c6836292b1f9b2",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.526,
+      "freshness": 0.374,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 13.0,
-        "short": 10.1,
-        "extended": 4.3
+        "immediate": 9.2,
+        "short": 7.2,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9030be0f34b80815",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.395,
+      "freshness": 0.281,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 9.7,
-        "short": 7.6,
-        "extended": 3.2
+        "immediate": 6.9,
+        "short": 5.4,
+        "extended": 2.3
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "70de17f836f0cf69",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.297,
+      "freshness": 0.211,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 7.3,
-        "short": 5.7,
-        "extended": 2.4
+        "immediate": 5.2,
+        "short": 4.1,
+        "extended": 1.7
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "de805f631eff2dea",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.606,
+      "freshness": 0.432,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2222b7c2376ff1fc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.606,
+      "freshness": 0.432,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       },
       "carried_forward": true
     },
@@ -339,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9bf44114b2071741",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.606,
+      "freshness": 0.432,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +355,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       },
       "carried_forward": true
     },
@@ -371,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a68d2231608ae57c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.606,
+      "freshness": 0.432,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -387,9 +387,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       },
       "carried_forward": true
     },
@@ -403,7 +403,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e6f535ccae0fb63c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.526,
+      "freshness": 0.374,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -419,9 +419,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       },
       "carried_forward": true
     },
@@ -435,7 +435,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7140c258570be86c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.606,
+      "freshness": 0.432,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -451,9 +451,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       },
       "carried_forward": true
     },
@@ -467,7 +467,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ec00b58e1b8c8723",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.606,
+      "freshness": 0.432,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -483,9 +483,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       },
       "carried_forward": true
     },
@@ -499,7 +499,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b595efc157afd8fc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.526,
+      "freshness": 0.374,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -515,9 +515,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -531,7 +531,7 @@ window.MAGEN_STATE = {
       "dependency_group": "86a2a3a4d4bbd9c4",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.424,
+      "freshness": 0.302,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -547,9 +547,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       },
       "carried_forward": true
     },
@@ -563,7 +563,7 @@ window.MAGEN_STATE = {
       "dependency_group": "396d19b77e183ee9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.526,
+      "freshness": 0.374,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -579,9 +579,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -595,7 +595,7 @@ window.MAGEN_STATE = {
       "dependency_group": "255ae397a8886778",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.395,
+      "freshness": 0.281,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -611,9 +611,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -627,7 +627,7 @@ window.MAGEN_STATE = {
       "dependency_group": "dfca0df83f34fef3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.424,
+      "freshness": 0.302,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -643,9 +643,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -659,7 +659,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a66c68141e063d91",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.395,
+      "freshness": 0.281,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -675,9 +675,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -691,7 +691,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a8dc61fac611d1a9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.368,
+      "freshness": 0.262,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -707,9 +707,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-26T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -723,7 +723,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b2dbf642e87de7c9",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.257,
+      "freshness": 0.183,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -737,102 +737,6 @@ window.MAGEN_STATE = {
       "source": "jpost.com",
       "url": "https://www.jpost.com/middle-east/iran-news/article-903705",
       "published_at": "2026-07-26T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b9d10ae55067edcd",
-      "name": "Iran threatens response to Ukraine attack on its ship in Caspian Sea",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b9d10ae55067edcd",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.24,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabnews.com",
-      "url": "https://www.arabnews.com/node/2652374/middle-east",
-      "published_at": "2026-07-26T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7aca8a0d9fd54958",
-      "name": "Iran warns Ukraine attack on commercial vessel  cannot go unanswered",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7aca8a0d9fd54958",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.24,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailysabah.com",
-      "url": "https://www.dailysabah.com/world/mid-east/iran-warns-ukraine-attack-on-commercial-vessel-cannot-go-unanswered",
-      "published_at": "2026-07-26T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f0ff6d6ede467a4e",
-      "name": "Netanyahu to press Trump to keep watch on Iran nuclear aims",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f0ff6d6ede467a4e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.24,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/netanyahu-to-press-trump-to-keep-watch-on-iran-s-nuclear-aims-article-13983929.html",
-      "published_at": "2026-07-26T17:15:00Z",
       "active": true,
       "computed": {
         "immediate": 0.4,
@@ -1058,6 +962,12 @@ window.MAGEN_STATE = {
       "immediate": 34,
       "short": 34,
       "extended": 26
+    },
+    {
+      "timestamp": "2026-07-26T23:26:20.121953Z",
+      "immediate": 31,
+      "short": 28,
+      "extended": 19
     }
   ],
   "health": {
@@ -1068,7 +978,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 24
+        "carried_forward": 21
       },
       "manual": {
         "ok": true,
