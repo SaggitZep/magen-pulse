@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-07-27T21:32:53.094945Z",
+  "generated_at": "2026-07-27T22:39:51.054292Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 8,
+      "score": 1,
       "low": 0,
-      "high": 25,
-      "confidence": 46,
+      "high": 19,
+      "confidence": 37,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 5,
       "low": 0,
-      "high": 28,
-      "confidence": 46,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 37,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 12,
+      "score": 8,
       "low": 0,
-      "high": 29,
-      "confidence": 46,
-      "status": "נמוך"
+      "high": 26,
+      "confidence": 37,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -36,21 +36,13 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -3
+    "points_60m": -7
   },
   "changes": [
     {
-      "time": "19:15",
-      "text": "War : You will pay , ask US , Israel - Iranian security chief threatens Ukraine over attack",
-      "impact": "השפעה מיידית מחושבת: +6.0",
-      "direction": "up",
-      "source": "dailypost.ng",
-      "signal_id": "4ac793e97e5d3073"
-    },
-    {
       "time": "20:00",
       "text": "More than 600 US military service members injured since Iran War began in February",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "bbc.co.uk",
       "signal_id": "783a4fba375d1bc2"
@@ -58,7 +50,7 @@
     {
       "time": "20:30",
       "text": "Mediators see progress in efforts to halt Iran war as drone attacks rattle region",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "castanetkamloops.net",
       "signal_id": "043eca9a15441ca2"
@@ -66,45 +58,13 @@
     {
       "time": "20:15",
       "text": "U . S . and Iran edge toward talks as Hormuz shipping hits three - week low , regional officials say",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "fortune.com",
       "signal_id": "13856c89cf5329b7"
     }
   ],
   "signals": [
-    {
-      "id": "4ac793e97e5d3073",
-      "name": "War : You will pay , ask US , Israel - Iranian security chief threatens Ukraine over attack",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4ac793e97e5d3073",
-      "strength": 0.55,
-      "reliability": 0.56,
-      "freshness": 0.22,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "dailypost.ng",
-      "url": "https://dailypost.ng/2026/07/27/war-you-will-pay-ask-us-israel-iranian-security-chief-threatens-ukraine-over-attack/",
-      "published_at": "2026-07-27T16:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 6.0,
-        "short": 4.7,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
     {
       "id": "783a4fba375d1bc2",
       "name": "More than 600 US military service members injured since Iran War began in February",
@@ -115,7 +75,7 @@
       "dependency_group": "783a4fba375d1bc2",
       "strength": 0.4,
       "reliability": 0.88,
-      "freshness": 0.273,
+      "freshness": 0.198,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +91,9 @@
       "published_at": "2026-07-27T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -147,7 +107,7 @@
       "dependency_group": "043eca9a15441ca2",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.315,
+      "freshness": 0.229,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +123,9 @@
       "published_at": "2026-07-27T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -179,7 +139,7 @@
       "dependency_group": "13856c89cf5329b7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.293,
+      "freshness": 0.213,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,169 +155,9 @@
       "published_at": "2026-07-27T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0661fefc21f565f1",
-      "name": "Iran Ramps Up Threats Against Ukraine After Ship Attacked",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0661fefc21f565f1",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.236,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theepochtimes.com",
-      "url": "https://www.theepochtimes.com/world/iran-ramps-up-threats-against-ukraine-after-ship-attacked-6067795",
-      "published_at": "2026-07-27T16:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2222b7c2376ff1fc",
-      "name": "U . S . pauses attacks on Iran for a second straight day and Tehran does too",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2222b7c2376ff1fc",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.236,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ideastream.org",
-      "url": "https://www.ideastream.org/government-politics/2026-07-26/u-s-pauses-attacks-on-iran-for-a-second-straight-day-and-tehran-does-too",
-      "published_at": "2026-07-27T16:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "cabd97abb1f7e029",
-      "name": "Houthis claim attack on Saudi oil infrastructure as US - Iran pause holds",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cabd97abb1f7e029",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.22,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/houthis-claim-attack-on-saudi-oil-infrastructure-as-us-iran-war-pause-holds-101785165461776.html",
-      "published_at": "2026-07-27T16:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c35d2bba45614363",
-      "name": "Dangerous bet : How Kuwait and Bahrain miscalculated by becoming launchpads for US strikes on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c35d2bba45614363",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.22,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/07/27/773157/dangerous-bet-how-kuwait-bahrain-miscalculated-becoming-launchpads-us-strikes-iran",
-      "published_at": "2026-07-27T16:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "fbbab16ad51abd45",
-      "name": "US uses commercial ships in Strait of Hormuz for military purposes : Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fbbab16ad51abd45",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.22,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/07/27/773173/US-uses-commercial-ships-Strait-of-Hormuz-military-purposes-Baghaei",
-      "published_at": "2026-07-27T16:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     }
@@ -638,6 +438,12 @@
       "immediate": 8,
       "short": 11,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-07-27T22:39:51.054292Z",
+      "immediate": 1,
+      "short": 5,
+      "extended": 8
     }
   ],
   "health": {
@@ -648,7 +454,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 9
+        "carried_forward": 3
       },
       "manual": {
         "ok": true,
