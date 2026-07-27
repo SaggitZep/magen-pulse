@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-07-27T20:13:03.257009Z",
+  "generated_at": "2026-07-27T21:32:53.094945Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 11,
+      "score": 8,
       "low": 0,
-      "high": 27,
-      "confidence": 48,
-      "status": "נמוך"
+      "high": 25,
+      "confidence": 46,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
+      "score": 11,
       "low": 0,
-      "high": 31,
-      "confidence": 48,
+      "high": 28,
+      "confidence": 46,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 48,
+      "score": 12,
+      "low": 0,
+      "high": 29,
+      "confidence": 46,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -6
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "19:15",
       "text": "War : You will pay , ask US , Israel - Iranian security chief threatens Ukraine over attack",
-      "impact": "השפעה מיידית מחושבת: +8.7",
+      "impact": "השפעה מיידית מחושבת: +6.0",
       "direction": "up",
       "source": "dailypost.ng",
       "signal_id": "4ac793e97e5d3073"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:00",
       "text": "More than 600 US military service members injured since Iran War began in February",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "bbc.co.uk",
       "signal_id": "783a4fba375d1bc2"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:30",
       "text": "Mediators see progress in efforts to halt Iran war as drone attacks rattle region",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "castanetkamloops.net",
       "signal_id": "043eca9a15441ca2"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:15",
       "text": "U . S . and Iran edge toward talks as Hormuz shipping hits three - week low , regional officials say",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "fortune.com",
       "signal_id": "13856c89cf5329b7"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4ac793e97e5d3073",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.322,
+      "freshness": 0.22,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 8.7,
-        "short": 6.8,
-        "extended": 2.9
+        "immediate": 6.0,
+        "short": 4.7,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "783a4fba375d1bc2",
       "strength": 0.4,
       "reliability": 0.88,
-      "freshness": 0.399,
+      "freshness": 0.273,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "043eca9a15441ca2",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.46,
+      "freshness": 0.315,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "13856c89cf5329b7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.428,
+      "freshness": 0.293,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0661fefc21f565f1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.346,
+      "freshness": 0.236,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.8
+        "immediate": 0.5,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2222b7c2376ff1fc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.346,
+      "freshness": 0.236,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,41 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e05eb808574e0ca7",
-      "name": "Oil falls 9 . 5 % in steepest drop in months as Iran , US pause attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e05eb808574e0ca7",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.26,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "al-monitor.com",
-      "url": "https://www.al-monitor.com/originals/2026/07/oil-falls-95-steepest-drop-months-iran-us-pause-attacks",
-      "published_at": "2026-07-27T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.3
       },
       "carried_forward": true
     },
@@ -307,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cabd97abb1f7e029",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.322,
+      "freshness": 0.22,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -339,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c35d2bba45614363",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.322,
+      "freshness": 0.22,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +323,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -371,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fbbab16ad51abd45",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.322,
+      "freshness": 0.22,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -387,73 +355,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9d7b05878ed3bb85",
-      "name": "Ukraine war is becoming more dangerous as Iran threatens to strike - London Business News",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9d7b05878ed3bb85",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.26,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "londonlovesbusiness.com",
-      "url": "https://londonlovesbusiness.com/zelensky-iran-support-russia-war-ukraine/",
-      "published_at": "2026-07-27T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "df55931343a80797",
-      "name": "Ukraine Attacks Iranian Arms Shipments on the Caspian Sea",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "df55931343a80797",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.26,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "maritime-executive.com",
-      "url": "https://maritime-executive.com/article/ukraine-attacks-iranian-arms-shipments-on-the-caspian-sea",
-      "published_at": "2026-07-27T15:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     }
@@ -728,6 +632,12 @@ window.MAGEN_STATE = {
       "immediate": 11,
       "short": 15,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-07-27T21:32:53.094945Z",
+      "immediate": 8,
+      "short": 11,
+      "extended": 12
     }
   ],
   "health": {
@@ -738,7 +648,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 12
+        "carried_forward": 9
       },
       "manual": {
         "ok": true,
