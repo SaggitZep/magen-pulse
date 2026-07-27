@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-07-27T18:48:33.934445Z",
+  "mode": "degraded",
+  "generated_at": "2026-07-27T20:13:03.257009Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 17,
-      "low": 4,
-      "high": 30,
-      "confidence": 66,
+      "score": 11,
+      "low": 0,
+      "high": 27,
+      "confidence": 48,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 66,
-      "status": "מוגבר"
+      "score": 15,
+      "low": 0,
+      "high": 31,
+      "confidence": 48,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 66,
-      "status": "מוגבר"
+      "score": 17,
+      "low": 1,
+      "high": 33,
+      "confidence": 48,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -7
+    "points_60m": -6
   },
   "changes": [
     {
       "time": "19:15",
       "text": "War : You will pay , ask US , Israel - Iranian security chief threatens Ukraine over attack",
-      "impact": "השפעה מיידית מחושבת: +13.0",
+      "impact": "השפעה מיידית מחושבת: +8.7",
       "direction": "up",
       "source": "dailypost.ng",
       "signal_id": "4ac793e97e5d3073"
@@ -50,7 +50,7 @@
     {
       "time": "20:00",
       "text": "More than 600 US military service members injured since Iran War began in February",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "bbc.co.uk",
       "signal_id": "783a4fba375d1bc2"
@@ -58,7 +58,7 @@
     {
       "time": "20:30",
       "text": "Mediators see progress in efforts to halt Iran war as drone attacks rattle region",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "castanetkamloops.net",
       "signal_id": "043eca9a15441ca2"
@@ -66,7 +66,7 @@
     {
       "time": "20:15",
       "text": "U . S . and Iran edge toward talks as Hormuz shipping hits three - week low , regional officials say",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "fortune.com",
       "signal_id": "13856c89cf5329b7"
@@ -83,7 +83,7 @@
       "dependency_group": "4ac793e97e5d3073",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.481,
+      "freshness": 0.322,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@
       "published_at": "2026-07-27T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 13.0,
-        "short": 10.2,
-        "extended": 4.3
-      }
+        "immediate": 8.7,
+        "short": 6.8,
+        "extended": 2.9
+      },
+      "carried_forward": true
     },
     {
       "id": "783a4fba375d1bc2",
@@ -114,7 +115,7 @@
       "dependency_group": "783a4fba375d1bc2",
       "strength": 0.4,
       "reliability": 0.88,
-      "freshness": 0.596,
+      "freshness": 0.399,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-07-27T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.2
-      }
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
+      },
+      "carried_forward": true
     },
     {
       "id": "043eca9a15441ca2",
@@ -145,7 +147,7 @@
       "dependency_group": "043eca9a15441ca2",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.688,
+      "freshness": 0.46,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-07-27T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.1
-      }
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      },
+      "carried_forward": true
     },
     {
       "id": "13856c89cf5329b7",
@@ -176,7 +179,7 @@
       "dependency_group": "13856c89cf5329b7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.64,
+      "freshness": 0.428,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-07-27T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      },
+      "carried_forward": true
     },
     {
       "id": "0661fefc21f565f1",
@@ -207,7 +211,7 @@
       "dependency_group": "0661fefc21f565f1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.517,
+      "freshness": 0.346,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-07-27T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "2222b7c2376ff1fc",
@@ -238,7 +243,7 @@
       "dependency_group": "2222b7c2376ff1fc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.517,
+      "freshness": 0.346,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@
       "published_at": "2026-07-27T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "e05eb808574e0ca7",
@@ -269,7 +275,7 @@
       "dependency_group": "e05eb808574e0ca7",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.388,
+      "freshness": 0.26,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@
       "published_at": "2026-07-27T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "cabd97abb1f7e029",
@@ -300,7 +307,7 @@
       "dependency_group": "cabd97abb1f7e029",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.481,
+      "freshness": 0.322,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@
       "published_at": "2026-07-27T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      }
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "c35d2bba45614363",
@@ -331,7 +339,7 @@
       "dependency_group": "c35d2bba45614363",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.481,
+      "freshness": 0.322,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@
       "published_at": "2026-07-27T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      }
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "fbbab16ad51abd45",
@@ -362,7 +371,7 @@
       "dependency_group": "fbbab16ad51abd45",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.481,
+      "freshness": 0.322,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@
       "published_at": "2026-07-27T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      }
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "9d7b05878ed3bb85",
@@ -393,7 +403,7 @@
       "dependency_group": "9d7b05878ed3bb85",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.388,
+      "freshness": 0.26,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@
       "published_at": "2026-07-27T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
+      },
+      "carried_forward": true
     },
     {
       "id": "df55931343a80797",
@@ -424,7 +435,7 @@
       "dependency_group": "df55931343a80797",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.388,
+      "freshness": 0.26,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,10 +451,11 @@
       "published_at": "2026-07-27T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -710,17 +722,23 @@
       "immediate": 17,
       "short": 22,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-07-27T20:13:03.257009Z",
+      "immediate": 11,
+      "short": 15,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-07-27T18:48:33.934445Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 12
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 12
       },
       "manual": {
         "ok": true,
