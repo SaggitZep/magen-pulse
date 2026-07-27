@@ -1,45 +1,513 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-07-27T04:56:37.205447Z",
+  "mode": "live",
+  "generated_at": "2026-07-27T08:41:04.550095Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 5,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 18,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 68,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -20
+    "level": "עלייה מתונה",
+    "points_60m": 5
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "11:15",
+      "text": "Any Attack On Iran Always Comes With A Cost : Iraninan Diplomat Warns Ukraine After Attack On Vessel » IndiaPost NewsPaper",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "indiapost.com",
+      "signal_id": "f788bd161f307839"
+    },
+    {
+      "time": "10:45",
+      "text": "Thomas Massie Says Iran War Has  Weakened  US , Points to Depleted Oil Reserves , Missile Defenses Araghchi",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "benzinga.com",
+      "signal_id": "7ce3b97c888604c4"
+    },
+    {
+      "time": "11:15",
+      "text": "Trump pauses Iran strikes as officials worry about US arsenal depletion",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "news24.com",
+      "signal_id": "91670c3030fa8ccb"
+    },
+    {
+      "time": "11:15",
+      "text": "Iran says it will halt attacks if US pauses strikes",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "samaa.tv",
+      "signal_id": "cac5e4d2c58c0f21"
+    }
+  ],
+  "signals": [
+    {
+      "id": "f788bd161f307839",
+      "name": "Any Attack On Iran Always Comes With A Cost : Iraninan Diplomat Warns Ukraine After Attack On Vessel » IndiaPost NewsPaper",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f788bd161f307839",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.883,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "indiapost.com",
+      "url": "https://indiapost.com/any-attack-on-iran-always-comes-with-a-cost-iraninan-diplomat-warns-ukraine-after-attack-on-vessel/",
+      "published_at": "2026-07-27T08:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.8
+      }
+    },
+    {
+      "id": "7ce3b97c888604c4",
+      "name": "Thomas Massie Says Iran War Has  Weakened  US , Points to Depleted Oil Reserves , Missile Defenses Araghchi",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7ce3b97c888604c4",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.766,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "benzinga.com",
+      "url": "https://www.benzinga.com/news/politics/26/07/60687228/thomas-massie-says-iran-war-has-weakened-us-points-to-depleted-oil-reserves-missile-defenses-araghchi-says-zelenskyy-is-dragging-europe-into-war-for-israel",
+      "published_at": "2026-07-27T07:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.1
+      }
+    },
+    {
+      "id": "91670c3030fa8ccb",
+      "name": "Trump pauses Iran strikes as officials worry about US arsenal depletion",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "91670c3030fa8ccb",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.883,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news24.com",
+      "url": "https://www.news24.com/world/trump-pauses-iran-strikes-as-officials-worry-about-us-arsenal-depletion-20260727-0312",
+      "published_at": "2026-07-27T08:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "cac5e4d2c58c0f21",
+      "name": "Iran says it will halt attacks if US pauses strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cac5e4d2c58c0f21",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.883,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "samaa.tv",
+      "url": "https://www.samaa.tv/2087354256-iran-says-will-halt-strikes-as-long-as-us-bombing-pause-holds",
+      "published_at": "2026-07-27T08:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "cec92cbd63bb2939",
+      "name": "Essential to respond to Ukraine attack on Iranian ship : Foreign Minister Abbas Araghchi",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cec92cbd63bb2939",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.883,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "khaskhabar.com",
+      "url": "https://www.khaskhabar.com/news/world-news/news-essential-to-respond-to-ukraine-attack-on-iranian-ship-foreign-minister-abbas-araghchi-news-hindi-1-831806-KKN.html",
+      "published_at": "2026-07-27T08:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "fdfcc6edeab96d92",
+      "name": "Oil prices slump on pause in US - Iran hostilities despite Houthi threats",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fdfcc6edeab96d92",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.664,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thenationalnews.com",
+      "url": "https://www.thenationalnews.com/business/energy/2026/07/27/oil-prices-slump-on-pause-in-us-iran-hostilities-despite-houthi-threats/",
+      "published_at": "2026-07-27T07:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "a8ec870a8377a879",
+      "name": "US and Iran pause their attacks after days of escalation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a8ec870a8377a879",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.618,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "manilatimes.net",
+      "url": "https://www.manilatimes.net/2026/07/27/world/us-and-iran-pause-their-attacks-after-days-of-escalation/2391786",
+      "published_at": "2026-07-27T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "cf556585f9d8b14e",
+      "name": "Trump paused attacks on Iran to make space for talks , US ambassador says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cf556585f9d8b14e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.618,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "namibian.com.na",
+      "url": "https://www.namibian.com.na/trump-paused-attacks-on-iran-to-make-space-for-talks-us-ambassador-says/",
+      "published_at": "2026-07-27T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "b5b0b420811a78ca",
+      "name": "Pentagon says over 640 troops killed or wounded in  quiet  database update on Iran war",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b5b0b420811a78ca",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.618,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/07/27/773133/United-States-war-Iran-forces-killed-wounded",
+      "published_at": "2026-07-27T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "3dea5e5c4bcaa713",
+      "name": "Iran halts retaliatory strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3dea5e5c4bcaa713",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.575,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "premiumtimesng.com",
+      "url": "https://www.premiumtimesng.com/news/top-news/898386-iran-halts-retaliatory-strikes.html",
+      "published_at": "2026-07-27T06:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
+      }
+    },
+    {
+      "id": "b9393d0a0f29cfc5",
+      "name": "U . S . and Iran hit pause on strikes for second day",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b9393d0a0f29cfc5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.349,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kaieteurnewsonline.com",
+      "url": "https://kaieteurnewsonline.com/2026/07/27/u-s-and-iran-hit-pause-on-strikes-for-second-day/",
+      "published_at": "2026-07-27T05:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
+    },
+    {
+      "id": "ee5b033dd04950ab",
+      "name": "Ukraine war briefing : Iran accuses Kyiv of deadly attack on Iranian vessel in Caspian Sea",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ee5b033dd04950ab",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.349,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aol.co.uk",
+      "url": "https://www.aol.co.uk/articles/ukraine-war-briefing-iran-accuses-020807000.html",
+      "published_at": "2026-07-27T05:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
+    },
+    {
+      "id": "a8c43d7f9b1d49bd",
+      "name": "BAHRAIN CALLS : Israeli President Herzog Speaks With Bahrain King Amid Reports of Gulf Strikes on Iran – The Yeshiva World",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a8c43d7f9b1d49bd",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.375,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2579034/bahrain-calls-israeli-president-herzog-speaks-with-bahrains-king-amid-reports-of-gulf-strikes-on-iran.html",
+      "published_at": "2026-07-27T05:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      }
+    },
+    {
+      "id": "8a50fffd34452495",
+      "name": "Iran FM says Ukraine attack on Iranian ship  cannot go unanswered",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8a50fffd34452495",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.349,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "prokerala.com",
+      "url": "https://www.prokerala.com/news/articles/a1792823.html",
+      "published_at": "2026-07-27T05:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -274,17 +742,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-07-27T08:41:04.550095Z",
+      "immediate": 5,
+      "short": 15,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-07-26T21:09:53.072383Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-07-27T08:41:04.550095Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 14
       },
       "manual": {
         "ok": true,
