@@ -1,45 +1,637 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-07-27T15:08:32.009361Z",
+  "mode": "live",
+  "generated_at": "2026-07-27T17:09:24.471210Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 67,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 29,
+      "low": 16,
+      "high": 42,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "זינוק חריג",
+    "points_60m": 24
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "19:15",
+      "text": "War : You will pay , ask US , Israel - Iranian security chief threatens Ukraine over attack",
+      "impact": "השפעה מיידית מחושבת: +20.9",
+      "direction": "up",
+      "source": "dailypost.ng",
+      "signal_id": "4ac793e97e5d3073"
+    },
+    {
+      "time": "19:15",
+      "text": "Mediators see progress in efforts to halt Iran war as drone attacks rattle region",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "newsday.com",
+      "signal_id": "043eca9a15441ca2"
+    },
+    {
+      "time": "19:30",
+      "text": "Iran Ramps Up Threats Against Ukraine After Ship Attacked",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "theepochtimes.com",
+      "signal_id": "0661fefc21f565f1"
+    },
+    {
+      "time": "19:30",
+      "text": "U . S . pauses attacks on Iran for a second straight day and Tehran does too",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "ideastream.org",
+      "signal_id": "2222b7c2376ff1fc"
+    }
+  ],
+  "signals": [
+    {
+      "id": "4ac793e97e5d3073",
+      "name": "War : You will pay , ask US , Israel - Iranian security chief threatens Ukraine over attack",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4ac793e97e5d3073",
+      "strength": 0.55,
+      "reliability": 0.56,
+      "freshness": 0.772,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "dailypost.ng",
+      "url": "https://dailypost.ng/2026/07/27/war-you-will-pay-ask-us-israel-iranian-security-chief-threatens-ukraine-over-attack/",
+      "published_at": "2026-07-27T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 20.9,
+        "short": 16.3,
+        "extended": 6.9
+      }
+    },
+    {
+      "id": "043eca9a15441ca2",
+      "name": "Mediators see progress in efforts to halt Iran war as drone attacks rattle region",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "043eca9a15441ca2",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.772,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newsday.com",
+      "url": "https://www.newsday.com/news/nation/iran-us-hormuz-strait-war-qatar-pakistan-j46273",
+      "published_at": "2026-07-27T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.1
+      }
+    },
+    {
+      "id": "0661fefc21f565f1",
+      "name": "Iran Ramps Up Threats Against Ukraine After Ship Attacked",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0661fefc21f565f1",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.829,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theepochtimes.com",
+      "url": "https://www.theepochtimes.com/world/iran-ramps-up-threats-against-ukraine-after-ship-attacked-6067795",
+      "published_at": "2026-07-27T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
+    {
+      "id": "2222b7c2376ff1fc",
+      "name": "U . S . pauses attacks on Iran for a second straight day and Tehran does too",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2222b7c2376ff1fc",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.829,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ideastream.org",
+      "url": "https://www.ideastream.org/government-politics/2026-07-26/u-s-pauses-attacks-on-iran-for-a-second-straight-day-and-tehran-does-too",
+      "published_at": "2026-07-27T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "cabd97abb1f7e029",
+      "name": "Houthis claim attack on Saudi oil infrastructure as US - Iran pause holds",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cabd97abb1f7e029",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.772,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/world-news/houthis-claim-attack-on-saudi-oil-infrastructure-as-us-iran-war-pause-holds-101785165461776.html",
+      "published_at": "2026-07-27T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "c35d2bba45614363",
+      "name": "Dangerous bet : How Kuwait and Bahrain miscalculated by becoming launchpads for US strikes on Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c35d2bba45614363",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.772,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/07/27/773157/dangerous-bet-how-kuwait-bahrain-miscalculated-becoming-launchpads-us-strikes-iran",
+      "published_at": "2026-07-27T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "9d7b05878ed3bb85",
+      "name": "Ukraine war is becoming more dangerous as Iran threatens to strike - London Business News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9d7b05878ed3bb85",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.623,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "londonlovesbusiness.com",
+      "url": "https://londonlovesbusiness.com/zelensky-iran-support-russia-war-ukraine/",
+      "published_at": "2026-07-27T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 6.9
+      }
+    },
+    {
+      "id": "df55931343a80797",
+      "name": "Ukraine Attacks Iranian Arms Shipments on the Caspian Sea",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "df55931343a80797",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.623,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "maritime-executive.com",
+      "url": "https://maritime-executive.com/article/ukraine-attacks-iranian-arms-shipments-on-the-caspian-sea",
+      "published_at": "2026-07-27T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "addbdf7c530a8515",
+      "name": "Saudi Arabia says it shot down Iranian drones targeting its oil facilities",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "addbdf7c530a8515",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.468,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "cbc.ca",
+      "url": "https://www.cbc.ca/news/world/us-iran-war-saudi-facilities-9.7285560",
+      "published_at": "2026-07-27T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "dda1ea2a453a5f80",
+      "name": "Saudi downs drones fired by Iran - backed militias in Iraq amid US - Tehran lull",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dda1ea2a453a5f80",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.468,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/defence/saudi-downs-drones-fired-by-iran-backed-militias-in-iraq-amid-us-tehran-lull/articleshow/132663078.cms",
+      "published_at": "2026-07-27T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "f4e78e1b9d26b838",
+      "name": "Drones and AI used to stop Iranian agents being smuggled into united kingdom",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f4e78e1b9d26b838",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.468,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thenationalnews.com",
+      "url": "https://www.thenationalnews.com/news/uk/2026/07/27/drones-and-ai-used-to-stop-iranian-agents-being-smuggled-into-uk/",
+      "published_at": "2026-07-27T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "01dced498a1a0782",
+      "name": "Iran Ground Offensive Against U . S . Bases Inconceivable , Analysts Say",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "01dced498a1a0782",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.503,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "forbes.com",
+      "url": "https://www.forbes.com/sites/pauliddon/2026/07/27/iran-ground-offensive-against-us-bases-inconceivable-analysts-say/",
+      "published_at": "2026-07-27T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "87a76dda1ae7ec69",
+      "name": "US , Iran pause strikes after escalation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "87a76dda1ae7ec69",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.503,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "altoonamirror.com",
+      "url": "https://www.altoonamirror.com/news/local-news/2026/07/us-iran-war-strikes-paused/",
+      "published_at": "2026-07-27T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "4079a6b680c62ec7",
+      "name": "Ukraine calls Iran accusations following Caspian Sea vessel attack  unjustified and groundless",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4079a6b680c62ec7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.503,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/eurasia/ukraine-calls-iran-s-accusations-following-caspian-sea-vessel-attack-unjustified-and-groundless-/4010476",
+      "published_at": "2026-07-27T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "afdeb54ef8f8198a",
+      "name": "Iran pauses Middle East strikes as United States refrains from retaliation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "afdeb54ef8f8198a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.468,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jowhar.com",
+      "url": "https://jowhar.com/iran-pauses-middle-east-strikes-as-united-states-refrains-from-retaliation/",
+      "published_at": "2026-07-27T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "058e470d79cc61de",
+      "name": "Iran holds firm on Strait of Hormuz as US strikes pause :  No change in position",
+      "finding": "דיווח המצביע על רגיעה, הכחשה או הפחתת הסלמה.",
+      "category": "regional_escalation",
+      "direction": "down",
+      "evidence_type": "deescalation",
+      "dependency_group": "058e470d79cc61de",
+      "strength": 0.54,
+      "reliability": 0.56,
+      "freshness": 0.328,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thenews.com.pk",
+      "url": "https://www.thenews.com.pk/latest/1410411-iran-holds-firm-on-strait-of-hormuz-as-us-strikes-pause-no-change-in-position",
+      "published_at": "2026-07-27T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": -0.8,
+        "short": -2.6,
+        "extended": -4.4
+      }
+    },
+    {
+      "id": "30536dc463745fec",
+      "name": "U . S .- Iran Pause Attacks for Third Night as Diplomacy Tempers Fears of Wider War",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "30536dc463745fec",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.468,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gcaptain.com",
+      "url": "https://gcaptain.com/u-s-iran-pause-attacks-for-third-night-as-diplomacy-tempers-fears-of-wider-war/",
+      "published_at": "2026-07-27T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "02c41169bbb7d623",
+      "name": "US and Iran Maintain Pause in Attacks as Diplomacy Continues",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "02c41169bbb7d623",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.328,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wcoapensacola.com",
+      "url": "https://www.wcoapensacola.com/2026/07/27/us-and-iran-maintain-pause-in-attacks-as-diplomacy-continues/",
+      "published_at": "2026-07-27T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -292,17 +884,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-07-27T17:09:24.471210Z",
+      "immediate": 24,
+      "short": 28,
+      "extended": 29
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-07-27T08:41:04.550095Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-07-27T17:09:24.471210Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 18
       },
       "manual": {
         "ok": true,
