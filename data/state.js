@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-07-27T08:41:04.550095Z",
+  "mode": "degraded",
+  "generated_at": "2026-07-27T12:00:17.544461Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 2,
       "low": 0,
-      "high": 18,
-      "confidence": 68,
+      "high": 19,
+      "confidence": 46,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
-      "low": 2,
-      "high": 28,
-      "confidence": 68,
-      "status": "נמוך"
+      "score": 6,
+      "low": 0,
+      "high": 23,
+      "confidence": 46,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 10,
+      "low": 0,
+      "high": 27,
+      "confidence": 46,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 5
+    "level": "ירידה",
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "11:15",
       "text": "Any Attack On Iran Always Comes With A Cost : Iraninan Diplomat Warns Ukraine After Attack On Vessel » IndiaPost NewsPaper",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "indiapost.com",
       "signal_id": "f788bd161f307839"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:45",
       "text": "Thomas Massie Says Iran War Has  Weakened  US , Points to Depleted Oil Reserves , Missile Defenses Araghchi",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "benzinga.com",
       "signal_id": "7ce3b97c888604c4"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:15",
       "text": "Trump pauses Iran strikes as officials worry about US arsenal depletion",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "news24.com",
       "signal_id": "91670c3030fa8ccb"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:15",
       "text": "Iran says it will halt attacks if US pauses strikes",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "samaa.tv",
       "signal_id": "cac5e4d2c58c0f21"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f788bd161f307839",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.883,
+      "freshness": 0.342,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.7,
-        "extended": 9.8
-      }
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "7ce3b97c888604c4",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7ce3b97c888604c4",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.766,
+      "freshness": 0.297,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.3,
-        "extended": 9.1
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      },
+      "carried_forward": true
     },
     {
       "id": "91670c3030fa8ccb",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "91670c3030fa8ccb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.883,
+      "freshness": 0.342,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "cac5e4d2c58c0f21",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cac5e4d2c58c0f21",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.883,
+      "freshness": 0.342,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "cec92cbd63bb2939",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cec92cbd63bb2939",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.883,
+      "freshness": 0.342,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "fdfcc6edeab96d92",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fdfcc6edeab96d92",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.664,
+      "freshness": 0.257,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.4
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.8
+      },
+      "carried_forward": true
     },
     {
       "id": "a8ec870a8377a879",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a8ec870a8377a879",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.618,
+      "freshness": 0.239,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
+      },
+      "carried_forward": true
     },
     {
       "id": "cf556585f9d8b14e",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cf556585f9d8b14e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.618,
+      "freshness": 0.239,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
+      },
+      "carried_forward": true
     },
     {
       "id": "b5b0b420811a78ca",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b5b0b420811a78ca",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.618,
+      "freshness": 0.239,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
+      },
+      "carried_forward": true
     },
     {
       "id": "3dea5e5c4bcaa713",
@@ -362,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3dea5e5c4bcaa713",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.575,
+      "freshness": 0.223,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,134 +387,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-27T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.7
-      }
-    },
-    {
-      "id": "b9393d0a0f29cfc5",
-      "name": "U . S . and Iran hit pause on strikes for second day",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b9393d0a0f29cfc5",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.349,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kaieteurnewsonline.com",
-      "url": "https://kaieteurnewsonline.com/2026/07/27/u-s-and-iran-hit-pause-on-strikes-for-second-day/",
-      "published_at": "2026-07-27T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
-    },
-    {
-      "id": "ee5b033dd04950ab",
-      "name": "Ukraine war briefing : Iran accuses Kyiv of deadly attack on Iranian vessel in Caspian Sea",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ee5b033dd04950ab",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.349,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aol.co.uk",
-      "url": "https://www.aol.co.uk/articles/ukraine-war-briefing-iran-accuses-020807000.html",
-      "published_at": "2026-07-27T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
-    },
-    {
-      "id": "a8c43d7f9b1d49bd",
-      "name": "BAHRAIN CALLS : Israeli President Herzog Speaks With Bahrain King Amid Reports of Gulf Strikes on Iran – The Yeshiva World",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a8c43d7f9b1d49bd",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.375,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2579034/bahrain-calls-israeli-president-herzog-speaks-with-bahrains-king-amid-reports-of-gulf-strikes-on-iran.html",
-      "published_at": "2026-07-27T05:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    },
-    {
-      "id": "8a50fffd34452495",
-      "name": "Iran FM says Ukraine attack on Iranian ship  cannot go unanswered",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8a50fffd34452495",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.349,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "prokerala.com",
-      "url": "https://www.prokerala.com/news/articles/a1792823.html",
-      "published_at": "2026-07-27T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
+      "carried_forward": true
     }
   ],
   "history": [
@@ -748,17 +634,23 @@ window.MAGEN_STATE = {
       "immediate": 5,
       "short": 15,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-07-27T12:00:17.544461Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 10
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-07-27T08:41:04.550095Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 14
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 10
       },
       "manual": {
         "ok": true,
