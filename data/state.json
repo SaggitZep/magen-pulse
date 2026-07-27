@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-07-27T17:09:24.471210Z",
+  "generated_at": "2026-07-27T18:48:33.934445Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 17,
+      "low": 4,
+      "high": 30,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 28,
-      "low": 15,
-      "high": 41,
-      "confidence": 67,
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 66,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 29,
-      "low": 16,
-      "high": 42,
-      "confidence": 67,
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 66,
       "status": "מוגבר"
     }
   },
@@ -35,41 +35,41 @@
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 24
+    "level": "ירידה",
+    "points_60m": -7
   },
   "changes": [
     {
       "time": "19:15",
       "text": "War : You will pay , ask US , Israel - Iranian security chief threatens Ukraine over attack",
-      "impact": "השפעה מיידית מחושבת: +20.9",
+      "impact": "השפעה מיידית מחושבת: +13.0",
       "direction": "up",
       "source": "dailypost.ng",
       "signal_id": "4ac793e97e5d3073"
     },
     {
-      "time": "19:15",
-      "text": "Mediators see progress in efforts to halt Iran war as drone attacks rattle region",
+      "time": "20:00",
+      "text": "More than 600 US military service members injured since Iran War began in February",
       "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "newsday.com",
+      "source": "bbc.co.uk",
+      "signal_id": "783a4fba375d1bc2"
+    },
+    {
+      "time": "20:30",
+      "text": "Mediators see progress in efforts to halt Iran war as drone attacks rattle region",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "castanetkamloops.net",
       "signal_id": "043eca9a15441ca2"
     },
     {
-      "time": "19:30",
-      "text": "Iran Ramps Up Threats Against Ukraine After Ship Attacked",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "time": "20:15",
+      "text": "U . S . and Iran edge toward talks as Hormuz shipping hits three - week low , regional officials say",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
-      "source": "theepochtimes.com",
-      "signal_id": "0661fefc21f565f1"
-    },
-    {
-      "time": "19:30",
-      "text": "U . S . pauses attacks on Iran for a second straight day and Tehran does too",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "ideastream.org",
-      "signal_id": "2222b7c2376ff1fc"
+      "source": "fortune.com",
+      "signal_id": "13856c89cf5329b7"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@
       "dependency_group": "4ac793e97e5d3073",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.772,
+      "freshness": 0.481,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,40 @@
       "published_at": "2026-07-27T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 20.9,
-        "short": 16.3,
-        "extended": 6.9
+        "immediate": 13.0,
+        "short": 10.2,
+        "extended": 4.3
+      }
+    },
+    {
+      "id": "783a4fba375d1bc2",
+      "name": "More than 600 US military service members injured since Iran War began in February",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "783a4fba375d1bc2",
+      "strength": 0.4,
+      "reliability": 0.88,
+      "freshness": 0.596,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bbc.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/c998pzd1e8xo",
+      "published_at": "2026-07-27T17:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
       }
     },
     {
@@ -114,7 +145,7 @@
       "dependency_group": "043eca9a15441ca2",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.772,
+      "freshness": 0.688,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,14 +156,45 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "newsday.com",
-      "url": "https://www.newsday.com/news/nation/iran-us-hormuz-strait-war-qatar-pakistan-j46273",
-      "published_at": "2026-07-27T16:15:00Z",
+      "source": "castanetkamloops.net",
+      "url": "https://www.castanetkamloops.net/news/World/626114/Mediators-see-progress-in-efforts-to-halt-Iran-war-as-drone-attacks-rattle-region",
+      "published_at": "2026-07-27T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.1
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "13856c89cf5329b7",
+      "name": "U . S . and Iran edge toward talks as Hormuz shipping hits three - week low , regional officials say",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "13856c89cf5329b7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.64,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "fortune.com",
+      "url": "https://fortune.com/2026/07/27/u-s-and-iran-edge-toward-talks-as-hormuz-shipping-hits-three-week-low-regional-officials-say/",
+      "published_at": "2026-07-27T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
       }
     },
     {
@@ -145,7 +207,7 @@
       "dependency_group": "0661fefc21f565f1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.829,
+      "freshness": 0.517,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +223,9 @@
       "published_at": "2026-07-27T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.2
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
       }
     },
     {
@@ -176,7 +238,7 @@
       "dependency_group": "2222b7c2376ff1fc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.829,
+      "freshness": 0.517,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +254,40 @@
       "published_at": "2026-07-27T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "e05eb808574e0ca7",
+      "name": "Oil falls 9 . 5 % in steepest drop in months as Iran , US pause attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e05eb808574e0ca7",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.388,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/07/oil-falls-95-steepest-drop-months-iran-us-pause-attacks",
+      "published_at": "2026-07-27T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
       }
     },
     {
@@ -207,7 +300,7 @@
       "dependency_group": "cabd97abb1f7e029",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.772,
+      "freshness": 0.481,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +316,9 @@
       "published_at": "2026-07-27T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
       }
     },
     {
@@ -238,7 +331,7 @@
       "dependency_group": "c35d2bba45614363",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.772,
+      "freshness": 0.481,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +347,40 @@
       "published_at": "2026-07-27T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
+      }
+    },
+    {
+      "id": "fbbab16ad51abd45",
+      "name": "US uses commercial ships in Strait of Hormuz for military purposes : Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fbbab16ad51abd45",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.481,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/07/27/773173/US-uses-commercial-ships-Strait-of-Hormuz-military-purposes-Baghaei",
+      "published_at": "2026-07-27T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
       }
     },
     {
@@ -269,7 +393,7 @@
       "dependency_group": "9d7b05878ed3bb85",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.623,
+      "freshness": 0.388,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +409,9 @@
       "published_at": "2026-07-27T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     },
     {
@@ -300,7 +424,7 @@
       "dependency_group": "df55931343a80797",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.623,
+      "freshness": 0.388,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,319 +440,9 @@
       "published_at": "2026-07-27T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
-    },
-    {
-      "id": "addbdf7c530a8515",
-      "name": "Saudi Arabia says it shot down Iranian drones targeting its oil facilities",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "addbdf7c530a8515",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.468,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cbc.ca",
-      "url": "https://www.cbc.ca/news/world/us-iran-war-saudi-facilities-9.7285560",
-      "published_at": "2026-07-27T14:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "dda1ea2a453a5f80",
-      "name": "Saudi downs drones fired by Iran - backed militias in Iraq amid US - Tehran lull",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "dda1ea2a453a5f80",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.468,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/defence/saudi-downs-drones-fired-by-iran-backed-militias-in-iraq-amid-us-tehran-lull/articleshow/132663078.cms",
-      "published_at": "2026-07-27T14:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "f4e78e1b9d26b838",
-      "name": "Drones and AI used to stop Iranian agents being smuggled into united kingdom",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f4e78e1b9d26b838",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.468,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thenationalnews.com",
-      "url": "https://www.thenationalnews.com/news/uk/2026/07/27/drones-and-ai-used-to-stop-iranian-agents-being-smuggled-into-uk/",
-      "published_at": "2026-07-27T14:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "01dced498a1a0782",
-      "name": "Iran Ground Offensive Against U . S . Bases Inconceivable , Analysts Say",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "01dced498a1a0782",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.503,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "forbes.com",
-      "url": "https://www.forbes.com/sites/pauliddon/2026/07/27/iran-ground-offensive-against-us-bases-inconceivable-analysts-say/",
-      "published_at": "2026-07-27T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      }
-    },
-    {
-      "id": "87a76dda1ae7ec69",
-      "name": "US , Iran pause strikes after escalation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "87a76dda1ae7ec69",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.503,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "altoonamirror.com",
-      "url": "https://www.altoonamirror.com/news/local-news/2026/07/us-iran-war-strikes-paused/",
-      "published_at": "2026-07-27T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      }
-    },
-    {
-      "id": "4079a6b680c62ec7",
-      "name": "Ukraine calls Iran accusations following Caspian Sea vessel attack  unjustified and groundless",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4079a6b680c62ec7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.503,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/eurasia/ukraine-calls-iran-s-accusations-following-caspian-sea-vessel-attack-unjustified-and-groundless-/4010476",
-      "published_at": "2026-07-27T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      }
-    },
-    {
-      "id": "afdeb54ef8f8198a",
-      "name": "Iran pauses Middle East strikes as United States refrains from retaliation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "afdeb54ef8f8198a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.468,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jowhar.com",
-      "url": "https://jowhar.com/iran-pauses-middle-east-strikes-as-united-states-refrains-from-retaliation/",
-      "published_at": "2026-07-27T14:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
-    },
-    {
-      "id": "058e470d79cc61de",
-      "name": "Iran holds firm on Strait of Hormuz as US strikes pause :  No change in position",
-      "finding": "דיווח המצביע על רגיעה, הכחשה או הפחתת הסלמה.",
-      "category": "regional_escalation",
-      "direction": "down",
-      "evidence_type": "deescalation",
-      "dependency_group": "058e470d79cc61de",
-      "strength": 0.54,
-      "reliability": 0.56,
-      "freshness": 0.328,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thenews.com.pk",
-      "url": "https://www.thenews.com.pk/latest/1410411-iran-holds-firm-on-strait-of-hormuz-as-us-strikes-pause-no-change-in-position",
-      "published_at": "2026-07-27T13:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": -0.8,
-        "short": -2.6,
-        "extended": -4.4
-      }
-    },
-    {
-      "id": "30536dc463745fec",
-      "name": "U . S .- Iran Pause Attacks for Third Night as Diplomacy Tempers Fears of Wider War",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "30536dc463745fec",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.468,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gcaptain.com",
-      "url": "https://gcaptain.com/u-s-iran-pause-attacks-for-third-night-as-diplomacy-tempers-fears-of-wider-war/",
-      "published_at": "2026-07-27T14:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
-    },
-    {
-      "id": "02c41169bbb7d623",
-      "name": "US and Iran Maintain Pause in Attacks as Diplomacy Continues",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "02c41169bbb7d623",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.328,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wcoapensacola.com",
-      "url": "https://www.wcoapensacola.com/2026/07/27/us-and-iran-maintain-pause-in-attacks-as-diplomacy-continues/",
-      "published_at": "2026-07-27T13:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       }
     }
   ],
@@ -890,17 +704,23 @@
       "immediate": 24,
       "short": 28,
       "extended": 29
+    },
+    {
+      "timestamp": "2026-07-27T18:48:33.934445Z",
+      "immediate": 17,
+      "short": 22,
+      "extended": 25
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-07-27T17:09:24.471210Z",
+    "last_success": "2026-07-27T18:48:33.934445Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 18
+        "relevant": 12
       },
       "manual": {
         "ok": true,
