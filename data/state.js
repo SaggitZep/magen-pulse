@@ -1,48 +1,56 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-07-28T22:31:10.491357Z",
+  "mode": "live",
+  "generated_at": "2026-07-28T23:34:45.811769Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 30,
-      "low": 14,
-      "high": 46,
-      "confidence": 49,
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 67,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 29,
-      "low": 13,
-      "high": 45,
-      "confidence": 49,
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 67,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 6,
-      "high": 38,
-      "confidence": 49,
+      "score": 32,
+      "low": 19,
+      "high": 45,
+      "confidence": 67,
       "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -4
+    "level": "עלייה מתונה",
+    "points_60m": 4
   },
   "changes": [
     {
+      "time": "01:00",
+      "text": "Israel security forces recommended Benjamin Netanyahu leave discreetly due to Iran threat",
+      "impact": "השפעה מיידית מחושבת: +22.8",
+      "direction": "up",
+      "source": "jpost.com",
+      "signal_id": "b254edb690a9fce6"
+    },
+    {
       "time": "23:00",
       "text": "INSS survey : Israelis fear internal violence equally to Iranian nuclear bomb",
-      "impact": "השפעה מיידית מחושבת: +15.9",
+      "impact": "השפעה מיידית מחושבת: +11.7",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "bac8ccb13ec1739e"
@@ -50,29 +58,52 @@ window.MAGEN_STATE = {
     {
       "time": "22:45",
       "text": "Iran Rapidly Rebuilds Military Sites Hit by U . S .- Israeli Strikes , Report Says – NaturalNews . com",
-      "impact": "השפעה מיידית מחושבת: +11.2",
+      "impact": "השפעה מיידית מחושבת: +8.3",
       "direction": "up",
       "source": "naturalnews.com",
       "signal_id": "a358c17ec5b350d0"
     },
     {
-      "time": "21:00",
-      "text": "Large portion of Iranians approve of Benjamin Netanyahu , US - Israeli strikes on regime",
-      "impact": "השפעה מיידית מחושבת: +9.0",
+      "time": "02:00",
+      "text": "Iran Warns Ukraine Caspian Sea Strike  Cannot Go Unanswered  As Zelensky Confirms Attack",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "179e164d6601539b"
-    },
-    {
-      "time": "20:45",
-      "text": "What are Trump military options ? | US - Israel war on Iran",
-      "impact": "השפעה מיידית מחושבת: +6.3",
-      "direction": "up",
-      "source": "aljazeera.com",
-      "signal_id": "9be26bd79d3c42be"
+      "source": "hngn.com",
+      "signal_id": "4896af36898634b4"
     }
   ],
   "signals": [
+    {
+      "id": "b254edb690a9fce6",
+      "name": "Israel security forces recommended Benjamin Netanyahu leave discreetly due to Iran threat",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b254edb690a9fce6",
+      "strength": 0.55,
+      "reliability": 0.74,
+      "freshness": 0.637,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "jpost.com",
+      "url": "http://www.jpost.com/israel-news/article-903944",
+      "published_at": "2026-07-28T22:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 22.8,
+        "short": 17.8,
+        "extended": 7.5
+      }
+    },
     {
       "id": "bac8ccb13ec1739e",
       "name": "INSS survey : Israelis fear internal violence equally to Iranian nuclear bomb",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bac8ccb13ec1739e",
       "strength": 0.5,
       "reliability": 0.74,
-      "freshness": 0.487,
+      "freshness": 0.36,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,11 +130,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 15.9,
-        "short": 12.4,
-        "extended": 5.2
-      },
-      "carried_forward": true
+        "immediate": 11.7,
+        "short": 9.1,
+        "extended": 3.9
+      }
     },
     {
       "id": "a358c17ec5b350d0",
@@ -115,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a358c17ec5b350d0",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.453,
+      "freshness": 0.335,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -131,75 +161,165 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.2,
-        "short": 8.7,
-        "extended": 3.7
-      },
-      "carried_forward": true
+        "immediate": 8.3,
+        "short": 6.4,
+        "extended": 2.7
+      }
     },
     {
-      "id": "179e164d6601539b",
-      "name": "Large portion of Iranians approve of Benjamin Netanyahu , US - Israeli strikes on regime",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "4896af36898634b4",
+      "name": "Iran Warns Ukraine Caspian Sea Strike  Cannot Go Unanswered  As Zelensky Confirms Attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "179e164d6601539b",
-      "strength": 0.5,
-      "reliability": 0.74,
-      "freshness": 0.275,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "jpost.com",
-      "url": "http://www.jpost.com/middle-east/iran-news/article-903934",
-      "published_at": "2026-07-28T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 9.0,
-        "short": 7.0,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9be26bd79d3c42be",
-      "name": "What are Trump military options ? | US - Israel war on Iran",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9be26bd79d3c42be",
-      "strength": 0.5,
+      "dependency_group": "4896af36898634b4",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.256,
+      "freshness": 0.847,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/opinions/2026/7/28/what-are-trumps-military-options",
-      "published_at": "2026-07-28T17:45:00Z",
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/272421/20260728/iran-warns-ukraines-caspian-sea-strike-cannot-go-unanswered-zelensky-confirms-attack.htm",
+      "published_at": "2026-07-28T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 6.3,
-        "short": 4.9,
-        "extended": 2.1
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
+    },
+    {
+      "id": "961b74a8265033b2",
+      "name": "Kyiv warns Iran against escalation after Ukraine Caspian Sea attack - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "961b74a8265033b2",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.789,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dominicanrepublicpost.com",
+      "url": "https://dominicanrepublicpost.com/kyiv-warns-iran-against-escalation-after-ukraines-caspian-sea-attack/",
+      "published_at": "2026-07-28T22:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "71e2d9da87e02155",
+      "name": "Trump and Netanyahu meet for first time since launching Iran War",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "71e2d9da87e02155",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.847,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kcci.com",
+      "url": "https://www.kcci.com/article/netanyahu-trump-meeting-iran-war/73284029",
+      "published_at": "2026-07-28T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.3
+      }
+    },
+    {
+      "id": "d6d3a08114672f15",
+      "name": "Iran says it seeks  restitution  from Ukraine after ship attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d6d3a08114672f15",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.789,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "washingtonexaminer.com",
+      "url": "https://www.washingtonexaminer.com/news/world/4666366/iran-restitution-ukraine-ship-attack/",
+      "published_at": "2026-07-28T22:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.6,
+        "extended": 7.8
+      }
+    },
+    {
+      "id": "c392fb7cbc4dc68c",
+      "name": "Netanyahu praises first meeting with Trump since launching the Iran war",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c392fb7cbc4dc68c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.789,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailyadvance.com",
+      "url": "http://www.dailyadvance.com/news/world/netanyahu-praises-first-meeting-with-trump-since-launching-the-iran-war/article_ba97b52f-026c-5ad3-bf66-10987ac7bd83.html",
+      "published_at": "2026-07-28T22:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.6,
+        "extended": 7.8
+      }
     },
     {
       "id": "489f19534c99802b",
@@ -211,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "489f19534c99802b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.603,
+      "freshness": 0.446,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,11 +347,72 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "6ec86e26e7f9182a",
+      "name": "Iran seeks  restitution of losses  after Ukraine assures strike on vessel in Caspian Sea was  unintentional",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6ec86e26e7f9182a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.479,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aninews.in",
+      "url": "https://aninews.in/news/world/middle-east/iran-seeks-restitution-of-loses-after-ukraine-assures-strike-on-vessel-in-caspian-sea-was-unintentional20260729013909/",
+      "published_at": "2026-07-28T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
+      }
+    },
+    {
+      "id": "7ebc6959116e01bf",
+      "name": "Iran says it seeks  restitution  for Ukrainian attacks on vessel",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7ebc6959116e01bf",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.479,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeasteye.net",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-seeks-restitution-ukrainian-attacks-vessel",
+      "published_at": "2026-07-28T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
+      }
     },
     {
       "id": "043eca9a15441ca2",
@@ -243,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "043eca9a15441ca2",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.453,
+      "freshness": 0.335,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,11 +440,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.4
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      }
     },
     {
       "id": "c630dcded2826251",
@@ -275,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c630dcded2826251",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.487,
+      "freshness": 0.36,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,43 +471,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "08f3cd55a60bedbc",
-      "name": "Trump and Netanyahu meet for the first time since launching the Iran war",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "08f3cd55a60bedbc",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.523,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thehindu.com",
-      "url": "https://www.thehindu.com/news/international/trump-and-netanyahu-meet-for-the-first-time-since-launching-the-iran-war/article71278622.ece",
-      "published_at": "2026-07-28T20:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      }
     },
     {
       "id": "5c59f236832ea88f",
@@ -339,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5c59f236832ea88f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.453,
+      "freshness": 0.335,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,139 +502,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e76321ca31cc44c8",
-      "name": "Iran - US Pause Holds As Drone Attacks Spread To Israel , Jordan Despite Lull In Strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e76321ca31cc44c8",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.275,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hngn.com",
-      "url": "https://www.hngn.com/articles/272329/20260728/trump-weighs-wider-iran-offensive-wars-death-toll-hits-59-strikes-reach-kuwait.htm",
-      "published_at": "2026-07-28T18:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
         "short": 1.9,
         "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "63439dc8cc304d31",
-      "name": "US pauses Iran strikes , Red Sea becomes new flashpoint",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "63439dc8cc304d31",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.275,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "tradearabia.com:443",
-      "url": "https://tradearabia.com:443/News/465577/US-pauses-Iran-strikes-Red-Sea-becomes-new-flashpoint",
-      "published_at": "2026-07-28T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "12af5e9c7d73beab",
-      "name": "Iran threatens Melania and Barron Trump in propaganda video",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "12af5e9c7d73beab",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.256,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "washingtonexaminer.com",
-      "url": "https://www.washingtonexaminer.com/news/world/4665586/iran-threatens-melania-barron-trump/",
-      "published_at": "2026-07-28T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "85e5cf6462e89b1d",
-      "name": "Trump expresses frustrations with Netanyahu before their first meeting since launching the Iran war",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "85e5cf6462e89b1d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.256,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/trump-expresses-frustrations-with-netanyahu-before-their-first-meeting-since-launching-the-iran-war-101785250143053.html",
-      "published_at": "2026-07-28T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
+      }
     }
   ],
   "history": [
@@ -844,17 +862,23 @@ window.MAGEN_STATE = {
       "immediate": 30,
       "short": 29,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-07-28T23:34:45.811769Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 32
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-07-28T21:17:48.990081Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-07-28T23:34:45.811769Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 13
+        "ok": true,
+        "items": 150,
+        "relevant": 14
       },
       "manual": {
         "ok": true,
