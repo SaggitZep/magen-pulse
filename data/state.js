@@ -1,89 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-07-28T18:07:02.734697Z",
+  "mode": "live",
+  "generated_at": "2026-07-28T19:53:42.934409Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 31,
-      "low": 15,
+      "score": 34,
+      "low": 21,
       "high": 47,
-      "confidence": 49,
+      "confidence": 66,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 31,
-      "low": 15,
+      "score": 34,
+      "low": 21,
       "high": 47,
-      "confidence": 49,
+      "confidence": 66,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 9,
-      "high": 41,
-      "confidence": 49,
+      "score": 30,
+      "low": 17,
+      "high": 43,
+      "confidence": 65,
       "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -3
+    "level": "עלייה מתונה",
+    "points_60m": 3
   },
   "changes": [
     {
-      "time": "18:00",
-      "text": "Netanyahu to Present Trump With Intelligence on Iran Covert Nuclear , Missile Activities : Israeli Sources",
-      "impact": "השפעה מיידית מחושבת: +11.7",
+      "time": "21:00",
+      "text": "Large portion of Iranians approve of Benjamin Netanyahu , US - Israeli strikes on regime",
+      "impact": "השפעה מיידית מחושבת: +18.9",
       "direction": "up",
-      "source": "theepochtimes.com",
-      "signal_id": "b7c31f3ab5b8c42c"
+      "source": "jpost.com",
+      "signal_id": "179e164d6601539b"
     },
     {
-      "time": "18:15",
-      "text": "Did US bombers use Israeli bases to strike Iran ? Israel Katz drops a bombshell claim",
-      "impact": "השפעה מיידית מחושבת: +10.9",
+      "time": "21:00",
+      "text": "INSS survey : Israelis fear internal violence equally to Iranian nuclear bomb",
+      "impact": "השפעה מיידית מחושבת: +18.9",
       "direction": "up",
-      "source": "economictimes.indiatimes.com",
-      "signal_id": "a8dfa50c10dcafe0"
+      "source": "jpost.com",
+      "signal_id": "bac8ccb13ec1739e"
     },
     {
-      "time": "18:00",
-      "text": "US warplanes take off from Israel to attack Iran , Israeli defense minister says",
-      "impact": "השפעה מיידית מחושבת: +10.1",
+      "time": "20:45",
+      "text": "What are Trump military options ? | US - Israel war on Iran",
+      "impact": "השפעה מיידית מחושבת: +13.4",
       "direction": "up",
-      "source": "middleeastmonitor.com",
-      "signal_id": "775abd2b52d0381b"
+      "source": "aljazeera.com",
+      "signal_id": "9be26bd79d3c42be"
     },
     {
-      "time": "16:30",
-      "text": "Israel says US warplanes used its bases to launch strikes on Iran ; warns of retaliation if attacked",
-      "impact": "השפעה מיידית מחושבת: +7.2",
+      "time": "20:15",
+      "text": "DEFENSE REVELATIONS : Katz Says Israel Wants To Strike Iran Again But U . S . Has Not Approved",
+      "impact": "השפעה מיידית מחושבת: +11.6",
       "direction": "up",
-      "source": "moneycontrol.com",
-      "signal_id": "37232bc0ff5688f0"
+      "source": "theyeshivaworld.com",
+      "signal_id": "c6864a9e516dfa07"
     }
   ],
   "signals": [
     {
-      "id": "b7c31f3ab5b8c42c",
-      "name": "Netanyahu to Present Trump With Intelligence on Iran Covert Nuclear , Missile Activities : Israeli Sources",
+      "id": "179e164d6601539b",
+      "name": "Large portion of Iranians approve of Benjamin Netanyahu , US - Israeli strikes on regime",
       "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
       "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "b7c31f3ab5b8c42c",
-      "strength": 0.58,
-      "reliability": 0.56,
-      "freshness": 0.41,
+      "dependency_group": "179e164d6601539b",
+      "strength": 0.5,
+      "reliability": 0.74,
+      "freshness": 0.582,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -94,28 +94,58 @@ window.MAGEN_STATE = {
         "short": 0.88,
         "extended": 0.56
       },
-      "source": "theepochtimes.com",
-      "url": "https://www.theepochtimes.com/world/netanyahu-to-present-trump-with-intelligence-on-irans-covert-nuclear-missile-activities-israeli-sources-6068232",
-      "published_at": "2026-07-28T15:00:00Z",
+      "source": "jpost.com",
+      "url": "http://www.jpost.com/middle-east/iran-news/article-903934",
+      "published_at": "2026-07-28T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.7,
-        "short": 9.1,
-        "extended": 3.9
-      },
-      "carried_forward": true
+        "immediate": 18.9,
+        "short": 14.8,
+        "extended": 6.3
+      }
     },
     {
-      "id": "a8dfa50c10dcafe0",
-      "name": "Did US bombers use Israeli bases to strike Iran ? Israel Katz drops a bombshell claim",
+      "id": "bac8ccb13ec1739e",
+      "name": "INSS survey : Israelis fear internal violence equally to Iranian nuclear bomb",
       "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
       "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a8dfa50c10dcafe0",
+      "dependency_group": "bac8ccb13ec1739e",
+      "strength": 0.5,
+      "reliability": 0.74,
+      "freshness": 0.582,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "jpost.com",
+      "url": "http://www.jpost.com/israel-news/article-903936",
+      "published_at": "2026-07-28T18:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 18.9,
+        "short": 14.8,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "9be26bd79d3c42be",
+      "name": "What are Trump military options ? | US - Israel war on Iran",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9be26bd79d3c42be",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.441,
+      "freshness": 0.542,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -126,28 +156,27 @@ window.MAGEN_STATE = {
         "short": 0.88,
         "extended": 0.56
       },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/defence/did-us-bombers-use-israeli-bases-to-launch-strikes-on-iran-israel-katz-lifts-the-lid/articleshow/132687484.cms",
-      "published_at": "2026-07-28T15:15:00Z",
+      "source": "aljazeera.com",
+      "url": "https://www.aljazeera.com/opinions/2026/7/28/what-are-trumps-military-options",
+      "published_at": "2026-07-28T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 10.9,
-        "short": 8.5,
-        "extended": 3.6
-      },
-      "carried_forward": true
+        "immediate": 13.4,
+        "short": 10.4,
+        "extended": 4.4
+      }
     },
     {
-      "id": "775abd2b52d0381b",
-      "name": "US warplanes take off from Israel to attack Iran , Israeli defense minister says",
+      "id": "c6864a9e516dfa07",
+      "name": "DEFENSE REVELATIONS : Katz Says Israel Wants To Strike Iran Again But U . S . Has Not Approved",
       "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
       "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "775abd2b52d0381b",
+      "dependency_group": "c6864a9e516dfa07",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.41,
+      "freshness": 0.47,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -158,48 +187,356 @@ window.MAGEN_STATE = {
         "short": 0.88,
         "extended": 0.56
       },
-      "source": "middleeastmonitor.com",
-      "url": "https://www.middleeastmonitor.com/20260728-us-warplanes-take-off-from-israel-to-attack-iran-israeli-defense-minister-says/",
-      "published_at": "2026-07-28T15:00:00Z",
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2579749/defense-revelations-katz-says-israel-wants-to-strike-iran-again-but-u-s-has-not-approved.html",
+      "published_at": "2026-07-28T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 10.1,
-        "short": 7.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
+        "immediate": 11.6,
+        "short": 9.0,
+        "extended": 3.8
+      }
     },
     {
-      "id": "37232bc0ff5688f0",
-      "name": "Israel says US warplanes used its bases to launch strikes on Iran ; warns of retaliation if attacked",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "08f3cd55a60bedbc",
+      "name": "Trump and Netanyahu meet for the first time since launching the Iran war",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "37232bc0ff5688f0",
-      "strength": 0.55,
+      "dependency_group": "08f3cd55a60bedbc",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.267,
+      "freshness": 0.893,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/israel-says-us-warplanes-used-its-bases-to-launch-strikes-on-iran-warns-of-retaliation-if-attacked-article-13986105.html",
-      "published_at": "2026-07-28T13:30:00Z",
+      "source": "local10.com",
+      "url": "https://www.local10.com/news/2026/07/28/trump-and-netanyahu-meet-for-the-first-time-since-launching-the-iran-war/",
+      "published_at": "2026-07-28T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 7.2,
-        "short": 5.6,
-        "extended": 2.4
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "e76321ca31cc44c8",
+      "name": "Iran - US Pause Holds As Drone Attacks Spread To Israel , Jordan Despite Lull In Strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e76321ca31cc44c8",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.582,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/272329/20260728/trump-weighs-wider-iran-offensive-wars-death-toll-hits-59-strikes-reach-kuwait.htm",
+      "published_at": "2026-07-28T18:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.9
+      }
+    },
+    {
+      "id": "e476ea16ccc24bef",
+      "name": "How Iran has adapted its missile war and given the US a strategic dilemma",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e476ea16ccc24bef",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.47,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "irishtimes.com",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/07/28/how-iran-has-adapted-its-missile-war-and-given-the-us-a-strategic-dilemma/",
+      "published_at": "2026-07-28T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
+    {
+      "id": "63439dc8cc304d31",
+      "name": "US pauses Iran strikes , Red Sea becomes new flashpoint",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "63439dc8cc304d31",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.582,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tradearabia.com:443",
+      "url": "https://tradearabia.com:443/News/465577/US-pauses-Iran-strikes-Red-Sea-becomes-new-flashpoint",
+      "published_at": "2026-07-28T18:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      }
+    },
+    {
+      "id": "12af5e9c7d73beab",
+      "name": "Iran threatens Melania and Barron Trump in propaganda video",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "12af5e9c7d73beab",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.542,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "washingtonexaminer.com",
+      "url": "https://www.washingtonexaminer.com/news/world/4665586/iran-threatens-melania-barron-trump/",
+      "published_at": "2026-07-28T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "85e5cf6462e89b1d",
+      "name": "Trump expresses frustrations with Netanyahu before their first meeting since launching the Iran war",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "85e5cf6462e89b1d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.542,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/world-news/trump-expresses-frustrations-with-netanyahu-before-their-first-meeting-since-launching-the-iran-war-101785250143053.html",
+      "published_at": "2026-07-28T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
+    },
+    {
+      "id": "fd8a08da7ac4563f",
+      "name": "When two wars meet at lake : Ukraine strike in Caspian Sea and the Iran - Russia angle",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fd8a08da7ac4563f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.47,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/ht-explainers/ukraines-strike-on-iranian-vessel-on-caspian-sea-and-the-iran-russia-angle-when-two-wars-collide-101785249473722.html",
+      "published_at": "2026-07-28T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "8da66edc990d3404",
+      "name": "Will US strike Iran again ? Donald Trump sends mixed signals :  Can avoid if …",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8da66edc990d3404",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.47,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/world-news/us-news/us-iran-war-latest-news-donald-trump-leaves-door-open-for-talks-after-pause-attack-strait-of-hormuz-araghchi-pakistan-101785252152547.html",
+      "published_at": "2026-07-28T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "329b8841ba81d711",
+      "name": "Tehran Threatens  Freeloader  Volodymyr Zelensky After Ukraine Strike on Iran Supply Ship to Russia",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "329b8841ba81d711",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.407,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "breitbart.com",
+      "url": "https://www.breitbart.com/middle-east/2026/07/28/tehran-threatens-freeloader-volodymyr-zelensky-after-ukraine-strike-on-iran-supply-ship-to-russia/",
+      "published_at": "2026-07-28T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      }
+    },
+    {
+      "id": "8f15803b2b4d979c",
+      "name": "Oman steps up Hormuz diplomacy as Iran issues new shipping threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8f15803b2b4d979c",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.407,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thenationalnews.com",
+      "url": "https://www.thenationalnews.com/news/gulf/2026/07/28/oman-steps-up-hormuz-diplomacy-as-iran-issues-new-shipping-threat/",
+      "published_at": "2026-07-28T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      }
+    },
+    {
+      "id": "6411d87cdcc066ee",
+      "name": "Iran Admits to Major Infrastructure Damage from U . S . Strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6411d87cdcc066ee",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.407,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "breitbart.com",
+      "url": "https://www.breitbart.com/middle-east/2026/07/28/iran-admits-major-infrastructure-damage-u-s-strikes/",
+      "published_at": "2026-07-28T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      }
     },
     {
       "id": "2ba89b898048ff51",
@@ -211,7 +548,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2ba89b898048ff51",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.587,
+      "freshness": 0.353,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,235 +564,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0f944293119b8931",
-      "name": "Jordan intercepts Iranian drone in eastern desert",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0f944293119b8931",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.441,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabnews.com",
-      "url": "https://www.arabnews.com/node/2652594/middle-east",
-      "published_at": "2026-07-28T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "06d29f7d9397d808",
-      "name": "Iran threatens horror attack on Ukraine as Trump meets Zelensky in Ukraine",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "06d29f7d9397d808",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.441,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aol.co.uk",
-      "url": "https://www.aol.co.uk/articles/iran-threatens-horror-attack-ukraine-143700000.html",
-      "published_at": "2026-07-28T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "85e5cf6462e89b1d",
-      "name": "Trump expresses frustrations with Netanyahu before their first meeting since launching the Iran war",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "85e5cf6462e89b1d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.441,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "rockymounttelegram.com",
-      "url": "http://www.rockymounttelegram.com/news/world/trump-expresses-frustrations-with-netanyahu-before-their-first-meeting-since-launching-the-iran-war/article_caa800bd-1b77-50af-85c6-29a1ef4bc439.html",
-      "published_at": "2026-07-28T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "043eca9a15441ca2",
-      "name": "Mediators see progress in efforts to halt Iran war as drone attacks rattle region",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "043eca9a15441ca2",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.308,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wellandtribune.ca",
-      "url": "https://www.wellandtribune.ca/business/mediators-see-progress-in-diplomatic-efforts-to-halt-iran-war-2-regional-officials-say/article_be470eb5-b6ea-5d90-94b4-6f43cbd0760f.html",
-      "published_at": "2026-07-28T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5df1c8a2b46c3bb1",
-      "name": "Trump trick : Scenario of NATO involvement in war with Iran – 3 scenarios following Caspian strike",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5df1c8a2b46c3bb1",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.331,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bankingnews.gr",
-      "url": "https://www.bankingnews.gr/diethni/articles/890869/trump-s-trick-scenario-of-nato-involvement-in-war-with-iran-3-scenarios-following-caspian-strike",
-      "published_at": "2026-07-28T14:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a9745dd7ff5afe75",
-      "name": "US , Iran negotiating as attacks still paused | Northwest Arkansas Democrat - Gazette",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a9745dd7ff5afe75",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.267,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nwaonline.com",
-      "url": "https://www.nwaonline.com/news/2026/jul/28/us-iran-negotiating-as-attacks-still-paused/",
-      "published_at": "2026-07-28T13:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d5fb69cdb6d17fdc",
-      "name": "Informe : Netanyahu presentará a Trump pruebas sobre las actividades nucleares iraníes en la montaña Pickaxe",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d5fb69cdb6d17fdc",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.267,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "itongadol.com",
-      "url": "https://itongadol.com/internacionales/informe-netanyahu-presentara-a-trump-pruebas-sobre-las-actividades-nucleares-iranies-en-la-montana-pickaxe",
-      "published_at": "2026-07-28T13:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
     }
   ],
   "history": [
@@ -794,17 +906,23 @@ window.MAGEN_STATE = {
       "immediate": 31,
       "short": 31,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-07-28T19:53:42.934409Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 30
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-07-28T16:47:25.983335Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-07-28T19:53:42.934409Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 12
+        "ok": true,
+        "items": 150,
+        "relevant": 16
       },
       "manual": {
         "ok": true,
