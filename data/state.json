@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-07-28T01:16:10.122679Z",
+  "mode": "degraded",
+  "generated_at": "2026-07-28T04:33:26.392513Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 2,
       "low": 0,
-      "high": 18,
-      "confidence": 66,
+      "high": 19,
+      "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 16,
-      "low": 3,
-      "high": 29,
-      "confidence": 66,
-      "status": "נמוך"
+      "score": 6,
+      "low": 0,
+      "high": 23,
+      "confidence": 45,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 26,
-      "low": 13,
-      "high": 39,
-      "confidence": 66,
-      "status": "מוגבר"
+      "score": 11,
+      "low": 0,
+      "high": 28,
+      "confidence": 45,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 5
+    "level": "ירידה",
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "03:30",
       "text": "Iran - Backed Drones Keep Middle East on Edge Despite US - Iran Lull",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "themedialine.org",
       "signal_id": "d04fe44b1c8c2a5e"
@@ -50,7 +50,7 @@
     {
       "time": "03:30",
       "text": "Multiple explosions rock Erbil near US consulate as Iranian drones target Iraq",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "news.webindia123.com",
       "signal_id": "692c4d312d8a7431"
@@ -58,7 +58,7 @@
     {
       "time": "03:30",
       "text": "Explosions in Erbil Near US Consulate After Iranian Drone Strikes",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "newkerala.com",
       "signal_id": "d04cf3501e6ea009"
@@ -66,7 +66,7 @@
     {
       "time": "03:30",
       "text": "World News : Trump warns of renewed attacks if Iran talks fail",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "gdnonline.com:443",
       "signal_id": "6436023c7e34c96e"
@@ -83,7 +83,7 @@
       "dependency_group": "d04fe44b1c8c2a5e",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.803,
+      "freshness": 0.314,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@
       "published_at": "2026-07-28T00:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.6,
-        "extended": 9.5
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "692c4d312d8a7431",
@@ -114,7 +115,7 @@
       "dependency_group": "692c4d312d8a7431",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.803,
+      "freshness": 0.314,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-07-28T00:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.6,
-        "extended": 9.5
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "d04cf3501e6ea009",
@@ -145,7 +147,7 @@
       "dependency_group": "d04cf3501e6ea009",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.803,
+      "freshness": 0.314,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-07-28T00:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.6,
-        "extended": 9.5
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "6436023c7e34c96e",
@@ -176,7 +179,7 @@
       "dependency_group": "6436023c7e34c96e",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.803,
+      "freshness": 0.314,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-07-28T00:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.9
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
+      },
+      "carried_forward": true
     },
     {
       "id": "043eca9a15441ca2",
@@ -207,7 +211,7 @@
       "dependency_group": "043eca9a15441ca2",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.696,
+      "freshness": 0.272,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,41 +227,11 @@
       "published_at": "2026-07-28T00:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
-      }
-    },
-    {
-      "id": "68f1ad9d5398e26a",
-      "name": "Trump says US and Tehran having  good talk as drones hit Iran neighbours",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "68f1ad9d5398e26a",
-      "strength": 0.48,
-      "reliability": 0.74,
-      "freshness": 0.393,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "al-monitor.com",
-      "url": "https://www.al-monitor.com/originals/2026/07/trump-says-us-and-tehran-having-good-talks-drones-hit-irans-neighbours",
-      "published_at": "2026-07-27T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+      "carried_forward": true
     },
     {
       "id": "e93e445693935305",
@@ -269,7 +243,7 @@
       "dependency_group": "e93e445693935305",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.562,
+      "freshness": 0.22,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +259,11 @@
       "published_at": "2026-07-27T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.5
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
+      },
+      "carried_forward": true
     },
     {
       "id": "0641c017a8ddf717",
@@ -300,7 +275,7 @@
       "dependency_group": "0641c017a8ddf717",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.562,
+      "freshness": 0.22,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +291,11 @@
       "published_at": "2026-07-27T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.5
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
+      },
+      "carried_forward": true
     },
     {
       "id": "7fed2e13125dc420",
@@ -331,7 +307,7 @@
       "dependency_group": "7fed2e13125dc420",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.523,
+      "freshness": 0.204,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,134 +323,11 @@
       "published_at": "2026-07-27T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
-      }
-    },
-    {
-      "id": "b92ea5522a2deaf1",
-      "name": "Trump opens door to Iran talks , warns of renewed strikes if diplomacy fails",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b92ea5522a2deaf1",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.341,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "albawaba.com",
-      "url": "https://www.albawaba.com/news/trump-opens-door-iran-talks-warns-1633934",
-      "published_at": "2026-07-27T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
-    },
-    {
-      "id": "226dfc67a518bdb0",
-      "name": "Trump Pauses Strikes on Iran to Give Talks Another Chance",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "226dfc67a518bdb0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.393,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "military.com",
-      "url": "https://www.military.com/trump-pauses-strikes-on-iran-to-give-talks-another-chance",
-      "published_at": "2026-07-27T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "fecec6fadc5bc3d7",
-      "name": "Global Petrol Prices Soar as Strait of Hormuz Shipping Drops to Three - Week Low Following Iran Blockade",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fecec6fadc5bc3d7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.422,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ibtimes.co.uk",
-      "url": "https://www.ibtimes.co.uk/global-petrol-prices-surge-strait-hormuz-tensions-1810901",
-      "published_at": "2026-07-27T22:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.2
-      }
-    },
-    {
-      "id": "4a59d3e1150a0b56",
-      "name": "Saudi Arabia defends against drone strikes from  Iran - backed  groups - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4a59d3e1150a0b56",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.341,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dominicanrepublicpost.com",
-      "url": "https://dominicanrepublicpost.com/saudi-arabia-defends-against-drone-strikes-from-iran-backed-groups/",
-      "published_at": "2026-07-27T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      }
+      "carried_forward": true
     }
   ],
   "history": [
@@ -771,17 +624,23 @@
       "immediate": 5,
       "short": 16,
       "extended": 26
+    },
+    {
+      "timestamp": "2026-07-28T04:33:26.392513Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 11
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-07-28T01:16:10.122679Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 13
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 8
       },
       "manual": {
         "ok": true,
