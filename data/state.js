@@ -1,185 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-07-28T04:33:26.392513Z",
+  "mode": "live",
+  "generated_at": "2026-07-28T07:22:30.594804Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 45,
+      "high": 18,
+      "confidence": 63,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
+      "score": 12,
       "low": 0,
-      "high": 23,
-      "confidence": 45,
-      "status": "לא זוהה אות חריג"
+      "high": 26,
+      "confidence": 63,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
-      "low": 0,
-      "high": 28,
-      "confidence": 45,
+      "score": 20,
+      "low": 6,
+      "high": 34,
+      "confidence": 63,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -3
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "03:30",
-      "text": "Iran - Backed Drones Keep Middle East on Edge Despite US - Iran Lull",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "09:15",
+      "text": "Live updates : Oil prices tumble as US - Iran strikes pause but regional escalation threat remains",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "themedialine.org",
-      "signal_id": "d04fe44b1c8c2a5e"
+      "source": "us.cnn.com",
+      "signal_id": "23eb810264a7172d"
     },
     {
-      "time": "03:30",
-      "text": "Multiple explosions rock Erbil near US consulate as Iranian drones target Iraq",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "08:15",
+      "text": "Mediators see progress in efforts to halt Iran war as drone attacks rattle region",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
-      "source": "news.webindia123.com",
-      "signal_id": "692c4d312d8a7431"
+      "source": "isp.netscape.com:443",
+      "signal_id": "043eca9a15441ca2"
     },
     {
-      "time": "03:30",
-      "text": "Explosions in Erbil Near US Consulate After Iranian Drone Strikes",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "09:00",
+      "text": "Turkmenistan Condemns Strike on Iranian Ship in Caspian Sea - The Times Of Central Asia",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
-      "source": "newkerala.com",
-      "signal_id": "d04cf3501e6ea009"
+      "source": "timesca.com",
+      "signal_id": "fde9d0c043d5795c"
     },
     {
-      "time": "03:30",
-      "text": "World News : Trump warns of renewed attacks if Iran talks fail",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "08:00",
+      "text": "Saudi Arabia , Jordan , and Iraq report drone attacks days after US suspended Iran strikes  | Peak Oil News and Message Boards",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
-      "source": "gdnonline.com:443",
-      "signal_id": "6436023c7e34c96e"
+      "source": "peakoil.com",
+      "signal_id": "8203b5d8dd82a0f9"
     }
   ],
   "signals": [
     {
-      "id": "d04fe44b1c8c2a5e",
-      "name": "Iran - Backed Drones Keep Middle East on Edge Despite US - Iran Lull",
+      "id": "23eb810264a7172d",
+      "name": "Live updates : Oil prices tumble as US - Iran strikes pause but regional escalation threat remains",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "d04fe44b1c8c2a5e",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.314,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "themedialine.org",
-      "url": "https://themedialine.org/headlines/iran-backed-drones-keep-middle-east-on-edge-despite-us-iran-lull/",
-      "published_at": "2026-07-28T00:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "692c4d312d8a7431",
-      "name": "Multiple explosions rock Erbil near US consulate as Iranian drones target Iraq",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "692c4d312d8a7431",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.314,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260728/4479954.html",
-      "published_at": "2026-07-28T00:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d04cf3501e6ea009",
-      "name": "Explosions in Erbil Near US Consulate After Iranian Drone Strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d04cf3501e6ea009",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.314,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newkerala.com",
-      "url": "https://www.newkerala.com/news/a/multiple-explosions-rock-erbil-near-us-consulate-as-884.htm",
-      "published_at": "2026-07-28T00:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6436023c7e34c96e",
-      "name": "World News : Trump warns of renewed attacks if Iran talks fail",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6436023c7e34c96e",
+      "dependency_group": "23eb810264a7172d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.314,
+      "freshness": 0.725,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -190,16 +94,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "gdnonline.com:443",
-      "url": "https://www.gdnonline.com:443/Details/1401822/Trump-warns-of-renewed-attacks-if-Iran-talks-fail",
-      "published_at": "2026-07-28T00:30:00Z",
+      "source": "us.cnn.com",
+      "url": "https://us.cnn.com/2026/07/28/world/live-news/iran-trump-news",
+      "published_at": "2026-07-28T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
-      },
-      "carried_forward": true
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
     },
     {
       "id": "043eca9a15441ca2",
@@ -211,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "043eca9a15441ca2",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.272,
+      "freshness": 0.545,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -222,112 +125,387 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "kait8.com",
-      "url": "https://www.kait8.com/2026/07/27/mediators-see-progress-efforts-halt-iran-war-drone-attacks-rattle-region/",
-      "published_at": "2026-07-28T00:00:00Z",
+      "source": "isp.netscape.com:443",
+      "url": "https://isp.netscape.com:443/news/world/story/0001/20260728/d57e675a7be6dbdd34561909ced240d0",
+      "published_at": "2026-07-28T05:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "fde9d0c043d5795c",
+      "name": "Turkmenistan Condemns Strike on Iranian Ship in Caspian Sea - The Times Of Central Asia",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fde9d0c043d5795c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.675,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timesca.com",
+      "url": "https://timesca.com/turkmenistan-condemns-strike-on-iranian-ship-in-caspian-sea/",
+      "published_at": "2026-07-28T06:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "8203b5d8dd82a0f9",
+      "name": "Saudi Arabia , Jordan , and Iraq report drone attacks days after US suspended Iran strikes  | Peak Oil News and Message Boards",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8203b5d8dd82a0f9",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.507,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "peakoil.com",
+      "url": "https://peakoil.com/publicpolicy/saudi-arabia-jordan-and-iraq-report-drone-attacks-days-after-us-suspended-iran-strikes",
+      "published_at": "2026-07-28T05:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "201e312ec14ef902",
+      "name": "Trump says US and Tehran having  good talk as drones hit Iran neighbors",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "201e312ec14ef902",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.44,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bworldonline.com",
+      "url": "https://bworldonline.com/world/2026/07/28/766327/trump-says-us-and-tehran-having-good-talks-as-drones-hit-irans-neighbors/",
+      "published_at": "2026-07-28T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      }
+    },
+    {
+      "id": "f335bff2e1c4a31f",
+      "name": "US - Iran War Live Updates : Iran says it will  never  strike a deal with US , calls Hormuz its  pinnacle of power",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f335bff2e1c4a31f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.44,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-news-live-updates-donald-trump-iran-strikes-strait-of-hormuz-deal-west-asia-war-oil-prices-latest-news/liveblog/132673876.cms",
+      "published_at": "2026-07-28T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
+    },
+    {
+      "id": "2cfe1702972ed6b9",
+      "name": "US , Tehran having  good talk as drones hit Iran neighbors – Trump",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2cfe1702972ed6b9",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.355,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "rappler.com",
+      "url": "https://www.rappler.com/world/middle-east/donald-trump-us-tehran-good-talks-drones-hit-iran-neighbors/",
+      "published_at": "2026-07-28T03:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
+    },
+    {
+      "id": "5858e6a161078a95",
+      "name": "IRAN SECRET BUILDUP : Netanyahu To Show Trump Evidence Of Nuclear Expansion And Missile Rebuilding – The Yeshiva World",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5858e6a161078a95",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.355,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/general/2579631/irans-secret-buildup-netanyahu-to-show-trump-evidence-of-nuclear-expansion-and-missile-rebuilding.html",
+      "published_at": "2026-07-28T03:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
+    },
+    {
+      "id": "2f2ca664fc3fa89f",
+      "name": "Ieftină , precisă și letală : De ce este Kheibar Shekan , cea mai performantă rachetă a Iranului , atât de greu de interceptat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2f2ca664fc3fa89f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.44,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "digi24.ro",
+      "url": "https://www.digi24.ro/stiri/externe/ieftina-precisa-si-letala-de-ce-este-kheibar-shekan-cea-mai-performanta-racheta-a-iranului-atat-de-greu-de-interceptat-3880159",
+      "published_at": "2026-07-28T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
+    },
+    {
+      "id": "b9dc5f9bf9b284f4",
+      "name": "Iranian drone strikes hit northern Iraq , explosions reported near US Consulate in Erbil",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b9dc5f9bf9b284f4",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.33,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/defence/multiple-explosions-rock-erbil-near-us-consulate-as-iranian-drones-target-iraq/articleshow/132673909.cms",
+      "published_at": "2026-07-28T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "34861c3a14891f61",
+      "name": "Iran , US give diplomacy a chance as strikes put on hold",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "34861c3a14891f61",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.381,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sbs.com.au",
+      "url": "https://www.sbs.com.au/news/podcast-episode/iran-us-give-diplomacy-a-chance-as-strikes-put-on-hold/l7731thbe",
+      "published_at": "2026-07-28T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "f117fec9da067e15",
+      "name": "Report : Netanyahu to present Trump with proof of Iranian nuclear buildup",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f117fec9da067e15",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.381,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/news/430858",
+      "published_at": "2026-07-28T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "8a3b0071a025e2b3",
+      "name": "Trump : U . S . in  Very Deep Talk with Iran  Strong Military Action  if Diplomacy Fails",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8a3b0071a025e2b3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.355,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "breitbart.com",
+      "url": "https://www.breitbart.com/middle-east/2026/07/27/trump-u-s-very-deep-talks-iran-warns-strong-military-action-diplomacy-fails/",
+      "published_at": "2026-07-28T03:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      }
+    },
+    {
+      "id": "0f945a566e8abe9f",
+      "name": "നെതന്യാഹു യു . എസിൽ ; ഇറാനുമായി സൗഹൃദപരമായ ചർച്ചകൾ നടക്കുന്നുണ്ടെന്ന് ട്രംപ് , അമേരിക്ക പാടുപെടുകയാണെന്ന് ഇറാൻ | trump - netanyahu - washington - talks - iran - nuclear",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0f945a566e8abe9f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.33,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "madhyamam.com",
+      "url": "https://www.madhyamam.com/world/trump-netanyahu-washington-talks-iran-nuclear-1541054",
+      "published_at": "2026-07-28T03:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
         "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e93e445693935305",
-      "name": "How Ukraine attack on Iranian ship in Caspian Sea blurred the lines between two wars",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e93e445693935305",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.22,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabnews.com",
-      "url": "https://www.arabnews.com/node/2652520/middle-east",
-      "published_at": "2026-07-27T23:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0641c017a8ddf717",
-      "name": "US stocks finished mixed with most indices in the green after a pause of US / Iran strikes , although tech weakness dragged the Nasdaq lower - Newsquawk Daily Asia - Pac Market Open",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0641c017a8ddf717",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.22,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "zerohedge.com",
-      "url": "https://www.zerohedge.com/markets/us-stocks-finished-mixed-most-indices-green-after-pause-usiran-strikes-although-tech",
-      "published_at": "2026-07-27T23:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7fed2e13125dc420",
-      "name": "Oil prices fall after US , Iran pause attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7fed2e13125dc420",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.204,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "signalscv.com",
-      "url": "https://signalscv.com/2026/07/oil-prices-fall-after-us-iran-pause-attacks/",
-      "published_at": "2026-07-27T23:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
+        "extended": 3.3
+      }
     }
   ],
   "history": [
@@ -630,17 +808,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 6,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-07-28T07:22:30.594804Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-07-28T01:16:10.122679Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-07-28T07:22:30.594804Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 14
       },
       "manual": {
         "ok": true,
