@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-07-28T19:53:42.934409Z",
+  "generated_at": "2026-07-28T21:17:48.990081Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,7 +9,7 @@ window.MAGEN_STATE = {
       "score": 34,
       "low": 21,
       "high": 47,
-      "confidence": 66,
+      "confidence": 67,
       "status": "מוגבר"
     },
     "short": {
@@ -17,7 +17,7 @@ window.MAGEN_STATE = {
       "score": 34,
       "low": 21,
       "high": 47,
-      "confidence": 66,
+      "confidence": 67,
       "status": "מוגבר"
     },
     "extended": {
@@ -25,7 +25,7 @@ window.MAGEN_STATE = {
       "score": 30,
       "low": 17,
       "high": 43,
-      "confidence": 65,
+      "confidence": 66,
       "status": "מוגבר"
     }
   },
@@ -35,44 +35,106 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 3
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
-      "time": "21:00",
-      "text": "Large portion of Iranians approve of Benjamin Netanyahu , US - Israeli strikes on regime",
-      "impact": "השפעה מיידית מחושבת: +18.9",
-      "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "179e164d6601539b"
-    },
-    {
-      "time": "21:00",
+      "time": "23:00",
       "text": "INSS survey : Israelis fear internal violence equally to Iranian nuclear bomb",
-      "impact": "השפעה מיידית מחושבת: +18.9",
+      "impact": "השפעה מיידית מחושבת: +22.5",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "bac8ccb13ec1739e"
     },
     {
+      "time": "22:45",
+      "text": "Iran Rapidly Rebuilds Military Sites Hit by U . S .- Israeli Strikes , Report Says – NaturalNews . com",
+      "impact": "השפעה מיידית מחושבת: +15.8",
+      "direction": "up",
+      "source": "naturalnews.com",
+      "signal_id": "a358c17ec5b350d0"
+    },
+    {
+      "time": "21:00",
+      "text": "Large portion of Iranians approve of Benjamin Netanyahu , US - Israeli strikes on regime",
+      "impact": "השפעה מיידית מחושבת: +12.7",
+      "direction": "up",
+      "source": "jpost.com",
+      "signal_id": "179e164d6601539b"
+    },
+    {
       "time": "20:45",
       "text": "What are Trump military options ? | US - Israel war on Iran",
-      "impact": "השפעה מיידית מחושבת: +13.4",
+      "impact": "השפעה מיידית מחושבת: +8.9",
       "direction": "up",
       "source": "aljazeera.com",
       "signal_id": "9be26bd79d3c42be"
-    },
-    {
-      "time": "20:15",
-      "text": "DEFENSE REVELATIONS : Katz Says Israel Wants To Strike Iran Again But U . S . Has Not Approved",
-      "impact": "השפעה מיידית מחושבת: +11.6",
-      "direction": "up",
-      "source": "theyeshivaworld.com",
-      "signal_id": "c6864a9e516dfa07"
     }
   ],
   "signals": [
+    {
+      "id": "bac8ccb13ec1739e",
+      "name": "INSS survey : Israelis fear internal violence equally to Iranian nuclear bomb",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bac8ccb13ec1739e",
+      "strength": 0.5,
+      "reliability": 0.74,
+      "freshness": 0.69,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "jpost.com",
+      "url": "https://www.jpost.com/israel-news/article-903936",
+      "published_at": "2026-07-28T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 22.5,
+        "short": 17.5,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "a358c17ec5b350d0",
+      "name": "Iran Rapidly Rebuilds Military Sites Hit by U . S .- Israeli Strikes , Report Says – NaturalNews . com",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a358c17ec5b350d0",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.643,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-07-28-iran-rapidly-rebuilds-military-sites-hit-by-us.html",
+      "published_at": "2026-07-28T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 15.8,
+        "short": 12.4,
+        "extended": 5.2
+      }
+    },
     {
       "id": "179e164d6601539b",
       "name": "Large portion of Iranians approve of Benjamin Netanyahu , US - Israeli strikes on regime",
@@ -83,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "179e164d6601539b",
       "strength": 0.5,
       "reliability": 0.74,
-      "freshness": 0.582,
+      "freshness": 0.39,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,40 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 18.9,
-        "short": 14.8,
-        "extended": 6.3
-      }
-    },
-    {
-      "id": "bac8ccb13ec1739e",
-      "name": "INSS survey : Israelis fear internal violence equally to Iranian nuclear bomb",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bac8ccb13ec1739e",
-      "strength": 0.5,
-      "reliability": 0.74,
-      "freshness": 0.582,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "jpost.com",
-      "url": "http://www.jpost.com/israel-news/article-903936",
-      "published_at": "2026-07-28T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 18.9,
-        "short": 14.8,
-        "extended": 6.3
+        "immediate": 12.7,
+        "short": 9.9,
+        "extended": 4.2
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9be26bd79d3c42be",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.542,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -161,40 +192,102 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 13.4,
-        "short": 10.4,
-        "extended": 4.4
+        "immediate": 8.9,
+        "short": 7.0,
+        "extended": 3.0
       }
     },
     {
-      "id": "c6864a9e516dfa07",
-      "name": "DEFENSE REVELATIONS : Katz Says Israel Wants To Strike Iran Again But U . S . Has Not Approved",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "489f19534c99802b",
+      "name": "Iran says final Hormuz proposal to Oman requires control of key shipping lanes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "c6864a9e516dfa07",
-      "strength": 0.5,
+      "dependency_group": "489f19534c99802b",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.47,
+      "freshness": 0.855,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2579749/defense-revelations-katz-says-israel-wants-to-strike-iran-again-but-u-s-has-not-approved.html",
-      "published_at": "2026-07-28T17:15:00Z",
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/middle-east/iran-says-final-hormuz-proposal-to-oman-requires-control-of-key-shipping-lanes/4011954",
+      "published_at": "2026-07-28T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.6,
-        "short": 9.0,
-        "extended": 3.8
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "043eca9a15441ca2",
+      "name": "Mediators see progress in efforts to halt Iran war as drone attacks rattle region",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "043eca9a15441ca2",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.643,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ksla.com",
+      "url": "https://www.ksla.com/2026/07/27/mediators-see-progress-efforts-halt-iran-war-drone-attacks-rattle-region/",
+      "published_at": "2026-07-28T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "c630dcded2826251",
+      "name": "Trump Says US and Iran Are Holding  Friendly  Talks , Warns Military Action Could Resume",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c630dcded2826251",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.69,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bearingdrift.com",
+      "url": "https://www.bearingdrift.com/2026/07/trump-says-us-and-iran-are-holding.html",
+      "published_at": "2026-07-28T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
       }
     },
     {
@@ -207,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "08f3cd55a60bedbc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.893,
+      "freshness": 0.741,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -218,14 +311,45 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "local10.com",
-      "url": "https://www.local10.com/news/2026/07/28/trump-and-netanyahu-meet-for-the-first-time-since-launching-the-iran-war/",
-      "published_at": "2026-07-28T19:30:00Z",
+      "source": "thehindu.com",
+      "url": "https://www.thehindu.com/news/international/trump-and-netanyahu-meet-for-the-first-time-since-launching-the-iran-war/article71278622.ece",
+      "published_at": "2026-07-28T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "5c59f236832ea88f",
+      "name": "Pentagon updates Iran war casualty database , adds more than 140 wounded , creates new category – NaturalNews . com",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5c59f236832ea88f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.643,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-07-28-pentagon-updates-iran-war-casualty-database.html",
+      "published_at": "2026-07-28T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
       }
     },
     {
@@ -238,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e76321ca31cc44c8",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.582,
+      "freshness": 0.39,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,40 +378,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.9
-      }
-    },
-    {
-      "id": "e476ea16ccc24bef",
-      "name": "How Iran has adapted its missile war and given the US a strategic dilemma",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e476ea16ccc24bef",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.47,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "irishtimes.com",
-      "url": "https://www.irishtimes.com/world/middle-east/2026/07/28/how-iran-has-adapted-its-missile-war-and-given-the-us-a-strategic-dilemma/",
-      "published_at": "2026-07-28T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     },
     {
@@ -300,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "63439dc8cc304d31",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.582,
+      "freshness": 0.39,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,9 +409,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
       }
     },
     {
@@ -331,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "12af5e9c7d73beab",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.542,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,9 +440,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
       }
     },
     {
@@ -362,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "85e5cf6462e89b1d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.542,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,195 +471,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
-    },
-    {
-      "id": "fd8a08da7ac4563f",
-      "name": "When two wars meet at lake : Ukraine strike in Caspian Sea and the Iran - Russia angle",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fd8a08da7ac4563f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.47,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/ht-explainers/ukraines-strike-on-iranian-vessel-on-caspian-sea-and-the-iran-russia-angle-when-two-wars-collide-101785249473722.html",
-      "published_at": "2026-07-28T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
-    },
-    {
-      "id": "8da66edc990d3404",
-      "name": "Will US strike Iran again ? Donald Trump sends mixed signals :  Can avoid if …",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8da66edc990d3404",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.47,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/us-news/us-iran-war-latest-news-donald-trump-leaves-door-open-for-talks-after-pause-attack-strait-of-hormuz-araghchi-pakistan-101785252152547.html",
-      "published_at": "2026-07-28T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
-    },
-    {
-      "id": "329b8841ba81d711",
-      "name": "Tehran Threatens  Freeloader  Volodymyr Zelensky After Ukraine Strike on Iran Supply Ship to Russia",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "329b8841ba81d711",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.407,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "breitbart.com",
-      "url": "https://www.breitbart.com/middle-east/2026/07/28/tehran-threatens-freeloader-volodymyr-zelensky-after-ukraine-strike-on-iran-supply-ship-to-russia/",
-      "published_at": "2026-07-28T16:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "8f15803b2b4d979c",
-      "name": "Oman steps up Hormuz diplomacy as Iran issues new shipping threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8f15803b2b4d979c",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.407,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thenationalnews.com",
-      "url": "https://www.thenationalnews.com/news/gulf/2026/07/28/oman-steps-up-hormuz-diplomacy-as-iran-issues-new-shipping-threat/",
-      "published_at": "2026-07-28T16:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "6411d87cdcc066ee",
-      "name": "Iran Admits to Major Infrastructure Damage from U . S . Strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6411d87cdcc066ee",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.407,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "breitbart.com",
-      "url": "https://www.breitbart.com/middle-east/2026/07/28/iran-admits-major-infrastructure-damage-u-s-strikes/",
-      "published_at": "2026-07-28T16:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      }
-    },
-    {
-      "id": "2ba89b898048ff51",
-      "name": "I dont need Bibi to tell me : Trump plays down Iran nuclear site threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2ba89b898048ff51",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.353,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/bj11bim8bzx",
-      "published_at": "2026-07-28T16:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       }
     }
   ],
@@ -912,17 +819,23 @@ window.MAGEN_STATE = {
       "immediate": 34,
       "short": 34,
       "extended": 30
+    },
+    {
+      "timestamp": "2026-07-28T21:17:48.990081Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 30
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-07-28T19:53:42.934409Z",
+    "last_success": "2026-07-28T21:17:48.990081Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 16
+        "relevant": 13
       },
       "manual": {
         "ok": true,
