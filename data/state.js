@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-07-28T12:14:41.552553Z",
+  "generated_at": "2026-07-28T14:55:59.216056Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 1,
       "low": 0,
-      "high": 19,
-      "confidence": 48,
+      "high": 18,
+      "confidence": 44,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 4,
       "low": 0,
-      "high": 25,
-      "confidence": 48,
-      "status": "נמוך"
+      "high": 21,
+      "confidence": 44,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
+      "score": 7,
       "low": 0,
-      "high": 31,
-      "confidence": 48,
-      "status": "נמוך"
+      "high": 24,
+      "confidence": 44,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "12:30",
       "text": "Mediators see progress in efforts to halt Iran war as drone attacks rattle region",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "lockhaven.com",
       "signal_id": "043eca9a15441ca2"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "12:30",
       "text": "Iran nightmare missile drives the US crazy as budget friendly weapon drains ammunition stocks",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "bankingnews.gr",
       "signal_id": "ed5e837d02edfc1c"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "12:00",
       "text": "Live updates : Oil prices tumble as US - Iran strikes pause but regional escalation threat remains",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "edition.cnn.com",
       "signal_id": "23eb810264a7172d"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "12:30",
       "text": "Bab el - Mandeb shipping rises amid hopes of resolution in US - Iran war",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "yahoo.com",
       "signal_id": "bf68c1439b81f76a"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "043eca9a15441ca2",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.456,
+      "freshness": 0.212,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ed5e837d02edfc1c",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.456,
+      "freshness": 0.212,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "23eb810264a7172d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.396,
+      "freshness": 0.184,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bf68c1439b81f76a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.456,
+      "freshness": 0.212,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "252b4597ed864562",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.425,
+      "freshness": 0.197,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "93f4211b62b1003d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.396,
+      "freshness": 0.184,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,233 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-28T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b02b0685a40ff5b0",
-      "name": "Zelensky Details Three Threats as North Korea , Iran and China Deepen Ties with Russia",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b02b0685a40ff5b0",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.343,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jp.ibtimes.com",
-      "url": "https://jp.ibtimes.com/zelensky-details-three-threats-north-korea-iran-china-deepen-ties-russia-103079",
-      "published_at": "2026-07-28T08:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "fecec6fadc5bc3d7",
-      "name": "Global Petrol Prices Soar as Strait of Hormuz Shipping Drops to Three - Week Low Following Iran Blockade",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fecec6fadc5bc3d7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.343,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jp.ibtimes.com",
-      "url": "https://jp.ibtimes.com/global-petrol-prices-soar-strait-hormuz-shipping-drops-three-week-low-following-iran-blockade-103091",
-      "published_at": "2026-07-28T08:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e584d936a6bfdd09",
-      "name": "As imperialist wars converge , Ukraine strikes Iranian cargo ship in the Caspian Sea",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e584d936a6bfdd09",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.343,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wsws.org",
-      "url": "https://www.wsws.org/en/articles/2026/07/28/fvsu-j28.html",
-      "published_at": "2026-07-28T08:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "49cbffe35f42cf1c",
-      "name": "Brent , WTI extend losses amid pause in US strikes on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "49cbffe35f42cf1c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.343,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "samaa.tv",
-      "url": "https://www.samaa.tv/2087354313-brent-wti-extend-losses-amid-pause-in-us-strikes-on-iran",
-      "published_at": "2026-07-28T08:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e4b088b222be457c",
-      "name": "Iran and Oman are negotiating the resumption of shipping through the Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e4b088b222be457c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.343,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.am",
-      "url": "https://news.am/en/news/1052000",
-      "published_at": "2026-07-28T08:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "014fb99bdda74edb",
-      "name": "NY Post : Netanyahu to bring Trump intelligence on Iran nuclear program",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "014fb99bdda74edb",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.343,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.am",
-      "url": "https://news.am/en/news/1052010",
-      "published_at": "2026-07-28T08:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "22abae3164484d24",
-      "name": "Oil at one - week low as US and Iran pause attack ; supply tension underpins",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "22abae3164484d24",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.258,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabnews.com",
-      "url": "https://www.arabnews.com/node/2652537/business-economy",
-      "published_at": "2026-07-28T07:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.8
       },
       "carried_forward": true
     }
@@ -808,6 +584,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 9,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-07-28T14:55:59.216056Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 7
     }
   ],
   "health": {
@@ -818,7 +600,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 13
+        "carried_forward": 6
       },
       "manual": {
         "ok": true,
