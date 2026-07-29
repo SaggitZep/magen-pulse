@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-07-28T23:34:45.811769Z",
+  "generated_at": "2026-07-29T01:10:06.958535Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 34,
-      "low": 21,
-      "high": 47,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 5,
+      "low": 0,
+      "high": 17,
+      "confidence": 70,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 34,
-      "low": 21,
-      "high": 47,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 17,
+      "low": 5,
+      "high": 29,
+      "confidence": 70,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 32,
-      "low": 19,
-      "high": 45,
-      "confidence": 67,
+      "score": 28,
+      "low": 16,
+      "high": 40,
+      "confidence": 70,
       "status": "מוגבר"
     }
   },
@@ -35,135 +35,693 @@
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 4
+    "level": "ירידה",
+    "points_60m": -29
   },
   "changes": [
     {
-      "time": "01:00",
-      "text": "Israel security forces recommended Benjamin Netanyahu leave discreetly due to Iran threat",
-      "impact": "השפעה מיידית מחושבת: +22.8",
+      "time": "03:45",
+      "text": "The U . S . military says Iran has launched multiple ballistic missiles at American forces in the Middle East , shattering a brief paus in fighting as mediators tried to get both sides back to negotiations",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "b254edb690a9fce6"
+      "source": "wtae.com",
+      "signal_id": "34cdb8b7367d324d"
     },
     {
-      "time": "23:00",
-      "text": "INSS survey : Israelis fear internal violence equally to Iranian nuclear bomb",
-      "impact": "השפעה מיידית מחושבת: +11.7",
+      "time": "03:45",
+      "text": "The US military says it thwarted an Iranian missile attack on American troops",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "bac8ccb13ec1739e"
+      "source": "citizensvoice.com",
+      "signal_id": "983b7ecd92413bb0"
     },
     {
-      "time": "22:45",
-      "text": "Iran Rapidly Rebuilds Military Sites Hit by U . S .- Israeli Strikes , Report Says – NaturalNews . com",
-      "impact": "השפעה מיידית מחושבת: +8.3",
+      "time": "03:45",
+      "text": "The US says it thwarted an Iranian missile attack that ended a brief pause in fighting",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "naturalnews.com",
-      "signal_id": "a358c17ec5b350d0"
+      "source": "news4jax.com",
+      "signal_id": "6b347e2974e7f95a"
     },
     {
-      "time": "02:00",
-      "text": "Iran Warns Ukraine Caspian Sea Strike  Cannot Go Unanswered  As Zelensky Confirms Attack",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "time": "03:30",
+      "text": "Iran war news : U . S . military says intercepted Iranian missile attack on American troops",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "hngn.com",
-      "signal_id": "4896af36898634b4"
+      "source": "cp24.com",
+      "signal_id": "43f57fe47e9ee3fa"
     }
   ],
   "signals": [
     {
-      "id": "b254edb690a9fce6",
-      "name": "Israel security forces recommended Benjamin Netanyahu leave discreetly due to Iran threat",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "34cdb8b7367d324d",
+      "name": "The U . S . military says Iran has launched multiple ballistic missiles at American forces in the Middle East , shattering a brief paus in fighting as mediators tried to get both sides back to negotiations",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "b254edb690a9fce6",
-      "strength": 0.55,
-      "reliability": 0.74,
-      "freshness": 0.637,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "jpost.com",
-      "url": "http://www.jpost.com/israel-news/article-903944",
-      "published_at": "2026-07-28T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 22.8,
-        "short": 17.8,
-        "extended": 7.5
-      }
-    },
-    {
-      "id": "bac8ccb13ec1739e",
-      "name": "INSS survey : Israelis fear internal violence equally to Iranian nuclear bomb",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bac8ccb13ec1739e",
-      "strength": 0.5,
-      "reliability": 0.74,
-      "freshness": 0.36,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/israel-news/article-903936",
-      "published_at": "2026-07-28T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 11.7,
-        "short": 9.1,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "a358c17ec5b350d0",
-      "name": "Iran Rapidly Rebuilds Military Sites Hit by U . S .- Israeli Strikes , Report Says – NaturalNews . com",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a358c17ec5b350d0",
-      "strength": 0.5,
+      "dependency_group": "34cdb8b7367d324d",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.335,
+      "freshness": 0.887,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-07-28-iran-rapidly-rebuilds-military-sites-hit-by-us.html",
-      "published_at": "2026-07-28T19:45:00Z",
+      "source": "wtae.com",
+      "url": "https://www.wtae.com/article/us-intercepts-iranian-missiles-middle-east/73289358",
+      "published_at": "2026-07-29T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 8.3,
-        "short": 6.4,
-        "extended": 2.7
+        "immediate": 1.8,
+        "short": 6.2,
+        "extended": 10.5
+      }
+    },
+    {
+      "id": "983b7ecd92413bb0",
+      "name": "The US military says it thwarted an Iranian missile attack on American troops",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "983b7ecd92413bb0",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.887,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "citizensvoice.com",
+      "url": "https://www.citizensvoice.com/2026/07/28/iran-us-troops-missile-attack/",
+      "published_at": "2026-07-29T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.2,
+        "extended": 10.5
+      }
+    },
+    {
+      "id": "6b347e2974e7f95a",
+      "name": "The US says it thwarted an Iranian missile attack that ended a brief pause in fighting",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6b347e2974e7f95a",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.887,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news4jax.com",
+      "url": "https://www.news4jax.com/news/world/2026/07/28/saudi-arabia-says-it-shot-down-more-drones-as-houthis-claim-to-have-turned-back-tanker/",
+      "published_at": "2026-07-29T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.2,
+        "extended": 10.5
+      }
+    },
+    {
+      "id": "43f57fe47e9ee3fa",
+      "name": "Iran war news : U . S . military says intercepted Iranian missile attack on American troops",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "43f57fe47e9ee3fa",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.826,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "cp24.com",
+      "url": "https://www.cp24.com/news/world/2026/07/29/the-us-says-it-thwarted-an-iranian-missile-attack-that-ended-a-brief-pause-in-fighting/",
+      "published_at": "2026-07-29T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.8
+      }
+    },
+    {
+      "id": "ed71858182a138f7",
+      "name": "US intercepts Iranian ballistic missiles amid rising Middle East tensions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ed71858182a138f7",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.826,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wishtv.com",
+      "url": "https://www.wishtv.com/news/politics/us-intercepts-iranian-ballistic-missiles-amid-rising-middle-east-tensions/",
+      "published_at": "2026-07-29T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.8
+      }
+    },
+    {
+      "id": "073df727f40b0df1",
+      "name": "Iran  fires missile at US military bases as Middle East conflict intensifies",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "073df727f40b0df1",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.826,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "manchestereveningnews.co.uk",
+      "url": "https://www.manchestereveningnews.co.uk/news/world-news/iran-fires-missiles-military-bases-34367866",
+      "published_at": "2026-07-29T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.8
+      }
+    },
+    {
+      "id": "e45af0494708a711",
+      "name": "Attempted surprise attack : Iran launches ballistic missiles against US forces ; CENTCOM says  all intercepted",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e45af0494708a711",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.826,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kenyastar.com",
+      "url": "http://www.kenyastar.com/news/279214124/attempted-surprise-attack-iran-launches-ballistic-missiles-against-us-forces-centcom-says-all-intercepted",
+      "published_at": "2026-07-29T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.8
+      }
+    },
+    {
+      "id": "86b193068f7ef055",
+      "name": "All Iranian ballistic missiles intercepted after attempted attack on US forces in Middle East : CENTCOM",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "86b193068f7ef055",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.826,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/us-israel-iran-war/all-iranian-ballistic-missiles-intercepted-after-attempted-attack-on-us-forces-in-middle-east-centcom/4012019",
+      "published_at": "2026-07-29T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.8
+      }
+    },
+    {
+      "id": "c5aebdfe6f9c8965",
+      "name": "Iran  launches missile at US military bases as tensions explode | World | News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c5aebdfe6f9c8965",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.769,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "express.co.uk",
+      "url": "https://www.express.co.uk/news/world/2233909/iran-launches-missiles-us-military-bases-jordan",
+      "published_at": "2026-07-29T00:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.1
+      }
+    },
+    {
+      "id": "ec3389033be1bdf3",
+      "name": "Iran Launches Ballistic Missiles at US Forces in Surprise Attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ec3389033be1bdf3",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.769,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newkerala.com",
+      "url": "https://www.newkerala.com/news/a/attempted-surprise-attack-iran-launches-ballistic-missiles-against-575.htm",
+      "published_at": "2026-07-29T00:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.1
+      }
+    },
+    {
+      "id": "59d50da928bb7c4a",
+      "name": "האיום האיראני עם  מפת יעדי נקמה  נגד אוקראינה - והניסיון למנוע פיצוץ :  שלמו פיצוי",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "59d50da928bb7c4a",
+      "strength": 0.45,
+      "reliability": 0.74,
+      "freshness": 0.621,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ynet.co.il",
+      "url": "https://www.ynet.co.il/news/article/h1tsokubfe",
+      "published_at": "2026-07-28T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.1
+      }
+    },
+    {
+      "id": "fa9319adce2ae960",
+      "name": "Ukraine says Iran ship strike unintentional , seeks to avoid escalation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fa9319adce2ae960",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.887,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailysabah.com",
+      "url": "https://www.dailysabah.com/world/europe/ukraine-says-iran-ship-strike-unintentional-seeks-to-avoid-escalation",
+      "published_at": "2026-07-29T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "dc172170fb5f952b",
+      "name": "Why Ukraine strike on Iranian ship marks dangerous new phase in ties",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dc172170fb5f952b",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.667,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/07/why-ukraines-strike-iranian-ship-marks-dangerous-new-phase-ties",
+      "published_at": "2026-07-28T23:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "81686fafcdc3e7d4",
+      "name": "Iran launches surprise attack on US bases CENTCOM",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "81686fafcdc3e7d4",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.826,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kenyastar.com",
+      "url": "http://www.kenyastar.com/news/279214080/iran-launches-surprise-attack-on-us-bases-centcom",
+      "published_at": "2026-07-29T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "54c4067755c558a4",
+      "name": "After days of calm , U . S . says it intercepted Iranian missile attack on American troops",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "54c4067755c558a4",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.667,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "cbc.ca",
+      "url": "https://www.cbc.ca/news/world/us-iran-attack-9.7288259",
+      "published_at": "2026-07-28T23:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.9
+      }
+    },
+    {
+      "id": "59928248fb7f0ac5",
+      "name": "Iran  Attempted Surprise Attack  Against American Military Stopped",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "59928248fb7f0ac5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.826,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "townhall.com",
+      "url": "https://townhall.com/tipsheet/cameron-arcand/2026/07/28/irans-attempted-surprise-attack-against-american-military-stopped-n2680298",
+      "published_at": "2026-07-29T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "dd77acd9c1591f76",
+      "name": "Could Ukraine attack on an Iranian ship merge 2 ongoing wars ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dd77acd9c1591f76",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.769,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "chinatechnews.com",
+      "url": "https://www.chinatechnews.com/2026/07/29/126377-could-ukraines-attack-on-an-iranian-ship-merge-2-ongoing-wars",
+      "published_at": "2026-07-29T00:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "45112d2cc84917a9",
+      "name": "Iran launches surprise attack on US base as multiple ballistic missiles intercepted over Jordan",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "45112d2cc84917a9",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.621,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailymail.com",
+      "url": "https://www.dailymail.com/news/article-16012107/Iran-launches-surprise-attack-US-base.html",
+      "published_at": "2026-07-28T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "e7a0fe35e91a9fe0",
+      "name": "Iran  launches missile at US military bases as Middle East tensions explode",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e7a0fe35e91a9fe0",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.621,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aol.co.uk",
+      "url": "https://www.aol.co.uk/articles/iran-launches-missiles-us-military-223700000.html",
+      "published_at": "2026-07-28T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "5fe287cf18d9506e",
+      "name": "Trump pausing Iran attacks shows US military power is not enough on its own",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5fe287cf18d9506e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.621,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aol.co.uk",
+      "url": "https://www.aol.co.uk/articles/trump-pausing-iran-attacks-shows-230016000.html",
+      "published_at": "2026-07-28T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "4656fe92e8b86915",
+      "name": "Iran , Trump riceve Netanyahu : « Non servono prove sul nucleare » Proposta dellOman su Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4656fe92e8b86915",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.621,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ilmessaggero.it",
+      "url": "https://www.ilmessaggero.it/mondo/trump_netanyahu_incontro_prove_nucleare-9677869.html",
+      "published_at": "2026-07-28T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
       }
     },
     {
@@ -176,7 +734,7 @@
       "dependency_group": "4896af36898634b4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.847,
+      "freshness": 0.538,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +750,9 @@
       "published_at": "2026-07-28T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.4
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
       }
     },
     {
@@ -207,7 +765,7 @@
       "dependency_group": "961b74a8265033b2",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.789,
+      "freshness": 0.501,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,22 +781,22 @@
       "published_at": "2026-07-28T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       }
     },
     {
-      "id": "71e2d9da87e02155",
-      "name": "Trump and Netanyahu meet for first time since launching Iran War",
+      "id": "ee9095bd8ce7b748",
+      "name": "Netanyahu meets Trump in US with president seeking to avoid renewed attacks on Iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "71e2d9da87e02155",
+      "dependency_group": "ee9095bd8ce7b748",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.847,
+      "freshness": 0.578,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -249,14 +807,14 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "kcci.com",
-      "url": "https://www.kcci.com/article/netanyahu-trump-meeting-iran-war/73284029",
-      "published_at": "2026-07-28T23:00:00Z",
+      "source": "irishtimes.com",
+      "url": "https://www.irishtimes.com/world/us/2026/07/28/netanyahu-meets-trump-in-us-with-president-seeking-to-avoid-renewed-attacks-on-iran/",
+      "published_at": "2026-07-28T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.3
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
       }
     },
     {
@@ -269,7 +827,7 @@
       "dependency_group": "d6d3a08114672f15",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.789,
+      "freshness": 0.501,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +843,40 @@
       "published_at": "2026-07-28T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.6,
-        "extended": 7.8
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      }
+    },
+    {
+      "id": "71e2d9da87e02155",
+      "name": "Trump and Netanyahu meet for first time since launching Iran War",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "71e2d9da87e02155",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.538,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kcci.com",
+      "url": "https://www.kcci.com/article/netanyahu-trump-meeting-iran-war/73284029",
+      "published_at": "2026-07-28T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       }
     },
     {
@@ -300,7 +889,7 @@
       "dependency_group": "c392fb7cbc4dc68c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.789,
+      "freshness": 0.501,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,195 +905,9 @@
       "published_at": "2026-07-28T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.6,
-        "extended": 7.8
-      }
-    },
-    {
-      "id": "489f19534c99802b",
-      "name": "Iran says final Hormuz proposal to Oman requires control of key shipping lanes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "489f19534c99802b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.446,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/middle-east/iran-says-final-hormuz-proposal-to-oman-requires-control-of-key-shipping-lanes/4011954",
-      "published_at": "2026-07-28T20:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "6ec86e26e7f9182a",
-      "name": "Iran seeks  restitution of losses  after Ukraine assures strike on vessel in Caspian Sea was  unintentional",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6ec86e26e7f9182a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.479,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aninews.in",
-      "url": "https://aninews.in/news/world/middle-east/iran-seeks-restitution-of-loses-after-ukraine-assures-strike-on-vessel-in-caspian-sea-was-unintentional20260729013909/",
-      "published_at": "2026-07-28T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "7ebc6959116e01bf",
-      "name": "Iran says it seeks  restitution  for Ukrainian attacks on vessel",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7ebc6959116e01bf",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.479,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-seeks-restitution-ukrainian-attacks-vessel",
-      "published_at": "2026-07-28T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "043eca9a15441ca2",
-      "name": "Mediators see progress in efforts to halt Iran war as drone attacks rattle region",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "043eca9a15441ca2",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.335,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ksla.com",
-      "url": "https://www.ksla.com/2026/07/27/mediators-see-progress-efforts-halt-iran-war-drone-attacks-rattle-region/",
-      "published_at": "2026-07-28T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      }
-    },
-    {
-      "id": "c630dcded2826251",
-      "name": "Trump Says US and Iran Are Holding  Friendly  Talks , Warns Military Action Could Resume",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c630dcded2826251",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.36,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bearingdrift.com",
-      "url": "https://www.bearingdrift.com/2026/07/trump-says-us-and-iran-are-holding.html",
-      "published_at": "2026-07-28T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      }
-    },
-    {
-      "id": "5c59f236832ea88f",
-      "name": "Pentagon updates Iran war casualty database , adds more than 140 wounded , creates new category – NaturalNews . com",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5c59f236832ea88f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.335,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-07-28-pentagon-updates-iran-war-casualty-database.html",
-      "published_at": "2026-07-28T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
       }
     }
   ],
@@ -868,17 +1271,23 @@
       "immediate": 34,
       "short": 34,
       "extended": 32
+    },
+    {
+      "timestamp": "2026-07-29T01:10:06.958535Z",
+      "immediate": 5,
+      "short": 17,
+      "extended": 28
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-07-28T23:34:45.811769Z",
+    "last_success": "2026-07-29T01:10:06.958535Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 14
+        "relevant": 27
       },
       "manual": {
         "ok": true,
