@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-07-29T19:38:15.415515Z",
+  "mode": "degraded",
+  "generated_at": "2026-07-29T20:36:49.485081Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 13,
+      "score": 10,
       "low": 0,
       "high": 26,
-      "confidence": 65,
+      "confidence": 48,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 20,
-      "low": 7,
-      "high": 33,
-      "confidence": 65,
+      "score": 15,
+      "low": 0,
+      "high": 31,
+      "confidence": 49,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 66,
-      "status": "מוגבר"
+      "score": 20,
+      "low": 4,
+      "high": 36,
+      "confidence": 49,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 1
+    "level": "ירידה",
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "19:00",
       "text": "Senior Israeli official :  Decision on Iran strikes is up to Trump",
-      "impact": "השפעה מיידית מחושבת: +8.7",
+      "impact": "השפעה מיידית מחושבת: +6.6",
       "direction": "up",
       "source": "israelnationalnews.com",
       "signal_id": "5d2171bda650b291"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:15",
       "text": "Iran resumes missile attacks as U . S . and Saudis strike Tehran - backed militias in Iraq",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "wcsufm.org",
       "signal_id": "a223f737af947954"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:00",
       "text": "US and Saudis strike Tehran - backed militias in Iraq as Iran resumes missile attacks | Politics and Government",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "reviewjournal.com",
       "signal_id": "9cfa468af8c74e66"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:00",
       "text": "Trump threatens Iran after Tehran strikes US bases in Jordan",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "timesofoman.com",
       "signal_id": "e56f6ea1323594fd"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5d2171bda650b291",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.354,
+      "freshness": 0.268,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 8.7,
-        "short": 6.8,
-        "extended": 2.9
-      }
+        "immediate": 6.6,
+        "short": 5.2,
+        "extended": 2.2
+      },
+      "carried_forward": true
     },
     {
       "id": "a223f737af947954",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a223f737af947954",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.895,
+      "freshness": 0.677,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.2,
-        "extended": 10.6
-      }
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      },
+      "carried_forward": true
     },
     {
       "id": "9cfa468af8c74e66",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9cfa468af8c74e66",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.626,
+      "freshness": 0.474,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.4
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      },
+      "carried_forward": true
     },
     {
       "id": "e56f6ea1323594fd",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e56f6ea1323594fd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.626,
+      "freshness": 0.474,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
-      }
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      },
+      "carried_forward": true
     },
     {
       "id": "db9bee98a9dab336",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "db9bee98a9dab336",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.626,
+      "freshness": 0.474,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,103 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
-      }
-    },
-    {
-      "id": "e033b2aacd1faa6b",
-      "name": "Trump threatens  very severe  response after Iranian missile attack on US base in Jordan",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e033b2aacd1faa6b",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.471,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "albawaba.com",
-      "url": "https://www.albawaba.com/news/trump-threatens-%E2%80%98very-severe%E2%80%99-response-1634066",
-      "published_at": "2026-07-29T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      }
-    },
-    {
-      "id": "9791137bc87de351",
-      "name": "Trump says US to deliver  beating  to Iran after bases again targeted | Donald Trump News",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9791137bc87de351",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.626,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/news/2026/7/29/trump-says-us-to-deliver-beating-to-iran-after-bases-again-targeted",
-      "published_at": "2026-07-29T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      }
-    },
-    {
-      "id": "0b9dcb974cadeb30",
-      "name": "At Least 14 Drone Strikes Hit Iranian Kurdish Opposition Bases In Iraq Since Monday",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0b9dcb974cadeb30",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.543,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hngn.com",
-      "url": "https://www.hngn.com/articles/272429/20260729/least-14-drone-strikes-hit-iranian-kurdish-opposition-bases-iraq-since-monday.htm",
-      "published_at": "2026-07-29T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
-      }
+      "carried_forward": true
     },
     {
       "id": "8324ea933dbfc1eb",
@@ -331,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8324ea933dbfc1eb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.673,
+      "freshness": 0.509,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,72 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      }
-    },
-    {
-      "id": "2275f9e1f906ab79",
-      "name": "Drone hits US - owned gas tankers at Egyptian port named in Iranian threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2275f9e1f906ab79",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.471,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/syc1100sdbgx",
-      "published_at": "2026-07-29T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      }
-    },
-    {
-      "id": "1c037f1c2a50350e",
-      "name": "Iran set to receive Chinese missiles within weeks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1c037f1c2a50350e",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.543,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "taipeitimes.com",
-      "url": "https://www.taipeitimes.com/News/world/archives/2026/07/30/2003861649",
-      "published_at": "2026-07-29T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
-      }
+      "carried_forward": true
     },
     {
       "id": "401d5d3e3c3f42a3",
@@ -424,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "401d5d3e3c3f42a3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.673,
+      "freshness": 0.509,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,22 +291,119 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      }
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      },
+      "carried_forward": true
     },
     {
-      "id": "6d2f79a232c97315",
-      "name": "Trump vows to  beat the f *** ing sh ** out of Iran after Jordan missile attack",
+      "id": "e033b2aacd1faa6b",
+      "name": "Trump threatens  very severe  response after Iranian missile attack on US base in Jordan",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "6d2f79a232c97315",
+      "dependency_group": "e033b2aacd1faa6b",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.356,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "albawaba.com",
+      "url": "https://www.albawaba.com/news/trump-threatens-%E2%80%98very-severe%E2%80%99-response-1634066",
+      "published_at": "2026-07-29T17:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "9791137bc87de351",
+      "name": "Trump says US to deliver  beating  to Iran after bases again targeted | Donald Trump News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9791137bc87de351",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.474,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/7/29/trump-says-us-to-deliver-beating-to-iran-after-bases-again-targeted",
+      "published_at": "2026-07-29T18:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "0b9dcb974cadeb30",
+      "name": "At Least 14 Drone Strikes Hit Iranian Kurdish Opposition Bases In Iraq Since Monday",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0b9dcb974cadeb30",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.471,
+      "freshness": 0.411,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/272429/20260729/least-14-drone-strikes-hit-iranian-kurdish-opposition-bases-iraq-since-monday.htm",
+      "published_at": "2026-07-29T17:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "2275f9e1f906ab79",
+      "name": "Drone hits US - owned gas tankers at Egyptian port named in Iranian threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2275f9e1f906ab79",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.356,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -467,14 +415,47 @@ window.MAGEN_STATE = {
         "extended": 1.0
       },
       "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/h1onzuvbge",
+      "url": "https://www.ynetnews.com/article/syc1100sdbgx",
       "published_at": "2026-07-29T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "1c037f1c2a50350e",
+      "name": "Iran set to receive Chinese missiles within weeks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1c037f1c2a50350e",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.411,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "taipeitimes.com",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/07/30/2003861649",
+      "published_at": "2026-07-29T17:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      },
+      "carried_forward": true
     },
     {
       "id": "15b45fa843e76039",
@@ -486,7 +467,7 @@ window.MAGEN_STATE = {
       "dependency_group": "15b45fa843e76039",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.543,
+      "freshness": 0.411,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,10 +483,43 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "6d2f79a232c97315",
+      "name": "Trump vows to  beat the f *** ing sh ** out of Iran after Jordan missile attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6d2f79a232c97315",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.356,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ynetnews.com",
+      "url": "https://www.ynetnews.com/article/h1onzuvbge",
+      "published_at": "2026-07-29T17:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      },
+      "carried_forward": true
     },
     {
       "id": "c51590bc5342600d",
@@ -517,7 +531,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c51590bc5342600d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.471,
+      "freshness": 0.356,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,10 +547,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      },
+      "carried_forward": true
     },
     {
       "id": "ea25a7e57fdafcb5",
@@ -548,7 +563,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ea25a7e57fdafcb5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.543,
+      "freshness": 0.411,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -564,10 +579,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.4
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "f58dc6022da95ffb",
@@ -579,7 +595,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f58dc6022da95ffb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.543,
+      "freshness": 0.411,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -595,10 +611,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.4
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "34678a05bebed9c5",
@@ -610,7 +627,7 @@ window.MAGEN_STATE = {
       "dependency_group": "34678a05bebed9c5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.506,
+      "freshness": 0.382,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -626,10 +643,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      }
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "d36f93d169f44569",
@@ -641,7 +659,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d36f93d169f44569",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.438,
+      "freshness": 0.332,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -657,10 +675,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     },
     {
       "id": "ad482279516710d0",
@@ -672,7 +691,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ad482279516710d0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.543,
+      "freshness": 0.411,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -688,10 +707,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.4
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "b6dcca870be17791",
@@ -703,7 +723,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b6dcca870be17791",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.471,
+      "freshness": 0.356,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -719,10 +739,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      },
+      "carried_forward": true
     },
     {
       "id": "63d12f935061e1d2",
@@ -734,7 +755,7 @@ window.MAGEN_STATE = {
       "dependency_group": "63d12f935061e1d2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.471,
+      "freshness": 0.356,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -750,10 +771,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      },
+      "carried_forward": true
     },
     {
       "id": "56fc4a52fb31f685",
@@ -765,7 +787,7 @@ window.MAGEN_STATE = {
       "dependency_group": "56fc4a52fb31f685",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.471,
+      "freshness": 0.356,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -781,10 +803,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      },
+      "carried_forward": true
     },
     {
       "id": "3e27ce152aa6aa61",
@@ -796,7 +819,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3e27ce152aa6aa61",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.438,
+      "freshness": 0.332,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -812,10 +835,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "1ea265e802fc888a",
@@ -827,7 +851,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1ea265e802fc888a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.471,
+      "freshness": 0.356,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -843,41 +867,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
-    },
-    {
-      "id": "ef28faa2fd13a9a1",
-      "name": "Trump vows to strike Iran hard after Jordan ballistic missile attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ef28faa2fd13a9a1",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.354,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "foxnews.com",
-      "url": "https://www.foxnews.com/politics/trump-says-us-beat-them-after-iran-launches-surprise-missile-strike",
-      "published_at": "2026-07-29T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+      "carried_forward": true
     },
     {
       "id": "d8268d6a4319a8a6",
@@ -889,7 +883,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d8268d6a4319a8a6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.438,
+      "freshness": 0.332,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -905,10 +899,43 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "ef28faa2fd13a9a1",
+      "name": "Trump vows to strike Iran hard after Jordan ballistic missile attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ef28faa2fd13a9a1",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.268,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "foxnews.com",
+      "url": "https://www.foxnews.com/politics/trump-says-us-beat-them-after-iran-launches-surprise-missile-strike",
+      "published_at": "2026-07-29T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "8b867c39e5953611",
@@ -920,7 +947,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8b867c39e5953611",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.38,
+      "freshness": 0.287,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -936,10 +963,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.8
+      },
+      "carried_forward": true
     },
     {
       "id": "8d78151b5ff3fa6f",
@@ -951,7 +979,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8d78151b5ff3fa6f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.38,
+      "freshness": 0.287,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -967,10 +995,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-29T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.8
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1387,17 +1416,23 @@ window.MAGEN_STATE = {
       "immediate": 13,
       "short": 20,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-07-29T20:36:49.485081Z",
+      "immediate": 10,
+      "short": 15,
+      "extended": 20
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-07-29T19:38:15.415515Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 30
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 29
       },
       "manual": {
         "ok": true,
