@@ -1,89 +1,647 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-07-29T07:27:39.275284Z",
+  "mode": "live",
+  "generated_at": "2026-07-29T10:14:37.454884Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 5,
       "low": 0,
-      "high": 19,
-      "confidence": 45,
+      "high": 18,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
-      "low": 0,
-      "high": 23,
-      "confidence": 45,
-      "status": "לא זוהה אות חריג"
+      "score": 17,
+      "low": 4,
+      "high": 30,
+      "confidence": 67,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
-      "low": 0,
-      "high": 28,
-      "confidence": 45,
-      "status": "נמוך"
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -13
+    "level": "עלייה מתונה",
+    "points_60m": 3
   },
   "changes": [
     {
-      "time": "06:45",
-      "text": "Attempted surprise attack : Iran launches ballistic missiles against US forces ; CENTCOM says  all intercepted",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "12:45",
+      "text": "Jordan intercepts Iranian missiles as US and Saudi Arabia launch strikes against militias in Iraq",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "arabherald.com",
-      "signal_id": "e45af0494708a711"
+      "source": "local10.com",
+      "signal_id": "8ad3b0d77dbc1199"
     },
     {
-      "time": "06:30",
-      "text": "The U . S . military says Iran has launched multiple ballistic missiles at American forces in the Middle East , shattering a brief paus in fighting as mediators tried to get both sides back to negotiations",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "12:45",
+      "text": "Iran claims missile strike on US base in Jordan",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "wxii12.com",
-      "signal_id": "34cdb8b7367d324d"
+      "source": "pakobserver.net",
+      "signal_id": "20ec2070df150458"
     },
     {
-      "time": "06:00",
-      "text": "The US military says it thwarted an Iranian missile attack on American troops",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "12:45",
+      "text": "Iran to get Chinese shoulder - launched missile systems in weeks : Reuters - International",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "journal-advocate.com",
-      "signal_id": "983b7ecd92413bb0"
+      "source": "dailymirror.lk",
+      "signal_id": "1a36d72b42b3c212"
     },
     {
-      "time": "05:45",
-      "text": "US CENTCOM , Saudis strike Iraq following Iranian attacks on US bases",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "12:15",
+      "text": "Jordan intercepts Iranian missiles and US and Saudi Arabia target militias in Iraq",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "7cea9a6f543c9078"
+      "source": "irishtimes.com",
+      "signal_id": "2e3aafd631e62deb"
     }
   ],
   "signals": [
     {
-      "id": "e45af0494708a711",
-      "name": "Attempted surprise attack : Iran launches ballistic missiles against US forces ; CENTCOM says  all intercepted",
+      "id": "8ad3b0d77dbc1199",
+      "name": "Jordan intercepts Iranian missiles as US and Saudi Arabia launch strikes against militias in Iraq",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e45af0494708a711",
+      "dependency_group": "8ad3b0d77dbc1199",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.346,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "local10.com",
+      "url": "https://www.local10.com/news/2026/07/29/jordan-intercepts-iranian-missiles-as-us-and-saudi-arabia-launch-strikes-against-militias-in-iraq/",
+      "published_at": "2026-07-29T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.0,
+        "extended": 10.3
+      }
+    },
+    {
+      "id": "20ec2070df150458",
+      "name": "Iran claims missile strike on US base in Jordan",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "20ec2070df150458",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "pakobserver.net",
+      "url": "https://pakobserver.net/iran-claims-missile-strike-on-us-base-in-jordan/",
+      "published_at": "2026-07-29T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.0,
+        "extended": 10.3
+      }
+    },
+    {
+      "id": "1a36d72b42b3c212",
+      "name": "Iran to get Chinese shoulder - launched missile systems in weeks : Reuters - International",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1a36d72b42b3c212",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailymirror.lk",
+      "url": "https://www.dailymirror.lk/breaking-news/Iran-to-get-Chinese-shoulder-launched-missile-systems-in-weeks-Reuters/108-346880",
+      "published_at": "2026-07-29T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.0,
+        "extended": 10.3
+      }
+    },
+    {
+      "id": "2e3aafd631e62deb",
+      "name": "Jordan intercepts Iranian missiles and US and Saudi Arabia target militias in Iraq",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2e3aafd631e62deb",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.753,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "irishtimes.com",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/07/29/jordan-intercepts-iranian-missiles-and-us-and-saudi-arabia-target-militias-in-iraq/",
+      "published_at": "2026-07-29T09:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.9
+      }
+    },
+    {
+      "id": "72ed192c8938b3e1",
+      "name": "US , Saudi Forces Strike Iran - Aligned Targets in Iraq",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "72ed192c8938b3e1",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "shanghainews.net",
+      "url": "http://www.shanghainews.net/news/279214386/us-saudi-forces-strike-iran-aligned-targets-in-iraq",
+      "published_at": "2026-07-29T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "27238afb5421c5ab",
+      "name": "DIRECT - Guerre au Moyen - Orient : larmée américaine annonce avoir intercepté des missiles lancés par lIran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "27238afb5421c5ab",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.701,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "lalibre.be",
+      "url": "https://www.lalibre.be/international/moyen-orient/iran/2026/07/29/direct-guerre-au-moyen-orient-larmee-americaine-annonce-avoir-intercepte-des-missiles-lances-par-liran-B3353E6IOBDJ5MIN3QQGZBCCMY/",
+      "published_at": "2026-07-29T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.3
+      }
+    },
+    {
+      "id": "a21bd5cc06d9de4f",
+      "name": "Iran sharpens missile strikes as US faces growing challenge",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a21bd5cc06d9de4f",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.653,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/iran-sharpens-missile-strikes-as-us-faces-growing-challenge-article-13987035.html",
+      "published_at": "2026-07-29T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "b0e2f21746650ba2",
+      "name": "Jordan says it intercepts 5 Iranian missiles",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b0e2f21746650ba2",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.653,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/middle-east/jordan-says-it-intercepts-5-iranian-missiles/4012088",
+      "published_at": "2026-07-29T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "b131be04ca035e5e",
+      "name": "Iran set to get hundreds of Chinese air defence missiles amid US tensions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b131be04ca035e5e",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.653,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "samaa.tv",
+      "url": "https://www.samaa.tv/2087354352-iran-set-to-get-hundreds-of-chinese-air-defence-missiles-amid-us-tensions",
+      "published_at": "2026-07-29T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "3e699fb67eb009af",
+      "name": "Pentagon Monitors Fallout After Alleged Iranian Strike Against US Positions in the Middle East",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3e699fb67eb009af",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.753,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ibtimes.co.uk",
+      "url": "https://www.ibtimes.co.uk/pentagon-evaluates-impact-irans-alleged-missile-attack-1811256",
+      "published_at": "2026-07-29T09:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "fd2a51f28d8f4294",
+      "name": "US , Saudi forces strike Iran - backed groups in Iraq",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fd2a51f28d8f4294",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.753,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "manilatimes.net",
+      "url": "https://www.manilatimes.net/2026/07/29/world/us-saudi-forces-strike-iran-backed-groups-in-iraq/2393776",
+      "published_at": "2026-07-29T09:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "f021ed754b49d4d6",
+      "name": "Jordan intercepts Iranian missiles – NBC 5 Dallas - Fort Worth",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f021ed754b49d4d6",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.653,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nbcdfw.com",
+      "url": "https://www.nbcdfw.com/news/national-international/jordan-intercepts-iran-missiles-us-saudi-arabia-launch-strikes-iraq/4055434/",
+      "published_at": "2026-07-29T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "57ee37ca055a7122",
+      "name": "Jordan intercepts Iranian missiles – NBC Bay Area",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "57ee37ca055a7122",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.653,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nbcbayarea.com",
+      "url": "https://www.nbcbayarea.com/news/national-international/jordan-intercepts-iran-missiles-us-saudi-arabia-launch-strikes-iraq/4120379/",
+      "published_at": "2026-07-29T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "d36f93d169f44569",
+      "name": "Iran to get Chinese shoulder - launched missile systems in weeks , sources say",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d36f93d169f44569",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.653,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dunyanews.tv",
+      "url": "https://dunyanews.tv/en/World/965214-iran-to-get-chinese-shoulderlaunched-missile-systems-in-weeks-source",
+      "published_at": "2026-07-29T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "27319afaa8e93679",
+      "name": "US , Saudi Arabia target Iran - backed groups in Iraq after drone attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "27319afaa8e93679",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.653,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "samaa.tv",
+      "url": "https://www.samaa.tv/2087354354-us-saudi-arabia-target-iran-backed-groups-in-iraq-after-drone-attacks",
+      "published_at": "2026-07-29T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "87b3fecf0e09ff82",
+      "name": "Saudi - US strikes target Iran - backed militias in Iraq after drone attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "87b3fecf0e09ff82",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.653,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middle-east-online.com",
+      "url": "https://www.middle-east-online.com/en/saudi-us-strikes-target-iran-backed-militias-iraq-after-drone-attacks",
+      "published_at": "2026-07-29T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "5178600498d6dbb7",
+      "name": "Sources reveal Iran to receive Chinese - made missile systems",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5178600498d6dbb7",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.653,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middle-east-online.com",
+      "url": "https://www.middle-east-online.com/en/sources-reveal-iran-receive-chinese-made-missile-systems",
+      "published_at": "2026-07-29T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "b743471970c261d0",
+      "name": "IRGC claims attack on US air base and CENTCOM facility in Jordan",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b743471970c261d0",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.653,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "samaa.tv",
+      "url": "https://www.samaa.tv/2087354359-irgc-claims-attack-on-us-air-base-and-centcom-facility-in-jordan",
+      "published_at": "2026-07-29T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "034811385f8e18c5",
+      "name": "Iran demands restitution for Kievs deadly attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "034811385f8e18c5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.653,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -95,91 +653,26 @@ window.MAGEN_STATE = {
         "extended": 1.0
       },
       "source": "arabherald.com",
-      "url": "http://www.arabherald.com/news/279214124/attempted-surprise-attack-iran-launches-ballistic-missiles-against-us-forces-centcom-says-all-intercepted",
-      "published_at": "2026-07-29T03:45:00Z",
+      "url": "http://www.arabherald.com/news/279214341/iran-demands-restitution-for-kievs-deadly-attack",
+      "published_at": "2026-07-29T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
+      }
     },
     {
-      "id": "34cdb8b7367d324d",
-      "name": "The U . S . military says Iran has launched multiple ballistic missiles at American forces in the Middle East , shattering a brief paus in fighting as mediators tried to get both sides back to negotiations",
+      "id": "5aefb9163db7f487",
+      "name": "Iran buys Chinese shoulder - fired air defense missiles to rebuild defenses",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "34cdb8b7367d324d",
+      "dependency_group": "5aefb9163db7f487",
       "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.322,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wxii12.com",
-      "url": "https://www.wxii12.com/article/us-intercepts-iranian-missiles-middle-east/73289358",
-      "published_at": "2026-07-29T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "983b7ecd92413bb0",
-      "name": "The US military says it thwarted an Iranian missile attack on American troops",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "983b7ecd92413bb0",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.28,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "journal-advocate.com",
-      "url": "https://www.journal-advocate.com/2026/07/28/iran-us-troops-missile-attack/",
-      "published_at": "2026-07-29T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7cea9a6f543c9078",
-      "name": "US CENTCOM , Saudis strike Iraq following Iranian attacks on US bases",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7cea9a6f543c9078",
-      "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.26,
+      "freshness": 0.396,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -191,27 +684,26 @@ window.MAGEN_STATE = {
         "extended": 1.0
       },
       "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-903953",
-      "published_at": "2026-07-29T02:45:00Z",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-903963",
+      "published_at": "2026-07-29T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
+      }
     },
     {
-      "id": "81686fafcdc3e7d4",
-      "name": "Iran launches surprise attack on US bases CENTCOM",
+      "id": "d21060110bc93da0",
+      "name": "Iran conflict resumes as US , Saudis strike in Iraq",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "81686fafcdc3e7d4",
+      "dependency_group": "d21060110bc93da0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.322,
+      "freshness": 0.608,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -222,28 +714,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "middleeaststar.com",
-      "url": "http://www.middleeaststar.com/news/279214091/iran-launches-surprise-attack-on-us-bases-centcom",
-      "published_at": "2026-07-29T03:30:00Z",
+      "source": "rte.ie",
+      "url": "https://www.rte.ie/news/middle-east/2026/0729/1585551-us-iran-iraq/",
+      "published_at": "2026-07-29T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
     },
     {
-      "id": "6b347e2974e7f95a",
-      "name": "The US says it thwarted an Iranian missile attack that ended a brief pause in fighting",
+      "id": "edb64dd7185c348f",
+      "name": "UAE Business : Joint US - Saudi strikes hit Iraq militias , Iran missile attack thwarted",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "6b347e2974e7f95a",
+      "dependency_group": "edb64dd7185c348f",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.26,
+      "freshness": 0.457,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,572 +745,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "fox10tv.com",
-      "url": "https://www.fox10tv.com/2026/07/28/us-says-it-thwarted-an-iranian-missile-attack-that-ended-brief-pause-fighting/",
-      "published_at": "2026-07-29T02:45:00Z",
+      "source": "gdnonline.com:443",
+      "url": "https://www.gdnonline.com:443/Details/1401940/Joint-US-Saudi-strikes-hit-Iraq-militias,-Iran-missile-attack-thwarted",
+      "published_at": "2026-07-29T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
     },
     {
-      "id": "aaf8351089a37858",
-      "name": "US thwarts an Iranian missile attack and launches strikes wi ...",
+      "id": "4584e6203160b3cf",
+      "name": "IRGC hits US airbase in Jordan with ballistic missiles , halts trespassing ships in Strait of Hormuz",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "aaf8351089a37858",
+      "dependency_group": "4584e6203160b3cf",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.26,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "semissourian.com",
-      "url": "https://www.semissourian.com/world/the-us-military-says-its-thwarted-an-iranian-missile-attack-on-american-troops-34c83d9c",
-      "published_at": "2026-07-29T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9e7617f6bd2bd2c9",
-      "name": "Ejército de EE . UU . dice que interceptó misiles iraníes lanzados en Oriente Medio",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9e7617f6bd2bd2c9",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.3,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "larepublica.co",
-      "url": "https://www.larepublica.co/globoeconomia/ejercito-de-ee-uu-dice-que-intercepto-misiles-iranies-lanzados-en-oriente-medio-4446058",
-      "published_at": "2026-07-29T03:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3b931b2b7aae6967",
-      "name": "Iran launches  attempted surprise attack  on American forces in Middle East , US military says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3b931b2b7aae6967",
-      "strength": 0.4,
-      "reliability": 0.88,
-      "freshness": 0.182,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bbc.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/c70g6y24d76o",
-      "published_at": "2026-07-29T01:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "71630abed7bccb2e",
-      "name": "US thwarts an Iranian missile attack and launches strikes with Saudi Arabia against militias in Iraq",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "71630abed7bccb2e",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.226,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wsls.com",
-      "url": "https://www.wsls.com/news/world/2026/07/28/saudi-arabia-says-it-shot-down-more-drones-as-houthis-claim-to-have-turned-back-tanker/",
-      "published_at": "2026-07-29T02:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3d998af1aa8e3436",
-      "name": "US military thwarts an Iranian missile attack on troops",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3d998af1aa8e3436",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.226,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wgauradio.com",
-      "url": "https://www.wgauradio.com/news/world/saudi-arabia-says-it/XAVKVBNIPY2ZBGOOT6J7GSXLXQ/",
-      "published_at": "2026-07-29T02:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a4694bd2f75d8a0f",
-      "name": "US , Saudi forces strike sites of Iran - backed groups",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a4694bd2f75d8a0f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.28,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailyadvertiser.com.au",
-      "url": "https://www.dailyadvertiser.com.au/story/9319549/us-saudi-forces-strike-sites-of-iran-backed-groups/",
-      "published_at": "2026-07-29T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8466bd128e97be39",
-      "name": "US military says intercepted missiles launched by Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8466bd128e97be39",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.226,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "freemalaysiatoday.com",
-      "url": "https://www.freemalaysiatoday.com/category/world/2026/07/29/us-military-says-intercepted-missiles-launched-by-iran",
-      "published_at": "2026-07-29T02:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "aacbf6338b9eb306",
-      "name": "US launches airstrikes after thwarting Iranian surprise attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "aacbf6338b9eb306",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.28,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "fox32chicago.com",
-      "url": "https://www.fox32chicago.com/news/us-intercepts-all-missiles-fired-iranian-surprise-attack-centcom-says",
-      "published_at": "2026-07-29T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "960e709233b9eea6",
-      "name": "U . S . Forces Block Attempted Iranian Surprise Attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "960e709233b9eea6",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.28,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "pjmedia.com",
-      "url": "https://pjmedia.com/catherinesalgado/2026/07/28/us-forces-block-attempted-iranian-surprise-attack-n4955560",
-      "published_at": "2026-07-29T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "db7d31211059d604",
-      "name": "BREAKING : US intercepts Iranian missile attacks on American bases in the Middle East",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "db7d31211059d604",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.226,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "humanevents.com",
-      "url": "https://humanevents.com/2026/07/28/breaking-us-intercepts-iranian-missile-attacks-on-american-bases-in-the-middle-east",
-      "published_at": "2026-07-29T02:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0d74f0a12ef19876",
-      "name": "BREAKING : US announces joint airstrikes with Saudi against IRGC forces in Iraq – The Right Scoop",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0d74f0a12ef19876",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.28,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "therightscoop.com",
-      "url": "https://therightscoop.com/breaking-us-announces-joint-airstrikes-with-saudi-against-irgc-forces-in-iraq/",
-      "published_at": "2026-07-29T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "994653fa2af7e464",
-      "name": "US , Saudi forces strike Iran - backed  terrorist in Iraq : US military",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "994653fa2af7e464",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.26,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bssnews.net",
-      "url": "https://www.bssnews.net/international/409815",
-      "published_at": "2026-07-29T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8c38c67de8b5498e",
-      "name": "US , Saudi forces strike Iran - aligned  terrorist in Iraq",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8c38c67de8b5498e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.26,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yahoo.com",
-      "url": "https://www.yahoo.com/news/politics/articles/us-saudi-forces-strike-iran-020326138.html",
-      "published_at": "2026-07-29T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "93f649b4c9553c32",
-      "name": "Saudis join US strikes on Iran - aligned militias in Iraq",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "93f649b4c9553c32",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.26,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iraqsun.com",
-      "url": "http://www.iraqsun.com/news/279214174/saudis-join-us-strikes-on-iran-aligned-militias-in-iraq",
-      "published_at": "2026-07-29T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b07a8c069b0799d3",
-      "name": "Iran Fires Ballistic Missiles At U . S . Forces In Jordan , Triggering Joint American - Saudi Strikes In Iraq",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b07a8c069b0799d3",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.182,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "worthynews.com",
-      "url": "https://www.worthynews.com/116327-iran-fires-ballistic-missiles-at-u-s-forces-in-jordan-triggering-joint-american-saudi-strikes-in-iraq",
-      "published_at": "2026-07-29T01:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "abc865f6f7b7f001",
-      "name": "US , Saudi Arabia forces strike Iran - backed  terrorist in Iraq",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "abc865f6f7b7f001",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.226,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "freemalaysiatoday.com",
-      "url": "https://www.freemalaysiatoday.com/category/world/2026/07/29/us-saudi-arabia-forces-strike-iran-backed-terrorists-in-iraq",
-      "published_at": "2026-07-29T02:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7adb373482711de0",
-      "name": "US , Saudi Arabia launch joint precision strikes in Iraq targeting  Iran - aligned terrorists",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7adb373482711de0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.226,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aninews.in",
-      "url": "https://aninews.in/news/world/us/us-saudi-arabia-launch-joint-precision-strikes-in-iraq-targeting-iran-aligned-terrorists20260729065244/",
-      "published_at": "2026-07-29T02:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6f47e78a4425fb12",
-      "name": "Iran shows increasing ability to strike American military targets through combined operations : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6f47e78a4425fb12",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.242,
+      "freshness": 0.457,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -831,27 +777,26 @@ window.MAGEN_STATE = {
         "extended": 1.0
       },
       "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/07/28/773272/Iran-attacks-United-States-bases-Middle-East-drones-ballistic-missiles",
-      "published_at": "2026-07-29T02:30:00Z",
+      "url": "https://www.presstv.co.uk/Detail/2026/07/29/773275/Iran-IRGC-ballistic-missile-strike-United-States-airbase-Jordan-Strait-of-Hormuz",
+      "published_at": "2026-07-29T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
     },
     {
-      "id": "9c386d03a820e6cc",
-      "name": "US intercepts all missiles fired in Iranian surprise attack , CENTCOM says",
+      "id": "0d3abee589203580",
+      "name": "US military intercepts missiles launched by Iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "9c386d03a820e6cc",
+      "dependency_group": "0d3abee589203580",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.182,
+      "freshness": 0.457,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -862,28 +807,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "fox10phoenix.com",
-      "url": "https://www.fox10phoenix.com/news/us-intercepts-all-missiles-fired-iranian-surprise-attack-centcom-says",
-      "published_at": "2026-07-29T01:30:00Z",
+      "source": "bgnes.com",
+      "url": "http://www.bgnes.com/conflicts/us-military-intercepts-missiles-launched-by-iran",
+      "published_at": "2026-07-29T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
     },
     {
-      "id": "f9fc752596774b6e",
-      "name": "U . S . and Saudi Arabia strike Iran - backed groups in Iraq after attacks on American forces",
+      "id": "d1810d3c0b9e84e5",
+      "name": "Iran attacks US bases in Middle East as Trump meets Netanyahu - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "f9fc752596774b6e",
+      "dependency_group": "d1810d3c0b9e84e5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.242,
+      "freshness": 0.457,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -894,28 +838,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "cbsnews.com",
-      "url": "https://www.cbsnews.com/news/us-saudi-arabia-strike-iran-proxies-iraq-after-attacks-on-american-forces/",
-      "published_at": "2026-07-29T02:30:00Z",
+      "source": "dominicanrepublicpost.com",
+      "url": "https://dominicanrepublicpost.com/iran-attacks-us-bases-in-middle-east-as-trump-meets-netanyahu/",
+      "published_at": "2026-07-29T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
     },
     {
-      "id": "62973b0ae7502bb1",
-      "name": "US , Saudi military shoots down Iranian attacks as Mideast tensions escalate",
+      "id": "79be8b756e0c6b6e",
+      "name": "US intercepts Iranian attack and launches joint strikes with Saudi Arabia against Iran - backed militias in Iraq",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "62973b0ae7502bb1",
+      "dependency_group": "79be8b756e0c6b6e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.21,
+      "freshness": 0.457,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -926,28 +869,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/defence/us-military-shoots-down-iranian-ballistic-missiles-targeting-its-middle-east-forces/articleshow/132697119.cms",
-      "published_at": "2026-07-29T02:00:00Z",
+      "source": "euronews.com",
+      "url": "https://www.euronews.com/2026/07/29/us-intercepts-iranian-attack-and-launches-joint-strikes-with-saudi-arabia-against-iran-bac",
+      "published_at": "2026-07-29T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
     },
     {
-      "id": "abcc15f57791d083",
-      "name": "US - Saudi joint strike targets Iran - backed  terrorist in Iraq as war escalates",
+      "id": "76bace6e26075821",
+      "name": "US , Saudis attack Iran - backed groups in Iraq , threatening to intensify conflict",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "abcc15f57791d083",
-      "strength": 0.4,
+      "dependency_group": "76bace6e26075821",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.21,
+      "freshness": 0.396,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -958,28 +900,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/us-saudi-arabia-trike-targets-of-iran-backed-terrorists-in-eastern-iraq-response-to-drone-attacks-irgc-us-iran-war-101785286950766.html",
-      "published_at": "2026-07-29T02:00:00Z",
+      "source": "businesstimes.com.sg",
+      "url": "https://www.businesstimes.com.sg/international/us-saudis-attack-iran-backed-groups-iraq-threatening-intensify-conflict",
+      "published_at": "2026-07-29T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
     },
     {
-      "id": "e24e5f8bb62edccb",
-      "name": "Iran launches  surprise attack  on US forces in Middle East",
+      "id": "aacbf6338b9eb306",
+      "name": "US launches airstrikes after thwarting Iranian surprise attack",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e24e5f8bb62edccb",
+      "dependency_group": "aacbf6338b9eb306",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.21,
+      "freshness": 0.457,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -990,28 +931,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "yahoo.com",
-      "url": "https://www.yahoo.com/news/world/articles/iran-launches-surprise-attack-us-225213723.html",
-      "published_at": "2026-07-29T02:00:00Z",
+      "source": "ktvu.com",
+      "url": "https://www.ktvu.com/news/us-intercepts-all-missiles-fired-iranian-surprise-attack-centcom-says",
+      "published_at": "2026-07-29T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
     },
     {
-      "id": "79655fd9fed9733b",
-      "name": "US , Saudi Arabia Strike Iran - Aligned Targets in Iraq",
+      "id": "cff1e0702b6fc2af",
+      "name": "Iran attacca una base united states in Giordania e colpisce tre petroliere a Hormuz",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "79655fd9fed9733b",
+      "dependency_group": "cff1e0702b6fc2af",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.21,
+      "freshness": 0.457,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -1022,28 +962,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "newkerala.com",
-      "url": "https://www.newkerala.com/news/a/us-saudi-arabia-launch-joint-precision-strikes-iraq-500.htm",
-      "published_at": "2026-07-29T02:00:00Z",
+      "source": "zazoom.it",
+      "url": "https://www.zazoom.it/2026-07-29/iran-attacca-una-base-usa-in-giordania-e-colpisce-tre-petroliere-a-hormuz-torna-lescalation/19513917/",
+      "published_at": "2026-07-29T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
     },
     {
-      "id": "5aae34cc576b7047",
-      "name": "US , Saudi Airstrikes Hit Iran - Linked Targets in Iraq",
+      "id": "a879ad16bd8bb131",
+      "name": "US , Saudis Strike Iran - Backed Sites in Iraq as Netanyahu Praises Trump Talk",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "5aae34cc576b7047",
+      "dependency_group": "a879ad16bd8bb131",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.21,
+      "freshness": 0.396,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -1054,28 +993,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "newkerala.com",
-      "url": "https://www.newkerala.com/news/a/us-saudi-forces-strike-iran-backed-sites-iraq-192.htm",
-      "published_at": "2026-07-29T02:00:00Z",
+      "source": "newsweek.com",
+      "url": "https://www.newsweek.com/us-saudis-strike-iran-backed-sites-in-iraq-as-netanyahu-praises-trump-talk-12257464",
+      "published_at": "2026-07-29T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
     },
     {
-      "id": "c392fb7cbc4dc68c",
-      "name": "Netanyahu praises first meeting with Trump since launching the Iran war",
+      "id": "994653fa2af7e464",
+      "name": "US , Saudi forces strike Iran - backed  terrorist in Iraq – US military",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "c392fb7cbc4dc68c",
+      "dependency_group": "994653fa2af7e464",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.21,
+      "freshness": 0.425,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -1086,112 +1024,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "yakimaherald.com",
-      "url": "https://www.yakimaherald.com/news/nation_and_world/nation/netanyahu-praises-first-meeting-with-trump-since-launching-the-iran-war/article_a233d3f1-083f-5ac5-8a4f-20594fd58de4.html",
-      "published_at": "2026-07-29T02:00:00Z",
+      "source": "newstalkzb.co.nz",
+      "url": "https://www.newstalkzb.co.nz/news/world/us-saudi-forces-strike-iran-backed-terrorists-in-iraq-us-military/",
+      "published_at": "2026-07-29T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "95bf9f49791bdbc1",
-      "name": "Iran war : US , Saudi Arabia strike Iran - backed Iraqi militias",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "95bf9f49791bdbc1",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.182,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dw.com",
-      "url": "https://www.dw.com/en/iran-war-us-saudi-arabia-strike-iran-backed-iraqi-militias/live-78152241",
-      "published_at": "2026-07-29T01:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a35d28b859dd9fff",
-      "name": "Iran and US trade strikes , shattering brief lull in fighting",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a35d28b859dd9fff",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.182,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yahoo.com",
-      "url": "https://www.yahoo.com/news/us/articles/iran-and-us-trade-strikes-shattering-brief-lull-in-fighting-004230626.html",
-      "published_at": "2026-07-29T01:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "05056104de51e22d",
-      "name": "Netanyahu Hails Trump Meeting As Leaders Unite Against Nuclear - Armed Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "05056104de51e22d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.182,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "worthynews.com",
-      "url": "https://www.worthynews.com/116325-netanyahu-hails-trump-meeting-as-leaders-unite-against-nuclear-armed-iran",
-      "published_at": "2026-07-29T01:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
     }
   ],
   "history": [
@@ -1572,17 +1413,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 6,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-07-29T10:14:37.454884Z",
+      "immediate": 5,
+      "short": 17,
+      "extended": 28
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-07-29T04:32:57.916734Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-07-29T10:14:37.454884Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 35
+        "ok": true,
+        "items": 150,
+        "relevant": 31
       },
       "manual": {
         "ok": true,
