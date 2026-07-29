@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-07-29T16:37:10.722567Z",
+  "generated_at": "2026-07-29T17:57:01.722830Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 22,
-      "low": 6,
-      "high": 38,
-      "confidence": 48,
-      "status": "מוגבר"
+      "score": 12,
+      "low": 0,
+      "high": 29,
+      "confidence": 45,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 24,
-      "low": 8,
-      "high": 40,
-      "confidence": 48,
-      "status": "מוגבר"
+      "score": 15,
+      "low": 0,
+      "high": 32,
+      "confidence": 45,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 6,
-      "high": 38,
-      "confidence": 48,
+      "score": 14,
+      "low": 0,
+      "high": 31,
+      "confidence": 45,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -12
+    "points_60m": -10
   },
   "changes": [
     {
       "time": "15:30",
       "text": "Mossad advises Israeli officials to alter daily routines amid fears of Iran retaliation",
-      "impact": "השפעה מיידית מחושבת: +7.6",
+      "impact": "השפעה מיידית מחושבת: +5.2",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "7a4c3298dbf84de5"
@@ -50,26 +50,26 @@
     {
       "time": "15:30",
       "text": "Israel will not attack Iran without request from US , Netanyahu says",
-      "impact": "השפעה מיידית מחושבת: +7.6",
+      "impact": "השפעה מיידית מחושבת: +5.2",
       "direction": "up",
       "source": "news.am",
       "signal_id": "8a1332b61990a6b4"
     },
     {
-      "time": "14:30",
-      "text": "Israel served as launchpad for US attacks on Iran , says foreign minister",
-      "impact": "השפעה מיידית מחושבת: +5.7",
-      "direction": "up",
-      "source": "middleeasteye.net",
-      "signal_id": "86057142e828e9bf"
-    },
-    {
       "time": "16:45",
       "text": "Donald Trump threatens to  beat  Iran after CENTCOM resumes overnight strikes",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "79a00acb752b5f7a"
+    },
+    {
+      "time": "17:30",
+      "text": "Iran resumes missile attacks as U . S . and Saudis strike Tehran - backed militias in Iraq",
+      "impact": "השפעה מיידית מחושבת: +0.8",
+      "direction": "up",
+      "source": "wmra.org",
+      "signal_id": "a223f737af947954"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@
       "dependency_group": "7a4c3298dbf84de5",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.308,
+      "freshness": 0.211,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@
       "published_at": "2026-07-29T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 7.6,
-        "short": 5.9,
-        "extended": 2.5
+        "immediate": 5.2,
+        "short": 4.1,
+        "extended": 1.7
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "8a1332b61990a6b4",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.308,
+      "freshness": 0.211,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -131,41 +131,9 @@
       "published_at": "2026-07-29T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 7.6,
-        "short": 5.9,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "86057142e828e9bf",
-      "name": "Israel served as launchpad for US attacks on Iran , says foreign minister",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "86057142e828e9bf",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.232,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-served-launchpad-us-attacks-iran-says-foreign-minister",
-      "published_at": "2026-07-29T11:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 5.7,
-        "short": 4.5,
-        "extended": 1.9
+        "immediate": 5.2,
+        "short": 4.1,
+        "extended": 1.7
       },
       "carried_forward": true
     },
@@ -179,7 +147,7 @@
       "dependency_group": "79a00acb752b5f7a",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.44,
+      "freshness": 0.301,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +163,9 @@
       "published_at": "2026-07-29T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       },
       "carried_forward": true
     },
@@ -211,7 +179,7 @@
       "dependency_group": "a223f737af947954",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.546,
+      "freshness": 0.373,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +195,9 @@
       "published_at": "2026-07-29T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       },
       "carried_forward": true
     },
@@ -243,7 +211,7 @@
       "dependency_group": "0d0b0d0d48f46ccf",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.473,
+      "freshness": 0.323,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +227,9 @@
       "published_at": "2026-07-29T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       },
       "carried_forward": true
     },
@@ -275,7 +243,7 @@
       "dependency_group": "b6dcca870be17791",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.546,
+      "freshness": 0.373,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +259,9 @@
       "published_at": "2026-07-29T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -307,7 +275,7 @@
       "dependency_group": "24535f9ba4d0314b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.473,
+      "freshness": 0.323,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +291,9 @@
       "published_at": "2026-07-29T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       },
       "carried_forward": true
     },
@@ -339,7 +307,7 @@
       "dependency_group": "a0f6b42286ee10a9",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.473,
+      "freshness": 0.323,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +323,9 @@
       "published_at": "2026-07-29T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       },
       "carried_forward": true
     },
@@ -371,7 +339,7 @@
       "dependency_group": "ac9fe8f104eeb6a5",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.41,
+      "freshness": 0.28,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -387,9 +355,9 @@
       "published_at": "2026-07-29T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
       },
       "carried_forward": true
     },
@@ -403,7 +371,7 @@
       "dependency_group": "3044c16130bf6c64",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.473,
+      "freshness": 0.323,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -419,9 +387,9 @@
       "published_at": "2026-07-29T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -435,7 +403,7 @@
       "dependency_group": "3bce93cd335dd9ea",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.473,
+      "freshness": 0.323,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -451,9 +419,9 @@
       "published_at": "2026-07-29T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -467,7 +435,7 @@
       "dependency_group": "ca72d17c5350b9bb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.473,
+      "freshness": 0.323,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -483,9 +451,9 @@
       "published_at": "2026-07-29T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -499,7 +467,7 @@
       "dependency_group": "5a258e807b122a8c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.473,
+      "freshness": 0.323,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -515,9 +483,9 @@
       "published_at": "2026-07-29T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -531,7 +499,7 @@
       "dependency_group": "12c13526d7b4a0b6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.473,
+      "freshness": 0.323,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -547,9 +515,9 @@
       "published_at": "2026-07-29T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -563,7 +531,7 @@
       "dependency_group": "71630abed7bccb2e",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.356,
+      "freshness": 0.243,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -579,9 +547,9 @@
       "published_at": "2026-07-29T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -595,7 +563,7 @@
       "dependency_group": "030b72ae98ebb2b0",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.356,
+      "freshness": 0.243,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -611,9 +579,9 @@
       "published_at": "2026-07-29T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -627,7 +595,7 @@
       "dependency_group": "40507ee6486aaed2",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.356,
+      "freshness": 0.243,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -643,9 +611,9 @@
       "published_at": "2026-07-29T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -659,7 +627,7 @@
       "dependency_group": "72ed192c8938b3e1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.44,
+      "freshness": 0.301,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -675,9 +643,9 @@
       "published_at": "2026-07-29T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -691,7 +659,7 @@
       "dependency_group": "16f3509061c7a973",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.356,
+      "freshness": 0.243,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -707,9 +675,9 @@
       "published_at": "2026-07-29T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -723,7 +691,7 @@
       "dependency_group": "ee985e8f8e3285d7",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.356,
+      "freshness": 0.243,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -739,41 +707,9 @@
       "published_at": "2026-07-29T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1930b6d533fa70fb",
-      "name": "Trump Vows To Hit Iran  Hard  As Rare Joint US - Saudi Strikes Pound Iraq , Killing 20 Militants",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1930b6d533fa70fb",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.382,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "zerohedge.com",
-      "url": "https://www.zerohedge.com/geopolitical/trump-vows-hit-iran-hard-rare-joint-us-saudi-strikes-pound-iraq-killing-20-militants",
-      "published_at": "2026-07-29T13:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -787,7 +723,7 @@
       "dependency_group": "8d75b9329687eb45",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.356,
+      "freshness": 0.243,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -803,9 +739,9 @@
       "published_at": "2026-07-29T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -819,7 +755,7 @@
       "dependency_group": "aacbf6338b9eb306",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.41,
+      "freshness": 0.28,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -835,9 +771,9 @@
       "published_at": "2026-07-29T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -851,7 +787,7 @@
       "dependency_group": "256e5124b41a4d5b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.41,
+      "freshness": 0.28,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -867,9 +803,41 @@
       "published_at": "2026-07-29T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "1930b6d533fa70fb",
+      "name": "Trump Vows To Hit Iran  Hard  As Rare Joint US - Saudi Strikes Pound Iraq , Killing 20 Militants",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1930b6d533fa70fb",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.261,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "zerohedge.com",
+      "url": "https://www.zerohedge.com/geopolitical/trump-vows-hit-iran-hard-rare-joint-us-saudi-strikes-pound-iraq-killing-20-militants",
+      "published_at": "2026-07-29T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -883,7 +851,7 @@
       "dependency_group": "e6dec98aba114e52",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.308,
+      "freshness": 0.211,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -899,9 +867,9 @@
       "published_at": "2026-07-29T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -915,7 +883,7 @@
       "dependency_group": "1660e88c7bb862f4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.356,
+      "freshness": 0.243,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -931,9 +899,9 @@
       "published_at": "2026-07-29T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -947,7 +915,7 @@
       "dependency_group": "8120ecc69ec5cca4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.356,
+      "freshness": 0.243,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -963,9 +931,9 @@
       "published_at": "2026-07-29T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -979,7 +947,7 @@
       "dependency_group": "8d078cdb63672144",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.356,
+      "freshness": 0.243,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -995,9 +963,9 @@
       "published_at": "2026-07-29T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -1011,7 +979,7 @@
       "dependency_group": "59b08d1eeeac638d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.356,
+      "freshness": 0.243,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -1027,9 +995,9 @@
       "published_at": "2026-07-29T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -1043,7 +1011,7 @@
       "dependency_group": "d36f93d169f44569",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.308,
+      "freshness": 0.211,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -1059,9 +1027,9 @@
       "published_at": "2026-07-29T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -1075,7 +1043,7 @@
       "dependency_group": "1c95d4b7af0bf358",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.356,
+      "freshness": 0.243,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -1091,9 +1059,9 @@
       "published_at": "2026-07-29T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -1107,7 +1075,7 @@
       "dependency_group": "3cac47ade6b1ffa3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.356,
+      "freshness": 0.243,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -1123,9 +1091,9 @@
       "published_at": "2026-07-29T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -1139,7 +1107,7 @@
       "dependency_group": "5f5f44dcbb1c2e10",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.356,
+      "freshness": 0.243,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -1155,9 +1123,9 @@
       "published_at": "2026-07-29T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -1171,7 +1139,7 @@
       "dependency_group": "730b09246691c7d1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.308,
+      "freshness": 0.211,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -1187,9 +1155,9 @@
       "published_at": "2026-07-29T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -1203,7 +1171,7 @@
       "dependency_group": "affb692198874278",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.308,
+      "freshness": 0.211,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -1219,9 +1187,9 @@
       "published_at": "2026-07-29T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -1235,7 +1203,7 @@
       "dependency_group": "b4b6b6a90bc629d6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.308,
+      "freshness": 0.211,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -1251,9 +1219,9 @@
       "published_at": "2026-07-29T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -1267,7 +1235,7 @@
       "dependency_group": "b551be514f614e16",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.308,
+      "freshness": 0.211,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -1283,9 +1251,9 @@
       "published_at": "2026-07-29T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -1299,7 +1267,7 @@
       "dependency_group": "84f3ccc844fba05b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.267,
+      "freshness": 0.183,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -1315,41 +1283,9 @@
       "published_at": "2026-07-29T12:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "039fc6d2a3958618",
-      "name": "Iran Set to Receive Up to 400 Chinese Shoulder - Fired Air Defence Systems : Reuters",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "039fc6d2a3958618",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.232,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "khaama.com",
-      "url": "https://www.khaama.com/iran-set-to-receive-up-to-400-chinese-shoulder-fired-air-defence-systems-reuters/",
-      "published_at": "2026-07-29T11:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.8
       },
       "carried_forward": true
     }
@@ -1756,6 +1692,12 @@
       "immediate": 22,
       "short": 24,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-07-29T17:57:01.722830Z",
+      "immediate": 12,
+      "short": 15,
+      "extended": 14
     }
   ],
   "health": {
@@ -1766,7 +1708,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 40
+        "carried_forward": 38
       },
       "manual": {
         "ok": true,
