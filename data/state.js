@@ -1,78 +1,543 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-07-30T19:17:22.590437Z",
+  "mode": "live",
+  "generated_at": "2026-07-30T20:39:26.533091Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 6,
       "low": 0,
-      "high": 20,
-      "confidence": 47,
+      "high": 19,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
-      "low": 0,
-      "high": 27,
-      "confidence": 47,
+      "score": 18,
+      "low": 5,
+      "high": 31,
+      "confidence": 68,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 0,
-      "high": 34,
-      "confidence": 47,
-      "status": "נמוך"
+      "score": 29,
+      "low": 16,
+      "high": 42,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "עלייה מתונה",
+    "points_60m": 3
   },
   "changes": [
     {
-      "time": "20:15",
-      "text": "The US and Iran trade missile barrages as hopes dim for a quick resolution",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "23:00",
+      "text": "Renewed Iran war raises US missile supply concerns",
+      "impact": "השפעה מיידית מחושבת: +2.2",
       "direction": "up",
-      "source": "africanews.com",
-      "signal_id": "54f053eb508c89ef"
+      "source": "al-monitor.com",
+      "signal_id": "8f4b966638f28c9d"
     },
     {
-      "time": "19:30",
-      "text": "U . S . and Iran trade missile barrages as hopes dim for a quick resolution to the five - month conflict",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "23:00",
+      "text": "Iran Conflict Expands to Egypt with Drone Strike on Suez Tanker",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "butlereagle.com",
-      "signal_id": "23cb2a9ea79b3614"
+      "source": "breitbart.com",
+      "signal_id": "810a300c58ebf61b"
     },
     {
-      "time": "20:15",
-      "text": "Iran Revolutionary Guards claim attack on Ali Al Salem Base in Kuwait",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "23:00",
+      "text": "Egypt struck by explosive drones as yet more countries are dragged into Iran war",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "aa.com.tr",
-      "signal_id": "769df8c3911099be"
+      "source": "aol.co.uk",
+      "signal_id": "2fe68c8279b32d7c"
     },
     {
-      "time": "20:15",
-      "text": "Iran Araghchi Presses European Counterparts Over Use of Bases in US Operations",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "23:00",
+      "text": "China refutes groundless report on missile supply to Iran",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "english.aawsat.com",
-      "signal_id": "bc8dfa419e511a12"
+      "source": "thefrontierpost.com",
+      "signal_id": "e4b3f1c56e6b43c4"
     }
   ],
   "signals": [
+    {
+      "id": "8f4b966638f28c9d",
+      "name": "Renewed Iran war raises US missile supply concerns",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8f4b966638f28c9d",
+      "strength": 0.48,
+      "reliability": 0.74,
+      "freshness": 0.829,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/07/renewed-iran-war-raises-us-missile-supply-concerns",
+      "published_at": "2026-07-30T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.2,
+        "short": 7.6,
+        "extended": 13.0
+      }
+    },
+    {
+      "id": "810a300c58ebf61b",
+      "name": "Iran Conflict Expands to Egypt with Drone Strike on Suez Tanker",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "810a300c58ebf61b",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.829,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "breitbart.com",
+      "url": "https://www.breitbart.com/middle-east/2026/07/30/iran-conflict-expands-to-egypt-with-drone-strike-on-suez-tanker/",
+      "published_at": "2026-07-30T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.8
+      }
+    },
+    {
+      "id": "2fe68c8279b32d7c",
+      "name": "Egypt struck by explosive drones as yet more countries are dragged into Iran war",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2fe68c8279b32d7c",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.829,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aol.co.uk",
+      "url": "https://www.aol.co.uk/articles/egypt-struck-explosive-drones-yet-191328000.html",
+      "published_at": "2026-07-30T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.8
+      }
+    },
+    {
+      "id": "e4b3f1c56e6b43c4",
+      "name": "China refutes groundless report on missile supply to Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e4b3f1c56e6b43c4",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.829,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thefrontierpost.com",
+      "url": "https://thefrontierpost.com/china-refutes-groundless-report-on-missile-supply-to-iran/",
+      "published_at": "2026-07-30T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.8
+      }
+    },
+    {
+      "id": "406babec98ebcf6a",
+      "name": "US Strike on Home in Iran Qeshm Kills Father , Mother , and Their Two - Year - Old Child : Iranian Media",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "406babec98ebcf6a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.89,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.antiwar.com",
+      "url": "https://news.antiwar.com/2026/07/30/us-strike-on-home-in-irans-qeshm-kills-father-mother-and-their-two-year-old-child-iranian-media/",
+      "published_at": "2026-07-30T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "d36f93d169f44569",
+      "name": "Iran to get Chinese shoulder - launched missile systems in weeks , sources say",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d36f93d169f44569",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.718,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "defensenews.com",
+      "url": "https://www.defensenews.com/industry/techwatch/2026/07/30/iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/",
+      "published_at": "2026-07-30T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
+    },
+    {
+      "id": "c9e994cef524ff20",
+      "name": "China Denies Missile Supply Report to Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c9e994cef524ff20",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.718,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "pakistantoday.com.pk",
+      "url": "https://www.pakistantoday.com.pk/2026/07/30/china-refutes-groundless-report-on-missile-supply-to-iran",
+      "published_at": "2026-07-30T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
+    },
+    {
+      "id": "e4b452c7f4bb4ae7",
+      "name": "Iran Araqchi presses European counterparts over use of bases in US operations",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e4b452c7f4bb4ae7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.89,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yahoo.com",
+      "url": "https://www.yahoo.com/news/articles/irans-araqchi-presses-european-counterparts-142845636.html",
+      "published_at": "2026-07-30T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "cd1848d87eb9c85b",
+      "name": "US military launches strikes on Iranian targets a day after it foiled missile attack on US forces",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cd1848d87eb9c85b",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.623,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ksla.com",
+      "url": "https://www.ksla.com/2026/07/29/iran-launches-renewed-missile-attacks-us-saudis-strike-tehran-backed-militias-iraq/",
+      "published_at": "2026-07-30T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "6738f999fe96f517",
+      "name": "IRGC Claims Kuwait Strike , Denies US F - 35 Damage",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6738f999fe96f517",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.718,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "pakistantoday.com.pk",
+      "url": "https://www.pakistantoday.com.pk/2026/07/30/irgc-says-it-hit-kuwait-and-jordan-destroyed-three-us-f-35s",
+      "published_at": "2026-07-30T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      }
+    },
+    {
+      "id": "fa784ce3352ff622",
+      "name": "Donald Trump drags Egypt into Iran war as US blitzes Tehran military targets",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fa784ce3352ff622",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.623,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aol.co.uk",
+      "url": "https://www.aol.co.uk/articles/donald-trump-drags-egypt-iran-182605000.html",
+      "published_at": "2026-07-30T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "a0a9784afa08f521",
+      "name": "Iran claims to destroy three F - 35 jets , damage 3 more in Jordan after US attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a0a9784afa08f521",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.669,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iraqsun.com",
+      "url": "http://www.iraqsun.com/news/279216861/iran-claims-to-destroy-three-f-35-jets-damage-3-more-in-jordan-after-us-attack",
+      "published_at": "2026-07-30T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
+    },
+    {
+      "id": "63bf0671649cf01a",
+      "name": "Estados Unidos y Arabia Saudita atacan a bases de milicias proiraníes en Irak",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "63bf0671649cf01a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.623,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ojo.pe",
+      "url": "https://ojo.pe/internacional/estados-unidos-y-arabia-saudita-atacan-a-bases-de-milicias-proiranies-en-irak-web-ojo-print-noticia/",
+      "published_at": "2026-07-30T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "a146c5781d5288dc",
+      "name": "US Sanctions Shipping Companies Over Iranian Oil Sales to China , UAE",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a146c5781d5288dc",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.503,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theepochtimes.com",
+      "url": "https://www.theepochtimes.com/world/us-sanctions-shipping-companies-over-iranian-oil-sales-to-china-uae-6069358",
+      "published_at": "2026-07-30T18:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "91a9e53ff30508d5",
+      "name": "Iranian Strike Kills 1 In Kuwait ; Jordan Says It Downed 5 Missiles",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "91a9e53ff30508d5",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.436,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "southeastasiapost.com",
+      "url": "http://www.southeastasiapost.com/news/279216259/iranian-strike-kills-1-in-kuwait-jordan-says-it-downed-5-missiles",
+      "published_at": "2026-07-30T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.2
+      }
+    },
     {
       "id": "54f053eb508c89ef",
       "name": "The US and Iran trade missile barrages as hopes dim for a quick resolution",
@@ -83,7 +548,7 @@ window.MAGEN_STATE = {
       "dependency_group": "54f053eb508c89ef",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.558,
+      "freshness": 0.378,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,23 +564,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
     },
     {
-      "id": "23cb2a9ea79b3614",
-      "name": "U . S . and Iran trade missile barrages as hopes dim for a quick resolution to the five - month conflict",
+      "id": "5363b7b809333f73",
+      "name": "US ‑ Lager in Ägypten attackiert :  Immer mehr Länder werden in Trumps Krieg gegen den Iran hineingezogen",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "23cb2a9ea79b3614",
-      "strength": 0.48,
+      "dependency_group": "5363b7b809333f73",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.451,
+      "freshness": 0.468,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,16 +590,139 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "butlereagle.com",
-      "url": "https://www.butlereagle.com/20260730/u-s-and-iran-trade-missile-barrages-as-hopes-dim-for-a-quick-resolution-to-the-five-month-conflict/",
-      "published_at": "2026-07-30T16:30:00Z",
+      "source": "n-tv.de",
+      "url": "https://www.n-tv.de/politik/Immer-mehr-Laender-werden-in-Trumps-Krieg-gegen-den-Iran-hineingezogen-id31141835.html",
+      "published_at": "2026-07-30T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "12ebeee5e9350598",
+      "name": "IRGC Boasts Of Fully Intact Speedboat Fleet For  Swarm Attack In Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "12ebeee5e9350598",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.436,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "zerohedge.com",
+      "url": "https://www.zerohedge.com/military/irgc-boasts-fully-intact-speedboat-fleet-swarm-attacks-hormuz",
+      "published_at": "2026-07-30T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
+    },
+    {
+      "id": "f234529c462eec9e",
+      "name": "Iran and the US resume attacks as hopes for peace fade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f234529c462eec9e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.436,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "morningstaronline.co.uk",
+      "url": "https://morningstaronline.co.uk/article/iran-and-us-resume-attacks-hopes-peace-fade",
+      "published_at": "2026-07-30T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
+    },
+    {
+      "id": "bdda02caf9553692",
+      "name": "Peso sinks on latest US - Iran attacks - BusinessWorld Online",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bdda02caf9553692",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.436,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bworldonline.com",
+      "url": "https://bworldonline.com/banking-finance/2026/07/31/767072/peso-sinks-on-latest-us-iran-attacks/",
+      "published_at": "2026-07-30T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
+    },
+    {
+      "id": "28ae68acc8d7a434",
+      "name": "U . S . sees Iran as likely behind cyberattack on Minnesota water systems",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "28ae68acc8d7a434",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.436,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "twincities.com",
+      "url": "https://www.twincities.com/2026/07/30/u-s-sees-iran-as-likely-behind-cyberattack-on-minnesota-water-systems/",
+      "published_at": "2026-07-30T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
     },
     {
       "id": "769df8c3911099be",
@@ -147,7 +734,7 @@ window.MAGEN_STATE = {
       "dependency_group": "769df8c3911099be",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.558,
+      "freshness": 0.378,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,683 +750,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "bc8dfa419e511a12",
-      "name": "Iran Araghchi Presses European Counterparts Over Use of Bases in US Operations",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bc8dfa419e511a12",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.558,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "english.aawsat.com",
-      "url": "https://english.aawsat.com/world/5301761-iran%E2%80%99s-araghchi-presses-european-counterparts-over-use-bases-us-operations",
-      "published_at": "2026-07-30T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "807caa4bc7858884",
-      "name": "Iran warns Bulgaria against hosting US warplanes , secures assurances from Cyprus on base neutrality",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "807caa4bc7858884",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.484,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/07/30/773384/Iran-warns-Bulgaria-against-hosting-US-warplanes-secures-assurances-from-Cyprus-on-base-neutrality",
-      "published_at": "2026-07-30T16:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "fd9b2bab93c2ff76",
-      "name": "The U . S . retaliates against a  surprise attack  by Iran in Jordan",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fd9b2bab93c2ff76",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.558,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "krcu.org",
-      "url": "https://www.krcu.org/2026-07-30/the-u-s-retaliates-against-a-surprise-attack-by-iran-in-jordan",
-      "published_at": "2026-07-30T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f29f66c2b1e1860e",
-      "name": "Oil surges above $90 as Trump warns of new strikes on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f29f66c2b1e1860e",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.484,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "worldoil.com",
-      "url": "https://worldoil.com/news/2026/7/29/oil-surges-above-90-as-trump-warns-of-new-strikes-on-iran/",
-      "published_at": "2026-07-30T16:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2955ed5f8e0fa138",
-      "name": "US , Iran exchange new missile strikes as war expands across the Middle East",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2955ed5f8e0fa138",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.364,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "13wham.com",
-      "url": "https://13wham.com/news/nation-world/us-iran-exchange-new-missile-strikes-as-war-expands-across-the-middle-east-peace-kuwait-saudi-arabia-egypt-talks-negotiations-central-command-military-response-president-trump-strait-of-hormuz",
-      "published_at": "2026-07-30T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4f550fa98bb21c46",
-      "name": "IRGC claims strike destroys drone hangars at US base in Kuwait",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4f550fa98bb21c46",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.339,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.az",
-      "url": "https://news.az/news/irgc-claims-strike-destroys-drone-hangars-at-us-base-in-kuwait",
-      "published_at": "2026-07-30T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c9a8a15e988cbf3d",
-      "name": "US Military Completes  Heavy Wave  Of Strikes Against Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c9a8a15e988cbf3d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.391,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "beijingbulletin.com",
-      "url": "http://www.beijingbulletin.com/news/279216230/us-military-completes-heavy-wave-of-strikes-against-iran",
-      "published_at": "2026-07-30T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6e476b06a01c1c6a",
-      "name": "Guerre en Iran : ces lanceurs de missile que Téhéran aurait achetés à la Chine",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6e476b06a01c1c6a",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.315,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "lexpress.fr",
-      "url": "https://www.lexpress.fr/monde/proche-moyen-orient/guerre-en-iran-ces-lanceurs-de-missile-que-teheran-aurait-achetes-a-la-chine-JTBKGAAADFG7JI3LNTANP7HQFQ/",
-      "published_at": "2026-07-30T15:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
         "short": 2.2,
         "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ffa4896eaffcad31",
-      "name": "Trump Vows Strong Response After Iran Attacks US Bases in Jordan",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ffa4896eaffcad31",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.364,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "opinionnigeria.com",
-      "url": "https://www.opinionnigeria.com/trump-vows-tough-response-after-iran-targets-us-bases-in-jordan/",
-      "published_at": "2026-07-30T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "134ec75f700e5d7a",
-      "name": "Explosions reported in southern Iran after US launches new strikes . Here the latest",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "134ec75f700e5d7a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.364,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "egyptindependent.com",
-      "url": "https://www.egyptindependent.com/explosions-reported-in-southern-iran-after-us-launches-new-strikes-heres-the-latest/",
-      "published_at": "2026-07-30T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "50374d38c94b3230",
-      "name": "Democrats demand answers over treatment of wounded US troops after Iran strike",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "50374d38c94b3230",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.339,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theguardian.com",
-      "url": "https://www.theguardian.com/us-news/2026/jul/30/iran-strike-democrats-troops-wounded",
-      "published_at": "2026-07-30T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a0f0d9ddea7f23fd",
-      "name": "U . S . Strikes IRGC Targets After Attempted Iranian Attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a0f0d9ddea7f23fd",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.315,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "globalsecurity.org",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/07/mil-260729-centcom01.htm",
-      "published_at": "2026-07-30T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3ef976ef95f74666",
-      "name": "US Launches Strikes On Iran After Reported Attack On Base In Jordan",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3ef976ef95f74666",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.315,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "globalsecurity.org",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/07/mil-260730-rferl02.htm",
-      "published_at": "2026-07-30T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "787422a4e6836b56",
-      "name": "Iran denies involvement in projectiles launched from Iraq toward Saudi Arabia",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "787422a4e6836b56",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.315,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/saudi/2026/saudi-260729-azertac01.htm",
-      "published_at": "2026-07-30T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0a66a85fd9425cab",
-      "name": "Jordanian shoots down Iranian missiles and US launches heavy strikes on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0a66a85fd9425cab",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.237,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wdbo.com",
-      "url": "https://www.wdbo.com/news/jordanian-air/IGXOYLFLEI333JYBPNZ2BFQJTY/",
-      "published_at": "2026-07-30T14:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c72b96e6d70ed679",
-      "name": "US strikes Iran after attacks on American troops in Jordan",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c72b96e6d70ed679",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.221,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bworldonline.com",
-      "url": "https://bworldonline.com/world/2026/07/30/767010/us-strikes-iran-after-attacks-on-american-troops-in-jordan/",
-      "published_at": "2026-07-30T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "54ed97a5355e149e",
-      "name": "Trump retaliates after Iran attack as expert warns regime is growing more dangerous",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "54ed97a5355e149e",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.221,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "foxwilmington.com",
-      "url": "https://foxwilmington.com/trump-retaliates-after-iran-attack-as-expert-warns-regime-is-growing-more-dangerous/",
-      "published_at": "2026-07-30T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7f1122de1b02b36f",
-      "name": "U . S . forces launch new strikes on Iran as conflict widens",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7f1122de1b02b36f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.221,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "heraldglobe.com",
-      "url": "http://www.heraldglobe.com/news/279216322/us-forces-launch-new-strikes-on-iran-as-conflict-widens",
-      "published_at": "2026-07-30T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7ebae71ee11212a0",
-      "name": "Pentagon Pete Hegseth Faces Probe Into Deadly Iran War Attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7ebae71ee11212a0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.221,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thedailybeast.com",
-      "url": "https://www.thedailybeast.com/pentagon-pete-hegseth-faces-probe-into-deadly-iran-war-attack/",
-      "published_at": "2026-07-30T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c77d93078929384b",
-      "name": "US launches more strikes against Iran , signaling a new stage of the war",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c77d93078929384b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.221,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wdsu.com",
-      "url": "https://www.wdsu.com/article/us-more-strikes-against-iran-a-new-stage-of-war/73303764",
-      "published_at": "2026-07-30T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "462ee73bb93c9488",
-      "name": "ईरान की IRGC का कड़ा अल्टीमेटम :  ईरान के खिलाफ हमलों में अमेरिका का साथ देने वाले देशों को भुगतना होगा गंभीर अंजाम  | irgc - warns - countries - assisting - us - attacks - iran - harsh - response - strait - of - hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "462ee73bb93c9488",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.221,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "deshbandhu.co.in",
-      "url": "https://www.deshbandhu.co.in/world/irgc-warns-countries-assisting-us-attacks-iran-harsh-response-strait-of-hormuz-312853",
-      "published_at": "2026-07-30T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.5
-      },
-      "carried_forward": true
+      }
     }
   ],
   "history": [
@@ -1334,17 +1248,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-07-30T20:39:26.533091Z",
+      "immediate": 6,
+      "short": 18,
+      "extended": 29
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-07-30T17:51:33.514500Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-07-30T20:39:26.533091Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 24
+        "ok": true,
+        "items": 150,
+        "relevant": 22
       },
       "manual": {
         "ok": true,
