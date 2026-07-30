@@ -1,121 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-07-29T23:44:57.195841Z",
+  "mode": "live",
+  "generated_at": "2026-07-30T01:11:12.262928Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 19,
-      "low": 3,
-      "high": 35,
-      "confidence": 48,
-      "status": "נמוך"
+      "score": 5,
+      "low": 0,
+      "high": 18,
+      "confidence": 67,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 21,
-      "low": 5,
-      "high": 37,
-      "confidence": 48,
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 5,
-      "high": 37,
-      "confidence": 48,
-      "status": "נמוך"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -6
+    "points_60m": -14
   },
   "changes": [
     {
-      "time": "00:00",
-      "text": "Israel , Ukraine may join together amid Iranian and Russian threats",
-      "impact": "השפעה מיידית מחושבת: +16.3",
+      "time": "03:45",
+      "text": "Iran launches renewed missile attacks as US and Saudis strike Tehran - backed militias in Iraq",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "4cc1b8c94053cae4"
+      "source": "smdailyjournal.com",
+      "signal_id": "ea263cd12256c8fa"
     },
     {
-      "time": "00:15",
-      "text": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "03:45",
+      "text": "At least 4 IRGC members killed in Iraq in US - Saudi strikes , says Iranian media",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "newsradio540.iheart.com",
-      "signal_id": "bffe80e80e12cda6"
+      "source": "aninews.in",
+      "signal_id": "4371fd54dcc30aa0"
     },
     {
-      "time": "00:15",
-      "text": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | News Radio 920 AM & 104 . 7 FM",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "03:15",
+      "text": "US - Iran conflict sees more strikes , threats and stalled diplomacy",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "newsradiori.iheart.com",
-      "signal_id": "e6559b7b8f1628ea"
+      "source": "wsbradio.com",
+      "signal_id": "db661572a8ce3101"
     },
     {
-      "time": "00:00",
-      "text": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | News Radio 103 . 1 and 810 WGY",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "02:45",
+      "text": "US accuses Iran IRGC of threatening ships in Strait of Hormuz , maintains sea route remains open",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "wgy.iheart.com",
-      "signal_id": "9a9223d48c6115d6"
+      "source": "iraqsun.com",
+      "signal_id": "84af4eb18fac1940"
     }
   ],
   "signals": [
     {
-      "id": "4cc1b8c94053cae4",
-      "name": "Israel , Ukraine may join together amid Iranian and Russian threats",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4cc1b8c94053cae4",
-      "strength": 0.55,
-      "reliability": 0.74,
-      "freshness": 0.456,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/international/article-904046",
-      "published_at": "2026-07-29T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 16.3,
-        "short": 12.7,
-        "extended": 5.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "bffe80e80e12cda6",
-      "name": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
+      "id": "ea263cd12256c8fa",
+      "name": "Iran launches renewed missile attacks as US and Saudis strike Tehran - backed militias in Iraq",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "bffe80e80e12cda6",
+      "dependency_group": "ea263cd12256c8fa",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.49,
+      "freshness": 0.883,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,156 +94,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "newsradio540.iheart.com",
-      "url": "https://newsradio540.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-      "published_at": "2026-07-29T21:15:00Z",
+      "source": "smdailyjournal.com",
+      "url": "https://www.smdailyjournal.com/news/national/iran-launches-renewed-missile-attacks-as-us-and-saudis-strike-tehran-backed-militias-in-iraq/article_0686f6b0-fe1d-4417-8fed-d4dfa366bef0.html",
+      "published_at": "2026-07-30T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      },
-      "carried_forward": true
+        "immediate": 1.8,
+        "short": 6.1,
+        "extended": 10.4
+      }
     },
     {
-      "id": "e6559b7b8f1628ea",
-      "name": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | News Radio 920 AM & 104 . 7 FM",
+      "id": "4371fd54dcc30aa0",
+      "name": "At least 4 IRGC members killed in Iraq in US - Saudi strikes , says Iranian media",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e6559b7b8f1628ea",
-      "strength": 0.48,
+      "dependency_group": "4371fd54dcc30aa0",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.49,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newsradiori.iheart.com",
-      "url": "https://newsradiori.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-      "published_at": "2026-07-29T21:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9a9223d48c6115d6",
-      "name": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | News Radio 103 . 1 and 810 WGY",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9a9223d48c6115d6",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.456,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wgy.iheart.com",
-      "url": "https://wgy.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
-      "published_at": "2026-07-29T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9a36e1fcf20f43bc",
-      "name": "US has used up two - thirds of Patriot missile interceptors since Iran War started : report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9a36e1fcf20f43bc",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.456,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nypost.com",
-      "url": "https://nypost.com/2026/07/29/world-news/us-has-used-up-two-thirds-of-patriot-missile-interceptors-since-iran-war-started-report/",
-      "published_at": "2026-07-29T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b1cc5309aaeed622",
-      "name": "Iran to get Chinese shoulder - launched missile systems in weeks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b1cc5309aaeed622",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.456,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thenews.com.pk",
-      "url": "https://www.thenews.com.pk/latest/1410623-iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks",
-      "published_at": "2026-07-29T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "84af4eb18fac1940",
-      "name": "US accuses Iran IRGC of threatening ships in Strait of Hormuz , maintains sea route remains open",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "84af4eb18fac1940",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.456,
+      "freshness": 0.883,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -287,219 +126,26 @@ window.MAGEN_STATE = {
         "extended": 1.0
       },
       "source": "aninews.in",
-      "url": "https://aninews.in/news/world/us/us-accuses-irans-irgc-of-threatening-ships-in-strait-of-hormuz-maintains-sea-route-remains-open20260730011434/",
-      "published_at": "2026-07-29T21:00:00Z",
+      "url": "https://aninews.in/news/world/middle-east/at-least-4-irgc-members-killed-in-iraq-in-us-saudi-strikes-says-iranian-media20260730053941/",
+      "published_at": "2026-07-30T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      },
-      "carried_forward": true
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
     },
     {
-      "id": "bcd03522057e3999",
-      "name": "Iran resumes missile attacks as US and Saudis strike Tehran - backed militias in Iraq",
+      "id": "db661572a8ce3101",
+      "name": "US - Iran conflict sees more strikes , threats and stalled diplomacy",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "bcd03522057e3999",
-      "strength": 0.48,
+      "dependency_group": "db661572a8ce3101",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.424,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "laist.com",
-      "url": "https://laist.com/news/iran-resumes-missile-attacks-as-us-and-saudis-strike-tehran-backed-militias-in-iraq",
-      "published_at": "2026-07-29T20:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1549c183cbcd4948",
-      "name": "Well hit them hard : Trump threatens Iran after missile attack on US forces | Indiablooms - First Portal on Digital News Management",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1549c183cbcd4948",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.395,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "indiablooms.com",
-      "url": "https://www.indiablooms.com/world/well-hit-them-hard-trump-threatens-iran-after-missile-attack-on-us-forces/details",
-      "published_at": "2026-07-29T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f610ea9528fdb398",
-      "name": "Iran pressure , Syria stance and Saudi nuclear deal : Inside Netanyahu White House pitch to Trump , reveals Axios report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f610ea9528fdb398",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.49,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bignewsnetwork.com",
-      "url": "http://www.bignewsnetwork.com/news/279215500/iran-pressure-syria-stance-and-saudi-nuclear-deal-inside-netanyahu-white-house-pitch-to-trump-reveals-axios-report",
-      "published_at": "2026-07-29T21:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "51b4d8465012a047",
-      "name": "Iran condemns US - Saudi strikes in Iraq , holds Washington , allies responsible for consequences of",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "51b4d8465012a047",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.395,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "greekherald.com",
-      "url": "http://www.greekherald.com/news/279215413/iran-condemns-us-saudi-strikes-in-iraq-holds-washington-allies-responsible-for-consequences-of-criminal-actions",
-      "published_at": "2026-07-29T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "358e150168b47a33",
-      "name": "Saudi Arabia joins US in strikes on Iran - backed militias in Iraq",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "358e150168b47a33",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.395,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "surinametimes.com",
-      "url": "https://www.surinametimes.com/artikel/saudi-arabia-joins-us-in-strikes-on-iran-backed-militias-in-iraq",
-      "published_at": "2026-07-29T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b93ae630710b6aa8",
-      "name": "New U . S . Sanctions Target Iran Emerging Strait of Hormuz Maritime Services Network",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b93ae630710b6aa8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.343,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gcaptain.com",
-      "url": "https://gcaptain.com/new-u-s-sanctions-target-irans-emerging-strait-of-hormuz-maritime-services-network/",
-      "published_at": "2026-07-29T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1f2e8b6ed40e0c79",
-      "name": "Iran resumes missile attacks as US and Saudis hit Iraqi militias",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1f2e8b6ed40e0c79",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.297,
+      "freshness": 0.765,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -511,27 +157,57 @@ window.MAGEN_STATE = {
         "extended": 1.0
       },
       "source": "wsbradio.com",
-      "url": "https://www.wsbradio.com/news/world/jordan-says-it/XWTRXE6ORMZPRONLBA6GXJ353U/",
-      "published_at": "2026-07-29T19:30:00Z",
+      "url": "https://www.wsbradio.com/news/world/us-iran-conflict/KBORJC5A2M2RDEKUAXZWQYSGWA/",
+      "published_at": "2026-07-30T00:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      },
-      "carried_forward": true
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
     },
     {
-      "id": "1ad587e3184be3a3",
-      "name": "Iran Most Dangerous Drone ?  Hadid 110  Combines Stealth And Speed , Raising Concerns For Defense Systems",
+      "id": "84af4eb18fac1940",
+      "name": "US accuses Iran IRGC of threatening ships in Strait of Hormuz , maintains sea route remains open",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "1ad587e3184be3a3",
+      "dependency_group": "84af4eb18fac1940",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.663,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iraqsun.com",
+      "url": "http://www.iraqsun.com/news/279215464/us-accuses-iran-irgc-of-threatening-ships-in-strait-of-hormuz-maintains-sea-route-remains-open",
+      "published_at": "2026-07-29T23:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "71630abed7bccb2e",
+      "name": "US thwarts an Iranian missile attack and launches strikes with Saudi Arabia against militias in Iraq",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "71630abed7bccb2e",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.297,
+      "freshness": 0.618,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -542,92 +218,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "i24news.tv",
-      "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iran-s-most-dangerous-drone-hadid-110-combines-stealth-and-speed-raising-concerns-for-defense-systems",
-      "published_at": "2026-07-29T19:30:00Z",
+      "source": "ksla.com",
+      "url": "https://www.ksla.com/2026/07/28/us-says-it-thwarted-an-iranian-missile-attack-that-ended-brief-pause-fighting/",
+      "published_at": "2026-07-29T23:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      },
-      "carried_forward": true
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
     },
     {
-      "id": "3aa4be488dea22b6",
-      "name": "Furious Donald Trump issues Iran a chilling threat with foul - mouthed outburst",
+      "id": "51b4d8465012a047",
+      "name": "Iran condemns US - Saudi strikes in Iraq , holds Washington , allies responsible for consequences of",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "3aa4be488dea22b6",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.297,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aol.co.uk",
-      "url": "https://www.aol.co.uk/articles/furious-donald-trump-issues-iran-185435000.html",
-      "published_at": "2026-07-29T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7d4eba8da6a26721",
-      "name": "Trump threatens retaliatory strikes after Iran attacks US base in Jordan",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7d4eba8da6a26721",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.297,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "premiumtimesng.com",
-      "url": "https://www.premiumtimesng.com/foreign/899237-trump-threatens-retaliatory-strikes-after-iran-attacks-us-base-in-jordan.html",
-      "published_at": "2026-07-29T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3e419bce5d516535",
-      "name": "Ukraine Attack on Iranian Cargo Ship Links Two Wars",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3e419bce5d516535",
+      "dependency_group": "51b4d8465012a047",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.297,
+      "freshness": 0.712,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -638,92 +249,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "oilprice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Ukraines-Attack-on-Iranian-Cargo-Ship-Links-Two-Wars.html",
-      "published_at": "2026-07-29T19:30:00Z",
+      "source": "iranherald.com",
+      "url": "http://www.iranherald.com/news/279215413/iran-condemns-us-saudi-strikes-in-iraq-holds-washington-allies-responsible-for-consequences-of-criminal-actions",
+      "published_at": "2026-07-30T00:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
     },
     {
-      "id": "55de20e029b97839",
-      "name": "Iran pushes back against US as regional attacks heat up",
+      "id": "87a77500825378f8",
+      "name": "Trump Threatens to Seize Frozen Iranian Assets Over Ship Attacks – NaturalNews . com",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "55de20e029b97839",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.297,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/news/2026/7/29/iran-pushes-back-against-us-as-regional-attacks-heat-up",
-      "published_at": "2026-07-29T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a7cc9ed25c1d63fe",
-      "name": "US , Saudi Arabia Strike Iran - Backed Groups in Iraq , Kill 20",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a7cc9ed25c1d63fe",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.297,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "deccanchronicle.com",
-      "url": "https://www.deccanchronicle.com/world/us-saudi-arabia-strike-iran-backed-groups-in-iraq-kill-20-1975072",
-      "published_at": "2026-07-29T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e56f6ea1323594fd",
-      "name": "Trump threatens Iran after Tehran strikes US bases in Jordan",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e56f6ea1323594fd",
+      "dependency_group": "87a77500825378f8",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.193,
+      "freshness": 0.618,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -734,28 +280,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "timesofoman.com",
-      "url": "https://timesofoman.com/article/175017-trump-threatens-iran-after-tehran-strikes-us-bases-in-jordan",
-      "published_at": "2026-07-29T18:00:00Z",
+      "source": "naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-07-29-trump-threatens-seize-iranian-assets-ship-attacks.html",
+      "published_at": "2026-07-29T23:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.9
+      }
     },
     {
-      "id": "9cfa468af8c74e66",
-      "name": "US and Saudis strike Tehran - backed militias in Iraq as Iran resumes missile attacks | Politics and Government",
+      "id": "bffe80e80e12cda6",
+      "name": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "9cfa468af8c74e66",
+      "dependency_group": "bffe80e80e12cda6",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.193,
+      "freshness": 0.575,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -766,28 +311,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "reviewjournal.com",
-      "url": "https://www.reviewjournal.com/news/politics-and-government/iran-resumes-missile-attacks-as-us-and-saudis-strike-tehran-backed-militias-in-iraq-3856449/",
-      "published_at": "2026-07-29T18:00:00Z",
+      "source": "wbex.iheart.com",
+      "url": "https://wbex.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
+      "published_at": "2026-07-29T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
-      },
-      "carried_forward": true
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
     },
     {
-      "id": "401d5d3e3c3f42a3",
-      "name": "Trump vows to  beat the f ***** g s ** t  out of Iran after Iraq strikes",
+      "id": "4958757c9c6b5d30",
+      "name": "Iran attacked US bases in Jordan . Furious Trump says US will hit back hard",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "401d5d3e3c3f42a3",
+      "dependency_group": "4958757c9c6b5d30",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.208,
+      "freshness": 0.663,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -798,28 +342,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "siasat.com",
-      "url": "https://www.siasat.com/trump-vows-to-beat-the-fg-st-out-of-iran-after-iraq-strikes-3515638/",
-      "published_at": "2026-07-29T18:15:00Z",
+      "source": "sbs.com.au",
+      "url": "https://www.sbs.com.au/news/article/iran-attacked-bases-jordan-trump-hit-back-hard/794wf1ce4",
+      "published_at": "2026-07-29T23:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      }
     },
     {
-      "id": "8324ea933dbfc1eb",
-      "name": "Does Iran Attack On Jordan Mark A Shift In Military Strategy",
+      "id": "f610ea9528fdb398",
+      "name": "Iran pressure , Syria stance and Saudi nuclear deal : Inside Netanyahu White House pitch to Trump , reveals Axios report",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "8324ea933dbfc1eb",
+      "dependency_group": "f610ea9528fdb398",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.208,
+      "freshness": 0.663,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -830,28 +373,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "middleeaststar.com",
-      "url": "http://www.middleeaststar.com/news/279215123/does-iran-attack-on-jordan-mark-a-shift-in-military-strategy",
-      "published_at": "2026-07-29T18:15:00Z",
+      "source": "iraqsun.com",
+      "url": "http://www.iraqsun.com/news/279215500/iran-pressure-syria-stance-and-saudi-nuclear-deal-inside-netanyahu-white-house-pitch-to-trump-reveals-axios-report",
+      "published_at": "2026-07-29T23:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      }
     },
     {
-      "id": "9791137bc87de351",
-      "name": "Trump says US to deliver  beating  to Iran after bases again targeted | Donald Trump News",
+      "id": "fb4f99b861d62975",
+      "name": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | News Radio 1410 AM & 100 . 9 FM",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "9791137bc87de351",
-      "strength": 0.4,
+      "dependency_group": "fb4f99b861d62975",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.193,
+      "freshness": 0.535,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -862,16 +404,201 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/news/2026/7/29/trump-says-us-to-deliver-beating-to-iran-after-bases-again-targeted",
-      "published_at": "2026-07-29T18:00:00Z",
+      "source": "newsradio1410.iheart.com",
+      "url": "https://newsradio1410.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
+      "published_at": "2026-07-29T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "97f6e5a74c50d6d0",
+      "name": "Trump : U . S . Will Hit Iran  Very Hard  After Missile Attack | PowerTalk 1460 AM & 101 . 1 FM",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "97f6e5a74c50d6d0",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.535,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "powertalk1460.iheart.com",
+      "url": "https://powertalk1460.iheart.com/content/2026-07-29-trump-us-will-hit-iran-very-hard-after-missile-attack/",
+      "published_at": "2026-07-29T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "9ac8e856bfcb5f57",
+      "name": "Trump says Iran will  get a beating  in retaliation for attack on bases in Jordan - 30 - Jul - 2026",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9ac8e856bfcb5f57",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.498,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "home.nzcity.co.nz",
+      "url": "https://home.nzcity.co.nz/news/article.aspx?id=450933&fm=psp,tsf",
+      "published_at": "2026-07-29T22:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      }
+    },
+    {
+      "id": "0f227061bcdf1769",
+      "name": "Donald Trump verbally unleashes on Iran , threatens to  beat the f .. kng sh .. t out of them  after Jordan attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0f227061bcdf1769",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.402,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "perthnow.com.au",
+      "url": "https://www.perthnow.com.au/news/middle-east/donald-trump-verbally-unleashes-on-iran-threatens-to-beat-the-fkng-sht-out-of-them-after-jordan-attack-c-22649140",
+      "published_at": "2026-07-29T22:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
+    },
+    {
+      "id": "a24a4d35650a6388",
+      "name": "Iran launches renewed missile attacks as U . S . and Saudi Arabia strike in Iraq",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a24a4d35650a6388",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.375,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "inquirer.com",
+      "url": "https://www.inquirer.com/news/nation-world/iran-missile-attacks-saudi-iraq-20260729.html",
+      "published_at": "2026-07-29T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "edb64dd7185c348f",
+      "name": "UAE Business : Joint US - Saudi strikes hit Iraq militias , Iran missile attack thwarted",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "edb64dd7185c348f",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.349,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gdnonline.com:443",
+      "url": "https://www.gdnonline.com:443/Details/1401940",
+      "published_at": "2026-07-29T21:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "726fb715ba79d85a",
+      "name": "Report : Iran Expecting Delivery of 400 Chinese Shoulder - Fired Missiles",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "726fb715ba79d85a",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.349,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "breitbart.com",
+      "url": "https://www.breitbart.com/middle-east/2026/07/29/report-iran-expecting-delivery-of-400-chinese-shoulder-fired-missiles/",
+      "published_at": "2026-07-29T21:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     }
   ],
   "history": [
@@ -1312,17 +1039,23 @@ window.MAGEN_STATE = {
       "immediate": 19,
       "short": 21,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-07-30T01:11:12.262928Z",
+      "immediate": 5,
+      "short": 15,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-07-29T21:38:31.417643Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-07-30T01:11:12.262928Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 25
+        "ok": true,
+        "items": 150,
+        "relevant": 17
       },
       "manual": {
         "ok": true,
