@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-07-31T03:55:14.472929Z",
+  "generated_at": "2026-07-31T06:52:15.780556Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 0,
       "low": 0,
-      "high": 19,
-      "confidence": 45,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 5,
+      "score": 0,
       "low": 0,
       "high": 22,
-      "confidence": 45,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 9,
+      "score": 0,
       "low": 0,
-      "high": 26,
-      "confidence": 45,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -36,332 +36,10 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -14
+    "points_60m": -2
   },
-  "changes": [
-    {
-      "time": "02:15",
-      "text": "Iran new calculus : Strike first , talk later - AL - MONITOR : The Middle Eastʼs leading independent news source since 2012",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "al-monitor.com",
-      "signal_id": "687f2005cc287bb6"
-    },
-    {
-      "time": "02:00",
-      "text": "US and Iran trade missile barrages as hopes dim for a quick resolution to the five - month conflict",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "rockymounttelegram.com",
-      "signal_id": "5ab71ef80cdb54ae"
-    },
-    {
-      "time": "01:45",
-      "text": "Missiles worth $40 million a shot rack up America Iran war costs - 31 - Jul - 2026",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "home.nzcity.co.nz",
-      "signal_id": "60692ea253762b0b"
-    },
-    {
-      "time": "02:30",
-      "text": "Iran presses Bulgaria , Cyprus over US - linked bases",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "pakistantoday.com.pk",
-      "signal_id": "bd6fe4dd0b87eb55"
-    }
-  ],
-  "signals": [
-    {
-      "id": "687f2005cc287bb6",
-      "name": "Iran new calculus : Strike first , talk later - AL - MONITOR : The Middle Eastʼs leading independent news source since 2012",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "687f2005cc287bb6",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.263,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "al-monitor.com",
-      "url": "https://www.al-monitor.com/originals/2026/07/irans-new-calculus-strike-first-talk-later",
-      "published_at": "2026-07-30T23:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5ab71ef80cdb54ae",
-      "name": "US and Iran trade missile barrages as hopes dim for a quick resolution to the five - month conflict",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5ab71ef80cdb54ae",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.245,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "rockymounttelegram.com",
-      "url": "http://www.rockymounttelegram.com/news/world/us-and-iran-trade-missile-barrages-as-hopes-dim-for-a-quick-resolution-to-the/article_a60cecab-3e87-511a-901d-f3ab5a8d27dc.html",
-      "published_at": "2026-07-30T23:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "60692ea253762b0b",
-      "name": "Missiles worth $40 million a shot rack up America Iran war costs - 31 - Jul - 2026",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "60692ea253762b0b",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.228,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "home.nzcity.co.nz",
-      "url": "https://home.nzcity.co.nz/news/article.aspx?id=451006",
-      "published_at": "2026-07-30T22:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "bd6fe4dd0b87eb55",
-      "name": "Iran presses Bulgaria , Cyprus over US - linked bases",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bd6fe4dd0b87eb55",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.283,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "pakistantoday.com.pk",
-      "url": "https://www.pakistantoday.com.pk/2026/07/31/iran-presses-bulgaria-and-cyprus-over-bases-linked-to-us-operations",
-      "published_at": "2026-07-30T23:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ceef86714573bddf",
-      "name": "Cease - fire Trump wants must begin with Iran and there will be  price to pay  for any attacks , US official warns",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ceef86714573bddf",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.228,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nypost.com",
-      "url": "https://nypost.com/2026/07/30/us-news/cease-fire-trump-wants-must-begin-with-iran-and-there-will-be-price-to-pay-for-any-attacks-us-official-warns/",
-      "published_at": "2026-07-30T22:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "91beb4539147b842",
-      "name": "U . S . Strikes Dozens Of IRGC Targets After Iran Fires At American Forces",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "91beb4539147b842",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.263,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wbap.com",
-      "url": "https://www.wbap.com/2026/07/30/u-s-strikes-dozens-of-irgc-targets-after-iran-fires-at-american-forces/",
-      "published_at": "2026-07-30T23:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2a078debadb4bafa",
-      "name": "US launches  heavy wave of strike on Iran despite dwindling ammunition",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2a078debadb4bafa",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.228,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nzherald.co.nz",
-      "url": "https://www.nzherald.co.nz/world/us-launches-heavy-wave-of-strikes-on-iran-despite-dwindling-ammunition/7WY5CKZBTNCFVGK5FO4C6DL4VM/",
-      "published_at": "2026-07-30T22:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a0a9784afa08f521",
-      "name": "Iran claims to destroy three F - 35 jets , damage 3 more in Jordan after US attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a0a9784afa08f521",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.213,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279216861/iran-claims-to-destroy-three-f-35-jets-damage-3-more-in-jordan-after-us-attack",
-      "published_at": "2026-07-30T22:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ba37e217ad820899",
-      "name": "Iranian army says struck U . S . assets in S . Bahrain Sheikh Isa Air Base - Xinhua",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ba37e217ad820899",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.198,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "english.news.cn",
-      "url": "https://english.news.cn/20260731/be2ecc973b2444c6a34a49784bba1639/c.html",
-      "published_at": "2026-07-30T22:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -884,17 +562,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 5,
       "extended": 9
+    },
+    {
+      "timestamp": "2026-07-31T06:52:15.780556Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-07-31T00:12:04.276077Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 9
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
