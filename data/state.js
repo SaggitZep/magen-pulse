@@ -1,30 +1,30 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-07-31T21:33:39.643951Z",
+  "generated_at": "2026-07-31T22:42:46.405108Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 14,
-      "low": 1,
-      "high": 27,
-      "confidence": 66,
-      "status": "נמוך"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 20,
-      "low": 7,
-      "high": 33,
-      "confidence": 66,
-      "status": "נמוך"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 67,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
+      "score": 33,
+      "low": 20,
+      "high": 46,
       "confidence": 66,
       "status": "מוגבר"
     }
@@ -35,55 +35,55 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מהירה",
-    "points_60m": 12
+    "level": "זינוק חריג",
+    "points_60m": 20
   },
   "changes": [
     {
-      "time": "21:15",
-      "text": "No NBC , Israel is not Trying to  Drag  the U . S . Into War , but Expose the New Iranian Threat",
-      "impact": "השפעה מיידית מחושבת: +10.5",
+      "time": "01:00",
+      "text": "CBS report : US and Israel discussed joint strike on Iran as early as this weekend",
+      "impact": "השפעה מיידית מחושבת: +20.1",
       "direction": "up",
-      "source": "camera.org",
-      "signal_id": "3e3405bb06da53f4"
+      "source": "ynetnews.com",
+      "signal_id": "be9ad706088b5258"
     },
     {
-      "time": "00:00",
-      "text": "Why did Riyadh join US strikes on Tehran allies in Iraq",
+      "time": "00:45",
+      "text": "מקורות ל ־ CBS : ישראל וארה  ב נערכות לתקיפה קרובה של תשתיות אנרגיה באיראן",
+      "impact": "השפעה מיידית מחושבת: +18.7",
+      "direction": "up",
+      "source": "haaretz.co.il",
+      "signal_id": "bc5741356c58b0bc"
+    },
+    {
+      "time": "00:45",
+      "text": "Pentagon missile stockpiles strained after Iran conflict",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "foxnews.com",
+      "signal_id": "cf4da9e03e6c8621"
+    },
+    {
+      "time": "01:15",
+      "text": "Trump blames Minnesota and Gov . Tim Walz for cyberattack that feds have traced to Iran",
       "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "iraqsun.com",
-      "signal_id": "458d0df94fd9a21b"
-    },
-    {
-      "time": "00:00",
-      "text": "Trump blames Minnesota governor , not Iran , for cyberattacks on state water systems",
-      "impact": "השפעה מיידית מחושבת: +1.5",
-      "direction": "up",
-      "source": "news.webindia123.com",
-      "signal_id": "fe7fa81bb5828e6e"
-    },
-    {
-      "time": "23:15",
-      "text": "In call with Iran Araghchi , Jaishankar raises ship attacks",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "economictimes.indiatimes.com",
-      "signal_id": "afb1f996807bcbcb"
+      "source": "independent.co.uk",
+      "signal_id": "a96b025e637ee158"
     }
   ],
   "signals": [
     {
-      "id": "3e3405bb06da53f4",
-      "name": "No NBC , Israel is not Trying to  Drag  the U . S . Into War , but Expose the New Iranian Threat",
+      "id": "be9ad706088b5258",
+      "name": "CBS report : US and Israel discussed joint strike on Iran as early as this weekend",
       "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
       "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "3e3405bb06da53f4",
-      "strength": 0.55,
+      "dependency_group": "be9ad706088b5258",
+      "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.388,
+      "freshness": 0.816,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -94,14 +94,231 @@ window.MAGEN_STATE = {
         "short": 0.88,
         "extended": 0.56
       },
-      "source": "camera.org",
-      "url": "https://www.camera.org/article/no-nbc-israel-is-not-trying-to-drag-the-u-s-into-war-but-expose-the-new-iranian-threat/",
-      "published_at": "2026-07-31T18:15:00Z",
+      "source": "ynetnews.com",
+      "url": "https://www.ynetnews.com/article/hkbzatchzg",
+      "published_at": "2026-07-31T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 10.5,
-        "short": 8.2,
-        "extended": 3.5
+        "immediate": 20.1,
+        "short": 15.7,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "bc5741356c58b0bc",
+      "name": "מקורות ל ־ CBS : ישראל וארה  ב נערכות לתקיפה קרובה של תשתיות אנרגיה באיראן",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bc5741356c58b0bc",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.759,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "haaretz.co.il",
+      "url": "https://www.haaretz.co.il/news/politics/2026-08-01/ty-article/0000019f-ba03-dfac-a5df-bbd35ae60000",
+      "published_at": "2026-07-31T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 18.7,
+        "short": 14.6,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "cf4da9e03e6c8621",
+      "name": "Pentagon missile stockpiles strained after Iran conflict",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cf4da9e03e6c8621",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.759,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "foxnews.com",
+      "url": "https://www.foxnews.com/us/weapons-stockpile-shortages-impacting-military-strategy-mideast",
+      "published_at": "2026-07-31T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.0
+      }
+    },
+    {
+      "id": "a96b025e637ee158",
+      "name": "Trump blames Minnesota and Gov . Tim Walz for cyberattack that feds have traced to Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a96b025e637ee158",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.876,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "independent.co.uk",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-minnesota-iran-water-tim-walz-b3025600.html",
+      "published_at": "2026-07-31T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "fe7fa81bb5828e6e",
+      "name": "Trump blames Minnesota governor , not Iran , for cyberattacks on state water systems",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fe7fa81bb5828e6e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.816,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iranherald.com",
+      "url": "http://www.iranherald.com/news/279218093/trump-blames-minnesota-governor-not-iran-for-cyberattacks-on-state-water-systems",
+      "published_at": "2026-07-31T22:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "9c6e60d5a8e2735d",
+      "name": "Trump Blames Minnesota Governor , Not Iran , for Cyber Attack on Water Plants",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9c6e60d5a8e2735d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.759,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "2paragraphs.com",
+      "url": "https://2paragraphs.com/2026/07/trump-blames-minnesota-governor-not-iran-for-cyber-attack-on-water-plants/",
+      "published_at": "2026-07-31T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "7dbc7f61a01cc31c",
+      "name": "הדיווח המלא על ההיערכות למתקפה באיראן - כבר הסופ  ש",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7dbc7f61a01cc31c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.759,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.walla.co.il",
+      "url": "https://news.walla.co.il/item/3857620",
+      "published_at": "2026-07-31T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "e62541e39e76ba7a",
+      "name": "Iran Claims Strikes On Bahrain , Kuwait As Egypt Attack , Saudi Role Widen Six - Month War",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e62541e39e76ba7a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.658,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/272329/20260731/trump-weighs-wider-iran-offensive-wars-death-toll-hits-59-strikes-reach-kuwait.htm",
+      "published_at": "2026-07-31T21:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       }
     },
     {
@@ -114,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "458d0df94fd9a21b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.852,
+      "freshness": 0.613,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,40 +347,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-31T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
-      }
-    },
-    {
-      "id": "fe7fa81bb5828e6e",
-      "name": "Trump blames Minnesota governor , not Iran , for cyberattacks on state water systems",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fe7fa81bb5828e6e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.852,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260801/4481731.html",
-      "published_at": "2026-07-31T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
       }
     },
     {
@@ -176,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "afb1f996807bcbcb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.688,
+      "freshness": 0.495,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,40 +378,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-31T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
-    },
-    {
-      "id": "ea7110667b6f109c",
-      "name": "U . S . Strikes Iran as Regional Conflict Expands",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ea7110667b6f109c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.596,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "1007thetiger.com",
-      "url": "https://www.1007thetiger.com/2026/07/31/u-s-strikes-iran-as-regional-conflict-expands/",
-      "published_at": "2026-07-31T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.9
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       }
     },
     {
@@ -238,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a335d1d98acbfdc2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.555,
+      "freshness": 0.399,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,22 +409,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-31T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     },
     {
-      "id": "1f98f7fe9ec29e8a",
-      "name": "The U . S . Continued Strikes Are Battering Iran Economy . Blackouts and Shortages Spread Across the Country .",
+      "id": "ea7110667b6f109c",
+      "name": "U . S . Strikes Iran as Regional Conflict Expands",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "1f98f7fe9ec29e8a",
+      "dependency_group": "ea7110667b6f109c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.517,
+      "freshness": 0.429,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -280,14 +435,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "ibtimes.com",
-      "url": "https://www.ibtimes.com/uss-continued-strikes-are-battering-irans-economy-blackouts-shortages-spread-across-country-3805951",
-      "published_at": "2026-07-31T19:15:00Z",
+      "source": "1007thetiger.com",
+      "url": "https://www.1007thetiger.com/2026/07/31/u-s-strikes-iran-as-regional-conflict-expands/",
+      "published_at": "2026-07-31T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     },
     {
@@ -300,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d8efc735b3bd8580",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.555,
+      "freshness": 0.399,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,22 +471,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-31T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     },
     {
-      "id": "85eb1dc5b8f18ba5",
-      "name": "EAM  strongly urged  to avoid attacks on commercial vessels , seafarers during call with Iranian FM",
+      "id": "1f98f7fe9ec29e8a",
+      "name": "The U . S . Continued Strikes Are Battering Iran Economy . Blackouts and Shortages Spread Across the Country .",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "85eb1dc5b8f18ba5",
+      "dependency_group": "1f98f7fe9ec29e8a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.448,
+      "freshness": 0.372,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -342,14 +497,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260731/4481712.html",
-      "published_at": "2026-07-31T18:45:00Z",
+      "source": "ibtimes.com",
+      "url": "https://www.ibtimes.com/uss-continued-strikes-are-battering-irans-economy-blackouts-shortages-spread-across-country-3805951",
+      "published_at": "2026-07-31T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       }
     },
     {
@@ -362,7 +517,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d09c8d3894163461",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.481,
+      "freshness": 0.346,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,22 +533,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-31T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       }
     },
     {
-      "id": "1cc7ef60074ef8d7",
-      "name": "Trump says Iran  being decimated , vows US strikes will continue",
+      "id": "fc8f160e08f72c6d",
+      "name": "Kuwait strongly condemns Iranian attacks on its territory",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "1cc7ef60074ef8d7",
+      "dependency_group": "fc8f160e08f72c6d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.388,
+      "freshness": 0.346,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -404,27 +559,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "siasat.com",
-      "url": "https://www.siasat.com/trump-says-iran-being-decimated-vows-us-strikes-will-continue-3516942/",
-      "published_at": "2026-07-31T18:15:00Z",
+      "source": "sana.sy",
+      "url": "https://sana.sy/en/middle-east/2333382/",
+      "published_at": "2026-07-31T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       }
     },
     {
-      "id": "3caee9162fa2e16e",
-      "name": "Ukraine Is Now Targeting Iranian Shipping in the Caspian Sea",
+      "id": "85eb1dc5b8f18ba5",
+      "name": "EAM  strongly urged  to avoid attacks on commercial vessels , seafarers during call with Iranian FM",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "3caee9162fa2e16e",
+      "dependency_group": "85eb1dc5b8f18ba5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.388,
+      "freshness": 0.322,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -435,76 +590,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "oilprice.com",
-      "url": "https://oilprice.com/Geopolitics/Europe/Ukraine-Is-Now-Targeting-Iranian-Shipping-in-the-Caspian-Sea.html",
-      "published_at": "2026-07-31T18:15:00Z",
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260731/4481712.html",
+      "published_at": "2026-07-31T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
-    },
-    {
-      "id": "8f95ae085a21e305",
-      "name": "Kuwait Says Drones  Neutralized  After Iran Targets Military Sites",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8f95ae085a21e305",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.362,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279217614/kuwait-says-drones-neutralized-after-iran-targets-military-sites",
-      "published_at": "2026-07-31T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
-    },
-    {
-      "id": "a1de809128b4e824",
-      "name": "India Urges Iran to Avoid Attacks on Commercial Shipping",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a1de809128b4e824",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.388,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newkerala.com",
-      "url": "https://www.newkerala.com/news/a/eam-strongly-urged-avoid-attacks-commercial-vessels-seafarers-293.htm",
-      "published_at": "2026-07-31T18:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       }
     }
   ],
@@ -1084,17 +1177,23 @@ window.MAGEN_STATE = {
       "immediate": 14,
       "short": 20,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-07-31T22:42:46.405108Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 33
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-07-31T21:33:39.643951Z",
+    "last_success": "2026-07-31T22:42:46.405108Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 14
+        "relevant": 17
       },
       "manual": {
         "ok": true,
