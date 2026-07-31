@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-07-31T18:50:04.689073Z",
+  "generated_at": "2026-07-31T20:14:54.699504Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
-      "high": 20,
-      "confidence": 47,
+      "high": 19,
+      "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 6,
       "low": 0,
-      "high": 26,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 45,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
+      "score": 10,
       "low": 0,
-      "high": 32,
-      "confidence": 47,
+      "high": 27,
+      "confidence": 45,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@
     {
       "time": "19:45",
       "text": "Trump previews next damaging military offensive against Iran from Camp David Cabinet summit",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "nypost.com",
       "signal_id": "1b0849800f231f85"
@@ -50,7 +50,7 @@
     {
       "time": "19:45",
       "text": "In phone call with Araghchi , Jaishankar urges Iran to avoid attacks on ships",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "orissapost.com",
       "signal_id": "40c874cc86231529"
@@ -58,7 +58,7 @@
     {
       "time": "19:15",
       "text": "Jaishankar Urges Iran to Avoid Attacks on Shipping",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "newkerala.com",
       "signal_id": "aad20892564ffce9"
@@ -66,7 +66,7 @@
     {
       "time": "19:15",
       "text": "In call with Iranian counterpart , EAM Jaishankar raises issue of attacks on commercial shipping and seafarers",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "ianslive.in",
       "signal_id": "b44e6bd2265d8be4"
@@ -83,7 +83,7 @@
       "dependency_group": "1b0849800f231f85",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.551,
+      "freshness": 0.368,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-07-31T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "40c874cc86231529",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.551,
+      "freshness": 0.368,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-07-31T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "aad20892564ffce9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.478,
+      "freshness": 0.319,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-07-31T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "b44e6bd2265d8be4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.478,
+      "freshness": 0.319,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-07-31T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "50f3fed5622f2d0c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.478,
+      "freshness": 0.319,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-07-31T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "fc359b7bfc660458",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.445,
+      "freshness": 0.297,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-07-31T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "cde49137f090b5c8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.445,
+      "freshness": 0.297,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@
       "published_at": "2026-07-31T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@
       "dependency_group": "8ca703f798c68b23",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.386,
+      "freshness": 0.258,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@
       "published_at": "2026-07-31T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -339,7 +339,7 @@
       "dependency_group": "bed7204097f46e3e",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.311,
+      "freshness": 0.208,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +355,9 @@
       "published_at": "2026-07-31T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -371,7 +371,7 @@
       "dependency_group": "f8efbcfe54ff40f1",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.27,
+      "freshness": 0.18,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -387,9 +387,9 @@
       "published_at": "2026-07-31T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -403,7 +403,7 @@
       "dependency_group": "6ba014187204f297",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.334,
+      "freshness": 0.223,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -419,9 +419,9 @@
       "published_at": "2026-07-31T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -435,7 +435,7 @@
       "dependency_group": "ceb1252ece4e90f7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.359,
+      "freshness": 0.24,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -451,9 +451,9 @@
       "published_at": "2026-07-31T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -467,7 +467,7 @@
       "dependency_group": "b23ea8b843ddad61",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.334,
+      "freshness": 0.223,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -483,9 +483,9 @@
       "published_at": "2026-07-31T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -499,7 +499,7 @@
       "dependency_group": "d7d44d7efbc38cfe",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.359,
+      "freshness": 0.24,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -515,265 +515,9 @@
       "published_at": "2026-07-31T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3d0fe1015c9be9e6",
-      "name": "Kuwaiti forces intercept Iranian drones entering airspace",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3d0fe1015c9be9e6",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.251,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "sana.sy",
-      "url": "https://sana.sy/en/middle-east/2333356/",
-      "published_at": "2026-07-31T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d5610fb934fccb0c",
-      "name": "שוב : איראן שיגרה כטב  מים לעבר כווית , נזק נגרם בעקבות היירוט",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d5610fb934fccb0c",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.251,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "srugim.co.il",
-      "url": "http://www.srugim.co.il/101007488-%D7%A9%D7%95%D7%91-%D7%90%D7%99%D7%A8%D7%90%D7%9F-%D7%A9%D7%99%D7%92%D7%A8%D7%94-%D7%9B%D7%98%D7%91%D7%9E%D7%99%D7%9D-%D7%9C%D7%A2%D7%91%D7%A8-%D7%9B%D7%95%D7%95%D7%99%D7%AA-%D7%A0%D7%96%D7%A7",
-      "published_at": "2026-07-31T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0a313bbc5c0c2ac5",
-      "name": "Oil Prices Inch Higher as Iran Strikes U . S . Bases in Kuwait and Bahrain",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0a313bbc5c0c2ac5",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.251,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "oilprice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Inch-Higher-as-Iran-Strikes-US-Bases-in-Kuwait-and-Bahrain.html",
-      "published_at": "2026-07-31T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b9af488c8b50694f",
-      "name": "Iran Isnt Just Hitting U . S . Air Bases It Proving the American Military Is Defeated – NaturalNews . com",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b9af488c8b50694f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.251,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-07-31-iran-isnt-just-hitting-us-air-bases.html",
-      "published_at": "2026-07-31T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e62590e854f3d9a8",
-      "name": "Bipartisan House bill targets Algeria - based group ,  instrument  of Iranian regime | National News",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e62590e854f3d9a8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.251,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "clevelandjewishnews.com",
-      "url": "https://www.clevelandjewishnews.com/news/national_news/bipartisan-house-bill-targets-algeria-based-group-instrument-of-iranian-regime/article_e05c07b9-5754-514c-9069-a70c2a877073.html",
-      "published_at": "2026-07-31T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "46a292f910c5335b",
-      "name": "Trump Announces Hamas Disarmament Agreement as Iran Strikes Kuwait Air Base and US Attacks Pause Overnight",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "46a292f910c5335b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.234,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ibtimes.com.au",
-      "url": "https://www.ibtimes.com.au/trump-historic-hamas-disarmament-agreement-1873293",
-      "published_at": "2026-07-31T13:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.4,
         "short": 1.4,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2b0e15e76b8ccfae",
-      "name": "US strikes Iran again as conflict widens across Middle East",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2b0e15e76b8ccfae",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.234,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailyrepublic.com",
-      "url": "https://www.dailyrepublic.com/townnews/politics/us-strikes-iran-again-as-conflict-widens-across-middle-east/article_c26b18fa-19dc-4520-b56d-ba96c9d8562e.html",
-      "published_at": "2026-07-31T13:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "53a86009d8b43001",
-      "name": "Cipro : uomo di 44 anni accusato di spiare una base britannica per conto dellIran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "53a86009d8b43001",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.218,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "it.euronews.com",
-      "url": "https://it.euronews.com/my-europe/2026/07/31/cipro-uomo-di-44-anni-accusato-di-spiare-una-base-britannica-per-conto-delliran",
-      "published_at": "2026-07-31T13:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.1
+        "extended": 2.4
       },
       "carried_forward": true
     }
@@ -1342,6 +1086,12 @@
       "immediate": 3,
       "short": 9,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-07-31T20:14:54.699504Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 10
     }
   ],
   "health": {
@@ -1352,7 +1102,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 22
+        "carried_forward": 14
       },
       "manual": {
         "ok": true,
