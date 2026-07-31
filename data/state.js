@@ -1,56 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-07-31T00:12:04.276077Z",
+  "mode": "degraded",
+  "generated_at": "2026-07-31T03:55:14.472929Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 16,
-      "low": 3,
-      "high": 29,
-      "confidence": 67,
-      "status": "נמוך"
+      "score": 2,
+      "low": 0,
+      "high": 19,
+      "confidence": 45,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 5,
+      "low": 0,
+      "high": 22,
+      "confidence": 45,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 9,
+      "low": 0,
+      "high": 26,
+      "confidence": 45,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -5
+    "points_60m": -14
   },
   "changes": [
     {
-      "time": "23:45",
-      "text": "Iran warns of Israeli  false - flag operation after drone attack at Egypt Damietta Port",
-      "impact": "השפעה מיידית מחושבת: +11.6",
-      "direction": "up",
-      "source": "aa.com.tr",
-      "signal_id": "e51ab07eb57920b9"
-    },
-    {
       "time": "02:15",
       "text": "Iran new calculus : Strike first , talk later - AL - MONITOR : The Middle Eastʼs leading independent news source since 2012",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "al-monitor.com",
       "signal_id": "687f2005cc287bb6"
@@ -58,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "02:00",
       "text": "US and Iran trade missile barrages as hopes dim for a quick resolution to the five - month conflict",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "rockymounttelegram.com",
       "signal_id": "5ab71ef80cdb54ae"
@@ -66,44 +58,21 @@ window.MAGEN_STATE = {
     {
       "time": "01:45",
       "text": "Missiles worth $40 million a shot rack up America Iran war costs - 31 - Jul - 2026",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "home.nzcity.co.nz",
       "signal_id": "60692ea253762b0b"
+    },
+    {
+      "time": "02:30",
+      "text": "Iran presses Bulgaria , Cyprus over US - linked bases",
+      "impact": "השפעה מיידית מחושבת: +0.5",
+      "direction": "up",
+      "source": "pakistantoday.com.pk",
+      "signal_id": "bd6fe4dd0b87eb55"
     }
   ],
   "signals": [
-    {
-      "id": "e51ab07eb57920b9",
-      "name": "Iran warns of Israeli  false - flag operation after drone attack at Egypt Damietta Port",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e51ab07eb57920b9",
-      "strength": 0.63,
-      "reliability": 0.56,
-      "freshness": 0.373,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/middle-east/iran-warns-of-israeli-false-flag-operations-after-drone-attack-at-egypt-s-damietta-port/4014378",
-      "published_at": "2026-07-30T20:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 11.6,
-        "short": 9.0,
-        "extended": 3.8
-      }
-    },
     {
       "id": "687f2005cc287bb6",
       "name": "Iran new calculus : Strike first , talk later - AL - MONITOR : The Middle Eastʼs leading independent news source since 2012",
@@ -114,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "687f2005cc287bb6",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.762,
+      "freshness": 0.263,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.8,
-        "extended": 9.9
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "5ab71ef80cdb54ae",
@@ -145,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5ab71ef80cdb54ae",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.71,
+      "freshness": 0.245,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
+      },
+      "carried_forward": true
     },
     {
       "id": "60692ea253762b0b",
@@ -176,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "60692ea253762b0b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.661,
+      "freshness": 0.228,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.8
-      }
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
+      },
+      "carried_forward": true
     },
     {
       "id": "bd6fe4dd0b87eb55",
@@ -207,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bd6fe4dd0b87eb55",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.818,
+      "freshness": 0.283,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T23:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.1
-      }
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
+      },
+      "carried_forward": true
     },
     {
       "id": "ceef86714573bddf",
@@ -238,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ceef86714573bddf",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.661,
+      "freshness": 0.228,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
     },
     {
       "id": "91beb4539147b842",
@@ -269,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "91beb4539147b842",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.762,
+      "freshness": 0.263,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     },
     {
       "id": "2a078debadb4bafa",
@@ -300,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2a078debadb4bafa",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.661,
+      "freshness": 0.228,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
+      },
+      "carried_forward": true
     },
     {
       "id": "a0a9784afa08f521",
@@ -331,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a0a9784afa08f521",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.615,
+      "freshness": 0.213,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,41 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.6,
-        "extended": 6.1
-      }
-    },
-    {
-      "id": "1231b48de780cfda",
-      "name": "US Launches Heavy Strikes on Iran After Jordan Missile Attack - Novinite . com",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1231b48de780cfda",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.496,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "novinite.com",
-      "url": "https://www.novinite.com/view_news.php?id=239857",
-      "published_at": "2026-07-30T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.9
-      }
+      "carried_forward": true
     },
     {
       "id": "ba37e217ad820899",
@@ -393,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ba37e217ad820899",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.573,
+      "freshness": 0.198,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,258 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T22:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
-    },
-    {
-      "id": "0541a905f8f1bb43",
-      "name": "US and Iran trade missile barrages as hopes dim for a quick resolution to war",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0541a905f8f1bb43",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.496,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 2.0
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wgauradio.com",
-      "url": "https://www.wgauradio.com/news/jordanian-air/IGXOYLFLEI333JYBPNZ2BFQJTY/",
-      "published_at": "2026-07-30T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.9
-      }
-    },
-    {
-      "id": "391a73cf9fed153b",
-      "name": "US - Iran Conflict Escalates : What to Know About the Latest Strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "391a73cf9fed153b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.462,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "en.tempo.co",
-      "url": "https://en.tempo.co/read/2116224/us-iran-conflict-escalates-what-to-know-about-the-latest-strikes",
-      "published_at": "2026-07-30T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
-    },
-    {
-      "id": "723b182175a45442",
-      "name": "Iranian army says drones target key US facilities at Bahrain Sheikh Isa Air Base",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "723b182175a45442",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.373,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/us-israel-iran-war/iranian-army-says-drones-target-key-us-facilities-at-bahrain-s-sheikh-isa-air-base/4014311",
-      "published_at": "2026-07-30T20:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "caaf37e86b4a7ec8",
-      "name": "Oil hovers around $91 after fresh U . S . attacks on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "caaf37e86b4a7ec8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.496,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "oilandgas360.com",
-      "url": "https://www.oilandgas360.com/oil-hovers-around-91-after-fresh-u-s-attacks-on-iran/",
-      "published_at": "2026-07-30T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      }
-    },
-    {
-      "id": "b2ed3689fa885911",
-      "name": "US , Iran exchange waves of missile attacks – The Indian Awaaz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b2ed3689fa885911",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.373,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theindianawaaz.com",
-      "url": "https://theindianawaaz.com/us-iran-exchange-waves-of-missile-attacks/",
-      "published_at": "2026-07-30T20:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "2460286c9d4f68f3",
-      "name": "US pounds Iran after missile attacks on American forces",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2460286c9d4f68f3",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.347,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailypost.ng",
-      "url": "https://dailypost.ng/2026/07/30/us-pounds-iran-after-missile-attacks-on-american-forces/",
-      "published_at": "2026-07-30T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "a31feb2ea4ca8a17",
-      "name": "US strike kills whole family in Iran Qeshm island",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a31feb2ea4ca8a17",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.373,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "helsinkitimes.fi",
-      "url": "https://www.helsinkitimes.fi/world-int/29107-us-strike-kills-whole-family-in-iran-s-qeshm-island.html",
-      "published_at": "2026-07-30T20:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    },
-    {
-      "id": "406babec98ebcf6a",
-      "name": "US Strike on Home in Iran Qeshm Kills Father , Mother , and Their Two - Year - Old Child : Iranian Media",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "406babec98ebcf6a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.323,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.antiwar.com",
-      "url": "https://news.antiwar.com/2026/07/30/us-strike-on-home-in-irans-qeshm-kills-father-mother-and-their-two-year-old-child-iranian-media/",
-      "published_at": "2026-07-30T20:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      }
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1179,17 +878,23 @@ window.MAGEN_STATE = {
       "immediate": 16,
       "short": 22,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-07-31T03:55:14.472929Z",
+      "immediate": 2,
+      "short": 5,
+      "extended": 9
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-07-31T00:12:04.276077Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 19
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 9
       },
       "manual": {
         "ok": true,
