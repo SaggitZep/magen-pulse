@@ -1,89 +1,89 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-07-31T15:49:48.988064Z",
+  "mode": "live",
+  "generated_at": "2026-07-31T17:18:23.986552Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 4,
       "low": 0,
-      "high": 18,
-      "confidence": 44,
+      "high": 17,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 5,
+      "score": 13,
       "low": 0,
-      "high": 22,
-      "confidence": 44,
-      "status": "לא זוהה אות חריג"
+      "high": 26,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 8,
-      "low": 0,
-      "high": 25,
-      "confidence": 44,
-      "status": "לא זוהה אות חריג"
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 66,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -7
+    "level": "עלייה מתונה",
+    "points_60m": 3
   },
   "changes": [
     {
-      "time": "13:30",
-      "text": "Man suspected of spying on united kingdom military base for Iran arrested in Cyprus",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "19:45",
+      "text": "Trump previews next damaging military offensive against Iran from Camp David Cabinet summit",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "al-monitor.com",
-      "signal_id": "601759df52c1f2a8"
+      "source": "nypost.com",
+      "signal_id": "1b0849800f231f85"
     },
     {
-      "time": "13:30",
-      "text": "Iran Says It Targeted US Base In Kuwait With Drone",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "19:45",
+      "text": "In phone call with Araghchi , Jaishankar urges Iran to avoid attacks on ships",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "israelherald.com",
-      "signal_id": "bed7204097f46e3e"
+      "source": "orissapost.com",
+      "signal_id": "40c874cc86231529"
     },
     {
-      "time": "13:30",
-      "text": "Iranian army claims drone strikes on US military base in Bahrain",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "19:15",
+      "text": "Jaishankar Urges Iran to Avoid Attacks on Shipping",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "news.az",
-      "signal_id": "160d533934ff1868"
+      "source": "newkerala.com",
+      "signal_id": "aad20892564ffce9"
     },
     {
-      "time": "13:30",
-      "text": "IRGC strikes US targets in Kuwait a day after US hits Iran : Latest events - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "19:15",
+      "text": "In call with Iranian counterpart , EAM Jaishankar raises issue of attacks on commercial shipping and seafarers",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "dominicanrepublicpost.com",
-      "signal_id": "8c78d86c49cc9bd7"
+      "source": "ianslive.in",
+      "signal_id": "b44e6bd2265d8be4"
     }
   ],
   "signals": [
     {
-      "id": "601759df52c1f2a8",
-      "name": "Man suspected of spying on united kingdom military base for Iran arrested in Cyprus",
+      "id": "1b0849800f231f85",
+      "name": "Trump previews next damaging military offensive against Iran from Camp David Cabinet summit",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "601759df52c1f2a8",
+      "dependency_group": "1b0849800f231f85",
       "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.218,
+      "reliability": 0.56,
+      "freshness": 0.853,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,16 +94,232 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "al-monitor.com",
-      "url": "https://www.al-monitor.com/originals/2026/07/man-suspected-spying-uk-military-base-iran-arrested-cyprus",
-      "published_at": "2026-07-31T10:30:00Z",
+      "source": "nypost.com",
+      "url": "https://nypost.com/2026/07/31/us-news/trump-previews-next-damaging-military-offensive-against-iran-from-camp-david-cabinet-summit/",
+      "published_at": "2026-07-31T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.8
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "40c874cc86231529",
+      "name": "In phone call with Araghchi , Jaishankar urges Iran to avoid attacks on ships",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "40c874cc86231529",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.853,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "orissapost.com",
+      "url": "https://www.orissapost.com/in-phone-call-with-araghchi-jaishankar-urges-iran-to-avoid-attacks-on-ships/",
+      "published_at": "2026-07-31T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "aad20892564ffce9",
+      "name": "Jaishankar Urges Iran to Avoid Attacks on Shipping",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "aad20892564ffce9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.739,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newkerala.com",
+      "url": "https://www.newkerala.com/news/a/call-iranian-counterpart-eam-jaishankar-raises-issue-attacks-301.htm",
+      "published_at": "2026-07-31T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "b44e6bd2265d8be4",
+      "name": "In call with Iranian counterpart , EAM Jaishankar raises issue of attacks on commercial shipping and seafarers",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b44e6bd2265d8be4",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.739,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ianslive.in",
+      "url": "https://ianslive.in/in-call-with-iranian-counterpart-eam-jaishankar-raises-issue-of-attacks-on-commercial-shipping-and-seafarers--20260731203050",
+      "published_at": "2026-07-31T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "50f3fed5622f2d0c",
+      "name": "Cotton : Iran Negotiators Coordinated with Those Who Attacked Us , Need 2 , 3 Weeks More of Bombing",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "50f3fed5622f2d0c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.739,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "breitbart.com",
+      "url": "https://www.breitbart.com/clips/2026/07/30/cotton-irans-negotiators-coordinated-with-those-who-attacked-us-need-2-3-weeks-more-of-bombing/",
+      "published_at": "2026-07-31T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "fc359b7bfc660458",
+      "name": "Avoid attacks on commercial shipping , seafarer : EAM S Jaishankar to Iran Abbas Araghchi",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fc359b7bfc660458",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.688,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/news/india/avoid-attacks-on-commercial-shipping-seafarers-jaishankar-to-iran-s-araghchi-13990536.html",
+      "published_at": "2026-07-31T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "cde49137f090b5c8",
+      "name": "UAE strongly condemns renewed Iranian hostile attack on Kuwait",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cde49137f090b5c8",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.688,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tag911.ae",
+      "url": "https://www.tag911.ae/news/local-news/uae-strongly-condemns-renewed-iranian-hostile-attack-on-kuwait/",
+      "published_at": "2026-07-31T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "8ca703f798c68b23",
+      "name": "Iranian army says it struck US Air Base in Kuwait in retaliation for Qeshm Island attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8ca703f798c68b23",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.597,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "beijingbulletin.com",
+      "url": "http://www.beijingbulletin.com/news/279217639/iranian-army-says-it-struck-us-air-base-in-kuwait-in-retaliation-for-qeshm-island-attack",
+      "published_at": "2026-07-31T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      }
     },
     {
       "id": "bed7204097f46e3e",
@@ -115,7 +331,7 @@
       "dependency_group": "bed7204097f46e3e",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.218,
+      "freshness": 0.482,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,28 +342,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "israelherald.com",
-      "url": "http://www.israelherald.com/news/279217516/iran-says-it-targeted-us-base-in-kuwait-with-drone",
-      "published_at": "2026-07-31T10:30:00Z",
+      "source": "britainnews.net",
+      "url": "http://www.britainnews.net/news/279217516/iran-says-it-targeted-us-base-in-kuwait-with-drone",
+      "published_at": "2026-07-31T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
+      }
     },
     {
-      "id": "160d533934ff1868",
-      "name": "Iranian army claims drone strikes on US military base in Bahrain",
+      "id": "f8efbcfe54ff40f1",
+      "name": "US launches heavy wave of strikes on IRGC targets in Iran after foiled missile attack",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "160d533934ff1868",
+      "dependency_group": "f8efbcfe54ff40f1",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.218,
+      "freshness": 0.418,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,28 +373,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "news.az",
-      "url": "https://news.az/news/iranian-army-claims-drone-strikes-on-us-military-base-in-bahrain",
-      "published_at": "2026-07-31T10:30:00Z",
+      "source": "sentinelassam.com",
+      "url": "https://www.sentinelassam.com/more-news/international/us-launches-heavy-wave-of-strikes-on-irgc-targets-in-iran-after-foiled-missile-attack",
+      "published_at": "2026-07-31T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      }
     },
     {
-      "id": "8c78d86c49cc9bd7",
-      "name": "IRGC strikes US targets in Kuwait a day after US hits Iran : Latest events - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "id": "6ba014187204f297",
+      "name": "US - Iran War : Key Updates for UAE Residents on Flights , Shipping and Strait of Hormuz Risks ( July 31 , 2026 )",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "8c78d86c49cc9bd7",
+      "dependency_group": "6ba014187204f297",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.218,
+      "freshness": 0.517,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -190,60 +404,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "dominicanrepublicpost.com",
-      "url": "https://dominicanrepublicpost.com/irgc-strikes-us-targets-in-kuwait-a-day-after-us-hits-iran-latest-events/",
-      "published_at": "2026-07-31T10:30:00Z",
+      "source": "gulfnews.com",
+      "url": "https://gulfnews.com/world/mena/us-iran-war-what-uae-residents-need-to-know-tonight-july-31-2026-1.500626933",
+      "published_at": "2026-07-31T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
     },
     {
-      "id": "60bb0ddc62013cc0",
-      "name": "Iran War Escalates : Trump Threatens Retaliation After IRGC Strikes on Jordan , Kuwait",
+      "id": "ceb1252ece4e90f7",
+      "name": "Iranian hackers likely behind cyberattack on Minnesota water systems : report",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "60bb0ddc62013cc0",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.203,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ibtimes.co.in",
-      "url": "https://www.ibtimes.co.in/iran-war-escalates-trump-threatens-retaliation-after-irgc-strikes-jordan-kuwait-904316",
-      "published_at": "2026-07-31T10:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "97cdc48eddfa3f15",
-      "name": "US Military Denies Iranian Claims Of Damaged F - 35 American Jets , Tanker Escape From Naval Blockade",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "97cdc48eddfa3f15",
+      "dependency_group": "ceb1252ece4e90f7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.218,
+      "freshness": 0.556,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,28 +435,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "saharareporters.com",
-      "url": "https://saharareporters.com/2026/07/30/us-military-denies-iranian-claims-damaged-f-35-american-jets-tanker-escape-naval",
-      "published_at": "2026-07-31T10:30:00Z",
+      "source": "foxnews.com",
+      "url": "https://www.foxnews.com/politics/investigators-believe-iranian-hackers-likely-behind-cyberattack-minnesota-water-systems-report",
+      "published_at": "2026-07-31T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
     },
     {
-      "id": "e4b452c7f4bb4ae7",
-      "name": "Iran Araqchi presses European counterparts over use of bases in US operations",
+      "id": "b23ea8b843ddad61",
+      "name": "Azerbaijani man arrested in Cyprus on suspicion of spying on united kingdom military base for Iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e4b452c7f4bb4ae7",
+      "dependency_group": "b23ea8b843ddad61",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.218,
+      "freshness": 0.517,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -286,28 +466,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "dunyanews.tv",
-      "url": "https://dunyanews.tv/en/World/965592-irans-araqchi-presses-european-counterparts-over-use-of-bases-in-us-o",
-      "published_at": "2026-07-31T10:30:00Z",
+      "source": "news.am",
+      "url": "https://news.am/en/news/1052760",
+      "published_at": "2026-07-31T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
     },
     {
-      "id": "ea7110667b6f109c",
-      "name": "U . S . Strikes Iran as Regional Conflict Expands",
+      "id": "d7d44d7efbc38cfe",
+      "name": "Iranian Su - 24 pilots performed mission against US base with  exceptional courage : Top commander",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "ea7110667b6f109c",
+      "dependency_group": "d7d44d7efbc38cfe",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.218,
+      "freshness": 0.556,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -318,28 +497,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "wgow.com",
-      "url": "https://www.wgow.com/2026/07/31/u-s-strikes-iran-as-regional-conflict-expands/",
-      "published_at": "2026-07-31T10:30:00Z",
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/07/31/773443/Iran-pilots-exceptional-courage",
+      "published_at": "2026-07-31T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
     },
     {
-      "id": "cdc0be344bed5dbb",
-      "name": "Cipro , cittadino britannico arrestato con accusa di spionaggio per conto dellIran : nel mirino una base aerea britannica",
+      "id": "3d0fe1015c9be9e6",
+      "name": "Kuwaiti forces intercept Iranian drones entering airspace",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "cdc0be344bed5dbb",
-      "strength": 0.4,
+      "dependency_group": "3d0fe1015c9be9e6",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.218,
+      "freshness": 0.389,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -350,16 +528,232 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "ilmessaggero.it:443",
-      "url": "https://www.ilmessaggero.it:443/mondo/cipro_britannico_arrestato_spionaggio_iran-9682963.html",
-      "published_at": "2026-07-31T10:30:00Z",
+      "source": "sana.sy",
+      "url": "https://sana.sy/en/middle-east/2333356/",
+      "published_at": "2026-07-31T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.1
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "d5610fb934fccb0c",
+      "name": "שוב : איראן שיגרה כטב  מים לעבר כווית , נזק נגרם בעקבות היירוט",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d5610fb934fccb0c",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.389,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "srugim.co.il",
+      "url": "http://www.srugim.co.il/101007488-%D7%A9%D7%95%D7%91-%D7%90%D7%99%D7%A8%D7%90%D7%9F-%D7%A9%D7%99%D7%92%D7%A8%D7%94-%D7%9B%D7%98%D7%91%D7%9E%D7%99%D7%9D-%D7%9C%D7%A2%D7%91%D7%A8-%D7%9B%D7%95%D7%95%D7%99%D7%AA-%D7%A0%D7%96%D7%A7",
+      "published_at": "2026-07-31T14:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "0a313bbc5c0c2ac5",
+      "name": "Oil Prices Inch Higher as Iran Strikes U . S . Bases in Kuwait and Bahrain",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0a313bbc5c0c2ac5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.389,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "oilprice.com",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Inch-Higher-as-Iran-Strikes-US-Bases-in-Kuwait-and-Bahrain.html",
+      "published_at": "2026-07-31T14:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "b9af488c8b50694f",
+      "name": "Iran Isnt Just Hitting U . S . Air Bases It Proving the American Military Is Defeated – NaturalNews . com",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b9af488c8b50694f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.389,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-07-31-iran-isnt-just-hitting-us-air-bases.html",
+      "published_at": "2026-07-31T14:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "e62590e854f3d9a8",
+      "name": "Bipartisan House bill targets Algeria - based group ,  instrument  of Iranian regime | National News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e62590e854f3d9a8",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.389,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "clevelandjewishnews.com",
+      "url": "https://www.clevelandjewishnews.com/news/national_news/bipartisan-house-bill-targets-algeria-based-group-instrument-of-iranian-regime/article_e05c07b9-5754-514c-9069-a70c2a877073.html",
+      "published_at": "2026-07-31T14:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "46a292f910c5335b",
+      "name": "Trump Announces Hamas Disarmament Agreement as Iran Strikes Kuwait Air Base and US Attacks Pause Overnight",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "46a292f910c5335b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.362,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ibtimes.com.au",
+      "url": "https://www.ibtimes.com.au/trump-historic-hamas-disarmament-agreement-1873293",
+      "published_at": "2026-07-31T13:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
+    },
+    {
+      "id": "2b0e15e76b8ccfae",
+      "name": "US strikes Iran again as conflict widens across Middle East",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2b0e15e76b8ccfae",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.362,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailyrepublic.com",
+      "url": "https://www.dailyrepublic.com/townnews/politics/us-strikes-iran-again-as-conflict-widens-across-middle-east/article_c26b18fa-19dc-4520-b56d-ba96c9d8562e.html",
+      "published_at": "2026-07-31T13:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
+    },
+    {
+      "id": "53a86009d8b43001",
+      "name": "Cipro : uomo di 44 anni accusato di spiare una base britannica per conto dellIran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "53a86009d8b43001",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.337,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "it.euronews.com",
+      "url": "https://it.euronews.com/my-europe/2026/07/31/cipro-uomo-di-44-anni-accusato-di-spiare-una-base-britannica-per-conto-delliran",
+      "published_at": "2026-07-31T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.3
+      }
     }
   ],
   "history": [
@@ -914,17 +1308,23 @@
       "immediate": 1,
       "short": 5,
       "extended": 8
+    },
+    {
+      "timestamp": "2026-07-31T17:18:23.986552Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 22
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-07-31T11:49:42.889478Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-07-31T17:18:23.986552Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 9
+        "ok": true,
+        "items": 150,
+        "relevant": 22
       },
       "manual": {
         "ok": true,
