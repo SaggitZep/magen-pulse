@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-07-30T22:55:17.638405Z",
+  "generated_at": "2026-07-31T00:12:04.276077Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 68,
+      "score": 16,
+      "low": 3,
+      "high": 29,
+      "confidence": 67,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 27,
-      "low": 14,
-      "high": 40,
-      "confidence": 68,
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 67,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 28,
-      "low": 15,
-      "high": 41,
-      "confidence": 68,
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 67,
       "status": "מוגבר"
     }
   },
@@ -35,41 +35,41 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 17
+    "level": "ירידה",
+    "points_60m": -5
   },
   "changes": [
     {
       "time": "23:45",
       "text": "Iran warns of Israeli  false - flag operation after drone attack at Egypt Damietta Port",
-      "impact": "השפעה מיידית מחושבת: +16.7",
+      "impact": "השפעה מיידית מחושבת: +11.6",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "e51ab07eb57920b9"
     },
     {
-      "time": "01:30",
-      "text": "US and Iran trade missile barrages as hopes dim for a quick resolution to the five - month conflict - Las Vegas Sun News",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "time": "02:15",
+      "text": "Iran new calculus : Strike first , talk later - AL - MONITOR : The Middle Eastʼs leading independent news source since 2012",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "lasvegassun.com",
-      "signal_id": "1b60addd5c495174"
+      "source": "al-monitor.com",
+      "signal_id": "687f2005cc287bb6"
     },
     {
-      "time": "01:30",
+      "time": "02:00",
+      "text": "US and Iran trade missile barrages as hopes dim for a quick resolution to the five - month conflict",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "rockymounttelegram.com",
+      "signal_id": "5ab71ef80cdb54ae"
+    },
+    {
+      "time": "01:45",
       "text": "Missiles worth $40 million a shot rack up America Iran war costs - 31 - Jul - 2026",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "home.nzcity.co.nz",
       "signal_id": "60692ea253762b0b"
-    },
-    {
-      "time": "01:30",
-      "text": "Iran claims to destroy three F - 35 jets , damage 3 more in Jordan after US attack",
-      "impact": "השפעה מיידית מחושבת: +1.5",
-      "direction": "up",
-      "source": "iranherald.com",
-      "signal_id": "a0a9784afa08f521"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e51ab07eb57920b9",
       "strength": 0.63,
       "reliability": 0.56,
-      "freshness": 0.538,
+      "freshness": 0.373,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,22 +99,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 16.7,
-        "short": 13.0,
-        "extended": 5.5
+        "immediate": 11.6,
+        "short": 9.0,
+        "extended": 3.8
       }
     },
     {
-      "id": "1b60addd5c495174",
-      "name": "US and Iran trade missile barrages as hopes dim for a quick resolution to the five - month conflict - Las Vegas Sun News",
+      "id": "687f2005cc287bb6",
+      "name": "Iran new calculus : Strike first , talk later - AL - MONITOR : The Middle Eastʼs leading independent news source since 2012",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "1b60addd5c495174",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.887,
+      "dependency_group": "687f2005cc287bb6",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.762,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,14 +125,45 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "lasvegassun.com",
-      "url": "https://lasvegassun.com/news/2026/jul/30/us-and-iran-trade-missile-barrages-as-hopes-dim-fo/",
-      "published_at": "2026-07-30T22:30:00Z",
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/07/irans-new-calculus-strike-first-talk-later",
+      "published_at": "2026-07-30T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.2,
-        "extended": 10.5
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.9
+      }
+    },
+    {
+      "id": "5ab71ef80cdb54ae",
+      "name": "US and Iran trade missile barrages as hopes dim for a quick resolution to the five - month conflict",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5ab71ef80cdb54ae",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.71,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "rockymounttelegram.com",
+      "url": "http://www.rockymounttelegram.com/news/world/us-and-iran-trade-missile-barrages-as-hopes-dim-for-a-quick-resolution-to-the/article_a60cecab-3e87-511a-901d-f3ab5a8d27dc.html",
+      "published_at": "2026-07-30T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "60692ea253762b0b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.887,
+      "freshness": 0.661,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -157,13 +188,137 @@ window.MAGEN_STATE = {
         "extended": 1.0
       },
       "source": "home.nzcity.co.nz",
-      "url": "https://home.nzcity.co.nz/news/article.aspx?id=451006&fm=psp,tsf",
-      "published_at": "2026-07-30T22:30:00Z",
+      "url": "https://home.nzcity.co.nz/news/article.aspx?id=451006",
+      "published_at": "2026-07-30T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.2,
-        "extended": 10.5
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.8
+      }
+    },
+    {
+      "id": "bd6fe4dd0b87eb55",
+      "name": "Iran presses Bulgaria , Cyprus over US - linked bases",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bd6fe4dd0b87eb55",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.818,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "pakistantoday.com.pk",
+      "url": "https://www.pakistantoday.com.pk/2026/07/31/iran-presses-bulgaria-and-cyprus-over-bases-linked-to-us-operations",
+      "published_at": "2026-07-30T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "ceef86714573bddf",
+      "name": "Cease - fire Trump wants must begin with Iran and there will be  price to pay  for any attacks , US official warns",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ceef86714573bddf",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.661,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nypost.com",
+      "url": "https://nypost.com/2026/07/30/us-news/cease-fire-trump-wants-must-begin-with-iran-and-there-will-be-price-to-pay-for-any-attacks-us-official-warns/",
+      "published_at": "2026-07-30T22:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "91beb4539147b842",
+      "name": "U . S . Strikes Dozens Of IRGC Targets After Iran Fires At American Forces",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "91beb4539147b842",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.762,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wbap.com",
+      "url": "https://www.wbap.com/2026/07/30/u-s-strikes-dozens-of-irgc-targets-after-iran-fires-at-american-forces/",
+      "published_at": "2026-07-30T23:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "2a078debadb4bafa",
+      "name": "US launches  heavy wave of strike on Iran despite dwindling ammunition",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2a078debadb4bafa",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.661,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nzherald.co.nz",
+      "url": "https://www.nzherald.co.nz/world/us-launches-heavy-wave-of-strikes-on-iran-despite-dwindling-ammunition/7WY5CKZBTNCFVGK5FO4C6DL4VM/",
+      "published_at": "2026-07-30T22:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       }
     },
     {
@@ -176,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a0a9784afa08f521",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.887,
+      "freshness": 0.615,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,40 +347,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      }
-    },
-    {
-      "id": "91beb4539147b842",
-      "name": "U . S . Strikes Dozens Of IRGC Targets After Iran Fires At American Forces",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "91beb4539147b842",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.887,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "klif.com",
-      "url": "https://www.klif.com/2026/07/30/u-s-strikes-dozens-of-irgc-targets-after-iran-fires-at-american-forces/",
-      "published_at": "2026-07-30T22:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
+        "immediate": 1.0,
+        "short": 3.6,
+        "extended": 6.1
       }
     },
     {
@@ -238,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1231b48de780cfda",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.716,
+      "freshness": 0.496,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,40 +378,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      }
-    },
-    {
-      "id": "0541a905f8f1bb43",
-      "name": "US and Iran trade missile barrages as hopes dim for a quick resolution to war",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0541a905f8f1bb43",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.716,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wgauradio.com",
-      "url": "https://www.wgauradio.com/news/jordanian-air/IGXOYLFLEI333JYBPNZ2BFQJTY/",
-      "published_at": "2026-07-30T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.9
       }
     },
     {
@@ -300,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ba37e217ad820899",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.825,
+      "freshness": 0.573,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,22 +409,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T22:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.1
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       }
     },
     {
-      "id": "caaf37e86b4a7ec8",
-      "name": "Oil hovers around $91 after fresh U . S . attacks on Iran",
+      "id": "0541a905f8f1bb43",
+      "name": "US and Iran trade missile barrages as hopes dim for a quick resolution to war",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "caaf37e86b4a7ec8",
-      "strength": 0.4,
+      "dependency_group": "0541a905f8f1bb43",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.716,
+      "freshness": 0.496,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -342,45 +435,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "oilandgas360.com",
-      "url": "https://www.oilandgas360.com/oil-hovers-around-91-after-fresh-u-s-attacks-on-iran/",
+      "source": "wgauradio.com",
+      "url": "https://www.wgauradio.com/news/jordanian-air/IGXOYLFLEI333JYBPNZ2BFQJTY/",
       "published_at": "2026-07-30T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.1
-      }
-    },
-    {
-      "id": "8f4b966638f28c9d",
-      "name": "Renewed Iran war raises US missile supply concerns",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8f4b966638f28c9d",
-      "strength": 0.48,
-      "reliability": 0.74,
-      "freshness": 0.434,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "al-monitor.com",
-      "url": "https://www.al-monitor.com/originals/2026/07/renewed-iran-war-raises-us-missile-supply-concerns",
-      "published_at": "2026-07-30T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.9
       }
     },
     {
@@ -393,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "391a73cf9fed153b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.666,
+      "freshness": 0.462,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,9 +471,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     },
     {
@@ -424,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "723b182175a45442",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.538,
+      "freshness": 0.373,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,9 +502,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "caaf37e86b4a7ec8",
+      "name": "Oil hovers around $91 after fresh U . S . attacks on Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "caaf37e86b4a7ec8",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.496,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "oilandgas360.com",
+      "url": "https://www.oilandgas360.com/oil-hovers-around-91-after-fresh-u-s-attacks-on-iran/",
+      "published_at": "2026-07-30T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       }
     },
     {
@@ -455,7 +548,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b2ed3689fa885911",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.538,
+      "freshness": 0.373,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,9 +564,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       }
     },
     {
@@ -486,7 +579,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2460286c9d4f68f3",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.501,
+      "freshness": 0.347,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,9 +595,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
@@ -517,7 +610,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a31feb2ea4ca8a17",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.538,
+      "freshness": 0.373,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,102 +626,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
-    },
-    {
-      "id": "810a300c58ebf61b",
-      "name": "Iran Conflict Expands to Egypt with Drone Strike on Suez Tanker",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "810a300c58ebf61b",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.434,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "breitbart.com",
-      "url": "https://www.breitbart.com/middle-east/2026/07/30/iran-conflict-expands-to-egypt-with-drone-strike-on-suez-tanker/",
-      "published_at": "2026-07-30T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
-    },
-    {
-      "id": "2fe68c8279b32d7c",
-      "name": "Egypt struck by explosive drones as yet more countries are dragged into Iran war",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2fe68c8279b32d7c",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.434,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aol.co.uk",
-      "url": "https://www.aol.co.uk/articles/egypt-struck-explosive-drones-yet-191328000.html",
-      "published_at": "2026-07-30T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
-    },
-    {
-      "id": "e4b3f1c56e6b43c4",
-      "name": "China refutes groundless report on missile supply to Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e4b3f1c56e6b43c4",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.434,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thefrontierpost.com",
-      "url": "https://thefrontierpost.com/china-refutes-groundless-report-on-missile-supply-to-iran/",
-      "published_at": "2026-07-30T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       }
     },
     {
@@ -641,7 +641,7 @@ window.MAGEN_STATE = {
       "dependency_group": "406babec98ebcf6a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.466,
+      "freshness": 0.323,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -657,164 +657,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-07-30T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
-    },
-    {
-      "id": "d36f93d169f44569",
-      "name": "Iran to get Chinese shoulder - launched missile systems in weeks , sources say",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d36f93d169f44569",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.376,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "defensenews.com",
-      "url": "https://www.defensenews.com/industry/techwatch/2026/07/30/iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/",
-      "published_at": "2026-07-30T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "c9e994cef524ff20",
-      "name": "China Denies Missile Supply Report to Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c9e994cef524ff20",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.376,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "pakistantoday.com.pk",
-      "url": "https://www.pakistantoday.com.pk/2026/07/30/china-refutes-groundless-report-on-missile-supply-to-iran",
-      "published_at": "2026-07-30T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "cd1848d87eb9c85b",
-      "name": "US military launches strikes on Iranian targets a day after it foiled missile attack on US forces",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cd1848d87eb9c85b",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.326,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ksla.com",
-      "url": "https://www.ksla.com/2026/07/29/iran-launches-renewed-missile-attacks-us-saudis-strike-tehran-backed-militias-iraq/",
-      "published_at": "2026-07-30T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "fa784ce3352ff622",
-      "name": "Donald Trump drags Egypt into Iran war as US blitzes Tehran military targets",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fa784ce3352ff622",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.326,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aol.co.uk",
-      "url": "https://www.aol.co.uk/articles/donald-trump-drags-egypt-iran-182605000.html",
-      "published_at": "2026-07-30T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
+        "immediate": 0.5,
         "short": 1.9,
         "extended": 3.2
-      }
-    },
-    {
-      "id": "6738f999fe96f517",
-      "name": "IRGC Claims Kuwait Strike , Denies US F - 35 Damage",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6738f999fe96f517",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.376,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "pakistantoday.com.pk",
-      "url": "https://www.pakistantoday.com.pk/2026/07/30/irgc-says-it-hit-kuwait-and-jordan-destroyed-three-us-f-35s",
-      "published_at": "2026-07-30T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
       }
     }
   ],
@@ -1328,17 +1173,23 @@ window.MAGEN_STATE = {
       "immediate": 21,
       "short": 27,
       "extended": 28
+    },
+    {
+      "timestamp": "2026-07-31T00:12:04.276077Z",
+      "immediate": 16,
+      "short": 22,
+      "extended": 25
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-07-30T22:55:17.638405Z",
+    "last_success": "2026-07-31T00:12:04.276077Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 24
+        "relevant": 19
       },
       "manual": {
         "ok": true,
