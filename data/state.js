@@ -1,45 +1,885 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-07-31T09:42:19.428636Z",
+  "mode": "live",
+  "generated_at": "2026-07-31T11:49:42.889478Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 66,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מהירה",
+    "points_60m": 14
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "11:45",
+      "text": "US and Israeli intelligence struggle to track Iranian leadership amid base strikes",
+      "impact": "השפעה מיידית מחושבת: +10.2",
+      "direction": "up",
+      "source": "bankingnews.gr",
+      "signal_id": "b30c894cf85e636c"
+    },
+    {
+      "time": "13:30",
+      "text": "Man suspected of spying on united kingdom military base for Iran arrested in Cyprus",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "al-monitor.com",
+      "signal_id": "601759df52c1f2a8"
+    },
+    {
+      "time": "13:30",
+      "text": "Iran Says It Targeted US Base In Kuwait With Drone",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "israelherald.com",
+      "signal_id": "bed7204097f46e3e"
+    },
+    {
+      "time": "13:30",
+      "text": "Iranian army claims drone strikes on US military base in Bahrain",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "news.az",
+      "signal_id": "160d533934ff1868"
+    }
+  ],
+  "signals": [
+    {
+      "id": "b30c894cf85e636c",
+      "name": "US and Israeli intelligence struggle to track Iranian leadership amid base strikes",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b30c894cf85e636c",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.415,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "bankingnews.gr",
+      "url": "https://www.bankingnews.gr/diethni/articles/891470/us-and-israeli-intelligence-struggle-to-track-iranian-leadership-amid-base-strikes",
+      "published_at": "2026-07-31T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 10.2,
+        "short": 8.0,
+        "extended": 3.4
+      }
+    },
+    {
+      "id": "601759df52c1f2a8",
+      "name": "Man suspected of spying on united kingdom military base for Iran arrested in Cyprus",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "601759df52c1f2a8",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.684,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/07/man-suspected-spying-uk-military-base-iran-arrested-cyprus",
+      "published_at": "2026-07-31T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.9
+      }
+    },
+    {
+      "id": "bed7204097f46e3e",
+      "name": "Iran Says It Targeted US Base In Kuwait With Drone",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bed7204097f46e3e",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.684,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "israelherald.com",
+      "url": "http://www.israelherald.com/news/279217516/iran-says-it-targeted-us-base-in-kuwait-with-drone",
+      "published_at": "2026-07-31T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "160d533934ff1868",
+      "name": "Iranian army claims drone strikes on US military base in Bahrain",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "160d533934ff1868",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.684,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.az",
+      "url": "https://news.az/news/iranian-army-claims-drone-strikes-on-us-military-base-in-bahrain",
+      "published_at": "2026-07-31T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "8c78d86c49cc9bd7",
+      "name": "IRGC strikes US targets in Kuwait a day after US hits Iran : Latest events - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8c78d86c49cc9bd7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.684,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dominicanrepublicpost.com",
+      "url": "https://dominicanrepublicpost.com/irgc-strikes-us-targets-in-kuwait-a-day-after-us-hits-iran-latest-events/",
+      "published_at": "2026-07-31T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "60bb0ddc62013cc0",
+      "name": "Iran War Escalates : Trump Threatens Retaliation After IRGC Strikes on Jordan , Kuwait",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "60bb0ddc62013cc0",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.637,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ibtimes.co.in",
+      "url": "https://www.ibtimes.co.in/iran-war-escalates-trump-threatens-retaliation-after-irgc-strikes-jordan-kuwait-904316",
+      "published_at": "2026-07-31T10:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.1
+      }
+    },
+    {
+      "id": "97cdc48eddfa3f15",
+      "name": "US Military Denies Iranian Claims Of Damaged F - 35 American Jets , Tanker Escape From Naval Blockade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "97cdc48eddfa3f15",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.684,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "saharareporters.com",
+      "url": "https://saharareporters.com/2026/07/30/us-military-denies-iranian-claims-damaged-f-35-american-jets-tanker-escape-naval",
+      "published_at": "2026-07-31T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "759a1d09334a946a",
+      "name": "Man arrested under suspicion of spying on British Akrotiri airbase for Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "759a1d09334a946a",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.552,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jpost.com",
+      "url": "http://www.jpost.com/middle-east/iran-news/article-904210",
+      "published_at": "2026-07-31T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      }
+    },
+    {
+      "id": "e4b452c7f4bb4ae7",
+      "name": "Iran Araqchi presses European counterparts over use of bases in US operations",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e4b452c7f4bb4ae7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.684,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dunyanews.tv",
+      "url": "https://dunyanews.tv/en/World/965592-irans-araqchi-presses-european-counterparts-over-use-of-bases-in-us-o",
+      "published_at": "2026-07-31T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "ea7110667b6f109c",
+      "name": "U . S . Strikes Iran as Regional Conflict Expands",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ea7110667b6f109c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.684,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wgow.com",
+      "url": "https://www.wgow.com/2026/07/31/u-s-strikes-iran-as-regional-conflict-expands/",
+      "published_at": "2026-07-31T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "cdc0be344bed5dbb",
+      "name": "Cipro , cittadino britannico arrestato con accusa di spionaggio per conto dellIran : nel mirino una base aerea britannica",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cdc0be344bed5dbb",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.684,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ilmessaggero.it:443",
+      "url": "https://www.ilmessaggero.it:443/mondo/cipro_britannico_arrestato_spionaggio_iran-9682963.html",
+      "published_at": "2026-07-31T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "e7c855257372f1be",
+      "name": "Iran shocks with strategic shift to strike US first as Hormuz bottleneck threatens to wreck Trump presidency",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e7c855257372f1be",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.552,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bankingnews.gr",
+      "url": "https://www.bankingnews.gr/diethni/articles/891486/iran-shocks-with-strategic-shift-to-strike-us-first-as-hormuz-bottleneck-threatens-to-wreck-trump-presidency",
+      "published_at": "2026-07-31T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "70697533fc3b2797",
+      "name": "AFP : Iranul susţine că a atacat cu drone obiective militare americane din Kuweit",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "70697533fc3b2797",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.552,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bursa.ro",
+      "url": "https://www.bursa.ro/afp-iranul-sustine-ca-a-atacat-cu-drone-obiective-militare-americane-din-kuweit-28347956",
+      "published_at": "2026-07-31T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      }
+    },
+    {
+      "id": "c5426c3ac93af529",
+      "name": "IRGC Vows to  Punish  US in Response to Attacks on Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c5426c3ac93af529",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.552,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/07/iran-260730-sputnik02.htm",
+      "published_at": "2026-07-31T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
+    },
+    {
+      "id": "b28a8d80e0b23d53",
+      "name": "US Military Says Latest Strikes Target Iran Revolutionary Guards Corps",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b28a8d80e0b23d53",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.552,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "globalsecurity.org",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/07/mil-260730-rferl03.htm",
+      "published_at": "2026-07-31T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
+    },
+    {
+      "id": "89992934ba9bf0f5",
+      "name": "US Strike Hits Residential Building on Iran Qeshm Island , Two Trapped Under Rubble",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "89992934ba9bf0f5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.552,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "globalsecurity.org",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/07/mil-260730-sputnik03.htm",
+      "published_at": "2026-07-31T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
+    },
+    {
+      "id": "4a0b9b5f556701f3",
+      "name": "Iran Destroys US Al Azraq base in Jordan , 3 F - 35 Jets in Response to US Attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4a0b9b5f556701f3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.552,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/07/iran-260730-sputnik03.htm",
+      "published_at": "2026-07-31T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
+    },
+    {
+      "id": "63fb635546897136",
+      "name": "IRGC Says It Struck Kuwait Air Base Hosting US Troops",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "63fb635546897136",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.552,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/07/iran-260730-sputnik01.htm",
+      "published_at": "2026-07-31T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
+    },
+    {
+      "id": "e5ad0f4301499228",
+      "name": "Iran condemns U . S . strike on residential area",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e5ad0f4301499228",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.552,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/07/iran-260731-pdo01.htm",
+      "published_at": "2026-07-31T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
+    },
+    {
+      "id": "852d88ac7c8115e6",
+      "name": "Fighting restarts as US , Saudis strike Iran allies in Iraq",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "852d88ac7c8115e6",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.446,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "malaysiasun.com",
+      "url": "http://www.malaysiasun.com/news/279215330/us-saudis-strike-iran-s-allies-in-iraq-as-fighting-resumes",
+      "published_at": "2026-07-31T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "b1e0517606e53c08",
+      "name": "Iran army claims drone attack on US facilities at Kuwait air base",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b1e0517606e53c08",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.415,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/middle-east/irans-army-claims-drone-attack-on-us-facilities-at-kuwait-air-base/4014480",
+      "published_at": "2026-07-31T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      }
+    },
+    {
+      "id": "86d6cacb46fba1df",
+      "name": "Drone Iran Serbu Kuwait , Hantam Hangar Pesawat hingga Fasilitas Satelit AS",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "86d6cacb46fba1df",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.415,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kompas.com",
+      "url": "https://www.kompas.com/global/read/2026/07/31/152100170/drone-iran-serbu-kuwait-hantam-hangar-pesawat-hingga-fasilitas-satelit-as",
+      "published_at": "2026-07-31T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      }
+    },
+    {
+      "id": "06dbda9f68e2bb32",
+      "name": "Pakistan : US - Iran negotiations  ongoing  as attacks continue",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "06dbda9f68e2bb32",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.386,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kashmirreader.com",
+      "url": "https://kashmirreader.com/2026/07/31/pakistan-us-iran-negotiations-ongoing-as-attacks-continue/",
+      "published_at": "2026-07-31T08:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "d3fc6df6e3cf082f",
+      "name": "British man arrested after being accused of spying on RAF base for Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d3fc6df6e3cf082f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.415,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "express.co.uk",
+      "url": "https://www.express.co.uk/news/uk/2234722/british-man-arrested-spying-raf-akrotiri",
+      "published_at": "2026-07-31T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "827c55f6e4c46f3c",
+      "name": "DIRECT . Moyen - Orient : lIran dit avoir lancé des drones contre des objectifs militaires américains au Koweït",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "827c55f6e4c46f3c",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.335,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "24heures.ch",
+      "url": "https://www.24heures.ch/direct-moyen-orient-iran-lance-des-drones-contre-des-objectifs-militaires-americains-au-koweit-238876414513",
+      "published_at": "2026-07-31T08:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      }
+    },
+    {
+      "id": "50b8ab94287f2f69",
+      "name": "Man arrested in Cyprus on suspicion of spying on a united kingdom military base for Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "50b8ab94287f2f69",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.415,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "messenger-inquirer.com",
+      "url": "https://www.messenger-inquirer.com/ap/ap_international_news/man-arrested-in-cyprus-on-suspicion-of-spying-on-a-uk-military-base-for-iran/article_8a88b4bb-f38d-54c3-af1e-c21fd42c595b.html",
+      "published_at": "2026-07-31T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -574,17 +1414,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-07-31T11:49:42.889478Z",
+      "immediate": 14,
+      "short": 21,
+      "extended": 24
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-07-31T00:12:04.276077Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-07-31T11:49:42.889478Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 26
       },
       "manual": {
         "ok": true,
