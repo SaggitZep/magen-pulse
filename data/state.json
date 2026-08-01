@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-01T07:35:32.071744Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-01T09:36:22.435818Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 17,
-      "low": 4,
-      "high": 30,
-      "confidence": 68,
+      "score": 10,
+      "low": 0,
+      "high": 27,
+      "confidence": 47,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 14,
+      "low": 0,
+      "high": 31,
+      "confidence": 47,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 28,
-      "low": 15,
-      "high": 41,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 17,
+      "low": 1,
+      "high": 33,
+      "confidence": 48,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 17
+    "level": "ירידה",
+    "points_60m": -7
   },
   "changes": [
     {
       "time": "08:15",
       "text": "Kind of madness : Iran vows to target US , Israeli energy assets if attacked as Trump weighs fresh strikes",
-      "impact": "השפעה מיידית מחושבת: +12.6",
+      "impact": "השפעה מיידית מחושבת: +7.1",
       "direction": "up",
       "source": "greekherald.com",
       "signal_id": "a15ab4c757f93d49"
@@ -50,7 +50,7 @@
     {
       "time": "10:15",
       "text": "צבא כוויית : מערכות ההגנה האווירית הופעלו בעקבות שיגור טילים מאיראן",
-      "impact": "השפעה מיידית מחושבת: +1.9",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "haaretz.co.il",
       "signal_id": "90515a98cd63200b"
@@ -58,7 +58,7 @@
     {
       "time": "10:15",
       "text": "Live updates : US plans fresh strikes on Iran as soon as this weekend , officials say",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "edition.cnn.com",
       "signal_id": "08079fb4a4888fff"
@@ -66,7 +66,7 @@
     {
       "time": "09:45",
       "text": "White House signals Trump is weighing new strikes on Iran , and other developments in the Middle East",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "wpxi.com",
       "signal_id": "89d9f7de4baa84df"
@@ -83,7 +83,7 @@
       "dependency_group": "a15ab4c757f93d49",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.512,
+      "freshness": 0.288,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-01T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 12.6,
-        "short": 9.8,
-        "extended": 4.2
-      }
+        "immediate": 7.1,
+        "short": 5.5,
+        "extended": 2.3
+      },
+      "carried_forward": true
     },
     {
       "id": "90515a98cd63200b",
@@ -114,7 +115,7 @@
       "dependency_group": "90515a98cd63200b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.907,
+      "freshness": 0.51,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-01T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.9,
-        "short": 6.3,
-        "extended": 10.7
-      }
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      },
+      "carried_forward": true
     },
     {
       "id": "08079fb4a4888fff",
@@ -145,7 +147,7 @@
       "dependency_group": "08079fb4a4888fff",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.907,
+      "freshness": 0.51,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-01T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.9
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.0
+      },
+      "carried_forward": true
     },
     {
       "id": "89d9f7de4baa84df",
@@ -176,7 +179,7 @@
       "dependency_group": "89d9f7de4baa84df",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.786,
+      "freshness": 0.442,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-01T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      },
+      "carried_forward": true
     },
     {
       "id": "c6ff68fbd2e8d3d4",
@@ -207,7 +211,7 @@
       "dependency_group": "c6ff68fbd2e8d3d4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.55,
+      "freshness": 0.309,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-01T05:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "4bacc20fbbba04b9",
@@ -238,7 +243,7 @@
       "dependency_group": "4bacc20fbbba04b9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.477,
+      "freshness": 0.268,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@
       "published_at": "2026-08-01T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      }
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.6
+      },
+      "carried_forward": true
     },
     {
       "id": "b23f335ecb7cb79a",
@@ -269,7 +275,7 @@
       "dependency_group": "b23f335ecb7cb79a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.358,
+      "freshness": 0.202,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@
       "published_at": "2026-08-01T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      }
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -897,17 +904,23 @@
       "immediate": 17,
       "short": 24,
       "extended": 28
+    },
+    {
+      "timestamp": "2026-08-01T09:36:22.435818Z",
+      "immediate": 10,
+      "short": 14,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-01T07:35:32.071744Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 7
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
