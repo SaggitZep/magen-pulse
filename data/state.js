@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-01T11:06:17.544525Z",
+  "generated_at": "2026-08-01T12:13:32.924162Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 6,
+      "score": 1,
       "low": 0,
-      "high": 23,
-      "confidence": 45,
+      "high": 20,
+      "confidence": 36,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 4,
       "low": 0,
-      "high": 26,
-      "confidence": 45,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 36,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
+      "score": 7,
       "low": 0,
-      "high": 28,
-      "confidence": 45,
-      "status": "נמוך"
+      "high": 26,
+      "confidence": 36,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -36,21 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -4
+    "points_60m": -5
   },
   "changes": [
     {
-      "time": "08:15",
-      "text": "Kind of madness : Iran vows to target US , Israeli energy assets if attacked as Trump weighs fresh strikes",
-      "impact": "השפעה מיידית מחושבת: +4.6",
-      "direction": "up",
-      "source": "greekherald.com",
-      "signal_id": "a15ab4c757f93d49"
-    },
-    {
       "time": "10:15",
       "text": "צבא כוויית : מערכות ההגנה האווירית הופעלו בעקבות שיגור טילים מאיראן",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "haaretz.co.il",
       "signal_id": "90515a98cd63200b"
@@ -58,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:15",
       "text": "Live updates : US plans fresh strikes on Iran as soon as this weekend , officials say",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "edition.cnn.com",
       "signal_id": "08079fb4a4888fff"
@@ -66,45 +58,13 @@ window.MAGEN_STATE = {
     {
       "time": "09:45",
       "text": "White House signals Trump is weighing new strikes on Iran , and other developments in the Middle East",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "wpxi.com",
       "signal_id": "89d9f7de4baa84df"
     }
   ],
   "signals": [
-    {
-      "id": "a15ab4c757f93d49",
-      "name": "Kind of madness : Iran vows to target US , Israeli energy assets if attacked as Trump weighs fresh strikes",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a15ab4c757f93d49",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.188,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "greekherald.com",
-      "url": "http://www.greekherald.com/news/279218225/kind-of-madness-iran-vows-to-target-us-israeli-energy-assets-if-attacked-as-trump-weighs-fresh-strikes",
-      "published_at": "2026-08-01T05:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 4.6,
-        "short": 3.6,
-        "extended": 1.5
-      },
-      "carried_forward": true
-    },
     {
       "id": "90515a98cd63200b",
       "name": "צבא כוויית : מערכות ההגנה האווירית הופעלו בעקבות שיגור טילים מאיראן",
@@ -115,7 +75,7 @@ window.MAGEN_STATE = {
       "dependency_group": "90515a98cd63200b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.332,
+      "freshness": 0.241,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +91,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-01T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -147,7 +107,7 @@ window.MAGEN_STATE = {
       "dependency_group": "08079fb4a4888fff",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.332,
+      "freshness": 0.241,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +123,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-01T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -179,7 +139,7 @@ window.MAGEN_STATE = {
       "dependency_group": "89d9f7de4baa84df",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.288,
+      "freshness": 0.209,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,41 +155,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-01T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c6ff68fbd2e8d3d4",
-      "name": "US , Iran Threaten Vital Infrastructure As Rhetoric Heats Up Again",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c6ff68fbd2e8d3d4",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.202,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "britainnews.net",
-      "url": "http://www.britainnews.net/news/279218216/us-iran-threaten-vital-infrastructure-as-rhetoric-heats-up-again",
-      "published_at": "2026-08-01T05:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     }
@@ -852,6 +780,12 @@ window.MAGEN_STATE = {
       "immediate": 6,
       "short": 9,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-01T12:13:32.924162Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 7
     }
   ],
   "health": {
@@ -862,7 +796,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "carried_forward": 3
       },
       "manual": {
         "ok": true,
