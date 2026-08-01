@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-01T01:26:05.054738Z",
+  "generated_at": "2026-08-01T04:59:14.894352Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 34,
-      "low": 18,
-      "high": 50,
-      "confidence": 49,
-      "status": "מוגבר"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 31,
-      "low": 15,
-      "high": 47,
-      "confidence": 48,
-      "status": "מוגבר"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 5,
-      "high": 37,
-      "confidence": 48,
-      "status": "נמוך"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -35,525 +35,11 @@
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "ירידה",
+    "points_60m": -34
   },
-  "changes": [
-    {
-      "time": "01:30",
-      "text": "דיווח ב - CBS : ארה  ב וישראל דנו על תקיפה משותפת באיראן כבר הסופ  ש",
-      "impact": "השפעה מיידית מחושבת: +14.1",
-      "direction": "up",
-      "source": "ynet.co.il",
-      "signal_id": "aa7aac5a28c20446"
-    },
-    {
-      "time": "01:45",
-      "text": "Israel Set To Join U . S . In Huge Iran Strike",
-      "impact": "השפעה מיידית מחושבת: +11.4",
-      "direction": "up",
-      "source": "wonw1280.iheart.com",
-      "signal_id": "38d998aec9f49edd"
-    },
-    {
-      "time": "01:45",
-      "text": "Israel Set To Join U . S . In Huge Iran Strike | News Radio 690 KTSM",
-      "impact": "השפעה מיידית מחושבת: +11.4",
-      "direction": "up",
-      "source": "ktsmradio.iheart.com",
-      "signal_id": "73f1e678e53af7f6"
-    },
-    {
-      "time": "01:00",
-      "text": "CBS report : US and Israel discussed joint strike on Iran as early as this weekend",
-      "impact": "השפעה מיידית מחושבת: +9.2",
-      "direction": "up",
-      "source": "ynetnews.com",
-      "signal_id": "be9ad706088b5258"
-    }
-  ],
-  "signals": [
-    {
-      "id": "aa7aac5a28c20446",
-      "name": "דיווח ב - CBS : ארה  ב וישראל דנו על תקיפה משותפת באיראן כבר הסופ  ש",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "aa7aac5a28c20446",
-      "strength": 0.5,
-      "reliability": 0.74,
-      "freshness": 0.432,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "ynet.co.il",
-      "url": "https://www.ynet.co.il/news/article/sywenycbze",
-      "published_at": "2026-07-31T22:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 14.1,
-        "short": 11.0,
-        "extended": 4.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "38d998aec9f49edd",
-      "name": "Israel Set To Join U . S . In Huge Iran Strike",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "38d998aec9f49edd",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.464,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "wonw1280.iheart.com",
-      "url": "https://wonw1280.iheart.com/content/2026-07-31-israel-set-to-join-us-in-huge-iran-strike/",
-      "published_at": "2026-07-31T22:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 11.4,
-        "short": 8.9,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "73f1e678e53af7f6",
-      "name": "Israel Set To Join U . S . In Huge Iran Strike | News Radio 690 KTSM",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "73f1e678e53af7f6",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.464,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "ktsmradio.iheart.com",
-      "url": "https://ktsmradio.iheart.com/content/2026-07-31-israel-set-to-join-us-in-huge-iran-strike/",
-      "published_at": "2026-07-31T22:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 11.4,
-        "short": 8.9,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "be9ad706088b5258",
-      "name": "CBS report : US and Israel discussed joint strike on Iran as early as this weekend",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "be9ad706088b5258",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.375,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/hkbzatchzg",
-      "published_at": "2026-07-31T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 9.2,
-        "short": 7.2,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "bc5741356c58b0bc",
-      "name": "מקורות ל ־ CBS : ישראל וארה  ב נערכות לתקיפה קרובה של תשתיות אנרגיה באיראן",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bc5741356c58b0bc",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.349,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "haaretz.co.il",
-      "url": "https://www.haaretz.co.il/news/politics/2026-08-01/ty-article/0000019f-ba03-dfac-a5df-bbd35ae60000",
-      "published_at": "2026-07-31T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 8.6,
-        "short": 6.7,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2835fcf08dcb24f5",
-      "name": "Trump says Iran will peter out as U . S . strikes weaken its military",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2835fcf08dcb24f5",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.464,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "foxnews.com",
-      "url": "https://www.foxnews.com/politics/trump-warns-iran-fighting-isnt-over-he-vows-us-win-talks-fade",
-      "published_at": "2026-07-31T22:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "452fc301d031aaaa",
-      "name": "Donald Trump to launch new strike on Iran  this weekend  as WW3 fears soar",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "452fc301d031aaaa",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.432,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aol.co.uk",
-      "url": "https://www.aol.co.uk/articles/donald-trump-launch-strike-iran-213200000.html",
-      "published_at": "2026-07-31T22:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "cf4da9e03e6c8621",
-      "name": "Pentagon missile stockpiles strained after Iran conflict",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cf4da9e03e6c8621",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.349,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "foxnews.com",
-      "url": "https://www.foxnews.com/us/weapons-stockpile-shortages-impacting-military-strategy-mideast",
-      "published_at": "2026-07-31T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a96b025e637ee158",
-      "name": "Trump blames Minnesota and Gov . Tim Walz for cyberattack that feds have traced to Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a96b025e637ee158",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.403,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "independent.co.uk",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-minnesota-iran-water-tim-walz-b3025600.html",
-      "published_at": "2026-07-31T22:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9c6e60d5a8e2735d",
-      "name": "Trump Blames Minnesota Governor , Not Iran , for Cyber Attack on Water Plants",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9c6e60d5a8e2735d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.349,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "2paragraphs.com",
-      "url": "https://2paragraphs.com/2026/07/trump-blames-minnesota-governor-not-iran-for-cyber-attack-on-water-plants/",
-      "published_at": "2026-07-31T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "fe7fa81bb5828e6e",
-      "name": "Trump blames Minnesota governor , not Iran , for cyberattacks on state water systems",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fe7fa81bb5828e6e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.375,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279218093/trump-blames-minnesota-governor-not-iran-for-cyberattacks-on-state-water-systems",
-      "published_at": "2026-07-31T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7dbc7f61a01cc31c",
-      "name": "הדיווח המלא על ההיערכות למתקפה באיראן - כבר הסופ  ש",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7dbc7f61a01cc31c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.349,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.walla.co.il",
-      "url": "https://news.walla.co.il/item/3857620",
-      "published_at": "2026-07-31T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e62541e39e76ba7a",
-      "name": "Iran Claims Strikes On Bahrain , Kuwait As Egypt Attack , Saudi Role Widen Six - Month War",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e62541e39e76ba7a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.303,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hngn.com",
-      "url": "https://www.hngn.com/articles/272329/20260731/trump-weighs-wider-iran-offensive-wars-death-toll-hits-59-strikes-reach-kuwait.htm",
-      "published_at": "2026-07-31T21:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "458d0df94fd9a21b",
-      "name": "Why did Riyadh join US strikes on Tehran allies in Iraq",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "458d0df94fd9a21b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.282,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iraqsun.com",
-      "url": "http://www.iraqsun.com/news/279217853/why-did-riyadh-join-us-strikes-on-tehran-allies-in-iraq",
-      "published_at": "2026-07-31T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "afb1f996807bcbcb",
-      "name": "In call with Iran Araghchi , Jaishankar raises ship attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "afb1f996807bcbcb",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.227,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/india/in-call-with-irans-araghchi-jaishankar-raises-ship-attacks/articleshow/132776476.cms",
-      "published_at": "2026-07-31T20:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -1148,17 +634,23 @@
       "immediate": 34,
       "short": 31,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-01T04:59:14.894352Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-07-31T23:46:44.266665Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 15
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
