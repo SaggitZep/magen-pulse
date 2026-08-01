@@ -1,37 +1,37 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-07-31T23:46:44.266665Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-01T01:26:05.054738Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 34,
-      "low": 21,
-      "high": 47,
-      "confidence": 68,
+      "low": 18,
+      "high": 50,
+      "confidence": 49,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 34,
-      "low": 21,
+      "score": 31,
+      "low": 15,
       "high": 47,
-      "confidence": 68,
+      "confidence": 48,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 31,
-      "low": 18,
-      "high": 44,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 21,
+      "low": 5,
+      "high": 37,
+      "confidence": 48,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
@@ -42,7 +42,7 @@
     {
       "time": "01:30",
       "text": "דיווח ב - CBS : ארה  ב וישראל דנו על תקיפה משותפת באיראן כבר הסופ  ש",
-      "impact": "השפעה מיידית מחושבת: +22.6",
+      "impact": "השפעה מיידית מחושבת: +14.1",
       "direction": "up",
       "source": "ynet.co.il",
       "signal_id": "aa7aac5a28c20446"
@@ -50,7 +50,7 @@
     {
       "time": "01:45",
       "text": "Israel Set To Join U . S . In Huge Iran Strike",
-      "impact": "השפעה מיידית מחושבת: +18.4",
+      "impact": "השפעה מיידית מחושבת: +11.4",
       "direction": "up",
       "source": "wonw1280.iheart.com",
       "signal_id": "38d998aec9f49edd"
@@ -58,7 +58,7 @@
     {
       "time": "01:45",
       "text": "Israel Set To Join U . S . In Huge Iran Strike | News Radio 690 KTSM",
-      "impact": "השפעה מיידית מחושבת: +18.4",
+      "impact": "השפעה מיידית מחושבת: +11.4",
       "direction": "up",
       "source": "ktsmradio.iheart.com",
       "signal_id": "73f1e678e53af7f6"
@@ -66,7 +66,7 @@
     {
       "time": "01:00",
       "text": "CBS report : US and Israel discussed joint strike on Iran as early as this weekend",
-      "impact": "השפעה מיידית מחושבת: +14.8",
+      "impact": "השפעה מיידית מחושבת: +9.2",
       "direction": "up",
       "source": "ynetnews.com",
       "signal_id": "be9ad706088b5258"
@@ -83,7 +83,7 @@
       "dependency_group": "aa7aac5a28c20446",
       "strength": 0.5,
       "reliability": 0.74,
-      "freshness": 0.694,
+      "freshness": 0.432,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@
       "published_at": "2026-07-31T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 22.6,
-        "short": 17.6,
-        "extended": 7.5
-      }
+        "immediate": 14.1,
+        "short": 11.0,
+        "extended": 4.7
+      },
+      "carried_forward": true
     },
     {
       "id": "38d998aec9f49edd",
@@ -114,7 +115,7 @@
       "dependency_group": "38d998aec9f49edd",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.745,
+      "freshness": 0.464,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -130,10 +131,11 @@
       "published_at": "2026-07-31T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 18.4,
-        "short": 14.3,
-        "extended": 6.1
-      }
+        "immediate": 11.4,
+        "short": 8.9,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "73f1e678e53af7f6",
@@ -145,7 +147,7 @@
       "dependency_group": "73f1e678e53af7f6",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.745,
+      "freshness": 0.464,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -161,10 +163,11 @@
       "published_at": "2026-07-31T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 18.4,
-        "short": 14.3,
-        "extended": 6.1
-      }
+        "immediate": 11.4,
+        "short": 8.9,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "be9ad706088b5258",
@@ -176,7 +179,7 @@
       "dependency_group": "be9ad706088b5258",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.602,
+      "freshness": 0.375,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -192,10 +195,11 @@
       "published_at": "2026-07-31T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 14.8,
-        "short": 11.6,
-        "extended": 4.9
-      }
+        "immediate": 9.2,
+        "short": 7.2,
+        "extended": 3.1
+      },
+      "carried_forward": true
     },
     {
       "id": "bc5741356c58b0bc",
@@ -207,7 +211,7 @@
       "dependency_group": "bc5741356c58b0bc",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.56,
+      "freshness": 0.349,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -223,10 +227,11 @@
       "published_at": "2026-07-31T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 13.8,
-        "short": 10.8,
-        "extended": 4.6
-      }
+        "immediate": 8.6,
+        "short": 6.7,
+        "extended": 2.8
+      },
+      "carried_forward": true
     },
     {
       "id": "2835fcf08dcb24f5",
@@ -238,7 +243,7 @@
       "dependency_group": "2835fcf08dcb24f5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.745,
+      "freshness": 0.464,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@
       "published_at": "2026-07-31T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      },
+      "carried_forward": true
     },
     {
       "id": "452fc301d031aaaa",
@@ -269,7 +275,7 @@
       "dependency_group": "452fc301d031aaaa",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.694,
+      "freshness": 0.432,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@
       "published_at": "2026-07-31T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      },
+      "carried_forward": true
     },
     {
       "id": "cf4da9e03e6c8621",
@@ -300,7 +307,7 @@
       "dependency_group": "cf4da9e03e6c8621",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.56,
+      "freshness": 0.349,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@
       "published_at": "2026-07-31T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "a96b025e637ee158",
@@ -331,7 +339,7 @@
       "dependency_group": "a96b025e637ee158",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.646,
+      "freshness": 0.403,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@
       "published_at": "2026-07-31T22:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      },
+      "carried_forward": true
     },
     {
       "id": "9c6e60d5a8e2735d",
@@ -362,7 +371,7 @@
       "dependency_group": "9c6e60d5a8e2735d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.56,
+      "freshness": 0.349,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@
       "published_at": "2026-07-31T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.2,
-        "extended": 5.5
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "fe7fa81bb5828e6e",
@@ -393,7 +403,7 @@
       "dependency_group": "fe7fa81bb5828e6e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.602,
+      "freshness": 0.375,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@
       "published_at": "2026-07-31T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "7dbc7f61a01cc31c",
@@ -424,7 +435,7 @@
       "dependency_group": "7dbc7f61a01cc31c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.56,
+      "freshness": 0.349,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,10 +451,11 @@
       "published_at": "2026-07-31T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.2,
-        "extended": 5.5
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "e62541e39e76ba7a",
@@ -455,7 +467,7 @@
       "dependency_group": "e62541e39e76ba7a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.486,
+      "freshness": 0.303,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,10 +483,11 @@
       "published_at": "2026-07-31T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
+      },
+      "carried_forward": true
     },
     {
       "id": "458d0df94fd9a21b",
@@ -486,7 +499,7 @@
       "dependency_group": "458d0df94fd9a21b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.452,
+      "freshness": 0.282,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,10 +515,11 @@
       "published_at": "2026-07-31T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
+      },
+      "carried_forward": true
     },
     {
       "id": "afb1f996807bcbcb",
@@ -517,7 +531,7 @@
       "dependency_group": "afb1f996807bcbcb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.365,
+      "freshness": 0.227,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,10 +547,11 @@
       "published_at": "2026-07-31T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1127,17 +1142,23 @@
       "immediate": 34,
       "short": 34,
       "extended": 31
+    },
+    {
+      "timestamp": "2026-08-01T01:26:05.054738Z",
+      "immediate": 34,
+      "short": 31,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-07-31T23:46:44.266665Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 15
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 15
       },
       "manual": {
         "ok": true,
