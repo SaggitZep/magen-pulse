@@ -1,45 +1,823 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-01T15:13:03.077291Z",
+  "mode": "live",
+  "generated_at": "2026-08-01T16:16:11.360570Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 66,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 66,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 32,
+      "low": 19,
+      "high": 45,
+      "confidence": 66,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "זינוק חריג",
+    "points_60m": 34
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "17:15",
+      "text": "Iran warns against  flames of war  amid US strike threats on energy sites | US - Israel war on Iran News",
+      "impact": "השפעה מיידית מחושבת: +15.2",
+      "direction": "up",
+      "source": "aljazeera.com",
+      "signal_id": "bdaedb208b6b6948"
+    },
+    {
+      "time": "17:15",
+      "text": "Iran names Saudi , UAE , Qatar and Israeli energy sites as targets if Trump weighs new strikes",
+      "impact": "השפעה מיידית מחושבת: +13.8",
+      "direction": "up",
+      "source": "moneycontrol.com",
+      "signal_id": "454d3204ad58af2f"
+    },
+    {
+      "time": "17:15",
+      "text": "ईरान पर बड़े हमले की तैयारी में अमेरिका और इजरायल , ऊर्जा ठिकानों को निशाना बनाने की योजना | us - israel - plan - airstrikes - on - iran - energy - targets - trump - report",
+      "impact": "השפעה מיידית מחושבת: +13.8",
+      "direction": "up",
+      "source": "deshbandhu.co.in",
+      "signal_id": "e3625cc9eb693d12"
+    },
+    {
+      "time": "16:00",
+      "text": "Reports : US , Israel planning heavy strikes on Iran energy targets",
+      "impact": "השפעה מיידית מחושבת: +9.7",
+      "direction": "up",
+      "source": "naharnet.com:443",
+      "signal_id": "154dddc7f63179fe"
+    }
+  ],
+  "signals": [
+    {
+      "id": "bdaedb208b6b6948",
+      "name": "Iran warns against  flames of war  amid US strike threats on energy sites | US - Israel war on Iran News",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bdaedb208b6b6948",
+      "strength": 0.55,
+      "reliability": 0.56,
+      "freshness": 0.562,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/8/1/iran-warns-against-fire-of-war-amid-us-strike-threats-on-energy-sites",
+      "published_at": "2026-08-01T14:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 15.2,
+        "short": 11.9,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "454d3204ad58af2f",
+      "name": "Iran names Saudi , UAE , Qatar and Israeli energy sites as targets if Trump weighs new strikes",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "454d3204ad58af2f",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.562,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/iran-names-saudi-uae-qatar-and-israeli-energy-sites-as-targets-if-trump-weighs-new-strikes-article-13990954.html",
+      "published_at": "2026-08-01T14:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 13.8,
+        "short": 10.8,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "e3625cc9eb693d12",
+      "name": "ईरान पर बड़े हमले की तैयारी में अमेरिका और इजरायल , ऊर्जा ठिकानों को निशाना बनाने की योजना | us - israel - plan - airstrikes - on - iran - energy - targets - trump - report",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e3625cc9eb693d12",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.562,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "deshbandhu.co.in",
+      "url": "https://www.deshbandhu.co.in/featured-news/us-israel-plan-airstrikes-on-iran-energy-targets-trump-report-313245",
+      "published_at": "2026-08-01T14:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 13.8,
+        "short": 10.8,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "154dddc7f63179fe",
+      "name": "Reports : US , Israel planning heavy strikes on Iran energy targets",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "154dddc7f63179fe",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.393,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "naharnet.com:443",
+      "url": "https://www.naharnet.com:443/stories/en/321596-reports-us-israel-planning-heavy-strikes-on-iran-energy-targets",
+      "published_at": "2026-08-01T13:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 9.7,
+        "short": 7.6,
+        "extended": 3.2
+      }
+    },
+    {
+      "id": "4f9ad16ed549ae46",
+      "name": "Trump threatens more strikes on Iran , and other developments in the Middle East",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4f9ad16ed549ae46",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.803,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sitkasentinel.com",
+      "url": "http://www.sitkasentinel.com/stories/trump-threatens-more-strikes-on-iran-and-other-developments-in-the-middle-east,160658",
+      "published_at": "2026-08-01T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.9
+      }
+    },
+    {
+      "id": "6c8d8f46f9740214",
+      "name": "שגרירות ארה  ב לאזרחיה : התכוננו לעזוב במקרה של הסלמה ; בכוויית דווח על טילים מאיראן - מדיני ביטחוני",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6c8d8f46f9740214",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.747,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "themarker.com",
+      "url": "https://www.themarker.com/hrtz/news/politics/2026-08-01/ty-article/.premium/0000019f-bc0d-d3b5-a99f-bded7a520000",
+      "published_at": "2026-08-01T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "b64d8f2f0cc7a8ee",
+      "name": "Iran warns against  fire of war  amid US strike threats on energy sites - Grenada Chronicle – Daily Grenada And Caribbean News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b64d8f2f0cc7a8ee",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.747,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "grenadachronicle.com",
+      "url": "https://grenadachronicle.com/iran-warns-against-fire-of-war-amid-us-strike-threats-on-energy-sites/",
+      "published_at": "2026-08-01T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.3
+      }
+    },
+    {
+      "id": "545af8c0f97b069d",
+      "name": "Trump Threatens Further Strikes as Iran Conflict Deepens",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "545af8c0f97b069d",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.747,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "1290wlby.com",
+      "url": "https://www.1290wlby.com/2026/08/01/trump-threatens-further-strikes-as-iran-conflict-deepens/",
+      "published_at": "2026-08-01T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.3
+      }
+    },
+    {
+      "id": "ab1e6f52b2157fbe",
+      "name": "Iran warns against  fire of war  amid US strike threats on energy sites - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ab1e6f52b2157fbe",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.696,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dominicanrepublicpost.com",
+      "url": "https://dominicanrepublicpost.com/iran-warns-against-fire-of-war-amid-us-strike-threats-on-energy-sites/",
+      "published_at": "2026-08-01T15:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "1757bcfb169e4f2a",
+      "name": "Trump threatens more strikes on Iran . Tensions from Hormuz to Kuwait and Gaza lead to more warnings",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1757bcfb169e4f2a",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.696,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "orlandosentinel.com",
+      "url": "https://www.orlandosentinel.com/2026/08/01/trump-threatens-more-strikes-on-iran-tensions-from-hormuz-to-kuwait-and-gaza-lead-to-more-warnings/",
+      "published_at": "2026-08-01T15:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "1d82e1bed5618d65",
+      "name": "White House signals Trump is weighing new strikes on Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1d82e1bed5618d65",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.747,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jcpost.com",
+      "url": "https://jcpost.com/posts/97b4f0fb-5aaa-4a00-9abd-76b367583a0c",
+      "published_at": "2026-08-01T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "a19a353f2003be17",
+      "name": "Iran threatens Middle East with  fire of war  as US  planning new attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a19a353f2003be17",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.603,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "express.co.uk",
+      "url": "https://www.express.co.uk/news/world/2235125/iran-threat-middle-east-war-us",
+      "published_at": "2026-08-01T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "0f22433adff89ad8",
+      "name": "Trump threatens more strikes on Iran , and other developments in the Middle East – KTBB News , Weather , Talk",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0f22433adff89ad8",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.562,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ktbb.com",
+      "url": "https://ktbb.com/post/?p=1530256",
+      "published_at": "2026-08-01T14:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "e0aff59d26a4cefa",
+      "name": "Kuwait says Iranian drones targeted  vital  facilities",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e0aff59d26a4cefa",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.523,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yahoo.com",
+      "url": "https://www.yahoo.com/news/world/articles/kuwait-says-iranian-drones-targeted-130328199.html",
+      "published_at": "2026-08-01T14:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "6b739b467e136341",
+      "name": "US embassies in Middle East warn Americans as Trump weighs fresh strikes on Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6b739b467e136341",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.562,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/us-embassies-in-middle-east-warn-americans-as-trump-weighs-fresh-strikes-on-iran-article-13990944.html",
+      "published_at": "2026-08-01T14:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "5cf9b98c1302c88f",
+      "name": "President Trump threatens more strikes on Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5cf9b98c1302c88f",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.523,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "breakingnews.ie",
+      "url": "https://www.breakingnews.ie/world/president-trump-threatens-more-strikes-on-iran-1934765.html",
+      "published_at": "2026-08-01T14:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "156af34acf8a7b31",
+      "name": "Kuwait Says It Downed Iranian Drones",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "156af34acf8a7b31",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.393,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "politicalwire.com",
+      "url": "https://politicalwire.com/2026/08/01/kuwait-says-it-downed-iranian-drones/",
+      "published_at": "2026-08-01T13:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "9dd40c4519e83f63",
+      "name": "Trump considering attacks on Iran energy infrastructure , report says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9dd40c4519e83f63",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.422,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "livemint.com",
+      "url": "https://www.livemint.com/news/us-news/trump-considering-attacks-on-irans-energy-infrastructure-report-says-11785587578235.html",
+      "published_at": "2026-08-01T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.2
+      }
+    },
+    {
+      "id": "1c8e7c30d1154901",
+      "name": "From Hormuz to Bab el - Mandeb to Suez : Iran war machine is threatening global shipping – Ya Libnan",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1c8e7c30d1154901",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.341,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yalibnan.com",
+      "url": "https://yalibnan.com/2026/08/01/from-hormuz-to-bab-el-mandeb-to-suez-irans-war-machine-is-threatening-global-shipping/",
+      "published_at": "2026-08-01T12:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "43dca93f0d1b6161",
+      "name": "Trump Considering Strikes On Iranian Energy Targets",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "43dca93f0d1b6161",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.393,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "politicalwire.com",
+      "url": "https://politicalwire.com/2026/08/01/trump-considering-strikes-on-iranian-energy-targets/",
+      "published_at": "2026-08-01T13:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "fddd7ee796cd1589",
+      "name": "Ejército iraní anuncia el uso de una nueva generación de drones contra EEUU",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fddd7ee796cd1589",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.341,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hispantv.com",
+      "url": "https://www.hispantv.com/noticias/defensa/648055/ejercito-irani-nueva-drones-eeuu",
+      "published_at": "2026-08-01T12:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      }
+    },
+    {
+      "id": "a73953749457401c",
+      "name": "Iranian Foreign Minister Advises united kingdom : Do Not Provide Military Aid to the US",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a73953749457401c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.341,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "khaskhabar.com",
+      "url": "https://www.khaskhabar.com/news/world-news/news-iranian-foreign-minister-advises-uk-do-not-provide-military-aid-to-the-us-news-hindi-1-833230-KKN.html",
+      "published_at": "2026-08-01T12:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
+    },
+    {
+      "id": "cdc9f34b99825d57",
+      "name": "Iranian Kurdish parties in Iraq face a delicate balance amid Iran attacks - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cdc9f34b99825d57",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.341,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dominicanrepublicpost.com",
+      "url": "https://dominicanrepublicpost.com/iranian-kurdish-parties-in-iraq-face-a-delicate-balance-amid-iran-attacks/",
+      "published_at": "2026-08-01T12:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
+    },
+    {
+      "id": "92b1c7c658e110c6",
+      "name": "Iran military accuses US of  escalating tension in region",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "92b1c7c658e110c6",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.341,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "naharnet.com",
+      "url": "https://naharnet.com/stories/en/321597-iran-military-accuses-us-of-escalating-tensions-in-region",
+      "published_at": "2026-08-01T12:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -676,17 +1454,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-08-01T16:16:11.360570Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 32
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-08-01T07:35:32.071744Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-01T16:16:11.360570Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 24
       },
       "manual": {
         "ok": true,
