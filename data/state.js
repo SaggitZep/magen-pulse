@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-02T11:04:51.564746Z",
+  "generated_at": "2026-08-02T12:16:22.915346Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 9,
+      "score": 6,
       "low": 0,
-      "high": 26,
-      "confidence": 46,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 44,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 7,
       "low": 0,
-      "high": 27,
-      "confidence": 46,
-      "status": "נמוך"
+      "high": 24,
+      "confidence": 44,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
+      "score": 8,
       "low": 0,
-      "high": 28,
-      "confidence": 46,
-      "status": "נמוך"
+      "high": 25,
+      "confidence": 44,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -10
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "09:45",
       "text": "Trump : Mideast Allies Near Iran Deal , US , Israel to Stop Strikes",
-      "impact": "השפעה מיידית מחושבת: +7.1",
+      "impact": "השפעה מיידית מחושבת: +5.1",
       "direction": "up",
       "source": "deccanchronicle.com",
       "signal_id": "37605c341861ce31"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:00",
       "text": "Trump says US to hold off attack on Iran",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "china.org.cn",
       "signal_id": "6998a3a4742a3964"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "09:45",
       "text": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "elpasoinc.com",
       "signal_id": "a4f61008a3ea9b05"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "09:45",
       "text": "Trump says Mideast allies have reached outlines of deal to end Iran war , says US to stop new strikes",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "twincities.com",
       "signal_id": "192559fbc719720e"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "37605c341861ce31",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.29,
+      "freshness": 0.206,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 7.1,
-        "short": 5.6,
-        "extended": 2.4
+        "immediate": 5.1,
+        "short": 4.0,
+        "extended": 1.7
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6998a3a4742a3964",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.312,
+      "freshness": 0.222,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a4f61008a3ea9b05",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.29,
+      "freshness": 0.206,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "192559fbc719720e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.29,
+      "freshness": 0.206,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c0d18694c2c9e4de",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.29,
+      "freshness": 0.206,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "868a341937384bc9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.29,
+      "freshness": 0.206,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "557a2889b5609914",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.29,
+      "freshness": 0.206,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -1006,6 +1006,12 @@ window.MAGEN_STATE = {
       "immediate": 9,
       "short": 10,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-02T12:16:22.915346Z",
+      "immediate": 6,
+      "short": 7,
+      "extended": 8
     }
   ],
   "health": {
