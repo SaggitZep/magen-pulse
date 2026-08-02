@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-02T01:02:58.573991Z",
+  "generated_at": "2026-08-02T04:33:55.400945Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 20,
-      "low": 3,
-      "high": 37,
-      "confidence": 45,
-      "status": "נמוך"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 19,
-      "low": 2,
-      "high": 36,
-      "confidence": 45,
-      "status": "נמוך"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
+      "score": 0,
       "low": 0,
-      "high": 32,
-      "confidence": 45,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -36,332 +36,10 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -13
+    "points_60m": -20
   },
-  "changes": [
-    {
-      "time": "00:00",
-      "text": "President Trump Vows Harder Strikes on Iran as Israel May Join , US Embassies Warn of Escalation",
-      "impact": "השפעה מיידית מחושבת: +7.7",
-      "direction": "up",
-      "source": "themedialine.org",
-      "signal_id": "7d674a72096780df"
-    },
-    {
-      "time": "23:30",
-      "text": "Trump threatens more strikes on Iran as Israel carries out attacks in Gaza",
-      "impact": "השפעה מיידית מחושבת: +7.4",
-      "direction": "up",
-      "source": "10news.com",
-      "signal_id": "dde35508b754e048"
-    },
-    {
-      "time": "22:15",
-      "text": "גורם ישראלי :  טראמפ קרוב מתמיד למתקפה משמעותית באיראן , זה על סף התפוצצות",
-      "impact": "השפעה מיידית מחושבת: +4.7",
-      "direction": "up",
-      "source": "ch10.co.il",
-      "signal_id": "b658fabbabbdb3ed"
-    },
-    {
-      "time": "23:30",
-      "text": "Trump threatens more strikes on Iran ; tensions from Hormuz to Kuwait and Gaza lead to more warnings",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "adn.com",
-      "signal_id": "1757bcfb169e4f2a"
-    }
-  ],
-  "signals": [
-    {
-      "id": "7d674a72096780df",
-      "name": "President Trump Vows Harder Strikes on Iran as Israel May Join , US Embassies Warn of Escalation",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7d674a72096780df",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.314,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "themedialine.org",
-      "url": "https://themedialine.org/headlines/president-trump-vows-harder-strikes-on-iran-as-israel-may-join-us-embassies-warn-of-escalation/",
-      "published_at": "2026-08-01T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 7.7,
-        "short": 6.0,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "dde35508b754e048",
-      "name": "Trump threatens more strikes on Iran as Israel carries out attacks in Gaza",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "dde35508b754e048",
-      "strength": 0.55,
-      "reliability": 0.56,
-      "freshness": 0.273,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "10news.com",
-      "url": "https://www.10news.com/us-news/iran-war/trump-threatens-more-strikes-on-iran-as-israel-carries-out-attacks-in-gaza",
-      "published_at": "2026-08-01T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 7.4,
-        "short": 5.8,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b658fabbabbdb3ed",
-      "name": "גורם ישראלי :  טראמפ קרוב מתמיד למתקפה משמעותית באיראן , זה על סף התפוצצות",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b658fabbabbdb3ed",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.191,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "ch10.co.il",
-      "url": "https://ch10.co.il/news/1090894/",
-      "published_at": "2026-08-01T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 4.7,
-        "short": 3.7,
-        "extended": 1.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1757bcfb169e4f2a",
-      "name": "Trump threatens more strikes on Iran ; tensions from Hormuz to Kuwait and Gaza lead to more warnings",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1757bcfb169e4f2a",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.273,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "adn.com",
-      "url": "https://www.adn.com/nation-world/2026/08/01/trump-threatens-more-strikes-on-iran-tensions-from-hormuz-to-kuwait-and-gaza-lead-to-more-warnings/",
-      "published_at": "2026-08-01T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4f9ad16ed549ae46",
-      "name": "Trump threatens more strikes on Iran , and other developments in the Middle East",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4f9ad16ed549ae46",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.273,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wboc.com",
-      "url": "https://www.wboc.com/news/international/trump-threatens-more-strikes-on-iran-and-other-developments-in-the-middle-east/article_e34c0ac0-a162-5472-9889-e2cf843a1b8f.html",
-      "published_at": "2026-08-01T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "de3ec8eefbecd39d",
-      "name": "Trump wants talks secretly but publicly threatens war : Iran accuses US of mixed signals",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "de3ec8eefbecd39d",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.273,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "sanantoniopost.com",
-      "url": "http://www.sanantoniopost.com/news/279218876/trump-wants-talks-secretly-but-publicly-threatens-war-iran-accuses-us-of-mixed-signals",
-      "published_at": "2026-08-01T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "810a300c58ebf61b",
-      "name": "Iran Conflict Expands to Egypt with Drone Strike on Suez Tanker",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "810a300c58ebf61b",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.236,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "breitbart.com",
-      "url": "https://www.breitbart.com/national-security/2026/07/30/iran-conflict-expands-to-egypt-with-drone-strike-on-suez-tanker/",
-      "published_at": "2026-08-01T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7bfbb4c1614d840b",
-      "name": "US embassies warn Americans as Iran threatens more choke points",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7bfbb4c1614d840b",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.236,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bostonherald.com",
-      "url": "https://www.bostonherald.com/2026/08/01/us-embassies-warn-americans-as-iran-threatens-more-choke-points/",
-      "published_at": "2026-08-01T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d041b3e31d1a730c",
-      "name": "Trump  losing faith  in talks , threatens to  hit Iran hard",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d041b3e31d1a730c",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.191,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jns.org",
-      "url": "https://www.jns.org/news/u-s-news/trump-angry-at-iranian-negotiators-says-losing-faith-in-talks",
-      "published_at": "2026-08-01T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -1046,17 +724,23 @@ window.MAGEN_STATE = {
       "immediate": 20,
       "short": 19,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-08-02T04:33:55.400945Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-08-01T21:05:21.226302Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 9
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
