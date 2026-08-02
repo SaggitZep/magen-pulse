@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-02T18:42:48.520734Z",
+  "generated_at": "2026-08-02T19:59:04.520866Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 26,
-      "low": 13,
-      "high": 39,
-      "confidence": 68,
+      "score": 33,
+      "low": 20,
+      "high": 46,
+      "confidence": 65,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 30,
-      "low": 17,
-      "high": 43,
-      "confidence": 68,
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 65,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 30,
-      "low": 17,
-      "high": 43,
-      "confidence": 68,
+      "score": 33,
+      "low": 20,
+      "high": 46,
+      "confidence": 65,
       "status": "מוגבר"
     }
   },
@@ -35,14 +35,22 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -7
+    "level": "עלייה מהירה",
+    "points_60m": 7
   },
   "changes": [
     {
+      "time": "21:30",
+      "text": "Israel , US military learnt Trump cancelled Iran strike through social media : Report",
+      "impact": "השפעה מיידית מחושבת: +16.1",
+      "direction": "up",
+      "source": "timesofindia.indiatimes.com",
+      "signal_id": "dbd42ab844d44bb8"
+    },
+    {
       "time": "19:15",
       "text": "U . S ., Israel strikes in Iran on hold on promise of peace deal : Trump",
-      "impact": "השפעה מיידית מחושבת: +12.2",
+      "impact": "השפעה מיידית מחושבת: +8.5",
       "direction": "up",
       "source": "nationalpost.com",
       "signal_id": "8dd97b4c78db0ca2"
@@ -50,29 +58,52 @@ window.MAGEN_STATE = {
     {
       "time": "19:00",
       "text": "Trump says US , Israel to hold off on Iran strikes",
-      "impact": "השפעה מיידית מחושבת: +11.4",
+      "impact": "השפעה מיידית מחושבת: +7.9",
       "direction": "up",
       "source": "torontosun.com",
       "signal_id": "5480b187a4d23a7f"
     },
     {
-      "time": "21:15",
-      "text": "Iranian FM warns Britain against cooperation with U . S . strikes on Iran",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "time": "22:30",
+      "text": "השר אלי כהן :  אם איראן תנסה לחדש את תוכנית הטילים - נתקוף",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "theuknews.com",
-      "signal_id": "44b2898c74fb41eb"
-    },
-    {
-      "time": "21:15",
-      "text": "Trump holds off Iran strikes on pledge a Hormuz deal is close",
-      "impact": "השפעה מיידית מחושבת: +1.5",
-      "direction": "up",
-      "source": "stripes.com",
-      "signal_id": "7f2b7f98e6f0ad76"
+      "source": "maariv.co.il",
+      "signal_id": "004fa3ba6d33742d"
     }
   ],
   "signals": [
+    {
+      "id": "dbd42ab844d44bb8",
+      "name": "Israel , US military learnt Trump cancelled Iran strike through social media : Report",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dbd42ab844d44bb8",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.654,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/israel-us-military-learnt-trump-cancelled-iran-strike-through-social-media-report/articleshow/132810857.cms",
+      "published_at": "2026-08-02T18:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 16.1,
+        "short": 12.6,
+        "extended": 5.3
+      }
+    },
     {
       "id": "8dd97b4c78db0ca2",
       "name": "U . S ., Israel strikes in Iran on hold on promise of peace deal : Trump",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8dd97b4c78db0ca2",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.495,
+      "freshness": 0.344,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 12.2,
-        "short": 9.5,
-        "extended": 4.0
+        "immediate": 8.5,
+        "short": 6.6,
+        "extended": 2.8
       }
     },
     {
@@ -114,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5480b187a4d23a7f",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.461,
+      "freshness": 0.32,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -130,9 +161,133 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.4,
-        "short": 8.9,
-        "extended": 3.8
+        "immediate": 7.9,
+        "short": 6.2,
+        "extended": 2.6
+      }
+    },
+    {
+      "id": "004fa3ba6d33742d",
+      "name": "השר אלי כהן :  אם איראן תנסה לחדש את תוכנית הטילים - נתקוף",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "004fa3ba6d33742d",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.871,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "maariv.co.il",
+      "url": "https://www.maariv.co.il/news/politics/article-1351432",
+      "published_at": "2026-08-02T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.0,
+        "extended": 10.3
+      }
+    },
+    {
+      "id": "c6aa58c6f27fbb53",
+      "name": "Trump says he will halt Iran strikes after parameters reached on deal to end war",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c6aa58c6f27fbb53",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.871,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "10news.com",
+      "url": "https://www.10news.com/us-news/iran-war/trump-says-he-will-order-halt-to-iran-strikes-after-parameters-reached-for-deal-to-end-war",
+      "published_at": "2026-08-02T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "7fae2b04907bda6c",
+      "name": "U . S . agrees to pause attacks on Iran subject to making deal – NBC Los Angeles",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7fae2b04907bda6c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.871,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nbclosangeles.com",
+      "url": "https://www.nbclosangeles.com/news/national-international/us-agrees-pause-attacks-iran-deal-trump/3924764/",
+      "published_at": "2026-08-02T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "d4cafe2b7900726f",
+      "name": "Trump Says He Holding Off on Attack That Would Have Inflicted  Military Terror  on Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d4cafe2b7900726f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.871,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.antiwar.com",
+      "url": "https://news.antiwar.com/2026/08/02/trump-says-hes-holding-off-on-attack-that-would-have-inflicted-military-terror-on-iran/",
+      "published_at": "2026-08-02T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
       }
     },
     {
@@ -145,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "44b2898c74fb41eb",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.876,
+      "freshness": 0.609,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +316,71 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.7,
-        "extended": 9.7
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "a05df69ee7fba5a9",
+      "name": "Iran Denies Halt to US Attack , Strait of Hormuz Closed",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a05df69ee7fba5a9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.703,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "pakistantoday.com.pk",
+      "url": "https://www.pakistantoday.com.pk/2026/08/02/iran-denies-seeking-halt-to-us-attacks-agreement-to-reopen-strait-of-hormuz",
+      "published_at": "2026-08-02T18:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 6.9
+      }
+    },
+    {
+      "id": "5b06ce43e76387bf",
+      "name": "הציוץ ששינה הכל : פרטים חדשים על ביטול התקיפה באיראן • ביקורת :  פעם שנייה שמבטל תקיפה בלי הסבר",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5b06ce43e76387bf",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.654,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ch10.co.il",
+      "url": "https://ch10.co.il/news/1091169/",
+      "published_at": "2026-08-02T18:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
       }
     },
     {
@@ -176,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7f2b7f98e6f0ad76",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.876,
+      "freshness": 0.609,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,71 +409,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
-      }
-    },
-    {
-      "id": "5ea38eeaaf380297",
-      "name": "U . S . agrees to pause attacks on Iran subject to making deal – NBC10 Philadelphia",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5ea38eeaaf380297",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.876,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nbcphiladelphia.com",
-      "url": "https://www.nbcphiladelphia.com/news/national-international/us-agrees-pause-attacks-iran-deal-trump/4442362/",
-      "published_at": "2026-08-02T18:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
-      }
-    },
-    {
-      "id": "a4f61008a3ea9b05",
-      "name": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a4f61008a3ea9b05",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.816,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "local10.com",
-      "url": "https://www.local10.com/news/world/2026/08/02/trump-says-he-will-order-halt-to-iran-strikes-after-parameters-reached-for-deal-to-end-war/",
-      "published_at": "2026-08-02T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
       }
     },
     {
@@ -269,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e6c952b628508257",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.816,
+      "freshness": 0.567,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +440,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       }
     },
     {
@@ -300,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bd96674a9ff35713",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.816,
+      "freshness": 0.567,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,9 +471,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       }
     },
     {
@@ -331,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2e394f893ae86e0b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.759,
+      "freshness": 0.528,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,9 +502,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
       }
     },
     {
@@ -362,7 +517,7 @@ window.MAGEN_STATE = {
       "dependency_group": "317b1fc2d7cab410",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.759,
+      "freshness": 0.528,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,9 +533,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
       }
     },
     {
@@ -393,7 +548,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d53bed1fd9a01a53",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.759,
+      "freshness": 0.528,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,9 +564,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
       }
     },
     {
@@ -424,7 +579,7 @@ window.MAGEN_STATE = {
       "dependency_group": "01edfbd2b55d7f0d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.759,
+      "freshness": 0.528,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,9 +595,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
       }
     },
     {
@@ -455,7 +610,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b6b8722376ef7a25",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.759,
+      "freshness": 0.528,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,9 +626,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
       }
     },
     {
@@ -486,7 +641,7 @@ window.MAGEN_STATE = {
       "dependency_group": "44d8e2719d6a1a4e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.759,
+      "freshness": 0.528,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,9 +657,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
       }
     },
     {
@@ -517,7 +672,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7120bd86c3e6b539",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.759,
+      "freshness": 0.528,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,40 +688,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
-    },
-    {
-      "id": "b30415d105d54e45",
-      "name": "U . S . agrees to pause attacks on Iran subject to making deal – NBC 7 San Diego",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b30415d105d54e45",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.707,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nbcsandiego.com",
-      "url": "https://www.nbcsandiego.com/news/national-international/us-agrees-pause-attacks-iran-deal-trump/4056268/",
-      "published_at": "2026-08-02T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
       }
     },
     {
@@ -579,7 +703,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6860f79c639693ee",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.658,
+      "freshness": 0.458,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -595,9 +719,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
       }
     },
     {
@@ -610,7 +734,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c55781bb1f845a5f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.531,
+      "freshness": 0.37,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -626,9 +750,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
@@ -641,7 +765,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6363a9e79b12c1db",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.613,
+      "freshness": 0.426,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -657,9 +781,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     },
     {
@@ -672,7 +796,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9370e8820a234c2e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.571,
+      "freshness": 0.397,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -688,9 +812,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     },
     {
@@ -703,7 +827,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7ccb3790225158bf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.571,
+      "freshness": 0.397,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -719,53 +843,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     },
     {
-      "id": "04db522b4d24207c",
-      "name": "Trump says deal to end Iran war may be imminent , agrees to  cancel the attack",
+      "id": "34ce180fa52fddd2",
+      "name": "Trump says he cancelling Iran strikes , deal pending",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "04db522b4d24207c",
-      "strength": 0.6,
-      "reliability": 0.56,
-      "freshness": 0.372,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yahoo.com",
-      "url": "https://www.yahoo.com/news/politics/articles/trump-says-deal-end-iran-031144196.html",
-      "published_at": "2026-08-02T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "1289310e83671f85",
-      "name": "Trump holds off strikes on Iran , says parameters reached on deal to end war - National",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1289310e83671f85",
+      "dependency_group": "34ce180fa52fddd2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.461,
+      "freshness": 0.397,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -776,76 +869,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12006799/us-no-strikes-possible-iran-deal/",
-      "published_at": "2026-08-02T16:00:00Z",
+      "source": "wunc.org",
+      "url": "https://www.wunc.org/2026-08-02/trump-says-hes-cancelling-iran-strikes-deal-pending",
+      "published_at": "2026-08-02T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "c4d7cf2bcef059f6",
-      "name": "Britain warned Iran sleeper cells  waiting to carry out attack  - threat level severe",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c4d7cf2bcef059f6",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.429,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aol.co.uk",
-      "url": "https://www.aol.co.uk/articles/britain-warned-iran-sleeper-cells-151700000.html",
-      "published_at": "2026-08-02T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
-    },
-    {
-      "id": "274c4615dbb83e78",
-      "name": "Britain warned Iran sleeper cells  waiting to carry out attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "274c4615dbb83e78",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.461,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "express.co.uk",
-      "url": "https://www.express.co.uk/news/world/2233554/warning-uk-sleeper-cells-andy-burnham",
-      "published_at": "2026-08-02T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     },
     {
@@ -858,7 +889,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f6dff3ecfa386509",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.495,
+      "freshness": 0.344,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -874,9 +905,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       }
     },
     {
@@ -889,7 +920,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8fdafecf6b59ef78",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.495,
+      "freshness": 0.344,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -905,9 +936,71 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-02T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
+    },
+    {
+      "id": "1289310e83671f85",
+      "name": "Trump holds off strikes on Iran , says parameters reached on deal to end war - National",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1289310e83671f85",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.32,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "globalnews.ca",
+      "url": "https://globalnews.ca/news/12006799/us-no-strikes-possible-iran-deal/",
+      "published_at": "2026-08-02T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
+      }
+    },
+    {
+      "id": "274c4615dbb83e78",
+      "name": "Britain warned Iran sleeper cells  waiting to carry out attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "274c4615dbb83e78",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.32,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "express.co.uk",
+      "url": "https://www.express.co.uk/news/world/2233554/warning-uk-sleeper-cells-andy-burnham",
+      "published_at": "2026-08-02T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       }
     },
     {
@@ -920,7 +1013,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7571db56b8b6f153",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.461,
+      "freshness": 0.32,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -934,192 +1027,6 @@ window.MAGEN_STATE = {
       "source": "grenadachronicle.com",
       "url": "https://grenadachronicle.com/no-breakthrough-on-strait-of-hormuz-as-trump-halts-attack-on-iran/",
       "published_at": "2026-08-02T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "aa4e67737250aa82",
-      "name": "Trump Says Hell Halt Planned Iran Strikes , Citing Deal On Hormuz Reopening , Nuclear Threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "aa4e67737250aa82",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.372,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hngn.com",
-      "url": "https://www.hngn.com/articles/272531/20260802/trump-says-hell-halt-planned-iran-strikes-citing-deal-hormuz-reopening-nuclear-threat.htm",
-      "published_at": "2026-08-02T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "73aba3dc0969621a",
-      "name": "Iran : US Threats  Real , Noteworthy  | Hormuz Deal Denied",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "73aba3dc0969621a",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.322,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newkerala.com",
-      "url": "https://www.newkerala.com/news/a/iran-says-it-perceives-every-enemy-threat-as-418.htm",
-      "published_at": "2026-08-02T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
-    },
-    {
-      "id": "ade1ed440695bc01",
-      "name": "Tehran perceives every  enemy  threat as  real and noteworthy , denies Hormuz reopening deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ade1ed440695bc01",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.322,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "orissapost.com",
-      "url": "https://www.orissapost.com/tehran-perceives-every-enemy-threat-as-real-and-noteworthy-denies-hormuz-reopening-deal/",
-      "published_at": "2026-08-02T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
-    },
-    {
-      "id": "65f389feeb2be22e",
-      "name": "Trump says planned Iran strikes canceled after  perimeter of new deal agreed",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "65f389feeb2be22e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.372,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "clevelandjewishnews.com",
-      "url": "https://www.clevelandjewishnews.com/jns/trump-says-planned-iran-strikes-canceled-after-perimeters-of-new-deal-agreed/article_0c22f4d5-0e5d-537f-a80c-e64aa32b685b.html",
-      "published_at": "2026-08-02T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    },
-    {
-      "id": "aebfe509c464b578",
-      "name": "You lied , we didnt ask US not to strike , Iran fires back at Trump",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "aebfe509c464b578",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.322,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "tribuneonlineng.com",
-      "url": "https://tribuneonlineng.com/you-lied-we-didnt-ask-us-not-to-strike-iran-fires-back-at-trump/",
-      "published_at": "2026-08-02T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      }
-    },
-    {
-      "id": "90c31d85d73a845f",
-      "name": "The Persian Gulf after the US : Saudi Arabia puts brakes on Trump over large scale attack on Iran and gives role to China and Russia",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "90c31d85d73a845f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.322,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bankingnews.gr",
-      "url": "https://www.bankingnews.gr/diethni/articles/891845/the-persian-gulf-after-the-us-saudi-arabia-puts-brakes-on-trump-over-large-scale-attack-on-iran-and-gives-role-to-china-and-russia",
-      "published_at": "2026-08-02T14:45:00Z",
       "active": true,
       "computed": {
         "immediate": 0.5,
@@ -1872,17 +1779,23 @@ window.MAGEN_STATE = {
       "immediate": 26,
       "short": 30,
       "extended": 30
+    },
+    {
+      "timestamp": "2026-08-02T19:59:04.520866Z",
+      "immediate": 33,
+      "short": 34,
+      "extended": 33
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-02T18:42:48.520734Z",
+    "last_success": "2026-08-02T19:59:04.520866Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 34
+        "relevant": 31
       },
       "manual": {
         "ok": true,
