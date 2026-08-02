@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-02T09:29:18.425725Z",
+  "generated_at": "2026-08-02T11:04:51.564746Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 19,
-      "low": 2,
-      "high": 36,
+      "score": 9,
+      "low": 0,
+      "high": 26,
       "confidence": 46,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 20,
-      "low": 3,
-      "high": 37,
-      "confidence": 45,
+      "score": 10,
+      "low": 0,
+      "high": 27,
+      "confidence": 46,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 1,
-      "high": 35,
-      "confidence": 45,
+      "score": 11,
+      "low": 0,
+      "high": 28,
+      "confidence": 46,
       "status": "נמוך"
     }
   },
@@ -36,29 +36,21 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -15
+    "points_60m": -10
   },
   "changes": [
     {
       "time": "09:45",
       "text": "Trump : Mideast Allies Near Iran Deal , US , Israel to Stop Strikes",
-      "impact": "השפעה מיידית מחושבת: +11.3",
+      "impact": "השפעה מיידית מחושבת: +7.1",
       "direction": "up",
       "source": "deccanchronicle.com",
       "signal_id": "37605c341861ce31"
     },
     {
-      "time": "08:00",
-      "text": "Perimeters of a deal has been agreed to : Trump cancels planned attacks on Iran , brings Israel into fold",
-      "impact": "השפעה מיידית מחושבת: +6.8",
-      "direction": "up",
-      "source": "israelherald.com",
-      "signal_id": "5972acb6cdfa4bbe"
-    },
-    {
       "time": "10:00",
       "text": "Trump says US to hold off attack on Iran",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "china.org.cn",
       "signal_id": "6998a3a4742a3964"
@@ -66,10 +58,18 @@
     {
       "time": "09:45",
       "text": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "elpasoinc.com",
       "signal_id": "a4f61008a3ea9b05"
+    },
+    {
+      "time": "09:45",
+      "text": "Trump says Mideast allies have reached outlines of deal to end Iran war , says US to stop new strikes",
+      "impact": "השפעה מיידית מחושבת: +0.5",
+      "direction": "up",
+      "source": "twincities.com",
+      "signal_id": "192559fbc719720e"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@
       "dependency_group": "37605c341861ce31",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.457,
+      "freshness": 0.29,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,41 +99,9 @@
       "published_at": "2026-08-02T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.3,
-        "short": 8.8,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5972acb6cdfa4bbe",
-      "name": "Perimeters of a deal has been agreed to : Trump cancels planned attacks on Iran , brings Israel into fold",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5972acb6cdfa4bbe",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.277,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "israelherald.com",
-      "url": "http://www.israelherald.com/news/279219091/perimeters-of-a-deal-has-been-agreed-to-trump-cancels-planned-attacks-on-iran-brings-israel-into-fold",
-      "published_at": "2026-08-02T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 6.8,
-        "short": 5.3,
-        "extended": 2.3
+        "immediate": 7.1,
+        "short": 5.6,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -147,7 +115,7 @@
       "dependency_group": "6998a3a4742a3964",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.491,
+      "freshness": 0.312,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +131,9 @@
       "published_at": "2026-08-02T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -179,7 +147,7 @@
       "dependency_group": "a4f61008a3ea9b05",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.457,
+      "freshness": 0.29,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +163,9 @@
       "published_at": "2026-08-02T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -211,7 +179,7 @@
       "dependency_group": "192559fbc719720e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.457,
+      "freshness": 0.29,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +195,9 @@
       "published_at": "2026-08-02T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -243,7 +211,7 @@
       "dependency_group": "c0d18694c2c9e4de",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.457,
+      "freshness": 0.29,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +227,9 @@
       "published_at": "2026-08-02T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -275,7 +243,7 @@
       "dependency_group": "868a341937384bc9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.457,
+      "freshness": 0.29,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +259,9 @@
       "published_at": "2026-08-02T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -307,7 +275,7 @@
       "dependency_group": "557a2889b5609914",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.457,
+      "freshness": 0.29,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,809 +291,9 @@
       "published_at": "2026-08-02T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "467c24a92578d75e",
-      "name": "Donald Trump cancels planned attack on Iran , calls for immediate deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "467c24a92578d75e",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.277,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "http://www.jpost.com/middle-east/iran-news/article-904286",
-      "published_at": "2026-08-02T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "677cc57e768bb5ca",
-      "name": "Trump backs off from new strikes on Iran , claiming Mideast allies have outlines of Hormuz deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "677cc57e768bb5ca",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.277,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "fortune.com",
-      "url": "https://fortune.com/2026/08/01/trump-iran-strikes-mideast-allies-emerging-strait-of-hormuz/",
-      "published_at": "2026-08-02T05:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "af12acb49a8e85ca",
-      "name": "Trump Says US Suspends Planned Iran Strike Pending Hormuz , Nuclear Deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "af12acb49a8e85ca",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.277,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "khaama.com",
-      "url": "https://www.khaama.com/trump-says-us-suspends-planned-iran-strike-pending-hormuz-nuclear-deal/",
-      "published_at": "2026-08-02T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "30b738a6f2d0c450",
-      "name": "טראמפ : ביטלתי את המתקפה באיראן לבקשתה ולבקשת מדינות באזור",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "30b738a6f2d0c450",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.277,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "haaretz.co.il",
-      "url": "https://www.haaretz.co.il/news/politics/2026-08-02/ty-article/0000019f-c048-ded7-adbf-c1cb840b0000",
-      "published_at": "2026-08-02T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "aa56054a28970244",
-      "name": "Trump says he agreed to cancel planned attack on Iran due to pending deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "aa56054a28970244",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.277,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "komonews.com",
-      "url": "https://komonews.com/news/nation-world/trump-says-he-agreed-to-cancel-planned-attack-on-iran-due-to-pending-deal-peace-strait-of-hormuz-gasoline-gas-oil-fuel-nuclear-weapon-israel-united-states-military-troops-president-donald-trump",
-      "published_at": "2026-08-02T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7c72cca9e9dbb35c",
-      "name": "Trump cancels Iran strike , says  deal perimeter reached | Donald Trump News",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7c72cca9e9dbb35c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.277,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/news/2026/8/2/trump-cancels-iran-strike-says-deal-perimeters-reached",
-      "published_at": "2026-08-02T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d4dbededd2475465",
-      "name": "Trump Says Attack On Iran Paused For Negotiations | Newsradio WOOD 1300 and 106 . 9 FM",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d4dbededd2475465",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.277,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "woodradio.iheart.com",
-      "url": "https://woodradio.iheart.com/content/2026-08-02-trump-says-attack-on-iran-paused-for-negotiations/",
-      "published_at": "2026-08-02T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f3aefe9c8a3c8181",
-      "name": "US advises Americans to leave Middle East as Trump warns of more Iran strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f3aefe9c8a3c8181",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.208,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/us-advises-americans-to-leave-middle-east-as-trump-warns-of-more-iran-strikes-article-13991122.html",
-      "published_at": "2026-08-02T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6388516adbf8fce3",
-      "name": "Trump threatens more strikes on Iran ; Iranian FM warns US",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6388516adbf8fce3",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.208,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "siasat.com",
-      "url": "https://www.siasat.com/trump-threatens-more-strikes-on-iran-iranian-fm-warns-us-3517323/",
-      "published_at": "2026-08-02T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ca5dba162edbeed6",
-      "name": "Iran war deal taking shape , US to stop new strikes : Trump",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ca5dba162edbeed6",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.208,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "siasat.com",
-      "url": "https://www.siasat.com/iran-war-deal-taking-shape-us-to-stop-new-strikes-trump-3517340/",
-      "published_at": "2026-08-02T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c766c86db0807ab3",
-      "name": "Trump says he will hold off on fresh Iran attack in hope of quick deal - Middle East and Africa",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c766c86db0807ab3",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.208,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thejakartapost.com",
-      "url": "http://www.thejakartapost.com/world/2026/08/02/trump-says-he-will-hold-off-on-fresh-iran-attack-in-hope-of-quick-deal",
-      "published_at": "2026-08-02T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5739d4c44cb5becf",
-      "name": "Trump says US agrees to hold off Iran attack as deal takes shape , cites Hormuz reopening",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5739d4c44cb5becf",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.208,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "prokerala.com",
-      "url": "https://www.prokerala.com/news/articles/a1795387.html",
-      "published_at": "2026-08-02T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3c87d1c7b4ea8cd8",
-      "name": "Iran Warns US Against Fresh Strikes in Talks with Pakistan and Turkey",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3c87d1c7b4ea8cd8",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.194,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "deccanchronicle.com",
-      "url": "https://www.deccanchronicle.com/west-asia/iran-warns-us-against-fresh-strikes-during-talks-with-pakistan-and-turkey-1975909",
-      "published_at": "2026-08-02T03:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "846debc30054d914",
-      "name": "Iran warns against US attacks in calls with Pakistan , Turkiye , Saudi Arabia",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "846debc30054d914",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.194,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dunyanews.tv",
-      "url": "https://dunyanews.tv/en/World/965837-iran-warns-against-us-attacks-in-calls-with-pakistan-turkiye-saudi-a",
-      "published_at": "2026-08-02T03:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a23d7b7553e80e08",
-      "name": "US will hold off on Iran attacks in hope of quick deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a23d7b7553e80e08",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.208,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailyadvertiser.com.au",
-      "url": "https://www.dailyadvertiser.com.au/story/9322027/us-will-hold-off-on-iran-attacks-in-hope-of-quick-deal/",
-      "published_at": "2026-08-02T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f9cda4910d7ddc46",
-      "name": "Trump Claims US - Iran Reach Framework Deal To End Nuclear Program , Says Countries Have Reached  Parameters Of A Deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f9cda4910d7ddc46",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.208,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "freepressjournal.in",
-      "url": "https://www.freepressjournal.in/india/trump-claims-us-iran-reach-framework-deal-to-end-nuclear-program-says-countries-have-reached-parameters-of-a-deal",
-      "published_at": "2026-08-02T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9c3786ed74fd7a68",
-      "name": "Saudi crown prince voices concern to Trump over strikes on Iran - Xinhua",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9c3786ed74fd7a68",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.208,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "english.news.cn",
-      "url": "https://english.news.cn/northamerica/20260802/8ab228a92d3f4b7f8062e4557572ff97/c.html",
-      "published_at": "2026-08-02T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "89851cb8a189161f",
-      "name": "Report : Saudi Crown Prince urged Trump to avoid heavy airstrikes on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "89851cb8a189161f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.194,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "israelnationalnews.com",
-      "url": "https://www.israelnationalnews.com/news/431090",
-      "published_at": "2026-08-02T03:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "265feafd9f4d3bc2",
-      "name": "Iran war updates : US President Trump says Mideast allies have reached outlines of deal to end Iran war , US to stop new strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "265feafd9f4d3bc2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "abc13.com",
-      "url": "https://abc13.com/post/iran-war-updates-us-president-trump-threatens-more-strikes-tensions-hormuz-kuwait-gaza-lead-warnings/19612862/",
-      "published_at": "2026-08-02T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.0,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d033dbc2d9503c33",
-      "name": "Trump announces : I have agreed to cancel the attack on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d033dbc2d9503c33",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.194,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "israelnationalnews.com",
-      "url": "https://www.israelnationalnews.com/news/431091",
-      "published_at": "2026-08-02T03:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6e9746de7c5f9187",
-      "name": "Trump claims deal parameters reached to end Iran war , pauses new strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6e9746de7c5f9187",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/donald-trump-claims-deal-parameters-reached-to-end-us-iran-israel-war-pauses-new-strikes-strait-of-hormuz-101785637883275.html",
-      "published_at": "2026-08-02T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.0,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "dbf9748f5370ade2",
-      "name": "Trump hypes up planned Iran attack then cancels it citing last - minute deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "dbf9748f5370ade2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "rawstory.com",
-      "url": "https://www.rawstory.com/trump-iran-2677646649/",
-      "published_at": "2026-08-02T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.0,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1f4f2f6825d5fbf7",
-      "name": "Trump calls off planned weekend strikes on new Iran targets as he hints at shock deal to REOPEN Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1f4f2f6825d5fbf7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailymail.com",
-      "url": "https://www.dailymail.com/news/article-16022553/Trump-Iran-strikes-deal-Truth-Social-Israel.html",
-      "published_at": "2026-08-02T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.0,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5a4f917368a93145",
-      "name": "Trump  cancel Iran strikes as rapid deal aims to reopen Hormuz , curb nuclear threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5a4f917368a93145",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/us/trump-cancels-iran-strikes-as-rapid-deal-aims-to-reopen-hormuz-curb-nuclear-threat/articleshow/132799268.cms",
-      "published_at": "2026-08-02T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c1560f73e87b0d68",
-      "name": "Iran warns against further US attacks in talks with Pakistan and Turkey",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c1560f73e87b0d68",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "batonrougepost.com",
-      "url": "http://www.batonrougepost.com/news/279218996/iran-warns-against-further-us-attacks-in-talks-with-pakistan-and-turkey",
-      "published_at": "2026-08-02T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     }
@@ -1832,6 +1000,12 @@
       "immediate": 19,
       "short": 20,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-02T11:04:51.564746Z",
+      "immediate": 9,
+      "short": 10,
+      "extended": 11
     }
   ],
   "health": {
@@ -1842,7 +1016,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 33
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
