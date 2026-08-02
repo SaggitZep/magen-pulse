@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-01T23:14:29.881755Z",
+  "generated_at": "2026-08-02T01:02:58.573991Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 33,
-      "low": 17,
-      "high": 49,
-      "confidence": 49,
-      "status": "מוגבר"
+      "score": 20,
+      "low": 3,
+      "high": 37,
+      "confidence": 45,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 32,
-      "low": 16,
-      "high": 48,
-      "confidence": 49,
-      "status": "מוגבר"
+      "score": 19,
+      "low": 2,
+      "high": 36,
+      "confidence": 45,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 8,
-      "high": 40,
-      "confidence": 49,
-      "status": "מוגבר"
+      "score": 15,
+      "low": 0,
+      "high": 32,
+      "confidence": 45,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -10
+    "points_60m": -13
   },
   "changes": [
     {
       "time": "00:00",
       "text": "President Trump Vows Harder Strikes on Iran as Israel May Join , US Embassies Warn of Escalation",
-      "impact": "השפעה מיידית מחושבת: +13.0",
+      "impact": "השפעה מיידית מחושבת: +7.7",
       "direction": "up",
       "source": "themedialine.org",
       "signal_id": "7d674a72096780df"
@@ -50,26 +50,26 @@
     {
       "time": "23:30",
       "text": "Trump threatens more strikes on Iran as Israel carries out attacks in Gaza",
-      "impact": "השפעה מיידית מחושבת: +12.4",
+      "impact": "השפעה מיידית מחושבת: +7.4",
       "direction": "up",
       "source": "10news.com",
       "signal_id": "dde35508b754e048"
     },
     {
-      "time": "21:00",
-      "text": "Report : U . S . Short on Forces to Defend Israel From Iranian Missiles , General Warns",
-      "impact": "השפעה מיידית מחושבת: +9.9",
-      "direction": "up",
-      "source": "haaretz.com",
-      "signal_id": "33daa76f53f57911"
-    },
-    {
       "time": "22:15",
       "text": "גורם ישראלי :  טראמפ קרוב מתמיד למתקפה משמעותית באיראן , זה על סף התפוצצות",
-      "impact": "השפעה מיידית מחושבת: +7.9",
+      "impact": "השפעה מיידית מחושבת: +4.7",
       "direction": "up",
       "source": "ch10.co.il",
       "signal_id": "b658fabbabbdb3ed"
+    },
+    {
+      "time": "23:30",
+      "text": "Trump threatens more strikes on Iran ; tensions from Hormuz to Kuwait and Gaza lead to more warnings",
+      "impact": "השפעה מיידית מחושבת: +0.5",
+      "direction": "up",
+      "source": "adn.com",
+      "signal_id": "1757bcfb169e4f2a"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@
       "dependency_group": "7d674a72096780df",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.527,
+      "freshness": 0.314,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-01T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 13.0,
-        "short": 10.1,
-        "extended": 4.3
+        "immediate": 7.7,
+        "short": 6.0,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "dde35508b754e048",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.457,
+      "freshness": 0.273,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -131,41 +131,9 @@
       "published_at": "2026-08-01T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 12.4,
-        "short": 9.7,
-        "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "33daa76f53f57911",
-      "name": "Report : U . S . Short on Forces to Defend Israel From Iranian Missiles , General Warns",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "33daa76f53f57911",
-      "strength": 0.63,
-      "reliability": 0.8,
-      "freshness": 0.224,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "haaretz.com",
-      "url": "https://www.haaretz.com/israel-news/israel-security/2026-08-01/ty-article/report-u-s-lacks-forces-to-defend-israel-from-iranian-missiles-general-warns/0000019f-bd56-ded7-adbf-fddf0d070000",
-      "published_at": "2026-08-01T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 9.9,
-        "short": 7.7,
-        "extended": 3.3
+        "immediate": 7.4,
+        "short": 5.8,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -179,7 +147,7 @@
       "dependency_group": "b658fabbabbdb3ed",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.32,
+      "freshness": 0.191,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -195,41 +163,9 @@
       "published_at": "2026-08-01T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 7.9,
-        "short": 6.2,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a7476619c3a98ab5",
-      "name": "Iran War Day 155 : U . S . and Israel Planning Massive Attack , CBS News Reports",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a7476619c3a98ab5",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.224,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "theamericanconservative.com",
-      "url": "https://www.theamericanconservative.com/iran-war-day-155-u-s-and-israel-planning-massive-attack-cbs-news-reports/",
-      "published_at": "2026-08-01T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 5.5,
-        "short": 4.3,
-        "extended": 1.8
+        "immediate": 4.7,
+        "short": 3.7,
+        "extended": 1.6
       },
       "carried_forward": true
     },
@@ -243,7 +179,7 @@
       "dependency_group": "1757bcfb169e4f2a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.457,
+      "freshness": 0.273,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +195,9 @@
       "published_at": "2026-08-01T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -275,7 +211,7 @@
       "dependency_group": "4f9ad16ed549ae46",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.457,
+      "freshness": 0.273,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +227,9 @@
       "published_at": "2026-08-01T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -307,7 +243,7 @@
       "dependency_group": "de3ec8eefbecd39d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.457,
+      "freshness": 0.273,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +259,9 @@
       "published_at": "2026-08-01T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -339,7 +275,7 @@
       "dependency_group": "810a300c58ebf61b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.396,
+      "freshness": 0.236,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,41 +291,9 @@
       "published_at": "2026-08-01T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "573986247fab61d6",
-      "name": "Former advisor to Iran Supreme Leader threatens Israel , Gulf states",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "573986247fab61d6",
-      "strength": 0.45,
-      "reliability": 0.74,
-      "freshness": 0.298,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "http://www.jpost.com/middle-east/iran-news/article-904270",
-      "published_at": "2026-08-01T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -403,7 +307,7 @@
       "dependency_group": "7bfbb4c1614d840b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.396,
+      "freshness": 0.236,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -419,9 +323,9 @@
       "published_at": "2026-08-01T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.5,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -435,7 +339,7 @@
       "dependency_group": "d041b3e31d1a730c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.32,
+      "freshness": 0.191,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -451,73 +355,9 @@
       "published_at": "2026-08-01T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "545af8c0f97b069d",
-      "name": "Trump Threatens Further Strikes as Iran Conflict Deepens",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "545af8c0f97b069d",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.258,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newstalk1030.com",
-      "url": "https://www.newstalk1030.com/2026/08/01/trump-threatens-further-strikes-as-iran-conflict-deepens/",
-      "published_at": "2026-08-01T18:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "eb4b4c5e57b858ed",
-      "name": "Trump threatens strikes on Iran , other Mideast developments",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "eb4b4c5e57b858ed",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.194,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wsbradio.com",
-      "url": "https://www.wsbradio.com/news/world/trump-threatens-more/WRLSS3MNRAYANBHUC66UF4WURE/",
-      "published_at": "2026-08-01T17:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     }
@@ -1200,6 +1040,12 @@
       "immediate": 33,
       "short": 32,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-02T01:02:58.573991Z",
+      "immediate": 20,
+      "short": 19,
+      "extended": 15
     }
   ],
   "health": {
@@ -1210,7 +1056,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 14
+        "carried_forward": 9
       },
       "manual": {
         "ok": true,
