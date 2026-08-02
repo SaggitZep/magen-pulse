@@ -1,45 +1,1040 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-02T15:20:57.698858Z",
+  "mode": "live",
+  "generated_at": "2026-08-02T16:27:48.976100Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 33,
+      "low": 20,
+      "high": 46,
+      "confidence": 69,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 69,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 32,
+      "low": 19,
+      "high": 45,
+      "confidence": 69,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "זינוק חריג",
+    "points_60m": 33
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "19:00",
+      "text": "Trump says US , Israel to hold off on Iran strikes",
+      "impact": "השפעה מיידית מחושבת: +21.6",
+      "direction": "up",
+      "source": "torontosun.com",
+      "signal_id": "5480b187a4d23a7f"
+    },
+    {
+      "time": "16:15",
+      "text": "US Military General Cites Insufficient Forces to Protect  israel  From Iranian Threat",
+      "impact": "השפעה מיידית מחושבת: +10.8",
+      "direction": "up",
+      "source": "islamicinvitationturkey.com",
+      "signal_id": "2ade0e9c6624c656"
+    },
+    {
+      "time": "18:15",
+      "text": "Trump says deal to end Iran war may be imminent , agrees to  cancel the attack",
+      "impact": "השפעה מיידית מחושבת: +1.8",
+      "direction": "up",
+      "source": "yahoo.com",
+      "signal_id": "04db522b4d24207c"
+    },
+    {
+      "time": "18:45",
+      "text": "Britain warned Iran sleeper cells  waiting to carry out attack  - threat level severe",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "aol.co.uk",
+      "signal_id": "c4d7cf2bcef059f6"
+    }
+  ],
+  "signals": [
+    {
+      "id": "5480b187a4d23a7f",
+      "name": "Trump says US , Israel to hold off on Iran strikes",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5480b187a4d23a7f",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.876,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "torontosun.com",
+      "url": "https://torontosun.com/news/world/trump-says-us-israel-to-hold-off-on-iran-strikes",
+      "published_at": "2026-08-02T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 21.6,
+        "short": 16.8,
+        "extended": 7.1
+      }
+    },
+    {
+      "id": "2ade0e9c6624c656",
+      "name": "US Military General Cites Insufficient Forces to Protect  israel  From Iranian Threat",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2ade0e9c6624c656",
+      "strength": 0.55,
+      "reliability": 0.56,
+      "freshness": 0.399,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "islamicinvitationturkey.com",
+      "url": "https://www.islamicinvitationturkey.com/us-military-general-cites-insufficient-forces-to-protect-israel-from-iranian-threat/",
+      "published_at": "2026-08-02T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 10.8,
+        "short": 8.4,
+        "extended": 3.6
+      }
+    },
+    {
+      "id": "04db522b4d24207c",
+      "name": "Trump says deal to end Iran war may be imminent , agrees to  cancel the attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "04db522b4d24207c",
+      "strength": 0.6,
+      "reliability": 0.56,
+      "freshness": 0.707,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yahoo.com",
+      "url": "https://www.yahoo.com/news/politics/articles/trump-says-deal-end-iran-031144196.html",
+      "published_at": "2026-08-02T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.1,
+        "extended": 10.5
+      }
+    },
+    {
+      "id": "c4d7cf2bcef059f6",
+      "name": "Britain warned Iran sleeper cells  waiting to carry out attack  - threat level severe",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c4d7cf2bcef059f6",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.816,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aol.co.uk",
+      "url": "https://www.aol.co.uk/articles/britain-warned-iran-sleeper-cells-151700000.html",
+      "published_at": "2026-08-02T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.0
+      }
+    },
+    {
+      "id": "7f2b7f98e6f0ad76",
+      "name": "Trump Holds Off Iran Strikes on Pledge a Hormuz Deal Is Close",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7f2b7f98e6f0ad76",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.876,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "deccanchronicle.com",
+      "url": "https://www.deccanchronicle.com/world/trump-holds-off-iran-strikes-on-pledge-a-hormuz-deal-is-close-1976028",
+      "published_at": "2026-08-02T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "a4f61008a3ea9b05",
+      "name": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a4f61008a3ea9b05",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.876,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news8000.com",
+      "url": "https://www.news8000.com/news/politics/national-politics/trump-says-he-will-order-halt-to-iran-strikes-after-parameters-reached-for-deal-to/article_6cbac73f-ee52-5a60-bdea-f48eae7b911e.html",
+      "published_at": "2026-08-02T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "1289310e83671f85",
+      "name": "Trump holds off strikes on Iran , says parameters reached on deal to end war - National",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1289310e83671f85",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.876,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "globalnews.ca",
+      "url": "https://globalnews.ca/news/12006799/us-no-strikes-possible-iran-deal/",
+      "published_at": "2026-08-02T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "274c4615dbb83e78",
+      "name": "Britain warned Iran sleeper cells  waiting to carry out attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "274c4615dbb83e78",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.876,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "express.co.uk",
+      "url": "https://www.express.co.uk/news/world/2233554/warning-uk-sleeper-cells-andy-burnham",
+      "published_at": "2026-08-02T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "6363a9e79b12c1db",
+      "name": "Trump cancels Iran strikes , reports progress on potential deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6363a9e79b12c1db",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.876,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "koat.com",
+      "url": "https://www.koat.com/article/trump-iran-strikes-potential-deal/73326225",
+      "published_at": "2026-08-02T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "7571db56b8b6f153",
+      "name": "No breakthrough on Strait of Hormuz as Trump halts attack on Iran - Grenada Chronicle – Daily Grenada And Caribbean News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7571db56b8b6f153",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.876,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "grenadachronicle.com",
+      "url": "https://grenadachronicle.com/no-breakthrough-on-strait-of-hormuz-as-trump-halts-attack-on-iran/",
+      "published_at": "2026-08-02T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "aa4e67737250aa82",
+      "name": "Trump Says Hell Halt Planned Iran Strikes , Citing Deal On Hormuz Reopening , Nuclear Threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "aa4e67737250aa82",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.707,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/272531/20260802/trump-says-hell-halt-planned-iran-strikes-citing-deal-hormuz-reopening-nuclear-threat.htm",
+      "published_at": "2026-08-02T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.8
+      }
+    },
+    {
+      "id": "2e394f893ae86e0b",
+      "name": "Trump cancels planned attack on Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2e394f893ae86e0b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.707,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iraqsun.com",
+      "url": "http://www.iraqsun.com/news/279219347/trump-cancels-planned-attack-on-iran",
+      "published_at": "2026-08-02T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
+    },
+    {
+      "id": "73aba3dc0969621a",
+      "name": "Iran : US Threats  Real , Noteworthy  | Hormuz Deal Denied",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "73aba3dc0969621a",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.613,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newkerala.com",
+      "url": "https://www.newkerala.com/news/a/iran-says-it-perceives-every-enemy-threat-as-418.htm",
+      "published_at": "2026-08-02T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "ade1ed440695bc01",
+      "name": "Tehran perceives every  enemy  threat as  real and noteworthy , denies Hormuz reopening deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ade1ed440695bc01",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.613,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "orissapost.com",
+      "url": "https://www.orissapost.com/tehran-perceives-every-enemy-threat-as-real-and-noteworthy-denies-hormuz-reopening-deal/",
+      "published_at": "2026-08-02T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "317b1fc2d7cab410",
+      "name": "Tehran Did Not Ask Trump To Halt Attacks , Says Iranian Media",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "317b1fc2d7cab410",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.707,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iraqsun.com",
+      "url": "http://www.iraqsun.com/news/279219579/tehran-did-not-ask-trump-to-halt-attacks-says-iranian-media",
+      "published_at": "2026-08-02T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
+    },
+    {
+      "id": "65f389feeb2be22e",
+      "name": "Trump says planned Iran strikes canceled after  perimeter of new deal agreed",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "65f389feeb2be22e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.707,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "clevelandjewishnews.com",
+      "url": "https://www.clevelandjewishnews.com/jns/trump-says-planned-iran-strikes-canceled-after-perimeters-of-new-deal-agreed/article_0c22f4d5-0e5d-537f-a80c-e64aa32b685b.html",
+      "published_at": "2026-08-02T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
+    },
+    {
+      "id": "fdfc0c4210206669",
+      "name": "Iran Defence Minister calls every threat to country as  real and significant",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fdfc0c4210206669",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.613,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260802/4482306.html",
+      "published_at": "2026-08-02T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "61785d8270c83522",
+      "name": "Iran signaled it would allow Hormuz to reopen before Trump called off attacks : report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "61785d8270c83522",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.571,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nypost.com",
+      "url": "https://nypost.com/2026/08/02/us-news/iran-signaled-it-would-allow-hormuz-to-reopen-before-trump-called-off-attacks-report/",
+      "published_at": "2026-08-02T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
+    {
+      "id": "aebfe509c464b578",
+      "name": "You lied , we didnt ask US not to strike , Iran fires back at Trump",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "aebfe509c464b578",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.613,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tribuneonlineng.com",
+      "url": "https://tribuneonlineng.com/you-lied-we-didnt-ask-us-not-to-strike-iran-fires-back-at-trump/",
+      "published_at": "2026-08-02T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "c0d18694c2c9e4de",
+      "name": "Trump says he will hold off on fresh Iran attack in hope of quick deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c0d18694c2c9e4de",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.613,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sowetan.co.za",
+      "url": "https://www.sowetan.co.za/news/world/2026-08-02-trump-says-he-will-hold-off-on-fresh-iran-attack-in-hope-of-quick-deal/",
+      "published_at": "2026-08-02T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "b6b8722376ef7a25",
+      "name": "Trump backs off planned strikes , Iran denies a deal is in place",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b6b8722376ef7a25",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.613,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "upi.com",
+      "url": "https://www.upi.com/Top_News/US/2026/08/02/trump-backs-off-strikes/5961785677503/",
+      "published_at": "2026-08-02T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "90c31d85d73a845f",
+      "name": "The Persian Gulf after the US : Saudi Arabia puts brakes on Trump over large scale attack on Iran and gives role to China and Russia",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "90c31d85d73a845f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.613,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bankingnews.gr",
+      "url": "https://www.bankingnews.gr/diethni/articles/891845/the-persian-gulf-after-the-us-saudi-arabia-puts-brakes-on-trump-over-large-scale-attack-on-iran-and-gives-role-to-china-and-russia",
+      "published_at": "2026-08-02T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "099c0f90eae8c72f",
+      "name": "Coward Trump Suspends so - called  WWII - Level  Attack Plans on Iran as Diplomatic Efforts Intensify ; Tehran Issues Threat of Unrestrained Counteraction",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "099c0f90eae8c72f",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.399,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "islamicinvitationturkey.com",
+      "url": "https://www.islamicinvitationturkey.com/coward-trump-suspends-so-called-wwii-level-attack-plans-on-iran-as-diplomatic-efforts-intensify-tehran-issues-threat-of-unrestrained-counteraction/",
+      "published_at": "2026-08-02T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "8345784a722e63da",
+      "name": "Trump cancels planned attack on Iran , saying he reached an agreement over the  perimeters of a deal  – Ya Libnan",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8345784a722e63da",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.461,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yalibnan.com",
+      "url": "https://yalibnan.com/2026/08/02/trump-cancels-planned-attack-on-iran-saying-he-reached-an-agreement-over-the-perimeters-of-a-deal/",
+      "published_at": "2026-08-02T13:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      }
+    },
+    {
+      "id": "88a80ea32b7e33bf",
+      "name": "What did Saudi Crown Prince Mohammed bin Salman tell Trump that prompted a pause in US strikes on Iran ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "88a80ea32b7e33bf",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.461,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "livemint.com",
+      "url": "https://www.livemint.com/news/us-news/saudi-crown-prince-calls-on-trump-to-avoid-new-iran-strikes-pursue-diplomacy-to-prevent-wider-middle-east-war-report-11785670259301.html",
+      "published_at": "2026-08-02T13:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      }
+    },
+    {
+      "id": "70ca31ce4c4fc0db",
+      "name": "Fool has run out of steam ! Iranian media trolls Trump after he calls off strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "70ca31ce4c4fc0db",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.461,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "livemint.com",
+      "url": "https://www.livemint.com/news/world/fool-has-run-out-of-steam-iranian-media-trolls-donald-trump-after-he-calls-off-strikes-11785671055953.html",
+      "published_at": "2026-08-02T13:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      }
+    },
+    {
+      "id": "2027908838da62d8",
+      "name": "US embassies warn Americans as Iran threatens more choke points | Jefferson City News Tribune",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2027908838da62d8",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.399,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newstribune.com",
+      "url": "https://www.newstribune.com/news/2026/aug/02/us-embassies-warn-americans-as-iran-threatens/",
+      "published_at": "2026-08-02T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "81ad6136cd2221ad",
+      "name": "Roundup : Trump says U . S . to hold off attack on Iran amid conflicting claims",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "81ad6136cd2221ad",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.461,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "southeastasiapost.com",
+      "url": "http://www.southeastasiapost.com/news/279219230/roundup-trump-says-us-to-hold-off-attack-on-iran-amid-conflicting-claims",
+      "published_at": "2026-08-02T13:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      }
+    },
+    {
+      "id": "454627c82fcb81e4",
+      "name": "Iran Us News , डोनाल्ड ट्रंप का नया झूठ , अमेरिका से हमले रोकने की गुहार लगाने का दावा ईरान ने किया खारिज , कहा - हम पीछे नहीं हटेंगे - tehran media denies donald trump claim that iran asked us to stop strikes - Asian co",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "454627c82fcb81e4",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.495,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "navbharattimes.indiatimes.com",
+      "url": "https://navbharattimes.indiatimes.com/world/asian-countries/tehran-media-denies-donald-trump-claim-that-iran-asked-us-to-stop-strikes/articleshow/132807257.cms",
+      "published_at": "2026-08-02T14:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      }
+    },
+    {
+      "id": "3ff71d07fdb4558c",
+      "name": "Iran says perceives every  enemy  threat as  noteworthy , denies deal on reopening Hormuz Strait - Xinhua",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3ff71d07fdb4558c",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.322,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "english.news.cn",
+      "url": "https://english.news.cn/20260802/49eee40b8ba74557932737b0135cbaa9/c.html",
+      "published_at": "2026-08-02T12:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
+    },
+    {
+      "id": "18a975791fe74d22",
+      "name": "NOW : President Trump Calls off U . S . Military Strikes Against Iran | News Radio 1200 WOAI",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "18a975791fe74d22",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.322,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "woai.iheart.com",
+      "url": "https://woai.iheart.com/featured/san-antonios-first-news/content/2026-08-02-now-president-trump-calls-off-us-military-strikes-against-iran/",
+      "published_at": "2026-08-02T12:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -766,17 +1761,23 @@
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-08-02T16:27:48.976100Z",
+      "immediate": 33,
+      "short": 34,
+      "extended": 32
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-08-02T07:18:59.329257Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-02T16:27:48.976100Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 31
       },
       "manual": {
         "ok": true,
