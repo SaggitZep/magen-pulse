@@ -1,45 +1,668 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-03T14:31:44.517809Z",
+  "mode": "live",
+  "generated_at": "2026-08-03T16:58:10.017391Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 4,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 17,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 68,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 4
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "19:15",
+      "text": "The seven times Trump threatened Iran before pulling back",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "independent.co.uk",
+      "signal_id": "baaee1c442a08ece"
+    },
+    {
+      "time": "19:30",
+      "text": "Trump says Gulf leaders persuaded him to hold off on Iran strikes",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "naharnet.com",
+      "signal_id": "8c3f80e75effeadb"
+    },
+    {
+      "time": "19:15",
+      "text": "A new Houthi front and expanded Iranian attacks risk sinking Gulf nation choke - point workaround and widening shipping risks | National",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "hometownregister.com",
+      "signal_id": "690bfe69ac3cf22c"
+    },
+    {
+      "time": "19:15",
+      "text": "US military asks personnel for  creative and unconventional  ideas to punish Iran",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "ynetnews.com",
+      "signal_id": "c9011423ddf5412a"
+    }
+  ],
+  "signals": [
+    {
+      "id": "baaee1c442a08ece",
+      "name": "The seven times Trump threatened Iran before pulling back",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "baaee1c442a08ece",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.814,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "independent.co.uk",
+      "url": "https://www.independent.co.uk/news/world/middle-east/donald-trump-iran-attacks-negotiations-hormuz-b3026419.html",
+      "published_at": "2026-08-03T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.0
+      }
+    },
+    {
+      "id": "8c3f80e75effeadb",
+      "name": "Trump says Gulf leaders persuaded him to hold off on Iran strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8c3f80e75effeadb",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.874,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "naharnet.com",
+      "url": "https://www.naharnet.com/stories/en/321610-trump-says-gulf-leaders-persuaded-him-to-hold-off-on-iran-strikes",
+      "published_at": "2026-08-03T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "690bfe69ac3cf22c",
+      "name": "A new Houthi front and expanded Iranian attacks risk sinking Gulf nation choke - point workaround and widening shipping risks | National",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "690bfe69ac3cf22c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.814,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hometownregister.com",
+      "url": "https://www.hometownregister.com/news/national/a-new-houthi-front-and-expanded-iranian-attacks-risk-sinking-gulf-nations-choke-point-workaround/article_7eae462e-d53b-522e-96a1-665c1c957339.html",
+      "published_at": "2026-08-03T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "c9011423ddf5412a",
+      "name": "US military asks personnel for  creative and unconventional  ideas to punish Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c9011423ddf5412a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.814,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ynetnews.com",
+      "url": "https://www.ynetnews.com/article/s1rodxarmx",
+      "published_at": "2026-08-03T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "b3ec304ac7213a45",
+      "name": "Iran Refuses to Reopen Hormuz Demands Control Even As Trump Pauses Strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b3ec304ac7213a45",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.814,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "townhall.com",
+      "url": "https://townhall.com/news/jeff-charles/2026/08/03/iran-refuses-to-reopen-hormuz-demands-control-even-as-trump-pauses-strikes-n2680576",
+      "published_at": "2026-08-03T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "3d5ef054435eb2b2",
+      "name": "US military asks for  creative and unconventional idea to punish Iran after Trump  despair  over strategy",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3d5ef054435eb2b2",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.814,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "independent.co.uk",
+      "url": "https://www.independent.co.uk/news/world/middle-east/us-military-iran-email-ideas-war-b3026341.html",
+      "published_at": "2026-08-03T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "7fc998a80ea48b23",
+      "name": "דונלד טראמפ בדילמה : תקיפה באיראן או הסדר דיפלומטי",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7fc998a80ea48b23",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.612,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ynet.co.il",
+      "url": "https://www.ynet.co.il/news/article/r1i58xchze",
+      "published_at": "2026-08-03T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "6afe99af0585dd55",
+      "name": "Iran denies peace talks after Trump calls off attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6afe99af0585dd55",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.758,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "easternriverinachronicle.com.au",
+      "url": "https://www.easternriverinachronicle.com.au/story/9322357/iran-denies-peace-talks-after-trump-calls-off-attacks/",
+      "published_at": "2026-08-03T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "90c242c7e336ba83",
+      "name": "Trump Calls Off Planned Iran Strikes as Diplomatic Talks Set to Resume",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "90c242c7e336ba83",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.706,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "themainewire.com",
+      "url": "https://www.themainewire.com/2026/08/trump-calls-off-planned-iran-strikes-as-diplomatic-talks-set-to-resume/",
+      "published_at": "2026-08-03T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
+    },
+    {
+      "id": "f8b16b66f610dd84",
+      "name": "Trump says Iran war talks will begin on Monday after pausing strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f8b16b66f610dd84",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.612,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sandiegouniontribune.com",
+      "url": "https://www.sandiegouniontribune.com/2026/08/03/trump-iran-war-talks/",
+      "published_at": "2026-08-03T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "324187255bfc510b",
+      "name": "Iran and Oman Near Final Deal on New Hormuz Route as Trump Halts Strikes for Quick Agreement",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "324187255bfc510b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.612,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jp.ibtimes.com",
+      "url": "https://jp.ibtimes.com/iran-oman-near-final-deal-new-hormuz-route-trump-halts-strikes-quick-agreement-103311",
+      "published_at": "2026-08-03T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "d2040a3e17b6a300",
+      "name": "Iran says talks with Oman focused on designating temporary route for safe shipping in Hormuz Strait",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d2040a3e17b6a300",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.612,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "morungexpress.com",
+      "url": "https://morungexpress.com/iran-says-talks-with-oman-focused-on-designating-temporary-route-for-safe-shipping-in-hormuz-strait",
+      "published_at": "2026-08-03T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "6c55dcf762ee1692",
+      "name": "Trump Announces New Iran Talks to Begin , Cancels Planned Military Strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6c55dcf762ee1692",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.57,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jowhar.com",
+      "url": "https://jowhar.com/trump-announces-new-iran-talks-to-begin-cancels-planned-military-strikes/",
+      "published_at": "2026-08-03T15:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
+    {
+      "id": "e2a82dc88860184c",
+      "name": "Trump says talks on Iran war will begin on Monday after he holds off on  massive  strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e2a82dc88860184c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.612,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "leadertelegram.com",
+      "url": "http://www.leadertelegram.com/news/world/trump-says-talks-on-iran-war-will-begin-on-monday-after-he-holds-off-on/article_d09a5775-33b0-5899-aae9-41c923feddd8.html",
+      "published_at": "2026-08-03T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "43736522fa95f151",
+      "name": "Trump says he canceling Iran strikes ; deal pending",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "43736522fa95f151",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.57,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "krcu.org",
+      "url": "https://www.krcu.org/2026-08-02/trump-says-hes-canceling-iran-strikes-deal-pending",
+      "published_at": "2026-08-03T15:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
+    {
+      "id": "b650f4d339dbc68d",
+      "name": "US Military Emails Troops for  Creative  Ways to Punish Iran as It Appears to Run Out of Ideas",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b650f4d339dbc68d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.612,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jp.ibtimes.com",
+      "url": "https://jp.ibtimes.com/us-military-emails-troops-creative-ways-punish-iran-it-appears-run-out-ideas-103322",
+      "published_at": "2026-08-03T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "ceeb2b9ef257d09c",
+      "name": "Iran Says No Talks Are Under Way with United States After Trump Calls Off Attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ceeb2b9ef257d09c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.346,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gcaptain.com",
+      "url": "https://gcaptain.com/iran-says-no-talks-are-under-way-with-united-states-after-trump-calls-off-attacks/",
+      "published_at": "2026-08-03T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
+    },
+    {
+      "id": "2b419a30c82d5213",
+      "name": "Iran , attacks and good neighborly relations",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2b419a30c82d5213",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.346,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arabnews.com",
+      "url": "https://www.arabnews.com/node/2653221",
+      "published_at": "2026-08-03T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
+    },
+    {
+      "id": "ad767ff12f668f11",
+      "name": "Trump says Gulf leader input weighed heavily in decision to hold off on ordering new Iran strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ad767ff12f668f11",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.322,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theitem.com",
+      "url": "http://www.theitem.com/stories/trump-says-gulf-leaders-input-weighed-heavily-in-decision-to-hold-off-on-ordering-new-iran-strikes,445640",
+      "published_at": "2026-08-03T13:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -838,17 +1461,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-08-03T16:58:10.017391Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 24
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-08-02T21:06:42.147000Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-03T16:58:10.017391Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 19
       },
       "manual": {
         "ok": true,
