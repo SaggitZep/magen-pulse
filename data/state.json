@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-03T18:56:19.952979Z",
+  "generated_at": "2026-08-03T20:37:25.787292Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
-      "high": 20,
-      "confidence": 47,
+      "high": 19,
+      "confidence": 44,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 5,
       "low": 0,
-      "high": 25,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 44,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
+      "score": 9,
       "low": 0,
-      "high": 31,
-      "confidence": 47,
+      "high": 26,
+      "confidence": 44,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@
     {
       "time": "19:15",
       "text": "The seven times Trump threatened Iran before pulling back",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "independent.co.uk",
       "signal_id": "baaee1c442a08ece"
@@ -50,7 +50,7 @@
     {
       "time": "19:30",
       "text": "Trump says Gulf leaders persuaded him to hold off on Iran strikes",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "naharnet.com",
       "signal_id": "8c3f80e75effeadb"
@@ -58,7 +58,7 @@
     {
       "time": "19:15",
       "text": "A new Houthi front and expanded Iranian attacks risk sinking Gulf nation choke - point workaround and widening shipping risks | National",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "hometownregister.com",
       "signal_id": "690bfe69ac3cf22c"
@@ -66,7 +66,7 @@
     {
       "time": "19:15",
       "text": "US military asks personnel for  creative and unconventional  ideas to punish Iran",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "ynetnews.com",
       "signal_id": "c9011423ddf5412a"
@@ -83,7 +83,7 @@
       "dependency_group": "baaee1c442a08ece",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.464,
+      "freshness": 0.287,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-03T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "8c3f80e75effeadb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.498,
+      "freshness": 0.308,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-03T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "690bfe69ac3cf22c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.464,
+      "freshness": 0.287,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-03T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "c9011423ddf5412a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.464,
+      "freshness": 0.287,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-03T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "b3ec304ac7213a45",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.464,
+      "freshness": 0.287,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-03T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "3d5ef054435eb2b2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.464,
+      "freshness": 0.287,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-08-03T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "7fc998a80ea48b23",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.349,
+      "freshness": 0.215,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@
       "published_at": "2026-08-03T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@
       "dependency_group": "6afe99af0585dd55",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.432,
+      "freshness": 0.267,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@
       "published_at": "2026-08-03T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
+        "immediate": 0.5,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -339,7 +339,7 @@
       "dependency_group": "90c242c7e336ba83",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.402,
+      "freshness": 0.248,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +355,9 @@
       "published_at": "2026-08-03T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -371,7 +371,7 @@
       "dependency_group": "f8b16b66f610dd84",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.349,
+      "freshness": 0.215,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -387,9 +387,9 @@
       "published_at": "2026-08-03T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -403,7 +403,7 @@
       "dependency_group": "324187255bfc510b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.349,
+      "freshness": 0.215,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -419,9 +419,9 @@
       "published_at": "2026-08-03T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -435,7 +435,7 @@
       "dependency_group": "d2040a3e17b6a300",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.349,
+      "freshness": 0.215,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -451,41 +451,9 @@
       "published_at": "2026-08-03T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6c55dcf762ee1692",
-      "name": "Trump Announces New Iran Talks to Begin , Cancels Planned Military Strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6c55dcf762ee1692",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.325,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jowhar.com",
-      "url": "https://jowhar.com/trump-announces-new-iran-talks-to-begin-cancels-planned-military-strikes/",
-      "published_at": "2026-08-03T15:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -499,7 +467,7 @@
       "dependency_group": "e2a82dc88860184c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.349,
+      "freshness": 0.215,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -515,41 +483,9 @@
       "published_at": "2026-08-03T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "43736522fa95f151",
-      "name": "Trump says he canceling Iran strikes ; deal pending",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "43736522fa95f151",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.325,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "krcu.org",
-      "url": "https://www.krcu.org/2026-08-02/trump-says-hes-canceling-iran-strikes-deal-pending",
-      "published_at": "2026-08-03T15:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -563,7 +499,7 @@
       "dependency_group": "b650f4d339dbc68d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.349,
+      "freshness": 0.215,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -579,23 +515,23 @@
       "published_at": "2026-08-03T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
     {
-      "id": "ceeb2b9ef257d09c",
-      "name": "Iran Says No Talks Are Under Way with United States After Trump Calls Off Attacks",
+      "id": "6c55dcf762ee1692",
+      "name": "Trump Announces New Iran Talks to Begin , Cancels Planned Military Strikes",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "ceeb2b9ef257d09c",
+      "dependency_group": "6c55dcf762ee1692",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.197,
+      "freshness": 0.201,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -606,28 +542,28 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "gcaptain.com",
-      "url": "https://gcaptain.com/iran-says-no-talks-are-under-way-with-united-states-after-trump-calls-off-attacks/",
-      "published_at": "2026-08-03T13:15:00Z",
+      "source": "jowhar.com",
+      "url": "https://jowhar.com/trump-announces-new-iran-talks-to-begin-cancels-planned-military-strikes/",
+      "published_at": "2026-08-03T15:00:00Z",
       "active": true,
       "computed": {
         "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
     {
-      "id": "2b419a30c82d5213",
-      "name": "Iran , attacks and good neighborly relations",
+      "id": "43736522fa95f151",
+      "name": "Trump says he canceling Iran strikes ; deal pending",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "2b419a30c82d5213",
+      "dependency_group": "43736522fa95f151",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.197,
+      "freshness": 0.201,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -638,46 +574,14 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "arabnews.com",
-      "url": "https://www.arabnews.com/node/2653221",
-      "published_at": "2026-08-03T13:15:00Z",
+      "source": "krcu.org",
+      "url": "https://www.krcu.org/2026-08-02/trump-says-hes-canceling-iran-strikes-deal-pending",
+      "published_at": "2026-08-03T15:00:00Z",
       "active": true,
       "computed": {
         "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ad767ff12f668f11",
-      "name": "Trump says Gulf leader input weighed heavily in decision to hold off on ordering new Iran strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ad767ff12f668f11",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.183,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theitem.com",
-      "url": "http://www.theitem.com/stories/trump-says-gulf-leaders-input-weighed-heavily-in-decision-to-hold-off-on-ordering-new-iran-strikes,445640",
-      "published_at": "2026-08-03T13:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -1492,6 +1396,12 @@
       "immediate": 3,
       "short": 8,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-08-03T20:37:25.787292Z",
+      "immediate": 2,
+      "short": 5,
+      "extended": 9
     }
   ],
   "health": {
@@ -1501,8 +1411,8 @@
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "The read operation timed out",
-        "carried_forward": 19
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 16
       },
       "manual": {
         "ok": true,
