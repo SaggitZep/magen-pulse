@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-04T22:29:53.514814Z",
+  "generated_at": "2026-08-04T23:37:04.476668Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 4,
       "low": 0,
-      "high": 18,
-      "confidence": 61,
+      "high": 17,
+      "confidence": 69,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
-      "low": 0,
-      "high": 26,
-      "confidence": 61,
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 69,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 5,
-      "high": 33,
-      "confidence": 61,
-      "status": "נמוך"
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 69,
+      "status": "מוגבר"
     }
   },
   "coverage": {
@@ -35,44 +35,137 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 3
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
+      "time": "02:00",
+      "text": "Report : US Has Used  Virtually All  of Its ATACMS and Precision Strike Missiles in Iran War",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "news.antiwar.com",
+      "signal_id": "4290fa8789973782"
+    },
+    {
+      "time": "02:00",
+      "text": "Denuclearisation of Iran ultimate deal ; immediate focus is reopening Strait of Hormuz : Marco Rubio says progress made in talks",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "news.webindia123.com",
+      "signal_id": "1b6ea7e9255b5b82"
+    },
+    {
+      "time": "01:15",
+      "text": "Iran says strikes on Ukraine canceled after Kyiv apologized",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "albawaba.net",
+      "signal_id": "5adbfdfdef985e53"
+    },
+    {
       "time": "00:45",
       "text": "U . S . has used virtually all long - range precision missiles during Iran war , sources say",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "staradvertiser.com",
       "signal_id": "202e05b2fced3c1d"
-    },
-    {
-      "time": "00:00",
-      "text": "More commercial ships attacked in Middle East , threatening Strait of Hormuz deal with Iran",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "nypost.com",
-      "signal_id": "3ef85505f7ef2301"
-    },
-    {
-      "time": "22:15",
-      "text": "STRAIT OF HORMUZ : Cargo Ship Reports Attack As U . S ., Iran Clash Over Talks",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "theyeshivaworld.com",
-      "signal_id": "b8e604ed7924728c"
-    },
-    {
-      "time": "22:15",
-      "text": "TALKS AND TENSIONS : Qatar Reports Progress as Iran Demands Control Over Hormuz Shipping",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "theyeshivaworld.com",
-      "signal_id": "2eb21b67ee90ca36"
     }
   ],
   "signals": [
+    {
+      "id": "4290fa8789973782",
+      "name": "Report : US Has Used  Virtually All  of Its ATACMS and Precision Strike Missiles in Iran War",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4290fa8789973782",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.838,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.antiwar.com",
+      "url": "https://news.antiwar.com/2026/08/04/report-us-has-used-virtually-all-of-its-atacms-and-precision-strike-missiles-in-iran-war/",
+      "published_at": "2026-08-04T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.9
+      }
+    },
+    {
+      "id": "1b6ea7e9255b5b82",
+      "name": "Denuclearisation of Iran ultimate deal ; immediate focus is reopening Strait of Hormuz : Marco Rubio says progress made in talks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1b6ea7e9255b5b82",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.838,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260805/4483306.html",
+      "published_at": "2026-08-04T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.3
+      }
+    },
+    {
+      "id": "5adbfdfdef985e53",
+      "name": "Iran says strikes on Ukraine canceled after Kyiv apologized",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5adbfdfdef985e53",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.676,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "albawaba.net",
+      "url": "https://www.albawaba.net/news/iran-says-strikes-ukraine-canceled-after-1634428",
+      "published_at": "2026-08-04T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
     {
       "id": "202e05b2fced3c1d",
       "name": "U . S . has used virtually all long - range precision missiles during Iran war , sources say",
@@ -83,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "202e05b2fced3c1d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.808,
+      "freshness": 0.586,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.6,
-        "extended": 9.6
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 6.9
       }
     },
     {
@@ -114,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3ef85505f7ef2301",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.652,
+      "freshness": 0.473,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,102 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
-      }
-    },
-    {
-      "id": "b8e604ed7924728c",
-      "name": "STRAIT OF HORMUZ : Cargo Ship Reports Attack As U . S ., Iran Clash Over Talks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b8e604ed7924728c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.395,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/general/2582236/strait-of-hormuz-cargo-ship-reports-attack-as-u-s-iran-clash-over-talks.html",
-      "published_at": "2026-08-04T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "2eb21b67ee90ca36",
-      "name": "TALKS AND TENSIONS : Qatar Reports Progress as Iran Demands Control Over Hormuz Shipping",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2eb21b67ee90ca36",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.395,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2582335/talks-and-tensions-qatar-reports-progress-as-iran-demands-control-over-hormuz-shipping.html",
-      "published_at": "2026-08-04T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "85f29f0ea3969365",
-      "name": "Report : US Has Used  Virtually All  of Its Long - Range Precision Missiles During Iran War",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "85f29f0ea3969365",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.319,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "english.aawsat.com",
-      "url": "https://english.aawsat.com/features/5303434-report-us-has-used-%E2%80%98virtually-all%E2%80%99-its-long-range-precision-missiles-during-iran",
-      "published_at": "2026-08-04T18:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
       }
     }
   ],
@@ -1123,12 +1123,18 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-04T23:37:04.476668Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 23
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-04T22:29:53.514814Z",
+    "last_success": "2026-08-04T23:37:04.476668Z",
     "sources": {
       "gdelt": {
         "ok": true,
