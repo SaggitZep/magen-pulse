@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-04T15:59:19.635413Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-04T18:00:45.525201Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 9,
+      "score": 5,
       "low": 0,
       "high": 22,
-      "confidence": 68,
-      "status": "נמוך"
+      "confidence": 47,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 14,
+      "low": 0,
+      "high": 31,
+      "confidence": 47,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 29,
-      "low": 16,
-      "high": 42,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 17,
+      "low": 0,
+      "high": 34,
+      "confidence": 47,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "ירידה",
+    "points_60m": -4
   },
   "changes": [
     {
       "time": "18:15",
       "text": "Iran war depletes US missile stocks , raising concerns over readiness for conflict with China : Report",
-      "impact": "השפעה מיידית מחושבת: +4.8",
+      "impact": "השפעה מיידית מחושבת: +2.7",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "8d02d36dfe1f446d"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:15",
       "text": "Trump Warns Iran Faces  Last Chance  for Deal as U . S . Holds Off on Massive Strikes",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "themainewire.com",
       "signal_id": "fa27581a64f0d8e1"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:00",
       "text": "Defiant Tehran digs in over Trump latest threat to attack over Strait",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "mirror.co.uk",
       "signal_id": "3e3b3f34bdf94f5b"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "16:30",
       "text": "Khamenei warns Iranian president Pezeshkian over resignation threats",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "ad31e1a097172e1c"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8d02d36dfe1f446d",
       "strength": 0.54,
       "reliability": 0.56,
-      "freshness": 0.81,
+      "freshness": 0.454,
       "max_effect": {
         "immediate": 34,
         "short": 48,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 4.8,
-        "short": 11.8,
-        "extended": 8.6
-      }
+        "immediate": 2.7,
+        "short": 6.6,
+        "extended": 4.8
+      },
+      "carried_forward": true
     },
     {
       "id": "fa27581a64f0d8e1",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fa27581a64f0d8e1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.81,
+      "freshness": 0.454,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.3,
-        "extended": 9.0
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.0
+      },
+      "carried_forward": true
     },
     {
       "id": "3e3b3f34bdf94f5b",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3e3b3f34bdf94f5b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.754,
+      "freshness": 0.423,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.4
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
+      },
+      "carried_forward": true
     },
     {
       "id": "ad31e1a097172e1c",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ad31e1a097172e1c",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.491,
+      "freshness": 0.275,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      },
+      "carried_forward": true
     },
     {
       "id": "a42353ef09651672",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a42353ef09651672",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.491,
+      "freshness": 0.275,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
+      },
+      "carried_forward": true
     },
     {
       "id": "44946b10ec6b46d0",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "44946b10ec6b46d0",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.426,
+      "freshness": 0.239,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     },
     {
       "id": "0aeea4538f94f3a5",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0aeea4538f94f3a5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.527,
+      "freshness": 0.296,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
+      },
+      "carried_forward": true
     },
     {
       "id": "62082a2f0f249f02",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "62082a2f0f249f02",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.457,
+      "freshness": 0.256,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T13:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
+      },
+      "carried_forward": true
     },
     {
       "id": "9dc30f4fa87abb52",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9dc30f4fa87abb52",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.457,
+      "freshness": 0.256,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T13:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1223,17 +1232,23 @@ window.MAGEN_STATE = {
       "immediate": 9,
       "short": 24,
       "extended": 29
+    },
+    {
+      "timestamp": "2026-08-04T18:00:45.525201Z",
+      "immediate": 5,
+      "short": 14,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-04T15:59:19.635413Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 9
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 9
       },
       "manual": {
         "ok": true,
