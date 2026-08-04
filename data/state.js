@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-04T19:51:45.662748Z",
+  "generated_at": "2026-08-04T21:06:57.110935Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 1,
       "low": 0,
-      "high": 21,
-      "confidence": 38,
+      "high": 20,
+      "confidence": 32,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 4,
       "low": 0,
-      "high": 25,
-      "confidence": 38,
+      "high": 23,
+      "confidence": 32,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 8,
+      "score": 4,
       "low": 0,
-      "high": 26,
-      "confidence": 38,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 32,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:15",
       "text": "Iran war depletes US missile stocks , raising concerns over readiness for conflict with China : Report",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "8d02d36dfe1f446d"
@@ -50,18 +50,10 @@ window.MAGEN_STATE = {
     {
       "time": "18:15",
       "text": "Trump Warns Iran Faces  Last Chance  for Deal as U . S . Holds Off on Massive Strikes",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "themainewire.com",
       "signal_id": "fa27581a64f0d8e1"
-    },
-    {
-      "time": "18:00",
-      "text": "Defiant Tehran digs in over Trump latest threat to attack over Strait",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "mirror.co.uk",
-      "signal_id": "3e3b3f34bdf94f5b"
     }
   ],
   "signals": [
@@ -75,7 +67,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8d02d36dfe1f446d",
       "strength": 0.54,
       "reliability": 0.56,
-      "freshness": 0.268,
+      "freshness": 0.187,
       "max_effect": {
         "immediate": 34,
         "short": 48,
@@ -91,9 +83,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 3.9,
-        "extended": 2.9
+        "immediate": 1.1,
+        "short": 2.7,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -107,7 +99,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fa27581a64f0d8e1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.268,
+      "freshness": 0.187,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -123,41 +115,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3e3b3f34bdf94f5b",
-      "name": "Defiant Tehran digs in over Trump latest threat to attack over Strait",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3e3b3f34bdf94f5b",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.249,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "mirror.co.uk",
-      "url": "https://www.mirror.co.uk/news/world-news/iran-war-trump-tehran-missiles-37512943",
-      "published_at": "2026-08-04T15:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     }
@@ -1044,6 +1004,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 7,
       "extended": 8
+    },
+    {
+      "timestamp": "2026-08-04T21:06:57.110935Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 4
     }
   ],
   "health": {
@@ -1054,7 +1020,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 3
+        "carried_forward": 2
       },
       "manual": {
         "ok": true,
