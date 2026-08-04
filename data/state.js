@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-04T09:18:38.504818Z",
+  "generated_at": "2026-08-04T11:37:20.329599Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 69,
-      "status": "מוגבר"
+      "score": 16,
+      "low": 3,
+      "high": 29,
+      "confidence": 67,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 26,
-      "low": 13,
-      "high": 39,
-      "confidence": 69,
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 67,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 69,
+      "score": 31,
+      "low": 18,
+      "high": 44,
+      "confidence": 67,
       "status": "מוגבר"
     }
   },
@@ -35,41 +35,41 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 20
+    "level": "ירידה",
+    "points_60m": -8
   },
   "changes": [
     {
       "time": "11:30",
       "text": "Israel launches massacre in Gaza , as Trump threatens Iran with  decapitation",
-      "impact": "השפעה מיידית מחושבת: +21.5",
+      "impact": "השפעה מיידית מחושבת: +11.1",
       "direction": "up",
       "source": "wsws.org",
       "signal_id": "58e1d627b4755c42"
     },
     {
-      "time": "11:45",
-      "text": "Trump Insists Iran  Will Never Have A Nuclear Weapon , Claims Tehran Secretly Seeking Talks",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "time": "14:15",
+      "text": "Exclusive - US has used  virtually all  of its long - range precision missiles during Iran war , sources say",
+      "impact": "השפעה מיידית מחושבת: +2.4",
       "direction": "up",
-      "source": "saharareporters.com",
-      "signal_id": "5df8e4871caefe46"
+      "source": "al-monitor.com",
+      "signal_id": "ab45f7b352f55fa4"
     },
     {
-      "time": "11:45",
-      "text": "Middle - East Crisis : US Military Enforces Blockade Against Iran , Redirects 44 Commercial Vessels , Disables Two Others",
+      "time": "14:15",
+      "text": "Iran called off Ukraine strikes after Kiev apologized",
       "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "saharareporters.com",
-      "signal_id": "a17f51f1479bc4b6"
+      "source": "iranherald.com",
+      "signal_id": "13868d22e1fa1a19"
     },
     {
-      "time": "11:30",
-      "text": "Live updates : Trump calls off Iran strikes , warns of  last chance  to sign a deal",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "time": "13:00",
+      "text": "Iranian official claims nearly 500 US soldiers killed in Middle East strikes",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "us.cnn.com",
-      "signal_id": "499aec26845fbea3"
+      "source": "jpost.com",
+      "signal_id": "226a85f895bf3234"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "58e1d627b4755c42",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.793,
+      "freshness": 0.41,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,22 +99,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 21.5,
-        "short": 16.8,
-        "extended": 7.1
+        "immediate": 11.1,
+        "short": 8.7,
+        "extended": 3.7
       }
     },
     {
-      "id": "5df8e4871caefe46",
-      "name": "Trump Insists Iran  Will Never Have A Nuclear Weapon , Claims Tehran Secretly Seeking Talks",
+      "id": "ab45f7b352f55fa4",
+      "name": "Exclusive - US has used  virtually all  of its long - range precision missiles during Iran war , sources say",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "5df8e4871caefe46",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.852,
+      "dependency_group": "ab45f7b352f55fa4",
+      "strength": 0.48,
+      "reliability": 0.74,
+      "freshness": 0.899,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,27 +125,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "saharareporters.com",
-      "url": "https://saharareporters.com/2026/08/03/trump-insists-iran-will-never-have-nuclear-weapon-claims-tehran-secretly-seeking-talks",
-      "published_at": "2026-08-04T08:45:00Z",
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/08/exclusive-us-has-used-virtually-all-its-long-range-precision-missiles-during-iran",
+      "published_at": "2026-08-04T11:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
+        "immediate": 2.4,
+        "short": 8.3,
+        "extended": 14.1
       }
     },
     {
-      "id": "a17f51f1479bc4b6",
-      "name": "Middle - East Crisis : US Military Enforces Blockade Against Iran , Redirects 44 Commercial Vessels , Disables Two Others",
+      "id": "13868d22e1fa1a19",
+      "name": "Iran called off Ukraine strikes after Kiev apologized",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a17f51f1479bc4b6",
+      "dependency_group": "13868d22e1fa1a19",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.852,
+      "freshness": 0.899,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -156,14 +156,169 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "saharareporters.com",
-      "url": "https://saharareporters.com/2026/08/03/middle-east-crisis-us-military-enforces-blockade-against-iran-redirects-44-commercial",
-      "published_at": "2026-08-04T08:45:00Z",
+      "source": "iranherald.com",
+      "url": "http://www.iranherald.com/news/279221666/iran-called-off-ukraine-strikes-after-kiev-apologized-khamenei-adviser",
+      "published_at": "2026-08-04T11:15:00Z",
       "active": true,
       "computed": {
         "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
+        "short": 5.2,
+        "extended": 8.9
+      }
+    },
+    {
+      "id": "226a85f895bf3234",
+      "name": "Iranian official claims nearly 500 US soldiers killed in Middle East strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "226a85f895bf3234",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.629,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jpost.com",
+      "url": "http://www.jpost.com/middle-east/iran-news/article-904511",
+      "published_at": "2026-08-04T10:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "a8257d09ac9e8b66",
+      "name": "ईरान ने ट्रंप के  नो वॉर  ऐलान को दिखाया ठेंगा , कुवैत में अमेरिकी सैन्य ठिकाने पर किए ड्रोन अटैक ( Video ) - 3 iranian suicide drones have struck a u s military base in kuwait tonight",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a8257d09ac9e8b66",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.629,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "punjabkesari.in",
+      "url": "https://www.punjabkesari.in/international/news/3-iranian-suicide-drones-have-struck-a-u-s-military-base-in-kuwait-tonight-2364914",
+      "published_at": "2026-08-04T10:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "17ac2ee7d5207f15",
+      "name": "Iran says it was ready to attack Ukraine over Caspian Sea strikes but halted after Kyiv said it was  a mistake",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "17ac2ee7d5207f15",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.676,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260804/4483061.html",
+      "published_at": "2026-08-04T10:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "58f107abbfc9df1f",
+      "name": "What Iran surprise attack on US positions reveals about its changing military strategy",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "58f107abbfc9df1f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.629,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/what-iran-s-surprise-attack-on-us-positions-reveals-about-its-changing-military-strategy-article-13993754.html",
+      "published_at": "2026-08-04T10:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "e92dc670f7472553",
+      "name": "Report : US Military Asks For  Creative and Unconventional  Ideas to Punish Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e92dc670f7472553",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.586,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "english.aawsat.com",
+      "url": "https://english.aawsat.com/world/5303153-report-us-military-asks-%E2%80%98creative-and-unconventional%E2%80%99-ideas-punish-iran",
+      "published_at": "2026-08-04T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
       }
     },
     {
@@ -176,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "499aec26845fbea3",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.793,
+      "freshness": 0.41,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,22 +347,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
       }
     },
     {
-      "id": "1beae1fd76456e3f",
-      "name": "Amidst Trump threats , Iran plans new strategy ; talks underway with Oman to turn Strait of Hormuz into a highway",
+      "id": "5df8e4871caefe46",
+      "name": "Trump Insists Iran  Will Never Have A Nuclear Weapon , Claims Tehran Secretly Seeking Talks",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "1beae1fd76456e3f",
-      "strength": 0.45,
+      "dependency_group": "5df8e4871caefe46",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.739,
+      "freshness": 0.44,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -218,14 +373,45 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "khaskhabar.com",
-      "url": "https://www.khaskhabar.com/news/world-news/news-amidst-trump-threats-iran-plans-new-strategy-talks-underway-with-oman-to-turn-strait-of-hormuz-into-a-highway-news-hindi-1-833833-KKN.html",
-      "published_at": "2026-08-04T08:15:00Z",
+      "source": "saharareporters.com",
+      "url": "https://saharareporters.com/2026/08/03/trump-insists-iran-will-never-have-nuclear-weapon-claims-tehran-secretly-seeking-talks",
+      "published_at": "2026-08-04T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
+    },
+    {
+      "id": "a17f51f1479bc4b6",
+      "name": "Middle - East Crisis : US Military Enforces Blockade Against Iran , Redirects 44 Commercial Vessels , Disables Two Others",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a17f51f1479bc4b6",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.44,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "saharareporters.com",
+      "url": "https://saharareporters.com/2026/08/03/middle-east-crisis-us-military-enforces-blockade-against-iran-redirects-44-commercial",
+      "published_at": "2026-08-04T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     },
     {
@@ -238,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d76126128b9ab6b7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.739,
+      "freshness": 0.382,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +440,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       }
     },
     {
@@ -269,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4ce92981ae46ce1a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.739,
+      "freshness": 0.382,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +471,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "1beae1fd76456e3f",
+      "name": "Amidst Trump threats , Iran plans new strategy ; talks underway with Oman to turn Strait of Hormuz into a highway",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1beae1fd76456e3f",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.382,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "khaskhabar.com",
+      "url": "https://www.khaskhabar.com/news/world-news/news-amidst-trump-threats-iran-plans-new-strategy-talks-underway-with-oman-to-turn-strait-of-hormuz-into-a-highway-news-hindi-1-833833-KKN.html",
+      "published_at": "2026-08-04T08:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     },
     {
@@ -300,7 +517,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0cdb3e27f28b3a14",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.64,
+      "freshness": 0.331,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,288 +533,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
-    },
-    {
-      "id": "d6aa5db9947ff696",
-      "name": "Trump Gives Iran  Last Chance  to Reach Nuclear Deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d6aa5db9947ff696",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.64,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "khaama.com",
-      "url": "https://www.khaama.com/trump-gives-iran-last-chance-to-reach-nuclear-deal/",
-      "published_at": "2026-08-04T07:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
-    },
-    {
-      "id": "f84ca33900028c79",
-      "name": "ईरान का कुवैत में अमेरिकी बेस पर हमला , ओमान तट पर जहाज निशाने पर | us - iran - tensions - drone - attack - kuwait - base - trump - warning - talks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f84ca33900028c79",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.481,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "deshbandhu.co.in",
-      "url": "https://www.deshbandhu.co.in/international/us-iran-tensions-drone-attack-kuwait-base-trump-warning-talks-313730",
-      "published_at": "2026-08-04T06:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.7
-      }
-    },
-    {
-      "id": "08df0ffd65916eeb",
-      "name": "Iran hidden war room in Iraq : how Houthis and militias are building a new launchpad",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "08df0ffd65916eeb",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.517,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/b1fckr0rfg",
-      "published_at": "2026-08-04T07:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
-    },
-    {
-      "id": "ed4f08d94d88e4cb",
-      "name": "US - Iran war LIVE : Iran cancelled plans to strike Ukraine after apology , says Khamenei military advisor",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ed4f08d94d88e4cb",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.555,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "livemint.com",
-      "url": "https://www.livemint.com/news/us-news/us-iran-war-latest-news-updates-peace-talks-donald-trump-abbas-araghchi-strait-of-hormuz-tehran-oman-11785800285334.html",
-      "published_at": "2026-08-04T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "eb4f8b67a15cfa10",
-      "name": "A new Houthi front and expanded Iranian Attacks risk sinking Gulf Nation Workaround and widening shipping Risks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "eb4f8b67a15cfa10",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.555,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "juancole.com",
-      "url": "https://www.juancole.com/2026/08/expanded-workaround-widening.html",
-      "published_at": "2026-08-04T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "0f90f350966d35fa",
-      "name": "Creative , unconventional way : US Central Command asks military analysts for new ideas to punish Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0f90f350966d35fa",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.555,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/creative-unconventional-ways-us-central-command-asks-military-analysts-for-new-ideas-to-punish-iran-trump-tehran-war-101785816668994.html",
-      "published_at": "2026-08-04T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "4c67bbe202a6e159",
-      "name": "Iran planned strikes on Ukraine but backed down after Kyiv  apology",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4c67bbe202a6e159",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.517,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-planned-strikes-on-ukraine-but-backed-down-after-kyivs-apology/articleshow/132849055.cms",
-      "published_at": "2026-08-04T07:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
-    },
-    {
-      "id": "6333bf54da4995b9",
-      "name": "US - Iran talks in doubt as Hormuz shipping tensions rise again",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6333bf54da4995b9",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.555,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middle-east-online.com",
-      "url": "https://www.middle-east-online.com/en/us-iran-talks-doubt-hormuz-shipping-tensions-rise-again",
-      "published_at": "2026-08-04T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "c5dc330691a0323b",
-      "name": "With its new leverage over the Strait of Hormuz , does Iran want – or need – a nuclear weapon ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c5dc330691a0323b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.555,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theconversation.com",
-      "url": "https://theconversation.com/with-its-new-leverage-over-the-strait-of-hormuz-does-iran-want-or-need-a-nuclear-weapon-288702",
-      "published_at": "2026-08-04T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
       }
     }
   ],
@@ -1453,17 +1391,23 @@ window.MAGEN_STATE = {
       "immediate": 24,
       "short": 26,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-08-04T11:37:20.329599Z",
+      "immediate": 16,
+      "short": 24,
+      "extended": 31
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-04T09:18:38.504818Z",
+    "last_success": "2026-08-04T11:37:20.329599Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 17
+        "relevant": 15
       },
       "manual": {
         "ok": true,
