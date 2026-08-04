@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-04T18:00:45.525201Z",
+  "generated_at": "2026-08-04T19:51:45.662748Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 3,
       "low": 0,
-      "high": 22,
-      "confidence": 47,
+      "high": 21,
+      "confidence": 38,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
+      "score": 7,
       "low": 0,
-      "high": 31,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 25,
+      "confidence": 38,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
+      "score": 8,
       "low": 0,
-      "high": 34,
-      "confidence": 47,
+      "high": 26,
+      "confidence": 38,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -4
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "18:15",
       "text": "Iran war depletes US missile stocks , raising concerns over readiness for conflict with China : Report",
-      "impact": "השפעה מיידית מחושבת: +2.7",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "8d02d36dfe1f446d"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:15",
       "text": "Trump Warns Iran Faces  Last Chance  for Deal as U . S . Holds Off on Massive Strikes",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "themainewire.com",
       "signal_id": "fa27581a64f0d8e1"
@@ -58,18 +58,10 @@ window.MAGEN_STATE = {
     {
       "time": "18:00",
       "text": "Defiant Tehran digs in over Trump latest threat to attack over Strait",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "mirror.co.uk",
       "signal_id": "3e3b3f34bdf94f5b"
-    },
-    {
-      "time": "16:30",
-      "text": "Khamenei warns Iranian president Pezeshkian over resignation threats",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "ad31e1a097172e1c"
     }
   ],
   "signals": [
@@ -83,7 +75,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8d02d36dfe1f446d",
       "strength": 0.54,
       "reliability": 0.56,
-      "freshness": 0.454,
+      "freshness": 0.268,
       "max_effect": {
         "immediate": 34,
         "short": 48,
@@ -99,9 +91,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 2.7,
-        "short": 6.6,
-        "extended": 4.8
+        "immediate": 1.6,
+        "short": 3.9,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -115,7 +107,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fa27581a64f0d8e1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.454,
+      "freshness": 0.268,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +123,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -147,7 +139,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3e3b3f34bdf94f5b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.423,
+      "freshness": 0.249,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,201 +155,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ad31e1a097172e1c",
-      "name": "Khamenei warns Iranian president Pezeshkian over resignation threats",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ad31e1a097172e1c",
-      "strength": 0.45,
-      "reliability": 0.74,
-      "freshness": 0.275,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-904539",
-      "published_at": "2026-08-04T13:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a42353ef09651672",
-      "name": "US used  virtually all  long - range precision missiles during Iran war , sources say",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a42353ef09651672",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.275,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "marinecorpstimes.com",
-      "url": "https://www.marinecorpstimes.com/industry/techwatch/2026/08/04/us-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
-      "published_at": "2026-08-04T13:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "44946b10ec6b46d0",
-      "name": "How the Iran war is draining America long - range missiles crucial in countering potential China , Russia threats",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "44946b10ec6b46d0",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.239,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/international/global-trends/how-the-iran-war-is-draining-americas-long-range-missiles-crucial-in-countering-potential-china-russia-threats/articleshow/132860493.cms",
-      "published_at": "2026-08-04T13:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0aeea4538f94f3a5",
-      "name": "Iran clears air on Planned Ukraine Strikes after Caspian Sea Incident",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0aeea4538f94f3a5",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.296,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "pakobserver.net",
-      "url": "https://pakobserver.net/iran-clears-air-on-planned-ukraine-strikes-after-caspian-sea-incident/",
-      "published_at": "2026-08-04T13:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "62082a2f0f249f02",
-      "name": "US missile stockpiles depleted by Iran war : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "62082a2f0f249f02",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.256,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "samaa.tv",
-      "url": "https://www.samaa.tv/2087354669-us-has-used-virtually-all-of-long-range-missiles-on-iran-sources",
-      "published_at": "2026-08-04T13:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9dc30f4fa87abb52",
-      "name": "We were ready to strike Ukraine after attack on ship in Caspian Sea : Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9dc30f4fa87abb52",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.256,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ianslive.in",
-      "url": "https://ianslive.in/we-were-ready-to-strike-ukraine-after-attack-on-ship-in-caspian-sea-iran--20260804170224",
-      "published_at": "2026-08-04T13:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     }
@@ -1238,6 +1038,12 @@ window.MAGEN_STATE = {
       "immediate": 5,
       "short": 14,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-04T19:51:45.662748Z",
+      "immediate": 3,
+      "short": 7,
+      "extended": 8
     }
   ],
   "health": {
@@ -1248,7 +1054,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 9
+        "carried_forward": 3
       },
       "manual": {
         "ok": true,
