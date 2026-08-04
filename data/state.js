@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-04T00:04:26.988979Z",
+  "generated_at": "2026-08-04T03:38:04.737661Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 1,
       "low": 0,
-      "high": 19,
-      "confidence": 49,
+      "high": 20,
+      "confidence": 36,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 4,
       "low": 0,
-      "high": 26,
-      "confidence": 49,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 36,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 49,
-      "status": "נמוך"
+      "score": 6,
+      "low": 0,
+      "high": 25,
+      "confidence": 36,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -35,14 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "ירידה",
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "01:00",
       "text": "Trump threatens more strikes on Iran ; Kuwait reports new drone attacks",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "latimes.com",
       "signal_id": "bb4826505ada70b9"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "01:00",
       "text": "New talks are  last chance  for Iran to forge a deal and avoid escalation of US strikes , Trump says – Brandon Sun",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "brandonsun.com",
       "signal_id": "feb1cf05955ee3b4"
@@ -58,18 +58,10 @@ window.MAGEN_STATE = {
     {
       "time": "00:45",
       "text": "Strait of Hormuz could reopen by tomorrow , denuclearisation to be next phase of Iran talks : says President Trump on talks with Iran",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "austinglobe.com",
       "signal_id": "05259b2fd1f8d1f5"
-    },
-    {
-      "time": "00:30",
-      "text": "Trump : Iran  Last Chance  as US Pauses Strike",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "newkerala.com",
-      "signal_id": "0df4047c9482fd01"
     }
   ],
   "signals": [
@@ -83,7 +75,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bb4826505ada70b9",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.553,
+      "freshness": 0.2,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +91,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-03T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
+        "immediate": 0.5,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -115,7 +107,7 @@ window.MAGEN_STATE = {
       "dependency_group": "feb1cf05955ee3b4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.553,
+      "freshness": 0.2,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +123,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-03T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -147,7 +139,7 @@ window.MAGEN_STATE = {
       "dependency_group": "05259b2fd1f8d1f5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.515,
+      "freshness": 0.186,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,265 +155,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-03T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0df4047c9482fd01",
-      "name": "Trump : Iran  Last Chance  as US Pauses Strike",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0df4047c9482fd01",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.479,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newkerala.com",
-      "url": "https://www.newkerala.com/news/a/this-irans-last-chance-trump-says-us-paused-918.htm",
-      "published_at": "2026-08-03T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "700c95f083e10819",
-      "name": "Trump : Hormuz Reopening Soon , Iran Denuclearization Next",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "700c95f083e10819",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.479,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newkerala.com",
-      "url": "https://www.newkerala.com/news/a/strait-hormuz-could-reopen-tomorrow-denuclearisation-next-phase-720.htm",
-      "published_at": "2026-08-03T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a3ccdd8af67513cf",
-      "name": "This is Iran last chance : Trump says US paused planned attack after calls from Saudi Arabia , UAE , Qatar",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a3ccdd8af67513cf",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.446,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabherald.com",
-      "url": "http://www.arabherald.com/news/279221250/this-is-iran-last-chance-trump-says-us-paused-planned-attack-after-calls-from-saudi-arabia-uae-qatar",
-      "published_at": "2026-08-03T21:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3fbae245fcb819a4",
-      "name": "US military asks for  creative and unconventional idea to punish Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3fbae245fcb819a4",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.415,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aol.com",
-      "url": "https://www.aol.com/articles/us-military-asks-creative-unconventional-131804000.html",
-      "published_at": "2026-08-03T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "775b6c081d9cfbfc",
-      "name": "Crude Oil Nosedives After Trump Calls Off Planned Attacks On Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "775b6c081d9cfbfc",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.271,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "finanzen.ch",
-      "url": "https://www.finanzen.ch/nachrichten/aktien/crude-oil-nosedives-after-trump-calls-off-planned-attacks-on-iran-1036401656",
-      "published_at": "2026-08-03T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3da5b4362f9f768e",
-      "name": "Trump claims Iran talks continue as IRGC commander issues threat warning",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3da5b4362f9f768e",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.235,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gulfnews.com",
-      "url": "https://gulfnews.com/world/mena/trump-says-iran-talks-ongoing-as-irgc-warns-it-is-ready-for-any-threat-1.500628738",
-      "published_at": "2026-08-03T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9f50656648122bc4",
-      "name": "Iran Nears Hormuz Deal with Oman but Denies Planned US Talks After Trump Halts Attack Threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9f50656648122bc4",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.235,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newseveryday.com",
-      "url": "http://www.newseveryday.com/articles/64890/20260803/iran-nears-hormuz-deal-with-oman-but-denies-planned-us-talks-after-trump-halts-attack-threat.htm",
-      "published_at": "2026-08-03T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4af2c072858daebe",
-      "name": "Trump says new talks are  last chance  for Iran to forge deal and avoid escalation of US strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4af2c072858daebe",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.235,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "union-bulletin.com",
-      "url": "https://www.union-bulletin.com/news/national/trump-says-new-talks-are-last-chance-for-iran-to-forge-deal-and-avoid-escalation/article_754640c3-9ea9-5c0d-a570-227e6885bc10.html",
-      "published_at": "2026-08-03T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.8
       },
       "carried_forward": true
     }
@@ -1260,6 +996,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-04T03:38:04.737661Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 6
     }
   ],
   "health": {
@@ -1269,8 +1011,8 @@ window.MAGEN_STATE = {
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "The read operation timed out",
-        "carried_forward": 11
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 3
       },
       "manual": {
         "ok": true,
