@@ -1,81 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-04T03:38:04.737661Z",
+  "mode": "live",
+  "generated_at": "2026-08-04T06:16:38.236016Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 4,
       "low": 0,
-      "high": 20,
-      "confidence": 36,
+      "high": 17,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
-      "low": 0,
-      "high": 23,
-      "confidence": 36,
-      "status": "לא זוהה אות חריג"
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 67,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 6,
-      "low": 0,
-      "high": 25,
-      "confidence": 36,
-      "status": "לא זוהה אות חריג"
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "עלייה מתונה",
+    "points_60m": 3
   },
   "changes": [
     {
-      "time": "01:00",
-      "text": "Trump threatens more strikes on Iran ; Kuwait reports new drone attacks",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "08:15",
+      "text": "Report : IRGC strikes US base in Kuwait with drones",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "latimes.com",
-      "signal_id": "bb4826505ada70b9"
+      "source": "israelnationalnews.com",
+      "signal_id": "0b91d91ff2ec0a2b"
     },
     {
-      "time": "01:00",
-      "text": "New talks are  last chance  for Iran to forge a deal and avoid escalation of US strikes , Trump says – Brandon Sun",
-      "impact": "השפעה מיידית מחושבת: +0.3",
+      "time": "08:15",
+      "text": "Iranian FM warns Britain against cooperation with U . S . strikes on Iran",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "brandonsun.com",
-      "signal_id": "feb1cf05955ee3b4"
+      "source": "londonmercury.com",
+      "signal_id": "44b2898c74fb41eb"
     },
     {
-      "time": "00:45",
-      "text": "Strait of Hormuz could reopen by tomorrow , denuclearisation to be next phase of Iran talks : says President Trump on talks with Iran",
-      "impact": "השפעה מיידית מחושבת: +0.3",
+      "time": "08:30",
+      "text": "Iran attacks against US military base in Kuwait amid Trump claims of ongoing negotiations",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "austinglobe.com",
-      "signal_id": "05259b2fd1f8d1f5"
+      "source": "aninews.in",
+      "signal_id": "d76126128b9ab6b7"
+    },
+    {
+      "time": "08:00",
+      "text": "Iran Drone Attack on US Base in Kuwait Amid Trump Talks",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "newkerala.com",
+      "signal_id": "8cd09d651f480862"
     }
   ],
   "signals": [
     {
-      "id": "bb4826505ada70b9",
-      "name": "Trump threatens more strikes on Iran ; Kuwait reports new drone attacks",
+      "id": "0b91d91ff2ec0a2b",
+      "name": "Report : IRGC strikes US base in Kuwait with drones",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "bb4826505ada70b9",
-      "strength": 0.53,
+      "dependency_group": "0b91d91ff2ec0a2b",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.2,
+      "freshness": 0.746,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -86,28 +94,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "latimes.com",
-      "url": "https://www.latimes.com/world-nation/story/2026-08-01/trump-threatens-more-strikes-on-iran-kuwait-reports-new-drone-attacks",
-      "published_at": "2026-08-03T22:00:00Z",
+      "source": "israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/news/431193",
+      "published_at": "2026-08-04T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
     },
     {
-      "id": "feb1cf05955ee3b4",
-      "name": "New talks are  last chance  for Iran to forge a deal and avoid escalation of US strikes , Trump says – Brandon Sun",
+      "id": "44b2898c74fb41eb",
+      "name": "Iranian FM warns Britain against cooperation with U . S . strikes on Iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "feb1cf05955ee3b4",
-      "strength": 0.4,
+      "dependency_group": "44b2898c74fb41eb",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.2,
+      "freshness": 0.746,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -118,28 +125,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "brandonsun.com",
-      "url": "https://www.brandonsun.com/world/2026/08/03/trump-says-new-talks-are-last-chance-for-iran-to-forge-deal-and-avoid-escalation-of-us-strikes",
-      "published_at": "2026-08-03T22:00:00Z",
+      "source": "londonmercury.com",
+      "url": "http://www.londonmercury.com/news/279219615/iranian-fm-warns-britain-against-cooperation-with-us-strikes-on-iran",
+      "published_at": "2026-08-04T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.3
+      }
     },
     {
-      "id": "05259b2fd1f8d1f5",
-      "name": "Strait of Hormuz could reopen by tomorrow , denuclearisation to be next phase of Iran talks : says President Trump on talks with Iran",
+      "id": "d76126128b9ab6b7",
+      "name": "Iran attacks against US military base in Kuwait amid Trump claims of ongoing negotiations",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "05259b2fd1f8d1f5",
+      "dependency_group": "d76126128b9ab6b7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.186,
+      "freshness": 0.801,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -150,16 +156,201 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "austinglobe.com",
-      "url": "http://www.austinglobe.com/news/279221252/strait-of-hormuz-could-reopen-by-tomorrow-denuclearisation-to-be-next-phase-of-iran-talks-says-president-trump-on-talks-with-iran",
-      "published_at": "2026-08-03T21:45:00Z",
+      "source": "aninews.in",
+      "url": "https://aninews.in/news/world/asia/iran-attacks-against-us-military-base-in-kuwait-amid-trumps-claims-of-ongoing-negotiations20260804092332/",
+      "published_at": "2026-08-04T05:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.9
+      }
+    },
+    {
+      "id": "8cd09d651f480862",
+      "name": "Iran Drone Attack on US Base in Kuwait Amid Trump Talks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8cd09d651f480862",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.694,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newkerala.com",
+      "url": "https://www.newkerala.com/news/a/iran-attacks-against-us-military-base-kuwait-amid-125.htm",
+      "published_at": "2026-08-04T05:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "74e78636b2a75744",
+      "name": "Iran general warns US warships : Any attempt to open new Hormuz route could trigger attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "74e78636b2a75744",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.602,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gulfnews.com",
+      "url": "https://gulfnews.com/world/mena/iran-general-warns-us-warships-any-attempt-to-open-new-hormuz-route-could-trigger-attack-1.500629797",
+      "published_at": "2026-08-04T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "b11e36b579b97535",
+      "name": "Oman Ship Attack & Kuwait US Base Drone Strike | Trump Iran Statement",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b11e36b579b97535",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.602,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bhaskar.com",
+      "url": "https://www.bhaskar.com/international/news/oman-ship-attack-kuwait-us-base-drone-strike-iran-trump-statement-138626709.html",
+      "published_at": "2026-08-04T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      }
+    },
+    {
+      "id": "1877ad49a5662335",
+      "name": "New talks  last chance  for Iran to forge deal , avoid escalation of US strikes : Trump",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1877ad49a5662335",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.602,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thehindubusinessline.com",
+      "url": "https://www.thehindubusinessline.com/news/world/new-talks-last-chance-for-iran-to-forge-deal-avoid-escalation-of-us-strikes-trump/article71303707.ece",
+      "published_at": "2026-08-04T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      }
+    },
+    {
+      "id": "7864341a97f2f839",
+      "name": "Iran talks  last chance  to avert US strike escalation : Trump",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7864341a97f2f839",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.421,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "siasat.com",
+      "url": "https://www.siasat.com/iran-talks-last-chance-to-avert-us-strike-escalation-trump-3518317/",
+      "published_at": "2026-08-04T03:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "57ca1426a76e52e9",
+      "name": "UKMTO reports vessel hit near Hormuz as Iran strike reports emerge",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "57ca1426a76e52e9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.365,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "investinglive.com",
+      "url": "https://investinglive.com/commodities/ukmto-reports-vessel-hit-near-hormuz-as-iran-strike-reports-emerge/",
+      "published_at": "2026-08-04T02:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
     }
   ],
   "history": [
@@ -1002,17 +1193,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 6
+    },
+    {
+      "timestamp": "2026-08-04T06:16:38.236016Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 23
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-03T22:51:14.498338Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-04T06:16:38.236016Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 3
+        "ok": true,
+        "items": 150,
+        "relevant": 9
       },
       "manual": {
         "ok": true,
