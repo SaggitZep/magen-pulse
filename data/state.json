@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-04T11:37:20.329599Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-04T13:25:28.767531Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 16,
-      "low": 3,
-      "high": 29,
-      "confidence": 67,
+      "score": 10,
+      "low": 0,
+      "high": 27,
+      "confidence": 47,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 15,
+      "low": 0,
+      "high": 31,
+      "confidence": 48,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 31,
-      "low": 18,
-      "high": 44,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 19,
+      "low": 3,
+      "high": 35,
+      "confidence": 48,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -8
+    "points_60m": -6
   },
   "changes": [
     {
       "time": "11:30",
       "text": "Israel launches massacre in Gaza , as Trump threatens Iran with  decapitation",
-      "impact": "השפעה מיידית מחושבת: +11.1",
+      "impact": "השפעה מיידית מחושבת: +6.6",
       "direction": "up",
       "source": "wsws.org",
       "signal_id": "58e1d627b4755c42"
@@ -50,7 +50,7 @@
     {
       "time": "14:15",
       "text": "Exclusive - US has used  virtually all  of its long - range precision missiles during Iran war , sources say",
-      "impact": "השפעה מיידית מחושבת: +2.4",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "al-monitor.com",
       "signal_id": "ab45f7b352f55fa4"
@@ -58,7 +58,7 @@
     {
       "time": "14:15",
       "text": "Iran called off Ukraine strikes after Kiev apologized",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "iranherald.com",
       "signal_id": "13868d22e1fa1a19"
@@ -66,7 +66,7 @@
     {
       "time": "13:00",
       "text": "Iranian official claims nearly 500 US soldiers killed in Middle East strikes",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "226a85f895bf3234"
@@ -83,7 +83,7 @@
       "dependency_group": "58e1d627b4755c42",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.41,
+      "freshness": 0.245,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-04T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.1,
-        "short": 8.7,
-        "extended": 3.7
-      }
+        "immediate": 6.6,
+        "short": 5.2,
+        "extended": 2.2
+      },
+      "carried_forward": true
     },
     {
       "id": "ab45f7b352f55fa4",
@@ -114,7 +115,7 @@
       "dependency_group": "ab45f7b352f55fa4",
       "strength": 0.48,
       "reliability": 0.74,
-      "freshness": 0.899,
+      "freshness": 0.537,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-04T11:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 2.4,
-        "short": 8.3,
-        "extended": 14.1
-      }
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.4
+      },
+      "carried_forward": true
     },
     {
       "id": "13868d22e1fa1a19",
@@ -145,7 +147,7 @@
       "dependency_group": "13868d22e1fa1a19",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.899,
+      "freshness": 0.537,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-04T11:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.9
-      }
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      },
+      "carried_forward": true
     },
     {
       "id": "226a85f895bf3234",
@@ -176,7 +179,7 @@
       "dependency_group": "226a85f895bf3234",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.629,
+      "freshness": 0.376,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-04T10:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
-      }
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      },
+      "carried_forward": true
     },
     {
       "id": "a8257d09ac9e8b66",
@@ -207,7 +211,7 @@
       "dependency_group": "a8257d09ac9e8b66",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.629,
+      "freshness": 0.376,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-04T10:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.4
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      },
+      "carried_forward": true
     },
     {
       "id": "17ac2ee7d5207f15",
@@ -238,7 +243,7 @@
       "dependency_group": "17ac2ee7d5207f15",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.676,
+      "freshness": 0.404,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@
       "published_at": "2026-08-04T10:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      },
+      "carried_forward": true
     },
     {
       "id": "58f107abbfc9df1f",
@@ -269,7 +275,7 @@
       "dependency_group": "58f107abbfc9df1f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.629,
+      "freshness": 0.376,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@
       "published_at": "2026-08-04T10:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "e92dc670f7472553",
@@ -300,7 +307,7 @@
       "dependency_group": "e92dc670f7472553",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.586,
+      "freshness": 0.35,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@
       "published_at": "2026-08-04T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "499aec26845fbea3",
@@ -331,7 +339,7 @@
       "dependency_group": "499aec26845fbea3",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.41,
+      "freshness": 0.245,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@
       "published_at": "2026-08-04T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
+      },
+      "carried_forward": true
     },
     {
       "id": "5df8e4871caefe46",
@@ -362,7 +371,7 @@
       "dependency_group": "5df8e4871caefe46",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.44,
+      "freshness": 0.263,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@
       "published_at": "2026-08-04T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     },
     {
       "id": "a17f51f1479bc4b6",
@@ -393,7 +403,7 @@
       "dependency_group": "a17f51f1479bc4b6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.44,
+      "freshness": 0.263,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@
       "published_at": "2026-08-04T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     },
     {
       "id": "d76126128b9ab6b7",
@@ -424,7 +435,7 @@
       "dependency_group": "d76126128b9ab6b7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.382,
+      "freshness": 0.228,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,10 +451,11 @@
       "published_at": "2026-08-04T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
+      },
+      "carried_forward": true
     },
     {
       "id": "4ce92981ae46ce1a",
@@ -455,7 +467,7 @@
       "dependency_group": "4ce92981ae46ce1a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.382,
+      "freshness": 0.228,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,10 +483,11 @@
       "published_at": "2026-08-04T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
+      },
+      "carried_forward": true
     },
     {
       "id": "1beae1fd76456e3f",
@@ -486,7 +499,7 @@
       "dependency_group": "1beae1fd76456e3f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.382,
+      "freshness": 0.228,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,10 +515,11 @@
       "published_at": "2026-08-04T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
     },
     {
       "id": "0cdb3e27f28b3a14",
@@ -517,7 +531,7 @@
       "dependency_group": "0cdb3e27f28b3a14",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.331,
+      "freshness": 0.198,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,10 +547,11 @@
       "published_at": "2026-08-04T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      }
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 2.0
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1397,17 +1412,23 @@
       "immediate": 16,
       "short": 24,
       "extended": 31
+    },
+    {
+      "timestamp": "2026-08-04T13:25:28.767531Z",
+      "immediate": 10,
+      "short": 15,
+      "extended": 19
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-04T11:37:20.329599Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 15
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 15
       },
       "manual": {
         "ok": true,
