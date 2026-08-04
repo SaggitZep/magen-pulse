@@ -1,105 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-04T21:06:57.110935Z",
+  "mode": "live",
+  "generated_at": "2026-08-04T22:29:53.514814Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 4,
       "low": 0,
-      "high": 20,
-      "confidence": 32,
+      "high": 18,
+      "confidence": 61,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
+      "score": 12,
       "low": 0,
-      "high": 23,
-      "confidence": 32,
-      "status": "לא זוהה אות חריג"
+      "high": 26,
+      "confidence": 61,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 4,
-      "low": 0,
-      "high": 23,
-      "confidence": 32,
-      "status": "לא זוהה אות חריג"
+      "score": 19,
+      "low": 5,
+      "high": 33,
+      "confidence": 61,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "עלייה מתונה",
+    "points_60m": 3
   },
   "changes": [
     {
-      "time": "18:15",
-      "text": "Iran war depletes US missile stocks , raising concerns over readiness for conflict with China : Report",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "00:45",
+      "text": "U . S . has used virtually all long - range precision missiles during Iran war , sources say",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "timesofindia.indiatimes.com",
-      "signal_id": "8d02d36dfe1f446d"
+      "source": "staradvertiser.com",
+      "signal_id": "202e05b2fced3c1d"
     },
     {
-      "time": "18:15",
-      "text": "Trump Warns Iran Faces  Last Chance  for Deal as U . S . Holds Off on Massive Strikes",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "00:00",
+      "text": "More commercial ships attacked in Middle East , threatening Strait of Hormuz deal with Iran",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "themainewire.com",
-      "signal_id": "fa27581a64f0d8e1"
+      "source": "nypost.com",
+      "signal_id": "3ef85505f7ef2301"
+    },
+    {
+      "time": "22:15",
+      "text": "STRAIT OF HORMUZ : Cargo Ship Reports Attack As U . S ., Iran Clash Over Talks",
+      "impact": "השפעה מיידית מחושבת: +0.7",
+      "direction": "up",
+      "source": "theyeshivaworld.com",
+      "signal_id": "b8e604ed7924728c"
+    },
+    {
+      "time": "22:15",
+      "text": "TALKS AND TENSIONS : Qatar Reports Progress as Iran Demands Control Over Hormuz Shipping",
+      "impact": "השפעה מיידית מחושבת: +0.7",
+      "direction": "up",
+      "source": "theyeshivaworld.com",
+      "signal_id": "2eb21b67ee90ca36"
     }
   ],
   "signals": [
     {
-      "id": "8d02d36dfe1f446d",
-      "name": "Iran war depletes US missile stocks , raising concerns over readiness for conflict with China : Report",
-      "finding": "דיווח על יכולת, פריסה או היערכות צבאית איראנית.",
-      "category": "capability",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8d02d36dfe1f446d",
-      "strength": 0.54,
-      "reliability": 0.56,
-      "freshness": 0.187,
-      "max_effect": {
-        "immediate": 34,
-        "short": 48,
-        "extended": 42
-      },
-      "relevance": {
-        "immediate": 0.58,
-        "short": 1.0,
-        "extended": 0.84
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/defence/international/us-has-nearly-emptied-its-stock-of-long-range-precision-weapons-in-war-with-iran-report/articleshow/132862107.cms",
-      "published_at": "2026-08-04T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 2.7,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "fa27581a64f0d8e1",
-      "name": "Trump Warns Iran Faces  Last Chance  for Deal as U . S . Holds Off on Massive Strikes",
+      "id": "202e05b2fced3c1d",
+      "name": "U . S . has used virtually all long - range precision missiles during Iran war , sources say",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "fa27581a64f0d8e1",
-      "strength": 0.45,
+      "dependency_group": "202e05b2fced3c1d",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.187,
+      "freshness": 0.808,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -110,16 +94,139 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "themainewire.com",
-      "url": "https://www.themainewire.com/2026/08/trump-warns-iran-faces-last-chance-for-deal-as-u-s-holds-off-on-massive-strikes/",
-      "published_at": "2026-08-04T15:15:00Z",
+      "source": "staradvertiser.com",
+      "url": "https://www.staradvertiser.com/2026/08/04/breaking-news/u-s-has-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
+      "published_at": "2026-08-04T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
+        "immediate": 1.7,
+        "short": 5.6,
+        "extended": 9.6
+      }
+    },
+    {
+      "id": "3ef85505f7ef2301",
+      "name": "More commercial ships attacked in Middle East , threatening Strait of Hormuz deal with Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3ef85505f7ef2301",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.652,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nypost.com",
+      "url": "https://nypost.com/2026/08/04/world-news/more-commercial-ships-attacked-in-middle-east-threatening-strait-of-hormuz-deal-with-iran/",
+      "published_at": "2026-08-04T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      }
+    },
+    {
+      "id": "b8e604ed7924728c",
+      "name": "STRAIT OF HORMUZ : Cargo Ship Reports Attack As U . S ., Iran Clash Over Talks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b8e604ed7924728c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.395,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/general/2582236/strait-of-hormuz-cargo-ship-reports-attack-as-u-s-iran-clash-over-talks.html",
+      "published_at": "2026-08-04T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "2eb21b67ee90ca36",
+      "name": "TALKS AND TENSIONS : Qatar Reports Progress as Iran Demands Control Over Hormuz Shipping",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2eb21b67ee90ca36",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.395,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2582335/talks-and-tensions-qatar-reports-progress-as-iran-demands-control-over-hormuz-shipping.html",
+      "published_at": "2026-08-04T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "85f29f0ea3969365",
+      "name": "Report : US Has Used  Virtually All  of Its Long - Range Precision Missiles During Iran War",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "85f29f0ea3969365",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.319,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "english.aawsat.com",
+      "url": "https://english.aawsat.com/features/5303434-report-us-has-used-%E2%80%98virtually-all%E2%80%99-its-long-range-precision-missiles-during-iran",
+      "published_at": "2026-08-04T18:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      }
     }
   ],
   "history": [
@@ -1010,17 +1117,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 4
+    },
+    {
+      "timestamp": "2026-08-04T22:29:53.514814Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 19
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-04T15:59:19.635413Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-04T22:29:53.514814Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 2
+        "ok": true,
+        "items": 150,
+        "relevant": 5
       },
       "manual": {
         "ok": true,
