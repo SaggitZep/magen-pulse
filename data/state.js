@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-03T22:51:14.498338Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-04T00:04:26.988979Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 67,
+      "high": 19,
+      "confidence": 49,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
-      "low": 1,
-      "high": 27,
-      "confidence": 67,
+      "score": 10,
+      "low": 0,
+      "high": 26,
+      "confidence": 49,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 23,
-      "low": 10,
-      "high": 36,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 17,
+      "low": 1,
+      "high": 33,
+      "confidence": 49,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "01:00",
       "text": "Trump threatens more strikes on Iran ; Kuwait reports new drone attacks",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "latimes.com",
       "signal_id": "bb4826505ada70b9"
@@ -50,26 +50,26 @@ window.MAGEN_STATE = {
     {
       "time": "01:00",
       "text": "New talks are  last chance  for Iran to forge a deal and avoid escalation of US strikes , Trump says – Brandon Sun",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "brandonsun.com",
       "signal_id": "feb1cf05955ee3b4"
     },
     {
-      "time": "00:30",
-      "text": "Trump : Iran  Last Chance  as US Pauses Strike",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "time": "00:45",
+      "text": "Strait of Hormuz could reopen by tomorrow , denuclearisation to be next phase of Iran talks : says President Trump on talks with Iran",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
-      "source": "newkerala.com",
-      "signal_id": "0df4047c9482fd01"
+      "source": "austinglobe.com",
+      "signal_id": "05259b2fd1f8d1f5"
     },
     {
       "time": "00:30",
-      "text": "Trump : Hormuz Reopening Soon , Iran Denuclearization Next",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "text": "Trump : Iran  Last Chance  as US Pauses Strike",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "newkerala.com",
-      "signal_id": "700c95f083e10819"
+      "signal_id": "0df4047c9482fd01"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bb4826505ada70b9",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.783,
+      "freshness": 0.553,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-03T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.0,
-        "extended": 10.2
-      }
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      },
+      "carried_forward": true
     },
     {
       "id": "feb1cf05955ee3b4",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "feb1cf05955ee3b4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.783,
+      "freshness": 0.553,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,72 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-03T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
-    },
-    {
-      "id": "0df4047c9482fd01",
-      "name": "Trump : Iran  Last Chance  as US Pauses Strike",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0df4047c9482fd01",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.679,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newkerala.com",
-      "url": "https://www.newkerala.com/news/a/this-irans-last-chance-trump-says-us-paused-918.htm",
-      "published_at": "2026-08-03T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
-    },
-    {
-      "id": "700c95f083e10819",
-      "name": "Trump : Hormuz Reopening Soon , Iran Denuclearization Next",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "700c95f083e10819",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.679,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newkerala.com",
-      "url": "https://www.newkerala.com/news/a/strait-hormuz-could-reopen-tomorrow-denuclearisation-next-phase-720.htm",
-      "published_at": "2026-08-03T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
+      "carried_forward": true
     },
     {
       "id": "05259b2fd1f8d1f5",
@@ -207,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "05259b2fd1f8d1f5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.729,
+      "freshness": 0.515,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +163,75 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-03T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "0df4047c9482fd01",
+      "name": "Trump : Iran  Last Chance  as US Pauses Strike",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0df4047c9482fd01",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.479,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newkerala.com",
+      "url": "https://www.newkerala.com/news/a/this-irans-last-chance-trump-says-us-paused-918.htm",
+      "published_at": "2026-08-03T21:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "700c95f083e10819",
+      "name": "Trump : Hormuz Reopening Soon , Iran Denuclearization Next",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "700c95f083e10819",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.479,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newkerala.com",
+      "url": "https://www.newkerala.com/news/a/strait-hormuz-could-reopen-tomorrow-denuclearisation-next-phase-720.htm",
+      "published_at": "2026-08-03T21:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
+      },
+      "carried_forward": true
     },
     {
       "id": "a3ccdd8af67513cf",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a3ccdd8af67513cf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.632,
+      "freshness": 0.446,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-03T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      },
+      "carried_forward": true
     },
     {
       "id": "3fbae245fcb819a4",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3fbae245fcb819a4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.589,
+      "freshness": 0.415,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-03T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "775b6c081d9cfbfc",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "775b6c081d9cfbfc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.384,
+      "freshness": 0.271,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-03T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
+      },
+      "carried_forward": true
     },
     {
       "id": "3da5b4362f9f768e",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3da5b4362f9f768e",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.332,
+      "freshness": 0.235,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-03T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
+        "immediate": 0.5,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     },
     {
       "id": "9f50656648122bc4",
@@ -362,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9f50656648122bc4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.332,
+      "freshness": 0.235,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-03T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
+        "immediate": 0.5,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     },
     {
       "id": "4af2c072858daebe",
@@ -393,7 +403,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4af2c072858daebe",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.332,
+      "freshness": 0.235,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-03T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.3
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1243,17 +1254,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 14,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-08-04T00:04:26.988979Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-03T22:51:14.498338Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 11
+        "ok": false,
+        "error": "The read operation timed out",
+        "carried_forward": 11
       },
       "manual": {
         "ok": true,
