@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-05T04:30:26.239157Z",
+  "generated_at": "2026-08-05T07:20:31.314677Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 0,
       "low": 0,
-      "high": 20,
-      "confidence": 32,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 3,
+      "score": 0,
       "low": 0,
       "high": 22,
-      "confidence": 32,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 4,
+      "score": 0,
       "low": 0,
-      "high": 23,
-      "confidence": 32,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     }
   },
@@ -35,93 +35,11 @@
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "יציב",
+    "points_60m": -1
   },
-  "changes": [
-    {
-      "time": "02:00",
-      "text": "Report : US Has Used  Virtually All  of Its ATACMS and Precision Strike Missiles in Iran War",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "news.antiwar.com",
-      "signal_id": "4290fa8789973782"
-    },
-    {
-      "time": "02:00",
-      "text": "Denuclearisation of Iran ultimate deal ; immediate focus is reopening Strait of Hormuz : Marco Rubio says progress made in talks",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "news.webindia123.com",
-      "signal_id": "1b6ea7e9255b5b82"
-    }
-  ],
-  "signals": [
-    {
-      "id": "4290fa8789973782",
-      "name": "Report : US Has Used  Virtually All  of Its ATACMS and Precision Strike Missiles in Iran War",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4290fa8789973782",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.207,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.antiwar.com",
-      "url": "https://news.antiwar.com/2026/08/04/report-us-has-used-virtually-all-of-its-atacms-and-precision-strike-missiles-in-iran-war/",
-      "published_at": "2026-08-04T23:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1b6ea7e9255b5b82",
-      "name": "Denuclearisation of Iran ultimate deal ; immediate focus is reopening Strait of Hormuz : Marco Rubio says progress made in talks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1b6ea7e9255b5b82",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.207,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260805/4483306.html",
-      "published_at": "2026-08-04T23:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -1034,17 +952,23 @@
       "immediate": 1,
       "short": 3,
       "extended": 4
+    },
+    {
+      "timestamp": "2026-08-05T07:20:31.314677Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-08-04T23:37:04.476668Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 2
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
