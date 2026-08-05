@@ -1,45 +1,234 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-05T07:20:31.314677Z",
+  "mode": "live",
+  "generated_at": "2026-08-05T10:03:52.436465Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 3,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 18,
+      "confidence": 57,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
+      "score": 10,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "high": 25,
+      "confidence": 57,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 17,
+      "low": 2,
+      "high": 32,
+      "confidence": 57,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 3
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "12:30",
+      "text": "To defeat Iran terror regime , Trump must attack the system that sustains it",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "foxnews.com",
+      "signal_id": "8cf3d115412555a7"
+    },
+    {
+      "time": "10:00",
+      "text": "Pentagon Depletes Long Range Missiles amid Continuing Strategic Defeats against Iran",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "wibailoutpeople.org",
+      "signal_id": "1fc472780a7d2df1"
+    },
+    {
+      "time": "10:00",
+      "text": "80 % ממיירטי THAAD אזלו : ארה  ב במשבר טילים חמור מול איראן",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "kikar.co.il",
+      "signal_id": "dcfc63a80c3275dd"
+    },
+    {
+      "time": "10:00",
+      "text": "Trump warns Iran of military strike if nuclear deal talks collapse",
+      "impact": "השפעה מיידית מחושבת: +0.8",
+      "direction": "up",
+      "source": "foxnews.com",
+      "signal_id": "f8362e40190e118b"
+    }
+  ],
+  "signals": [
+    {
+      "id": "8cf3d115412555a7",
+      "name": "To defeat Iran terror regime , Trump must attack the system that sustains it",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8cf3d115412555a7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.851,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "foxnews.com",
+      "url": "https://www.foxnews.com/opinion/irans-regime-wont-negotiate-good-faith-trump-must-break-its-grip",
+      "published_at": "2026-08-05T09:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "1fc472780a7d2df1",
+      "name": "Pentagon Depletes Long Range Missiles amid Continuing Strategic Defeats against Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1fc472780a7d2df1",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.417,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wibailoutpeople.org",
+      "url": "https://wibailoutpeople.org/2026/08/04/pentagon-depletes-long-range-missiles-amid-continuing-strategic-defeats-against-iran/",
+      "published_at": "2026-08-05T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      }
+    },
+    {
+      "id": "dcfc63a80c3275dd",
+      "name": "80 % ממיירטי THAAD אזלו : ארה  ב במשבר טילים חמור מול איראן",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dcfc63a80c3275dd",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.417,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kikar.co.il",
+      "url": "https://www.kikar.co.il/world-news/us-military-thaad-missile-crisis-iran-war",
+      "published_at": "2026-08-05T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      }
+    },
+    {
+      "id": "f8362e40190e118b",
+      "name": "Trump warns Iran of military strike if nuclear deal talks collapse",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f8362e40190e118b",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.417,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "foxnews.com",
+      "url": "https://www.foxnews.com/politics/trump-iran-nuclear-talks-strike-warning",
+      "published_at": "2026-08-05T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "353712a9633e16fc",
+      "name": "טראמפ מאיים באולטימטום לאיראן : פתיחת הורמוז או מתקפה",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "353712a9633e16fc",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.417,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kikar.co.il",
+      "url": "https://www.kikar.co.il/world-news/trump-iran-hormuz-ultimatum-nuclear-threat",
+      "published_at": "2026-08-05T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -958,17 +1147,23 @@
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-08-05T10:03:52.436465Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-08-04T23:37:04.476668Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-05T10:03:52.436465Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 5
       },
       "manual": {
         "ok": true,
