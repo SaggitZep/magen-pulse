@@ -1,30 +1,30 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-05T14:42:35.156451Z",
+  "generated_at": "2026-08-05T16:28:17.436434Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
+      "high": 16,
       "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 11,
       "low": 0,
-      "high": 26,
+      "high": 24,
       "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
+      "score": 18,
+      "low": 5,
+      "high": 31,
       "confidence": 65,
       "status": "נמוך"
     }
@@ -36,54 +36,54 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
-      "time": "17:00",
-      "text": "Hormuz deal to give Iran greater control over shipping Axios",
+      "time": "18:45",
+      "text": "Strategic Attack on Iran : Airpower Promises , Limits , and Lessons",
       "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "iraqsun.com",
-      "signal_id": "0ac3ab23ed42f90b"
+      "source": "justsecurity.org",
+      "signal_id": "56778c16f98a4fbc"
+    },
+    {
+      "time": "17:45",
+      "text": "Sen . Tammy Baldwin pushes Pentagon to release probe of Iranian attack that killed 6 U . S . troops in Kuwait",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "cbsnews.com",
+      "signal_id": "bba01c4de95050d2"
     },
     {
       "time": "16:00",
       "text": "US has used  virtually all  key long - range missiles in Iran war – report – Middle East Monitor",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "middleeastmonitor.com",
       "signal_id": "aa97f9220b253afd"
     },
     {
-      "time": "16:00",
-      "text": "ఇరాన్ యుద్ధం .. భారీగా తరిగిపోతున్న అమెరికా క్షిపణి నిల్వలు .. | Iran War Drains US Missile Defences , THAAD and Patriot Interceptors Under Pressure sgr",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "time": "17:00",
+      "text": "Hormuz deal to give Iran greater control over shipping Axios",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
-      "source": "andhrajyothy.com",
-      "signal_id": "04134449911bd1cf"
-    },
-    {
-      "time": "15:00",
-      "text": "US military has used up  virtually all  of its long - range missiles in war with Iran",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "lbc.co.uk",
-      "signal_id": "c7ea4fd5f79a5049"
+      "source": "iraqsun.com",
+      "signal_id": "0ac3ab23ed42f90b"
     }
   ],
   "signals": [
     {
-      "id": "0ac3ab23ed42f90b",
-      "name": "Hormuz deal to give Iran greater control over shipping Axios",
+      "id": "56778c16f98a4fbc",
+      "name": "Strategic Attack on Iran : Airpower Promises , Limits , and Lessons",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "0ac3ab23ed42f90b",
+      "dependency_group": "56778c16f98a4fbc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.816,
+      "freshness": 0.814,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,14 +94,45 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "iraqsun.com",
-      "url": "http://www.iraqsun.com/news/279223155/hormuz-deal-to-give-iran-greater-control-over-shipping-axios",
-      "published_at": "2026-08-05T14:00:00Z",
+      "source": "justsecurity.org",
+      "url": "https://www.justsecurity.org/151394/strategic-attack-on-iran-airpowers-promises-limits-and-lessons/",
+      "published_at": "2026-08-05T15:45:00Z",
       "active": true,
       "computed": {
         "immediate": 1.4,
         "short": 4.7,
         "extended": 8.0
+      }
+    },
+    {
+      "id": "bba01c4de95050d2",
+      "name": "Sen . Tammy Baldwin pushes Pentagon to release probe of Iranian attack that killed 6 U . S . troops in Kuwait",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bba01c4de95050d2",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.611,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/tammy-baldwin-pentagon-iranian-attack-kuwait-six-u-s-troops/",
+      "published_at": "2026-08-05T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
       }
     },
     {
@@ -114,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "aa97f9220b253afd",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.614,
+      "freshness": 0.371,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +161,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-05T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "0ac3ab23ed42f90b",
+      "name": "Hormuz deal to give Iran greater control over shipping Axios",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0ac3ab23ed42f90b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.494,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iraqsun.com",
+      "url": "http://www.iraqsun.com/news/279223155/hormuz-deal-to-give-iran-greater-control-over-shipping-axios",
+      "published_at": "2026-08-05T14:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       }
     },
     {
@@ -145,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "04134449911bd1cf",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.614,
+      "freshness": 0.371,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,164 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-05T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
-      }
-    },
-    {
-      "id": "c7ea4fd5f79a5049",
-      "name": "US military has used up  virtually all  of its long - range missiles in war with Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c7ea4fd5f79a5049",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.461,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "lbc.co.uk",
-      "url": "https://www.lbc.co.uk/article/us-used-up-long-range-missiles-in-iran-war-5HjdfdS_2/",
-      "published_at": "2026-08-05T12:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "3eaab34bc0eb710a",
-      "name": "US military downs Iranian - made drone in Syria",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3eaab34bc0eb710a",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.461,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "navytimes.com",
-      "url": "https://www.navytimes.com/news/your-military/2023/02/15/us-military-downs-iranian-made-drone-in-syria/",
-      "published_at": "2026-08-05T12:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "a6a20af4550e3297",
-      "name": "U . S . aims to announce Hormuz deal by Wednesday , Iran warns of delay - reports | Hellenic Shipping News Worldwide",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a6a20af4550e3297",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.372,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hellenicshippingnews.com",
-      "url": "https://www.hellenicshippingnews.com/u-s-aims-to-announce-hormuz-deal-by-wednesday-iran-warns-of-delay-reports/",
-      "published_at": "2026-08-05T11:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "16d636d1694c6912",
-      "name": "Trump claims  last chance  for Iran to strike deal in latest warning",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "16d636d1694c6912",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.429,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thestar.com.my",
-      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/05/trump-claims-last-chance-for-iran-to-strike-deal-in-latest-warning",
-      "published_at": "2026-08-05T11:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
-    },
-    {
-      "id": "fa6fc14de85230fe",
-      "name": "Iran says it was ready to strike Ukraine after Caspian Sea attack ; US sees possible Strait of Hormuz deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fa6fc14de85230fe",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.323,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ibtimes.co.in",
-      "url": "https://www.ibtimes.co.in/iran-says-it-was-ready-strike-ukraine-after-caspian-sea-attack-us-sees-possible-strait-hormuz-904459",
-      "published_at": "2026-08-05T10:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       }
     }
   ],
@@ -1258,17 +1165,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-05T16:28:17.436434Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-05T14:42:35.156451Z",
+    "last_success": "2026-08-05T16:28:17.436434Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 8
+        "relevant": 5
       },
       "manual": {
         "ok": true,
