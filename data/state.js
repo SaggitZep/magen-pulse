@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-05T01:06:44.466020Z",
+  "generated_at": "2026-08-05T04:30:26.239157Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 1,
       "low": 0,
-      "high": 19,
-      "confidence": 49,
+      "high": 20,
+      "confidence": 32,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 3,
       "low": 0,
-      "high": 25,
-      "confidence": 49,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 32,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
+      "score": 4,
       "low": 0,
-      "high": 32,
-      "confidence": 49,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 32,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -35,14 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "ירידה",
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "02:00",
       "text": "Report : US Has Used  Virtually All  of Its ATACMS and Precision Strike Missiles in Iran War",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "news.antiwar.com",
       "signal_id": "4290fa8789973782"
@@ -50,26 +50,10 @@ window.MAGEN_STATE = {
     {
       "time": "02:00",
       "text": "Denuclearisation of Iran ultimate deal ; immediate focus is reopening Strait of Hormuz : Marco Rubio says progress made in talks",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "news.webindia123.com",
       "signal_id": "1b6ea7e9255b5b82"
-    },
-    {
-      "time": "01:15",
-      "text": "Iran says strikes on Ukraine canceled after Kyiv apologized",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "albawaba.net",
-      "signal_id": "5adbfdfdef985e53"
-    },
-    {
-      "time": "00:45",
-      "text": "U . S . has used virtually all long - range precision missiles during Iran war , sources say",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "staradvertiser.com",
-      "signal_id": "202e05b2fced3c1d"
     }
   ],
   "signals": [
@@ -83,7 +67,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4290fa8789973782",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.547,
+      "freshness": 0.207,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +83,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -115,7 +99,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1b6ea7e9255b5b82",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.547,
+      "freshness": 0.207,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,105 +115,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-04T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5adbfdfdef985e53",
-      "name": "Iran says strikes on Ukraine canceled after Kyiv apologized",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5adbfdfdef985e53",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.441,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "albawaba.net",
-      "url": "https://www.albawaba.net/news/iran-says-strikes-ukraine-canceled-after-1634428",
-      "published_at": "2026-08-04T22:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "202e05b2fced3c1d",
-      "name": "U . S . has used virtually all long - range precision missiles during Iran war , sources say",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "202e05b2fced3c1d",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.383,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "staradvertiser.com",
-      "url": "https://www.staradvertiser.com/2026/08/04/breaking-news/u-s-has-used-virtually-all-long-range-precision-missiles-during-iran-war-sources-say/",
-      "published_at": "2026-08-04T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3ef85505f7ef2301",
-      "name": "More commercial ships attacked in Middle East , threatening Strait of Hormuz deal with Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3ef85505f7ef2301",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.309,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nypost.com",
-      "url": "https://nypost.com/2026/08/04/world-news/more-commercial-ships-attacked-in-middle-east-threatening-strait-of-hormuz-deal-with-iran/",
-      "published_at": "2026-08-04T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -1140,6 +1028,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 9,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-05T04:30:26.239157Z",
+      "immediate": 1,
+      "short": 3,
+      "extended": 4
     }
   ],
   "health": {
@@ -1150,7 +1044,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "carried_forward": 2
       },
       "manual": {
         "ok": true,
