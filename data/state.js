@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-06T10:09:15.786832Z",
+  "generated_at": "2026-08-06T12:20:02.344967Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 1,
       "low": 0,
       "high": 19,
-      "confidence": 47,
+      "confidence": 39,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 4,
       "low": 0,
-      "high": 24,
-      "confidence": 47,
+      "high": 22,
+      "confidence": 39,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
+      "score": 6,
       "low": 0,
-      "high": 28,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 24,
+      "confidence": 39,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -35,14 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "09:45",
       "text": "Iran threatens to hit Gulf states if US launches new strikes | Ariana News",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "ariananews.af",
       "signal_id": "0ec6a19c585c6b10"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:00",
       "text": "Iran , Oman Near Temporary Strait Of Hormuz Shipping Deal  restating 60 - day MoU Deal",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "i24news.tv",
       "signal_id": "fbaf9c76b8b53bb3"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "09:45",
       "text": "Iran , Oman near Strait of Hormuz shipping deal",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "tradearabia.com:443",
       "signal_id": "ea14c5ef9835b4db"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "09:45",
       "text": "Iran , Oman in final stages of Homruz shipping route deal",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "pajhwok.com",
       "signal_id": "7f8da3128a686621"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0ec6a19c585c6b10",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.378,
+      "freshness": 0.203,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-06T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.3
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fbaf9c76b8b53bb3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.406,
+      "freshness": 0.218,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-06T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ea14c5ef9835b4db",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.378,
+      "freshness": 0.203,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-06T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7f8da3128a686621",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.378,
+      "freshness": 0.203,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,41 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-06T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "fac803aa42b65089",
-      "name": "Donald Trump and Pete Hegseth  in furious clash  over Iran missile stockpiles",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fac803aa42b65089",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.246,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aol.co.uk",
-      "url": "https://www.aol.co.uk/articles/donald-trump-pete-hegseth-furious-043900000.html",
-      "published_at": "2026-08-06T05:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -1230,6 +1198,12 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 7,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-06T12:20:02.344967Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 6
     }
   ],
   "health": {
@@ -1240,7 +1214,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "carried_forward": 4
       },
       "manual": {
         "ok": true,
