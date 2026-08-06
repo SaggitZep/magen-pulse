@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-06T01:06:55.612082Z",
+  "generated_at": "2026-08-06T04:31:58.441297Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 11,
+      "score": 0,
       "low": 0,
-      "high": 28,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
+      "score": 0,
       "low": 0,
-      "high": 32,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
+      "score": 0,
       "low": 0,
-      "high": 33,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -36,396 +36,10 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -6
+    "points_60m": -11
   },
-  "changes": [
-    {
-      "time": "00:30",
-      "text": "Netanyahu sugerează că Israelul ar putea ataca unilateral Iranul , în ciuda negocierilor dintre Teheran și Washington :  Sunt hotărât să împiedic Iranul să obțină o armă nucleară",
-      "impact": "השפעה מיידית מחושבת: +8.8",
-      "direction": "up",
-      "source": "stiripesurse.ro",
-      "signal_id": "c49950791c2bc1d2"
-    },
-    {
-      "time": "00:30",
-      "text": "Iran says it has agreed Strait of Hormuz shipping route with Oman",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "bbc.co.uk",
-      "signal_id": "17ce4e5a04f3d714"
-    },
-    {
-      "time": "01:00",
-      "text": "Iran threatens to hit Gulf states if US launches new strikes",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "arabnews.com",
-      "signal_id": "26aee348fb848a9b"
-    },
-    {
-      "time": "01:00",
-      "text": "The US concession on Hormuz , Iran threat and the wait for Mojtaba :  Interacting wit",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "ynetnews.com",
-      "signal_id": "9f775de26e245122"
-    }
-  ],
-  "signals": [
-    {
-      "id": "c49950791c2bc1d2",
-      "name": "Netanyahu sugerează că Israelul ar putea ataca unilateral Iranul , în ciuda negocierilor dintre Teheran și Washington :  Sunt hotărât să împiedic Iranul să obțină o armă nucleară",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c49950791c2bc1d2",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.356,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "stiripesurse.ro",
-      "url": "https://www.stiripesurse.ro/netanyahu-sugereaza-ca-israelul-ar-putea-ataca-unilateral-iranul-in-ciuda-negocierilor-dintre-teheran-si-washington-sunt-hotarat-sa-impiedic-iranul-sa-obtina-o-arma-nucleara_3909833",
-      "published_at": "2026-08-05T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 8.8,
-        "short": 6.8,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "17ce4e5a04f3d714",
-      "name": "Iran says it has agreed Strait of Hormuz shipping route with Oman",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "17ce4e5a04f3d714",
-      "strength": 0.4,
-      "reliability": 0.88,
-      "freshness": 0.356,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bbc.co.uk",
-      "url": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo",
-      "published_at": "2026-08-05T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "26aee348fb848a9b",
-      "name": "Iran threatens to hit Gulf states if US launches new strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "26aee348fb848a9b",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.411,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabnews.com",
-      "url": "https://www.arabnews.com/node/2653568/middle-east",
-      "published_at": "2026-08-05T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9f775de26e245122",
-      "name": "The US concession on Hormuz , Iran threat and the wait for Mojtaba :  Interacting wit",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9f775de26e245122",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.411,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/syhbmzb8fg",
-      "published_at": "2026-08-05T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ea30e34b4c9126d8",
-      "name": "Reuters : Washington Spent Nearly Entire Stock of Ground - Based Tactical Ballistic Missiles in Attack on Iran – NaturalNews . com",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ea30e34b4c9126d8",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.356,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-08-05-reuters-us-spent-almost-all-missiles-on-iran.html",
-      "published_at": "2026-08-05T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9c87428d92f4d044",
-      "name": "US military says it redirected 48 vessels while enforcing Iran blockade",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9c87428d92f4d044",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.411,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/middle-east/us-military-says-it-redirected-48-vessels-while-enforcing-iran-blockade/4019496",
-      "published_at": "2026-08-05T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c8e3366ebdedf74c",
-      "name": "Iran , Oman finalizing agreement on new Hormuz Strait shipping arrangements : Iran deputy FM",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c8e3366ebdedf74c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.287,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bignewsnetwork.com",
-      "url": "http://www.bignewsnetwork.com/news/279224015/iran-oman-finalizing-agreement-on-new-hormuz-strait-shipping-arrangements-iran-deputy-fm",
-      "published_at": "2026-08-05T20:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5ca672047bcb5dc6",
-      "name": "Iran IRGC commander vows to pursue nuclear weapons until US disarms",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5ca672047bcb5dc6",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.267,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "foxnews.com",
-      "url": "https://www.foxnews.com/world/nuclear-experts-urge-trump-not-let-iran-steer-talks-away-from-regimes-atomic-threat",
-      "published_at": "2026-08-05T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ad87ec00075b201b",
-      "name": "U . S . Military Reportedly Used Up 80 % of Its Key Missile Interceptors in Iran War",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ad87ec00075b201b",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.187,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "democracynow.org",
-      "url": "https://www.democracynow.org/2026/8/5/headlines/us_military_reportedly_used_up_80_of_its_key_missile_interceptors_in_iran_war",
-      "published_at": "2026-08-05T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "346bd4a85c89c775",
-      "name": "Iran , Oman agree on new Strait of Hormuz shipping corridor",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "346bd4a85c89c775",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.201,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "albawaba.net",
-      "url": "https://www.albawaba.net/news/iran-oman-agree-new-strait-hormuz-1634504",
-      "published_at": "2026-08-05T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9fbcb6e02a9c5062",
-      "name": "Trump Iran War Is Using Up the Military Stockpiles",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9fbcb6e02a9c5062",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.187,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "rollingstone.com",
-      "url": "https://www.rollingstone.com/politics/political-commentary/trump-iran-war-military-stockpiles-1235603880/",
-      "published_at": "2026-08-05T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -1404,17 +1018,23 @@ window.MAGEN_STATE = {
       "immediate": 11,
       "short": 15,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-06T04:31:58.441297Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-08-05T22:34:07.490789Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 11
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
