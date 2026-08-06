@@ -1,45 +1,296 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-06T04:31:58.441297Z",
+  "mode": "live",
+  "generated_at": "2026-08-06T07:22:45.249444Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 4,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 17,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 68,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -11
+    "level": "עלייה מתונה",
+    "points_60m": 4
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "09:45",
+      "text": "Iran threatens to hit Gulf states if US launches new strikes | Ariana News",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "ariananews.af",
+      "signal_id": "0ec6a19c585c6b10"
+    },
+    {
+      "time": "10:00",
+      "text": "Iran , Oman Near Temporary Strait Of Hormuz Shipping Deal  restating 60 - day MoU Deal",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "i24news.tv",
+      "signal_id": "fbaf9c76b8b53bb3"
+    },
+    {
+      "time": "09:45",
+      "text": "Iran , Oman near Strait of Hormuz shipping deal",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "tradearabia.com:443",
+      "signal_id": "ea14c5ef9835b4db"
+    },
+    {
+      "time": "09:45",
+      "text": "Iran , Oman in final stages of Homruz shipping route deal",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "pajhwok.com",
+      "signal_id": "7f8da3128a686621"
+    }
+  ],
+  "signals": [
+    {
+      "id": "0ec6a19c585c6b10",
+      "name": "Iran threatens to hit Gulf states if US launches new strikes | Ariana News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0ec6a19c585c6b10",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.835,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ariananews.af",
+      "url": "https://www.ariananews.af/iran-threatens-to-hit-gulf-states-if-us-launches-new-strikes/",
+      "published_at": "2026-08-06T06:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.3
+      }
+    },
+    {
+      "id": "fbaf9c76b8b53bb3",
+      "name": "Iran , Oman Near Temporary Strait Of Hormuz Shipping Deal  restating 60 - day MoU Deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fbaf9c76b8b53bb3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.897,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "i24news.tv",
+      "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iran-oman-near-temporary-strait-of-hormuz-shipping-deal-restating-60-day-mou-deal",
+      "published_at": "2026-08-06T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "ea14c5ef9835b4db",
+      "name": "Iran , Oman near Strait of Hormuz shipping deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ea14c5ef9835b4db",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.835,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tradearabia.com:443",
+      "url": "https://tradearabia.com:443/News/466254/Iran-Oman-near-Strait-of-Hormuz-shipping-deal",
+      "published_at": "2026-08-06T06:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "7f8da3128a686621",
+      "name": "Iran , Oman in final stages of Homruz shipping route deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7f8da3128a686621",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.835,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "pajhwok.com",
+      "url": "https://pajhwok.com/2026/08/06/iran-oman-in-final-stages-of-homruz-shipping-route-deal/",
+      "published_at": "2026-08-06T06:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "fac803aa42b65089",
+      "name": "Donald Trump and Pete Hegseth  in furious clash  over Iran missile stockpiles",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fac803aa42b65089",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.544,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aol.co.uk",
+      "url": "https://www.aol.co.uk/articles/donald-trump-pete-hegseth-furious-043900000.html",
+      "published_at": "2026-08-06T05:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "072a232abadefaf1",
+      "name": "Iran Threatens Gulf Energy Hubs If US Attacks | Middle East Crisis Update",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "072a232abadefaf1",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.33,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bhaskar.com",
+      "url": "https://www.bhaskar.com/international/news/iran-threatens-gulf-energy-hubs-us-attack-warning-middle-east-news-138645661.html",
+      "published_at": "2026-08-06T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.7
+      }
+    },
+    {
+      "id": "204d43cf4e4e26b9",
+      "name": "Oil Flat As Traders Try To Reconcile Reports Of Hormuz Deal With Iran Vowing To Develop Nuclear Weapon",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "204d43cf4e4e26b9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.33,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "shipandbunker.com",
+      "url": "https://shipandbunker.com/news/world/168504-oil-flat-as-traders-try-to-reconcile-reports-of-hormuz-deal-with-iran-vowing-to-develop-nuclear-weapon",
+      "published_at": "2026-08-06T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -1024,17 +1275,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-08-06T07:22:45.249444Z",
+      "immediate": 4,
+      "short": 15,
+      "extended": 24
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-08-05T22:34:07.490789Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-06T07:22:45.249444Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
