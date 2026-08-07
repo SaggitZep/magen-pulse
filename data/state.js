@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-07T20:23:11.079402Z",
+  "generated_at": "2026-08-07T21:10:50.417840Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 9,
+      "score": 7,
       "low": 0,
-      "high": 25,
-      "confidence": 48,
-      "status": "נמוך"
+      "high": 24,
+      "confidence": 47,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 10,
       "low": 0,
-      "high": 29,
-      "confidence": 48,
+      "high": 27,
+      "confidence": 47,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
+      "score": 12,
       "low": 0,
-      "high": 31,
-      "confidence": 48,
+      "high": 29,
+      "confidence": 47,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:45",
       "text": "FAR FROM DESTROYED : Iran Still Has Enough Nuclear Material For Up To 10 Bombs Despite U . S .- Israeli Strikes",
-      "impact": "השפעה מיידית מחושבת: +6.6",
+      "impact": "השפעה מיידית מחושבת: +5.2",
       "direction": "up",
       "source": "theyeshivaworld.com",
       "signal_id": "8a8eb87405a76d12"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:00",
       "text": "Attack fears grip Saudi Arabia as Iran - linked militias make fresh moves",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "moneycontrol.com",
       "signal_id": "a056f5aa4ae3e051"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:45",
       "text": "Saudi Arabia turns to Muslim military heavyweights in landmark defense pact as Iran war closes in",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "kesq.com",
       "signal_id": "a0f15113d6a7c4cf"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:30",
       "text": "Iran War Day 161 : Houthis Attacks Yemen Government Forces",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "theamericanconservative.com",
       "signal_id": "4e4928994e0b3459"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8a8eb87405a76d12",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.266,
+      "freshness": 0.212,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 6.6,
-        "short": 5.1,
-        "extended": 2.2
+        "immediate": 5.2,
+        "short": 4.1,
+        "extended": 1.7
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a056f5aa4ae3e051",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.506,
+      "freshness": 0.403,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a0f15113d6a7c4cf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.471,
+      "freshness": 0.375,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4e4928994e0b3459",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.438,
+      "freshness": 0.349,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d6c00388881fc56c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.408,
+      "freshness": 0.325,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "97ca6718deb1eade",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.408,
+      "freshness": 0.325,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "57715946f4350af6",
       "strength": 0.6,
       "reliability": 0.56,
-      "freshness": 0.23,
+      "freshness": 0.184,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,41 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "45291d467ba24a4c",
-      "name": "Gulf on edge as Saudi warns of coordinated Iran - backed militia attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "45291d467ba24a4c",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.215,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "tradearabia.com:443",
-      "url": "https://tradearabia.com:443/News/466305/Gulf-on-edge-as-Saudi-warns-of-coordinated-Iran-backed-militia-attacks",
-      "published_at": "2026-08-07T15:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -339,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "781558bd9cff78f4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.23,
+      "freshness": 0.184,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,73 +323,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f3c0bb8789a83590",
-      "name": "Trump Says Gas Prices Could Rise If US Strikes Iran Again",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f3c0bb8789a83590",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.215,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theepochtimes.com",
-      "url": "https://www.theepochtimes.com/us/trump-says-gas-prices-could-rise-if-us-strikes-iran-again-6072523",
-      "published_at": "2026-08-07T15:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "30526b05aa9a6121",
-      "name": "How the Iran - Backed Houthi Claims of Deadly Attacks Are Stoking Fears of a Wider Regional Conflict",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "30526b05aa9a6121",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.215,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "military.com",
-      "url": "https://www.military.com/how-the-iran-backed-houthis-claims-of-deadly-attacks-are-stoking-fears-of-a-wider-regional-conflict",
-      "published_at": "2026-08-07T15:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.8
       },
       "carried_forward": true
     }
@@ -1536,6 +1440,12 @@ window.MAGEN_STATE = {
       "immediate": 9,
       "short": 13,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-08-07T21:10:50.417840Z",
+      "immediate": 7,
+      "short": 10,
+      "extended": 12
     }
   ],
   "health": {
@@ -1546,7 +1456,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 11
+        "carried_forward": 8
       },
       "manual": {
         "ok": true,
