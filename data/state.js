@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-07T21:57:38.887064Z",
+  "generated_at": "2026-08-07T22:49:49.589008Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 1,
       "low": 0,
-      "high": 20,
-      "confidence": 41,
+      "high": 19,
+      "confidence": 39,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 5,
+      "score": 4,
       "low": 0,
-      "high": 23,
-      "confidence": 41,
+      "high": 22,
+      "confidence": 39,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 9,
+      "score": 7,
       "low": 0,
-      "high": 27,
-      "confidence": 41,
-      "status": "נמוך"
+      "high": 25,
+      "confidence": 39,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -35,14 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -5
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "21:00",
       "text": "Attack fears grip Saudi Arabia as Iran - linked militias make fresh moves",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "moneycontrol.com",
       "signal_id": "a056f5aa4ae3e051"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:45",
       "text": "Saudi Arabia turns to Muslim military heavyweights in landmark defense pact as Iran war closes in",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "kesq.com",
       "signal_id": "a0f15113d6a7c4cf"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:30",
       "text": "Iran War Day 161 : Houthis Attacks Yemen Government Forces",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "theamericanconservative.com",
       "signal_id": "4e4928994e0b3459"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:15",
       "text": "Iran mocks Pakistan Mecca defence pact as Saudi and Turkey reject military bloc claims :  Paper agreement  wont bring Riyadh security",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "moneycontrol.com",
       "signal_id": "d6c00388881fc56c"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a056f5aa4ae3e051",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.322,
+      "freshness": 0.252,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a0f15113d6a7c4cf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.3,
+      "freshness": 0.234,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 3.0
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.3
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4e4928994e0b3459",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.28,
+      "freshness": 0.218,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d6c00388881fc56c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.26,
+      "freshness": 0.203,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "97ca6718deb1eade",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.26,
+      "freshness": 0.203,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -1356,6 +1356,12 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 5,
       "extended": 9
+    },
+    {
+      "timestamp": "2026-08-07T22:49:49.589008Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 7
     }
   ],
   "health": {
