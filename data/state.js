@@ -1,89 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-07T22:49:49.589008Z",
+  "mode": "live",
+  "generated_at": "2026-08-07T23:24:52.061725Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 3,
       "low": 0,
-      "high": 19,
-      "confidence": 39,
+      "high": 17,
+      "confidence": 63,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
+      "score": 10,
       "low": 0,
-      "high": 22,
-      "confidence": 39,
-      "status": "לא זוהה אות חריג"
+      "high": 24,
+      "confidence": 63,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 7,
-      "low": 0,
-      "high": 25,
-      "confidence": 39,
-      "status": "לא זוהה אות חריג"
+      "score": 17,
+      "low": 3,
+      "high": 31,
+      "confidence": 63,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "21:00",
-      "text": "Attack fears grip Saudi Arabia as Iran - linked militias make fresh moves",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "01:45",
+      "text": "US sanctions on six entities , one individual linked to Iran illicit digital asset network following Strait of Hormuz attacks",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "moneycontrol.com",
-      "signal_id": "a056f5aa4ae3e051"
+      "source": "aninews.in",
+      "signal_id": "2bc4e776be9c8194"
     },
     {
-      "time": "20:45",
-      "text": "Saudi Arabia turns to Muslim military heavyweights in landmark defense pact as Iran war closes in",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "00:30",
+      "text": "U . S . sanctions crypto exchanges for laundering Iranian military assets",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
-      "source": "kesq.com",
-      "signal_id": "a0f15113d6a7c4cf"
+      "source": "upi.com",
+      "signal_id": "d8b0cd582488453e"
     },
     {
-      "time": "20:30",
-      "text": "Iran War Day 161 : Houthis Attacks Yemen Government Forces",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "23:00",
+      "text": "Iran War : Why a New Attack on Saudi Arabia Could Trigger a Three - Nation Response",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
-      "source": "theamericanconservative.com",
-      "signal_id": "4e4928994e0b3459"
+      "source": "newsweek.com",
+      "signal_id": "1491b3dbf2aa9da5"
     },
     {
-      "time": "20:15",
-      "text": "Iran mocks Pakistan Mecca defence pact as Saudi and Turkey reject military bloc claims :  Paper agreement  wont bring Riyadh security",
-      "impact": "השפעה מיידית מחושבת: +0.3",
+      "time": "22:30",
+      "text": "Iran says agreement on Hormuz shipping reached with Oman",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
-      "source": "moneycontrol.com",
-      "signal_id": "d6c00388881fc56c"
+      "source": "fortune.com",
+      "signal_id": "8412ba508aeeeddd"
     }
   ],
   "signals": [
     {
-      "id": "a056f5aa4ae3e051",
-      "name": "Attack fears grip Saudi Arabia as Iran - linked militias make fresh moves",
+      "id": "2bc4e776be9c8194",
+      "name": "US sanctions on six entities , one individual linked to Iran illicit digital asset network following Strait of Hormuz attacks",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a056f5aa4ae3e051",
+      "dependency_group": "2bc4e776be9c8194",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.252,
+      "freshness": 0.827,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,28 +94,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/attack-fears-grip-saudi-arabia-as-iran-linked-militias-make-fresh-moves-article-13998404.html",
-      "published_at": "2026-08-07T18:00:00Z",
+      "source": "aninews.in",
+      "url": "https://aninews.in/news/world/us/us-sanctions-on-six-entities-one-individual-linked-to-irans-illicit-digital-asset-network-following-strait-of-hormuz-attacks20260808032826/",
+      "published_at": "2026-08-07T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
     },
     {
-      "id": "a0f15113d6a7c4cf",
-      "name": "Saudi Arabia turns to Muslim military heavyweights in landmark defense pact as Iran war closes in",
+      "id": "d8b0cd582488453e",
+      "name": "U . S . sanctions crypto exchanges for laundering Iranian military assets",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a0f15113d6a7c4cf",
+      "dependency_group": "d8b0cd582488453e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.234,
+      "freshness": 0.579,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,28 +125,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "kesq.com",
-      "url": "https://kesq.com/news/national-world/cnn-world/2026/08/07/saudi-arabia-turns-to-muslim-military-heavyweights-in-landmark-defense-pact-as-iran-war-closes-in/",
-      "published_at": "2026-08-07T17:45:00Z",
+      "source": "upi.com",
+      "url": "https://www.upi.com/Top_News/World-News/2026/08/07/santions-iran-crypto/6431786132117/",
+      "published_at": "2026-08-07T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      }
     },
     {
-      "id": "4e4928994e0b3459",
-      "name": "Iran War Day 161 : Houthis Attacks Yemen Government Forces",
+      "id": "1491b3dbf2aa9da5",
+      "name": "Iran War : Why a New Attack on Saudi Arabia Could Trigger a Three - Nation Response",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "4e4928994e0b3459",
+      "dependency_group": "1491b3dbf2aa9da5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.218,
+      "freshness": 0.377,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,28 +156,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "theamericanconservative.com",
-      "url": "https://www.theamericanconservative.com/iran-war-day-161-houthis-attacks-yemen-government-forces/",
-      "published_at": "2026-08-07T17:30:00Z",
+      "source": "newsweek.com",
+      "url": "https://www.newsweek.com/saudi-arabia-turkey-pakistan-nato-style-pact-iran-war-12298253",
+      "published_at": "2026-08-07T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      }
     },
     {
-      "id": "d6c00388881fc56c",
-      "name": "Iran mocks Pakistan Mecca defence pact as Saudi and Turkey reject military bloc claims :  Paper agreement  wont bring Riyadh security",
+      "id": "8412ba508aeeeddd",
+      "name": "Iran says agreement on Hormuz shipping reached with Oman",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "d6c00388881fc56c",
+      "dependency_group": "8412ba508aeeeddd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.203,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -190,28 +187,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/iran-mocks-pakistan-s-mecca-defence-pact-as-saudi-and-turkey-reject-military-bloc-claims-paper-agreement-won-t-bring-riyadh-security-article-13998386.html",
-      "published_at": "2026-08-07T17:15:00Z",
+      "source": "fortune.com",
+      "url": "https://fortune.com/2026/08/07/iran-agreement-oman-strait-of-hormuz-shipping/",
+      "published_at": "2026-08-07T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      }
     },
     {
-      "id": "97ca6718deb1eade",
-      "name": "ADNOC : Iran war attacks on vessels significantly impacting operations",
+      "id": "70dc55ef2113cc73",
+      "name": "Family of Jewish American killed in Kenya terror attack sues Iran over alleged al - Shabaab ties",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "97ca6718deb1eade",
+      "dependency_group": "70dc55ef2113cc73",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.203,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -222,16 +218,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "arabnews.com",
-      "url": "https://www.arabnews.com/node/2653802/middle-east",
-      "published_at": "2026-08-07T17:15:00Z",
+      "source": "jns.org",
+      "url": "https://www.jns.org/news/u-s-news/family-of-jewish-american-killed-in-kenya-terror-attack-sues-iran-over-alleged-al-shabaab-ties",
+      "published_at": "2026-08-07T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      }
     }
   ],
   "history": [
@@ -1362,17 +1357,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 7
+    },
+    {
+      "timestamp": "2026-08-07T23:24:52.061725Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-07T18:30:31.446034Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-07T23:24:52.061725Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "ok": true,
+        "items": 150,
+        "relevant": 5
       },
       "manual": {
         "ok": true,
