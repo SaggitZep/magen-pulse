@@ -1,70 +1,264 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-07T15:37:34.923653Z",
+  "mode": "live",
+  "generated_at": "2026-08-07T16:34:43.804117Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
-      "low": 0,
-      "high": 20,
-      "confidence": 43,
-      "status": "לא זוהה אות חריג"
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 69,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
-      "low": 0,
-      "high": 27,
-      "confidence": 43,
-      "status": "נמוך"
+      "score": 27,
+      "low": 14,
+      "high": 40,
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
-      "low": 0,
-      "high": 33,
-      "confidence": 43,
-      "status": "נמוך"
+      "score": 27,
+      "low": 14,
+      "high": 40,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "זינוק חריג",
+    "points_60m": 20
   },
   "changes": [
     {
-      "time": "16:45",
-      "text": "Iranian Attacks Result in Enduring Brain Injuries for Hundreds of US Troops",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "18:45",
+      "text": "FAR FROM DESTROYED : Iran Still Has Enough Nuclear Material For Up To 10 Bombs Despite U . S .- Israeli Strikes",
+      "impact": "השפעה מיידית מחושבת: +19.4",
       "direction": "up",
-      "source": "islamicinvitationturkey.com",
-      "signal_id": "f793eea1e7e5968d"
+      "source": "theyeshivaworld.com",
+      "signal_id": "8a8eb87405a76d12"
     },
     {
-      "time": "16:00",
-      "text": "Iran reportedly receives 300 anti - aircraft missiles",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "18:15",
+      "text": "Saudi Arabia expects imminent 2 - pronged attack from Iran allies , official says",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "israelnationalnews.com",
-      "signal_id": "a579d3cd74b31be5"
+      "source": "cbc.ca",
+      "signal_id": "57715946f4350af6"
     },
     {
-      "time": "16:30",
-      "text": "Iran turns to crude exports via Jask terminal amid Hormuz disruptions | Hellenic Shipping News Worldwide",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "18:00",
+      "text": "Gulf on edge as Saudi warns of coordinated Iran - backed militia attacks",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "hellenicshippingnews.com",
-      "signal_id": "efa3540980a1d7bb"
+      "source": "tradearabia.com:443",
+      "signal_id": "45291d467ba24a4c"
+    },
+    {
+      "time": "18:15",
+      "text": "Iran - backed Houthi claims of attacks stoke fears of a wider conflict",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "sandiegouniontribune.com",
+      "signal_id": "781558bd9cff78f4"
     }
   ],
   "signals": [
+    {
+      "id": "8a8eb87405a76d12",
+      "name": "FAR FROM DESTROYED : Iran Still Has Enough Nuclear Material For Up To 10 Bombs Despite U . S .- Israeli Strikes",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8a8eb87405a76d12",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.789,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2583381/far-from-destroyed-iran-still-has-enough-nuclear-material-for-up-to-10-bombs-despite-u-s-israeli-strikes.html",
+      "published_at": "2026-08-07T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 19.4,
+        "short": 15.2,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "57715946f4350af6",
+      "name": "Saudi Arabia expects imminent 2 - pronged attack from Iran allies , official says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "57715946f4350af6",
+      "strength": 0.6,
+      "reliability": 0.56,
+      "freshness": 0.684,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "cbc.ca",
+      "url": "https://www.cbc.ca/news/world/saudi-arabia-iraq-yemen-houthis-iran-9.7299356",
+      "published_at": "2026-08-07T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.9,
+        "extended": 10.1
+      }
+    },
+    {
+      "id": "45291d467ba24a4c",
+      "name": "Gulf on edge as Saudi warns of coordinated Iran - backed militia attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "45291d467ba24a4c",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.637,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tradearabia.com:443",
+      "url": "https://tradearabia.com:443/News/466305/Gulf-on-edge-as-Saudi-warns-of-coordinated-Iran-backed-militia-attacks",
+      "published_at": "2026-08-07T15:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.1
+      }
+    },
+    {
+      "id": "781558bd9cff78f4",
+      "name": "Iran - backed Houthi claims of attacks stoke fears of a wider conflict",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "781558bd9cff78f4",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.684,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sandiegouniontribune.com",
+      "url": "https://www.sandiegouniontribune.com/2026/08/07/iran-backed-houthis-middle-east-conflict/",
+      "published_at": "2026-08-07T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "f3c0bb8789a83590",
+      "name": "Trump Says Gas Prices Could Rise If US Strikes Iran Again",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f3c0bb8789a83590",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.637,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theepochtimes.com",
+      "url": "https://www.theepochtimes.com/us/trump-says-gas-prices-could-rise-if-us-strikes-iran-again-6072523",
+      "published_at": "2026-08-07T15:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "30526b05aa9a6121",
+      "name": "How the Iran - Backed Houthi Claims of Deadly Attacks Are Stoking Fears of a Wider Regional Conflict",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "30526b05aa9a6121",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.637,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "military.com",
+      "url": "https://www.military.com/how-the-iran-backed-houthis-claims-of-deadly-attacks-are-stoking-fears-of-a-wider-regional-conflict",
+      "published_at": "2026-08-07T15:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
     {
       "id": "f793eea1e7e5968d",
       "name": "Iranian Attacks Result in Enduring Brain Injuries for Hundreds of US Troops",
@@ -75,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f793eea1e7e5968d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.585,
+      "freshness": 0.446,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -91,11 +285,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
     },
     {
       "id": "a579d3cd74b31be5",
@@ -107,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a579d3cd74b31be5",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.472,
+      "freshness": 0.36,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -123,11 +316,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
     },
     {
       "id": "efa3540980a1d7bb",
@@ -139,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "efa3540980a1d7bb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.545,
+      "freshness": 0.415,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -155,11 +347,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     }
   ],
   "history": [
@@ -1242,17 +1433,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-07T16:34:43.804117Z",
+      "immediate": 23,
+      "short": 27,
+      "extended": 27
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-07T14:36:52.130190Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-07T16:34:43.804117Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 3
+        "ok": true,
+        "items": 150,
+        "relevant": 9
       },
       "manual": {
         "ok": true,
