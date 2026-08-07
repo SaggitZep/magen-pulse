@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-07T13:32:53.294079Z",
+  "generated_at": "2026-08-07T14:36:52.130190Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 4,
       "low": 0,
-      "high": 17,
-      "confidence": 57,
+      "high": 18,
+      "confidence": 62,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
+      "score": 13,
       "low": 0,
-      "high": 21,
-      "confidence": 57,
-      "status": "לא זוהה אות חריג"
+      "high": 27,
+      "confidence": 62,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 10,
-      "low": 0,
-      "high": 25,
-      "confidence": 57,
+      "score": 21,
+      "low": 7,
+      "high": 35,
+      "confidence": 62,
       "status": "נמוך"
     }
   },
@@ -35,20 +35,67 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 1
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
+      "time": "16:45",
+      "text": "Iranian Attacks Result in Enduring Brain Injuries for Hundreds of US Troops",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "islamicinvitationturkey.com",
+      "signal_id": "f793eea1e7e5968d"
+    },
+    {
       "time": "16:00",
       "text": "Iran reportedly receives 300 anti - aircraft missiles",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "israelnationalnews.com",
       "signal_id": "a579d3cd74b31be5"
+    },
+    {
+      "time": "16:30",
+      "text": "Iran turns to crude exports via Jask terminal amid Hormuz disruptions | Hellenic Shipping News Worldwide",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "hellenicshippingnews.com",
+      "signal_id": "efa3540980a1d7bb"
     }
   ],
   "signals": [
+    {
+      "id": "f793eea1e7e5968d",
+      "name": "Iranian Attacks Result in Enduring Brain Injuries for Hundreds of US Troops",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f793eea1e7e5968d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.781,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "islamicinvitationturkey.com",
+      "url": "https://www.islamicinvitationturkey.com/iranian-attacks-result-in-enduring-brain-injuries-for-hundreds-of-us-troops/",
+      "published_at": "2026-08-07T13:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
     {
       "id": "a579d3cd74b31be5",
       "name": "Iran reportedly receives 300 anti - aircraft missiles",
@@ -59,7 +106,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a579d3cd74b31be5",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.855,
+      "freshness": 0.63,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -75,9 +122,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.9,
-        "extended": 10.1
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "efa3540980a1d7bb",
+      "name": "Iran turns to crude exports via Jask terminal amid Hormuz disruptions | Hellenic Shipping News Worldwide",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "efa3540980a1d7bb",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.727,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hellenicshippingnews.com",
+      "url": "https://www.hellenicshippingnews.com/iran-turns-to-crude-exports-via-jask-terminal-amid-hormuz-disruptions/",
+      "published_at": "2026-08-07T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
       }
     }
   ],
@@ -1149,17 +1227,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 6,
       "extended": 10
+    },
+    {
+      "timestamp": "2026-08-07T14:36:52.130190Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 21
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-07T13:32:53.294079Z",
+    "last_success": "2026-08-07T14:36:52.130190Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 1
+        "relevant": 3
       },
       "manual": {
         "ok": true,
