@@ -1,62 +1,202 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-07T06:39:30.672095Z",
+  "mode": "live",
+  "generated_at": "2026-08-07T08:00:35.587116Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
-      "low": 0,
-      "high": 20,
-      "confidence": 40,
-      "status": "לא זוהה אות חריג"
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 68,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
-      "low": 0,
-      "high": 25,
-      "confidence": 40,
-      "status": "לא זוהה אות חריג"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
-      "low": 0,
-      "high": 29,
-      "confidence": 40,
-      "status": "נמוך"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "זינוק חריג",
+    "points_60m": 19
   },
   "changes": [
     {
-      "time": "07:45",
-      "text": "Iran , proxies preparing attacks on Saudi Arabia : report",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "09:00",
+      "text": "Israel , US complete Arrow missile test amid growing ballistic threats from Iran , Yemen",
+      "impact": "השפעה מיידית מחושבת: +17.5",
       "direction": "up",
-      "source": "dunyanews.tv",
-      "signal_id": "55ec07410c38dd1c"
+      "source": "timesofindia.indiatimes.com",
+      "signal_id": "d1fd63fdaab8b2a9"
     },
     {
-      "time": "07:45",
-      "text": "India Strategic Awakening : How the Iran War Is Reshaping Energy Security , Geopolitics and Military Doctrine",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "10:30",
+      "text": "Saudi Arabia braces for attacks on ports and airports by Iraqi militias working with Iran - backed Houthis",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "openthemagazine.com",
-      "signal_id": "902e365ad7608038"
+      "source": "kvia.com",
+      "signal_id": "7f33f06a0561f29f"
+    },
+    {
+      "time": "09:30",
+      "text": "Iran Ghalibaf slams Trump threats , peace claims as  show diplomacy",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "samaa.tv",
+      "signal_id": "6b8aa3189e7ee2b4"
+    },
+    {
+      "time": "09:30",
+      "text": "Iranian military action near Strait of Hormuz ; sounds of explosions heard on Qeshm Island : Report",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "khaskhabar.com",
+      "signal_id": "9a484f91f5ed6ddc"
     }
   ],
   "signals": [
+    {
+      "id": "d1fd63fdaab8b2a9",
+      "name": "Israel , US complete Arrow missile test amid growing ballistic threats from Iran , Yemen",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d1fd63fdaab8b2a9",
+      "strength": 0.63,
+      "reliability": 0.56,
+      "freshness": 0.563,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/defence/international/israel-us-complete-arrow-missile-test-amid-growing-ballistic-threats-from-iran-yemen/articleshow/133022038.cms",
+      "published_at": "2026-08-07T06:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 17.5,
+        "short": 13.6,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "7f33f06a0561f29f",
+      "name": "Saudi Arabia braces for attacks on ports and airports by Iraqi militias working with Iran - backed Houthis",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7f33f06a0561f29f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.864,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kvia.com",
+      "url": "https://kvia.com/news/us-world/cnn-world/2026/08/06/saudi-arabia-braces-for-attacks-on-ports-and-airports-by-iraqi-militias-working-with-iran-backed-houthis/",
+      "published_at": "2026-08-07T07:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
+    },
+    {
+      "id": "6b8aa3189e7ee2b4",
+      "name": "Iran Ghalibaf slams Trump threats , peace claims as  show diplomacy",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6b8aa3189e7ee2b4",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.65,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "samaa.tv",
+      "url": "https://www.samaa.tv/2087354840-iran-s-ghalibaf-slams-trump-s-threats-peace-claims-as-show-diplomacy",
+      "published_at": "2026-08-07T06:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      }
+    },
+    {
+      "id": "9a484f91f5ed6ddc",
+      "name": "Iranian military action near Strait of Hormuz ; sounds of explosions heard on Qeshm Island : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9a484f91f5ed6ddc",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.65,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "khaskhabar.com",
+      "url": "https://www.khaskhabar.com/news/world-news/news-iranian-military-action-near-strait-of-hormuz-sounds-of-explosions-heard-on-qeshm-island-report-news-hindi-1-834634-KKN.html",
+      "published_at": "2026-08-07T06:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
+      }
+    },
     {
       "id": "55ec07410c38dd1c",
       "name": "Iran , proxies preparing attacks on Saudi Arabia : report",
@@ -67,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "55ec07410c38dd1c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.58,
+      "freshness": 0.394,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -83,11 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
     },
     {
       "id": "902e365ad7608038",
@@ -99,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "902e365ad7608038",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.58,
+      "freshness": 0.394,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -115,11 +254,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
     }
   ],
   "history": [
@@ -1154,17 +1292,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 7,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-07T08:00:35.587116Z",
+      "immediate": 21,
+      "short": 24,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-07T05:18:30.414311Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-07T08:00:35.587116Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 2
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
