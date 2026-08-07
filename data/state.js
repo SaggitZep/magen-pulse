@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-07T16:34:43.804117Z",
+  "generated_at": "2026-08-07T17:34:30.795859Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 23,
-      "low": 10,
-      "high": 36,
-      "confidence": 69,
-      "status": "מוגבר"
+      "score": 17,
+      "low": 4,
+      "high": 30,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 27,
-      "low": 14,
-      "high": 40,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 20,
+      "low": 7,
+      "high": 33,
+      "confidence": 65,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 27,
-      "low": 14,
-      "high": 40,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 65,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -35,14 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 20
+    "level": "ירידה",
+    "points_60m": -6
   },
   "changes": [
     {
       "time": "18:45",
       "text": "FAR FROM DESTROYED : Iran Still Has Enough Nuclear Material For Up To 10 Bombs Despite U . S .- Israeli Strikes",
-      "impact": "השפעה מיידית מחושבת: +19.4",
+      "impact": "השפעה מיידית מחושבת: +14.6",
       "direction": "up",
       "source": "theyeshivaworld.com",
       "signal_id": "8a8eb87405a76d12"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:15",
       "text": "Saudi Arabia expects imminent 2 - pronged attack from Iran allies , official says",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "cbc.ca",
       "signal_id": "57715946f4350af6"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:00",
       "text": "Gulf on edge as Saudi warns of coordinated Iran - backed militia attacks",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "tradearabia.com:443",
       "signal_id": "45291d467ba24a4c"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:15",
       "text": "Iran - backed Houthi claims of attacks stoke fears of a wider conflict",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "sandiegouniontribune.com",
       "signal_id": "781558bd9cff78f4"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8a8eb87405a76d12",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.789,
+      "freshness": 0.594,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 19.4,
-        "short": 15.2,
-        "extended": 6.4
+        "immediate": 14.6,
+        "short": 11.4,
+        "extended": 4.8
       }
     },
     {
@@ -114,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "57715946f4350af6",
       "strength": 0.6,
       "reliability": 0.56,
-      "freshness": 0.684,
+      "freshness": 0.515,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.9,
-        "extended": 10.1
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
       }
     },
     {
@@ -145,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "45291d467ba24a4c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.637,
+      "freshness": 0.479,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.1
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       }
     },
     {
@@ -176,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "781558bd9cff78f4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.684,
+      "freshness": 0.515,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.7
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
       }
     },
     {
@@ -207,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f3c0bb8789a83590",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.637,
+      "freshness": 0.479,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
       }
     },
     {
@@ -238,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "30526b05aa9a6121",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.637,
+      "freshness": 0.479,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
       }
     },
     {
@@ -269,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f793eea1e7e5968d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.446,
+      "freshness": 0.335,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,71 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "a579d3cd74b31be5",
-      "name": "Iran reportedly receives 300 anti - aircraft missiles",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a579d3cd74b31be5",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.36,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "israelnationalnews.com",
-      "url": "https://www.israelnationalnews.com/news/431382",
-      "published_at": "2026-08-07T13:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
-    },
-    {
-      "id": "efa3540980a1d7bb",
-      "name": "Iran turns to crude exports via Jask terminal amid Hormuz disruptions | Hellenic Shipping News Worldwide",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "efa3540980a1d7bb",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.415,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hellenicshippingnews.com",
-      "url": "https://www.hellenicshippingnews.com/iran-turns-to-crude-exports-via-jask-terminal-amid-hormuz-disruptions/",
-      "published_at": "2026-08-07T13:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
       }
     }
   ],
@@ -1439,17 +1377,23 @@ window.MAGEN_STATE = {
       "immediate": 23,
       "short": 27,
       "extended": 27
+    },
+    {
+      "timestamp": "2026-08-07T17:34:30.795859Z",
+      "immediate": 17,
+      "short": 20,
+      "extended": 21
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-07T16:34:43.804117Z",
+    "last_success": "2026-08-07T17:34:30.795859Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 9
+        "relevant": 7
       },
       "manual": {
         "ok": true,
