@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-07T21:10:50.417840Z",
+  "generated_at": "2026-08-07T21:57:38.887064Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 7,
+      "score": 2,
       "low": 0,
-      "high": 24,
-      "confidence": 47,
+      "high": 20,
+      "confidence": 41,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 5,
       "low": 0,
-      "high": 27,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 41,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 12,
+      "score": 9,
       "low": 0,
-      "high": 29,
-      "confidence": 47,
+      "high": 27,
+      "confidence": 41,
       "status": "נמוך"
     }
   },
@@ -36,21 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -2
+    "points_60m": -5
   },
   "changes": [
     {
-      "time": "18:45",
-      "text": "FAR FROM DESTROYED : Iran Still Has Enough Nuclear Material For Up To 10 Bombs Despite U . S .- Israeli Strikes",
-      "impact": "השפעה מיידית מחושבת: +5.2",
-      "direction": "up",
-      "source": "theyeshivaworld.com",
-      "signal_id": "8a8eb87405a76d12"
-    },
-    {
       "time": "21:00",
       "text": "Attack fears grip Saudi Arabia as Iran - linked militias make fresh moves",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "moneycontrol.com",
       "signal_id": "a056f5aa4ae3e051"
@@ -58,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:45",
       "text": "Saudi Arabia turns to Muslim military heavyweights in landmark defense pact as Iran war closes in",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "kesq.com",
       "signal_id": "a0f15113d6a7c4cf"
@@ -66,45 +58,21 @@ window.MAGEN_STATE = {
     {
       "time": "20:30",
       "text": "Iran War Day 161 : Houthis Attacks Yemen Government Forces",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "theamericanconservative.com",
       "signal_id": "4e4928994e0b3459"
+    },
+    {
+      "time": "20:15",
+      "text": "Iran mocks Pakistan Mecca defence pact as Saudi and Turkey reject military bloc claims :  Paper agreement  wont bring Riyadh security",
+      "impact": "השפעה מיידית מחושבת: +0.4",
+      "direction": "up",
+      "source": "moneycontrol.com",
+      "signal_id": "d6c00388881fc56c"
     }
   ],
   "signals": [
-    {
-      "id": "8a8eb87405a76d12",
-      "name": "FAR FROM DESTROYED : Iran Still Has Enough Nuclear Material For Up To 10 Bombs Despite U . S .- Israeli Strikes",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8a8eb87405a76d12",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.212,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2583381/far-from-destroyed-iran-still-has-enough-nuclear-material-for-up-to-10-bombs-despite-u-s-israeli-strikes.html",
-      "published_at": "2026-08-07T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 5.2,
-        "short": 4.1,
-        "extended": 1.7
-      },
-      "carried_forward": true
-    },
     {
       "id": "a056f5aa4ae3e051",
       "name": "Attack fears grip Saudi Arabia as Iran - linked militias make fresh moves",
@@ -115,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a056f5aa4ae3e051",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.403,
+      "freshness": 0.322,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -147,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a0f15113d6a7c4cf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.375,
+      "freshness": 0.3,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -179,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4e4928994e0b3459",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.349,
+      "freshness": 0.28,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -211,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d6c00388881fc56c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.325,
+      "freshness": 0.26,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -243,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "97ca6718deb1eade",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.325,
+      "freshness": 0.26,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,73 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "57715946f4350af6",
-      "name": "Saudi Arabia expects imminent 2 - pronged attack from Iran allies , official says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "57715946f4350af6",
-      "strength": 0.6,
-      "reliability": 0.56,
-      "freshness": 0.184,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cbc.ca",
-      "url": "https://www.cbc.ca/news/world/saudi-arabia-iraq-yemen-houthis-iran-9.7299356",
-      "published_at": "2026-08-07T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "781558bd9cff78f4",
-      "name": "Iran - backed Houthi claims of attacks stoke fears of a wider conflict",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "781558bd9cff78f4",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.184,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "sandiegouniontribune.com",
-      "url": "https://www.sandiegouniontribune.com/2026/08/07/iran-backed-houthis-middle-east-conflict/",
-      "published_at": "2026-08-07T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     }
@@ -1446,6 +1350,12 @@ window.MAGEN_STATE = {
       "immediate": 7,
       "short": 10,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-08-07T21:57:38.887064Z",
+      "immediate": 2,
+      "short": 5,
+      "extended": 9
     }
   ],
   "health": {
@@ -1456,7 +1366,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
