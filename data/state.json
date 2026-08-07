@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-07T05:18:30.414311Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-07T06:39:30.672095Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
-      "high": 17,
-      "confidence": 60,
+      "high": 20,
+      "confidence": 40,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 7,
       "low": 0,
-      "high": 24,
-      "confidence": 60,
-      "status": "נמוך"
+      "high": 25,
+      "confidence": 40,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
-      "low": 2,
-      "high": 30,
-      "confidence": 60,
+      "score": 11,
+      "low": 0,
+      "high": 29,
+      "confidence": 40,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -16
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "07:45",
       "text": "Iran , proxies preparing attacks on Saudi Arabia : report",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "dunyanews.tv",
       "signal_id": "55ec07410c38dd1c"
@@ -50,7 +50,7 @@
     {
       "time": "07:45",
       "text": "India Strategic Awakening : How the Iran War Is Reshaping Energy Security , Geopolitics and Military Doctrine",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "openthemagazine.com",
       "signal_id": "902e365ad7608038"
@@ -67,7 +67,7 @@
       "dependency_group": "55ec07410c38dd1c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.853,
+      "freshness": 0.58,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -83,10 +83,11 @@
       "published_at": "2026-08-07T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      },
+      "carried_forward": true
     },
     {
       "id": "902e365ad7608038",
@@ -98,7 +99,7 @@
       "dependency_group": "902e365ad7608038",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.853,
+      "freshness": 0.58,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -114,10 +115,11 @@
       "published_at": "2026-08-07T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1146,17 +1148,23 @@
       "immediate": 3,
       "short": 10,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-07T06:39:30.672095Z",
+      "immediate": 2,
+      "short": 7,
+      "extended": 11
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-07T05:18:30.414311Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 2
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 2
       },
       "manual": {
         "ok": true,
