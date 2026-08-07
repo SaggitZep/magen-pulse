@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-07T03:26:10.995456Z",
+  "generated_at": "2026-08-07T05:18:30.414311Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 19,
-      "low": 6,
-      "high": 32,
-      "confidence": 65,
-      "status": "נמוך"
+      "score": 3,
+      "low": 0,
+      "high": 17,
+      "confidence": 60,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 65,
+      "score": 10,
+      "low": 0,
+      "high": 24,
+      "confidence": 60,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 65,
+      "score": 16,
+      "low": 2,
+      "high": 30,
+      "confidence": 60,
       "status": "נמוך"
     }
   },
@@ -35,179 +35,39 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 19
+    "level": "ירידה",
+    "points_60m": -16
   },
   "changes": [
     {
-      "time": "04:00",
-      "text": "Mossad chief fired 2 senior officials over failed Iran regime - change plan : Israeli broadcaster",
-      "impact": "השפעה מיידית מחושבת: +12.3",
+      "time": "07:45",
+      "text": "Iran , proxies preparing attacks on Saudi Arabia : report",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "aa.com.tr",
-      "signal_id": "caba096970db6f88"
+      "source": "dunyanews.tv",
+      "signal_id": "55ec07410c38dd1c"
     },
     {
-      "time": "04:00",
-      "text": "US , Israeli attacks disrupted nearly 230M cubic meters of daily gas output : Iranian president",
-      "impact": "השפעה מיידית מחושבת: +12.3",
+      "time": "07:45",
+      "text": "India Strategic Awakening : How the Iran War Is Reshaping Energy Security , Geopolitics and Military Doctrine",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "aa.com.tr",
-      "signal_id": "a4d84f4883522782"
-    },
-    {
-      "time": "03:45",
-      "text": "Saudi Arabia sees imminent Iran - supervised attacks , senior official says",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "rappler.com",
-      "signal_id": "d5ba85c5b6ec2b6f"
-    },
-    {
-      "time": "03:30",
-      "text": "Saudi official warns of Iran - backed attack threat",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "3534cc22fd4cfd7d"
+      "source": "openthemagazine.com",
+      "signal_id": "902e365ad7608038"
     }
   ],
   "signals": [
     {
-      "id": "caba096970db6f88",
-      "name": "Mossad chief fired 2 senior officials over failed Iran regime - change plan : Israeli broadcaster",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "caba096970db6f88",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.499,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/middle-east/mossad-chief-fired-2-senior-officials-over-failed-iran-regime-change-plan-israeli-broadcaster/4020652",
-      "published_at": "2026-08-07T01:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 12.3,
-        "short": 9.6,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "a4d84f4883522782",
-      "name": "US , Israeli attacks disrupted nearly 230M cubic meters of daily gas output : Iranian president",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a4d84f4883522782",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.499,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/us-israel-iran-war/us-israeli-attacks-disrupted-nearly-230m-cubic-meters-of-daily-gas-output-iranian-president/4020622",
-      "published_at": "2026-08-07T01:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 12.3,
-        "short": 9.6,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "d5ba85c5b6ec2b6f",
-      "name": "Saudi Arabia sees imminent Iran - supervised attacks , senior official says",
+      "id": "55ec07410c38dd1c",
+      "name": "Iran , proxies preparing attacks on Saudi Arabia : report",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "d5ba85c5b6ec2b6f",
-      "strength": 0.6,
-      "reliability": 0.56,
-      "freshness": 0.464,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "rappler.com",
-      "url": "https://www.rappler.com/world/middle-east/saudi-arabia-expects-imminent-iran-supervised-attacks-august-2026/",
-      "published_at": "2026-08-07T00:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.9
-      }
-    },
-    {
-      "id": "3534cc22fd4cfd7d",
-      "name": "Saudi official warns of Iran - backed attack threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3534cc22fd4cfd7d",
-      "strength": 0.45,
-      "reliability": 0.74,
-      "freshness": 0.432,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/article-904832",
-      "published_at": "2026-08-07T00:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
-    },
-    {
-      "id": "95e7181d003bc0bb",
-      "name": "US - Iran war news LIVE : Oil prices continue to rise as Iran attacks  hostile target in Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "95e7181d003bc0bb",
+      "dependency_group": "55ec07410c38dd1c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.499,
+      "freshness": 0.853,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -218,27 +78,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "livemint.com",
-      "url": "https://www.livemint.com/news/us-news/us-iran-war-news-latest-live-updates-donald-trump-strait-of-hormuz-middle-east-conflict-crude-oil-brent-ceasefire-talks-11786059906604.html",
-      "published_at": "2026-08-07T01:00:00Z",
+      "source": "dunyanews.tv",
+      "url": "https://dunyanews.tv/en/World/966682-iran-proxies-preparing-attacks-on-saudi-arabia-report",
+      "published_at": "2026-08-07T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
       }
     },
     {
-      "id": "8c7ba630cb9bbe61",
-      "name": "Wars Collide in the Caspian : Ukraine Strike Exposes the Iran - Russia Connection",
+      "id": "902e365ad7608038",
+      "name": "India Strategic Awakening : How the Iran War Is Reshaping Energy Security , Geopolitics and Military Doctrine",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "8c7ba630cb9bbe61",
+      "dependency_group": "902e365ad7608038",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.349,
+      "freshness": 0.853,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -249,76 +109,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "themedialine.org",
-      "url": "https://themedialine.org/top-stories/wars-collide-in-the-caspian-ukraine-strike-exposes-the-iran-russia-connection/",
-      "published_at": "2026-08-06T23:45:00Z",
+      "source": "openthemagazine.com",
+      "url": "https://openthemagazine.com/india/the-dawn-of-a-new-strategic-era-india-has-begun-to-absorb-the-lessons-from-the-iran-war",
+      "published_at": "2026-08-07T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
-    },
-    {
-      "id": "7f33f06a0561f29f",
-      "name": "Saudi Arabia braces for attacks on ports and airports by Iraqi militias working with Iran - backed Houthis",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7f33f06a0561f29f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.375,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "krdo.com",
-      "url": "https://krdo.com/news/national-world/cnn-world/2026/08/06/saudi-arabia-braces-for-attacks-on-ports-and-airports-by-iraqi-militias-working-with-iran-backed-houthis/",
-      "published_at": "2026-08-07T00:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    },
-    {
-      "id": "d7ba3539cb3a81cd",
-      "name": "Iran , Oman in final stage of securing possible Hormuz deal | Hellenic Shipping News Worldwide",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d7ba3539cb3a81cd",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.375,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hellenicshippingnews.com",
-      "url": "https://www.hellenicshippingnews.com/iran-oman-in-final-stage-of-securing-possible-hormuz-deal/",
-      "published_at": "2026-08-07T00:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
       }
     }
   ],
@@ -1342,17 +1140,23 @@ window.MAGEN_STATE = {
       "immediate": 19,
       "short": 22,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-07T05:18:30.414311Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 16
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-07T03:26:10.995456Z",
+    "last_success": "2026-08-07T05:18:30.414311Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 8
+        "relevant": 2
       },
       "manual": {
         "ok": true,
