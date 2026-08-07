@@ -1,73 +1,65 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-07T12:01:38.044429Z",
+  "mode": "live",
+  "generated_at": "2026-08-07T13:32:53.294079Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 2,
       "low": 0,
-      "high": 20,
-      "confidence": 34,
+      "high": 17,
+      "confidence": 57,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
+      "score": 6,
       "low": 0,
-      "high": 23,
-      "confidence": 34,
+      "high": 21,
+      "confidence": 57,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 7,
+      "score": 10,
       "low": 0,
-      "high": 26,
-      "confidence": 34,
-      "status": "לא זוהה אות חריג"
+      "high": 25,
+      "confidence": 57,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 1
   },
   "changes": [
     {
-      "time": "11:30",
-      "text": "Trump , Hegseth clashed at Camp David over Iran missile depletion concerns",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "16:00",
+      "text": "Iran reportedly receives 300 anti - aircraft missiles",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "themorningsun.com",
-      "signal_id": "03805a5a395bbfc1"
-    },
-    {
-      "time": "10:30",
-      "text": "Saudi Arabia braces for attacks on ports and airports by Iraqi militias working with Iran - backed Houthis",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "kvia.com",
-      "signal_id": "7f33f06a0561f29f"
+      "source": "israelnationalnews.com",
+      "signal_id": "a579d3cd74b31be5"
     }
   ],
   "signals": [
     {
-      "id": "03805a5a395bbfc1",
-      "name": "Trump , Hegseth clashed at Camp David over Iran missile depletion concerns",
+      "id": "a579d3cd74b31be5",
+      "name": "Iran reportedly receives 300 anti - aircraft missiles",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "03805a5a395bbfc1",
+      "dependency_group": "a579d3cd74b31be5",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.365,
+      "freshness": 0.855,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -78,48 +70,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "themorningsun.com",
-      "url": "https://www.themorningsun.com/2026/08/06/trump-hegseth-clashed-at-camp-david-over-iran-missile-depletion-concerns/",
-      "published_at": "2026-08-07T08:30:00Z",
+      "source": "israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/news/431382",
+      "published_at": "2026-08-07T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7f33f06a0561f29f",
-      "name": "Saudi Arabia braces for attacks on ports and airports by Iraqi militias working with Iran - backed Houthis",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7f33f06a0561f29f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.274,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kvia.com",
-      "url": "https://kvia.com/news/us-world/cnn-world/2026/08/06/saudi-arabia-braces-for-attacks-on-ports-and-airports-by-iraqi-militias-working-with-iran-backed-houthis/",
-      "published_at": "2026-08-07T07:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
+        "immediate": 1.7,
+        "short": 5.9,
+        "extended": 10.1
+      }
     }
   ],
   "history": [
@@ -1184,17 +1143,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 7
+    },
+    {
+      "timestamp": "2026-08-07T13:32:53.294079Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 10
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-07T11:13:15.026658Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-07T13:32:53.294079Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 2
+        "ok": true,
+        "items": 150,
+        "relevant": 1
       },
       "manual": {
         "ok": true,
