@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-07T14:36:52.130190Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-07T15:37:34.923653Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 18,
-      "confidence": 62,
+      "high": 20,
+      "confidence": 43,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 10,
       "low": 0,
       "high": 27,
-      "confidence": 62,
+      "confidence": 43,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 7,
-      "high": 35,
-      "confidence": 62,
+      "score": 16,
+      "low": 0,
+      "high": 33,
+      "confidence": 43,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "16:45",
       "text": "Iranian Attacks Result in Enduring Brain Injuries for Hundreds of US Troops",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "islamicinvitationturkey.com",
       "signal_id": "f793eea1e7e5968d"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "16:00",
       "text": "Iran reportedly receives 300 anti - aircraft missiles",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "israelnationalnews.com",
       "signal_id": "a579d3cd74b31be5"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "16:30",
       "text": "Iran turns to crude exports via Jask terminal amid Hormuz disruptions | Hellenic Shipping News Worldwide",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "hellenicshippingnews.com",
       "signal_id": "efa3540980a1d7bb"
@@ -75,7 +75,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f793eea1e7e5968d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.781,
+      "freshness": 0.585,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -91,10 +91,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      },
+      "carried_forward": true
     },
     {
       "id": "a579d3cd74b31be5",
@@ -106,7 +107,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a579d3cd74b31be5",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.63,
+      "freshness": 0.472,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -122,10 +123,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      },
+      "carried_forward": true
     },
     {
       "id": "efa3540980a1d7bb",
@@ -137,7 +139,7 @@ window.MAGEN_STATE = {
       "dependency_group": "efa3540980a1d7bb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.727,
+      "freshness": 0.545,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -153,10 +155,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
-      }
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1233,17 +1236,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-07T15:37:34.923653Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 16
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-07T14:36:52.130190Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 3
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 3
       },
       "manual": {
         "ok": true,
