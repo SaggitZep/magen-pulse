@@ -1,37 +1,37 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-08T17:54:29.801653Z",
+  "mode": "live",
+  "generated_at": "2026-08-08T18:52:33.328470Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 4,
       "low": 0,
-      "high": 20,
-      "confidence": 51,
+      "high": 17,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
-      "low": 0,
-      "high": 28,
-      "confidence": 51,
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 68,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 4,
-      "high": 36,
-      "confidence": 51,
-      "status": "נמוך"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
@@ -40,39 +40,287 @@ window.MAGEN_STATE = {
   },
   "changes": [
     {
-      "time": "19:30",
-      "text": "UAE accuses Iran of piracy after ADNOC vessel attack",
+      "time": "21:30",
+      "text": "Oman Condemns Attack On Tanker As Talks Progress With Iran On Hormuz",
       "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "b1087983902346cb"
-    },
-    {
-      "time": "19:30",
-      "text": "Oman Condemns Attack On Tanker As Talks Progress With Iran On Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "milwaukeesun.com",
+      "source": "sanantoniopost.com",
       "signal_id": "c431e90683f31a7f"
     },
     {
-      "time": "19:30",
-      "text": "Saudi Arabia , Gulf states condemn Iranian attack on UAE ADNOC tanker in Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "21:30",
+      "text": "US working to establish safe shipping route through Strait of Hormuz , Vance says  we dont trust  Iran",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "arabnews.com",
-      "signal_id": "962eab254e9d59ea"
+      "source": "news.webindia123.com",
+      "signal_id": "74f2c6dc02e0f309"
     },
     {
-      "time": "19:30",
-      "text": "US working to establish safe shipping route through Strait of Hormuz , Vance says  we dont trust  Iran",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "20:30",
+      "text": "UAE accuses Iran of missile attack on its vessel in Strait of Hormuz ; no casualties reported",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "aninews.in",
-      "signal_id": "74f2c6dc02e0f309"
+      "source": "livemint.com",
+      "signal_id": "06a4b27207f45e82"
+    },
+    {
+      "time": "21:15",
+      "text": "UAE says Iranian attack on tanker constitutes  flagrant violation  of UN resolution",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "iranherald.com",
+      "signal_id": "18a41bd97fa36586"
     }
   ],
   "signals": [
+    {
+      "id": "c431e90683f31a7f",
+      "name": "Oman Condemns Attack On Tanker As Talks Progress With Iran On Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c431e90683f31a7f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.898,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sanantoniopost.com",
+      "url": "http://www.sanantoniopost.com/news/279227571/oman-condemns-attack-on-tanker-as-talks-progress-with-iran-on-hormuz",
+      "published_at": "2026-08-08T18:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.9
+      }
+    },
+    {
+      "id": "74f2c6dc02e0f309",
+      "name": "US working to establish safe shipping route through Strait of Hormuz , Vance says  we dont trust  Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "74f2c6dc02e0f309",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.898,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260808/4484932.html",
+      "published_at": "2026-08-08T18:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.9
+      }
+    },
+    {
+      "id": "06a4b27207f45e82",
+      "name": "UAE accuses Iran of missile attack on its vessel in Strait of Hormuz ; no casualties reported",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "06a4b27207f45e82",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.675,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "livemint.com",
+      "url": "https://www.livemint.com/news/world/uae-accuses-iran-of-missile-attack-on-its-vessel-in-strait-of-hormuz-no-casualties-reported-11786205448601.html",
+      "published_at": "2026-08-08T17:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "18a41bd97fa36586",
+      "name": "UAE says Iranian attack on tanker constitutes  flagrant violation  of UN resolution",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "18a41bd97fa36586",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.836,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iranherald.com",
+      "url": "http://www.iranherald.com/news/279227633/uae-says-iranian-attack-on-tanker-constitutes-flagrant-violation-of-un-resolution",
+      "published_at": "2026-08-08T18:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "c090431d92e3fa87",
+      "name": "UAE Says Iran Attacked Vessel With Missile In Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c090431d92e3fa87",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.675,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gcaptain.com",
+      "url": "https://gcaptain.com/uae-says-iran-attacked-vessel-with-missile-in-strait-of-hormuz/",
+      "published_at": "2026-08-08T17:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "a0f15113d6a7c4cf",
+      "name": "Saudi Arabia turns to Muslim military heavyweights in landmark defense pact as Iran war closes in",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a0f15113d6a7c4cf",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.725,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "egyptindependent.com",
+      "url": "https://www.egyptindependent.com/saudi-arabia-turns-to-muslim-military-heavyweights-in-landmark-defense-pact-as-iran-war-closes-in/",
+      "published_at": "2026-08-08T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      }
+    },
+    {
+      "id": "6daa0f8a56d30213",
+      "name": "The UAE says Iranian missile targeted a ship , Yemen attacks Houthis and other Middle East news",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6daa0f8a56d30213",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.585,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wboc.com",
+      "url": "https://www.wboc.com/news/international/the-uae-says-iranian-missile-targeted-a-ship-yemen-attacks-houthis-and-other-middle-east/article_d19508df-c25f-500f-b427-c2f86ee2f4c4.html",
+      "published_at": "2026-08-08T17:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 6.9
+      }
+    },
+    {
+      "id": "8f8f2da4c606b1cc",
+      "name": "Iran Pamerkan Puing F - 15E AS yang Berhasil Ditembak Jatuh , Nasib Sang Strike Eagle Berakhir Jadi Trofi",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8f8f2da4c606b1cc",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.725,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "koran-jakarta.com",
+      "url": "https://koran-jakarta.com/2026-08-09/iran-pamerkan-puing-f-15e-as-yang-berhasil-ditembak-jatuh-nasib-sang-strike-eagle-berakhir-jadi-trofi",
+      "published_at": "2026-08-08T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      }
+    },
     {
       "id": "b1087983902346cb",
       "name": "UAE accuses Iran of piracy after ADNOC vessel attack",
@@ -83,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b1087983902346cb",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.669,
+      "freshness": 0.507,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,23 +347,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      },
-      "carried_forward": true
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
     },
     {
-      "id": "c431e90683f31a7f",
-      "name": "Oman Condemns Attack On Tanker As Talks Progress With Iran On Hormuz",
+      "id": "b6eaaa84c5e98ee3",
+      "name": "Trump pursues Iran negotiations as new Strait of Hormuz attacks raise stakes",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "c431e90683f31a7f",
+      "dependency_group": "b6eaaa84c5e98ee3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.669,
+      "freshness": 0.675,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,16 +373,108 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "milwaukeesun.com",
-      "url": "http://www.milwaukeesun.com/news/279227571/oman-condemns-attack-on-tanker-as-talks-progress-with-iran-on-hormuz",
-      "published_at": "2026-08-08T16:30:00Z",
+      "source": "kpic.com",
+      "url": "https://kpic.com/news/nation-world/trump-pursues-iran-negotiations-as-new-strait-of-hormuz-attacks-raise-stakes-war-united-states-middle-east-oman-gasoline-gas-oil-fuel-nuclear-weapon-ceasefire-negotiations-peace-deal-israel-tehran-president-donald-trump",
+      "published_at": "2026-08-08T17:30:00Z",
       "active": true,
       "computed": {
         "immediate": 1.1,
         "short": 3.9,
-        "extended": 6.6
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "70220162bd67e23c",
+      "name": "We dont trust Iran : JD Vance says US working on safe shipping route through Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "70220162bd67e23c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.675,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "livemint.com",
+      "url": "https://www.livemint.com/news/us-news/us-working-to-establish-safe-shipping-route-through-hormuz-strait-vance-says-we-dont-trust-iran-11786208108406.html",
+      "published_at": "2026-08-08T17:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "c86ea226aa80abb6",
+      "name": "UAE and Qatar condemn Iranian strike on Adnoc oil tanker",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c86ea226aa80abb6",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.628,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thenationalnews.com",
+      "url": "https://www.thenationalnews.com/news/mena/2026/08/08/uae-and-qatar-condemn-iranian-strike-on-adnoc-oil-tanker/",
+      "published_at": "2026-08-08T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "c978d84c8ba5b7de",
+      "name": "UAE reports tanker strike as Tehran says Hormuz deal with Oman close",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c978d84c8ba5b7de",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.628,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hurriyetdailynews.com",
+      "url": "https://www.hurriyetdailynews.com/uae-reports-tanker-strike-as-tehran-says-hormuz-deal-with-oman-close-225386",
+      "published_at": "2026-08-08T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
+      }
     },
     {
       "id": "962eab254e9d59ea",
@@ -147,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "962eab254e9d59ea",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.669,
+      "freshness": 0.507,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,171 +502,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "74f2c6dc02e0f309",
-      "name": "US working to establish safe shipping route through Strait of Hormuz , Vance says  we dont trust  Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "74f2c6dc02e0f309",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.669,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aninews.in",
-      "url": "https://aninews.in/news/world/us/us-working-to-establish-safe-shipping-route-through-strait-of-hormuz-vance-says-we-dont-trust-iran20260808213949/",
-      "published_at": "2026-08-08T16:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b6eaaa84c5e98ee3",
-      "name": "Trump pursues Iran negotiations as new Strait of Hormuz attacks raise stakes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b6eaaa84c5e98ee3",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.58,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wlos.com",
-      "url": "https://wlos.com/news/nation-world/trump-pursues-iran-negotiations-as-new-strait-of-hormuz-attacks-raise-stakes-war-united-states-middle-east-oman-gasoline-gas-oil-fuel-nuclear-weapon-ceasefire-negotiations-peace-deal-israel-tehran-president-donald-trump",
-      "published_at": "2026-08-08T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a127bc3d3c9b5737",
-      "name": "UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a127bc3d3c9b5737",
-      "strength": 0.48,
-      "reliability": 0.74,
-      "freshness": 0.378,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "al-monitor.com",
-      "url": "https://www.al-monitor.com/originals/2026/08/uae-says-iran-attacked-adnoc-vessel-missile-strait-hormuz",
-      "published_at": "2026-08-08T14:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8a2a3a0d906355f7",
-      "name": "Iran attacks vessel in Strait of Hormuz , UAE says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8a2a3a0d906355f7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.58,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "orissapost.com",
-      "url": "https://www.orissapost.com/iran-attacks-vessel-in-strait-of-hormuz-uae-says/",
-      "published_at": "2026-08-08T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7eb61b5342664e08",
-      "name": "Iran warns Saudi defense pact cannot guarantee security as Hormuz attacks continue",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7eb61b5342664e08",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.503,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/bkwfaieufe",
-      "published_at": "2026-08-08T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      }
     },
     {
       "id": "9b9648950a2bc6e1",
@@ -339,7 +517,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9b9648950a2bc6e1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.54,
+      "freshness": 0.409,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,55 +533,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      }
     },
     {
-      "id": "f860a50cefa4114d",
-      "name": "התגובה לברית ההגנה : האיום האיראני על סעודיה - והתקיפות שנמשכות בהורמוז",
+      "id": "7eb61b5342664e08",
+      "name": "Iran warns Saudi defense pact cannot guarantee security as Hormuz attacks continue",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "f860a50cefa4114d",
+      "dependency_group": "7eb61b5342664e08",
       "strength": 0.45,
-      "reliability": 0.74,
-      "freshness": 0.327,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ynet.co.il",
-      "url": "https://www.ynet.co.il/news/article/bkev00cvugx",
-      "published_at": "2026-08-08T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6daa0f8a56d30213",
-      "name": "The UAE says Iranian missile targeted a ship , Yemen attacks Houthis and other Middle East news",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6daa0f8a56d30213",
-      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.378,
+      "freshness": 0.381,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -414,144 +559,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "durangoherald.com",
-      "url": "https://www.durangoherald.com/articles/associated-press/yemen-attacks-houthis-turkeys-kurdish-peace-bill-wins-approval-and-other-middle-east-news/",
-      "published_at": "2026-08-08T14:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "225b089fce549e2b",
-      "name": "UAE says ship targeted by missile amid heightened U . S .- Iran tensions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "225b089fce549e2b",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.327,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cnbc.com",
-      "url": "https://www.cnbc.com/2026/08/08/uae-ship-targeted-missile-us-iran-tensions-stay-high.html",
-      "published_at": "2026-08-08T14:00:00Z",
+      "source": "ynetnews.com",
+      "url": "https://www.ynetnews.com/article/bkwfaieufe",
+      "published_at": "2026-08-08T15:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "18a41bd97fa36586",
-      "name": "UAE says Iranian attack on tanker constitutes  flagrant violation  of UN resolution",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "18a41bd97fa36586",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.378,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260808/4484870.html",
-      "published_at": "2026-08-08T14:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f86d4236a80a92ba",
-      "name": "UAE accuses Iran of missile attack on ADNOC tanker in Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f86d4236a80a92ba",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.305,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailypost.ng",
-      "url": "https://dailypost.ng/2026/08/08/uae-accuses-iran-of-missile-attack-on-adnoc-tanker-in-strait-of-hormuz/",
-      "published_at": "2026-08-08T13:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "03e40292fdf25efc",
-      "name": "UAE Slams Iran Tanker Attack as Flagrant UN Violation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "03e40292fdf25efc",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.305,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newkerala.com",
-      "url": "https://www.newkerala.com/news/a/uae-says-iranian-attack-tanker-constitutes-flagrant-violation-777.htm",
-      "published_at": "2026-08-08T13:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
-      },
-      "carried_forward": true
+        "short": 2.5,
+        "extended": 4.2
+      }
     }
   ],
   "history": [
@@ -1820,17 +1836,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-08T18:52:33.328470Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 24
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-08T17:18:57.747957Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-08T18:52:33.328470Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 15
+        "ok": true,
+        "items": 150,
+        "relevant": 16
       },
       "manual": {
         "ok": true,
