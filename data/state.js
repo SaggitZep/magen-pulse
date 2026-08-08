@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-08T23:28:37.779916Z",
+  "generated_at": "2026-08-08T23:58:12.575381Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@ window.MAGEN_STATE = {
       "score": 2,
       "low": 0,
       "high": 19,
-      "confidence": 46,
+      "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
+      "score": 5,
       "low": 0,
-      "high": 23,
-      "confidence": 46,
+      "high": 22,
+      "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 10,
+      "score": 9,
       "low": 0,
-      "high": 27,
-      "confidence": 46,
+      "high": 26,
+      "confidence": 45,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:45",
       "text": "Iran , Oman edging toward Strait of Hormuz deal amid fresh attacks on vessels",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "clevelandjewishnews.com",
       "signal_id": "9b9648950a2bc6e1"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:30",
       "text": "Iran threatens Strait of Hormuz wont reopen fully  until America corrects its behavior",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "nypost.com",
       "signal_id": "7a668eed009eab7b"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:45",
       "text": "Oman Condemns Attack On Tanker As Talks Progress With Iran On Hormuz",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "shanghaisun.com",
       "signal_id": "c431e90683f31a7f"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "23:00",
       "text": "BREAKING : Iran attacks UAE vessel in Strait of Hormuz – The Right Scoop",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "therightscoop.com",
       "signal_id": "302b4cc540d8bc06"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9b9648950a2bc6e1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.345,
+      "freshness": 0.299,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7a668eed009eab7b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.321,
+      "freshness": 0.279,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c431e90683f31a7f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.345,
+      "freshness": 0.299,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "302b4cc540d8bc06",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.37,
+      "freshness": 0.322,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "98a3cda012ca08e3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.278,
+      "freshness": 0.242,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f2dab65f6870d646",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.278,
+      "freshness": 0.242,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     }
@@ -1586,6 +1586,12 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 6,
       "extended": 10
+    },
+    {
+      "timestamp": "2026-08-08T23:58:12.575381Z",
+      "immediate": 2,
+      "short": 5,
+      "extended": 9
     }
   ],
   "health": {
