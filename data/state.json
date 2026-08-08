@@ -1,48 +1,64 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-08T03:48:54.794803Z",
+  "mode": "live",
+  "generated_at": "2026-08-08T04:44:12.361889Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 3,
       "low": 0,
-      "high": 19,
-      "confidence": 47,
+      "high": 17,
+      "confidence": 59,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 9,
       "low": 0,
-      "high": 24,
-      "confidence": 47,
-      "status": "לא זוהה אות חריג"
+      "high": 23,
+      "confidence": 59,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 12,
-      "low": 0,
+      "score": 15,
+      "low": 1,
       "high": 29,
-      "confidence": 47,
+      "confidence": 59,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 1
   },
   "changes": [
     {
+      "time": "06:30",
+      "text": "Trump top general seeks path out of Iran war as military options narrow : Report",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "aa.com.tr",
+      "signal_id": "e61899eddcee3640"
+    },
+    {
+      "time": "05:00",
+      "text": "Iran Launches Battlefield Trophy Propaganda Campaign With Captured US Reaper Drone",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "zerohedge.com",
+      "signal_id": "11b185a5dc725a8e"
+    },
+    {
       "time": "03:45",
       "text": "Trump top general seeks Iran war  off - ramp  as US military options narrow",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "ynetnews.com",
       "signal_id": "199a7fb9e99fd869"
@@ -50,29 +66,75 @@
     {
       "time": "03:45",
       "text": "Paper agreement will not bring security : Iranian lawmaker attacks Saudi - Turkey - Pakistan pact",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "b0af4ec57d507d7d"
-    },
-    {
-      "time": "03:30",
-      "text": "US sanctions on six entities , one individual linked to Iran illicit digital asset network following Strait of Hormuz attacks",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "heraldglobe.com",
-      "signal_id": "2bc4e776be9c8194"
-    },
-    {
-      "time": "03:00",
-      "text": "US Sanctions Iran Crypto Network Post - Hormuz Attacks",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "newkerala.com",
-      "signal_id": "feac91a23823234e"
     }
   ],
   "signals": [
+    {
+      "id": "e61899eddcee3640",
+      "name": "Trump top general seeks path out of Iran war as military options narrow : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e61899eddcee3640",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.702,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/us-israel-iran-war/trumps-top-general-seeks-path-out-of-iran-war-as-military-options-narrow-report/4021584",
+      "published_at": "2026-08-08T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 6.9
+      }
+    },
+    {
+      "id": "11b185a5dc725a8e",
+      "name": "Iran Launches Battlefield Trophy Propaganda Campaign With Captured US Reaper Drone",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "11b185a5dc725a8e",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.458,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "zerohedge.com",
+      "url": "https://www.zerohedge.com/military/iran-launches-battlefield-trophy-propaganda-campaign-captured-us-reaper-drone",
+      "published_at": "2026-08-08T02:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
+    },
     {
       "id": "199a7fb9e99fd869",
       "name": "Trump top general seeks Iran war  off - ramp  as US military options narrow",
@@ -83,7 +145,7 @@
       "dependency_group": "199a7fb9e99fd869",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.417,
+      "freshness": 0.32,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +161,10 @@
       "published_at": "2026-08-08T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
+      }
     },
     {
       "id": "b0af4ec57d507d7d",
@@ -115,7 +176,7 @@
       "dependency_group": "b0af4ec57d507d7d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.417,
+      "freshness": 0.32,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,107 +192,10 @@
       "published_at": "2026-08-08T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2bc4e776be9c8194",
-      "name": "US sanctions on six entities , one individual linked to Iran illicit digital asset network following Strait of Hormuz attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2bc4e776be9c8194",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.388,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "heraldglobe.com",
-      "url": "http://www.heraldglobe.com/news/279226921/us-sanctions-on-six-entities-one-individual-linked-to-iran-illicit-digital-asset-network-following-strait-of-hormuz-attacks",
-      "published_at": "2026-08-08T00:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "feac91a23823234e",
-      "name": "US Sanctions Iran Crypto Network Post - Hormuz Attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "feac91a23823234e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.336,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newkerala.com",
-      "url": "https://www.newkerala.com/news/a/us-sanctions-six-entities-one-individual-linked-irans-974.htm",
-      "published_at": "2026-08-08T00:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
+        "immediate": 0.5,
         "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "08e44fc7ad47a8c2",
-      "name": "Trump top general is  looking for an off - ramp  from Iran war as US military options remain limited , sources say",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "08e44fc7ad47a8c2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.336,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yahoo.com",
-      "url": "https://www.yahoo.com/news/politics/articles/trump-top-general-looking-off-212704163.html",
-      "published_at": "2026-08-08T00:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
+        "extended": 3.2
+      }
     }
   ],
   "history": [
@@ -1386,17 +1350,23 @@
       "immediate": 2,
       "short": 7,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-08-08T04:44:12.361889Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 15
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-08T02:18:31.340311Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-08T04:44:12.361889Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "ok": true,
+        "items": 150,
+        "relevant": 4
       },
       "manual": {
         "ok": true,
