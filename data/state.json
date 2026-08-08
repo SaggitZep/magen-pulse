@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-08T17:18:57.747957Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-08T17:54:29.801653Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 4,
       "low": 0,
-      "high": 17,
-      "confidence": 67,
+      "high": 20,
+      "confidence": 51,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
-      "low": 1,
-      "high": 27,
-      "confidence": 67,
+      "score": 12,
+      "low": 0,
+      "high": 28,
+      "confidence": 51,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 20,
+      "low": 4,
+      "high": 36,
+      "confidence": 51,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "19:30",
       "text": "UAE accuses Iran of piracy after ADNOC vessel attack",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "b1087983902346cb"
@@ -50,7 +50,7 @@
     {
       "time": "19:30",
       "text": "Oman Condemns Attack On Tanker As Talks Progress With Iran On Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "milwaukeesun.com",
       "signal_id": "c431e90683f31a7f"
@@ -58,7 +58,7 @@
     {
       "time": "19:30",
       "text": "Saudi Arabia , Gulf states condemn Iranian attack on UAE ADNOC tanker in Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "arabnews.com",
       "signal_id": "962eab254e9d59ea"
@@ -66,7 +66,7 @@
     {
       "time": "19:30",
       "text": "US working to establish safe shipping route through Strait of Hormuz , Vance says  we dont trust  Iran",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "aninews.in",
       "signal_id": "74f2c6dc02e0f309"
@@ -83,7 +83,7 @@
       "dependency_group": "b1087983902346cb",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.792,
+      "freshness": 0.669,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-08T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.1,
-        "extended": 10.3
-      }
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      },
+      "carried_forward": true
     },
     {
       "id": "c431e90683f31a7f",
@@ -114,7 +115,7 @@
       "dependency_group": "c431e90683f31a7f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.792,
+      "freshness": 0.669,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-08T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.6,
-        "extended": 7.8
-      }
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      },
+      "carried_forward": true
     },
     {
       "id": "962eab254e9d59ea",
@@ -145,7 +147,7 @@
       "dependency_group": "962eab254e9d59ea",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.792,
+      "freshness": 0.669,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-08T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.6,
-        "extended": 7.8
-      }
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      },
+      "carried_forward": true
     },
     {
       "id": "74f2c6dc02e0f309",
@@ -176,7 +179,7 @@
       "dependency_group": "74f2c6dc02e0f309",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.792,
+      "freshness": 0.669,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-08T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.6,
-        "extended": 7.8
-      }
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      },
+      "carried_forward": true
     },
     {
       "id": "b6eaaa84c5e98ee3",
@@ -207,7 +211,7 @@
       "dependency_group": "b6eaaa84c5e98ee3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.687,
+      "freshness": 0.58,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-08T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      },
+      "carried_forward": true
     },
     {
       "id": "a127bc3d3c9b5737",
@@ -238,7 +243,7 @@
       "dependency_group": "a127bc3d3c9b5737",
       "strength": 0.48,
       "reliability": 0.74,
-      "freshness": 0.447,
+      "freshness": 0.378,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@
       "published_at": "2026-08-08T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
-      }
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      },
+      "carried_forward": true
     },
     {
       "id": "8a2a3a0d906355f7",
@@ -269,7 +275,7 @@
       "dependency_group": "8a2a3a0d906355f7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.687,
+      "freshness": 0.58,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,41 +291,11 @@
       "published_at": "2026-08-08T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
-    },
-    {
-      "id": "9b9648950a2bc6e1",
-      "name": "Iran , Oman edging toward Strait of Hormuz deal amid fresh attacks on vessels",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9b9648950a2bc6e1",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.639,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jns.org",
-      "url": "https://www.jns.org/news/world/iran-oman-edging-toward-strait-of-hormuz-deal-amid-fresh-attacks-on-vessels",
-      "published_at": "2026-08-08T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
+      "carried_forward": true
     },
     {
       "id": "7eb61b5342664e08",
@@ -331,7 +307,7 @@
       "dependency_group": "7eb61b5342664e08",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.595,
+      "freshness": 0.503,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +323,43 @@
       "published_at": "2026-08-08T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "9b9648950a2bc6e1",
+      "name": "Iran , Oman edging toward Strait of Hormuz deal amid fresh attacks on vessels",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9b9648950a2bc6e1",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.54,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jns.org",
+      "url": "https://www.jns.org/news/world/iran-oman-edging-toward-strait-of-hormuz-deal-amid-fresh-attacks-on-vessels",
+      "published_at": "2026-08-08T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      },
+      "carried_forward": true
     },
     {
       "id": "f860a50cefa4114d",
@@ -362,7 +371,7 @@
       "dependency_group": "f860a50cefa4114d",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.388,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@
       "published_at": "2026-08-08T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.7
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      },
+      "carried_forward": true
     },
     {
       "id": "6daa0f8a56d30213",
@@ -393,7 +403,7 @@
       "dependency_group": "6daa0f8a56d30213",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.447,
+      "freshness": 0.378,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,41 +419,11 @@
       "published_at": "2026-08-08T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
-    },
-    {
-      "id": "18a41bd97fa36586",
-      "name": "UAE says Iranian attack on tanker constitutes  flagrant violation  of UN resolution",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "18a41bd97fa36586",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.447,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260808/4484870.html",
-      "published_at": "2026-08-08T14:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.8,
         "short": 2.6,
-        "extended": 4.4
-      }
+        "extended": 4.5
+      },
+      "carried_forward": true
     },
     {
       "id": "225b089fce549e2b",
@@ -455,7 +435,7 @@
       "dependency_group": "225b089fce549e2b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.388,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,10 +451,43 @@
       "published_at": "2026-08-08T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "18a41bd97fa36586",
+      "name": "UAE says Iranian attack on tanker constitutes  flagrant violation  of UN resolution",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "18a41bd97fa36586",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.378,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260808/4484870.html",
+      "published_at": "2026-08-08T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "f86d4236a80a92ba",
@@ -486,7 +499,7 @@
       "dependency_group": "f86d4236a80a92ba",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.361,
+      "freshness": 0.305,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,10 +515,11 @@
       "published_at": "2026-08-08T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      },
+      "carried_forward": true
     },
     {
       "id": "03e40292fdf25efc",
@@ -517,7 +531,7 @@
       "dependency_group": "03e40292fdf25efc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.361,
+      "freshness": 0.305,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,10 +547,11 @@
       "published_at": "2026-08-08T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1799,17 +1814,23 @@
       "immediate": 4,
       "short": 14,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-08T17:54:29.801653Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-08T17:18:57.747957Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 15
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 15
       },
       "manual": {
         "ok": true,
