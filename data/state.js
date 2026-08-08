@@ -1,37 +1,37 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-08T09:07:35.529726Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-08T09:54:53.478172Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 2,
       "low": 0,
-      "high": 17,
-      "confidence": 56,
+      "high": 20,
+      "confidence": 39,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 6,
       "low": 0,
-      "high": 23,
-      "confidence": 56,
+      "high": 24,
+      "confidence": 39,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
+      "score": 10,
       "low": 0,
       "high": 28,
-      "confidence": 56,
+      "confidence": 39,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:15",
       "text": "US Expects Iran - Oman Hormuz Shipping Deal Soon",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "econotimes.com",
       "signal_id": "1d23fa92eeee1235"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:15",
       "text": "Trump top general seeks way out of Iran war as US military options narrow : Report",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "39d979a31b869d63"
@@ -67,7 +67,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1d23fa92eeee1235",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.778,
+      "freshness": 0.621,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -83,10 +83,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      },
+      "carried_forward": true
     },
     {
       "id": "39d979a31b869d63",
@@ -98,7 +99,7 @@ window.MAGEN_STATE = {
       "dependency_group": "39d979a31b869d63",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.585,
+      "freshness": 0.467,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -114,10 +115,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1308,17 +1310,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 8,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-08-08T09:54:53.478172Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 10
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-08T09:07:35.529726Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 2
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 2
       },
       "manual": {
         "ok": true,
