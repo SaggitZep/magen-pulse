@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-07T23:24:52.061725Z",
+  "generated_at": "2026-08-08T00:03:05.027932Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 4,
       "low": 0,
       "high": 17,
-      "confidence": 63,
+      "confidence": 64,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 12,
       "low": 0,
-      "high": 24,
-      "confidence": 63,
+      "high": 25,
+      "confidence": 64,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 3,
-      "high": 31,
-      "confidence": 63,
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 64,
       "status": "נמוך"
     }
   },
@@ -35,41 +35,41 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "יציב",
+    "points_60m": 1
   },
   "changes": [
     {
-      "time": "01:45",
+      "time": "02:30",
       "text": "US sanctions on six entities , one individual linked to Iran illicit digital asset network following Strait of Hormuz attacks",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "iranherald.com",
+      "signal_id": "2bc4e776be9c8194"
+    },
+    {
+      "time": "02:15",
+      "text": "Dan Caine : Trump top general is  looking for an off - ramp  from Iran war as US military options remain limited , sources say",
       "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "aninews.in",
-      "signal_id": "2bc4e776be9c8194"
+      "source": "cnn.com",
+      "signal_id": "6883517f3b2fb0fa"
+    },
+    {
+      "time": "01:15",
+      "text": "Iran Araghchi praises military , urges Muslim unity",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "middleeasteye.net",
+      "signal_id": "a412d99d081a98c4"
     },
     {
       "time": "00:30",
       "text": "U . S . sanctions crypto exchanges for laundering Iranian military assets",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "upi.com",
       "signal_id": "d8b0cd582488453e"
-    },
-    {
-      "time": "23:00",
-      "text": "Iran War : Why a New Attack on Saudi Arabia Could Trigger a Three - Nation Response",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "newsweek.com",
-      "signal_id": "1491b3dbf2aa9da5"
-    },
-    {
-      "time": "22:30",
-      "text": "Iran says agreement on Hormuz shipping reached with Oman",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "fortune.com",
-      "signal_id": "8412ba508aeeeddd"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2bc4e776be9c8194",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.827,
+      "freshness": 0.854,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,14 +94,76 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "aninews.in",
-      "url": "https://aninews.in/news/world/us/us-sanctions-on-six-entities-one-individual-linked-to-irans-illicit-digital-asset-network-following-strait-of-hormuz-attacks20260808032826/",
-      "published_at": "2026-08-07T22:45:00Z",
+      "source": "iranherald.com",
+      "url": "http://www.iranherald.com/news/279226921/us-sanctions-on-six-entities-one-individual-linked-to-iran-illicit-digital-asset-network-following-strait-of-hormuz-attacks",
+      "published_at": "2026-08-07T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "6883517f3b2fb0fa",
+      "name": "Dan Caine : Trump top general is  looking for an off - ramp  from Iran war as US military options remain limited , sources say",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6883517f3b2fb0fa",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.795,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "cnn.com",
+      "url": "https://www.cnn.com/2026/08/07/politics/general-dan-caine-off-ramp-iran-war",
+      "published_at": "2026-08-07T23:15:00Z",
       "active": true,
       "computed": {
         "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
+        "short": 4.6,
+        "extended": 7.8
+      }
+    },
+    {
+      "id": "a412d99d081a98c4",
+      "name": "Iran Araghchi praises military , urges Muslim unity",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a412d99d081a98c4",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.598,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeasteye.net",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-araqchi-praises-military-urges-muslim-unity",
+      "published_at": "2026-08-07T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
       }
     },
     {
@@ -114,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d8b0cd582488453e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.579,
+      "freshness": 0.482,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,102 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-07T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
-      }
-    },
-    {
-      "id": "1491b3dbf2aa9da5",
-      "name": "Iran War : Why a New Attack on Saudi Arabia Could Trigger a Three - Nation Response",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1491b3dbf2aa9da5",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.377,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newsweek.com",
-      "url": "https://www.newsweek.com/saudi-arabia-turkey-pakistan-nato-style-pact-iran-war-12298253",
-      "published_at": "2026-08-07T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    },
-    {
-      "id": "8412ba508aeeeddd",
-      "name": "Iran says agreement on Hormuz shipping reached with Oman",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8412ba508aeeeddd",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.327,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "fortune.com",
-      "url": "https://fortune.com/2026/08/07/iran-agreement-oman-strait-of-hormuz-shipping/",
-      "published_at": "2026-08-07T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      }
-    },
-    {
-      "id": "70dc55ef2113cc73",
-      "name": "Family of Jewish American killed in Kenya terror attack sues Iran over alleged al - Shabaab ties",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "70dc55ef2113cc73",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.327,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jns.org",
-      "url": "https://www.jns.org/news/u-s-news/family-of-jewish-american-killed-in-kenya-terror-attack-sues-iran-over-alleged-al-shabaab-ties",
-      "published_at": "2026-08-07T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     }
   ],
@@ -1363,17 +1332,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-08T00:03:05.027932Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 21
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-07T23:24:52.061725Z",
+    "last_success": "2026-08-08T00:03:05.027932Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 5
+        "relevant": 4
       },
       "manual": {
         "ok": true,
