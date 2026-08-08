@@ -1,65 +1,65 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-08T06:24:05.787449Z",
+  "mode": "live",
+  "generated_at": "2026-08-08T07:32:11.133972Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 2,
       "low": 0,
-      "high": 20,
-      "confidence": 35,
+      "high": 17,
+      "confidence": 55,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
+      "score": 7,
       "low": 0,
-      "high": 23,
-      "confidence": 35,
+      "high": 22,
+      "confidence": 55,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 8,
+      "score": 12,
       "low": 0,
       "high": 27,
-      "confidence": 35,
-      "status": "לא זוהה אות חריג"
+      "confidence": 55,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 1
   },
   "changes": [
     {
-      "time": "06:30",
-      "text": "Trump top general seeks path out of Iran war as military options narrow : Report",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "09:15",
+      "text": "Trump top general seeks path out of Iran war as military options narrow : report",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "aa.com.tr",
+      "source": "tribune.com.pk",
       "signal_id": "e61899eddcee3640"
     },
     {
-      "time": "05:00",
-      "text": "Iran Launches Battlefield Trophy Propaganda Campaign With Captured US Reaper Drone",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "08:45",
+      "text": "ईरान पर लगातार हवाई हमलों से बात नहीं बनेगी , अमेरिकी जनरल डैन केन का बड़ा बयान - us seeks iran war exit amid generals air strike warnings",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
-      "source": "zerohedge.com",
-      "signal_id": "11b185a5dc725a8e"
+      "source": "jagran.com",
+      "signal_id": "29039ae8d1ecf93d"
     }
   ],
   "signals": [
     {
       "id": "e61899eddcee3640",
-      "name": "Trump top general seeks path out of Iran war as military options narrow : Report",
+      "name": "Trump top general seeks path out of Iran war as military options narrow : report",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
@@ -67,7 +67,7 @@
       "dependency_group": "e61899eddcee3640",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.436,
+      "freshness": 0.692,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -78,28 +78,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/us-israel-iran-war/trumps-top-general-seeks-path-out-of-iran-war-as-military-options-narrow-report/4021584",
-      "published_at": "2026-08-08T03:30:00Z",
+      "source": "tribune.com.pk",
+      "url": "https://tribune.com.pk/story/2622748/trumps-top-general-seeks-path-out-of-iran-war-as-military-options-narrow-report",
+      "published_at": "2026-08-08T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      },
-      "carried_forward": true
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
     },
     {
-      "id": "11b185a5dc725a8e",
-      "name": "Iran Launches Battlefield Trophy Propaganda Campaign With Captured US Reaper Drone",
+      "id": "29039ae8d1ecf93d",
+      "name": "ईरान पर लगातार हवाई हमलों से बात नहीं बनेगी , अमेरिकी जनरल डैन केन का बड़ा बयान - us seeks iran war exit amid generals air strike warnings",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "11b185a5dc725a8e",
-      "strength": 0.48,
+      "dependency_group": "29039ae8d1ecf93d",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.284,
+      "freshness": 0.6,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -110,16 +109,15 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "zerohedge.com",
-      "url": "https://www.zerohedge.com/military/iran-launches-battlefield-trophy-propaganda-campaign-captured-us-reaper-drone",
-      "published_at": "2026-08-08T02:00:00Z",
+      "source": "jagran.com",
+      "url": "https://www.jagran.com/world/america-us-seeks-iran-war-exit-amid-generals-air-strike-warnings-40333554.html",
+      "published_at": "2026-08-08T05:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      }
     }
   ],
   "history": [
@@ -1292,17 +1290,23 @@
       "immediate": 1,
       "short": 4,
       "extended": 8
+    },
+    {
+      "timestamp": "2026-08-08T07:32:11.133972Z",
+      "immediate": 2,
+      "short": 7,
+      "extended": 12
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-08T05:33:05.365720Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-08T07:32:11.133972Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 2
+        "ok": true,
+        "items": 150,
+        "relevant": 2
       },
       "manual": {
         "ok": true,
