@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-08T21:12:36.809668Z",
+  "generated_at": "2026-08-08T21:49:52.731170Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -14,17 +14,17 @@ window.MAGEN_STATE = {
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 10,
       "low": 0,
-      "high": 24,
+      "high": 23,
       "confidence": 64,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 6,
-      "high": 32,
+      "score": 16,
+      "low": 3,
+      "high": 29,
       "confidence": 64,
       "status": "נמוך"
     }
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "22:30",
       "text": "Iran threatens Strait of Hormuz wont reopen fully  until America corrects its behavior",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "nypost.com",
       "signal_id": "7a668eed009eab7b"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "23:00",
       "text": "BREAKING : Iran attacks UAE vessel in Strait of Hormuz – The Right Scoop",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "therightscoop.com",
       "signal_id": "302b4cc540d8bc06"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:45",
       "text": "Iran , Oman edging toward Strait of Hormuz deal amid fresh attacks on vessels",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "clevelandjewishnews.com",
       "signal_id": "9b9648950a2bc6e1"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:45",
       "text": "Oman Condemns Attack On Tanker As Talks Progress With Iran On Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "shanghaisun.com",
       "signal_id": "c431e90683f31a7f"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7a668eed009eab7b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.613,
+      "freshness": 0.514,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
       }
     },
     {
@@ -114,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "302b4cc540d8bc06",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.708,
+      "freshness": 0.593,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
       }
     },
     {
@@ -145,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9b9648950a2bc6e1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.659,
+      "freshness": 0.552,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
       }
     },
     {
@@ -176,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c431e90683f31a7f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.659,
+      "freshness": 0.552,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
       }
     },
     {
@@ -207,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "98a3cda012ca08e3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.532,
+      "freshness": 0.445,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       }
     },
     {
@@ -238,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f2dab65f6870d646",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.532,
+      "freshness": 0.445,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,40 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      }
-    },
-    {
-      "id": "06a4b27207f45e82",
-      "name": "UAE accuses Iran of missile attack on its vessel in Strait of Hormuz ; no casualties reported",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "06a4b27207f45e82",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.346,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "livemint.com",
-      "url": "https://www.livemint.com/news/world/uae-accuses-iran-of-missile-attack-on-its-vessel-in-strait-of-hormuz-no-casualties-reported-11786205448601.html",
-      "published_at": "2026-08-08T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       }
     },
     {
@@ -300,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "18a41bd97fa36586",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.429,
+      "freshness": 0.359,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,195 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
-    },
-    {
-      "id": "c090431d92e3fa87",
-      "name": "UAE Says Iran Attacked Vessel With Missile In Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c090431d92e3fa87",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.346,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gcaptain.com",
-      "url": "https://gcaptain.com/uae-says-iran-attacked-vessel-with-missile-in-strait-of-hormuz/",
-      "published_at": "2026-08-08T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "b6eaaa84c5e98ee3",
-      "name": "Trump pursues Iran negotiations as new Strait of Hormuz attacks raise stakes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b6eaaa84c5e98ee3",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.346,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kpic.com",
-      "url": "https://kpic.com/news/nation-world/trump-pursues-iran-negotiations-as-new-strait-of-hormuz-attacks-raise-stakes-war-united-states-middle-east-oman-gasoline-gas-oil-fuel-nuclear-weapon-ceasefire-negotiations-peace-deal-israel-tehran-president-donald-trump",
-      "published_at": "2026-08-08T17:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
-    },
-    {
-      "id": "a0f15113d6a7c4cf",
-      "name": "Saudi Arabia turns to Muslim military heavyweights in landmark defense pact as Iran war closes in",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a0f15113d6a7c4cf",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.372,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "egyptindependent.com",
-      "url": "https://www.egyptindependent.com/saudi-arabia-turns-to-muslim-military-heavyweights-in-landmark-defense-pact-as-iran-war-closes-in/",
-      "published_at": "2026-08-08T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    },
-    {
-      "id": "70220162bd67e23c",
-      "name": "We dont trust Iran : JD Vance says US working on safe shipping route through Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "70220162bd67e23c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.346,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "livemint.com",
-      "url": "https://www.livemint.com/news/us-news/us-working-to-establish-safe-shipping-route-through-hormuz-strait-vance-says-we-dont-trust-iran-11786208108406.html",
-      "published_at": "2026-08-08T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
-    },
-    {
-      "id": "c86ea226aa80abb6",
-      "name": "UAE and Qatar condemn Iranian strike on Adnoc oil tanker",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c86ea226aa80abb6",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.323,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thenationalnews.com",
-      "url": "https://www.thenationalnews.com/news/mena/2026/08/08/uae-and-qatar-condemn-iranian-strike-on-adnoc-oil-tanker/",
-      "published_at": "2026-08-08T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      }
-    },
-    {
-      "id": "c978d84c8ba5b7de",
-      "name": "UAE reports tanker strike as Tehran says Hormuz deal with Oman close",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c978d84c8ba5b7de",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.323,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hurriyetdailynews.com",
-      "url": "https://www.hurriyetdailynews.com/uae-reports-tanker-strike-as-tehran-says-hormuz-deal-with-oman-close-225386",
-      "published_at": "2026-08-08T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
+        "short": 2.1,
+        "extended": 3.5
       }
     }
   ],
@@ -1804,17 +1587,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 11,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-08T21:49:52.731170Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 16
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-08T21:12:36.809668Z",
+    "last_success": "2026-08-08T21:49:52.731170Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 14
+        "relevant": 7
       },
       "manual": {
         "ok": true,
