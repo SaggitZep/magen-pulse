@@ -1,37 +1,37 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-08T21:49:52.731170Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-08T22:18:00.131406Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 3,
       "low": 0,
-      "high": 16,
-      "confidence": 64,
+      "high": 19,
+      "confidence": 49,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 8,
       "low": 0,
-      "high": 23,
-      "confidence": 64,
+      "high": 24,
+      "confidence": 49,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
-      "low": 3,
-      "high": 29,
-      "confidence": 64,
+      "score": 14,
+      "low": 0,
+      "high": 30,
+      "confidence": 49,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
@@ -42,7 +42,7 @@
     {
       "time": "22:30",
       "text": "Iran threatens Strait of Hormuz wont reopen fully  until America corrects its behavior",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "nypost.com",
       "signal_id": "7a668eed009eab7b"
@@ -50,7 +50,7 @@
     {
       "time": "23:00",
       "text": "BREAKING : Iran attacks UAE vessel in Strait of Hormuz – The Right Scoop",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "therightscoop.com",
       "signal_id": "302b4cc540d8bc06"
@@ -58,7 +58,7 @@
     {
       "time": "22:45",
       "text": "Iran , Oman edging toward Strait of Hormuz deal amid fresh attacks on vessels",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "clevelandjewishnews.com",
       "signal_id": "9b9648950a2bc6e1"
@@ -66,7 +66,7 @@
     {
       "time": "22:45",
       "text": "Oman Condemns Attack On Tanker As Talks Progress With Iran On Hormuz",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "shanghaisun.com",
       "signal_id": "c431e90683f31a7f"
@@ -83,7 +83,7 @@
       "dependency_group": "7a668eed009eab7b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.514,
+      "freshness": 0.449,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-08T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.7
-      }
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      },
+      "carried_forward": true
     },
     {
       "id": "302b4cc540d8bc06",
@@ -114,7 +115,7 @@
       "dependency_group": "302b4cc540d8bc06",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.593,
+      "freshness": 0.518,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-08T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      },
+      "carried_forward": true
     },
     {
       "id": "9b9648950a2bc6e1",
@@ -145,7 +147,7 @@
       "dependency_group": "9b9648950a2bc6e1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.552,
+      "freshness": 0.483,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-08T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      },
+      "carried_forward": true
     },
     {
       "id": "c431e90683f31a7f",
@@ -176,7 +179,7 @@
       "dependency_group": "c431e90683f31a7f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.552,
+      "freshness": 0.483,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-08T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      },
+      "carried_forward": true
     },
     {
       "id": "98a3cda012ca08e3",
@@ -207,7 +211,7 @@
       "dependency_group": "98a3cda012ca08e3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.445,
+      "freshness": 0.39,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-08T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "f2dab65f6870d646",
@@ -238,7 +243,7 @@
       "dependency_group": "f2dab65f6870d646",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.445,
+      "freshness": 0.39,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@
       "published_at": "2026-08-08T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "18a41bd97fa36586",
@@ -269,7 +275,7 @@
       "dependency_group": "18a41bd97fa36586",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.359,
+      "freshness": 0.314,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@
       "published_at": "2026-08-08T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1593,17 +1600,23 @@
       "immediate": 3,
       "short": 10,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-08T22:18:00.131406Z",
+      "immediate": 3,
+      "short": 8,
+      "extended": 14
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-08T21:49:52.731170Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 7
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
