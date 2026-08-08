@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-08T18:52:33.328470Z",
+  "generated_at": "2026-08-08T19:26:27.110556Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 68,
+      "high": 16,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
-      "low": 1,
-      "high": 27,
-      "confidence": 68,
+      "score": 12,
+      "low": 0,
+      "high": 25,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 19,
+      "low": 6,
+      "high": 32,
+      "confidence": 67,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -36,43 +36,74 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
-      "time": "21:30",
+      "time": "22:00",
+      "text": "Iran Sweeping Demands Put Strait of Hormuz in Limbo : Will Trump Pay the Price to Restore Global Oil Shipping ?",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "gulfnews.com",
+      "signal_id": "98a3cda012ca08e3"
+    },
+    {
+      "time": "22:00",
       "text": "Oman Condemns Attack On Tanker As Talks Progress With Iran On Hormuz",
       "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "sanantoniopost.com",
+      "source": "austinglobe.com",
       "signal_id": "c431e90683f31a7f"
     },
     {
-      "time": "21:30",
-      "text": "US working to establish safe shipping route through Strait of Hormuz , Vance says  we dont trust  Iran",
+      "time": "22:00",
+      "text": "US – Iran Conflict : Strait of Hormuz Disruption , ADNOC Vessel Attack and Key Updates UAE Residents Need Tonight ( August 8 )",
       "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "news.webindia123.com",
-      "signal_id": "74f2c6dc02e0f309"
+      "source": "gulfnews.com",
+      "signal_id": "f2dab65f6870d646"
     },
     {
       "time": "20:30",
       "text": "UAE accuses Iran of missile attack on its vessel in Strait of Hormuz ; no casualties reported",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "livemint.com",
       "signal_id": "06a4b27207f45e82"
-    },
-    {
-      "time": "21:15",
-      "text": "UAE says Iranian attack on tanker constitutes  flagrant violation  of UN resolution",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "iranherald.com",
-      "signal_id": "18a41bd97fa36586"
     }
   ],
   "signals": [
+    {
+      "id": "98a3cda012ca08e3",
+      "name": "Iran Sweeping Demands Put Strait of Hormuz in Limbo : Will Trump Pay the Price to Restore Global Oil Shipping ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "98a3cda012ca08e3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.882,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gulfnews.com",
+      "url": "https://gulfnews.com/world/mena/will-trump-meet-irans-latest-price-to-reopen-strait-of-hormuz-1.500634965",
+      "published_at": "2026-08-08T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
     {
       "id": "c431e90683f31a7f",
       "name": "Oman Condemns Attack On Tanker As Talks Progress With Iran On Hormuz",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c431e90683f31a7f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.898,
+      "freshness": 0.882,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,27 +125,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "sanantoniopost.com",
-      "url": "http://www.sanantoniopost.com/news/279227571/oman-condemns-attack-on-tanker-as-talks-progress-with-iran-on-hormuz",
-      "published_at": "2026-08-08T18:30:00Z",
+      "source": "austinglobe.com",
+      "url": "http://www.austinglobe.com/news/279227571/oman-condemns-attack-on-tanker-as-talks-progress-with-iran-on-hormuz",
+      "published_at": "2026-08-08T19:00:00Z",
       "active": true,
       "computed": {
         "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.9
+        "short": 5.1,
+        "extended": 8.7
       }
     },
     {
-      "id": "74f2c6dc02e0f309",
-      "name": "US working to establish safe shipping route through Strait of Hormuz , Vance says  we dont trust  Iran",
+      "id": "f2dab65f6870d646",
+      "name": "US – Iran Conflict : Strait of Hormuz Disruption , ADNOC Vessel Attack and Key Updates UAE Residents Need Tonight ( August 8 )",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "74f2c6dc02e0f309",
+      "dependency_group": "f2dab65f6870d646",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.898,
+      "freshness": 0.882,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,14 +156,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260808/4484932.html",
-      "published_at": "2026-08-08T18:30:00Z",
+      "source": "gulfnews.com",
+      "url": "https://gulfnews.com/world/mena/us-iran-conflict-what-uae-residents-need-to-know-this-evening-august-8-1.500634819",
+      "published_at": "2026-08-08T19:00:00Z",
       "active": true,
       "computed": {
         "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.9
+        "short": 5.1,
+        "extended": 8.7
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "06a4b27207f45e82",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.675,
+      "freshness": 0.574,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "18a41bd97fa36586",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.836,
+      "freshness": 0.712,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
       }
     },
     {
@@ -207,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c090431d92e3fa87",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.675,
+      "freshness": 0.574,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
       }
     },
     {
@@ -238,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a0f15113d6a7c4cf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.725,
+      "freshness": 0.617,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,40 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      }
-    },
-    {
-      "id": "6daa0f8a56d30213",
-      "name": "The UAE says Iranian missile targeted a ship , Yemen attacks Houthis and other Middle East news",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6daa0f8a56d30213",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.585,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wboc.com",
-      "url": "https://www.wboc.com/news/international/the-uae-says-iranian-missile-targeted-a-ship-yemen-attacks-houthis-and-other-middle-east/article_d19508df-c25f-500f-b427-c2f86ee2f4c4.html",
-      "published_at": "2026-08-08T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
       }
     },
     {
@@ -300,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8f8f2da4c606b1cc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.725,
+      "freshness": 0.617,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,9 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
       }
     },
     {
@@ -331,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b1087983902346cb",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.507,
+      "freshness": 0.432,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,9 +347,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       }
     },
     {
@@ -362,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b6eaaa84c5e98ee3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.675,
+      "freshness": 0.574,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,9 +378,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
       }
     },
     {
@@ -393,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "70220162bd67e23c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.675,
+      "freshness": 0.574,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,9 +409,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
+      }
+    },
+    {
+      "id": "6daa0f8a56d30213",
+      "name": "The UAE says Iranian missile targeted a ship , Yemen attacks Houthis and other Middle East news",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6daa0f8a56d30213",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.498,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wboc.com",
+      "url": "https://www.wboc.com/news/international/the-uae-says-iranian-missile-targeted-a-ship-yemen-attacks-houthis-and-other-middle-east/article_d19508df-c25f-500f-b427-c2f86ee2f4c4.html",
+      "published_at": "2026-08-08T17:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
       }
     },
     {
@@ -424,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c86ea226aa80abb6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.628,
+      "freshness": 0.535,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,9 +471,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       }
     },
     {
@@ -455,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c978d84c8ba5b7de",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.628,
+      "freshness": 0.535,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,9 +502,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       }
     },
     {
@@ -486,7 +517,7 @@ window.MAGEN_STATE = {
       "dependency_group": "962eab254e9d59ea",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.507,
+      "freshness": 0.432,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,9 +533,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     },
     {
@@ -517,7 +548,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9b9648950a2bc6e1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.409,
+      "freshness": 0.348,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,9 +564,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       }
     },
     {
@@ -548,7 +579,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7eb61b5342664e08",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.381,
+      "freshness": 0.324,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -564,9 +595,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       }
     }
   ],
@@ -1842,17 +1873,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 14,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-08T19:26:27.110556Z",
+      "immediate": 3,
+      "short": 12,
+      "extended": 19
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-08T18:52:33.328470Z",
+    "last_success": "2026-08-08T19:26:27.110556Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 16
+        "relevant": 17
       },
       "manual": {
         "ok": true,
