@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-08T04:44:12.361889Z",
+  "generated_at": "2026-08-08T05:33:05.365720Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
-      "high": 17,
-      "confidence": 59,
+      "high": 18,
+      "confidence": 52,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 6,
       "low": 0,
-      "high": 23,
-      "confidence": 59,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 52,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
-      "low": 1,
-      "high": 29,
-      "confidence": 59,
+      "score": 10,
+      "low": 0,
+      "high": 26,
+      "confidence": 52,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "06:30",
       "text": "Trump top general seeks path out of Iran war as military options narrow : Report",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "e61899eddcee3640"
@@ -50,26 +50,10 @@ window.MAGEN_STATE = {
     {
       "time": "05:00",
       "text": "Iran Launches Battlefield Trophy Propaganda Campaign With Captured US Reaper Drone",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "zerohedge.com",
       "signal_id": "11b185a5dc725a8e"
-    },
-    {
-      "time": "03:45",
-      "text": "Trump top general seeks Iran war  off - ramp  as US military options narrow",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "ynetnews.com",
-      "signal_id": "199a7fb9e99fd869"
-    },
-    {
-      "time": "03:45",
-      "text": "Paper agreement will not bring security : Iranian lawmaker attacks Saudi - Turkey - Pakistan pact",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "timesofindia.indiatimes.com",
-      "signal_id": "b0af4ec57d507d7d"
     }
   ],
   "signals": [
@@ -83,7 +67,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e61899eddcee3640",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.702,
+      "freshness": 0.556,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +83,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
       }
     },
     {
@@ -114,7 +98,7 @@ window.MAGEN_STATE = {
       "dependency_group": "11b185a5dc725a8e",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.458,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,71 +114,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T02:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      }
-    },
-    {
-      "id": "199a7fb9e99fd869",
-      "name": "Trump top general seeks Iran war  off - ramp  as US military options narrow",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "199a7fb9e99fd869",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.32,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/rkbfrgvlge",
-      "published_at": "2026-08-08T00:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      }
-    },
-    {
-      "id": "b0af4ec57d507d7d",
-      "name": "Paper agreement will not bring security : Iranian lawmaker attacks Saudi - Turkey - Pakistan pact",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b0af4ec57d507d7d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.32,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/paper-agreement-will-not-bring-security-iranian-lawmaker-attacks-saudi-turkey-pakistan-pact/articleshow/133044261.cms",
-      "published_at": "2026-08-08T00:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     }
   ],
@@ -1356,17 +1278,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 9,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-08-08T05:33:05.365720Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 10
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-08T04:44:12.361889Z",
+    "last_success": "2026-08-08T05:33:05.365720Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 4
+        "relevant": 2
       },
       "manual": {
         "ok": true,
