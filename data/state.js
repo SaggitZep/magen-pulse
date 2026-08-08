@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-08T08:19:33.834886Z",
+  "generated_at": "2026-08-08T09:07:35.529726Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@ window.MAGEN_STATE = {
       "score": 2,
       "low": 0,
       "high": 17,
-      "confidence": 54,
+      "confidence": 56,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 8,
       "low": 0,
-      "high": 22,
-      "confidence": 54,
+      "high": 23,
+      "confidence": 56,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 12,
+      "score": 13,
       "low": 0,
-      "high": 27,
-      "confidence": 54,
+      "high": 28,
+      "confidence": 56,
       "status": "נמוך"
     }
   },
@@ -40,23 +40,54 @@ window.MAGEN_STATE = {
   },
   "changes": [
     {
+      "time": "11:15",
+      "text": "US Expects Iran - Oman Hormuz Shipping Deal Soon",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "econotimes.com",
+      "signal_id": "1d23fa92eeee1235"
+    },
+    {
       "time": "10:15",
       "text": "Trump top general seeks way out of Iran war as US military options narrow : Report",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "39d979a31b869d63"
-    },
-    {
-      "time": "08:45",
-      "text": "ईरान पर लगातार हवाई हमलों से बात नहीं बनेगी , अमेरिकी जनरल डैन केन का बड़ा बयान - us seeks iran war exit amid generals air strike warnings",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "jagran.com",
-      "signal_id": "29039ae8d1ecf93d"
     }
   ],
   "signals": [
+    {
+      "id": "1d23fa92eeee1235",
+      "name": "US Expects Iran - Oman Hormuz Shipping Deal Soon",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1d23fa92eeee1235",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.778,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "econotimes.com",
+      "url": "http://www.econotimes.com/US-Expects-Iran-Oman-Hormuz-Shipping-Deal-Soon-1748965",
+      "published_at": "2026-08-08T08:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
     {
       "id": "39d979a31b869d63",
       "name": "Trump top general seeks way out of Iran war as US military options narrow : Report",
@@ -67,7 +98,7 @@ window.MAGEN_STATE = {
       "dependency_group": "39d979a31b869d63",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.735,
+      "freshness": 0.585,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -83,40 +114,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.2
-      }
-    },
-    {
-      "id": "29039ae8d1ecf93d",
-      "name": "ईरान पर लगातार हवाई हमलों से बात नहीं बनेगी , अमेरिकी जनरल डैन केन का बड़ा बयान - us seeks iran war exit amid generals air strike warnings",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "29039ae8d1ecf93d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.479,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jagran.com",
-      "url": "https://www.jagran.com/world/america-us-seeks-iran-war-exit-amid-generals-air-strike-warnings-40333554.html",
-      "published_at": "2026-08-08T05:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
       }
     }
   ],
@@ -1302,12 +1302,18 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 7,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-08-08T09:07:35.529726Z",
+      "immediate": 2,
+      "short": 8,
+      "extended": 13
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-08T08:19:33.834886Z",
+    "last_success": "2026-08-08T09:07:35.529726Z",
     "sources": {
       "gdelt": {
         "ok": true,
