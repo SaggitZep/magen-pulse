@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-08T14:51:01.392608Z",
+  "generated_at": "2026-08-08T15:21:49.730260Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 5,
       "low": 0,
-      "high": 17,
-      "confidence": 67,
+      "high": 18,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
-      "low": 1,
-      "high": 27,
-      "confidence": 67,
+      "score": 16,
+      "low": 3,
+      "high": 29,
+      "confidence": 68,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 23,
-      "low": 10,
-      "high": 36,
-      "confidence": 67,
+      "score": 27,
+      "low": 14,
+      "high": 40,
+      "confidence": 68,
       "status": "מוגבר"
     }
   },
@@ -36,43 +36,105 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 1
   },
   "changes": [
     {
+      "time": "17:30",
+      "text": "UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz",
+      "impact": "השפעה מיידית מחושבת: +2.1",
+      "direction": "up",
+      "source": "al-monitor.com",
+      "signal_id": "a127bc3d3c9b5737"
+    },
+    {
+      "time": "17:30",
+      "text": "The UAE says Iranian missile targeted a ship , Yemen attacks Houthis and other Middle East news",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "durangoherald.com",
+      "signal_id": "6daa0f8a56d30213"
+    },
+    {
       "time": "17:00",
       "text": "UAE says ship targeted by missile amid heightened U . S .- Iran tensions",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "cnbc.com",
       "signal_id": "225b089fce549e2b"
     },
     {
-      "time": "16:45",
-      "text": "UAE accuses Iran of missile attack on ADNOC tanker in Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.5",
-      "direction": "up",
-      "source": "dailypost.ng",
-      "signal_id": "f86d4236a80a92ba"
-    },
-    {
-      "time": "16:30",
+      "time": "17:30",
       "text": "UAE says Iranian attack on tanker constitutes  flagrant violation  of UN resolution",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "aninews.in",
+      "source": "news.webindia123.com",
       "signal_id": "18a41bd97fa36586"
-    },
-    {
-      "time": "16:45",
-      "text": "UAE Slams Iran Tanker Attack as Flagrant UN Violation",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "newkerala.com",
-      "signal_id": "03e40292fdf25efc"
     }
   ],
   "signals": [
+    {
+      "id": "a127bc3d3c9b5737",
+      "name": "UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a127bc3d3c9b5737",
+      "strength": 0.48,
+      "reliability": 0.74,
+      "freshness": 0.781,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/08/uae-says-iran-attacked-adnoc-vessel-missile-strait-hormuz",
+      "published_at": "2026-08-08T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.1,
+        "short": 7.2,
+        "extended": 12.2
+      }
+    },
+    {
+      "id": "6daa0f8a56d30213",
+      "name": "The UAE says Iranian missile targeted a ship , Yemen attacks Houthis and other Middle East news",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6daa0f8a56d30213",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.781,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "durangoherald.com",
+      "url": "https://www.durangoherald.com/articles/associated-press/yemen-attacks-houthis-turkeys-kurdish-peace-bill-wins-approval-and-other-middle-east-news/",
+      "published_at": "2026-08-08T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
     {
       "id": "225b089fce549e2b",
       "name": "UAE says ship targeted by missile amid heightened U . S .- Iran tensions",
@@ -83,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "225b089fce549e2b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.784,
+      "freshness": 0.677,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +161,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.3
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "18a41bd97fa36586",
+      "name": "UAE says Iranian attack on tanker constitutes  flagrant violation  of UN resolution",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "18a41bd97fa36586",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.781,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260808/4484870.html",
+      "published_at": "2026-08-08T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
       }
     },
     {
@@ -114,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f86d4236a80a92ba",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.73,
+      "freshness": 0.631,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,40 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
-      }
-    },
-    {
-      "id": "18a41bd97fa36586",
-      "name": "UAE says Iranian attack on tanker constitutes  flagrant violation  of UN resolution",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "18a41bd97fa36586",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.68,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aninews.in",
-      "url": "https://aninews.in/news/world/middle-east/uae-says-iranian-attack-on-tanker-constitutes-flagrant-violation-of-un-resolution20260808183918/",
-      "published_at": "2026-08-08T13:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
       }
     },
     {
@@ -176,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "03e40292fdf25efc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.73,
+      "freshness": 0.631,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.2
       }
     },
     {
@@ -207,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b75cca5231b7bb26",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.549,
+      "freshness": 0.474,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
       }
     },
     {
@@ -238,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b6339c6ddd8de616",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.476,
+      "freshness": 0.411,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
@@ -269,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4c53fdabf391e5c0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.384,
+      "freshness": 0.332,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -283,37 +345,6 @@ window.MAGEN_STATE = {
       "source": "middleeastmonitor.com",
       "url": "https://www.middleeastmonitor.com/20260808-trumps-top-general-seeks-path-out-of-iran-war-as-military-options-narrow-report/",
       "published_at": "2026-08-08T11:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
-    },
-    {
-      "id": "99630ce833fec161",
-      "name": "Saudi Arabia turns to Muslim military heavyweights as Iran war closes in",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "99630ce833fec161",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.333,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "us.cnn.com",
-      "url": "https://us.cnn.com/2026/08/07/middleeast/saudi-arabia-turkey-pakistan-pact-intl",
-      "published_at": "2026-08-08T11:00:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
@@ -1558,17 +1589,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 14,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-08-08T15:21:49.730260Z",
+      "immediate": 5,
+      "short": 16,
+      "extended": 27
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-08T14:51:01.392608Z",
+    "last_success": "2026-08-08T15:21:49.730260Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 8
+        "relevant": 9
       },
       "manual": {
         "ok": true,
