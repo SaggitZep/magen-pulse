@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-08T07:32:11.133972Z",
+  "generated_at": "2026-08-08T08:19:33.834886Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,7 +9,7 @@
       "score": 2,
       "low": 0,
       "high": 17,
-      "confidence": 55,
+      "confidence": 54,
       "status": "לא זוהה אות חריג"
     },
     "short": {
@@ -17,7 +17,7 @@
       "score": 7,
       "low": 0,
       "high": 22,
-      "confidence": 55,
+      "confidence": 54,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
@@ -25,7 +25,7 @@
       "score": 12,
       "low": 0,
       "high": 27,
-      "confidence": 55,
+      "confidence": 54,
       "status": "נמוך"
     }
   },
@@ -36,21 +36,21 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": 0
   },
   "changes": [
     {
-      "time": "09:15",
-      "text": "Trump top general seeks path out of Iran war as military options narrow : report",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "time": "10:15",
+      "text": "Trump top general seeks way out of Iran war as US military options narrow : Report",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "tribune.com.pk",
-      "signal_id": "e61899eddcee3640"
+      "source": "presstv.co.uk",
+      "signal_id": "39d979a31b869d63"
     },
     {
       "time": "08:45",
       "text": "ईरान पर लगातार हवाई हमलों से बात नहीं बनेगी , अमेरिकी जनरल डैन केन का बड़ा बयान - us seeks iran war exit amid generals air strike warnings",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "jagran.com",
       "signal_id": "29039ae8d1ecf93d"
@@ -58,16 +58,16 @@
   ],
   "signals": [
     {
-      "id": "e61899eddcee3640",
-      "name": "Trump top general seeks path out of Iran war as military options narrow : report",
+      "id": "39d979a31b869d63",
+      "name": "Trump top general seeks way out of Iran war as US military options narrow : Report",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e61899eddcee3640",
+      "dependency_group": "39d979a31b869d63",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.692,
+      "freshness": 0.735,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -78,14 +78,14 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "tribune.com.pk",
-      "url": "https://tribune.com.pk/story/2622748/trumps-top-general-seeks-path-out-of-iran-war-as-military-options-narrow-report",
-      "published_at": "2026-08-08T06:15:00Z",
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/08/08/773927/Trump",
+      "published_at": "2026-08-08T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.2
       }
     },
     {
@@ -98,7 +98,7 @@
       "dependency_group": "29039ae8d1ecf93d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.6,
+      "freshness": 0.479,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -114,9 +114,9 @@
       "published_at": "2026-08-08T05:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
       }
     }
   ],
@@ -1296,12 +1296,18 @@
       "immediate": 2,
       "short": 7,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-08-08T08:19:33.834886Z",
+      "immediate": 2,
+      "short": 7,
+      "extended": 12
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-08T07:32:11.133972Z",
+    "last_success": "2026-08-08T08:19:33.834886Z",
     "sources": {
       "gdelt": {
         "ok": true,
