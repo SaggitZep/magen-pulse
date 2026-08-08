@@ -1,37 +1,37 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-08T02:18:31.340311Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-08T03:48:54.794803Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
-      "high": 16,
-      "confidence": 66,
+      "high": 19,
+      "confidence": 47,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 7,
       "low": 0,
-      "high": 23,
-      "confidence": 66,
-      "status": "נמוך"
+      "high": 24,
+      "confidence": 47,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 4,
-      "high": 30,
-      "confidence": 66,
+      "score": 12,
+      "low": 0,
+      "high": 29,
+      "confidence": 47,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "03:45",
       "text": "Trump top general seeks Iran war  off - ramp  as US military options narrow",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "ynetnews.com",
       "signal_id": "199a7fb9e99fd869"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "03:45",
       "text": "Paper agreement will not bring security : Iranian lawmaker attacks Saudi - Turkey - Pakistan pact",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "b0af4ec57d507d7d"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "03:30",
       "text": "US sanctions on six entities , one individual linked to Iran illicit digital asset network following Strait of Hormuz attacks",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "heraldglobe.com",
       "signal_id": "2bc4e776be9c8194"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "03:00",
       "text": "US Sanctions Iran Crypto Network Post - Hormuz Attacks",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "newkerala.com",
       "signal_id": "feac91a23823234e"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "199a7fb9e99fd869",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.641,
+      "freshness": 0.417,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "b0af4ec57d507d7d",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b0af4ec57d507d7d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.641,
+      "freshness": 0.417,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "2bc4e776be9c8194",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2bc4e776be9c8194",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.596,
+      "freshness": 0.388,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T00:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.9
-      }
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "feac91a23823234e",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "feac91a23823234e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.517,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T00:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
+      },
+      "carried_forward": true
     },
     {
       "id": "08e44fc7ad47a8c2",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "08e44fc7ad47a8c2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.517,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T00:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1375,17 +1380,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-08T03:48:54.794803Z",
+      "immediate": 2,
+      "short": 7,
+      "extended": 12
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-08T02:18:31.340311Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 5
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
