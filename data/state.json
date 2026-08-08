@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-08T15:56:09.931646Z",
+  "generated_at": "2026-08-08T16:47:04.810913Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 20,
-      "confidence": 52,
+      "high": 19,
+      "confidence": 49,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
+      "score": 11,
       "low": 0,
-      "high": 30,
-      "confidence": 52,
+      "high": 27,
+      "confidence": 49,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 23,
-      "low": 7,
-      "high": 39,
-      "confidence": 52,
-      "status": "מוגבר"
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 49,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -42,7 +42,7 @@
     {
       "time": "17:30",
       "text": "UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "al-monitor.com",
       "signal_id": "a127bc3d3c9b5737"
@@ -50,7 +50,7 @@
     {
       "time": "17:30",
       "text": "The UAE says Iranian missile targeted a ship , Yemen attacks Houthis and other Middle East news",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "durangoherald.com",
       "signal_id": "6daa0f8a56d30213"
@@ -58,7 +58,7 @@
     {
       "time": "17:00",
       "text": "UAE says ship targeted by missile amid heightened U . S .- Iran tensions",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "cnbc.com",
       "signal_id": "225b089fce549e2b"
@@ -66,7 +66,7 @@
     {
       "time": "17:30",
       "text": "UAE says Iranian attack on tanker constitutes  flagrant violation  of UN resolution",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "news.webindia123.com",
       "signal_id": "18a41bd97fa36586"
@@ -83,7 +83,7 @@
       "dependency_group": "a127bc3d3c9b5737",
       "strength": 0.48,
       "reliability": 0.74,
-      "freshness": 0.663,
+      "freshness": 0.521,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-08T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.1,
-        "extended": 10.4
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.1
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "6daa0f8a56d30213",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.663,
+      "freshness": 0.521,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-08T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.8
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "225b089fce549e2b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.575,
+      "freshness": 0.451,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-08T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "18a41bd97fa36586",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.663,
+      "freshness": 0.521,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-08T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "f86d4236a80a92ba",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.535,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-08T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "03e40292fdf25efc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.535,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-08-08T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "b75cca5231b7bb26",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.402,
+      "freshness": 0.316,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@
       "published_at": "2026-08-08T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@
       "dependency_group": "b6339c6ddd8de616",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.349,
+      "freshness": 0.274,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@
       "published_at": "2026-08-08T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -339,7 +339,7 @@
       "dependency_group": "4c53fdabf391e5c0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.282,
+      "freshness": 0.221,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +355,9 @@
       "published_at": "2026-08-08T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     }
@@ -1610,6 +1610,12 @@
       "immediate": 4,
       "short": 14,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-08-08T16:47:04.810913Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
