@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-08T00:03:05.027932Z",
+  "generated_at": "2026-08-08T02:18:31.340311Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 64,
+      "high": 16,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 10,
       "low": 0,
-      "high": 25,
-      "confidence": 64,
+      "high": 23,
+      "confidence": 66,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 64,
+      "score": 17,
+      "low": 4,
+      "high": 30,
+      "confidence": 66,
       "status": "נמוך"
     }
   },
@@ -36,43 +36,105 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": -1
   },
   "changes": [
     {
-      "time": "02:30",
-      "text": "US sanctions on six entities , one individual linked to Iran illicit digital asset network following Strait of Hormuz attacks",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "time": "03:45",
+      "text": "Trump top general seeks Iran war  off - ramp  as US military options narrow",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
-      "source": "iranherald.com",
+      "source": "ynetnews.com",
+      "signal_id": "199a7fb9e99fd869"
+    },
+    {
+      "time": "03:45",
+      "text": "Paper agreement will not bring security : Iranian lawmaker attacks Saudi - Turkey - Pakistan pact",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "timesofindia.indiatimes.com",
+      "signal_id": "b0af4ec57d507d7d"
+    },
+    {
+      "time": "03:30",
+      "text": "US sanctions on six entities , one individual linked to Iran illicit digital asset network following Strait of Hormuz attacks",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "heraldglobe.com",
       "signal_id": "2bc4e776be9c8194"
     },
     {
-      "time": "02:15",
-      "text": "Dan Caine : Trump top general is  looking for an off - ramp  from Iran war as US military options remain limited , sources say",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "time": "03:00",
+      "text": "US Sanctions Iran Crypto Network Post - Hormuz Attacks",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
-      "source": "cnn.com",
-      "signal_id": "6883517f3b2fb0fa"
-    },
-    {
-      "time": "01:15",
-      "text": "Iran Araghchi praises military , urges Muslim unity",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "middleeasteye.net",
-      "signal_id": "a412d99d081a98c4"
-    },
-    {
-      "time": "00:30",
-      "text": "U . S . sanctions crypto exchanges for laundering Iranian military assets",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "upi.com",
-      "signal_id": "d8b0cd582488453e"
+      "source": "newkerala.com",
+      "signal_id": "feac91a23823234e"
     }
   ],
   "signals": [
+    {
+      "id": "199a7fb9e99fd869",
+      "name": "Trump top general seeks Iran war  off - ramp  as US military options narrow",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "199a7fb9e99fd869",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.641,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ynetnews.com",
+      "url": "https://www.ynetnews.com/article/rkbfrgvlge",
+      "published_at": "2026-08-08T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "b0af4ec57d507d7d",
+      "name": "Paper agreement will not bring security : Iranian lawmaker attacks Saudi - Turkey - Pakistan pact",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b0af4ec57d507d7d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.641,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/paper-agreement-will-not-bring-security-iranian-lawmaker-attacks-saudi-turkey-pakistan-pact/articleshow/133044261.cms",
+      "published_at": "2026-08-08T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
     {
       "id": "2bc4e776be9c8194",
       "name": "US sanctions on six entities , one individual linked to Iran illicit digital asset network following Strait of Hormuz attacks",
@@ -83,7 +145,7 @@
       "dependency_group": "2bc4e776be9c8194",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.854,
+      "freshness": 0.596,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,89 +156,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279226921/us-sanctions-on-six-entities-one-individual-linked-to-iran-illicit-digital-asset-network-following-strait-of-hormuz-attacks",
-      "published_at": "2026-08-07T23:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
-      }
-    },
-    {
-      "id": "6883517f3b2fb0fa",
-      "name": "Dan Caine : Trump top general is  looking for an off - ramp  from Iran war as US military options remain limited , sources say",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6883517f3b2fb0fa",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.795,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cnn.com",
-      "url": "https://www.cnn.com/2026/08/07/politics/general-dan-caine-off-ramp-iran-war",
-      "published_at": "2026-08-07T23:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.8
-      }
-    },
-    {
-      "id": "a412d99d081a98c4",
-      "name": "Iran Araghchi praises military , urges Muslim unity",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a412d99d081a98c4",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.598,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-araqchi-praises-military-urges-muslim-unity",
-      "published_at": "2026-08-07T22:15:00Z",
+      "source": "heraldglobe.com",
+      "url": "http://www.heraldglobe.com/news/279226921/us-sanctions-on-six-entities-one-individual-linked-to-iran-illicit-digital-asset-network-following-strait-of-hormuz-attacks",
+      "published_at": "2026-08-08T00:30:00Z",
       "active": true,
       "computed": {
         "immediate": 1.0,
-        "short": 3.5,
+        "short": 3.4,
         "extended": 5.9
       }
     },
     {
-      "id": "d8b0cd582488453e",
-      "name": "U . S . sanctions crypto exchanges for laundering Iranian military assets",
+      "id": "feac91a23823234e",
+      "name": "US Sanctions Iran Crypto Network Post - Hormuz Attacks",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "d8b0cd582488453e",
+      "dependency_group": "feac91a23823234e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.482,
+      "freshness": 0.517,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -187,14 +187,45 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "upi.com",
-      "url": "https://www.upi.com/Top_News/World-News/2026/08/07/santions-iran-crypto/6431786132117/",
-      "published_at": "2026-08-07T21:30:00Z",
+      "source": "newkerala.com",
+      "url": "https://www.newkerala.com/news/a/us-sanctions-six-entities-one-individual-linked-irans-974.htm",
+      "published_at": "2026-08-08T00:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "08e44fc7ad47a8c2",
+      "name": "Trump top general is  looking for an off - ramp  from Iran war as US military options remain limited , sources say",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "08e44fc7ad47a8c2",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.517,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yahoo.com",
+      "url": "https://www.yahoo.com/news/politics/articles/trump-top-general-looking-off-212704163.html",
+      "published_at": "2026-08-08T00:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
       }
     }
   ],
@@ -1338,17 +1369,23 @@
       "immediate": 4,
       "short": 12,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-08T02:18:31.340311Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-08T00:03:05.027932Z",
+    "last_success": "2026-08-08T02:18:31.340311Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 4
+        "relevant": 5
       },
       "manual": {
         "ok": true,
