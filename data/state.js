@@ -1,59 +1,67 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-08T11:50:33.391294Z",
+  "mode": "live",
+  "generated_at": "2026-08-08T12:29:26.553832Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 42,
+      "high": 18,
+      "confidence": 61,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 12,
       "low": 0,
-      "high": 25,
-      "confidence": 42,
-      "status": "לא זוהה אות חריג"
+      "high": 26,
+      "confidence": 61,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
-      "low": 0,
-      "high": 30,
-      "confidence": 42,
+      "score": 20,
+      "low": 6,
+      "high": 34,
+      "confidence": 61,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
       "time": "13:45",
       "text": "US Gen . Dan Caine looking for alternatives to military escalation in Iran",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "075e5b0e304f226f"
     },
     {
-      "time": "11:15",
-      "text": "US Expects Iran - Oman Hormuz Shipping Deal Soon",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "14:30",
+      "text": "Trump top general seeks path out of Iran war as military options narrow : Report – Middle East Monitor",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "econotimes.com",
-      "signal_id": "1d23fa92eeee1235"
+      "source": "middleeastmonitor.com",
+      "signal_id": "4c53fdabf391e5c0"
+    },
+    {
+      "time": "14:00",
+      "text": "Saudi Arabia turns to Muslim military heavyweights as Iran war closes in",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "us.cnn.com",
+      "signal_id": "99630ce833fec161"
     }
   ],
   "signals": [
@@ -67,7 +75,7 @@ window.MAGEN_STATE = {
       "dependency_group": "075e5b0e304f226f",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.732,
+      "freshness": 0.608,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -83,23 +91,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-08T10:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.6,
-        "extended": 9.5
-      },
-      "carried_forward": true
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 7.9
+      }
     },
     {
-      "id": "1d23fa92eeee1235",
-      "name": "US Expects Iran - Oman Hormuz Shipping Deal Soon",
+      "id": "4c53fdabf391e5c0",
+      "name": "Trump top general seeks path out of Iran war as military options narrow : Report – Middle East Monitor",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "1d23fa92eeee1235",
+      "dependency_group": "4c53fdabf391e5c0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.358,
+      "freshness": 0.753,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -110,16 +117,46 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "econotimes.com",
-      "url": "http://www.econotimes.com/US-Expects-Iran-Oman-Hormuz-Shipping-Deal-Soon-1748965",
-      "published_at": "2026-08-08T08:15:00Z",
+      "source": "middleeastmonitor.com",
+      "url": "https://www.middleeastmonitor.com/20260808-trumps-top-general-seeks-path-out-of-iran-war-as-military-options-narrow-report/",
+      "published_at": "2026-08-08T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "99630ce833fec161",
+      "name": "Saudi Arabia turns to Muslim military heavyweights as Iran war closes in",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "99630ce833fec161",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.653,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "us.cnn.com",
+      "url": "https://us.cnn.com/2026/08/07/middleeast/saudi-arabia-turkey-pakistan-pact-intl",
+      "published_at": "2026-08-08T11:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
+      }
     }
   ],
   "history": [
@@ -1334,17 +1371,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 8,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-08-08T12:29:26.553832Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-08T11:17:34.287936Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-08T12:29:26.553832Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 2
+        "ok": true,
+        "items": 150,
+        "relevant": 3
       },
       "manual": {
         "ok": true,
