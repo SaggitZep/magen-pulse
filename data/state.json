@@ -1,45 +1,203 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-09T02:23:32.519226Z",
+  "mode": "live",
+  "generated_at": "2026-08-09T03:58:13.567886Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 27,
+      "low": 14,
+      "high": 40,
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 69,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "זינוק חריג",
+    "points_60m": 22
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "06:00",
+      "text": "Israel prepares for possible unilateral strikes on Iran : Israeli media",
+      "impact": "השפעה מיידית מחושבת: +18.7",
+      "direction": "up",
+      "source": "aa.com.tr",
+      "signal_id": "c11a7c82b3c3bd13"
+    },
+    {
+      "time": "06:45",
+      "text": "Iran makes new demands for reopening shipping strait",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "sconeadvocate.com.au",
+      "signal_id": "14e035d5076f709d"
+    },
+    {
+      "time": "06:45",
+      "text": "Iran outlines strict conditions to restore Strait of Hormuz shipping lanes",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "israelnationalnews.com",
+      "signal_id": "ce7bc5cb5bbf6af2"
+    },
+    {
+      "time": "05:30",
+      "text": "The ammunition crisis and the dilemma of air strikes : Divisions within the US administration over a way out of the Iran war",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "peakoil.com",
+      "signal_id": "095d87540e5197a0"
+    }
+  ],
+  "signals": [
+    {
+      "id": "c11a7c82b3c3bd13",
+      "name": "Israel prepares for possible unilateral strikes on Iran : Israeli media",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c11a7c82b3c3bd13",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.758,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/middle-east/israel-prepares-for-possible-unilateral-strikes-on-iran-israeli-media/4022186",
+      "published_at": "2026-08-09T03:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 18.7,
+        "short": 14.6,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "14e035d5076f709d",
+      "name": "Iran makes new demands for reopening shipping strait",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "14e035d5076f709d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.939,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sconeadvocate.com.au",
+      "url": "https://www.sconeadvocate.com.au/story/9326459/iran-makes-new-demands-for-reopening-shipping-strait/",
+      "published_at": "2026-08-09T03:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.3
+      }
+    },
+    {
+      "id": "ce7bc5cb5bbf6af2",
+      "name": "Iran outlines strict conditions to restore Strait of Hormuz shipping lanes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ce7bc5cb5bbf6af2",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.939,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/news/431418",
+      "published_at": "2026-08-09T03:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.3
+      }
+    },
+    {
+      "id": "095d87540e5197a0",
+      "name": "The ammunition crisis and the dilemma of air strikes : Divisions within the US administration over a way out of the Iran war",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "095d87540e5197a0",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.657,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "peakoil.com",
+      "url": "https://peakoil.com/publicpolicy/the-ammunition-crisis-and-the-dilemma-of-air-strikes-divisions-within-the-us-administration-over-a-way-out-of-the-iran-war",
+      "published_at": "2026-08-09T02:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -1372,17 +1530,23 @@
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-08-09T03:58:13.567886Z",
+      "immediate": 22,
+      "short": 27,
+      "extended": 28
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-08-08T22:52:47.881293Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-09T03:58:13.567886Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 4
       },
       "manual": {
         "ok": true,
