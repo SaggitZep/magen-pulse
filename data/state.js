@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-09T07:16:46.190895Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-09T08:06:19.442281Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 68,
+      "score": 17,
+      "low": 1,
+      "high": 33,
+      "confidence": 51,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 21,
+      "low": 5,
+      "high": 37,
+      "confidence": 51,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 26,
-      "low": 13,
-      "high": 39,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 21,
+      "low": 5,
+      "high": 37,
+      "confidence": 51,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מהירה",
-    "points_60m": 9
+    "level": "ירידה",
+    "points_60m": -5
   },
   "changes": [
     {
       "time": "09:15",
       "text": "US Iran War News Live Updates : Israel says Houthis behind attack on gas facility in Saudi Jubail region",
-      "impact": "השפעה מיידית מחושבת: +18.4",
+      "impact": "השפעה מיידית מחושבת: +14.5",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "e3ecf149d14a301d"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "09:45",
       "text": "No attacks on allies , compensation : Iran lays down six demands to reopen Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "businesstoday.in",
       "signal_id": "bdef2ed87585e9c4"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "09:15",
       "text": "Iran makes new Hormuz demands as missile hits Emirati ship",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "middleeaststar.com",
       "signal_id": "07e4f1ee873e9f8d"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "08:30",
       "text": "US military pushes companies to  dramatically accelerate  weapons production as Iran war burns through supply , memo says",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "independent.co.uk",
       "signal_id": "80f6bb00c5794316"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e3ecf149d14a301d",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.745,
+      "freshness": 0.589,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 18.4,
-        "short": 14.3,
-        "extended": 6.1
-      }
+        "immediate": 14.5,
+        "short": 11.3,
+        "extended": 4.8
+      },
+      "carried_forward": true
     },
     {
       "id": "bdef2ed87585e9c4",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bdef2ed87585e9c4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.86,
+      "freshness": 0.679,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      }
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "07e4f1ee873e9f8d",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "07e4f1ee873e9f8d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.745,
+      "freshness": 0.589,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
-      }
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      },
+      "carried_forward": true
     },
     {
       "id": "80f6bb00c5794316",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "80f6bb00c5794316",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.601,
+      "freshness": 0.475,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T05:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
+      },
+      "carried_forward": true
     },
     {
       "id": "14e035d5076f709d",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "14e035d5076f709d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.485,
+      "freshness": 0.383,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "ce7bc5cb5bbf6af2",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ce7bc5cb5bbf6af2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.365,
+      "freshness": 0.288,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.8
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1616,17 +1622,23 @@ window.MAGEN_STATE = {
       "immediate": 22,
       "short": 25,
       "extended": 26
+    },
+    {
+      "timestamp": "2026-08-09T08:06:19.442281Z",
+      "immediate": 17,
+      "short": 21,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-09T07:16:46.190895Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 6
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 6
       },
       "manual": {
         "ok": true,
