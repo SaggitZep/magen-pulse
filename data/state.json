@@ -1,30 +1,30 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-09T19:49:12.193575Z",
+  "generated_at": "2026-08-09T20:18:16.886744Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
+      "score": 14,
+      "low": 1,
+      "high": 27,
       "confidence": 66,
-      "status": "מוגבר"
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 26,
-      "low": 13,
-      "high": 39,
+      "score": 20,
+      "low": 7,
+      "high": 33,
       "confidence": 67,
-      "status": "מוגבר"
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 26,
-      "low": 13,
-      "high": 39,
+      "score": 24,
+      "low": 11,
+      "high": 37,
       "confidence": 68,
       "status": "מוגבר"
     }
@@ -36,29 +36,29 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -3
+    "points_60m": -8
   },
   "changes": [
     {
       "time": "20:15",
       "text": "India to Israel and back : How a fake IRGC quote on nuclear weapons reached Netanyahu speech",
-      "impact": "השפעה מיידית מחושבת: +11.8",
+      "impact": "השפעה מיידית מחושבת: +10.3",
       "direction": "up",
       "source": "middleeasteye.net",
       "signal_id": "42b9c6b9058a3236"
     },
     {
-      "time": "19:00",
-      "text": "Israel keeps unilateral strike option open as US and Iran negotiate Hormuz reopening",
-      "impact": "השפעה מיידית מחושבת: +8.3",
+      "time": "22:45",
+      "text": "Report Says Donald Trump may ditch nuclear deal plan if Iran reopens Strait of Hormuz",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "bankingnews.gr",
-      "signal_id": "526d4f0799b20e28"
+      "source": "sangbadpratidin.in",
+      "signal_id": "54ef4f133cb12e36"
     },
     {
       "time": "22:30",
       "text": "Iran - backed Houthis attack Aramco refinery in Saudi Arabia , Red Sea port",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "nypost.com",
       "signal_id": "7b6ca28c992b9b4b"
@@ -66,7 +66,7 @@
     {
       "time": "22:00",
       "text": "Donald Trump may ditch nuclear deal plan if Iran reopens Hormuz : Report",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "austinglobe.com",
       "signal_id": "daa98f8cc3502623"
@@ -83,7 +83,7 @@
       "dependency_group": "42b9c6b9058a3236",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.48,
+      "freshness": 0.418,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,40 +99,40 @@
       "published_at": "2026-08-09T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.8,
-        "short": 9.2,
-        "extended": 3.9
+        "immediate": 10.3,
+        "short": 8.0,
+        "extended": 3.4
       }
     },
     {
-      "id": "526d4f0799b20e28",
-      "name": "Israel keeps unilateral strike option open as US and Iran negotiate Hormuz reopening",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "54ef4f133cb12e36",
+      "name": "Report Says Donald Trump may ditch nuclear deal plan if Iran reopens Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "526d4f0799b20e28",
-      "strength": 0.5,
+      "dependency_group": "54ef4f133cb12e36",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.336,
+      "freshness": 0.853,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "bankingnews.gr",
-      "url": "https://www.bankingnews.gr/diethni/articles/892927/israel-keeps-unilateral-strike-option-open-as-us-and-iran-negotiate-hormuz-reopening",
-      "published_at": "2026-08-09T16:00:00Z",
+      "source": "sangbadpratidin.in",
+      "url": "https://www.sangbadpratidin.in/world/report-says-donald-trump-may-ditch-nuclear-deal-plan-if-iran-reopens-strait-of-hormuz/pid/1281757/",
+      "published_at": "2026-08-09T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 8.3,
-        "short": 6.5,
-        "extended": 2.7
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
       }
     },
     {
@@ -145,7 +145,7 @@
       "dependency_group": "7b6ca28c992b9b4b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.913,
+      "freshness": 0.795,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +161,9 @@
       "published_at": "2026-08-09T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.3,
-        "extended": 9.0
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.8
       }
     },
     {
@@ -176,7 +176,7 @@
       "dependency_group": "daa98f8cc3502623",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.791,
+      "freshness": 0.689,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +192,9 @@
       "published_at": "2026-08-09T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.6,
-        "extended": 7.8
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
       }
     },
     {
@@ -207,7 +207,7 @@
       "dependency_group": "f615b8cae082395d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.595,
+      "freshness": 0.518,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +223,9 @@
       "published_at": "2026-08-09T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.9
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
       }
     },
     {
@@ -238,7 +238,7 @@
       "dependency_group": "9747e8adfc73ed00",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.554,
+      "freshness": 0.482,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +254,9 @@
       "published_at": "2026-08-09T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     },
     {
@@ -269,7 +269,7 @@
       "dependency_group": "849231e2892767ba",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.554,
+      "freshness": 0.482,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +285,9 @@
       "published_at": "2026-08-09T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     }
   ],
@@ -1749,12 +1749,18 @@
       "immediate": 22,
       "short": 26,
       "extended": 26
+    },
+    {
+      "timestamp": "2026-08-09T20:18:16.886744Z",
+      "immediate": 14,
+      "short": 20,
+      "extended": 24
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-09T19:49:12.193575Z",
+    "last_success": "2026-08-09T20:18:16.886744Z",
     "sources": {
       "gdelt": {
         "ok": true,
