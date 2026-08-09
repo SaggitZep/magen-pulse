@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-09T15:40:25.814871Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-09T16:13:33.547992Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 4,
       "low": 0,
-      "high": 17,
-      "confidence": 70,
+      "high": 19,
+      "confidence": 54,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
-      "low": 3,
-      "high": 27,
-      "confidence": 70,
+      "score": 13,
+      "low": 0,
+      "high": 28,
+      "confidence": 54,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 13,
+      "score": 22,
+      "low": 7,
       "high": 37,
-      "confidence": 70,
-      "status": "מוגבר"
+      "confidence": 54,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -3
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "18:15",
       "text": "Donald Trump reportedly willing to walk away from Iran war without nuclear deal",
-      "impact": "השפעה מיידית מחושבת: +2.0",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "a11872b709e7ada2"
@@ -50,7 +50,7 @@
     {
       "time": "18:15",
       "text": "Footage of Iranian supreme leader unseen since March promised by Iran paramilitary",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "abc.net.au",
       "signal_id": "7b908bf4bef4f612"
@@ -58,7 +58,7 @@
     {
       "time": "17:45",
       "text": "IRAN WAR : Trump Reportedly Open To Ending Conflict Without Nuclear Deal",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "theyeshivaworld.com",
       "signal_id": "2a8c2f8e2113f281"
@@ -66,7 +66,7 @@
     {
       "time": "17:45",
       "text": "Donald Trump May Trade Strait of Hormuz For Iran Nuclear Deal If Tehran Agrees To Reopen Key Waterway : Report",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "newsx.com",
       "signal_id": "41ba311b998ec229"
@@ -83,7 +83,7 @@
       "dependency_group": "a11872b709e7ada2",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.886,
+      "freshness": 0.757,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-09T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 2.0,
-        "short": 6.8,
-        "extended": 11.5
-      }
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.9
+      },
+      "carried_forward": true
     },
     {
       "id": "7b908bf4bef4f612",
@@ -114,7 +115,7 @@
       "dependency_group": "7b908bf4bef4f612",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.886,
+      "freshness": 0.757,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-09T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      }
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      },
+      "carried_forward": true
     },
     {
       "id": "2a8c2f8e2113f281",
@@ -145,7 +147,7 @@
       "dependency_group": "2a8c2f8e2113f281",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.768,
+      "freshness": 0.656,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-09T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.6
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      },
+      "carried_forward": true
     },
     {
       "id": "41ba311b998ec229",
@@ -176,7 +179,7 @@
       "dependency_group": "41ba311b998ec229",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.768,
+      "freshness": 0.656,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-09T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.6
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      },
+      "carried_forward": true
     },
     {
       "id": "feacbf53caf685f4",
@@ -207,7 +211,7 @@
       "dependency_group": "feacbf53caf685f4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.62,
+      "freshness": 0.529,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-09T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      },
+      "carried_forward": true
     },
     {
       "id": "de1a3ba59879cebd",
@@ -238,7 +243,7 @@
       "dependency_group": "de1a3ba59879cebd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.466,
+      "freshness": 0.398,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@
       "published_at": "2026-08-09T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1682,17 +1688,23 @@
       "immediate": 5,
       "short": 15,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-08-09T16:13:33.547992Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 22
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-09T15:40:25.814871Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 6
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 6
       },
       "manual": {
         "ok": true,
