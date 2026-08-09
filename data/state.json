@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-09T14:18:42.036641Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-09T14:58:24.394842Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 10,
+      "score": 8,
       "low": 0,
-      "high": 25,
-      "confidence": 55,
+      "high": 26,
+      "confidence": 39,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 11,
       "low": 0,
-      "high": 28,
-      "confidence": 56,
+      "high": 29,
+      "confidence": 40,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
+      "score": 11,
       "low": 0,
-      "high": 28,
-      "confidence": 57,
+      "high": 29,
+      "confidence": 41,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מהירה",
-    "points_60m": 8
+    "level": "ירידה",
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "13:30",
       "text": "Israel Cancels Military Leave Amid Signs Of Possible Fresh Strike On Iran",
-      "impact": "השפעה מיידית מחושבת: +8.3",
+      "impact": "השפעה מיידית מחושבת: +6.9",
       "direction": "up",
       "source": "outlookindia.com",
       "signal_id": "b2c00f92e6463879"
@@ -50,7 +50,7 @@
     {
       "time": "16:00",
       "text": "Iran Details Hormuz Terms As Aramco Refinery Attacked",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "hngn.com",
       "signal_id": "de1a3ba59879cebd"
@@ -58,7 +58,7 @@
     {
       "time": "14:00",
       "text": "Iran strikes UAE ADNOC tanker with missiles in Strait of Hormuz ; Abu Dhabi condemns attack",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "ibtimes.co.in",
       "signal_id": "120026e424982b82"
@@ -75,7 +75,7 @@
       "dependency_group": "b2c00f92e6463879",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.337,
+      "freshness": 0.279,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -91,10 +91,11 @@
       "published_at": "2026-08-09T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 8.3,
-        "short": 6.5,
-        "extended": 2.7
-      }
+        "immediate": 6.9,
+        "short": 5.4,
+        "extended": 2.3
+      },
+      "carried_forward": true
     },
     {
       "id": "de1a3ba59879cebd",
@@ -106,7 +107,7 @@
       "dependency_group": "de1a3ba59879cebd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.687,
+      "freshness": 0.569,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -122,10 +123,11 @@
       "published_at": "2026-08-09T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      },
+      "carried_forward": true
     },
     {
       "id": "120026e424982b82",
@@ -137,7 +139,7 @@
       "dependency_group": "120026e424982b82",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.388,
+      "freshness": 0.321,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -153,10 +155,11 @@
       "published_at": "2026-08-09T11:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1569,17 +1572,23 @@
       "immediate": 10,
       "short": 13,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-08-09T14:58:24.394842Z",
+      "immediate": 8,
+      "short": 11,
+      "extended": 11
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-09T14:18:42.036641Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 3
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 3
       },
       "manual": {
         "ok": true,
