@@ -1,30 +1,30 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-09T03:58:13.567886Z",
+  "generated_at": "2026-08-09T05:13:38.095482Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
+      "score": 17,
+      "low": 4,
+      "high": 30,
       "confidence": 68,
-      "status": "מוגבר"
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 27,
-      "low": 14,
-      "high": 40,
-      "confidence": 68,
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 69,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 28,
-      "low": 15,
-      "high": 41,
+      "score": 27,
+      "low": 14,
+      "high": 40,
       "confidence": 69,
       "status": "מוגבר"
     }
@@ -35,41 +35,41 @@
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 22
+    "level": "ירידה",
+    "points_60m": -5
   },
   "changes": [
     {
       "time": "06:00",
       "text": "Israel prepares for possible unilateral strikes on Iran : Israeli media",
-      "impact": "השפעה מיידית מחושבת: +18.7",
+      "impact": "השפעה מיידית מחושבת: +13.0",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "c11a7c82b3c3bd13"
     },
     {
-      "time": "06:45",
-      "text": "Iran makes new demands for reopening shipping strait",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "time": "07:45",
+      "text": "Iran makes new Hormuz demands as missile hits Emirati ship",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "sconeadvocate.com.au",
+      "source": "austinglobe.com",
+      "signal_id": "07e4f1ee873e9f8d"
+    },
+    {
+      "time": "07:45",
+      "text": "Iran makes new demands for reopening shipping strait",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "northerndailyleader.com.au",
       "signal_id": "14e035d5076f709d"
     },
     {
       "time": "06:45",
       "text": "Iran outlines strict conditions to restore Strait of Hormuz shipping lanes",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "israelnationalnews.com",
       "signal_id": "ce7bc5cb5bbf6af2"
-    },
-    {
-      "time": "05:30",
-      "text": "The ammunition crisis and the dilemma of air strikes : Divisions within the US administration over a way out of the Iran war",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "peakoil.com",
-      "signal_id": "095d87540e5197a0"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@
       "dependency_group": "c11a7c82b3c3bd13",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.758,
+      "freshness": 0.529,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,40 @@
       "published_at": "2026-08-09T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 18.7,
-        "short": 14.6,
-        "extended": 6.2
+        "immediate": 13.0,
+        "short": 10.2,
+        "extended": 4.3
+      }
+    },
+    {
+      "id": "07e4f1ee873e9f8d",
+      "name": "Iran makes new Hormuz demands as missile hits Emirati ship",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "07e4f1ee873e9f8d",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.873,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "austinglobe.com",
+      "url": "http://www.austinglobe.com/news/279227943/iran-makes-new-hormuz-demands-as-missile-hits-emirati-ship",
+      "published_at": "2026-08-09T04:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.1,
+        "extended": 10.3
       }
     },
     {
@@ -114,7 +145,7 @@
       "dependency_group": "14e035d5076f709d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.939,
+      "freshness": 0.873,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,14 +156,14 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "sconeadvocate.com.au",
-      "url": "https://www.sconeadvocate.com.au/story/9326459/iran-makes-new-demands-for-reopening-shipping-strait/",
-      "published_at": "2026-08-09T03:45:00Z",
+      "source": "northerndailyleader.com.au",
+      "url": "https://www.northerndailyleader.com.au/story/9326459/iran-makes-new-demands-for-reopening-shipping-strait/",
+      "published_at": "2026-08-09T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.3
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
       }
     },
     {
@@ -145,7 +176,7 @@
       "dependency_group": "ce7bc5cb5bbf6af2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.939,
+      "freshness": 0.656,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@
       "published_at": "2026-08-09T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.3
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       }
     },
     {
@@ -176,7 +207,7 @@
       "dependency_group": "095d87540e5197a0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.657,
+      "freshness": 0.459,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +223,9 @@
       "published_at": "2026-08-09T02:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
       }
     }
   ],
@@ -1536,17 +1567,23 @@
       "immediate": 22,
       "short": 27,
       "extended": 28
+    },
+    {
+      "timestamp": "2026-08-09T05:13:38.095482Z",
+      "immediate": 17,
+      "short": 23,
+      "extended": 27
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-09T03:58:13.567886Z",
+    "last_success": "2026-08-09T05:13:38.095482Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 4
+        "relevant": 5
       },
       "manual": {
         "ok": true,
