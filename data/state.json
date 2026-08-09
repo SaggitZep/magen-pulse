@@ -1,90 +1,113 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-09T13:33:38.474677Z",
+  "mode": "live",
+  "generated_at": "2026-08-09T14:18:42.036641Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 10,
       "low": 0,
-      "high": 20,
-      "confidence": 41,
-      "status": "לא זוהה אות חריג"
+      "high": 25,
+      "confidence": 55,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 5,
+      "score": 13,
       "low": 0,
-      "high": 23,
-      "confidence": 41,
-      "status": "לא זוהה אות חריג"
+      "high": 28,
+      "confidence": 56,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 9,
+      "score": 13,
       "low": 0,
-      "high": 27,
-      "confidence": 41,
+      "high": 28,
+      "confidence": 57,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מהירה",
+    "points_60m": 8
   },
   "changes": [
     {
-      "time": "12:45",
-      "text": "Iran Sets Sweeping New Demands to Reopen the Strait of Hormuz After UAE Tanker Is Struck by a Missile",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "13:30",
+      "text": "Israel Cancels Military Leave Amid Signs Of Possible Fresh Strike On Iran",
+      "impact": "השפעה מיידית מחושבת: +8.3",
       "direction": "up",
-      "source": "ibtimes.com.au",
-      "signal_id": "5e2bef71a44c4523"
+      "source": "outlookindia.com",
+      "signal_id": "b2c00f92e6463879"
     },
     {
-      "time": "11:45",
-      "text": "Iran makes new Hormuz demands as missile hits Emirati ship",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "16:00",
+      "text": "Iran Details Hormuz Terms As Aramco Refinery Attacked",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "kenyastar.com",
-      "signal_id": "07e4f1ee873e9f8d"
+      "source": "hngn.com",
+      "signal_id": "de1a3ba59879cebd"
     },
     {
-      "time": "11:45",
-      "text": "Iran war : Houthis claim attack on Saudi oil facility",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "14:00",
+      "text": "Iran strikes UAE ADNOC tanker with missiles in Strait of Hormuz ; Abu Dhabi condemns attack",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
-      "source": "dw.com",
-      "signal_id": "1b02eb5e01bb1d32"
-    },
-    {
-      "time": "10:45",
-      "text": "Iran sets conditions for reopening Strait of Hormuz amid attacks",
-      "impact": "השפעה מיידית מחושבת: +0.3",
-      "direction": "up",
-      "source": "nzherald.co.nz",
-      "signal_id": "8b23769b704fccdd"
+      "source": "ibtimes.co.in",
+      "signal_id": "120026e424982b82"
     }
   ],
   "signals": [
     {
-      "id": "5e2bef71a44c4523",
-      "name": "Iran Sets Sweeping New Demands to Reopen the Strait of Hormuz After UAE Tanker Is Struck by a Missile",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
+      "id": "b2c00f92e6463879",
+      "name": "Israel Cancels Military Leave Amid Signs Of Possible Fresh Strike On Iran",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "5e2bef71a44c4523",
-      "strength": 0.48,
+      "dependency_group": "b2c00f92e6463879",
+      "strength": 0.5,
       "reliability": 0.56,
       "freshness": 0.337,
       "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "outlookindia.com",
+      "url": "https://www.outlookindia.com/international/israel-cancels-military-leave-amid-signs-of-possible-fresh-strike-on-iran",
+      "published_at": "2026-08-09T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 8.3,
+        "short": 6.5,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "de1a3ba59879cebd",
+      "name": "Iran Details Hormuz Terms As Aramco Refinery Attacked",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "de1a3ba59879cebd",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.687,
+      "max_effect": {
         "immediate": 20,
         "short": 34,
         "extended": 44
@@ -94,28 +117,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "ibtimes.com.au",
-      "url": "https://www.ibtimes.com.au/iran-conditions-reopening-strait-hormuz-1873787",
-      "published_at": "2026-08-09T09:45:00Z",
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/272640/20260809/saudi-arabia-pakistan-turkey-sign-mutual-defense-pact-houthi-attacks-kill-dozens-near-yemen.htm",
+      "published_at": "2026-08-09T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      },
-      "carried_forward": true
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
     },
     {
-      "id": "07e4f1ee873e9f8d",
-      "name": "Iran makes new Hormuz demands as missile hits Emirati ship",
+      "id": "120026e424982b82",
+      "name": "Iran strikes UAE ADNOC tanker with missiles in Strait of Hormuz ; Abu Dhabi condemns attack",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "07e4f1ee873e9f8d",
+      "dependency_group": "120026e424982b82",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.253,
+      "freshness": 0.388,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,80 +148,15 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "kenyastar.com",
-      "url": "http://www.kenyastar.com/news/279227943/iran-makes-new-hormuz-demands-as-missile-hits-emirati-ship",
-      "published_at": "2026-08-09T08:45:00Z",
+      "source": "ibtimes.co.in",
+      "url": "https://www.ibtimes.co.in/iran-strikes-uaes-adnoc-tanker-missiles-strait-hormuz-abu-dhabi-condemns-attack-904556",
+      "published_at": "2026-08-09T11:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1b02eb5e01bb1d32",
-      "name": "Iran war : Houthis claim attack on Saudi oil facility",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1b02eb5e01bb1d32",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.253,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dw.com",
-      "url": "https://www.dw.com/en/iran-war-houthis-claim-attack-on-saudi-oil-facility/live-78289364",
-      "published_at": "2026-08-09T08:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8b23769b704fccdd",
-      "name": "Iran sets conditions for reopening Strait of Hormuz amid attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8b23769b704fccdd",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.19,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nzherald.co.nz",
-      "url": "https://www.nzherald.co.nz/world/iran-sets-conditions-for-reopening-strait-of-hormuz-amid-attacks/SIF5BHI4FNEODMSNADGW2RFEIM/",
-      "published_at": "2026-08-09T07:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
     }
   ],
   "history": [
@@ -1606,17 +1563,23 @@
       "immediate": 2,
       "short": 5,
       "extended": 9
+    },
+    {
+      "timestamp": "2026-08-09T14:18:42.036641Z",
+      "immediate": 10,
+      "short": 13,
+      "extended": 13
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-09T10:34:11.246368Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-09T14:18:42.036641Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 4
+        "ok": true,
+        "items": 150,
+        "relevant": 3
       },
       "manual": {
         "ok": true,
