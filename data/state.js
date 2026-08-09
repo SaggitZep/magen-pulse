@@ -1,78 +1,109 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-09T16:13:33.547992Z",
+  "mode": "live",
+  "generated_at": "2026-08-09T16:58:58.188836Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
-      "low": 0,
-      "high": 19,
-      "confidence": 54,
-      "status": "לא זוהה אות חריג"
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 67,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
-      "low": 0,
-      "high": 28,
-      "confidence": 54,
-      "status": "נמוך"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 66,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 7,
+      "score": 24,
+      "low": 11,
       "high": 37,
-      "confidence": 54,
-      "status": "נמוך"
+      "confidence": 66,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "זינוק חריג",
+    "points_60m": 18
   },
   "changes": [
     {
+      "time": "19:00",
+      "text": "Israel keeps unilateral strike option open as US and Iran negotiate Hormuz reopening",
+      "impact": "השפעה מיידית מחושבת: +18.6",
+      "direction": "up",
+      "source": "bankingnews.gr",
+      "signal_id": "526d4f0799b20e28"
+    },
+    {
       "time": "18:15",
       "text": "Donald Trump reportedly willing to walk away from Iran war without nuclear deal",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "a11872b709e7ada2"
     },
     {
+      "time": "18:45",
+      "text": "Donald Trump may ditch nuclear deal plan if Iran reopens Hormuz : Report",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "aninews.in",
+      "signal_id": "daa98f8cc3502623"
+    },
+    {
       "time": "18:15",
       "text": "Footage of Iranian supreme leader unseen since March promised by Iran paramilitary",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "abc.net.au",
       "signal_id": "7b908bf4bef4f612"
-    },
-    {
-      "time": "17:45",
-      "text": "IRAN WAR : Trump Reportedly Open To Ending Conflict Without Nuclear Deal",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "theyeshivaworld.com",
-      "signal_id": "2a8c2f8e2113f281"
-    },
-    {
-      "time": "17:45",
-      "text": "Donald Trump May Trade Strait of Hormuz For Iran Nuclear Deal If Tehran Agrees To Reopen Key Waterway : Report",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "newsx.com",
-      "signal_id": "41ba311b998ec229"
     }
   ],
   "signals": [
+    {
+      "id": "526d4f0799b20e28",
+      "name": "Israel keeps unilateral strike option open as US and Iran negotiate Hormuz reopening",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "526d4f0799b20e28",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.755,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "bankingnews.gr",
+      "url": "https://www.bankingnews.gr/diethni/articles/892927/israel-keeps-unilateral-strike-option-open-as-us-and-iran-negotiate-hormuz-reopening",
+      "published_at": "2026-08-09T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 18.6,
+        "short": 14.5,
+        "extended": 6.2
+      }
+    },
     {
       "id": "a11872b709e7ada2",
       "name": "Donald Trump reportedly willing to walk away from Iran war without nuclear deal",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a11872b709e7ada2",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.757,
+      "freshness": 0.61,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +130,41 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.8,
-        "extended": 9.9
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 7.9
+      }
+    },
+    {
+      "id": "daa98f8cc3502623",
+      "name": "Donald Trump may ditch nuclear deal plan if Iran reopens Hormuz : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "daa98f8cc3502623",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.703,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aninews.in",
+      "url": "https://aninews.in/news/world/us/donald-trump-may-ditch-nuclear-deal-plan-if-iran-reopens-hormuz-report20260809201144/",
+      "published_at": "2026-08-09T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 6.9
+      }
     },
     {
       "id": "7b908bf4bef4f612",
@@ -115,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7b908bf4bef4f612",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.757,
+      "freshness": 0.61,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +192,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
     },
     {
       "id": "2a8c2f8e2113f281",
@@ -147,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2a8c2f8e2113f281",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.656,
+      "freshness": 0.528,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      }
     },
     {
       "id": "41ba311b998ec229",
@@ -179,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "41ba311b998ec229",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.656,
+      "freshness": 0.528,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +254,72 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      }
+    },
+    {
+      "id": "b33357868fc66803",
+      "name": "JD Vance dice que EE . UU . destruyó el programa nuclear iraní",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b33357868fc66803",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.528,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "laverdadnoticias.com",
+      "url": "https://laverdadnoticias.com/ultimas-noticias/mundo/jd-vance-programa-nuclear-irani",
+      "published_at": "2026-08-09T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      }
+    },
+    {
+      "id": "1c0dbed35425c7cf",
+      "name": "Report : Trump eyeing way out of Iran war without nuclear agreement",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1c0dbed35425c7cf",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.492,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/news/431444",
+      "published_at": "2026-08-09T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
     },
     {
       "id": "feacbf53caf685f4",
@@ -211,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "feacbf53caf685f4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.529,
+      "freshness": 0.426,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,11 +347,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
     },
     {
       "id": "de1a3ba59879cebd",
@@ -243,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "de1a3ba59879cebd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.398,
+      "freshness": 0.32,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,11 +378,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
+      }
     }
   ],
   "history": [
@@ -1694,17 +1812,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-09T16:58:58.188836Z",
+      "immediate": 22,
+      "short": 25,
+      "extended": 24
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-09T15:40:25.814871Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-09T16:58:58.188836Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 6
+        "ok": true,
+        "items": 150,
+        "relevant": 10
       },
       "manual": {
         "ok": true,
