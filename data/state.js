@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-09T22:54:14.549472Z",
+  "generated_at": "2026-08-09T23:41:10.580925Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@ window.MAGEN_STATE = {
       "score": 2,
       "low": 0,
       "high": 19,
-      "confidence": 46,
+      "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 6,
       "low": 0,
-      "high": 24,
-      "confidence": 46,
+      "high": 23,
+      "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 12,
+      "score": 10,
       "low": 0,
-      "high": 29,
-      "confidence": 46,
+      "high": 27,
+      "confidence": 45,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "23:30",
       "text": "Trump signals shift away from new Iran strikes , says US is  low - keying it",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "livemint.com",
       "signal_id": "4c773cf0c6fea2c6"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:45",
       "text": "Report Says Donald Trump may ditch nuclear deal plan if Iran reopens Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "sangbadpratidin.in",
       "signal_id": "54ef4f133cb12e36"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:30",
       "text": "Iran - backed Houthis attack Aramco refinery in Saudi Arabia , Red Sea port",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "nypost.com",
       "signal_id": "7b6ca28c992b9b4b"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:00",
       "text": "Donald Trump may ditch nuclear deal plan if Iran reopens Hormuz : Report",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "austinglobe.com",
       "signal_id": "daa98f8cc3502623"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4c773cf0c6fea2c6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.503,
+      "freshness": 0.402,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "54ef4f133cb12e36",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.406,
+      "freshness": 0.325,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7b6ca28c992b9b4b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.378,
+      "freshness": 0.302,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "daa98f8cc3502623",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.328,
+      "freshness": 0.262,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9747e8adfc73ed00",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.229,
+      "freshness": 0.183,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.8
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f615b8cae082395d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.246,
+      "freshness": 0.197,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
       },
       "carried_forward": true
     }
@@ -1754,6 +1754,12 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 7,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-08-09T23:41:10.580925Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 10
     }
   ],
   "health": {
