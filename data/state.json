@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-08T23:58:12.575381Z",
+  "generated_at": "2026-08-09T02:23:32.519226Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 0,
       "low": 0,
-      "high": 19,
-      "confidence": 45,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 5,
+      "score": 0,
       "low": 0,
       "high": 22,
-      "confidence": 45,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 9,
+      "score": 0,
       "low": 0,
-      "high": 26,
-      "confidence": 45,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -35,237 +35,11 @@
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "ירידה",
+    "points_60m": -2
   },
-  "changes": [
-    {
-      "time": "22:45",
-      "text": "Iran , Oman edging toward Strait of Hormuz deal amid fresh attacks on vessels",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "clevelandjewishnews.com",
-      "signal_id": "9b9648950a2bc6e1"
-    },
-    {
-      "time": "22:30",
-      "text": "Iran threatens Strait of Hormuz wont reopen fully  until America corrects its behavior",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "nypost.com",
-      "signal_id": "7a668eed009eab7b"
-    },
-    {
-      "time": "22:45",
-      "text": "Oman Condemns Attack On Tanker As Talks Progress With Iran On Hormuz",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "shanghaisun.com",
-      "signal_id": "c431e90683f31a7f"
-    },
-    {
-      "time": "23:00",
-      "text": "BREAKING : Iran attacks UAE vessel in Strait of Hormuz – The Right Scoop",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "therightscoop.com",
-      "signal_id": "302b4cc540d8bc06"
-    }
-  ],
-  "signals": [
-    {
-      "id": "9b9648950a2bc6e1",
-      "name": "Iran , Oman edging toward Strait of Hormuz deal amid fresh attacks on vessels",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9b9648950a2bc6e1",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.299,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "clevelandjewishnews.com",
-      "url": "https://www.clevelandjewishnews.com/jns/iran-oman-edging-toward-strait-of-hormuz-deal-amid-fresh-attacks-on-vessels/article_e1656083-2f96-575c-89e4-9578aefcd25a.html",
-      "published_at": "2026-08-08T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7a668eed009eab7b",
-      "name": "Iran threatens Strait of Hormuz wont reopen fully  until America corrects its behavior",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7a668eed009eab7b",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.279,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nypost.com",
-      "url": "https://nypost.com/2026/08/08/world-news/iran-threatens-strait-of-hormuz-wont-reopen-fully-until-america-corrects-its-behavior/",
-      "published_at": "2026-08-08T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c431e90683f31a7f",
-      "name": "Oman Condemns Attack On Tanker As Talks Progress With Iran On Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c431e90683f31a7f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.299,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "shanghaisun.com",
-      "url": "http://www.shanghaisun.com/news/279227571/oman-condemns-attack-on-tanker-as-talks-progress-with-iran-on-hormuz",
-      "published_at": "2026-08-08T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "302b4cc540d8bc06",
-      "name": "BREAKING : Iran attacks UAE vessel in Strait of Hormuz – The Right Scoop",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "302b4cc540d8bc06",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.322,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "therightscoop.com",
-      "url": "https://therightscoop.com/breaking-iran-attacks-uae-vessel-in-strait-of-hormuz/",
-      "published_at": "2026-08-08T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "98a3cda012ca08e3",
-      "name": "Iran Sweeping Demands Put Strait of Hormuz in Limbo : Will Trump Pay the Price to Restore Global Oil Shipping ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "98a3cda012ca08e3",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.242,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gulfnews.com",
-      "url": "https://gulfnews.com/world/mena/will-trump-meet-irans-latest-price-to-reopen-strait-of-hormuz-1.500634965",
-      "published_at": "2026-08-08T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f2dab65f6870d646",
-      "name": "US – Iran Conflict : Strait of Hormuz Disruption , ADNOC Vessel Attack and Key Updates UAE Residents Need Tonight ( August 8 )",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f2dab65f6870d646",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.242,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gulfnews.com",
-      "url": "https://gulfnews.com/world/mena/us-iran-conflict-what-uae-residents-need-to-know-this-evening-august-8-1.500634819",
-      "published_at": "2026-08-08T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -1592,17 +1366,23 @@
       "immediate": 2,
       "short": 5,
       "extended": 9
+    },
+    {
+      "timestamp": "2026-08-09T02:23:32.519226Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-08-08T22:52:47.881293Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 6
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
