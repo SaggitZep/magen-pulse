@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-09T20:18:16.886744Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-09T20:58:27.905765Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 14,
-      "low": 1,
+      "score": 11,
+      "low": 0,
       "high": 27,
-      "confidence": 66,
+      "confidence": 50,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 20,
-      "low": 7,
+      "score": 17,
+      "low": 1,
       "high": 33,
-      "confidence": 67,
+      "confidence": 51,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 20,
+      "low": 4,
+      "high": 36,
+      "confidence": 51,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -8
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "20:15",
       "text": "India to Israel and back : How a fake IRGC quote on nuclear weapons reached Netanyahu speech",
-      "impact": "השפעה מיידית מחושבת: +10.3",
+      "impact": "השפעה מיידית מחושבת: +8.5",
       "direction": "up",
       "source": "middleeasteye.net",
       "signal_id": "42b9c6b9058a3236"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:45",
       "text": "Report Says Donald Trump may ditch nuclear deal plan if Iran reopens Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "sangbadpratidin.in",
       "signal_id": "54ef4f133cb12e36"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:30",
       "text": "Iran - backed Houthis attack Aramco refinery in Saudi Arabia , Red Sea port",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "nypost.com",
       "signal_id": "7b6ca28c992b9b4b"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:00",
       "text": "Donald Trump may ditch nuclear deal plan if Iran reopens Hormuz : Report",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "austinglobe.com",
       "signal_id": "daa98f8cc3502623"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "42b9c6b9058a3236",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.418,
+      "freshness": 0.345,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 10.3,
-        "short": 8.0,
-        "extended": 3.4
-      }
+        "immediate": 8.5,
+        "short": 6.6,
+        "extended": 2.8
+      },
+      "carried_forward": true
     },
     {
       "id": "54ef4f133cb12e36",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "54ef4f133cb12e36",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.853,
+      "freshness": 0.705,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
-      }
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 6.9
+      },
+      "carried_forward": true
     },
     {
       "id": "7b6ca28c992b9b4b",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7b6ca28c992b9b4b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.795,
+      "freshness": 0.656,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.8
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      },
+      "carried_forward": true
     },
     {
       "id": "daa98f8cc3502623",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "daa98f8cc3502623",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.689,
+      "freshness": 0.569,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      },
+      "carried_forward": true
     },
     {
       "id": "f615b8cae082395d",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f615b8cae082395d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.518,
+      "freshness": 0.427,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      },
+      "carried_forward": true
     },
     {
       "id": "9747e8adfc73ed00",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9747e8adfc73ed00",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.482,
+      "freshness": 0.398,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     },
     {
       "id": "849231e2892767ba",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "849231e2892767ba",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.482,
+      "freshness": 0.398,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1755,17 +1762,23 @@ window.MAGEN_STATE = {
       "immediate": 14,
       "short": 20,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-09T20:58:27.905765Z",
+      "immediate": 11,
+      "short": 17,
+      "extended": 20
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-09T20:18:16.886744Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 7
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
