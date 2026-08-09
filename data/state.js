@@ -1,89 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-09T06:05:10.494344Z",
+  "mode": "live",
+  "generated_at": "2026-08-09T07:16:46.190895Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 13,
-      "low": 0,
-      "high": 29,
-      "confidence": 51,
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 68,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 51,
-      "status": "נמוך"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 5,
-      "high": 37,
-      "confidence": 52,
-      "status": "נמוך"
+      "score": 26,
+      "low": 13,
+      "high": 39,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -4
+    "level": "עלייה מהירה",
+    "points_60m": 9
   },
   "changes": [
     {
-      "time": "06:00",
-      "text": "Israel prepares for possible unilateral strikes on Iran : Israeli media",
-      "impact": "השפעה מיידית מחושבת: +10.2",
+      "time": "09:15",
+      "text": "US Iran War News Live Updates : Israel says Houthis behind attack on gas facility in Saudi Jubail region",
+      "impact": "השפעה מיידית מחושבת: +18.4",
       "direction": "up",
-      "source": "aa.com.tr",
-      "signal_id": "c11a7c82b3c3bd13"
+      "source": "timesofindia.indiatimes.com",
+      "signal_id": "e3ecf149d14a301d"
     },
     {
-      "time": "07:45",
-      "text": "Iran makes new Hormuz demands as missile hits Emirati ship",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "time": "09:45",
+      "text": "No attacks on allies , compensation : Iran lays down six demands to reopen Hormuz",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "austinglobe.com",
+      "source": "businesstoday.in",
+      "signal_id": "bdef2ed87585e9c4"
+    },
+    {
+      "time": "09:15",
+      "text": "Iran makes new Hormuz demands as missile hits Emirati ship",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "middleeaststar.com",
       "signal_id": "07e4f1ee873e9f8d"
     },
     {
-      "time": "07:45",
-      "text": "Iran makes new demands for reopening shipping strait",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "time": "08:30",
+      "text": "US military pushes companies to  dramatically accelerate  weapons production as Iran war burns through supply , memo says",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
-      "source": "northerndailyleader.com.au",
-      "signal_id": "14e035d5076f709d"
-    },
-    {
-      "time": "06:45",
-      "text": "Iran outlines strict conditions to restore Strait of Hormuz shipping lanes",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "israelnationalnews.com",
-      "signal_id": "ce7bc5cb5bbf6af2"
+      "source": "independent.co.uk",
+      "signal_id": "80f6bb00c5794316"
     }
   ],
   "signals": [
     {
-      "id": "c11a7c82b3c3bd13",
-      "name": "Israel prepares for possible unilateral strikes on Iran : Israeli media",
+      "id": "e3ecf149d14a301d",
+      "name": "US Iran War News Live Updates : Israel says Houthis behind attack on gas facility in Saudi Jubail region",
       "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
       "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "c11a7c82b3c3bd13",
+      "dependency_group": "e3ecf149d14a301d",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.414,
+      "freshness": 0.745,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -94,16 +94,46 @@ window.MAGEN_STATE = {
         "short": 0.88,
         "extended": 0.56
       },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/middle-east/israel-prepares-for-possible-unilateral-strikes-on-iran-israeli-media/4022186",
-      "published_at": "2026-08-09T03:00:00Z",
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-news-live-updates-donald-trump-mojtaba-khamenei-peace-deal-strait-of-hormuz-middle-east-conflict-lebanon-infiltration-latest-news/liveblog/133062402.cms",
+      "published_at": "2026-08-09T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 10.2,
-        "short": 8.0,
-        "extended": 3.4
+        "immediate": 18.4,
+        "short": 14.3,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "bdef2ed87585e9c4",
+      "name": "No attacks on allies , compensation : Iran lays down six demands to reopen Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bdef2ed87585e9c4",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.86,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "businesstoday.in",
+      "url": "https://www.businesstoday.in/world/story/no-attacks-on-allies-compensation-iran-lays-down-six-demands-to-reopen-hormuz-548156-2026-08-09",
+      "published_at": "2026-08-09T06:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
     },
     {
       "id": "07e4f1ee873e9f8d",
@@ -115,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "07e4f1ee873e9f8d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.683,
+      "freshness": 0.745,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,16 +156,46 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "austinglobe.com",
-      "url": "http://www.austinglobe.com/news/279227943/iran-makes-new-hormuz-demands-as-missile-hits-emirati-ship",
-      "published_at": "2026-08-09T04:45:00Z",
+      "source": "middleeaststar.com",
+      "url": "http://www.middleeaststar.com/news/279227943/iran-makes-new-hormuz-demands-as-missile-hits-emirati-ship",
+      "published_at": "2026-08-09T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.1
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "80f6bb00c5794316",
+      "name": "US military pushes companies to  dramatically accelerate  weapons production as Iran war burns through supply , memo says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "80f6bb00c5794316",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.601,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "independent.co.uk",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/pentagon-iran-war-munitions-shortage-b3029876.html",
+      "published_at": "2026-08-09T05:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      }
     },
     {
       "id": "14e035d5076f709d",
@@ -147,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "14e035d5076f709d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.683,
+      "freshness": 0.485,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.7
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
     },
     {
       "id": "ce7bc5cb5bbf6af2",
@@ -179,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ce7bc5cb5bbf6af2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.513,
+      "freshness": 0.365,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,43 +254,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "095d87540e5197a0",
-      "name": "The ammunition crisis and the dilemma of air strikes : Divisions within the US administration over a way out of the Iran war",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "095d87540e5197a0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.359,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "peakoil.com",
-      "url": "https://peakoil.com/publicpolicy/the-ammunition-crisis-and-the-dilemma-of-air-strikes-divisions-within-the-us-administration-over-a-way-out-of-the-iran-war",
-      "published_at": "2026-08-09T02:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
         "short": 2.1,
-        "extended": 3.5
-      },
-      "carried_forward": true
+        "extended": 3.6
+      }
     }
   ],
   "history": [
@@ -1584,17 +1610,23 @@ window.MAGEN_STATE = {
       "immediate": 13,
       "short": 18,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-09T07:16:46.190895Z",
+      "immediate": 22,
+      "short": 25,
+      "extended": 26
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-09T05:13:38.095482Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-09T07:16:46.190895Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
