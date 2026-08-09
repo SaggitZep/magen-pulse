@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-09T09:03:01.689978Z",
+  "generated_at": "2026-08-09T09:53:30.175859Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 13,
+      "score": 10,
       "low": 0,
-      "high": 29,
-      "confidence": 48,
+      "high": 27,
+      "confidence": 47,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 16,
+      "score": 13,
       "low": 0,
-      "high": 32,
-      "confidence": 48,
+      "high": 30,
+      "confidence": 47,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 48,
+      "score": 13,
+      "low": 0,
+      "high": 30,
+      "confidence": 47,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -4
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "09:15",
       "text": "US Iran War News Live Updates : Israel says Houthis behind attack on gas facility in Saudi Jubail region",
-      "impact": "השפעה מיידית מחושבת: +11.1",
+      "impact": "השפעה מיידית מחושבת: +8.7",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "e3ecf149d14a301d"
@@ -50,7 +50,7 @@
     {
       "time": "09:45",
       "text": "No attacks on allies , compensation : Iran lays down six demands to reopen Hormuz",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "businesstoday.in",
       "signal_id": "bdef2ed87585e9c4"
@@ -58,7 +58,7 @@
     {
       "time": "09:15",
       "text": "Iran makes new Hormuz demands as missile hits Emirati ship",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "middleeaststar.com",
       "signal_id": "07e4f1ee873e9f8d"
@@ -66,7 +66,7 @@
     {
       "time": "08:30",
       "text": "US military pushes companies to  dramatically accelerate  weapons production as Iran war burns through supply , memo says",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "independent.co.uk",
       "signal_id": "80f6bb00c5794316"
@@ -83,7 +83,7 @@
       "dependency_group": "e3ecf149d14a301d",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.449,
+      "freshness": 0.353,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-09T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.1,
-        "short": 8.6,
-        "extended": 3.7
+        "immediate": 8.7,
+        "short": 6.8,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "bdef2ed87585e9c4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.518,
+      "freshness": 0.408,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-09T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "07e4f1ee873e9f8d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.449,
+      "freshness": 0.353,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-09T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "80f6bb00c5794316",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.363,
+      "freshness": 0.285,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-09T05:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "14e035d5076f709d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.293,
+      "freshness": 0.23,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,41 +227,9 @@
       "published_at": "2026-08-09T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ce7bc5cb5bbf6af2",
-      "name": "Iran outlines strict conditions to restore Strait of Hormuz shipping lanes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ce7bc5cb5bbf6af2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.22,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "israelnationalnews.com",
-      "url": "https://www.israelnationalnews.com/news/431418",
-      "published_at": "2026-08-09T03:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.4,
         "short": 1.3,
-        "extended": 2.2
+        "extended": 2.3
       },
       "carried_forward": true
     }
@@ -1634,6 +1602,12 @@
       "immediate": 13,
       "short": 16,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-09T09:53:30.175859Z",
+      "immediate": 10,
+      "short": 13,
+      "extended": 13
     }
   ],
   "health": {
@@ -1644,7 +1618,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 6
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
