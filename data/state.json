@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-09T12:24:01.232926Z",
+  "generated_at": "2026-08-09T13:33:38.474677Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 2,
       "low": 0,
-      "high": 19,
-      "confidence": 47,
+      "high": 20,
+      "confidence": 41,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 5,
       "low": 0,
-      "high": 25,
-      "confidence": 47,
+      "high": 23,
+      "confidence": 41,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
+      "score": 9,
       "low": 0,
-      "high": 30,
-      "confidence": 47,
+      "high": 27,
+      "confidence": 41,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "12:45",
       "text": "Iran Sets Sweeping New Demands to Reopen the Strait of Hormuz After UAE Tanker Is Struck by a Missile",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "ibtimes.com.au",
       "signal_id": "5e2bef71a44c4523"
@@ -50,7 +50,7 @@
     {
       "time": "11:45",
       "text": "Iran makes new Hormuz demands as missile hits Emirati ship",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "kenyastar.com",
       "signal_id": "07e4f1ee873e9f8d"
@@ -58,7 +58,7 @@
     {
       "time": "11:45",
       "text": "Iran war : Houthis claim attack on Saudi oil facility",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "dw.com",
       "signal_id": "1b02eb5e01bb1d32"
@@ -66,7 +66,7 @@
     {
       "time": "10:45",
       "text": "Iran sets conditions for reopening Strait of Hormuz amid attacks",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "nzherald.co.nz",
       "signal_id": "8b23769b704fccdd"
@@ -83,7 +83,7 @@
       "dependency_group": "5e2bef71a44c4523",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.469,
+      "freshness": 0.337,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-09T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.5
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "07e4f1ee873e9f8d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.352,
+      "freshness": 0.253,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-09T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.2
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "1b02eb5e01bb1d32",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.352,
+      "freshness": 0.253,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-09T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "8b23769b704fccdd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.265,
+      "freshness": 0.19,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,41 +195,9 @@
       "published_at": "2026-08-09T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "bdef2ed87585e9c4",
-      "name": "No attacks on allies , compensation : Iran lays down six demands to reopen Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bdef2ed87585e9c4",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.199,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "businesstoday.in",
-      "url": "https://www.businesstoday.in/world/story/no-attacks-on-allies-compensation-iran-lays-down-six-demands-to-reopen-hormuz-548156-2026-08-09",
-      "published_at": "2026-08-09T06:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
+        "short": 1.1,
+        "extended": 1.9
       },
       "carried_forward": true
     }
@@ -1632,6 +1600,12 @@
       "immediate": 2,
       "short": 8,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-08-09T13:33:38.474677Z",
+      "immediate": 2,
+      "short": 5,
+      "extended": 9
     }
   ],
   "health": {
@@ -1642,7 +1616,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "carried_forward": 4
       },
       "manual": {
         "ok": true,
