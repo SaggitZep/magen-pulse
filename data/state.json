@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-09T05:13:38.095482Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-09T06:05:10.494344Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 17,
-      "low": 4,
-      "high": 30,
-      "confidence": 68,
+      "score": 13,
+      "low": 0,
+      "high": 29,
+      "confidence": 51,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 23,
-      "low": 10,
-      "high": 36,
-      "confidence": 69,
-      "status": "מוגבר"
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 51,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 27,
-      "low": 14,
-      "high": 40,
-      "confidence": 69,
-      "status": "מוגבר"
+      "score": 21,
+      "low": 5,
+      "high": 37,
+      "confidence": 52,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -5
+    "points_60m": -4
   },
   "changes": [
     {
       "time": "06:00",
       "text": "Israel prepares for possible unilateral strikes on Iran : Israeli media",
-      "impact": "השפעה מיידית מחושבת: +13.0",
+      "impact": "השפעה מיידית מחושבת: +10.2",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "c11a7c82b3c3bd13"
@@ -50,7 +50,7 @@
     {
       "time": "07:45",
       "text": "Iran makes new Hormuz demands as missile hits Emirati ship",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "austinglobe.com",
       "signal_id": "07e4f1ee873e9f8d"
@@ -58,7 +58,7 @@
     {
       "time": "07:45",
       "text": "Iran makes new demands for reopening shipping strait",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "northerndailyleader.com.au",
       "signal_id": "14e035d5076f709d"
@@ -66,7 +66,7 @@
     {
       "time": "06:45",
       "text": "Iran outlines strict conditions to restore Strait of Hormuz shipping lanes",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "israelnationalnews.com",
       "signal_id": "ce7bc5cb5bbf6af2"
@@ -83,7 +83,7 @@
       "dependency_group": "c11a7c82b3c3bd13",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.529,
+      "freshness": 0.414,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-09T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 13.0,
-        "short": 10.2,
-        "extended": 4.3
-      }
+        "immediate": 10.2,
+        "short": 8.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "07e4f1ee873e9f8d",
@@ -114,7 +115,7 @@
       "dependency_group": "07e4f1ee873e9f8d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.873,
+      "freshness": 0.683,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-09T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.1,
-        "extended": 10.3
-      }
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.1
+      },
+      "carried_forward": true
     },
     {
       "id": "14e035d5076f709d",
@@ -145,7 +147,7 @@
       "dependency_group": "14e035d5076f709d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.873,
+      "freshness": 0.683,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-09T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
-      }
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "ce7bc5cb5bbf6af2",
@@ -176,7 +179,7 @@
       "dependency_group": "ce7bc5cb5bbf6af2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.656,
+      "freshness": 0.513,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-09T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      },
+      "carried_forward": true
     },
     {
       "id": "095d87540e5197a0",
@@ -207,7 +211,7 @@
       "dependency_group": "095d87540e5197a0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.459,
+      "freshness": 0.359,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-09T02:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1573,17 +1578,23 @@
       "immediate": 17,
       "short": 23,
       "extended": 27
+    },
+    {
+      "timestamp": "2026-08-09T06:05:10.494344Z",
+      "immediate": 13,
+      "short": 18,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-09T05:13:38.095482Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 5
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
