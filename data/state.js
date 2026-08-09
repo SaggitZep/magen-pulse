@@ -1,56 +1,56 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-09T20:58:27.905765Z",
+  "mode": "live",
+  "generated_at": "2026-08-09T21:41:43.168956Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 11,
+      "score": 3,
       "low": 0,
-      "high": 27,
-      "confidence": 50,
-      "status": "נמוך"
+      "high": 16,
+      "confidence": 64,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 51,
+      "score": 10,
+      "low": 0,
+      "high": 23,
+      "confidence": 64,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
+      "score": 17,
       "low": 4,
-      "high": 36,
-      "confidence": 51,
+      "high": 30,
+      "confidence": 64,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -3
+    "points_60m": -8
   },
   "changes": [
     {
-      "time": "20:15",
-      "text": "India to Israel and back : How a fake IRGC quote on nuclear weapons reached Netanyahu speech",
-      "impact": "השפעה מיידית מחושבת: +8.5",
+      "time": "23:30",
+      "text": "Trump signals shift away from new Iran strikes , says US is  low - keying it",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "middleeasteye.net",
-      "signal_id": "42b9c6b9058a3236"
+      "source": "livemint.com",
+      "signal_id": "4c773cf0c6fea2c6"
     },
     {
       "time": "22:45",
       "text": "Report Says Donald Trump may ditch nuclear deal plan if Iran reopens Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "sangbadpratidin.in",
       "signal_id": "54ef4f133cb12e36"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:30",
       "text": "Iran - backed Houthis attack Aramco refinery in Saudi Arabia , Red Sea port",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "nypost.com",
       "signal_id": "7b6ca28c992b9b4b"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:00",
       "text": "Donald Trump may ditch nuclear deal plan if Iran reopens Hormuz : Report",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "austinglobe.com",
       "signal_id": "daa98f8cc3502623"
@@ -74,36 +74,35 @@ window.MAGEN_STATE = {
   ],
   "signals": [
     {
-      "id": "42b9c6b9058a3236",
-      "name": "India to Israel and back : How a fake IRGC quote on nuclear weapons reached Netanyahu speech",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "4c773cf0c6fea2c6",
+      "name": "Trump signals shift away from new Iran strikes , says US is  low - keying it",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "42b9c6b9058a3236",
-      "strength": 0.5,
+      "dependency_group": "4c773cf0c6fea2c6",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.345,
+      "freshness": 0.711,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/news/india-israel-back-how-fake-irgc-quote-nuclear-weapons-reached-netanyahus-speech",
-      "published_at": "2026-08-09T17:15:00Z",
+      "source": "livemint.com",
+      "url": "https://www.livemint.com/news/us-news/trump-signals-shift-away-from-new-iran-strikes-says-us-is-low-keying-it-11786302252958.html",
+      "published_at": "2026-08-09T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 8.5,
-        "short": 6.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
     },
     {
       "id": "54ef4f133cb12e36",
@@ -115,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "54ef4f133cb12e36",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.705,
+      "freshness": 0.574,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +130,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
+      }
     },
     {
       "id": "7b6ca28c992b9b4b",
@@ -147,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7b6ca28c992b9b4b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.656,
+      "freshness": 0.534,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +161,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
     },
     {
       "id": "daa98f8cc3502623",
@@ -179,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "daa98f8cc3502623",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.569,
+      "freshness": 0.463,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,43 +192,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f615b8cae082395d",
-      "name": "Imágenes satelitales muestran daños en las bases de EE . UU . en Oriente Medio tras ataques iraníes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f615b8cae082395d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.427,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "actualidad.rt.com",
-      "url": "https://actualidad.rt.com/actualidad/621375-imagenes-satelitales-muestran-danos-bases",
-      "published_at": "2026-08-09T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
     },
     {
       "id": "9747e8adfc73ed00",
@@ -243,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9747e8adfc73ed00",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.398,
+      "freshness": 0.324,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,23 +223,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      }
     },
     {
-      "id": "849231e2892767ba",
-      "name": "Trump ready to drop Iran nuclear deal push if Tehran reopens Hormuz : Report",
+      "id": "f615b8cae082395d",
+      "name": "Imágenes satelitales muestran daños en las bases de EE . UU . en Oriente Medio tras ataques iraníes",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "849231e2892767ba",
+      "dependency_group": "f615b8cae082395d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.398,
+      "freshness": 0.348,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -286,16 +249,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/donald-trump-was-willing-to-walk-away-from-iran-war-without-nuclear-deal-but-tehran-raised-demands-report-101786289410282.html",
-      "published_at": "2026-08-09T17:45:00Z",
+      "source": "actualidad.rt.com",
+      "url": "https://actualidad.rt.com/actualidad/621375-imagenes-satelitales-muestran-danos-bases",
+      "published_at": "2026-08-09T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
     }
   ],
   "history": [
@@ -1768,17 +1730,23 @@ window.MAGEN_STATE = {
       "immediate": 11,
       "short": 17,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-09T21:41:43.168956Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-09T20:18:16.886744Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-09T21:41:43.168956Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
