@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-09T11:13:32.581518Z",
+  "generated_at": "2026-08-09T11:49:14.191583Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@ window.MAGEN_STATE = {
       "score": 3,
       "low": 0,
       "high": 19,
-      "confidence": 50,
+      "confidence": 48,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 9,
       "low": 0,
-      "high": 26,
-      "confidence": 50,
+      "high": 25,
+      "confidence": 48,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 50,
+      "score": 15,
+      "low": 0,
+      "high": 31,
+      "confidence": 48,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "12:45",
       "text": "Iran Sets Sweeping New Demands to Reopen the Strait of Hormuz After UAE Tanker Is Struck by a Missile",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "ibtimes.com.au",
       "signal_id": "5e2bef71a44c4523"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:45",
       "text": "Iran makes new Hormuz demands as missile hits Emirati ship",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "kenyastar.com",
       "signal_id": "07e4f1ee873e9f8d"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:45",
       "text": "Iran war : Houthis claim attack on Saudi oil facility",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "dw.com",
       "signal_id": "1b02eb5e01bb1d32"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:45",
       "text": "Iran sets conditions for reopening Strait of Hormuz amid attacks",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "nzherald.co.nz",
       "signal_id": "8b23769b704fccdd"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5e2bef71a44c4523",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.656,
+      "freshness": 0.553,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.6,
-        "extended": 7.8
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "07e4f1ee873e9f8d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.493,
+      "freshness": 0.416,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1b02eb5e01bb1d32",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.493,
+      "freshness": 0.416,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8b23769b704fccdd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.37,
+      "freshness": 0.313,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bdef2ed87585e9c4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.278,
+      "freshness": 0.235,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.3
       },
       "carried_forward": true
     }
@@ -1620,6 +1620,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-09T11:49:14.191583Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 15
     }
   ],
   "health": {
