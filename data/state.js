@@ -1,101 +1,232 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-09T14:58:24.394842Z",
+  "mode": "live",
+  "generated_at": "2026-08-09T15:40:25.814871Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 8,
+      "score": 5,
       "low": 0,
-      "high": 26,
-      "confidence": 39,
-      "status": "נמוך"
+      "high": 17,
+      "confidence": 70,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
-      "low": 0,
-      "high": 29,
-      "confidence": 40,
+      "score": 15,
+      "low": 3,
+      "high": 27,
+      "confidence": 70,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
-      "low": 0,
-      "high": 29,
-      "confidence": 41,
-      "status": "נמוך"
+      "score": 25,
+      "low": 13,
+      "high": 37,
+      "confidence": 70,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -2
+    "points_60m": -3
   },
   "changes": [
     {
-      "time": "13:30",
-      "text": "Israel Cancels Military Leave Amid Signs Of Possible Fresh Strike On Iran",
-      "impact": "השפעה מיידית מחושבת: +6.9",
+      "time": "18:15",
+      "text": "Donald Trump reportedly willing to walk away from Iran war without nuclear deal",
+      "impact": "השפעה מיידית מחושבת: +2.0",
       "direction": "up",
-      "source": "outlookindia.com",
-      "signal_id": "b2c00f92e6463879"
+      "source": "jpost.com",
+      "signal_id": "a11872b709e7ada2"
     },
     {
-      "time": "16:00",
-      "text": "Iran Details Hormuz Terms As Aramco Refinery Attacked",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "18:15",
+      "text": "Footage of Iranian supreme leader unseen since March promised by Iran paramilitary",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "hngn.com",
-      "signal_id": "de1a3ba59879cebd"
+      "source": "abc.net.au",
+      "signal_id": "7b908bf4bef4f612"
     },
     {
-      "time": "14:00",
-      "text": "Iran strikes UAE ADNOC tanker with missiles in Strait of Hormuz ; Abu Dhabi condemns attack",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "17:45",
+      "text": "IRAN WAR : Trump Reportedly Open To Ending Conflict Without Nuclear Deal",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "ibtimes.co.in",
-      "signal_id": "120026e424982b82"
+      "source": "theyeshivaworld.com",
+      "signal_id": "2a8c2f8e2113f281"
+    },
+    {
+      "time": "17:45",
+      "text": "Donald Trump May Trade Strait of Hormuz For Iran Nuclear Deal If Tehran Agrees To Reopen Key Waterway : Report",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "newsx.com",
+      "signal_id": "41ba311b998ec229"
     }
   ],
   "signals": [
     {
-      "id": "b2c00f92e6463879",
-      "name": "Israel Cancels Military Leave Amid Signs Of Possible Fresh Strike On Iran",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "a11872b709e7ada2",
+      "name": "Donald Trump reportedly willing to walk away from Iran war without nuclear deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "b2c00f92e6463879",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.279,
+      "dependency_group": "a11872b709e7ada2",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.886,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "outlookindia.com",
-      "url": "https://www.outlookindia.com/international/israel-cancels-military-leave-amid-signs-of-possible-fresh-strike-on-iran",
-      "published_at": "2026-08-09T10:30:00Z",
+      "source": "jpost.com",
+      "url": "http://www.jpost.com/middle-east/iran-news/article-904972",
+      "published_at": "2026-08-09T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 6.9,
-        "short": 5.4,
-        "extended": 2.3
+        "immediate": 2.0,
+        "short": 6.8,
+        "extended": 11.5
+      }
+    },
+    {
+      "id": "7b908bf4bef4f612",
+      "name": "Footage of Iranian supreme leader unseen since March promised by Iran paramilitary",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7b908bf4bef4f612",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.886,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "abc.net.au",
+      "url": "https://www.abc.net.au/news/2026-08-10/footage-of-irans-supreme-leader-promised/107014896",
+      "published_at": "2026-08-09T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "2a8c2f8e2113f281",
+      "name": "IRAN WAR : Trump Reportedly Open To Ending Conflict Without Nuclear Deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2a8c2f8e2113f281",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.768,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2583752/iran-war-trump-reportedly-open-to-ending-conflict-without-nuclear-deal.html",
+      "published_at": "2026-08-09T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "41ba311b998ec229",
+      "name": "Donald Trump May Trade Strait of Hormuz For Iran Nuclear Deal If Tehran Agrees To Reopen Key Waterway : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "41ba311b998ec229",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.768,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newsx.com",
+      "url": "https://www.newsx.com/world/donald-trump-may-trade-strait-of-hormuz-for-iran-nuclear-deal-if-tehran-agrees-to-reopen-key-waterway-report-258603/",
+      "published_at": "2026-08-09T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "feacbf53caf685f4",
+      "name": "Netanyahu vows Iran will not have nuclear weapons  with or without  deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "feacbf53caf685f4",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.62,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/netanyahu-vows-iran-will-not-have-nuclear-weapons-with-or-without-deal-article-13999099.html",
+      "published_at": "2026-08-09T14:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
     },
     {
       "id": "de1a3ba59879cebd",
@@ -107,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "de1a3ba59879cebd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.569,
+      "freshness": 0.466,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -123,43 +254,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "120026e424982b82",
-      "name": "Iran strikes UAE ADNOC tanker with missiles in Strait of Hormuz ; Abu Dhabi condemns attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "120026e424982b82",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.321,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ibtimes.co.in",
-      "url": "https://www.ibtimes.co.in/iran-strikes-uaes-adnoc-tanker-missiles-strait-hormuz-abu-dhabi-condemns-attack-904556",
-      "published_at": "2026-08-09T11:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
     }
   ],
   "history": [
@@ -1578,17 +1676,23 @@ window.MAGEN_STATE = {
       "immediate": 8,
       "short": 11,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-09T15:40:25.814871Z",
+      "immediate": 5,
+      "short": 15,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-09T14:18:42.036641Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-09T15:40:25.814871Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 3
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
