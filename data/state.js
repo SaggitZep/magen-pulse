@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-09T16:58:58.188836Z",
+  "generated_at": "2026-08-09T17:40:25.189166Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 67,
-      "status": "נמוך"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 66,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 66,
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 65,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 66,
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 65,
       "status": "מוגבר"
     }
   },
@@ -35,44 +35,75 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 18
+    "level": "עלייה מהירה",
+    "points_60m": 12
   },
   "changes": [
     {
+      "time": "20:15",
+      "text": "India to Israel and back : How a fake IRGC quote on nuclear weapons reached Netanyahu speech",
+      "impact": "השפעה מיידית מחושבת: +21.8",
+      "direction": "up",
+      "source": "middleeasteye.net",
+      "signal_id": "42b9c6b9058a3236"
+    },
+    {
       "time": "19:00",
       "text": "Israel keeps unilateral strike option open as US and Iran negotiate Hormuz reopening",
-      "impact": "השפעה מיידית מחושבת: +18.6",
+      "impact": "השפעה מיידית מחושבת: +15.3",
       "direction": "up",
       "source": "bankingnews.gr",
       "signal_id": "526d4f0799b20e28"
     },
     {
+      "time": "16:45",
+      "text": "Netanyahu On Iran , डील हो या ना हो , फर्क नहीं पड़ता , ईरान पर नेतन्याहू ने फिर दिखाए तल्ख तेवर , ट्रंप के गाजा प्लान को मानने से इनकार - israel pm benjamin netanyahu on iran nuclear program and us gaza plan - Other cou",
+      "impact": "השפעה מיידית מחושבת: +8.0",
+      "direction": "up",
+      "source": "navbharattimes.indiatimes.com",
+      "signal_id": "2f76d7589eba44bb"
+    },
+    {
       "time": "18:15",
       "text": "Donald Trump reportedly willing to walk away from Iran war without nuclear deal",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "a11872b709e7ada2"
-    },
-    {
-      "time": "18:45",
-      "text": "Donald Trump may ditch nuclear deal plan if Iran reopens Hormuz : Report",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "aninews.in",
-      "signal_id": "daa98f8cc3502623"
-    },
-    {
-      "time": "18:15",
-      "text": "Footage of Iranian supreme leader unseen since March promised by Iran paramilitary",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "abc.net.au",
-      "signal_id": "7b908bf4bef4f612"
     }
   ],
   "signals": [
+    {
+      "id": "42b9c6b9058a3236",
+      "name": "India to Israel and back : How a fake IRGC quote on nuclear weapons reached Netanyahu speech",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "42b9c6b9058a3236",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.886,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "middleeasteye.net",
+      "url": "https://www.middleeasteye.net/news/india-israel-back-how-fake-irgc-quote-nuclear-weapons-reached-netanyahus-speech",
+      "published_at": "2026-08-09T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 21.8,
+        "short": 17.0,
+        "extended": 7.2
+      }
+    },
     {
       "id": "526d4f0799b20e28",
       "name": "Israel keeps unilateral strike option open as US and Iran negotiate Hormuz reopening",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "526d4f0799b20e28",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.755,
+      "freshness": 0.62,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +130,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 18.6,
-        "short": 14.5,
-        "extended": 6.2
+        "immediate": 15.3,
+        "short": 11.9,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "2f76d7589eba44bb",
+      "name": "Netanyahu On Iran , डील हो या ना हो , फर्क नहीं पड़ता , ईरान पर नेतन्याहू ने फिर दिखाए तल्ख तेवर , ट्रंप के गाजा प्लान को मानने से इनकार - israel pm benjamin netanyahu on iran nuclear program and us gaza plan - Other cou",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2f76d7589eba44bb",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.326,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "navbharattimes.indiatimes.com",
+      "url": "https://navbharattimes.indiatimes.com/world/other-countries/israel-pm-benjamin-netanyahu-on-iran-nuclear-program-and-us-gaza-plan/articleshow/133068150.cms",
+      "published_at": "2026-08-09T13:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 8.0,
+        "short": 6.3,
+        "extended": 2.7
       }
     },
     {
@@ -114,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a11872b709e7ada2",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.61,
+      "freshness": 0.5,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 7.9
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       }
     },
     {
@@ -145,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "daa98f8cc3502623",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.703,
+      "freshness": 0.577,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
       }
     },
     {
@@ -176,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7b908bf4bef4f612",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.61,
+      "freshness": 0.5,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
       }
     },
     {
@@ -207,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2a8c2f8e2113f281",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.528,
+      "freshness": 0.434,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     },
     {
@@ -238,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "41ba311b998ec229",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.528,
+      "freshness": 0.434,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     },
     {
@@ -269,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b33357868fc66803",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.528,
+      "freshness": 0.434,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +347,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     },
     {
@@ -300,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1c0dbed35425c7cf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.492,
+      "freshness": 0.404,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,9 +378,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
       }
     },
     {
@@ -331,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "feacbf53caf685f4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.426,
+      "freshness": 0.35,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,40 +409,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-09T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
-    },
-    {
-      "id": "de1a3ba59879cebd",
-      "name": "Iran Details Hormuz Terms As Aramco Refinery Attacked",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "de1a3ba59879cebd",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.32,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hngn.com",
-      "url": "https://www.hngn.com/articles/272640/20260809/saudi-arabia-pakistan-turkey-sign-mutual-defense-pact-houthi-attacks-kill-dozens-near-yemen.htm",
-      "published_at": "2026-08-09T13:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       }
     }
   ],
@@ -1818,17 +1849,23 @@ window.MAGEN_STATE = {
       "immediate": 22,
       "short": 25,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-09T17:40:25.189166Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 28
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-09T16:58:58.188836Z",
+    "last_success": "2026-08-09T17:40:25.189166Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 10
+        "relevant": 11
       },
       "manual": {
         "ok": true,
