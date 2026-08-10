@@ -1,113 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-10T08:05:12.924797Z",
+  "mode": "live",
+  "generated_at": "2026-08-10T09:48:31.238945Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 3,
       "low": 0,
-      "high": 19,
-      "confidence": 37,
+      "high": 16,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 5,
+      "score": 10,
       "low": 0,
       "high": 23,
-      "confidence": 37,
-      "status": "לא זוהה אות חריג"
+      "confidence": 67,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 8,
-      "low": 0,
-      "high": 26,
-      "confidence": 37,
+      "score": 17,
+      "low": 4,
+      "high": 30,
+      "confidence": 67,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "06:30",
-      "text": "Iran fires cruise missiles at oil tanker in Strait of Hormuz setting vessel ablaze near Oman : Report",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "12:15",
+      "text": "U . S . military reroutes 55 vessels linked to Iran amid Gulf tensions",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "gulfnews.com",
-      "signal_id": "2527021b90a8c592"
+      "source": "sana.sy",
+      "signal_id": "a7596a4660a5978e"
     },
     {
-      "time": "07:15",
-      "text": "Trump Willing to End Iran War Without Nuclear Deal if Hormuz Reopens : WSJ",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "11:30",
+      "text": "Iran - Allied Houthis Hit Saudi Refinery , Threaten To Widen Middle East Conflict",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "khaama.com",
-      "signal_id": "a5b64dea7d4ab6b4"
+      "source": "globalsecurity.org",
+      "signal_id": "c466646cf84da3a8"
     },
     {
-      "time": "05:30",
-      "text": "Trump Iran Nuclear Deal , ट्रंप के गले की फांस बन गया ईरान युद्ध , बाहर निकलने का तलाश कर रहे रास्ता , न्यूक्लियर जिद भी छोड़ने को तैयार - us iran war trump may exit without nuclear deal if tehran reopen hormuz strait - ",
-      "impact": "השפעה מיידית מחושבת: +0.3",
+      "time": "11:30",
+      "text": "Trump Suggests Economic , Not Military , Pressure Now Favored Against Iran",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "navbharattimes.indiatimes.com",
-      "signal_id": "c0b195a4c73e4cd8"
+      "source": "globalsecurity.org",
+      "signal_id": "f1f0b7adf1511807"
+    },
+    {
+      "time": "11:30",
+      "text": "The Strait of Hormuz as leverage : Can Iran turn control over shipping into a political tool ?",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "news.az",
+      "signal_id": "fc5bafbeebdba007"
     }
   ],
   "signals": [
     {
-      "id": "2527021b90a8c592",
-      "name": "Iran fires cruise missiles at oil tanker in Strait of Hormuz setting vessel ablaze near Oman : Report",
+      "id": "a7596a4660a5978e",
+      "name": "U . S . military reroutes 55 vessels linked to Iran amid Gulf tensions",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "2527021b90a8c592",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.27,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gulfnews.com",
-      "url": "https://gulfnews.com/world/mena/iran-fires-cruise-missiles-at-oil-tanker-in-strait-of-hormuz-setting-vessel-ablaze-near-oman-report-1.500635675",
-      "published_at": "2026-08-10T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a5b64dea7d4ab6b4",
-      "name": "Trump Willing to End Iran War Without Nuclear Deal if Hormuz Reopens : WSJ",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a5b64dea7d4ab6b4",
+      "dependency_group": "a7596a4660a5978e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.334,
+      "freshness": 0.852,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -118,48 +94,170 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "khaama.com",
-      "url": "https://www.khaama.com/trump-willing-to-end-iran-war-without-nuclear-deal-if-hormuz-reopens-wsj/",
-      "published_at": "2026-08-10T04:15:00Z",
+      "source": "sana.sy",
+      "url": "https://sana.sy/en/middle-east/2335430/",
+      "published_at": "2026-08-10T09:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "c466646cf84da3a8",
+      "name": "Iran - Allied Houthis Hit Saudi Refinery , Threaten To Widen Middle East Conflict",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c466646cf84da3a8",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.688,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "globalsecurity.org",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/08/mil-260809-rferl01.htm",
+      "published_at": "2026-08-10T08:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "f1f0b7adf1511807",
+      "name": "Trump Suggests Economic , Not Military , Pressure Now Favored Against Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f1f0b7adf1511807",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.688,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/08/iran-260809-rferl01.htm",
+      "published_at": "2026-08-10T08:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "fc5bafbeebdba007",
+      "name": "The Strait of Hormuz as leverage : Can Iran turn control over shipping into a political tool ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fc5bafbeebdba007",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.688,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.az",
+      "url": "https://news.az/news/the-strait-of-hormuz-as-leverage-can-iran-turn-control-over-shipping-into-a-political-tool",
+      "published_at": "2026-08-10T08:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "150674dd2064e559",
+      "name": "Will Trump ditch nuclear deal plan if Iran reopens Strait of Hormuz ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "150674dd2064e559",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.448,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theweek.in",
+      "url": "https://www.theweek.in/news/middle-east/2026/08/10/trump-iran-exit-strategy-strait-of-hormuz-nuclear-deal.html",
+      "published_at": "2026-08-10T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "95251712f2bae2db",
+      "name": "Trump signals shift to economic pressure on Iran over new military strikes | Donald Trump News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "95251712f2bae2db",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.337,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aljazeera.com",
+      "url": "https://www.aljazeera.com/economy/2026/8/10/trump-signals-shift-to-economic-pressure-on-iran-over-new-military-strikes",
+      "published_at": "2026-08-10T06:00:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 1.9,
+        "short": 2.0,
         "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c0b195a4c73e4cd8",
-      "name": "Trump Iran Nuclear Deal , ट्रंप के गले की फांस बन गया ईरान युद्ध , बाहर निकलने का तलाश कर रहे रास्ता , न्यूक्लियर जिद भी छोड़ने को तैयार - us iran war trump may exit without nuclear deal if tehran reopen hormuz strait - ",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c0b195a4c73e4cd8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.203,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "navbharattimes.indiatimes.com",
-      "url": "https://navbharattimes.indiatimes.com/world/america/us-iran-war-trump-may-exit-without-nuclear-deal-if-tehran-reopen-hormuz-strait/articleshow/133077149.cms",
-      "published_at": "2026-08-10T02:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
+      }
     }
   ],
   "history": [
@@ -1686,17 +1784,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 5,
       "extended": 8
+    },
+    {
+      "timestamp": "2026-08-10T09:48:31.238945Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-10T04:48:56.777233Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-10T09:48:31.238945Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 3
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
