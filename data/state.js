@@ -1,75 +1,75 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-10T22:57:04.288930Z",
+  "mode": "live",
+  "generated_at": "2026-08-10T23:45:50.913684Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 51,
+      "score": 14,
+      "low": 0,
+      "high": 29,
+      "confidence": 58,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 19,
-      "low": 3,
-      "high": 35,
-      "confidence": 50,
+      "score": 16,
+      "low": 1,
+      "high": 31,
+      "confidence": 58,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 50,
+      "score": 16,
+      "low": 1,
+      "high": 31,
+      "confidence": 58,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -5
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "00:15",
       "text": "A Look at Iran New Military Command amid Prolonged War with US and Israel",
-      "impact": "השפעה מיידית מחושבת: +15.2",
+      "impact": "השפעה מיידית מחושבת: +12.0",
       "direction": "up",
       "source": "pakobserver.net",
       "signal_id": "ac9afcdb669bfc18"
     },
     {
+      "time": "01:00",
+      "text": "US military pressure forcing Hormuz closure Iran",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "iranherald.com",
+      "signal_id": "e89de33e4665e687"
+    },
+    {
+      "time": "01:00",
+      "text": "Ukraine must pay for deadly ship strike Iran",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "iranherald.com",
+      "signal_id": "6ca940cb02cd6bb6"
+    },
+    {
       "time": "00:30",
       "text": "Who who : Meet Iran new top military officials appointed by Leader",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "islamicinvitationturkey.com",
       "signal_id": "c86e1270f6a25d9a"
-    },
-    {
-      "time": "00:30",
-      "text": "EXC : Leader Announces New Military Appointments ; Vahidi Takes Helm as IRGC Commander",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "islamicinvitationturkey.com",
-      "signal_id": "8df212227eb2ece4"
-    },
-    {
-      "time": "22:45",
-      "text": "Iran demands Ukraine pay for deadly Caspian Sea vessel strike",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "461dfa53ed4330c7"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ac9afcdb669bfc18",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.615,
+      "freshness": 0.488,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,11 +99,72 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 15.2,
-        "short": 11.8,
-        "extended": 5.0
+        "immediate": 12.0,
+        "short": 9.4,
+        "extended": 4.0
+      }
+    },
+    {
+      "id": "e89de33e4665e687",
+      "name": "US military pressure forcing Hormuz closure Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e89de33e4665e687",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.604,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iranherald.com",
+      "url": "http://www.iranherald.com/news/279229999/us-military-pressure-forcing-hormuz-closure-iran",
+      "published_at": "2026-08-10T22:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "6ca940cb02cd6bb6",
+      "name": "Ukraine must pay for deadly ship strike Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6ca940cb02cd6bb6",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.604,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iranherald.com",
+      "url": "http://www.iranherald.com/news/279232647/ukraine-must-pay-for-deadly-ship-strike-iran",
+      "published_at": "2026-08-10T22:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
     },
     {
       "id": "c86e1270f6a25d9a",
@@ -115,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c86e1270f6a25d9a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.661,
+      "freshness": 0.524,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +192,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.2
+      }
     },
     {
       "id": "8df212227eb2ece4",
@@ -147,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8df212227eb2ece4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.661,
+      "freshness": 0.524,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,139 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "461dfa53ed4330c7",
-      "name": "Iran demands Ukraine pay for deadly Caspian Sea vessel strike",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "461dfa53ed4330c7",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.401,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-905094",
-      "published_at": "2026-08-10T19:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.9,
-        "short": 3.1,
+        "short": 3.0,
         "extended": 5.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c63dcbd983ec2c2c",
-      "name": "Iran supreme leader appoints 6 new military commanders",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c63dcbd983ec2c2c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.347,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bignewsnetwork.com",
-      "url": "http://www.bignewsnetwork.com/news/279231401/iran-supreme-leader-appoints-6-new-military-commanders",
-      "published_at": "2026-08-10T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1765fe1d01cbaa9e",
-      "name": "Iran Supreme Leader Khamenei fills 6 key military positions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1765fe1d01cbaa9e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.323,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260810/4485500.html",
-      "published_at": "2026-08-10T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "491391628f38c799",
-      "name": "Iran supreme leader names Guards general Abdollahi military chief",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "491391628f38c799",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.261,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabnews.com",
-      "url": "https://www.arabnews.com/node/2654129/middle-east",
-      "published_at": "2026-08-10T18:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
+      }
     }
   ],
   "history": [
@@ -1906,17 +1837,23 @@ window.MAGEN_STATE = {
       "immediate": 17,
       "short": 19,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-10T23:45:50.913684Z",
+      "immediate": 14,
+      "short": 16,
+      "extended": 16
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-10T22:07:25.078189Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-10T23:45:50.913684Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "ok": true,
+        "items": 150,
+        "relevant": 5
       },
       "manual": {
         "ok": true,
