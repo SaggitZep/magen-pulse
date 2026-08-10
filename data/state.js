@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-10T02:59:52.286014Z",
+  "generated_at": "2026-08-10T04:48:56.777233Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -14,17 +14,17 @@ window.MAGEN_STATE = {
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 12,
       "low": 0,
-      "high": 26,
+      "high": 25,
       "confidence": 66,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
+      "score": 20,
+      "low": 7,
+      "high": 33,
       "confidence": 66,
       "status": "נמוך"
     }
@@ -36,13 +36,29 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
+      "time": "06:30",
+      "text": "Iran fires cruise missiles at oil tanker in Strait of Hormuz setting vessel ablaze near Oman : Report",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "gulfnews.com",
+      "signal_id": "2527021b90a8c592"
+    },
+    {
+      "time": "07:15",
+      "text": "Trump Willing to End Iran War Without Nuclear Deal if Hormuz Reopens : WSJ",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "khaama.com",
+      "signal_id": "a5b64dea7d4ab6b4"
+    },
+    {
       "time": "05:30",
       "text": "Trump Iran Nuclear Deal , ट्रंप के गले की फांस बन गया ईरान युद्ध , बाहर निकलने का तलाश कर रहे रास्ता , न्यूक्लियर जिद भी छोड़ने को तैयार - us iran war trump may exit without nuclear deal if tehran reopen hormuz strait - ",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "navbharattimes.indiatimes.com",
       "signal_id": "c0b195a4c73e4cd8"
@@ -50,29 +66,75 @@ window.MAGEN_STATE = {
     {
       "time": "05:00",
       "text": "We are low keying it : Donald Trump signals economic pressure on Iran instead of new military offensive",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "moneycontrol.com",
       "signal_id": "197f441ee9651fe5"
-    },
-    {
-      "time": "04:00",
-      "text": "Donald Trump keeps military option open amid US , Iran talks on Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.3",
-      "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "ddf91428c29608b2"
-    },
-    {
-      "time": "04:45",
-      "text": "Trump Says He Prefers Iran Deal Over Military Action as Weapon Shortage Reports Surface – NaturalNews . com",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "naturalnews.com",
-      "signal_id": "dea6d2c8f534b188"
     }
   ],
   "signals": [
+    {
+      "id": "2527021b90a8c592",
+      "name": "Iran fires cruise missiles at oil tanker in Strait of Hormuz setting vessel ablaze near Oman : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2527021b90a8c592",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.687,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gulfnews.com",
+      "url": "https://gulfnews.com/world/mena/iran-fires-cruise-missiles-at-oil-tanker-in-strait-of-hormuz-setting-vessel-ablaze-near-oman-report-1.500635675",
+      "published_at": "2026-08-10T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "a5b64dea7d4ab6b4",
+      "name": "Trump Willing to End Iran War Without Nuclear Deal if Hormuz Reopens : WSJ",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a5b64dea7d4ab6b4",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.851,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "khaama.com",
+      "url": "https://www.khaama.com/trump-willing-to-end-iran-war-without-nuclear-deal-if-hormuz-reopens-wsj/",
+      "published_at": "2026-08-10T04:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
     {
       "id": "c0b195a4c73e4cd8",
       "name": "Trump Iran Nuclear Deal , ट्रंप के गले की फांस बन गया ईरान युद्ध , बाहर निकलने का तलाश कर रहे रास्ता , न्यूक्लियर जिद भी छोड़ने को तैयार - us iran war trump may exit without nuclear deal if tehran reopen hormuz strait - ",
@@ -83,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c0b195a4c73e4cd8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.867,
+      "freshness": 0.516,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T02:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
       }
     },
     {
@@ -114,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "197f441ee9651fe5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.752,
+      "freshness": 0.447,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T02:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.4
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       }
     },
     {
@@ -145,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ddf91428c29608b2",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.565,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T01:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.4
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       }
     },
     {
@@ -176,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "dea6d2c8f534b188",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.7,
+      "freshness": 0.416,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,164 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
-      }
-    },
-    {
-      "id": "1b6e2c3fbcce0ada",
-      "name": "Saudi Arabia , Turkey and Pakistan form mutual defense pact as Iran war and Houthi attacks reshape regional security",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1b6e2c3fbcce0ada",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.526,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "sott.net",
-      "url": "https://www.sott.net/article/507831-Saudi-Arabia-Turkey-and-Pakistan-form-mutual-defense-pact-as-Iran-war-and-Houthi-attacks-reshape-regional-security",
-      "published_at": "2026-08-10T00:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
-      }
-    },
-    {
-      "id": "7721d92cc6cb7878",
-      "name": "Trump is betting that the U . S . naval blockade choking Iran economy can achieve what bombs and missiles couldnt as more oil sneaks out of the Gulf",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7721d92cc6cb7878",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.425,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yahoo.com",
-      "url": "https://www.yahoo.com/news/politics/articles/trump-betting-u-naval-blockade-194107816.html",
-      "published_at": "2026-08-10T00:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
-      }
-    },
-    {
-      "id": "5a9c8697e703ffce",
-      "name": "There are reports that Iran missiles have hit a tanker off Oman in Hormuz southern corridor",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5a9c8697e703ffce",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.395,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "investinglive.com",
-      "url": "https://investinglive.com/commodities/there-are-reports-that-iran-missiles-have-hit-a-tanker-off-oman-in-hormuz-southern-corridor/",
-      "published_at": "2026-08-09T23:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "f14c119927069715",
-      "name": "Trump says US taking  low - key  approach towards Iran , not seeking fresh military offensive",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f14c119927069715",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.395,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260810/4485073.html",
-      "published_at": "2026-08-09T23:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "edc7295e5c8cfff5",
-      "name": "Trump keeping  low key  approach to Iran , choosing economic blows over military strikes : report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "edc7295e5c8cfff5",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.368,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nypost.com",
-      "url": "https://nypost.com/2026/08/09/world-news/trump-keeping-low-key-approach-to-iran-choosing-economic-blows-over-military-strikes-report/",
-      "published_at": "2026-08-09T23:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "short": 2.4,
+        "extended": 4.1
       }
     }
   ],
@@ -1859,17 +1766,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-10T04:48:56.777233Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-10T02:59:52.286014Z",
+    "last_success": "2026-08-10T04:48:56.777233Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 9
+        "relevant": 6
       },
       "manual": {
         "ok": true,
