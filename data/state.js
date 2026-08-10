@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-10T15:46:16.922541Z",
+  "generated_at": "2026-08-10T16:39:48.764374Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
       "high": 18,
-      "confidence": 61,
+      "confidence": 58,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 10,
       "low": 0,
-      "high": 27,
-      "confidence": 61,
+      "high": 25,
+      "confidence": 58,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 8,
-      "high": 36,
-      "confidence": 61,
+      "score": 17,
+      "low": 2,
+      "high": 32,
+      "confidence": 58,
       "status": "נמוך"
     }
   },
@@ -35,14 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 3
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "18:15",
       "text": "US orders defense firms to rebuild missile stockpiles within three weeks amid Iran conflict",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "bankingnews.gr",
       "signal_id": "9fb34155234a7c29"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "17:30",
       "text": "Iran Seeks Fees for Hormuz Maritime Services",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "newkerala.com",
       "signal_id": "00ed259334ddaa99"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "16:45",
       "text": "Iran says Pakistan - Türkiye - Saudi defence pact not a threat",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "samaa.tv",
       "signal_id": "2da05e9b6d95c639"
@@ -75,7 +75,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9fb34155234a7c29",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.862,
+      "freshness": 0.668,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -91,9 +91,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.0,
-        "extended": 10.2
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.9
       }
     },
     {
@@ -106,7 +106,7 @@ window.MAGEN_STATE = {
       "dependency_group": "00ed259334ddaa99",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.695,
+      "freshness": 0.539,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -122,9 +122,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       }
     },
     {
@@ -137,7 +137,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2da05e9b6d95c639",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.561,
+      "freshness": 0.435,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -153,9 +153,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     }
   ],
@@ -1719,12 +1719,18 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-10T16:39:48.764374Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-10T15:46:16.922541Z",
+    "last_success": "2026-08-10T16:39:48.764374Z",
     "sources": {
       "gdelt": {
         "ok": true,
