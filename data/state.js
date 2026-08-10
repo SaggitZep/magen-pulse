@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-10T04:48:56.777233Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-10T06:05:49.417154Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 66,
+      "high": 19,
+      "confidence": 48,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 9,
       "low": 0,
       "high": 25,
-      "confidence": 66,
+      "confidence": 48,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 7,
-      "high": 33,
-      "confidence": 66,
+      "score": 14,
+      "low": 0,
+      "high": 30,
+      "confidence": 48,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "06:30",
       "text": "Iran fires cruise missiles at oil tanker in Strait of Hormuz setting vessel ablaze near Oman : Report",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "gulfnews.com",
       "signal_id": "2527021b90a8c592"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:15",
       "text": "Trump Willing to End Iran War Without Nuclear Deal if Hormuz Reopens : WSJ",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "khaama.com",
       "signal_id": "a5b64dea7d4ab6b4"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "05:30",
       "text": "Trump Iran Nuclear Deal , ट्रंप के गले की फांस बन गया ईरान युद्ध , बाहर निकलने का तलाश कर रहे रास्ता , न्यूक्लियर जिद भी छोड़ने को तैयार - us iran war trump may exit without nuclear deal if tehran reopen hormuz strait - ",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "navbharattimes.indiatimes.com",
       "signal_id": "c0b195a4c73e4cd8"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "05:00",
       "text": "We are low keying it : Donald Trump signals economic pressure on Iran instead of new military offensive",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "moneycontrol.com",
       "signal_id": "197f441ee9651fe5"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2527021b90a8c592",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.687,
+      "freshness": 0.476,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.1
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      },
+      "carried_forward": true
     },
     {
       "id": "a5b64dea7d4ab6b4",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a5b64dea7d4ab6b4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.851,
+      "freshness": 0.59,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.4
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      },
+      "carried_forward": true
     },
     {
       "id": "c0b195a4c73e4cd8",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c0b195a4c73e4cd8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.516,
+      "freshness": 0.358,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T02:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      },
+      "carried_forward": true
     },
     {
       "id": "197f441ee9651fe5",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "197f441ee9651fe5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.447,
+      "freshness": 0.31,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T02:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     },
     {
       "id": "ddf91428c29608b2",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ddf91428c29608b2",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.336,
+      "freshness": 0.233,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T01:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
+      },
+      "carried_forward": true
     },
     {
       "id": "dea6d2c8f534b188",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "dea6d2c8f534b188",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.416,
+      "freshness": 0.289,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.8
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1772,17 +1778,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-10T06:05:49.417154Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 14
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-10T04:48:56.777233Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 6
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 6
       },
       "manual": {
         "ok": true,
