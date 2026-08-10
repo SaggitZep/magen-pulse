@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-10T21:23:05.079097Z",
+  "generated_at": "2026-08-10T22:07:25.078189Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
-      "low": 0,
-      "high": 17,
-      "confidence": 61,
-      "status": "לא זוהה אות חריג"
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 68,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
-      "low": 0,
-      "high": 24,
-      "confidence": 61,
-      "status": "נמוך"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 3,
-      "high": 31,
-      "confidence": 61,
-      "status": "נמוך"
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
@@ -35,44 +35,137 @@
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "זינוק חריג",
+    "points_60m": 19
   },
   "changes": [
     {
+      "time": "00:15",
+      "text": "A Look at Iran New Military Command amid Prolonged War with US and Israel",
+      "impact": "השפעה מיידית מחושבת: +19.2",
+      "direction": "up",
+      "source": "pakobserver.net",
+      "signal_id": "ac9afcdb669bfc18"
+    },
+    {
+      "time": "00:30",
+      "text": "Who who : Meet Iran new top military officials appointed by Leader",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "islamicinvitationturkey.com",
+      "signal_id": "c86e1270f6a25d9a"
+    },
+    {
+      "time": "00:30",
+      "text": "EXC : Leader Announces New Military Appointments ; Vahidi Takes Helm as IRGC Commander",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "islamicinvitationturkey.com",
+      "signal_id": "8df212227eb2ece4"
+    },
+    {
       "time": "22:45",
       "text": "Iran demands Ukraine pay for deadly Caspian Sea vessel strike",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "461dfa53ed4330c7"
-    },
-    {
-      "time": "22:15",
-      "text": "Iran supreme leader appoints 6 new military commanders",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "bignewsnetwork.com",
-      "signal_id": "c63dcbd983ec2c2c"
-    },
-    {
-      "time": "22:00",
-      "text": "Iran Supreme Leader Khamenei fills 6 key military positions",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "news.webindia123.com",
-      "signal_id": "1765fe1d01cbaa9e"
-    },
-    {
-      "time": "21:15",
-      "text": "Iran supreme leader names Guards general Abdollahi military chief",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "arabnews.com",
-      "signal_id": "491391628f38c799"
     }
   ],
   "signals": [
+    {
+      "id": "ac9afcdb669bfc18",
+      "name": "A Look at Iran New Military Command amid Prolonged War with US and Israel",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ac9afcdb669bfc18",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.779,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "pakobserver.net",
+      "url": "https://pakobserver.net/a-look-at-irans-new-military-command-amid-prolonged-war-with-us-and-israel/",
+      "published_at": "2026-08-10T21:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 19.2,
+        "short": 15.0,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "c86e1270f6a25d9a",
+      "name": "Who who : Meet Iran new top military officials appointed by Leader",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c86e1270f6a25d9a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.837,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "islamicinvitationturkey.com",
+      "url": "https://www.islamicinvitationturkey.com/whos-who-meet-irans-new-top-military-officials-appointed-by-leader/",
+      "published_at": "2026-08-10T21:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "8df212227eb2ece4",
+      "name": "EXC : Leader Announces New Military Appointments ; Vahidi Takes Helm as IRGC Commander",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8df212227eb2ece4",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.837,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "islamicinvitationturkey.com",
+      "url": "https://www.islamicinvitationturkey.com/exc-leader-announces-new-military-appointments-vahidi-takes-helm-as-irgc-commander/",
+      "published_at": "2026-08-10T21:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
     {
       "id": "461dfa53ed4330c7",
       "name": "Iran demands Ukraine pay for deadly Caspian Sea vessel strike",
@@ -83,7 +176,7 @@
       "dependency_group": "461dfa53ed4330c7",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.627,
+      "freshness": 0.508,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +192,9 @@
       "published_at": "2026-08-10T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
       }
     },
     {
@@ -114,7 +207,7 @@
       "dependency_group": "c63dcbd983ec2c2c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.543,
+      "freshness": 0.44,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +223,9 @@
       "published_at": "2026-08-10T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.4
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     },
     {
@@ -145,7 +238,7 @@
       "dependency_group": "1765fe1d01cbaa9e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.506,
+      "freshness": 0.41,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +254,9 @@
       "published_at": "2026-08-10T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
       }
     },
     {
@@ -176,7 +269,7 @@
       "dependency_group": "491391628f38c799",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.408,
+      "freshness": 0.331,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +285,9 @@
       "published_at": "2026-08-10T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
       }
     }
   ],
@@ -1794,17 +1887,23 @@
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-10T22:07:25.078189Z",
+      "immediate": 22,
+      "short": 24,
+      "extended": 22
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-10T21:23:05.079097Z",
+    "last_success": "2026-08-10T22:07:25.078189Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 4
+        "relevant": 7
       },
       "manual": {
         "ok": true,
