@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-10T09:48:31.238945Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-10T10:55:00.886748Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
-      "high": 16,
-      "confidence": 67,
+      "high": 18,
+      "confidence": 49,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 8,
       "low": 0,
-      "high": 23,
-      "confidence": 67,
-      "status": "נמוך"
+      "high": 24,
+      "confidence": 49,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 4,
-      "high": 30,
-      "confidence": 67,
+      "score": 13,
+      "low": 0,
+      "high": 29,
+      "confidence": 49,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "12:15",
       "text": "U . S . military reroutes 55 vessels linked to Iran amid Gulf tensions",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "sana.sy",
       "signal_id": "a7596a4660a5978e"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:30",
       "text": "Iran - Allied Houthis Hit Saudi Refinery , Threaten To Widen Middle East Conflict",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "globalsecurity.org",
       "signal_id": "c466646cf84da3a8"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:30",
       "text": "Trump Suggests Economic , Not Military , Pressure Now Favored Against Iran",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "globalsecurity.org",
       "signal_id": "f1f0b7adf1511807"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:30",
       "text": "The Strait of Hormuz as leverage : Can Iran turn control over shipping into a political tool ?",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "news.az",
       "signal_id": "fc5bafbeebdba007"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a7596a4660a5978e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.852,
+      "freshness": 0.621,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
-      }
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      },
+      "carried_forward": true
     },
     {
       "id": "c466646cf84da3a8",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c466646cf84da3a8",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.688,
+      "freshness": 0.501,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      },
+      "carried_forward": true
     },
     {
       "id": "f1f0b7adf1511807",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f1f0b7adf1511807",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.688,
+      "freshness": 0.501,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      },
+      "carried_forward": true
     },
     {
       "id": "fc5bafbeebdba007",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fc5bafbeebdba007",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.688,
+      "freshness": 0.501,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      },
+      "carried_forward": true
     },
     {
       "id": "150674dd2064e559",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "150674dd2064e559",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.448,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "95251712f2bae2db",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "95251712f2bae2db",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.337,
+      "freshness": 0.245,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T06:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1790,17 +1796,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-10T10:55:00.886748Z",
+      "immediate": 2,
+      "short": 8,
+      "extended": 13
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-10T09:48:31.238945Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 6
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 6
       },
       "manual": {
         "ok": true,
