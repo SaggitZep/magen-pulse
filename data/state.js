@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-10T22:07:25.078189Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-10T22:57:04.288930Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 68,
+      "score": 17,
+      "low": 1,
+      "high": 33,
+      "confidence": 51,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 19,
+      "low": 3,
+      "high": 35,
+      "confidence": 50,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 50,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 19
+    "level": "ירידה",
+    "points_60m": -5
   },
   "changes": [
     {
       "time": "00:15",
       "text": "A Look at Iran New Military Command amid Prolonged War with US and Israel",
-      "impact": "השפעה מיידית מחושבת: +19.2",
+      "impact": "השפעה מיידית מחושבת: +15.2",
       "direction": "up",
       "source": "pakobserver.net",
       "signal_id": "ac9afcdb669bfc18"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "00:30",
       "text": "Who who : Meet Iran new top military officials appointed by Leader",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "islamicinvitationturkey.com",
       "signal_id": "c86e1270f6a25d9a"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "00:30",
       "text": "EXC : Leader Announces New Military Appointments ; Vahidi Takes Helm as IRGC Commander",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "islamicinvitationturkey.com",
       "signal_id": "8df212227eb2ece4"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:45",
       "text": "Iran demands Ukraine pay for deadly Caspian Sea vessel strike",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "461dfa53ed4330c7"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ac9afcdb669bfc18",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.779,
+      "freshness": 0.615,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 19.2,
-        "short": 15.0,
-        "extended": 6.4
-      }
+        "immediate": 15.2,
+        "short": 11.8,
+        "extended": 5.0
+      },
+      "carried_forward": true
     },
     {
       "id": "c86e1270f6a25d9a",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c86e1270f6a25d9a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.837,
+      "freshness": 0.661,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      },
+      "carried_forward": true
     },
     {
       "id": "8df212227eb2ece4",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8df212227eb2ece4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.837,
+      "freshness": 0.661,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      },
+      "carried_forward": true
     },
     {
       "id": "461dfa53ed4330c7",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "461dfa53ed4330c7",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.508,
+      "freshness": 0.401,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      }
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      },
+      "carried_forward": true
     },
     {
       "id": "c63dcbd983ec2c2c",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c63dcbd983ec2c2c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.44,
+      "freshness": 0.347,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "1765fe1d01cbaa9e",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1765fe1d01cbaa9e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.41,
+      "freshness": 0.323,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      }
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "491391628f38c799",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "491391628f38c799",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.331,
+      "freshness": 0.261,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1893,17 +1900,23 @@ window.MAGEN_STATE = {
       "immediate": 22,
       "short": 24,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-10T22:57:04.288930Z",
+      "immediate": 17,
+      "short": 19,
+      "extended": 18
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-10T22:07:25.078189Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 7
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
