@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-10T10:55:00.886748Z",
+  "generated_at": "2026-08-10T11:55:37.961836Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 2,
       "low": 0,
-      "high": 18,
-      "confidence": 49,
+      "high": 19,
+      "confidence": 46,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 6,
       "low": 0,
-      "high": 24,
-      "confidence": 49,
+      "high": 23,
+      "confidence": 46,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
+      "score": 10,
       "low": 0,
-      "high": 29,
-      "confidence": 49,
+      "high": 27,
+      "confidence": 46,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "12:15",
       "text": "U . S . military reroutes 55 vessels linked to Iran amid Gulf tensions",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "sana.sy",
       "signal_id": "a7596a4660a5978e"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:30",
       "text": "Iran - Allied Houthis Hit Saudi Refinery , Threaten To Widen Middle East Conflict",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "globalsecurity.org",
       "signal_id": "c466646cf84da3a8"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:30",
       "text": "Trump Suggests Economic , Not Military , Pressure Now Favored Against Iran",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "globalsecurity.org",
       "signal_id": "f1f0b7adf1511807"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:30",
       "text": "The Strait of Hormuz as leverage : Can Iran turn control over shipping into a political tool ?",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "news.az",
       "signal_id": "fc5bafbeebdba007"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a7596a4660a5978e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.621,
+      "freshness": 0.465,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c466646cf84da3a8",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.501,
+      "freshness": 0.376,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.2
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f1f0b7adf1511807",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.501,
+      "freshness": 0.376,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fc5bafbeebdba007",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.501,
+      "freshness": 0.376,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "150674dd2064e559",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.327,
+      "freshness": 0.245,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "95251712f2bae2db",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.245,
+      "freshness": 0.184,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T06:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.8
       },
       "carried_forward": true
     }
@@ -1802,6 +1802,12 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 8,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-08-10T11:55:37.961836Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 10
     }
   ],
   "health": {
