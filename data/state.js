@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-10T16:39:48.764374Z",
+  "generated_at": "2026-08-10T17:38:47.265150Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 4,
       "low": 0,
       "high": 18,
-      "confidence": 58,
+      "confidence": 63,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 12,
       "low": 0,
-      "high": 25,
-      "confidence": 58,
+      "high": 26,
+      "confidence": 63,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 2,
-      "high": 32,
-      "confidence": 58,
+      "score": 20,
+      "low": 6,
+      "high": 34,
+      "confidence": 63,
       "status": "נמוך"
     }
   },
@@ -36,21 +36,29 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 1
   },
   "changes": [
     {
-      "time": "18:15",
-      "text": "US orders defense firms to rebuild missile stockpiles within three weeks amid Iran conflict",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "time": "20:00",
+      "text": "Revolutionary Guards say Iranian missiles  can change course  during flight to evade air defenses",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "bankingnews.gr",
-      "signal_id": "9fb34155234a7c29"
+      "source": "aa.com.tr",
+      "signal_id": "35e199053001db65"
+    },
+    {
+      "time": "19:45",
+      "text": "Russia Rebuilds Nuclear Workforce at Iran Bushehr Plant",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "oilprice.com",
+      "signal_id": "ee0f30e814b7398e"
     },
     {
       "time": "17:30",
       "text": "Iran Seeks Fees for Hormuz Maritime Services",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "newkerala.com",
       "signal_id": "00ed259334ddaa99"
@@ -58,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "16:45",
       "text": "Iran says Pakistan - Türkiye - Saudi defence pact not a threat",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "samaa.tv",
       "signal_id": "2da05e9b6d95c639"
@@ -66,16 +74,16 @@ window.MAGEN_STATE = {
   ],
   "signals": [
     {
-      "id": "9fb34155234a7c29",
-      "name": "US orders defense firms to rebuild missile stockpiles within three weeks amid Iran conflict",
+      "id": "35e199053001db65",
+      "name": "Revolutionary Guards say Iranian missiles  can change course  during flight to evade air defenses",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "9fb34155234a7c29",
+      "dependency_group": "35e199053001db65",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.668,
+      "freshness": 0.831,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -86,14 +94,45 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "bankingnews.gr",
-      "url": "https://www.bankingnews.gr/diethni/articles/893066/us-orders-defense-firms-to-rebuild-missile-stockpiles-within-three-weeks-amid-iran-conflict",
-      "published_at": "2026-08-10T15:15:00Z",
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/middle-east/revolutionary-guards-say-iranian-missiles-can-change-course-during-flight-to-evade-air-defenses/4023310",
+      "published_at": "2026-08-10T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.9
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.8
+      }
+    },
+    {
+      "id": "ee0f30e814b7398e",
+      "name": "Russia Rebuilds Nuclear Workforce at Iran Bushehr Plant",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ee0f30e814b7398e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.774,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "oilprice.com",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Rebuilds-Nuclear-Workforce-at-Irans-Bushehr-Plant.html",
+      "published_at": "2026-08-10T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
       }
     },
     {
@@ -106,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "00ed259334ddaa99",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.539,
+      "freshness": 0.407,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -122,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
       }
     },
     {
@@ -137,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2da05e9b6d95c639",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.435,
+      "freshness": 0.328,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -153,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       }
     }
   ],
@@ -1725,17 +1764,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-10T17:38:47.265150Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-10T16:39:48.764374Z",
+    "last_success": "2026-08-10T17:38:47.265150Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 3
+        "relevant": 4
       },
       "manual": {
         "ok": true,
