@@ -1,37 +1,37 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-10T11:55:37.961836Z",
+  "mode": "live",
+  "generated_at": "2026-08-10T13:36:32.331513Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 2,
       "low": 0,
-      "high": 19,
-      "confidence": 46,
+      "high": 18,
+      "confidence": 51,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
+      "score": 5,
       "low": 0,
-      "high": 23,
-      "confidence": 46,
+      "high": 21,
+      "confidence": 51,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 10,
+      "score": 9,
       "low": 0,
-      "high": 27,
-      "confidence": 46,
+      "high": 25,
+      "confidence": 51,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
@@ -40,50 +40,34 @@
   },
   "changes": [
     {
-      "time": "12:15",
-      "text": "U . S . military reroutes 55 vessels linked to Iran amid Gulf tensions",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "13:30",
+      "text": "Mike Waltz : Iran fears economic sanctions more than US military strikes",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
-      "source": "sana.sy",
-      "signal_id": "a7596a4660a5978e"
+      "source": "jpost.com",
+      "signal_id": "59632a72794388a2"
     },
     {
-      "time": "11:30",
-      "text": "Iran - Allied Houthis Hit Saudi Refinery , Threaten To Widen Middle East Conflict",
+      "time": "13:30",
+      "text": "Trump signals shift to economic pressure on Iran over new military strikes - Breaking News",
       "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
-      "source": "globalsecurity.org",
-      "signal_id": "c466646cf84da3a8"
-    },
-    {
-      "time": "11:30",
-      "text": "Trump Suggests Economic , Not Military , Pressure Now Favored Against Iran",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "globalsecurity.org",
-      "signal_id": "f1f0b7adf1511807"
-    },
-    {
-      "time": "11:30",
-      "text": "The Strait of Hormuz as leverage : Can Iran turn control over shipping into a political tool ?",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "news.az",
-      "signal_id": "fc5bafbeebdba007"
+      "source": "dailymirror.lk",
+      "signal_id": "a26a9481a8adc8ae"
     }
   ],
   "signals": [
     {
-      "id": "a7596a4660a5978e",
-      "name": "U . S . military reroutes 55 vessels linked to Iran amid Gulf tensions",
+      "id": "59632a72794388a2",
+      "name": "Mike Waltz : Iran fears economic sanctions more than US military strikes",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a7596a4660a5978e",
+      "dependency_group": "59632a72794388a2",
       "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.465,
+      "reliability": 0.74,
+      "freshness": 0.411,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,28 +78,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "sana.sy",
-      "url": "https://sana.sy/en/middle-east/2335430/",
-      "published_at": "2026-08-10T09:15:00Z",
+      "source": "jpost.com",
+      "url": "https://www.jpost.com/international/article-905031",
+      "published_at": "2026-08-10T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.4
+      }
     },
     {
-      "id": "c466646cf84da3a8",
-      "name": "Iran - Allied Houthis Hit Saudi Refinery , Threaten To Widen Middle East Conflict",
+      "id": "a26a9481a8adc8ae",
+      "name": "Trump signals shift to economic pressure on Iran over new military strikes - Breaking News",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "c466646cf84da3a8",
-      "strength": 0.45,
+      "dependency_group": "a26a9481a8adc8ae",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.376,
+      "freshness": 0.411,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,144 +109,15 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "globalsecurity.org",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/08/mil-260809-rferl01.htm",
-      "published_at": "2026-08-10T08:30:00Z",
+      "source": "dailymirror.lk",
+      "url": "https://www.dailymirror.lk/breaking-news/Trump-signals-shift-to-economic-pressure-on-Iran-over-new-military-strikes/108-347793",
+      "published_at": "2026-08-10T10:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.7,
         "short": 2.4,
-        "extended": 4.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f1f0b7adf1511807",
-      "name": "Trump Suggests Economic , Not Military , Pressure Now Favored Against Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f1f0b7adf1511807",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.376,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/08/iran-260809-rferl01.htm",
-      "published_at": "2026-08-10T08:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "fc5bafbeebdba007",
-      "name": "The Strait of Hormuz as leverage : Can Iran turn control over shipping into a political tool ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fc5bafbeebdba007",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.376,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.az",
-      "url": "https://news.az/news/the-strait-of-hormuz-as-leverage-can-iran-turn-control-over-shipping-into-a-political-tool",
-      "published_at": "2026-08-10T08:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "150674dd2064e559",
-      "name": "Will Trump ditch nuclear deal plan if Iran reopens Strait of Hormuz ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "150674dd2064e559",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.245,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theweek.in",
-      "url": "https://www.theweek.in/news/middle-east/2026/08/10/trump-iran-exit-strategy-strait-of-hormuz-nuclear-deal.html",
-      "published_at": "2026-08-10T07:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "95251712f2bae2db",
-      "name": "Trump signals shift to economic pressure on Iran over new military strikes | Donald Trump News",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "95251712f2bae2db",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.184,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/economy/2026/8/10/trump-signals-shift-to-economic-pressure-on-iran-over-new-military-strikes",
-      "published_at": "2026-08-10T06:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
-      },
-      "carried_forward": true
+        "extended": 4.1
+      }
     }
   ],
   "history": [
@@ -1808,17 +1662,23 @@
       "immediate": 2,
       "short": 6,
       "extended": 10
+    },
+    {
+      "timestamp": "2026-08-10T13:36:32.331513Z",
+      "immediate": 2,
+      "short": 5,
+      "extended": 9
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-10T09:48:31.238945Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-10T13:36:32.331513Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 6
+        "ok": true,
+        "items": 150,
+        "relevant": 2
       },
       "manual": {
         "ok": true,
