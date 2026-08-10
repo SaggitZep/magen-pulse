@@ -1,78 +1,171 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-10T18:35:35.341333Z",
+  "mode": "live",
+  "generated_at": "2026-08-10T19:42:55.187433Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 4,
       "low": 0,
-      "high": 20,
-      "confidence": 45,
+      "high": 17,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 13,
       "low": 0,
       "high": 26,
-      "confidence": 45,
+      "confidence": 68,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
-      "low": 0,
-      "high": 33,
-      "confidence": 45,
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 68,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 1
   },
   "changes": [
     {
+      "time": "22:15",
+      "text": "Iran supreme leader appoints 6 new military commanders",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "bignewsnetwork.com",
+      "signal_id": "c63dcbd983ec2c2c"
+    },
+    {
+      "time": "22:00",
+      "text": "Iran Supreme Leader Khamenei fills 6 key military positions",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "news.webindia123.com",
+      "signal_id": "1765fe1d01cbaa9e"
+    },
+    {
+      "time": "21:15",
+      "text": "Iran supreme leader names Guards general Abdollahi military chief",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "arabnews.com",
+      "signal_id": "491391628f38c799"
+    },
+    {
       "time": "20:00",
       "text": "Revolutionary Guards say Iranian missiles  can change course  during flight to evade air defenses",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "35e199053001db65"
-    },
-    {
-      "time": "19:45",
-      "text": "Russia Rebuilds Nuclear Workforce at Iran Bushehr Plant",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "oilprice.com",
-      "signal_id": "ee0f30e814b7398e"
-    },
-    {
-      "time": "17:30",
-      "text": "Iran Seeks Fees for Hormuz Maritime Services",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "newkerala.com",
-      "signal_id": "00ed259334ddaa99"
-    },
-    {
-      "time": "16:45",
-      "text": "Iran says Pakistan - Türkiye - Saudi defence pact not a threat",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "samaa.tv",
-      "signal_id": "2da05e9b6d95c639"
     }
   ],
   "signals": [
+    {
+      "id": "c63dcbd983ec2c2c",
+      "name": "Iran supreme leader appoints 6 new military commanders",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c63dcbd983ec2c2c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.876,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bignewsnetwork.com",
+      "url": "http://www.bignewsnetwork.com/news/279231401/iran-supreme-leader-appoints-6-new-military-commanders",
+      "published_at": "2026-08-10T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "1765fe1d01cbaa9e",
+      "name": "Iran Supreme Leader Khamenei fills 6 key military positions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1765fe1d01cbaa9e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.815,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260810/4485500.html",
+      "published_at": "2026-08-10T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "491391628f38c799",
+      "name": "Iran supreme leader names Guards general Abdollahi military chief",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "491391628f38c799",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.658,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arabnews.com",
+      "url": "https://www.arabnews.com/node/2654129/middle-east",
+      "published_at": "2026-08-10T18:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      }
+    },
     {
       "id": "35e199053001db65",
       "name": "Revolutionary Guards say Iranian missiles  can change course  during flight to evade air defenses",
@@ -83,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "35e199053001db65",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.634,
+      "freshness": 0.46,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +192,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
     },
     {
       "id": "ee0f30e814b7398e",
@@ -115,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ee0f30e814b7398e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.591,
+      "freshness": 0.429,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,75 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-10T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "00ed259334ddaa99",
-      "name": "Iran Seeks Fees for Hormuz Maritime Services",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "00ed259334ddaa99",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.311,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newkerala.com",
-      "url": "https://www.newkerala.com/news/a/service-fees-should-charged-passage-through-hormuz-iranian-612.htm",
-      "published_at": "2026-08-10T14:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2da05e9b6d95c639",
-      "name": "Iran says Pakistan - Türkiye - Saudi defence pact not a threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2da05e9b6d95c639",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.251,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "samaa.tv",
-      "url": "https://www.samaa.tv/2087354964-iran-says-pakistan-saudi-t-rkiye-defence-pact-not-a-threat",
-      "published_at": "2026-08-10T13:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
     }
   ],
   "history": [
@@ -1780,17 +1807,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 9,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-10T19:42:55.187433Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-10T17:38:47.265150Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-10T19:42:55.187433Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 4
+        "ok": true,
+        "items": 150,
+        "relevant": 5
       },
       "manual": {
         "ok": true,
