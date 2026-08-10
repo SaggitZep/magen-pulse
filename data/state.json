@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-10T19:42:55.187433Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-10T20:26:26.480614Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 68,
+      "high": 19,
+      "confidence": 51,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 11,
       "low": 0,
-      "high": 26,
-      "confidence": 68,
+      "high": 27,
+      "confidence": 51,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 8,
+      "score": 18,
+      "low": 2,
       "high": 34,
-      "confidence": 68,
+      "confidence": 51,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "22:15",
       "text": "Iran supreme leader appoints 6 new military commanders",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "bignewsnetwork.com",
       "signal_id": "c63dcbd983ec2c2c"
@@ -50,7 +50,7 @@
     {
       "time": "22:00",
       "text": "Iran Supreme Leader Khamenei fills 6 key military positions",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "news.webindia123.com",
       "signal_id": "1765fe1d01cbaa9e"
@@ -58,7 +58,7 @@
     {
       "time": "21:15",
       "text": "Iran supreme leader names Guards general Abdollahi military chief",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "arabnews.com",
       "signal_id": "491391628f38c799"
@@ -66,7 +66,7 @@
     {
       "time": "20:00",
       "text": "Revolutionary Guards say Iranian missiles  can change course  during flight to evade air defenses",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "35e199053001db65"
@@ -83,7 +83,7 @@
       "dependency_group": "c63dcbd983ec2c2c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.876,
+      "freshness": 0.712,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-10T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
-      }
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      },
+      "carried_forward": true
     },
     {
       "id": "1765fe1d01cbaa9e",
@@ -114,7 +115,7 @@
       "dependency_group": "1765fe1d01cbaa9e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.815,
+      "freshness": 0.663,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-10T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      },
+      "carried_forward": true
     },
     {
       "id": "491391628f38c799",
@@ -145,7 +147,7 @@
       "dependency_group": "491391628f38c799",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.658,
+      "freshness": 0.535,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-10T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      }
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      },
+      "carried_forward": true
     },
     {
       "id": "35e199053001db65",
@@ -176,7 +179,7 @@
       "dependency_group": "35e199053001db65",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.46,
+      "freshness": 0.374,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-10T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      },
+      "carried_forward": true
     },
     {
       "id": "ee0f30e814b7398e",
@@ -207,7 +211,7 @@
       "dependency_group": "ee0f30e814b7398e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.429,
+      "freshness": 0.348,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-10T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1813,17 +1818,23 @@
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-10T20:26:26.480614Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-10T19:42:55.187433Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 5
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
