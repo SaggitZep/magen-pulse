@@ -1,45 +1,265 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-11T04:35:57.666050Z",
+  "mode": "live",
+  "generated_at": "2026-08-11T05:42:31.224975Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 4,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 17,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 68,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -6
+    "level": "עלייה מתונה",
+    "points_60m": 4
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "07:45",
+      "text": "Catering truck and decoy jet : Secret mission to protect Trump from Iranian threat",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "israelnationalnews.com",
+      "signal_id": "1972c0c1459dcd0e"
+    },
+    {
+      "time": "07:45",
+      "text": "Trump  forced to hide in catering cart  after Iran assassination threat",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "express.co.uk",
+      "signal_id": "1ba94989eccdbaeb"
+    },
+    {
+      "time": "08:00",
+      "text": "Painting Bullseyes : What Iran Attacks on US Bases Mean for the Indo - Pacific – The Diplomat",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "thediplomat.com",
+      "signal_id": "15cbf3af37c81621"
+    },
+    {
+      "time": "07:30",
+      "text": "Trump used elaborate ruse to fly out of Turkey following summit because of Iran threat , report says",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "wsls.com",
+      "signal_id": "463ce0acf6f55881"
+    }
+  ],
+  "signals": [
+    {
+      "id": "1972c0c1459dcd0e",
+      "name": "Catering truck and decoy jet : Secret mission to protect Trump from Iranian threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1972c0c1459dcd0e",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.76,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/news/431528",
+      "published_at": "2026-08-11T04:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "1ba94989eccdbaeb",
+      "name": "Trump  forced to hide in catering cart  after Iran assassination threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1ba94989eccdbaeb",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.76,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "express.co.uk",
+      "url": "https://www.express.co.uk/news/world/2237908/trump-forced-hide-catering-cart-airport-after-iran-assassination-threat",
+      "published_at": "2026-08-11T04:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "15cbf3af37c81621",
+      "name": "Painting Bullseyes : What Iran Attacks on US Bases Mean for the Indo - Pacific – The Diplomat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "15cbf3af37c81621",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.817,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thediplomat.com",
+      "url": "https://thediplomat.com/2026/08/painting-bullseyes-what-irans-attacks-on-us-bases-mean-for-the-indo-pacific/",
+      "published_at": "2026-08-11T05:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "463ce0acf6f55881",
+      "name": "Trump used elaborate ruse to fly out of Turkey following summit because of Iran threat , report says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "463ce0acf6f55881",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.708,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wsls.com",
+      "url": "https://www.wsls.com/news/politics/2026/08/11/trump-used-elaborate-ruse-to-fly-out-of-turkey-following-summit-because-of-iran-threat-report-says/",
+      "published_at": "2026-08-11T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.9
+      }
+    },
+    {
+      "id": "8a72fcd3f2023aa9",
+      "name": "Mohsen Rezaei Profile : Iran Hardliner Wanted by Interpol Who Threatened to Capture 1 , 000 US Hostages Named Supreme National Security Council Chief",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8a72fcd3f2023aa9",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.659,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gulfnews.com",
+      "url": "https://gulfnews.com/world/mena/profile-mohsen-rezaei-71-iran-hardliner-who-threatened-to-capture-at-least-1000-us-hostages-gets-top-post-1.500636803",
+      "published_at": "2026-08-11T04:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "a739ecc916bbb39b",
+      "name": "Water systems are ripe for cyberattacks , experts warn after suspected Iranian hacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a739ecc916bbb39b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.372,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "spokesman.com",
+      "url": "https://www.spokesman.com/stories/2026/aug/10/water-systems-are-ripe-for-cyberattacks-experts-wa/",
+      "published_at": "2026-08-11T02:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -1672,17 +1892,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-08-11T05:42:31.224975Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 23
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-08-10T23:45:50.913684Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-11T05:42:31.224975Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
