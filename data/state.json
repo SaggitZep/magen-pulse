@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-11T02:57:45.607364Z",
+  "generated_at": "2026-08-11T04:35:57.666050Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 6,
+      "score": 0,
       "low": 0,
-      "high": 25,
-      "confidence": 36,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 0,
       "low": 0,
-      "high": 26,
-      "confidence": 36,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 7,
+      "score": 0,
       "low": 0,
-      "high": 26,
-      "confidence": 36,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     }
   },
@@ -36,204 +36,10 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -5
+    "points_60m": -6
   },
-  "changes": [
-    {
-      "time": "00:15",
-      "text": "A Look at Iran New Military Command amid Prolonged War with US and Israel",
-      "impact": "השפעה מיידית מחושבת: +4.8",
-      "direction": "up",
-      "source": "pakobserver.net",
-      "signal_id": "ac9afcdb669bfc18"
-    },
-    {
-      "time": "01:00",
-      "text": "US military pressure forcing Hormuz closure Iran",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "iranherald.com",
-      "signal_id": "e89de33e4665e687"
-    },
-    {
-      "time": "01:00",
-      "text": "Ukraine must pay for deadly ship strike Iran",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "iranherald.com",
-      "signal_id": "6ca940cb02cd6bb6"
-    },
-    {
-      "time": "00:30",
-      "text": "Who who : Meet Iran new top military officials appointed by Leader",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "islamicinvitationturkey.com",
-      "signal_id": "c86e1270f6a25d9a"
-    }
-  ],
-  "signals": [
-    {
-      "id": "ac9afcdb669bfc18",
-      "name": "A Look at Iran New Military Command amid Prolonged War with US and Israel",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ac9afcdb669bfc18",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.196,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "pakobserver.net",
-      "url": "https://pakobserver.net/a-look-at-irans-new-military-command-amid-prolonged-war-with-us-and-israel/",
-      "published_at": "2026-08-10T21:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 4.8,
-        "short": 3.8,
-        "extended": 1.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e89de33e4665e687",
-      "name": "US military pressure forcing Hormuz closure Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e89de33e4665e687",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.242,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279229999/us-military-pressure-forcing-hormuz-closure-iran",
-      "published_at": "2026-08-10T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6ca940cb02cd6bb6",
-      "name": "Ukraine must pay for deadly ship strike Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6ca940cb02cd6bb6",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.242,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279232647/ukraine-must-pay-for-deadly-ship-strike-iran",
-      "published_at": "2026-08-10T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c86e1270f6a25d9a",
-      "name": "Who who : Meet Iran new top military officials appointed by Leader",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c86e1270f6a25d9a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.21,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "islamicinvitationturkey.com",
-      "url": "https://www.islamicinvitationturkey.com/whos-who-meet-irans-new-top-military-officials-appointed-by-leader/",
-      "published_at": "2026-08-10T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8df212227eb2ece4",
-      "name": "EXC : Leader Announces New Military Appointments ; Vahidi Takes Helm as IRGC Commander",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8df212227eb2ece4",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.21,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "islamicinvitationturkey.com",
-      "url": "https://www.islamicinvitationturkey.com/exc-leader-announces-new-military-appointments-vahidi-takes-helm-as-irgc-commander/",
-      "published_at": "2026-08-10T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -1860,17 +1666,23 @@
       "immediate": 6,
       "short": 7,
       "extended": 7
+    },
+    {
+      "timestamp": "2026-08-11T04:35:57.666050Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-08-10T23:45:50.913684Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
