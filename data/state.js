@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-11T11:57:37.179994Z",
+  "generated_at": "2026-08-11T13:25:57.345774Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 0,
       "low": 0,
-      "high": 20,
-      "confidence": 32,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 3,
+      "score": 0,
       "low": 0,
       "high": 22,
-      "confidence": 32,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 5,
+      "score": 0,
       "low": 0,
-      "high": 24,
-      "confidence": 32,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     }
   },
@@ -36,92 +36,10 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
-  "changes": [
-    {
-      "time": "10:00",
-      "text": "Iran unveils new missile capabilities as Strait of Hormuz stays closed",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "express.co.uk",
-      "signal_id": "7774d806635d7f82"
-    },
-    {
-      "time": "10:00",
-      "text": "Saudi Arabia , Türkiye and Pakistan Forge Mutual Defence Pact , as Iran Pursues New Shipping Framework",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "ipsnews.net",
-      "signal_id": "af36afe4757c1314"
-    }
-  ],
-  "signals": [
-    {
-      "id": "7774d806635d7f82",
-      "name": "Iran unveils new missile capabilities as Strait of Hormuz stays closed",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7774d806635d7f82",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.242,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "express.co.uk",
-      "url": "https://www.express.co.uk/news/world/2237911/iran-unveils-new-missile-capabilities-strait-hormuz-stays-closed",
-      "published_at": "2026-08-11T07:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "af36afe4757c1314",
-      "name": "Saudi Arabia , Türkiye and Pakistan Forge Mutual Defence Pact , as Iran Pursues New Shipping Framework",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "af36afe4757c1314",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.242,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ipsnews.net",
-      "url": "https://www.ipsnews.net/2026/08/saudi-arabia-turkiye-and-pakistan-forge-mutual-defence-pact-as-iran-pursues-new-shipping-framework/",
-      "published_at": "2026-08-11T07:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -1796,17 +1714,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 3,
       "extended": 5
+    },
+    {
+      "timestamp": "2026-08-11T13:25:57.345774Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-08-11T07:57:14.604140Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 2
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
