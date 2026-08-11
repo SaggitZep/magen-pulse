@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-11T22:21:32.174206Z",
+  "generated_at": "2026-08-11T23:11:31.561382Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 28,
-      "low": 15,
-      "high": 41,
-      "confidence": 67,
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 65,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 31,
-      "low": 18,
-      "high": 44,
-      "confidence": 68,
+      "score": 26,
+      "low": 13,
+      "high": 39,
+      "confidence": 65,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 29,
-      "low": 16,
-      "high": 42,
-      "confidence": 68,
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 65,
       "status": "מוגבר"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -6
+    "points_60m": -5
   },
   "changes": [
     {
       "time": "23:15",
       "text": "דיווח : ישראל חשפה איום מאיראן על טראמפ",
-      "impact": "השפעה מיידית מחושבת: +14.8",
+      "impact": "השפעה מיידית מחושבת: +11.7",
       "direction": "up",
       "source": "srugim.co.il",
       "signal_id": "0946101c833dd0a8"
@@ -50,26 +50,26 @@ window.MAGEN_STATE = {
     {
       "time": "22:45",
       "text": "INSIDE FORDOW : Former Mossad Chief Yossi Cohen Reveals Israeli Operatives Visited Iranian Nuclear Site  Many Time – The Yeshiva World",
-      "impact": "השפעה מיידית מחושבת: +11.7",
+      "impact": "השפעה מיידית מחושבת: +9.2",
       "direction": "up",
       "source": "theyeshivaworld.com",
       "signal_id": "eb42f3334377b9db"
     },
     {
+      "time": "01:15",
+      "text": "US fires on ship trying to break blockade of Iran",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "salinapost.com",
+      "signal_id": "d8d27d89b60036f1"
+    },
+    {
       "time": "01:00",
       "text": "US military fires on cargo vessel it said sought to break Iran blockade - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "dominicanrepublicpost.com",
       "signal_id": "19750ba37e4b6388"
-    },
-    {
-      "time": "00:15",
-      "text": "Trump Left Unsuspecting Staff on Decoy Flight While Secretly Escaping in Catering Truck Amid Iranian Threat",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "ibtimes.co.uk",
-      "signal_id": "f2edb3a97cdb3f17"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0946101c833dd0a8",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.547,
+      "freshness": 0.431,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 14.8,
-        "short": 11.6,
-        "extended": 4.9
+        "immediate": 11.7,
+        "short": 9.1,
+        "extended": 3.9
       }
     },
     {
@@ -114,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "eb42f3334377b9db",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.475,
+      "freshness": 0.374,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -130,9 +130,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.7,
-        "short": 9.1,
-        "extended": 3.9
+        "immediate": 9.2,
+        "short": 7.2,
+        "extended": 3.0
+      }
+    },
+    {
+      "id": "d8d27d89b60036f1",
+      "name": "US fires on ship trying to break blockade of Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d8d27d89b60036f1",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.764,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "salinapost.com",
+      "url": "https://salinapost.com/posts/3351e90c-9b98-4b8e-9014-b61111997ae7",
+      "published_at": "2026-08-11T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "19750ba37e4b6388",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.903,
+      "freshness": 0.711,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.9
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f2edb3a97cdb3f17",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.728,
+      "freshness": 0.574,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,102 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.1
-      }
-    },
-    {
-      "id": "463ce0acf6f55881",
-      "name": "Trump used elaborate ruse to fly out of Turkey following summit because of Iran threat , report says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "463ce0acf6f55881",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.678,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "latimes.com",
-      "url": "https://www.latimes.com/world-nation/story/2026-08-11/trump-used-elaborate-ruse-to-fly-out-of-turkey-following-summit-because-of-iran-threat-report-says",
-      "published_at": "2026-08-11T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
-    },
-    {
-      "id": "b32f70cd15c92012",
-      "name": "Iran Shuffles Military Leaders , Prepares for  Prolonged Confrontation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b32f70cd15c92012",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.678,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "breitbart.com",
-      "url": "https://www.breitbart.com/middle-east/2026/08/11/iran-shuffles-military-leaders-prepares-for-prolonged-confrontation/",
-      "published_at": "2026-08-11T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
-    },
-    {
-      "id": "a0f0b68b2862353a",
-      "name": "US military fires on cargo vessel it said sought to break Iran blockade",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a0f0b68b2862353a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.678,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade",
-      "published_at": "2026-08-11T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.4
       }
     },
     {
@@ -300,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7701c6d2269ee9b7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.728,
+      "freshness": 0.574,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,9 +254,102 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
+      }
+    },
+    {
+      "id": "463ce0acf6f55881",
+      "name": "Trump used elaborate ruse to fly out of Turkey following summit because of Iran threat , report says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "463ce0acf6f55881",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.535,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "latimes.com",
+      "url": "https://www.latimes.com/world-nation/story/2026-08-11/trump-used-elaborate-ruse-to-fly-out-of-turkey-following-summit-because-of-iran-threat-report-says",
+      "published_at": "2026-08-11T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      }
+    },
+    {
+      "id": "b32f70cd15c92012",
+      "name": "Iran Shuffles Military Leaders , Prepares for  Prolonged Confrontation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b32f70cd15c92012",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.535,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "breitbart.com",
+      "url": "https://www.breitbart.com/middle-east/2026/08/11/iran-shuffles-military-leaders-prepares-for-prolonged-confrontation/",
+      "published_at": "2026-08-11T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
+    },
+    {
+      "id": "a0f0b68b2862353a",
+      "name": "US military fires on cargo vessel it said sought to break Iran blockade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a0f0b68b2862353a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.535,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade",
+      "published_at": "2026-08-11T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       }
     },
     {
@@ -331,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8612c6a10a92f19f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.678,
+      "freshness": 0.535,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,9 +378,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       }
     },
     {
@@ -362,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b7315fd47d2dda5f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.678,
+      "freshness": 0.535,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,9 +409,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       }
     },
     {
@@ -393,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5e35a952ee7accbf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.678,
+      "freshness": 0.535,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,9 +440,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       }
     },
     {
@@ -424,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "353613fbd4f10e04",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.547,
+      "freshness": 0.431,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,9 +471,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.6,
-        "extended": 6.1
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     },
     {
@@ -455,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f9ed97347740fbcd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.51,
+      "freshness": 0.402,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,40 +502,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
-      }
-    },
-    {
-      "id": "cca5a573cd0e9753",
-      "name": "Iran War Day 165 : U . S . Fires on Panama - Flagged Ship It Says Tried to Run Hormuz Blockade",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cca5a573cd0e9753",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.475,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theamericanconservative.com",
-      "url": "https://www.theamericanconservative.com/iran-war-day-165-u-s-fires-on-panama-flagged-ship-it-says-tried-to-run-hormuz-blockade/",
-      "published_at": "2026-08-11T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
       }
     },
     {
@@ -517,7 +517,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ed323d30b5189e94",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.442,
+      "freshness": 0.348,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,9 +533,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     },
     {
@@ -548,7 +548,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2d619f4b022c5b67",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.411,
+      "freshness": 0.324,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -564,9 +564,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      }
+    },
+    {
+      "id": "cca5a573cd0e9753",
+      "name": "Iran War Day 165 : U . S . Fires on Panama - Flagged Ship It Says Tried to Run Hormuz Blockade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cca5a573cd0e9753",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.374,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theamericanconservative.com",
+      "url": "https://www.theamericanconservative.com/iran-war-day-165-u-s-fires-on-panama-flagged-ship-it-says-tried-to-run-hormuz-blockade/",
+      "published_at": "2026-08-11T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       }
     },
     {
@@ -579,7 +610,7 @@ window.MAGEN_STATE = {
       "dependency_group": "76cdce1c18a40453",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.411,
+      "freshness": 0.324,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -595,9 +626,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
       }
     }
   ],
@@ -2335,17 +2366,23 @@ window.MAGEN_STATE = {
       "immediate": 28,
       "short": 31,
       "extended": 29
+    },
+    {
+      "timestamp": "2026-08-11T23:11:31.561382Z",
+      "immediate": 23,
+      "short": 26,
+      "extended": 25
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-11T22:21:32.174206Z",
+    "last_success": "2026-08-11T23:11:31.561382Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 17
+        "relevant": 18
       },
       "manual": {
         "ok": true,
