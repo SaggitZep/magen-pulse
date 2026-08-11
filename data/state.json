@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-11T10:13:43.187492Z",
+  "generated_at": "2026-08-11T11:08:51.079009Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 1,
       "low": 0,
-      "high": 19,
-      "confidence": 45,
+      "high": 20,
+      "confidence": 34,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
+      "score": 4,
       "low": 0,
       "high": 23,
-      "confidence": 45,
+      "confidence": 34,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
+      "score": 7,
       "low": 0,
-      "high": 28,
-      "confidence": 45,
-      "status": "נמוך"
+      "high": 26,
+      "confidence": 34,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -42,7 +42,7 @@
     {
       "time": "10:00",
       "text": "Iran unveils new missile capabilities as Strait of Hormuz stays closed",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "express.co.uk",
       "signal_id": "7774d806635d7f82"
@@ -50,26 +50,10 @@
     {
       "time": "10:00",
       "text": "Saudi Arabia , Türkiye and Pakistan Forge Mutual Defence Pact , as Iran Pursues New Shipping Framework",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "ipsnews.net",
       "signal_id": "af36afe4757c1314"
-    },
-    {
-      "time": "07:45",
-      "text": "Catering truck and decoy jet : Secret mission to protect Trump from Iranian threat",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "israelnationalnews.com",
-      "signal_id": "1972c0c1459dcd0e"
-    },
-    {
-      "time": "07:45",
-      "text": "Trump  forced to hide in catering cart  after Iran assassination threat",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "express.co.uk",
-      "signal_id": "1ba94989eccdbaeb"
     }
   ],
   "signals": [
@@ -83,7 +67,7 @@
       "dependency_group": "7774d806635d7f82",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.398,
+      "freshness": 0.306,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +83,9 @@
       "published_at": "2026-08-11T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       },
       "carried_forward": true
     },
@@ -115,7 +99,7 @@
       "dependency_group": "af36afe4757c1314",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.398,
+      "freshness": 0.306,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,169 +115,9 @@
       "published_at": "2026-08-11T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1972c0c1459dcd0e",
-      "name": "Catering truck and decoy jet : Secret mission to protect Trump from Iranian threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1972c0c1459dcd0e",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.209,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "israelnationalnews.com",
-      "url": "https://www.israelnationalnews.com/news/431528",
-      "published_at": "2026-08-11T04:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1ba94989eccdbaeb",
-      "name": "Trump  forced to hide in catering cart  after Iran assassination threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1ba94989eccdbaeb",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.209,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "express.co.uk",
-      "url": "https://www.express.co.uk/news/world/2237908/trump-forced-hide-catering-cart-airport-after-iran-assassination-threat",
-      "published_at": "2026-08-11T04:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "15cbf3af37c81621",
-      "name": "Painting Bullseyes : What Iran Attacks on US Bases Mean for the Indo - Pacific – The Diplomat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "15cbf3af37c81621",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.224,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thediplomat.com",
-      "url": "https://thediplomat.com/2026/08/painting-bullseyes-what-irans-attacks-on-us-bases-mean-for-the-indo-pacific/",
-      "published_at": "2026-08-11T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "463ce0acf6f55881",
-      "name": "Trump used elaborate ruse to fly out of Turkey following summit because of Iran threat , report says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "463ce0acf6f55881",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.195,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wsls.com",
-      "url": "https://www.wsls.com/news/politics/2026/08/11/trump-used-elaborate-ruse-to-fly-out-of-turkey-following-summit-because-of-iran-threat-report-says/",
-      "published_at": "2026-08-11T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8a72fcd3f2023aa9",
-      "name": "Mohsen Rezaei Profile : Iran Hardliner Wanted by Interpol Who Threatened to Capture 1 , 000 US Hostages Named Supreme National Security Council Chief",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8a72fcd3f2023aa9",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gulfnews.com",
-      "url": "https://gulfnews.com/world/mena/profile-mohsen-rezaei-71-iran-hardliner-who-threatened-to-capture-at-least-1000-us-hostages-gets-top-post-1.500636803",
-      "published_at": "2026-08-11T04:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     }
@@ -1960,6 +1784,12 @@
       "immediate": 2,
       "short": 6,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-11T11:08:51.079009Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 7
     }
   ],
   "health": {
@@ -1970,7 +1800,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "carried_forward": 2
       },
       "manual": {
         "ok": true,
