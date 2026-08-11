@@ -1,48 +1,64 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-11T20:32:08.075258Z",
+  "mode": "live",
+  "generated_at": "2026-08-11T21:27:19.000099Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 23,
-      "low": 7,
-      "high": 39,
-      "confidence": 50,
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 68,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 25,
-      "low": 9,
-      "high": 41,
-      "confidence": 50,
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 69,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 8,
-      "high": 40,
-      "confidence": 50,
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 69,
       "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -5
+    "level": "עלייה מהירה",
+    "points_60m": 11
   },
   "changes": [
     {
+      "time": "23:15",
+      "text": "דיווח : ישראל חשפה איום מאיראן על טראמפ",
+      "impact": "השפעה מיידית מחושבת: +19.2",
+      "direction": "up",
+      "source": "srugim.co.il",
+      "signal_id": "0946101c833dd0a8"
+    },
+    {
+      "time": "22:45",
+      "text": "INSIDE FORDOW : Former Mossad Chief Yossi Cohen Reveals Israeli Operatives Visited Iranian Nuclear Site  Many Time – The Yeshiva World",
+      "impact": "השפעה מיידית מחושבת: +15.1",
+      "direction": "up",
+      "source": "theyeshivaworld.com",
+      "signal_id": "eb42f3334377b9db"
+    },
+    {
       "time": "20:45",
       "text": "Spioni israelieni au verificat „ de mai multe ori  un sit nuclear iranian . Dezvăluirile unui fost şef al Mossad",
-      "impact": "השפעה מיידית מחושבת: +11.1",
+      "impact": "השפעה מיידית מחושבת: +8.6",
       "direction": "up",
       "source": "digi24.ro",
       "signal_id": "edd515193f333326"
@@ -50,29 +66,75 @@
     {
       "time": "20:30",
       "text": "Un fost şef Mossad face dezvăluiri spectaculoase : Spioni israelieni au  vizitat  un sit nuclear iranian",
-      "impact": "השפעה מיידית מחושבת: +10.3",
+      "impact": "השפעה מיידית מחושבת: +8.0",
       "direction": "up",
       "source": "stiripesurse.ro",
       "signal_id": "2ee4631616aa7b13"
-    },
-    {
-      "time": "22:15",
-      "text": "EXPLAINER - Who are Iran new wartime security and military leaders ?",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "aa.com.tr",
-      "signal_id": "2d619f4b022c5b67"
-    },
-    {
-      "time": "22:15",
-      "text": "Iran War Draws Nuclear Superpowers Closer – Endtime Ministries",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "endtime.com",
-      "signal_id": "76cdce1c18a40453"
     }
   ],
   "signals": [
+    {
+      "id": "0946101c833dd0a8",
+      "name": "דיווח : ישראל חשפה איום מאיראן על טראמפ",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0946101c833dd0a8",
+      "strength": 0.55,
+      "reliability": 0.56,
+      "freshness": 0.709,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "srugim.co.il",
+      "url": "http://www.srugim.co.il/101008297-%D7%93%D7%99%D7%95%D7%95%D7%97-%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%97%D7%A9%D7%A4%D7%94-%D7%90%D7%99%D7%95%D7%9D-%D7%9E%D7%90%D7%99%D7%A8%D7%90%D7%9F-%D7%A2%D7%9C-%D7%98%D7%A8%D7%90%D7%9E%D7%A4",
+      "published_at": "2026-08-11T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 19.2,
+        "short": 15.0,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "eb42f3334377b9db",
+      "name": "INSIDE FORDOW : Former Mossad Chief Yossi Cohen Reveals Israeli Operatives Visited Iranian Nuclear Site  Many Time – The Yeshiva World",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "eb42f3334377b9db",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.614,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2584493/inside-fordow-former-mossad-chief-yossi-cohen-reveals-israeli-operatives-visited-iranian-nuclear-site-many-times.html",
+      "published_at": "2026-08-11T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 15.1,
+        "short": 11.8,
+        "extended": 5.0
+      }
+    },
     {
       "id": "edd515193f333326",
       "name": "Spioni israelieni au verificat „ de mai multe ori  un sit nuclear iranian . Dezvăluirile unui fost şef al Mossad",
@@ -83,7 +145,7 @@
       "dependency_group": "edd515193f333326",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.451,
+      "freshness": 0.347,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,11 +161,10 @@
       "published_at": "2026-08-11T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.1,
-        "short": 8.7,
-        "extended": 3.7
-      },
-      "carried_forward": true
+        "immediate": 8.6,
+        "short": 6.7,
+        "extended": 2.8
+      }
     },
     {
       "id": "2ee4631616aa7b13",
@@ -115,7 +176,7 @@
       "dependency_group": "2ee4631616aa7b13",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.42,
+      "freshness": 0.323,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -131,11 +192,351 @@
       "published_at": "2026-08-11T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 10.3,
-        "short": 8.1,
-        "extended": 3.4
+        "immediate": 8.0,
+        "short": 6.2,
+        "extended": 2.6
+      }
+    },
+    {
+      "id": "463ce0acf6f55881",
+      "name": "Trump used elaborate ruse to fly out of Turkey following summit because of Iran threat , report says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "463ce0acf6f55881",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.878,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "latimes.com",
+      "url": "https://www.latimes.com/world-nation/story/2026-08-11/trump-used-elaborate-ruse-to-fly-out-of-turkey-following-summit-because-of-iran-threat-report-says",
+      "published_at": "2026-08-11T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.7
+      }
+    },
+    {
+      "id": "b32f70cd15c92012",
+      "name": "Iran Shuffles Military Leaders , Prepares for  Prolonged Confrontation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b32f70cd15c92012",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.878,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "breitbart.com",
+      "url": "https://www.breitbart.com/middle-east/2026/08/11/iran-shuffles-military-leaders-prepares-for-prolonged-confrontation/",
+      "published_at": "2026-08-11T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "a0f0b68b2862353a",
+      "name": "US military fires on cargo vessel it said sought to break Iran blockade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a0f0b68b2862353a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.878,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade",
+      "published_at": "2026-08-11T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "8612c6a10a92f19f",
+      "name": "US military says it has fired on a ship in Gulf of Oman to enforce its blockade of Iranian ports",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8612c6a10a92f19f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.878,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kold.com",
+      "url": "https://www.kold.com/2026/08/11/us-military-says-it-has-fired-ship-gulf-oman-enforce-its-blockade-iranian-ports/",
+      "published_at": "2026-08-11T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "b7315fd47d2dda5f",
+      "name": "US military helicopter strikes ship attempting to break Iran naval blockade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b7315fd47d2dda5f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.878,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/news/431577",
+      "published_at": "2026-08-11T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "5e35a952ee7accbf",
+      "name": "US helicopter fired on ship that tried to break Iran ports blockade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5e35a952ee7accbf",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.878,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "straitstimes.com",
+      "url": "https://www.straitstimes.com/world/middle-east/us-helicopter-fired-on-ship-that-tried-to-break-iran-ports-blockade",
+      "published_at": "2026-08-11T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "353613fbd4f10e04",
+      "name": "Trump secretly flew out of Turkey NATO summit because of Iran threat , report says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "353613fbd4f10e04",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.709,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "naharnet.com:443",
+      "url": "https://www.naharnet.com:443/stories/en/321775-trump-secretly-flew-out-of-turkey-s-nato-summit-because-of-iran-threat-report-says",
+      "published_at": "2026-08-11T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.9
+      }
+    },
+    {
+      "id": "7701c6d2269ee9b7",
+      "name": "Iranian - backed Houthis kill 6 in attack on vessel , and other developments in the Mideast",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7701c6d2269ee9b7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.761,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailygazette.com",
+      "url": "https://www.dailygazette.com/hv360/ap/national/iranian-backed-houthis-kill-6-in-attack-on-vessel-and-other-developments-in-the-mideast/article_403dbb4e-cb3d-5c00-ad8a-73f00622a509.html",
+      "published_at": "2026-08-11T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "f9ed97347740fbcd",
+      "name": "Iran supreme leader elevates military veterans willing to confront the US - LocalNews8 . com",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f9ed97347740fbcd",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.66,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "localnews8.com",
+      "url": "https://localnews8.com/news/national-world/cnn-world/2026/08/11/irans-supreme-leader-elevates-military-veterans-willing-to-confront-the-us/",
+      "published_at": "2026-08-11T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      }
+    },
+    {
+      "id": "ed323d30b5189e94",
+      "name": "Trump Took Secret Flight From Turkey Amid Reported Iran Threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ed323d30b5189e94",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.572,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moroccoworldnews.com",
+      "url": "https://www.moroccoworldnews.com/2026/08/334197/trump-took-secret-flight-from-turkey-amid-reported-iran-threat/",
+      "published_at": "2026-08-11T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "cca5a573cd0e9753",
+      "name": "Iran War Day 165 : U . S . Fires on Panama - Flagged Ship It Says Tried to Run Hormuz Blockade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cca5a573cd0e9753",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.614,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theamericanconservative.com",
+      "url": "https://www.theamericanconservative.com/iran-war-day-165-u-s-fires-on-panama-flagged-ship-it-says-tried-to-run-hormuz-blockade/",
+      "published_at": "2026-08-11T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.6,
+        "extended": 6.1
+      }
     },
     {
       "id": "2d619f4b022c5b67",
@@ -147,7 +548,7 @@
       "dependency_group": "2d619f4b022c5b67",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.693,
+      "freshness": 0.533,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +564,10 @@
       "published_at": "2026-08-11T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
     },
     {
       "id": "76cdce1c18a40453",
@@ -179,7 +579,7 @@
       "dependency_group": "76cdce1c18a40453",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.693,
+      "freshness": 0.533,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +595,10 @@
       "published_at": "2026-08-11T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
     },
     {
       "id": "e9a7506bd20aca4a",
@@ -211,7 +610,7 @@
       "dependency_group": "e9a7506bd20aca4a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.485,
+      "freshness": 0.373,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,11 +626,10 @@
       "published_at": "2026-08-11T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     },
     {
       "id": "6a5ab137cfae5751",
@@ -243,7 +641,7 @@
       "dependency_group": "6a5ab137cfae5751",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.451,
+      "freshness": 0.347,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,171 +657,10 @@
       "published_at": "2026-08-11T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "24f3d40d5d5f739b",
-      "name": "Iran supreme leader elevates military veterans willing to confront the US",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "24f3d40d5d5f739b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.42,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ktvz.com",
-      "url": "https://ktvz.com/news/national-world/cnn-world/2026/08/11/irans-supreme-leader-shakes-up-military-leadership-as-hopes-of-hormuz-deal-fade/",
-      "published_at": "2026-08-11T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8cbf4071022cbc9d",
-      "name": "Iran supreme leader elevates military veterans willing to confront the US | National & World News",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8cbf4071022cbc9d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.364,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news8000.com",
-      "url": "https://www.news8000.com/news/national-world/iran-s-supreme-leader-elevates-military-veterans-willing-to-confront-the-us/article_a6b79a38-994a-5ee4-afe2-a54dbb1a3e6b.html",
-      "published_at": "2026-08-11T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "bbfd60bef1925808",
-      "name": "Trump switched planes hidden in a food truck over Iran threat : U . S . report - National",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bbfd60bef1925808",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.339,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "globalnews.ca",
-      "url": "https://globalnews.ca/news/12016676/donald-trump-air-force-one-switched-planes-turkey/",
-      "published_at": "2026-08-11T16:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "39871b02eee7fa9c",
-      "name": "El Mossad visitó la central nuclear iraní de Fordow en varias ocasiones",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "39871b02eee7fa9c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.339,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "lavanguardia.com",
-      "url": "https://www.lavanguardia.com/internacional/20260811/11612155/mossad-visito-central-nuclear-irani-fordow-ocasiones.html",
-      "published_at": "2026-08-11T16:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
         "short": 2.0,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "00faa42c5d3845c5",
-      "name": "President Donald Trump used elaborate ruse to fly out of Turkey following summit because of Iran threat , report says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "00faa42c5d3845c5",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.316,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "journalgazette.net",
-      "url": "https://www.journalgazette.net/news/national/president-donald-trump-used-elaborate-ruse-to-fly-out-of-turkey-following-summit-because-of/article_3bc888f4-cb60-5e2f-9054-135b715f57c1.html",
-      "published_at": "2026-08-11T16:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      },
-      "carried_forward": true
+        "extended": 3.4
+      }
     }
   ],
   "history": [
@@ -2148,17 +2385,23 @@
       "immediate": 23,
       "short": 25,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-11T21:27:19.000099Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 34
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-11T19:47:02.671336Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-11T21:27:19.000099Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 11
+        "ok": true,
+        "items": 150,
+        "relevant": 19
       },
       "manual": {
         "ok": true,
