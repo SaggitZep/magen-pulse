@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-11T00:44:04.613780Z",
+  "generated_at": "2026-08-11T02:57:45.607364Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 11,
+      "score": 6,
       "low": 0,
-      "high": 29,
-      "confidence": 41,
-      "status": "נמוך"
+      "high": 25,
+      "confidence": 36,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 7,
       "low": 0,
-      "high": 30,
-      "confidence": 41,
-      "status": "נמוך"
+      "high": 26,
+      "confidence": 36,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 12,
+      "score": 7,
       "low": 0,
-      "high": 30,
-      "confidence": 41,
-      "status": "נמוך"
+      "high": 26,
+      "confidence": 36,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -3
+    "points_60m": -5
   },
   "changes": [
     {
       "time": "00:15",
       "text": "A Look at Iran New Military Command amid Prolonged War with US and Israel",
-      "impact": "השפעה מיידית מחושבת: +9.1",
+      "impact": "השפעה מיידית מחושבת: +4.8",
       "direction": "up",
       "source": "pakobserver.net",
       "signal_id": "ac9afcdb669bfc18"
@@ -50,7 +50,7 @@
     {
       "time": "01:00",
       "text": "US military pressure forcing Hormuz closure Iran",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "iranherald.com",
       "signal_id": "e89de33e4665e687"
@@ -58,7 +58,7 @@
     {
       "time": "01:00",
       "text": "Ukraine must pay for deadly ship strike Iran",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "iranherald.com",
       "signal_id": "6ca940cb02cd6bb6"
@@ -66,7 +66,7 @@
     {
       "time": "00:30",
       "text": "Who who : Meet Iran new top military officials appointed by Leader",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "islamicinvitationturkey.com",
       "signal_id": "c86e1270f6a25d9a"
@@ -83,7 +83,7 @@
       "dependency_group": "ac9afcdb669bfc18",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.37,
+      "freshness": 0.196,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-10T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 9.1,
-        "short": 7.1,
-        "extended": 3.0
+        "immediate": 4.8,
+        "short": 3.8,
+        "extended": 1.6
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "e89de33e4665e687",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.458,
+      "freshness": 0.242,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-10T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "6ca940cb02cd6bb6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.458,
+      "freshness": 0.242,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-10T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "c86e1270f6a25d9a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.397,
+      "freshness": 0.21,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-10T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "8df212227eb2ece4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.397,
+      "freshness": 0.21,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-10T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     }
@@ -1854,6 +1854,12 @@
       "immediate": 11,
       "short": 12,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-08-11T02:57:45.607364Z",
+      "immediate": 6,
+      "short": 7,
+      "extended": 7
     }
   ],
   "health": {
