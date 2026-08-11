@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-11T07:57:14.604140Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-11T09:11:07.333210Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 64,
+      "high": 20,
+      "confidence": 47,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 8,
       "low": 0,
       "high": 25,
-      "confidence": 64,
+      "confidence": 47,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 7,
-      "high": 33,
-      "confidence": 64,
+      "score": 14,
+      "low": 0,
+      "high": 31,
+      "confidence": 47,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "10:00",
       "text": "Iran unveils new missile capabilities as Strait of Hormuz stays closed",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "express.co.uk",
       "signal_id": "7774d806635d7f82"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:00",
       "text": "Saudi Arabia , Türkiye and Pakistan Forge Mutual Defence Pact , as Iran Pursues New Shipping Framework",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "ipsnews.net",
       "signal_id": "af36afe4757c1314"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:45",
       "text": "Catering truck and decoy jet : Secret mission to protect Trump from Iranian threat",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "israelnationalnews.com",
       "signal_id": "1972c0c1459dcd0e"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:45",
       "text": "Trump  forced to hide in catering cart  after Iran assassination threat",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "express.co.uk",
       "signal_id": "1ba94989eccdbaeb"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7774d806635d7f82",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.761,
+      "freshness": 0.536,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.3,
-        "extended": 9.0
-      }
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      },
+      "carried_forward": true
     },
     {
       "id": "af36afe4757c1314",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "af36afe4757c1314",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.761,
+      "freshness": 0.536,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      },
+      "carried_forward": true
     },
     {
       "id": "1972c0c1459dcd0e",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1972c0c1459dcd0e",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.4,
+      "freshness": 0.282,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     },
     {
       "id": "1ba94989eccdbaeb",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1ba94989eccdbaeb",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.4,
+      "freshness": 0.282,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     },
     {
       "id": "8a72fcd3f2023aa9",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8a72fcd3f2023aa9",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.347,
+      "freshness": 0.244,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.8
-      }
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
+      },
+      "carried_forward": true
     },
     {
       "id": "15cbf3af37c81621",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "15cbf3af37c81621",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.43,
+      "freshness": 0.302,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 3.0
+      },
+      "carried_forward": true
     },
     {
       "id": "463ce0acf6f55881",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "463ce0acf6f55881",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.373,
+      "freshness": 0.262,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1941,17 +1948,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-11T09:11:07.333210Z",
+      "immediate": 3,
+      "short": 8,
+      "extended": 14
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-11T07:57:14.604140Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 7
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
