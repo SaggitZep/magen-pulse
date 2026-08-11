@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-11T19:47:02.671336Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-11T20:32:08.075258Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 28,
-      "low": 15,
-      "high": 41,
-      "confidence": 66,
+      "score": 23,
+      "low": 7,
+      "high": 39,
+      "confidence": 50,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 30,
-      "low": 17,
-      "high": 43,
-      "confidence": 66,
+      "score": 25,
+      "low": 9,
+      "high": 41,
+      "confidence": 50,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 29,
-      "low": 16,
-      "high": 42,
-      "confidence": 66,
+      "score": 24,
+      "low": 8,
+      "high": 40,
+      "confidence": 50,
       "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מהירה",
-    "points_60m": 9
+    "level": "ירידה",
+    "points_60m": -5
   },
   "changes": [
     {
       "time": "20:45",
       "text": "Spioni israelieni au verificat „ de mai multe ori  un sit nuclear iranian . Dezvăluirile unui fost şef al Mossad",
-      "impact": "השפעה מיידית מחושבת: +13.8",
+      "impact": "השפעה מיידית מחושבת: +11.1",
       "direction": "up",
       "source": "digi24.ro",
       "signal_id": "edd515193f333326"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:30",
       "text": "Un fost şef Mossad face dezvăluiri spectaculoase : Spioni israelieni au  vizitat  un sit nuclear iranian",
-      "impact": "השפעה מיידית מחושבת: +12.8",
+      "impact": "השפעה מיידית מחושבת: +10.3",
       "direction": "up",
       "source": "stiripesurse.ro",
       "signal_id": "2ee4631616aa7b13"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:15",
       "text": "EXPLAINER - Who are Iran new wartime security and military leaders ?",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "2d619f4b022c5b67"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:15",
       "text": "Iran War Draws Nuclear Superpowers Closer – Endtime Ministries",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "endtime.com",
       "signal_id": "76cdce1c18a40453"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "edd515193f333326",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.559,
+      "freshness": 0.451,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 13.8,
-        "short": 10.7,
-        "extended": 4.6
-      }
+        "immediate": 11.1,
+        "short": 8.7,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "2ee4631616aa7b13",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2ee4631616aa7b13",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.521,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 12.8,
-        "short": 10.0,
-        "extended": 4.2
-      }
+        "immediate": 10.3,
+        "short": 8.1,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "2d619f4b022c5b67",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2d619f4b022c5b67",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.858,
+      "freshness": 0.693,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      }
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      },
+      "carried_forward": true
     },
     {
       "id": "76cdce1c18a40453",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "76cdce1c18a40453",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.858,
+      "freshness": 0.693,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      }
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      },
+      "carried_forward": true
     },
     {
       "id": "e9a7506bd20aca4a",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e9a7506bd20aca4a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.601,
+      "freshness": 0.485,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      },
+      "carried_forward": true
     },
     {
       "id": "6a5ab137cfae5751",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6a5ab137cfae5751",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.559,
+      "freshness": 0.451,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.2,
-        "extended": 5.5
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      },
+      "carried_forward": true
     },
     {
       "id": "24f3d40d5d5f739b",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "24f3d40d5d5f739b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.521,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "8cbf4071022cbc9d",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8cbf4071022cbc9d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.451,
+      "freshness": 0.364,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      },
+      "carried_forward": true
     },
     {
       "id": "bbfd60bef1925808",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bbfd60bef1925808",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.42,
+      "freshness": 0.339,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "39871b02eee7fa9c",
@@ -362,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "39871b02eee7fa9c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.42,
+      "freshness": 0.339,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.3
+      },
+      "carried_forward": true
     },
     {
       "id": "00faa42c5d3845c5",
@@ -393,7 +403,7 @@ window.MAGEN_STATE = {
       "dependency_group": "00faa42c5d3845c5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.391,
+      "freshness": 0.316,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2131,17 +2142,23 @@ window.MAGEN_STATE = {
       "immediate": 28,
       "short": 30,
       "extended": 29
+    },
+    {
+      "timestamp": "2026-08-11T20:32:08.075258Z",
+      "immediate": 23,
+      "short": 25,
+      "extended": 24
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-11T19:47:02.671336Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 11
+        "ok": false,
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "carried_forward": 11
       },
       "manual": {
         "ok": true,
