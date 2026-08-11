@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-11T11:08:51.079009Z",
+  "generated_at": "2026-08-11T11:57:37.179994Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@ window.MAGEN_STATE = {
       "score": 1,
       "low": 0,
       "high": 20,
-      "confidence": 34,
+      "confidence": 32,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 23,
-      "confidence": 34,
+      "high": 22,
+      "confidence": 32,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 7,
+      "score": 5,
       "low": 0,
-      "high": 26,
-      "confidence": 34,
+      "high": 24,
+      "confidence": 32,
       "status": "לא זוהה אות חריג"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "10:00",
       "text": "Iran unveils new missile capabilities as Strait of Hormuz stays closed",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "express.co.uk",
       "signal_id": "7774d806635d7f82"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:00",
       "text": "Saudi Arabia , Türkiye and Pakistan Forge Mutual Defence Pact , as Iran Pursues New Shipping Framework",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "ipsnews.net",
       "signal_id": "af36afe4757c1314"
@@ -67,7 +67,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7774d806635d7f82",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.306,
+      "freshness": 0.242,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -83,9 +83,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -99,7 +99,7 @@ window.MAGEN_STATE = {
       "dependency_group": "af36afe4757c1314",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.306,
+      "freshness": 0.242,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -115,9 +115,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     }
@@ -1790,6 +1790,12 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 7
+    },
+    {
+      "timestamp": "2026-08-11T11:57:37.179994Z",
+      "immediate": 1,
+      "short": 3,
+      "extended": 5
     }
   ],
   "health": {
