@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-11T16:39:11.768571Z",
+  "generated_at": "2026-08-11T17:42:13.439781Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 32,
-      "low": 19,
-      "high": 45,
-      "confidence": 67,
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 64,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 34,
-      "low": 21,
-      "high": 47,
-      "confidence": 67,
+      "score": 27,
+      "low": 14,
+      "high": 40,
+      "confidence": 64,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 31,
-      "low": 18,
-      "high": 44,
-      "confidence": 67,
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 64,
       "status": "מוגבר"
     }
   },
@@ -35,14 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 28
+    "level": "ירידה",
+    "points_60m": -7
   },
   "changes": [
     {
       "time": "18:30",
       "text": "Israel former Mossad chief says spies  toured  Iran nuclear site – The Frontier Post",
-      "impact": "השפעה מיידית מחושבת: +17.7",
+      "impact": "השפעה מיידית מחושבת: +13.1",
       "direction": "up",
       "source": "thefrontierpost.com",
       "signal_id": "166a30a6e855b382"
@@ -50,26 +50,26 @@ window.MAGEN_STATE = {
     {
       "time": "17:45",
       "text": "Israel former Mossad chief says spies  toured  Iran nuclear site",
-      "impact": "השפעה מיידית מחושבת: +14.3",
+      "impact": "השפעה מיידית מחושבת: +10.6",
       "direction": "up",
       "source": "arabnews.com",
       "signal_id": "f306ce434fbc9d40"
     },
     {
+      "time": "20:00",
+      "text": "Iran supreme leader elevates military veterans willing to confront the US | National & World News",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "news8000.com",
+      "signal_id": "8cbf4071022cbc9d"
+    },
+    {
       "time": "18:45",
       "text": "Trump used catering truck ruse to sneak off Air Force One after Iran threat , report says",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "wndu.com",
       "signal_id": "2129390d04d18325"
-    },
-    {
-      "time": "18:30",
-      "text": "Trump used catering truck to sneak out of Turkey amid Iran threat",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "nydailynews.com",
-      "signal_id": "cc31454659762dc1"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "166a30a6e855b382",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.719,
+      "freshness": 0.533,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 17.7,
-        "short": 13.8,
-        "extended": 5.9
+        "immediate": 13.1,
+        "short": 10.2,
+        "extended": 4.3
       }
     },
     {
@@ -114,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f306ce434fbc9d40",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.581,
+      "freshness": 0.43,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -130,9 +130,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 14.3,
-        "short": 11.2,
-        "extended": 4.7
+        "immediate": 10.6,
+        "short": 8.3,
+        "extended": 3.5
+      }
+    },
+    {
+      "id": "8cbf4071022cbc9d",
+      "name": "Iran supreme leader elevates military veterans willing to confront the US | National & World News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8cbf4071022cbc9d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.818,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news8000.com",
+      "url": "https://www.news8000.com/news/national-world/iran-s-supreme-leader-elevates-military-veterans-willing-to-confront-the-us/article_a6b79a38-994a-5ee4-afe2-a54dbb1a3e6b.html",
+      "published_at": "2026-08-11T17:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.1
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2129390d04d18325",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.773,
+      "freshness": 0.572,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,71 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.6
-      }
-    },
-    {
-      "id": "cc31454659762dc1",
-      "name": "Trump used catering truck to sneak out of Turkey amid Iran threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cc31454659762dc1",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.719,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nydailynews.com",
-      "url": "https://www.nydailynews.com/2026/08/11/trump-turkey-plane-catering-truck/",
-      "published_at": "2026-08-11T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
-      }
-    },
-    {
-      "id": "463ce0acf6f55881",
-      "name": "Trump used elaborate ruse to fly out of Turkey following summit because of Iran threat , report says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "463ce0acf6f55881",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.719,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "sun-sentinel.com",
-      "url": "https://www.sun-sentinel.com/2026/08/10/trump-used-elaborate-ruse-to-fly-out-of-turkey-following-summit-because-of-iran-threat-report-says/",
-      "published_at": "2026-08-11T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
       }
     },
     {
@@ -238,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "be1b5d46303283a2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.773,
+      "freshness": 0.572,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +223,71 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
+    {
+      "id": "cc31454659762dc1",
+      "name": "Trump used catering truck to sneak out of Turkey amid Iran threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cc31454659762dc1",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.533,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nydailynews.com",
+      "url": "https://www.nydailynews.com/2026/08/11/trump-turkey-plane-catering-truck/",
+      "published_at": "2026-08-11T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      }
+    },
+    {
+      "id": "463ce0acf6f55881",
+      "name": "Trump used elaborate ruse to fly out of Turkey following summit because of Iran threat , report says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "463ce0acf6f55881",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.533,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sun-sentinel.com",
+      "url": "https://www.sun-sentinel.com/2026/08/10/trump-used-elaborate-ruse-to-fly-out-of-turkey-following-summit-because-of-iran-threat-report-says/",
+      "published_at": "2026-08-11T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
       }
     },
     {
@@ -269,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "acdf8f14c6ad4014",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.719,
+      "freshness": 0.533,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       }
     },
     {
@@ -300,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5cfb6582518ab8d5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.719,
+      "freshness": 0.533,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,9 +347,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       }
     },
     {
@@ -331,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "206bf6733ff2bac2",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.541,
+      "freshness": 0.4,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,9 +378,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
       }
     },
     {
@@ -362,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "584ac1d83e39a0ab",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.581,
+      "freshness": 0.43,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,9 +409,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     },
     {
@@ -393,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "460fce95022fc7b0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.581,
+      "freshness": 0.43,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,9 +440,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     },
     {
@@ -424,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9a069939aedc23cb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.581,
+      "freshness": 0.43,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,9 +471,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     },
     {
@@ -455,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "214716a0ae1de1ae",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.581,
+      "freshness": 0.43,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,9 +502,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     },
     {
@@ -486,7 +517,7 @@ window.MAGEN_STATE = {
       "dependency_group": "089292388a9aa6d9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.581,
+      "freshness": 0.43,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,9 +533,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     },
     {
@@ -517,7 +548,7 @@ window.MAGEN_STATE = {
       "dependency_group": "48d7377962a7535a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.469,
+      "freshness": 0.347,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,9 +564,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       }
     },
     {
@@ -548,7 +579,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2fdb7c7017358e85",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.436,
+      "freshness": 0.323,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -564,9 +595,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       }
     },
     {
@@ -579,7 +610,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5dd256c6bba6559e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.436,
+      "freshness": 0.323,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -595,69 +626,7 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
-    },
-    {
-      "id": "0ca7c60079731f2e",
-      "name": "Yossi Cohen :  We walked around Fordow many time to understand Iran nuclear site",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0ca7c60079731f2e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.436,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/hktxpko8gx",
-      "published_at": "2026-08-11T13:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
-    },
-    {
-      "id": "b309544f3858e4f7",
-      "name": "Iran - backed Houthi rebels renew attacks on port city , more Mideast news",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b309544f3858e4f7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.328,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "mendocinobeacon.com",
-      "url": "https://www.mendocinobeacon.com/2026/08/11/houthi-rebels-attacks-mideast-news/",
-      "published_at": "2026-08-11T12:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
+        "immediate": 0.5,
         "short": 1.9,
         "extended": 3.2
       }
@@ -2361,17 +2330,23 @@ window.MAGEN_STATE = {
       "immediate": 32,
       "short": 34,
       "extended": 31
+    },
+    {
+      "timestamp": "2026-08-11T17:42:13.439781Z",
+      "immediate": 25,
+      "short": 27,
+      "extended": 25
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-11T16:39:11.768571Z",
+    "last_success": "2026-08-11T17:42:13.439781Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 19
+        "relevant": 18
       },
       "manual": {
         "ok": true,
