@@ -1,37 +1,37 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-10T23:45:50.913684Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-11T00:44:04.613780Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 14,
+      "score": 11,
       "low": 0,
       "high": 29,
-      "confidence": 58,
+      "confidence": 41,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 16,
-      "low": 1,
-      "high": 31,
-      "confidence": 58,
+      "score": 12,
+      "low": 0,
+      "high": 30,
+      "confidence": 41,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
-      "low": 1,
-      "high": 31,
-      "confidence": 58,
+      "score": 12,
+      "low": 0,
+      "high": 30,
+      "confidence": 41,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
@@ -42,7 +42,7 @@
     {
       "time": "00:15",
       "text": "A Look at Iran New Military Command amid Prolonged War with US and Israel",
-      "impact": "השפעה מיידית מחושבת: +12.0",
+      "impact": "השפעה מיידית מחושבת: +9.1",
       "direction": "up",
       "source": "pakobserver.net",
       "signal_id": "ac9afcdb669bfc18"
@@ -50,7 +50,7 @@
     {
       "time": "01:00",
       "text": "US military pressure forcing Hormuz closure Iran",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "iranherald.com",
       "signal_id": "e89de33e4665e687"
@@ -58,7 +58,7 @@
     {
       "time": "01:00",
       "text": "Ukraine must pay for deadly ship strike Iran",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "iranherald.com",
       "signal_id": "6ca940cb02cd6bb6"
@@ -66,7 +66,7 @@
     {
       "time": "00:30",
       "text": "Who who : Meet Iran new top military officials appointed by Leader",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "islamicinvitationturkey.com",
       "signal_id": "c86e1270f6a25d9a"
@@ -83,7 +83,7 @@
       "dependency_group": "ac9afcdb669bfc18",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.488,
+      "freshness": 0.37,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-10T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 12.0,
-        "short": 9.4,
-        "extended": 4.0
-      }
+        "immediate": 9.1,
+        "short": 7.1,
+        "extended": 3.0
+      },
+      "carried_forward": true
     },
     {
       "id": "e89de33e4665e687",
@@ -114,7 +115,7 @@
       "dependency_group": "e89de33e4665e687",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.604,
+      "freshness": 0.458,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-10T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      },
+      "carried_forward": true
     },
     {
       "id": "6ca940cb02cd6bb6",
@@ -145,7 +147,7 @@
       "dependency_group": "6ca940cb02cd6bb6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.604,
+      "freshness": 0.458,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-10T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      },
+      "carried_forward": true
     },
     {
       "id": "c86e1270f6a25d9a",
@@ -176,7 +179,7 @@
       "dependency_group": "c86e1270f6a25d9a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.524,
+      "freshness": 0.397,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-10T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     },
     {
       "id": "8df212227eb2ece4",
@@ -207,7 +211,7 @@
       "dependency_group": "8df212227eb2ece4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.524,
+      "freshness": 0.397,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-10T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -1843,17 +1848,23 @@
       "immediate": 14,
       "short": 16,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-11T00:44:04.613780Z",
+      "immediate": 11,
+      "short": 12,
+      "extended": 12
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-10T23:45:50.913684Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 5
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
