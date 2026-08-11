@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-11T17:42:13.439781Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-11T18:39:44.469471Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 64,
-      "status": "מוגבר"
+      "score": 19,
+      "low": 3,
+      "high": 35,
+      "confidence": 48,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 27,
-      "low": 14,
-      "high": 40,
-      "confidence": 64,
-      "status": "מוגבר"
+      "score": 21,
+      "low": 5,
+      "high": 37,
+      "confidence": 48,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 64,
-      "status": "מוגבר"
+      "score": 20,
+      "low": 4,
+      "high": 36,
+      "confidence": 48,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -7
+    "points_60m": -6
   },
   "changes": [
     {
       "time": "18:30",
       "text": "Israel former Mossad chief says spies  toured  Iran nuclear site – The Frontier Post",
-      "impact": "השפעה מיידית מחושבת: +13.1",
+      "impact": "השפעה מיידית מחושבת: +10.0",
       "direction": "up",
       "source": "thefrontierpost.com",
       "signal_id": "166a30a6e855b382"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "17:45",
       "text": "Israel former Mossad chief says spies  toured  Iran nuclear site",
-      "impact": "השפעה מיידית מחושבת: +10.6",
+      "impact": "השפעה מיידית מחושבת: +8.1",
       "direction": "up",
       "source": "arabnews.com",
       "signal_id": "f306ce434fbc9d40"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:00",
       "text": "Iran supreme leader elevates military veterans willing to confront the US | National & World News",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "news8000.com",
       "signal_id": "8cbf4071022cbc9d"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:45",
       "text": "Trump used catering truck ruse to sneak off Air Force One after Iran threat , report says",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "wndu.com",
       "signal_id": "2129390d04d18325"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "166a30a6e855b382",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.533,
+      "freshness": 0.405,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 13.1,
-        "short": 10.2,
-        "extended": 4.3
-      }
+        "immediate": 10.0,
+        "short": 7.8,
+        "extended": 3.3
+      },
+      "carried_forward": true
     },
     {
       "id": "f306ce434fbc9d40",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f306ce434fbc9d40",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.43,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 10.6,
-        "short": 8.3,
-        "extended": 3.5
-      }
+        "immediate": 8.1,
+        "short": 6.3,
+        "extended": 2.7
+      },
+      "carried_forward": true
     },
     {
       "id": "8cbf4071022cbc9d",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8cbf4071022cbc9d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.818,
+      "freshness": 0.622,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.1
-      }
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      },
+      "carried_forward": true
     },
     {
       "id": "2129390d04d18325",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2129390d04d18325",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.572,
+      "freshness": 0.435,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,41 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
-    },
-    {
-      "id": "be1b5d46303283a2",
-      "name": "IRAN WAR : Lebanon says Israeli strike on south wounds 2",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "be1b5d46303283a2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.572,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "torontosun.com",
-      "url": "https://torontosun.com/news/world/iran-war-latest-august-11",
-      "published_at": "2026-08-11T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
+      "carried_forward": true
     },
     {
       "id": "cc31454659762dc1",
@@ -238,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cc31454659762dc1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.533,
+      "freshness": 0.405,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      },
+      "carried_forward": true
     },
     {
       "id": "463ce0acf6f55881",
@@ -269,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "463ce0acf6f55881",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.533,
+      "freshness": 0.405,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +259,43 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "be1b5d46303283a2",
+      "name": "IRAN WAR : Lebanon says Israeli strike on south wounds 2",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "be1b5d46303283a2",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.435,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "torontosun.com",
+      "url": "https://torontosun.com/news/world/iran-war-latest-august-11",
+      "published_at": "2026-08-11T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      },
+      "carried_forward": true
     },
     {
       "id": "acdf8f14c6ad4014",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "acdf8f14c6ad4014",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.533,
+      "freshness": 0.405,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      },
+      "carried_forward": true
     },
     {
       "id": "5cfb6582518ab8d5",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5cfb6582518ab8d5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.533,
+      "freshness": 0.405,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      },
+      "carried_forward": true
     },
     {
       "id": "206bf6733ff2bac2",
@@ -362,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "206bf6733ff2bac2",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.4,
+      "freshness": 0.304,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      },
+      "carried_forward": true
     },
     {
       "id": "584ac1d83e39a0ab",
@@ -393,7 +403,7 @@ window.MAGEN_STATE = {
       "dependency_group": "584ac1d83e39a0ab",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.43,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "460fce95022fc7b0",
@@ -424,7 +435,7 @@ window.MAGEN_STATE = {
       "dependency_group": "460fce95022fc7b0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.43,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,10 +451,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "9a069939aedc23cb",
@@ -455,7 +467,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9a069939aedc23cb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.43,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,10 +483,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "214716a0ae1de1ae",
@@ -486,7 +499,7 @@ window.MAGEN_STATE = {
       "dependency_group": "214716a0ae1de1ae",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.43,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,10 +515,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "089292388a9aa6d9",
@@ -517,7 +531,7 @@ window.MAGEN_STATE = {
       "dependency_group": "089292388a9aa6d9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.43,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,10 +547,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "48d7377962a7535a",
@@ -548,7 +563,7 @@ window.MAGEN_STATE = {
       "dependency_group": "48d7377962a7535a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.347,
+      "freshness": 0.264,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -564,10 +579,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     },
     {
       "id": "2fdb7c7017358e85",
@@ -579,7 +595,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2fdb7c7017358e85",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.323,
+      "freshness": 0.246,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -595,10 +611,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
+      },
+      "carried_forward": true
     },
     {
       "id": "5dd256c6bba6559e",
@@ -610,7 +627,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5dd256c6bba6559e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.323,
+      "freshness": 0.246,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -626,10 +643,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2336,17 +2354,23 @@ window.MAGEN_STATE = {
       "immediate": 25,
       "short": 27,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-08-11T18:39:44.469471Z",
+      "immediate": 19,
+      "short": 21,
+      "extended": 20
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-11T17:42:13.439781Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 18
+        "ok": false,
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "carried_forward": 18
       },
       "manual": {
         "ok": true,
