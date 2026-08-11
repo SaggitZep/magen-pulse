@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-11T09:11:07.333210Z",
+  "generated_at": "2026-08-11T10:13:43.187492Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
-      "high": 20,
-      "confidence": 47,
+      "high": 19,
+      "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 6,
       "low": 0,
-      "high": 25,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 45,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
+      "score": 11,
       "low": 0,
-      "high": 31,
-      "confidence": 47,
+      "high": 28,
+      "confidence": 45,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:00",
       "text": "Iran unveils new missile capabilities as Strait of Hormuz stays closed",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "express.co.uk",
       "signal_id": "7774d806635d7f82"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:00",
       "text": "Saudi Arabia , Türkiye and Pakistan Forge Mutual Defence Pact , as Iran Pursues New Shipping Framework",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "ipsnews.net",
       "signal_id": "af36afe4757c1314"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:45",
       "text": "Catering truck and decoy jet : Secret mission to protect Trump from Iranian threat",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "israelnationalnews.com",
       "signal_id": "1972c0c1459dcd0e"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:45",
       "text": "Trump  forced to hide in catering cart  after Iran assassination threat",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "express.co.uk",
       "signal_id": "1ba94989eccdbaeb"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7774d806635d7f82",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.536,
+      "freshness": 0.398,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "af36afe4757c1314",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.536,
+      "freshness": 0.398,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1972c0c1459dcd0e",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.282,
+      "freshness": 0.209,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.3
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1ba94989eccdbaeb",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.282,
+      "freshness": 0.209,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,41 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8a72fcd3f2023aa9",
-      "name": "Mohsen Rezaei Profile : Iran Hardliner Wanted by Interpol Who Threatened to Capture 1 , 000 US Hostages Named Supreme National Security Council Chief",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8a72fcd3f2023aa9",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.244,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gulfnews.com",
-      "url": "https://gulfnews.com/world/mena/profile-mohsen-rezaei-71-iran-hardliner-who-threatened-to-capture-at-least-1000-us-hostages-gets-top-post-1.500636803",
-      "published_at": "2026-08-11T04:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.3
       },
       "carried_forward": true
     },
@@ -243,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "15cbf3af37c81621",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.302,
+      "freshness": 0.224,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 3.0
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -275,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "463ce0acf6f55881",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.262,
+      "freshness": 0.195,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +259,41 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "8a72fcd3f2023aa9",
+      "name": "Mohsen Rezaei Profile : Iran Hardliner Wanted by Interpol Who Threatened to Capture 1 , 000 US Hostages Named Supreme National Security Council Chief",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8a72fcd3f2023aa9",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.181,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gulfnews.com",
+      "url": "https://gulfnews.com/world/mena/profile-mohsen-rezaei-71-iran-hardliner-who-threatened-to-capture-at-least-1000-us-hostages-gets-top-post-1.500636803",
+      "published_at": "2026-08-11T04:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -1954,6 +1954,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 8,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-08-11T10:13:43.187492Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 11
     }
   ],
   "health": {
