@@ -1,89 +1,89 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-11T18:39:44.469471Z",
+  "mode": "live",
+  "generated_at": "2026-08-11T19:47:02.671336Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 19,
-      "low": 3,
-      "high": 35,
-      "confidence": 48,
-      "status": "נמוך"
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 66,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 21,
-      "low": 5,
-      "high": 37,
-      "confidence": 48,
-      "status": "נמוך"
+      "score": 30,
+      "low": 17,
+      "high": 43,
+      "confidence": 66,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 4,
-      "high": 36,
-      "confidence": 48,
-      "status": "נמוך"
+      "score": 29,
+      "low": 16,
+      "high": 42,
+      "confidence": 66,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -6
+    "level": "עלייה מהירה",
+    "points_60m": 9
   },
   "changes": [
     {
-      "time": "18:30",
-      "text": "Israel former Mossad chief says spies  toured  Iran nuclear site – The Frontier Post",
-      "impact": "השפעה מיידית מחושבת: +10.0",
+      "time": "20:45",
+      "text": "Spioni israelieni au verificat „ de mai multe ori  un sit nuclear iranian . Dezvăluirile unui fost şef al Mossad",
+      "impact": "השפעה מיידית מחושבת: +13.8",
       "direction": "up",
-      "source": "thefrontierpost.com",
-      "signal_id": "166a30a6e855b382"
+      "source": "digi24.ro",
+      "signal_id": "edd515193f333326"
     },
     {
-      "time": "17:45",
-      "text": "Israel former Mossad chief says spies  toured  Iran nuclear site",
-      "impact": "השפעה מיידית מחושבת: +8.1",
+      "time": "20:30",
+      "text": "Un fost şef Mossad face dezvăluiri spectaculoase : Spioni israelieni au  vizitat  un sit nuclear iranian",
+      "impact": "השפעה מיידית מחושבת: +12.8",
       "direction": "up",
-      "source": "arabnews.com",
-      "signal_id": "f306ce434fbc9d40"
+      "source": "stiripesurse.ro",
+      "signal_id": "2ee4631616aa7b13"
     },
     {
-      "time": "20:00",
-      "text": "Iran supreme leader elevates military veterans willing to confront the US | National & World News",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "22:15",
+      "text": "EXPLAINER - Who are Iran new wartime security and military leaders ?",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "news8000.com",
-      "signal_id": "8cbf4071022cbc9d"
+      "source": "aa.com.tr",
+      "signal_id": "2d619f4b022c5b67"
     },
     {
-      "time": "18:45",
-      "text": "Trump used catering truck ruse to sneak off Air Force One after Iran threat , report says",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "22:15",
+      "text": "Iran War Draws Nuclear Superpowers Closer – Endtime Ministries",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "wndu.com",
-      "signal_id": "2129390d04d18325"
+      "source": "endtime.com",
+      "signal_id": "76cdce1c18a40453"
     }
   ],
   "signals": [
     {
-      "id": "166a30a6e855b382",
-      "name": "Israel former Mossad chief says spies  toured  Iran nuclear site – The Frontier Post",
+      "id": "edd515193f333326",
+      "name": "Spioni israelieni au verificat „ de mai multe ori  un sit nuclear iranian . Dezvăluirile unui fost şef al Mossad",
       "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
       "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "166a30a6e855b382",
+      "dependency_group": "edd515193f333326",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.405,
+      "freshness": 0.559,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -94,28 +94,27 @@
         "short": 0.88,
         "extended": 0.56
       },
-      "source": "thefrontierpost.com",
-      "url": "https://thefrontierpost.com/israels-former-mossad-chief-says-spies-toured-iran-nuclear-site/",
-      "published_at": "2026-08-11T15:30:00Z",
+      "source": "digi24.ro",
+      "url": "https://www.digi24.ro/stiri/externe/spioni-israelieni-au-verificat-de-mai-multe-ori-un-sit-nuclear-iranian-dezvaluirile-unui-fost-sef-al-mossad-3902309",
+      "published_at": "2026-08-11T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 10.0,
-        "short": 7.8,
-        "extended": 3.3
-      },
-      "carried_forward": true
+        "immediate": 13.8,
+        "short": 10.7,
+        "extended": 4.6
+      }
     },
     {
-      "id": "f306ce434fbc9d40",
-      "name": "Israel former Mossad chief says spies  toured  Iran nuclear site",
+      "id": "2ee4631616aa7b13",
+      "name": "Un fost şef Mossad face dezvăluiri spectaculoase : Spioni israelieni au  vizitat  un sit nuclear iranian",
       "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
       "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "f306ce434fbc9d40",
+      "dependency_group": "2ee4631616aa7b13",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.327,
+      "freshness": 0.521,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -126,16 +125,170 @@
         "short": 0.88,
         "extended": 0.56
       },
-      "source": "arabnews.com",
-      "url": "https://www.arabnews.com/node/2654252/middle-east",
-      "published_at": "2026-08-11T14:45:00Z",
+      "source": "stiripesurse.ro",
+      "url": "https://www.stiripesurse.ro/un-fost-sef-mossad-face-dezvaluiri-spectaculoase-spioni-israelieni-au-vizitat-un-sit-nuclear-iranian_3911342",
+      "published_at": "2026-08-11T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 8.1,
-        "short": 6.3,
-        "extended": 2.7
+        "immediate": 12.8,
+        "short": 10.0,
+        "extended": 4.2
+      }
+    },
+    {
+      "id": "2d619f4b022c5b67",
+      "name": "EXPLAINER - Who are Iran new wartime security and military leaders ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2d619f4b022c5b67",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.858,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/features/explainer-who-are-iran-s-new-wartime-security-and-military-leaders/4024334",
+      "published_at": "2026-08-11T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
+    },
+    {
+      "id": "76cdce1c18a40453",
+      "name": "Iran War Draws Nuclear Superpowers Closer – Endtime Ministries",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "76cdce1c18a40453",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.858,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "endtime.com",
+      "url": "https://www.endtime.com/prophecy-news/iran-war-draws-nuclear-superpowers-closer/",
+      "published_at": "2026-08-11T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
+    },
+    {
+      "id": "e9a7506bd20aca4a",
+      "name": "Ex - Obama Aide Slams  Weak  Trump for  Hiding  Amid Iranian Threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e9a7506bd20aca4a",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.601,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "radaronline.com",
+      "url": "https://radaronline.com/p/ex-obama-spokesman-calls-trump-weak-hiding-plane-swap/",
+      "published_at": "2026-08-11T18:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "6a5ab137cfae5751",
+      "name": "Iran , Malaysia discuss expanding defence and military cooperation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6a5ab137cfae5751",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.559,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.az",
+      "url": "https://news.az/news/iran-malaysia-discuss-expanding-defence-and-military-cooperation",
+      "published_at": "2026-08-11T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.2,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "24f3d40d5d5f739b",
+      "name": "Iran supreme leader elevates military veterans willing to confront the US",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "24f3d40d5d5f739b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.521,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ktvz.com",
+      "url": "https://ktvz.com/news/national-world/cnn-world/2026/08/11/irans-supreme-leader-shakes-up-military-leadership-as-hopes-of-hormuz-deal-fade/",
+      "published_at": "2026-08-11T17:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
     },
     {
       "id": "8cbf4071022cbc9d",
@@ -147,7 +300,7 @@
       "dependency_group": "8cbf4071022cbc9d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.622,
+      "freshness": 0.451,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,87 +316,22 @@
       "published_at": "2026-08-11T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2129390d04d18325",
-      "name": "Trump used catering truck ruse to sneak off Air Force One after Iran threat , report says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2129390d04d18325",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.435,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wndu.com",
-      "url": "https://www.wndu.com/2026/08/11/trump-used-catering-truck-ruse-sneak-off-air-force-one-after-iran-threat-report-says/",
-      "published_at": "2026-08-11T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "cc31454659762dc1",
-      "name": "Trump used catering truck to sneak out of Turkey amid Iran threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cc31454659762dc1",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.405,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nydailynews.com",
-      "url": "https://www.nydailynews.com/2026/08/11/trump-turkey-plane-catering-truck/",
-      "published_at": "2026-08-11T15:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.8,
         "short": 2.6,
-        "extended": 4.5
-      },
-      "carried_forward": true
+        "extended": 4.4
+      }
     },
     {
-      "id": "463ce0acf6f55881",
-      "name": "Trump used elaborate ruse to fly out of Turkey following summit because of Iran threat , report says",
+      "id": "bbfd60bef1925808",
+      "name": "Trump switched planes hidden in a food truck over Iran threat : U . S . report - National",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "463ce0acf6f55881",
+      "dependency_group": "bbfd60bef1925808",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.405,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,28 +342,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "sun-sentinel.com",
-      "url": "https://www.sun-sentinel.com/2026/08/10/trump-used-elaborate-ruse-to-fly-out-of-turkey-following-summit-because-of-iran-threat-report-says/",
-      "published_at": "2026-08-11T15:30:00Z",
+      "source": "globalnews.ca",
+      "url": "https://globalnews.ca/news/12016676/donald-trump-air-force-one-switched-planes-turkey/",
+      "published_at": "2026-08-11T16:45:00Z",
       "active": true,
       "computed": {
         "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      },
-      "carried_forward": true
+        "short": 2.7,
+        "extended": 4.7
+      }
     },
     {
-      "id": "be1b5d46303283a2",
-      "name": "IRAN WAR : Lebanon says Israeli strike on south wounds 2",
+      "id": "39871b02eee7fa9c",
+      "name": "El Mossad visitó la central nuclear iraní de Fordow en varias ocasiones",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "be1b5d46303283a2",
+      "dependency_group": "39871b02eee7fa9c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.435,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -286,368 +373,46 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "torontosun.com",
-      "url": "https://torontosun.com/news/world/iran-war-latest-august-11",
-      "published_at": "2026-08-11T15:45:00Z",
+      "source": "lavanguardia.com",
+      "url": "https://www.lavanguardia.com/internacional/20260811/11612155/mossad-visito-central-nuclear-irani-fordow-ocasiones.html",
+      "published_at": "2026-08-11T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "00faa42c5d3845c5",
+      "name": "President Donald Trump used elaborate ruse to fly out of Turkey following summit because of Iran threat , report says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "00faa42c5d3845c5",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.391,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "journalgazette.net",
+      "url": "https://www.journalgazette.net/news/national/president-donald-trump-used-elaborate-ruse-to-fly-out-of-turkey-following-summit-because-of/article_3bc888f4-cb60-5e2f-9054-135b715f57c1.html",
+      "published_at": "2026-08-11T16:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.7,
         "short": 2.5,
         "extended": 4.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "acdf8f14c6ad4014",
-      "name": "Iranian - backed Houthi rebels renew attacks on key port , and other developments in the Mideast",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "acdf8f14c6ad4014",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.405,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wwaytv3.com",
-      "url": "https://www.wwaytv3.com/iranian-backed-houthi-rebels-renew-attacks-on-key-port-and-other-developments-in-the-mideast/",
-      "published_at": "2026-08-11T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5cfb6582518ab8d5",
-      "name": "US fired on Panama - flagged ship that tried to break blockade of Iranian ports : report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5cfb6582518ab8d5",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.405,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nypost.com",
-      "url": "https://nypost.com/2026/08/11/world-news/us-fired-on-panama-flagged-ship-that-tried-to-break-blockade-of-iranian-ports-report/",
-      "published_at": "2026-08-11T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "206bf6733ff2bac2",
-      "name": "US forces fired at ship breaking blockade of Iranian ports",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "206bf6733ff2bac2",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.304,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-905200",
-      "published_at": "2026-08-11T14:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "584ac1d83e39a0ab",
-      "name": "Iranian - backed Houthis kill 4 in attack on vessel , and other developments in the Mideast",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "584ac1d83e39a0ab",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.327,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "castanetkamloops.net",
-      "url": "https://www.castanetkamloops.net/news/World/627643/Iranian-backed-Houthis-kill-4-in-attack-on-vessel-and-other-developments-in-the-Mideast",
-      "published_at": "2026-08-11T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "460fce95022fc7b0",
-      "name": "Iranian - backed Houthis kill 4 in attack on vessel , more Mideast news",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "460fce95022fc7b0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.327,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "courant.com",
-      "url": "https://www.courant.com/2026/08/11/houthi-rebels-attacks-mideast-news/",
-      "published_at": "2026-08-11T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9a069939aedc23cb",
-      "name": "Three Killed In a Strike In Bab el - Mandeb . Iran - Backed Houthis Are Suspected Of Conducting It .",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9a069939aedc23cb",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.327,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ibtimes.com",
-      "url": "https://www.ibtimes.com/three-killed-strike-bab-el-mandeb-iran-backed-houthis-are-suspected-conducting-it-3806281",
-      "published_at": "2026-08-11T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "214716a0ae1de1ae",
-      "name": "Houthis kill three in first deadly attack since start of Iran war",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "214716a0ae1de1ae",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.327,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yahoo.com",
-      "url": "https://www.yahoo.com/news/world/articles/houthis-kill-three-first-deadly-133602857.html",
-      "published_at": "2026-08-11T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "089292388a9aa6d9",
-      "name": "US fired on Panama - flagged ship that tried to break blockade of Iranian ports , WSJ reports citing US official",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "089292388a9aa6d9",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.327,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/us-military-intercepts-panama-flagged-ship-attempting-to-breach-iranian-blockade-fire-gunshot-reported/articleshow/133156140.cms",
-      "published_at": "2026-08-11T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "48d7377962a7535a",
-      "name": "Iranian - backed Houthi rebels renew attacks on key port city , and other developments in the Mideast – KTBB News , Weather , Talk",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "48d7377962a7535a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.264,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ktbb.com",
-      "url": "https://ktbb.com/post/?p=1531870",
-      "published_at": "2026-08-11T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2fdb7c7017358e85",
-      "name": "Iran issues  strong condemnation  of Israel weekend strikes on Lebanon , says US part of all crimes due to its support",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2fdb7c7017358e85",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.246,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "austinglobe.com",
-      "url": "http://www.austinglobe.com/news/279234127/iran-issues-trong-condemnation-of-israel-weekend-strikes-on-lebanon-says-us-part-of-all-crimes-due-to-its-support",
-      "published_at": "2026-08-11T13:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5dd256c6bba6559e",
-      "name": "Iranian - backed Houthi rebels renew attacks on key port , and ...",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5dd256c6bba6559e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.246,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "semissourian.com",
-      "url": "https://www.semissourian.com/world/iranian-backed-houthi-rebels-renew-attacks-on-key-port-city-and-other-developments-in-the-mideast-d882c445",
-      "published_at": "2026-08-11T13:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
+      }
     }
   ],
   "history": [
@@ -2360,17 +2125,23 @@
       "immediate": 19,
       "short": 21,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-11T19:47:02.671336Z",
+      "immediate": 28,
+      "short": 30,
+      "extended": 29
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-11T17:42:13.439781Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-11T19:47:02.671336Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 18
+        "ok": true,
+        "items": 150,
+        "relevant": 11
       },
       "manual": {
         "ok": true,
