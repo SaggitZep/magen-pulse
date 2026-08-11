@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-11T21:27:19.000099Z",
+  "generated_at": "2026-08-11T22:21:32.174206Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 34,
-      "low": 21,
-      "high": 47,
-      "confidence": 68,
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 67,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 34,
-      "low": 21,
-      "high": 47,
-      "confidence": 69,
+      "score": 31,
+      "low": 18,
+      "high": 44,
+      "confidence": 68,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 34,
-      "low": 21,
-      "high": 47,
-      "confidence": 69,
+      "score": 29,
+      "low": 16,
+      "high": 42,
+      "confidence": 68,
       "status": "מוגבר"
     }
   },
@@ -35,14 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מהירה",
-    "points_60m": 11
+    "level": "ירידה",
+    "points_60m": -6
   },
   "changes": [
     {
       "time": "23:15",
       "text": "דיווח : ישראל חשפה איום מאיראן על טראמפ",
-      "impact": "השפעה מיידית מחושבת: +19.2",
+      "impact": "השפעה מיידית מחושבת: +14.8",
       "direction": "up",
       "source": "srugim.co.il",
       "signal_id": "0946101c833dd0a8"
@@ -50,26 +50,26 @@ window.MAGEN_STATE = {
     {
       "time": "22:45",
       "text": "INSIDE FORDOW : Former Mossad Chief Yossi Cohen Reveals Israeli Operatives Visited Iranian Nuclear Site  Many Time – The Yeshiva World",
-      "impact": "השפעה מיידית מחושבת: +15.1",
+      "impact": "השפעה מיידית מחושבת: +11.7",
       "direction": "up",
       "source": "theyeshivaworld.com",
       "signal_id": "eb42f3334377b9db"
     },
     {
-      "time": "20:45",
-      "text": "Spioni israelieni au verificat „ de mai multe ori  un sit nuclear iranian . Dezvăluirile unui fost şef al Mossad",
-      "impact": "השפעה מיידית מחושבת: +8.6",
+      "time": "01:00",
+      "text": "US military fires on cargo vessel it said sought to break Iran blockade - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "digi24.ro",
-      "signal_id": "edd515193f333326"
+      "source": "dominicanrepublicpost.com",
+      "signal_id": "19750ba37e4b6388"
     },
     {
-      "time": "20:30",
-      "text": "Un fost şef Mossad face dezvăluiri spectaculoase : Spioni israelieni au  vizitat  un sit nuclear iranian",
-      "impact": "השפעה מיידית מחושבת: +8.0",
+      "time": "00:15",
+      "text": "Trump Left Unsuspecting Staff on Decoy Flight While Secretly Escaping in Catering Truck Amid Iranian Threat",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "stiripesurse.ro",
-      "signal_id": "2ee4631616aa7b13"
+      "source": "ibtimes.co.uk",
+      "signal_id": "f2edb3a97cdb3f17"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0946101c833dd0a8",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.709,
+      "freshness": 0.547,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 19.2,
-        "short": 15.0,
-        "extended": 6.4
+        "immediate": 14.8,
+        "short": 11.6,
+        "extended": 4.9
       }
     },
     {
@@ -114,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "eb42f3334377b9db",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.614,
+      "freshness": 0.475,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -130,71 +130,71 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 15.1,
-        "short": 11.8,
-        "extended": 5.0
+        "immediate": 11.7,
+        "short": 9.1,
+        "extended": 3.9
       }
     },
     {
-      "id": "edd515193f333326",
-      "name": "Spioni israelieni au verificat „ de mai multe ori  un sit nuclear iranian . Dezvăluirile unui fost şef al Mossad",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "19750ba37e4b6388",
+      "name": "US military fires on cargo vessel it said sought to break Iran blockade - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "edd515193f333326",
-      "strength": 0.5,
+      "dependency_group": "19750ba37e4b6388",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.347,
+      "freshness": 0.903,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "digi24.ro",
-      "url": "https://www.digi24.ro/stiri/externe/spioni-israelieni-au-verificat-de-mai-multe-ori-un-sit-nuclear-iranian-dezvaluirile-unui-fost-sef-al-mossad-3902309",
-      "published_at": "2026-08-11T17:45:00Z",
+      "source": "dominicanrepublicpost.com",
+      "url": "https://dominicanrepublicpost.com/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade/",
+      "published_at": "2026-08-11T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 8.6,
-        "short": 6.7,
-        "extended": 2.8
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.9
       }
     },
     {
-      "id": "2ee4631616aa7b13",
-      "name": "Un fost şef Mossad face dezvăluiri spectaculoase : Spioni israelieni au  vizitat  un sit nuclear iranian",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "f2edb3a97cdb3f17",
+      "name": "Trump Left Unsuspecting Staff on Decoy Flight While Secretly Escaping in Catering Truck Amid Iranian Threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "2ee4631616aa7b13",
-      "strength": 0.5,
+      "dependency_group": "f2edb3a97cdb3f17",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.323,
+      "freshness": 0.728,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "stiripesurse.ro",
-      "url": "https://www.stiripesurse.ro/un-fost-sef-mossad-face-dezvaluiri-spectaculoase-spioni-israelieni-au-vizitat-un-sit-nuclear-iranian_3911342",
-      "published_at": "2026-08-11T17:30:00Z",
+      "source": "ibtimes.co.uk",
+      "url": "https://www.ibtimes.co.uk/trump-secret-departure-nato-summit-security-ruse-1813647",
+      "published_at": "2026-08-11T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 8.0,
-        "short": 6.2,
-        "extended": 2.6
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.1
       }
     },
     {
@@ -207,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "463ce0acf6f55881",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.878,
+      "freshness": 0.678,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.7,
-        "extended": 9.7
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
       }
     },
     {
@@ -238,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b32f70cd15c92012",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.878,
+      "freshness": 0.678,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
       }
     },
     {
@@ -269,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a0f0b68b2862353a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.878,
+      "freshness": 0.678,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +285,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "7701c6d2269ee9b7",
+      "name": "Iranian - backed Houthis kill 6 in attack on vessel , and other developments in the Mideast",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7701c6d2269ee9b7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.728,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news-gazette.com",
+      "url": "https://www.news-gazette.com/news/nation-world/iranian-backed-houthis-kill-6-in-attack-on-vessel-and-other-developments-in-the-mideast/article_4c2738c1-1bf5-5f9d-9282-f6eb79912cf4.html",
+      "published_at": "2026-08-11T21:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
       }
     },
     {
@@ -300,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8612c6a10a92f19f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.878,
+      "freshness": 0.678,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,9 +347,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
       }
     },
     {
@@ -331,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b7315fd47d2dda5f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.878,
+      "freshness": 0.678,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,9 +378,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
       }
     },
     {
@@ -362,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5e35a952ee7accbf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.878,
+      "freshness": 0.678,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,9 +409,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
       }
     },
     {
@@ -393,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "353613fbd4f10e04",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.709,
+      "freshness": 0.547,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,40 +440,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.9
-      }
-    },
-    {
-      "id": "7701c6d2269ee9b7",
-      "name": "Iranian - backed Houthis kill 6 in attack on vessel , and other developments in the Mideast",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7701c6d2269ee9b7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.761,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailygazette.com",
-      "url": "https://www.dailygazette.com/hv360/ap/national/iranian-backed-houthis-kill-6-in-attack-on-vessel-and-other-developments-in-the-mideast/article_403dbb4e-cb3d-5c00-ad8a-73f00622a509.html",
-      "published_at": "2026-08-11T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
+        "immediate": 1.0,
+        "short": 3.6,
+        "extended": 6.1
       }
     },
     {
@@ -455,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f9ed97347740fbcd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.66,
+      "freshness": 0.51,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,40 +471,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      }
-    },
-    {
-      "id": "ed323d30b5189e94",
-      "name": "Trump Took Secret Flight From Turkey Amid Reported Iran Threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ed323d30b5189e94",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.572,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moroccoworldnews.com",
-      "url": "https://www.moroccoworldnews.com/2026/08/334197/trump-took-secret-flight-from-turkey-amid-reported-iran-threat/",
-      "published_at": "2026-08-11T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.0
       }
     },
     {
@@ -517,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cca5a573cd0e9753",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.614,
+      "freshness": 0.475,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,9 +502,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.6,
-        "extended": 6.1
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
+      }
+    },
+    {
+      "id": "ed323d30b5189e94",
+      "name": "Trump Took Secret Flight From Turkey Amid Reported Iran Threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ed323d30b5189e94",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.442,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moroccoworldnews.com",
+      "url": "https://www.moroccoworldnews.com/2026/08/334197/trump-took-secret-flight-from-turkey-amid-reported-iran-threat/",
+      "published_at": "2026-08-11T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       }
     },
     {
@@ -548,7 +548,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2d619f4b022c5b67",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.533,
+      "freshness": 0.411,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -564,9 +564,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
@@ -579,7 +579,7 @@ window.MAGEN_STATE = {
       "dependency_group": "76cdce1c18a40453",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.533,
+      "freshness": 0.411,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -595,71 +595,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
-    },
-    {
-      "id": "e9a7506bd20aca4a",
-      "name": "Ex - Obama Aide Slams  Weak  Trump for  Hiding  Amid Iranian Threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e9a7506bd20aca4a",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.373,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "radaronline.com",
-      "url": "https://radaronline.com/p/ex-obama-spokesman-calls-trump-weak-hiding-plane-swap/",
-      "published_at": "2026-08-11T18:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
         "short": 2.4,
         "extended": 4.1
-      }
-    },
-    {
-      "id": "6a5ab137cfae5751",
-      "name": "Iran , Malaysia discuss expanding defence and military cooperation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6a5ab137cfae5751",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.347,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.az",
-      "url": "https://news.az/news/iran-malaysia-discuss-expanding-defence-and-military-cooperation",
-      "published_at": "2026-08-11T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
       }
     }
   ],
@@ -2391,17 +2329,23 @@ window.MAGEN_STATE = {
       "immediate": 34,
       "short": 34,
       "extended": 34
+    },
+    {
+      "timestamp": "2026-08-11T22:21:32.174206Z",
+      "immediate": 28,
+      "short": 31,
+      "extended": 29
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-11T21:27:19.000099Z",
+    "last_success": "2026-08-11T22:21:32.174206Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 19
+        "relevant": 17
       },
       "manual": {
         "ok": true,
