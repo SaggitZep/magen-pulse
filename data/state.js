@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-12T22:53:49.343773Z",
+  "generated_at": "2026-08-12T23:53:07.858593Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 61,
+      "high": 16,
+      "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 11,
       "low": 0,
       "high": 24,
-      "confidence": 61,
+      "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
-      "low": 2,
-      "high": 30,
-      "confidence": 61,
+      "score": 18,
+      "low": 5,
+      "high": 31,
+      "confidence": 65,
       "status": "נמוך"
     }
   },
@@ -35,14 +35,22 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -7
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
+      "time": "02:15",
+      "text": "Iran developed advanced missiles in attacks on US bases",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "albawaba.net",
+      "signal_id": "66f27f9506f943b5"
+    },
+    {
       "time": "00:15",
       "text": "Tehran signals shift to  offensive  military doctrine , rules out extension of June interim deal",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "livemint.com",
       "signal_id": "924cdbd9269fd436"
@@ -50,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "00:00",
       "text": "Iran reshapes military command for  offensive  phase of war , crackdown on dissent",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "nypost.com",
       "signal_id": "bc3bedd37f065bdc"
@@ -58,21 +66,44 @@ window.MAGEN_STATE = {
     {
       "time": "23:45",
       "text": "Iran exposes US military as  weaker than perceived : IRGC commander",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "4466512ca04fbab3"
-    },
-    {
-      "time": "23:45",
-      "text": "With US talks frozen , Iran takes more aggressive military stance | Politics and Government",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "reviewjournal.com",
-      "signal_id": "b9407912f7999ea3"
     }
   ],
   "signals": [
+    {
+      "id": "66f27f9506f943b5",
+      "name": "Iran developed advanced missiles in attacks on US bases",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "66f27f9506f943b5",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.834,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "albawaba.net",
+      "url": "https://www.albawaba.net/news/iran-developed-advanced-missiles-attacks-1634918",
+      "published_at": "2026-08-12T23:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.9
+      }
+    },
     {
       "id": "924cdbd9269fd436",
       "name": "Tehran signals shift to  offensive  military doctrine , rules out extension of June interim deal",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "924cdbd9269fd436",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.625,
+      "freshness": 0.471,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     },
     {
@@ -114,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bc3bedd37f065bdc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.582,
+      "freshness": 0.438,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4466512ca04fbab3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.541,
+      "freshness": 0.408,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b9407912f7999ea3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.541,
+      "freshness": 0.408,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
       }
     }
   ],
@@ -2052,17 +2083,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-12T23:53:07.858593Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-12T22:53:49.343773Z",
+    "last_success": "2026-08-12T23:53:07.858593Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 4
+        "relevant": 5
       },
       "manual": {
         "ok": true,
