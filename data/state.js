@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-11T23:11:31.561382Z",
+  "generated_at": "2026-08-12T00:02:20.826391Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 23,
-      "low": 10,
-      "high": 36,
+      "score": 13,
+      "low": 0,
+      "high": 26,
       "confidence": 65,
-      "status": "מוגבר"
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 26,
-      "low": 13,
-      "high": 39,
+      "score": 20,
+      "low": 7,
+      "high": 33,
       "confidence": 65,
-      "status": "מוגבר"
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
       "score": 25,
       "low": 12,
       "high": 38,
-      "confidence": 65,
+      "confidence": 66,
       "status": "מוגבר"
     }
   },
@@ -36,40 +36,40 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -5
+    "points_60m": -10
   },
   "changes": [
     {
       "time": "23:15",
       "text": "דיווח : ישראל חשפה איום מאיראן על טראמפ",
-      "impact": "השפעה מיידית מחושבת: +11.7",
+      "impact": "השפעה מיידית מחושבת: +9.2",
       "direction": "up",
       "source": "srugim.co.il",
       "signal_id": "0946101c833dd0a8"
     },
     {
-      "time": "22:45",
-      "text": "INSIDE FORDOW : Former Mossad Chief Yossi Cohen Reveals Israeli Operatives Visited Iranian Nuclear Site  Many Time – The Yeshiva World",
-      "impact": "השפעה מיידית מחושבת: +9.2",
+      "time": "02:15",
+      "text": "New attacks on shipping as Iran war talks hit fresh impasse",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "theyeshivaworld.com",
-      "signal_id": "eb42f3334377b9db"
+      "source": "al-monitor.com",
+      "signal_id": "ad8bd205ba44dbb5"
+    },
+    {
+      "time": "02:15",
+      "text": "US Senate minority leader calls for briefing on alleged Iranian threat to Trump",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "aa.com.tr",
+      "signal_id": "e2cd9c27cc110fd6"
     },
     {
       "time": "01:15",
       "text": "US fires on ship trying to break blockade of Iran",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "salinapost.com",
       "signal_id": "d8d27d89b60036f1"
-    },
-    {
-      "time": "01:00",
-      "text": "US military fires on cargo vessel it said sought to break Iran blockade - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "dominicanrepublicpost.com",
-      "signal_id": "19750ba37e4b6388"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0946101c833dd0a8",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.431,
+      "freshness": 0.339,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,40 +99,71 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.7,
-        "short": 9.1,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "eb42f3334377b9db",
-      "name": "INSIDE FORDOW : Former Mossad Chief Yossi Cohen Reveals Israeli Operatives Visited Iranian Nuclear Site  Many Time – The Yeshiva World",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "eb42f3334377b9db",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.374,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2584493/inside-fordow-former-mossad-chief-yossi-cohen-reveals-israeli-operatives-visited-iranian-nuclear-site-many-times.html",
-      "published_at": "2026-08-11T19:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 9.2,
         "short": 7.2,
         "extended": 3.0
+      }
+    },
+    {
+      "id": "ad8bd205ba44dbb5",
+      "name": "New attacks on shipping as Iran war talks hit fresh impasse",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ad8bd205ba44dbb5",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.798,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/08/new-attacks-shipping-iran-war-talks-hit-fresh-impasse",
+      "published_at": "2026-08-11T23:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.1,
+        "extended": 10.4
+      }
+    },
+    {
+      "id": "e2cd9c27cc110fd6",
+      "name": "US Senate minority leader calls for briefing on alleged Iranian threat to Trump",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e2cd9c27cc110fd6",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.798,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/americas/us-senate-minority-leader-calls-for-briefing-on-alleged-iranian-threat-to-trump/4024670",
+      "published_at": "2026-08-11T23:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d8d27d89b60036f1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.764,
+      "freshness": 0.6,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T22:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "19750ba37e4b6388",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.711,
+      "freshness": 0.558,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
       }
     },
     {
@@ -207,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f2edb3a97cdb3f17",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.574,
+      "freshness": 0.451,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
       }
     },
     {
@@ -238,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7701c6d2269ee9b7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.574,
+      "freshness": 0.451,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.7
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       }
     },
     {
@@ -269,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "463ce0acf6f55881",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.535,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
       }
     },
     {
@@ -300,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b32f70cd15c92012",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.535,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,9 +347,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
@@ -331,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a0f0b68b2862353a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.535,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,9 +378,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
@@ -362,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8612c6a10a92f19f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.535,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,9 +409,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
@@ -393,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b7315fd47d2dda5f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.535,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,9 +440,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
@@ -424,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5e35a952ee7accbf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.535,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,9 +471,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
@@ -455,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "353613fbd4f10e04",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.431,
+      "freshness": 0.339,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,164 +502,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-11T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
-    },
-    {
-      "id": "f9ed97347740fbcd",
-      "name": "Iran supreme leader elevates military veterans willing to confront the US - LocalNews8 . com",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f9ed97347740fbcd",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.402,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "localnews8.com",
-      "url": "https://localnews8.com/news/national-world/cnn-world/2026/08/11/irans-supreme-leader-elevates-military-veterans-willing-to-confront-the-us/",
-      "published_at": "2026-08-11T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      }
-    },
-    {
-      "id": "ed323d30b5189e94",
-      "name": "Trump Took Secret Flight From Turkey Amid Reported Iran Threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ed323d30b5189e94",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.348,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moroccoworldnews.com",
-      "url": "https://www.moroccoworldnews.com/2026/08/334197/trump-took-secret-flight-from-turkey-amid-reported-iran-threat/",
-      "published_at": "2026-08-11T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "2d619f4b022c5b67",
-      "name": "EXPLAINER - Who are Iran new wartime security and military leaders ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2d619f4b022c5b67",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.324,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/features/explainer-who-are-iran-s-new-wartime-security-and-military-leaders/4024334",
-      "published_at": "2026-08-11T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      }
-    },
-    {
-      "id": "cca5a573cd0e9753",
-      "name": "Iran War Day 165 : U . S . Fires on Panama - Flagged Ship It Says Tried to Run Hormuz Blockade",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cca5a573cd0e9753",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.374,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theamericanconservative.com",
-      "url": "https://www.theamericanconservative.com/iran-war-day-165-u-s-fires-on-panama-flagged-ship-it-says-tried-to-run-hormuz-blockade/",
-      "published_at": "2026-08-11T19:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
         "short": 2.2,
-        "extended": 3.7
-      }
-    },
-    {
-      "id": "76cdce1c18a40453",
-      "name": "Iran War Draws Nuclear Superpowers Closer – Endtime Ministries",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "76cdce1c18a40453",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.324,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "endtime.com",
-      "url": "https://www.endtime.com/prophecy-news/iran-war-draws-nuclear-superpowers-closer/",
-      "published_at": "2026-08-11T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "extended": 3.8
       }
     }
   ],
@@ -2372,17 +2248,23 @@ window.MAGEN_STATE = {
       "immediate": 23,
       "short": 26,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-08-12T00:02:20.826391Z",
+      "immediate": 13,
+      "short": 20,
+      "extended": 25
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-11T23:11:31.561382Z",
+    "last_success": "2026-08-12T00:02:20.826391Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 18
+        "relevant": 14
       },
       "manual": {
         "ok": true,
