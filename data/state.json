@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-12T13:47:38.008923Z",
+  "generated_at": "2026-08-12T14:49:28.335620Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@
       "score": 3,
       "low": 0,
       "high": 17,
-      "confidence": 62,
+      "confidence": 60,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 9,
       "low": 0,
-      "high": 25,
-      "confidence": 62,
+      "high": 23,
+      "confidence": 60,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 4,
-      "high": 32,
-      "confidence": 62,
+      "score": 15,
+      "low": 1,
+      "high": 29,
+      "confidence": 60,
       "status": "נמוך"
     }
   },
@@ -42,15 +42,23 @@
     {
       "time": "15:15",
       "text": "הברחת טראמפ מטורקיה : איראן ידעה באיזו קומה הנשיא , אדם נצפה עם טיל כתף",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "kipa.co.il",
       "signal_id": "34420b47fe30ab54"
     },
     {
       "time": "15:15",
+      "text": "Takeaways from Tuesday primaries . And , Iran threat prompted Trump secret plane swap",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "knpr.org",
+      "signal_id": "bd3a2a3046c6084b"
+    },
+    {
+      "time": "15:15",
       "text": "The U . S . Just Fired on a Ship Trying to Break the Iran Blockade And Hormuz Is Getting Even More Dangerous",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "lnt.ma",
       "signal_id": "99044e601b5efe04"
@@ -58,18 +66,10 @@
     {
       "time": "14:45",
       "text": "New attacks on shipping as Iran war talks hit fresh impasse",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "westhawaiitoday.com",
       "signal_id": "ad8bd205ba44dbb5"
-    },
-    {
-      "time": "13:45",
-      "text": "Iranian - backed Houthis kill 6 in attack on vessel , and other developments in the Mideast",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "thegazette.com",
-      "signal_id": "7701c6d2269ee9b7"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@
       "dependency_group": "34420b47fe30ab54",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.643,
+      "freshness": 0.479,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,40 @@
       "published_at": "2026-08-12T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
+      }
+    },
+    {
+      "id": "bd3a2a3046c6084b",
+      "name": "Takeaways from Tuesday primaries . And , Iran threat prompted Trump secret plane swap",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bd3a2a3046c6084b",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.479,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "knpr.org",
+      "url": "https://knpr.org/npr/2026-08-12/takeaways-from-tuesday-primaries-and-iran-threat-prompted-trumps-secret-plane-swap",
+      "published_at": "2026-08-12T12:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       }
     },
     {
@@ -114,7 +145,7 @@
       "dependency_group": "99044e601b5efe04",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.643,
+      "freshness": 0.479,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +161,9 @@
       "published_at": "2026-08-12T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
       }
     },
     {
@@ -145,7 +176,7 @@
       "dependency_group": "ad8bd205ba44dbb5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.558,
+      "freshness": 0.415,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -159,37 +190,6 @@
       "source": "westhawaiitoday.com",
       "url": "https://www.westhawaiitoday.com/2026/08/12/nation-world-news/new-attacks-on-shipping-as-iran-war-talks-hit-fresh-impasse/",
       "published_at": "2026-08-12T11:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "7701c6d2269ee9b7",
-      "name": "Iranian - backed Houthis kill 6 in attack on vessel , and other developments in the Mideast",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7701c6d2269ee9b7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.419,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thegazette.com",
-      "url": "http://www.thegazette.com/news/national/iranian-backed-houthis-kill-6-in-attack-on-vessel-and-other-developments-in-the-mideast/article_94b7f227-fda5-5e8a-af54-2b557f0b4aff.html",
-      "published_at": "2026-08-12T10:45:00Z",
       "active": true,
       "computed": {
         "immediate": 0.7,
@@ -1998,12 +1998,18 @@
       "immediate": 3,
       "short": 11,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-12T14:49:28.335620Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 15
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-12T13:47:38.008923Z",
+    "last_success": "2026-08-12T14:49:28.335620Z",
     "sources": {
       "gdelt": {
         "ok": true,
