@@ -1,78 +1,326 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-12T10:16:57.032598Z",
+  "mode": "live",
+  "generated_at": "2026-08-12T11:14:39.310210Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 49,
+      "high": 17,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
-      "low": 0,
-      "high": 26,
-      "confidence": 49,
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 68,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
-      "low": 0,
-      "high": 32,
-      "confidence": 49,
-      "status": "נמוך"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 1
   },
   "changes": [
     {
-      "time": "10:30",
-      "text": "US may use IAEA Syria nuclear operation as model for Iranian uranium extraction",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "13:45",
+      "text": "New attacks on shipping as Iran war talks at impasse",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "7ae34da374e39b80"
+      "source": "theadvocate.com.au",
+      "signal_id": "035605a05b13c19d"
     },
     {
-      "time": "11:30",
-      "text": "US forces strike vessel attempting to breach Iran port blockade",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "13:45",
+      "text": "Iranian - backed Houthis kill 6 in attack on vessel , and other developments in the Mideast",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "albawaba.net",
-      "signal_id": "3f9882c69fd1b531"
+      "source": "thegazette.com",
+      "signal_id": "7701c6d2269ee9b7"
     },
     {
-      "time": "10:45",
-      "text": "Iran threat prompts Trump to take secret flight",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "12:45",
+      "text": "Report : Iran tracked Trump as missile threat prompted Air Force One decoy",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "thehitavada.com",
-      "signal_id": "3794f53689770bb1"
+      "source": "ynetnews.com",
+      "signal_id": "f6dd190cf632d66c"
     },
     {
-      "time": "10:15",
-      "text": "President Trump secretly swapped planes , hiding in a catering truck over Iran threat , reports say",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "12:45",
+      "text": "Iran is draining America USD 4 million missile shield , one strike at a time",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "graphic.com.gh",
-      "signal_id": "d0d5949da408a38a"
+      "source": "moneycontrol.com",
+      "signal_id": "99d5fa2ff88bb526"
     }
   ],
   "signals": [
+    {
+      "id": "035605a05b13c19d",
+      "name": "New attacks on shipping as Iran war talks at impasse",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "035605a05b13c19d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theadvocate.com.au",
+      "url": "https://www.theadvocate.com.au/story/9329364/new-attacks-on-shipping-as-iran-war-talks-at-impasse/",
+      "published_at": "2026-08-12T10:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "7701c6d2269ee9b7",
+      "name": "Iranian - backed Houthis kill 6 in attack on vessel , and other developments in the Mideast",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7701c6d2269ee9b7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thegazette.com",
+      "url": "http://www.thegazette.com/news/national/iranian-backed-houthis-kill-6-in-attack-on-vessel-and-other-developments-in-the-mideast/article_94b7f227-fda5-5e8a-af54-2b557f0b4aff.html",
+      "published_at": "2026-08-12T10:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "f6dd190cf632d66c",
+      "name": "Report : Iran tracked Trump as missile threat prompted Air Force One decoy",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f6dd190cf632d66c",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.653,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ynetnews.com",
+      "url": "https://www.ynetnews.com/article/r1zdliflzx",
+      "published_at": "2026-08-12T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
+    },
+    {
+      "id": "99d5fa2ff88bb526",
+      "name": "Iran is draining America USD 4 million missile shield , one strike at a time",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "99d5fa2ff88bb526",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.653,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/iran-is-draining-america-s-usd-4-million-missile-shield-one-strike-at-a-time-article-14003224.html",
+      "published_at": "2026-08-12T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "e7c74dcb63751364",
+      "name": "Trump Secretly Smuggled Out in Catering Truck During Iran Assassination Threat While Air Force One Flew as Decoy",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e7c74dcb63751364",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.653,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ibtimes.co.uk",
+      "url": "https://www.ibtimes.co.uk/trump-secretive-nato-summit-departure-iranian-threat-1813701",
+      "published_at": "2026-08-12T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.2
+      }
+    },
+    {
+      "id": "c836026c637d7073",
+      "name": "Trump hid in catering truck in secret plane swap over Iran threat , reports say",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c836026c637d7073",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.566,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "businessghana.com",
+      "url": "http://www.businessghana.com/site/news/politics/353928/Trump-hid-in-catering-truck-in-secret-plane-swap-over-Iran-threat,-reports-say",
+      "published_at": "2026-08-12T09:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "8929db7210b2d033",
+      "name": "4 killed in Houthi attack on Red Sea cargo ship ; US strikes vessel bound for Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8929db7210b2d033",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.653,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/4-killed-in-houthi-attack-on-red-sea-cargo-ship-us-strikes-vessel-bound-for-iran/articleshow/133173176.cms",
+      "published_at": "2026-08-12T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "14353dee6767699e",
+      "name": "US Military Opens Fire on Vessel Attempting to Break Iran Port Blockade in Gulf of Oman",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "14353dee6767699e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.527,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "lankanewspapers.com",
+      "url": "https://www.lankanewspapers.com/2026/08/12/us-military-opens-fire-on-vessel-attempting-to-break-iran-port-blockade-in-gulf-of-oman",
+      "published_at": "2026-08-12T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      }
+    },
     {
       "id": "7ae34da374e39b80",
       "name": "US may use IAEA Syria nuclear operation as model for Iranian uranium extraction",
@@ -83,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7ae34da374e39b80",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.452,
+      "freshness": 0.343,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +347,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
     },
     {
       "id": "3f9882c69fd1b531",
@@ -115,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3f9882c69fd1b531",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.601,
+      "freshness": 0.457,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,43 +378,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3794f53689770bb1",
-      "name": "Iran threat prompts Trump to take secret flight",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3794f53689770bb1",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.485,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thehitavada.com",
-      "url": "https://www.thehitavada.com/Encyc/2026/8/12/iran-threat-prompts-trump-to-take-secret-flight.html",
-      "published_at": "2026-08-12T07:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
     },
     {
       "id": "d0d5949da408a38a",
@@ -179,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d0d5949da408a38a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.42,
+      "freshness": 0.319,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,139 +409,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ad8bd205ba44dbb5",
-      "name": "New attacks on shipping as Iran war talks hit fresh impasse",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ad8bd205ba44dbb5",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.42,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "rappler.com",
-      "url": "https://www.rappler.com/world/middle-east/usa-iran-war-updates-august-11-2026/",
-      "published_at": "2026-08-12T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9b20c668e7f7ba72",
-      "name": "Iran adapted war tactics as US interceptor stocks dwindled : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9b20c668e7f7ba72",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.364,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/08/12/774191/Iran-adapts-war-tactics-US-interceptor-stocks-dwindle",
-      "published_at": "2026-08-12T06:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
         "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5e35a952ee7accbf",
-      "name": "US helicopter fired on ship that tried to break Iran ports blockade",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5e35a952ee7accbf",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.364,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabnews.com",
-      "url": "https://www.arabnews.com/node/2654297/middle-east",
-      "published_at": "2026-08-12T06:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "09928b6b4b56635e",
-      "name": "Trump says US  own Strait of Hormuz , threatens Iran with force",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "09928b6b4b56635e",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.237,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-says-us-owns-strait-of-hormuz-warns-iran-they-get-blown-away/articleshow/133169640.cms",
-      "published_at": "2026-08-12T05:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
+        "extended": 3.5
+      }
     }
   ],
   "history": [
@@ -2112,17 +2197,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-12T11:14:39.310210Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 24
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-12T08:57:18.666285Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-12T11:14:39.310210Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 11
       },
       "manual": {
         "ok": true,
