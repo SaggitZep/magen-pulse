@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-12T14:49:28.335620Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-12T15:48:52.860286Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
-      "high": 17,
-      "confidence": 60,
+      "high": 19,
+      "confidence": 43,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 7,
       "low": 0,
-      "high": 23,
-      "confidence": 60,
-      "status": "נמוך"
+      "high": 24,
+      "confidence": 43,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
-      "low": 1,
-      "high": 29,
-      "confidence": 60,
+      "score": 11,
+      "low": 0,
+      "high": 28,
+      "confidence": 43,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "15:15",
       "text": "הברחת טראמפ מטורקיה : איראן ידעה באיזו קומה הנשיא , אדם נצפה עם טיל כתף",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "kipa.co.il",
       "signal_id": "34420b47fe30ab54"
@@ -50,7 +50,7 @@
     {
       "time": "15:15",
       "text": "Takeaways from Tuesday primaries . And , Iran threat prompted Trump secret plane swap",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "knpr.org",
       "signal_id": "bd3a2a3046c6084b"
@@ -58,7 +58,7 @@
     {
       "time": "15:15",
       "text": "The U . S . Just Fired on a Ship Trying to Break the Iran Blockade And Hormuz Is Getting Even More Dangerous",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "lnt.ma",
       "signal_id": "99044e601b5efe04"
@@ -66,7 +66,7 @@
     {
       "time": "14:45",
       "text": "New attacks on shipping as Iran war talks hit fresh impasse",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "westhawaiitoday.com",
       "signal_id": "ad8bd205ba44dbb5"
@@ -83,7 +83,7 @@
       "dependency_group": "34420b47fe30ab54",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.479,
+      "freshness": 0.361,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-12T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.7
-      }
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      },
+      "carried_forward": true
     },
     {
       "id": "bd3a2a3046c6084b",
@@ -114,7 +115,7 @@
       "dependency_group": "bd3a2a3046c6084b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.479,
+      "freshness": 0.361,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-12T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      },
+      "carried_forward": true
     },
     {
       "id": "99044e601b5efe04",
@@ -145,7 +147,7 @@
       "dependency_group": "99044e601b5efe04",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.479,
+      "freshness": 0.361,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-12T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      },
+      "carried_forward": true
     },
     {
       "id": "ad8bd205ba44dbb5",
@@ -176,7 +179,7 @@
       "dependency_group": "ad8bd205ba44dbb5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.415,
+      "freshness": 0.313,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-12T11:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2004,17 +2008,23 @@
       "immediate": 3,
       "short": 9,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-08-12T15:48:52.860286Z",
+      "immediate": 2,
+      "short": 7,
+      "extended": 11
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-12T14:49:28.335620Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 4
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 4
       },
       "manual": {
         "ok": true,
