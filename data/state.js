@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-12T11:14:39.310210Z",
+  "generated_at": "2026-08-12T12:05:00.224059Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 68,
+      "high": 16,
+      "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
-      "low": 1,
-      "high": 27,
-      "confidence": 68,
+      "score": 11,
+      "low": 0,
+      "high": 24,
+      "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 19,
+      "low": 6,
+      "high": 32,
+      "confidence": 65,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -36,29 +36,29 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "13:45",
-      "text": "New attacks on shipping as Iran war talks at impasse",
-      "impact": "השפעה מיידית מחושבת: +1.5",
-      "direction": "up",
-      "source": "theadvocate.com.au",
-      "signal_id": "035605a05b13c19d"
-    },
-    {
-      "time": "13:45",
       "text": "Iranian - backed Houthis kill 6 in attack on vessel , and other developments in the Mideast",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "thegazette.com",
       "signal_id": "7701c6d2269ee9b7"
     },
     {
+      "time": "13:45",
+      "text": "New attacks on shipping as Iran war talks at impasse",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "theadvocate.com.au",
+      "signal_id": "035605a05b13c19d"
+    },
+    {
       "time": "12:45",
       "text": "Report : Iran tracked Trump as missile threat prompted Air Force One decoy",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "ynetnews.com",
       "signal_id": "f6dd190cf632d66c"
@@ -66,44 +66,13 @@ window.MAGEN_STATE = {
     {
       "time": "12:45",
       "text": "Iran is draining America USD 4 million missile shield , one strike at a time",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "moneycontrol.com",
       "signal_id": "99d5fa2ff88bb526"
     }
   ],
   "signals": [
-    {
-      "id": "035605a05b13c19d",
-      "name": "New attacks on shipping as Iran war talks at impasse",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "035605a05b13c19d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.868,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theadvocate.com.au",
-      "url": "https://www.theadvocate.com.au/story/9329364/new-attacks-on-shipping-as-iran-war-talks-at-impasse/",
-      "published_at": "2026-08-12T10:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.6
-      }
-    },
     {
       "id": "7701c6d2269ee9b7",
       "name": "Iranian - backed Houthis kill 6 in attack on vessel , and other developments in the Mideast",
@@ -114,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7701c6d2269ee9b7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.868,
+      "freshness": 0.683,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +99,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T10:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.6
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "035605a05b13c19d",
+      "name": "New attacks on shipping as Iran war talks at impasse",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "035605a05b13c19d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.683,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theadvocate.com.au",
+      "url": "https://www.theadvocate.com.au/story/9329364/new-attacks-on-shipping-as-iran-war-talks-at-impasse/",
+      "published_at": "2026-08-12T10:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.7
       }
     },
     {
@@ -145,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f6dd190cf632d66c",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.653,
+      "freshness": 0.513,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
       }
     },
     {
@@ -176,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "99d5fa2ff88bb526",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.653,
+      "freshness": 0.513,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
+        "immediate": 1.0,
+        "short": 3.6,
+        "extended": 6.1
       }
     },
     {
@@ -207,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e7c74dcb63751364",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.653,
+      "freshness": 0.513,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.2
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
       }
     },
     {
@@ -238,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c836026c637d7073",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.566,
+      "freshness": 0.445,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
       }
     },
     {
@@ -269,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8929db7210b2d033",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.653,
+      "freshness": 0.513,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
       }
     },
     {
@@ -300,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "14353dee6767699e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.527,
+      "freshness": 0.414,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,22 +316,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
-      "id": "7ae34da374e39b80",
-      "name": "US may use IAEA Syria nuclear operation as model for Iranian uranium extraction",
+      "id": "ec266ecc2e1f9608",
+      "name": "Trump confirms secret plane  switch  after Nato summit in Turkey amid Iran threat",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "7ae34da374e39b80",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.343,
+      "dependency_group": "ec266ecc2e1f9608",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.386,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -342,14 +342,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-905264",
-      "published_at": "2026-08-12T07:30:00Z",
+      "source": "gulfnews.com",
+      "url": "https://gulfnews.com/world/mena/trump-confirms-secret-plane-switch-after-nato-summit-in-turkey-amid-iran-threat-1.500638045",
+      "published_at": "2026-08-12T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     },
     {
@@ -362,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3f9882c69fd1b531",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.457,
+      "freshness": 0.359,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -376,37 +376,6 @@ window.MAGEN_STATE = {
       "source": "albawaba.net",
       "url": "https://www.albawaba.net/news/us-forces-strike-vessel-attempting-1634875",
       "published_at": "2026-08-12T08:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "d0d5949da408a38a",
-      "name": "President Trump secretly swapped planes , hiding in a catering truck over Iran threat , reports say",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d0d5949da408a38a",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.319,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "graphic.com.gh",
-      "url": "https://www.graphic.com.gh/international/international-news/president-trump-hid-in-catering-truck-in-secret-plane-swap-over-iran-threat-reports-say.html",
-      "published_at": "2026-08-12T07:15:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
@@ -2203,17 +2172,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 14,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-12T12:05:00.224059Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 19
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-12T11:14:39.310210Z",
+    "last_success": "2026-08-12T12:05:00.224059Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 11
+        "relevant": 10
       },
       "manual": {
         "ok": true,
