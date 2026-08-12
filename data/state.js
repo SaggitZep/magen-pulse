@@ -1,89 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-12T07:47:40.424975Z",
+  "mode": "live",
+  "generated_at": "2026-08-12T08:57:18.666285Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 46,
+      "high": 17,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
-      "low": 0,
-      "high": 24,
-      "confidence": 46,
-      "status": "לא זוהה אות חריג"
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 67,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
-      "low": 0,
-      "high": 28,
-      "confidence": 46,
-      "status": "נמוך"
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "07:00",
-      "text": "Iran adapted attacks on US bases in Middle East to bypass diminishing defenses",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "10:30",
+      "text": "US may use IAEA Syria nuclear operation as model for Iranian uranium extraction",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
       "source": "jpost.com",
-      "signal_id": "833dbb7b919542af"
+      "signal_id": "7ae34da374e39b80"
     },
     {
-      "time": "06:45",
-      "text": "Attentato a Trump in Turchia , dal terra - aria al missile portatile .  LIran conosceva ogni dettaglio dei suoi spostamenti",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "11:30",
+      "text": "US forces strike vessel attempting to breach Iran port blockade",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "affaritaliani.it",
-      "signal_id": "cea18da932053db0"
+      "source": "albawaba.net",
+      "signal_id": "3f9882c69fd1b531"
     },
     {
-      "time": "06:30",
-      "text": "Major US Military Action in the Gulf of Oman : Missiles Fired to Stop Ship Heading to Iran",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "10:45",
+      "text": "Iran threat prompts Trump to take secret flight",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "khaskhabar.com",
-      "signal_id": "9a439b6072b28236"
+      "source": "thehitavada.com",
+      "signal_id": "3794f53689770bb1"
     },
     {
-      "time": "06:00",
-      "text": "Iran knew where Trump was staying as US detected surface - to - air missile threat : Report",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "10:15",
+      "text": "President Trump secretly swapped planes , hiding in a catering truck over Iran threat , reports say",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "moneycontrol.com",
-      "signal_id": "1ea706f753d03247"
+      "source": "graphic.com.gh",
+      "signal_id": "d0d5949da408a38a"
     }
   ],
   "signals": [
     {
-      "id": "833dbb7b919542af",
-      "name": "Iran adapted attacks on US bases in Middle East to bypass diminishing defenses",
+      "id": "7ae34da374e39b80",
+      "name": "US may use IAEA Syria nuclear operation as model for Iranian uranium extraction",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "833dbb7b919542af",
+      "dependency_group": "7ae34da374e39b80",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.338,
+      "freshness": 0.66,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -95,123 +95,26 @@ window.MAGEN_STATE = {
         "extended": 1.0
       },
       "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-905260",
-      "published_at": "2026-08-12T04:00:00Z",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-905264",
+      "published_at": "2026-08-12T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      },
-      "carried_forward": true
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
     },
     {
-      "id": "cea18da932053db0",
-      "name": "Attentato a Trump in Turchia , dal terra - aria al missile portatile .  LIran conosceva ogni dettaglio dei suoi spostamenti",
+      "id": "3f9882c69fd1b531",
+      "name": "US forces strike vessel attempting to breach Iran port blockade",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "cea18da932053db0",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.315,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "affaritaliani.it",
-      "url": "https://www.affaritaliani.it/esteri/attentato-a-trump-in-turchia-dal-terra-aria-al-missile-portatile-liran-conosceva-ogni-dettaglio-dei-suoi-spostamenti.html",
-      "published_at": "2026-08-12T03:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9a439b6072b28236",
-      "name": "Major US Military Action in the Gulf of Oman : Missiles Fired to Stop Ship Heading to Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9a439b6072b28236",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.293,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "khaskhabar.com",
-      "url": "https://www.khaskhabar.com/news/world-news/news-major-us-military-action-in-the-gulf-of-oman-missiles-fired-to-stop-ship-heading-to-iran-news-hindi-1-835886-KKN.html",
-      "published_at": "2026-08-12T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1ea706f753d03247",
-      "name": "Iran knew where Trump was staying as US detected surface - to - air missile threat : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1ea706f753d03247",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.254,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/iran-knew-where-trump-was-staying-as-us-detected-surface-to-air-missile-threat-report-article-14002324.html",
-      "published_at": "2026-08-12T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7701c6d2269ee9b7",
-      "name": "Iranian - backed Houthis kill 6 in attack on vessel , and other developments in the Mideast",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7701c6d2269ee9b7",
+      "dependency_group": "3f9882c69fd1b531",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.315,
+      "freshness": 0.878,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -222,92 +125,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "weny.com",
-      "url": "https://www.weny.com/wires/iranian-backed-houthis-kill-6-in-attack-on-vessel-and-other-developments-in-the-mideast/article_34bc342f-aca0-5102-bb77-b9412b46a036.html",
-      "published_at": "2026-08-12T03:45:00Z",
+      "source": "albawaba.net",
+      "url": "https://www.albawaba.net/news/us-forces-strike-vessel-attempting-1634875",
+      "published_at": "2026-08-12T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
     },
     {
-      "id": "51dccd6da25355e9",
-      "name": "New attacks on shipping as Iran war talks hit impasse",
+      "id": "3794f53689770bb1",
+      "name": "Iran threat prompts Trump to take secret flight",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "51dccd6da25355e9",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.293,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "westernadvocate.com.au",
-      "url": "https://www.westernadvocate.com.au/story/9328626/new-attacks-on-shipping-as-iran-war-talks-hit-impasse/",
-      "published_at": "2026-08-12T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0c3a8c43b32e63da",
-      "name": "Six killed in first fatal Houthi attack on commercial shipping since Iran war began",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0c3a8c43b32e63da",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.273,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theweek.in",
-      "url": "https://www.theweek.in/news/middle-east/2026/08/12/houthi-vessel-strike-red-sea-bab-al-mandeb.html",
-      "published_at": "2026-08-12T03:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2a801b314e132e00",
-      "name": "I go by Secret Service , military : Trump confirms switching planes in Turkey over Iran threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2a801b314e132e00",
+      "dependency_group": "3794f53689770bb1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.205,
+      "freshness": 0.709,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -318,16 +156,170 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/us/i-go-by-secret-service-military-trump-confirms-switching-planes-in-turkey-over-iran-threat/articleshow/133167778.cms",
-      "published_at": "2026-08-12T02:15:00Z",
+      "source": "thehitavada.com",
+      "url": "https://www.thehitavada.com/Encyc/2026/8/12/iran-threat-prompts-trump-to-take-secret-flight.html",
+      "published_at": "2026-08-12T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.9
+      }
+    },
+    {
+      "id": "d0d5949da408a38a",
+      "name": "President Trump secretly swapped planes , hiding in a catering truck over Iran threat , reports say",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d0d5949da408a38a",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.614,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "graphic.com.gh",
+      "url": "https://www.graphic.com.gh/international/international-news/president-trump-hid-in-catering-truck-in-secret-plane-swap-over-iran-threat-reports-say.html",
+      "published_at": "2026-08-12T07:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "ad8bd205ba44dbb5",
+      "name": "New attacks on shipping as Iran war talks hit fresh impasse",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ad8bd205ba44dbb5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.614,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "rappler.com",
+      "url": "https://www.rappler.com/world/middle-east/usa-iran-war-updates-august-11-2026/",
+      "published_at": "2026-08-12T07:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "9b20c668e7f7ba72",
+      "name": "Iran adapted war tactics as US interceptor stocks dwindled : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9b20c668e7f7ba72",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.533,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/08/12/774191/Iran-adapts-war-tactics-US-interceptor-stocks-dwindle",
+      "published_at": "2026-08-12T06:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
+    },
+    {
+      "id": "5e35a952ee7accbf",
+      "name": "US helicopter fired on ship that tried to break Iran ports blockade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5e35a952ee7accbf",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.533,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arabnews.com",
+      "url": "https://www.arabnews.com/node/2654297/middle-east",
+      "published_at": "2026-08-12T06:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
+    },
+    {
+      "id": "09928b6b4b56635e",
+      "name": "Trump says US  own Strait of Hormuz , threatens Iran with force",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "09928b6b4b56635e",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.347,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-says-us-owns-strait-of-hormuz-warns-iran-they-get-blown-away/articleshow/133169640.cms",
+      "published_at": "2026-08-12T05:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
+      }
     }
   ],
   "history": [
@@ -2100,17 +2092,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 7,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-12T08:57:18.666285Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 23
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-12T04:28:22.414191Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-12T08:57:18.666285Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 8
       },
       "manual": {
         "ok": true,
