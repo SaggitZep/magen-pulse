@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-12T15:48:52.860286Z",
+  "generated_at": "2026-08-12T16:43:32.806970Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 2,
       "low": 0,
-      "high": 19,
-      "confidence": 43,
+      "high": 20,
+      "confidence": 41,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 5,
       "low": 0,
-      "high": 24,
-      "confidence": 43,
+      "high": 23,
+      "confidence": 41,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
+      "score": 9,
       "low": 0,
-      "high": 28,
-      "confidence": 43,
+      "high": 27,
+      "confidence": 41,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "15:15",
       "text": "הברחת טראמפ מטורקיה : איראן ידעה באיזו קומה הנשיא , אדם נצפה עם טיל כתף",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "kipa.co.il",
       "signal_id": "34420b47fe30ab54"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:15",
       "text": "Takeaways from Tuesday primaries . And , Iran threat prompted Trump secret plane swap",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "knpr.org",
       "signal_id": "bd3a2a3046c6084b"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:15",
       "text": "The U . S . Just Fired on a Ship Trying to Break the Iran Blockade And Hormuz Is Getting Even More Dangerous",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "lnt.ma",
       "signal_id": "99044e601b5efe04"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "14:45",
       "text": "New attacks on shipping as Iran war talks hit fresh impasse",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "westhawaiitoday.com",
       "signal_id": "ad8bd205ba44dbb5"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "34420b47fe30ab54",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.361,
+      "freshness": 0.278,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bd3a2a3046c6084b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.361,
+      "freshness": 0.278,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "99044e601b5efe04",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.361,
+      "freshness": 0.278,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ad8bd205ba44dbb5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.313,
+      "freshness": 0.241,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T11:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     }
@@ -2014,6 +2014,12 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 7,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-12T16:43:32.806970Z",
+      "immediate": 2,
+      "short": 5,
+      "extended": 9
     }
   ],
   "health": {
