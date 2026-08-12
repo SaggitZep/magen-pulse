@@ -1,121 +1,151 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-12T21:56:42.358432Z",
+  "mode": "live",
+  "generated_at": "2026-08-12T22:53:49.343773Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 10,
+      "score": 3,
       "low": 0,
-      "high": 27,
-      "confidence": 43,
-      "status": "נמוך"
+      "high": 17,
+      "confidence": 61,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 10,
       "low": 0,
-      "high": 29,
-      "confidence": 43,
+      "high": 24,
+      "confidence": 61,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 12,
-      "low": 0,
-      "high": 29,
-      "confidence": 43,
+      "score": 16,
+      "low": 2,
+      "high": 30,
+      "confidence": 61,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -3
+    "points_60m": -7
   },
   "changes": [
     {
-      "time": "21:15",
-      "text": "Mossadul a „ vizitat  centrul nuclear iranian Fordow de multe ori , spune fostul șef al serviciilor secrete israeliene",
-      "impact": "השפעה מיידית מחושבת: +8.6",
+      "time": "00:15",
+      "text": "Tehran signals shift to  offensive  military doctrine , rules out extension of June interim deal",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
-      "source": "ziare.com",
-      "signal_id": "2600215ceedc70e3"
+      "source": "livemint.com",
+      "signal_id": "924cdbd9269fd436"
     },
     {
-      "time": "21:30",
-      "text": "Olupina aviona F - 15E Strike Eagle u rukama Irana kao ratni trofej",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "00:00",
+      "text": "Iran reshapes military command for  offensive  phase of war , crackdown on dissent",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
-      "source": "novosti.rs",
-      "signal_id": "456760046dfd6d46"
+      "source": "nypost.com",
+      "signal_id": "bc3bedd37f065bdc"
     },
     {
-      "time": "21:15",
-      "text": "Iranian embassy commemorates Minab school attack",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "23:45",
+      "text": "Iran exposes US military as  weaker than perceived : IRGC commander",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
-      "source": "cyprus-mail.com",
-      "signal_id": "84a5621584d2643b"
+      "source": "presstv.co.uk",
+      "signal_id": "4466512ca04fbab3"
     },
     {
-      "time": "20:30",
-      "text": "Revolutionary Guard Adviser Warns Iran Is Preparing Military Operations on US Soil as Hormuz Peace Talks Crash",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "23:45",
+      "text": "With US talks frozen , Iran takes more aggressive military stance | Politics and Government",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
-      "source": "ibtimes.co.uk",
-      "signal_id": "473ed3c6b9382921"
+      "source": "reviewjournal.com",
+      "signal_id": "b9407912f7999ea3"
     }
   ],
   "signals": [
     {
-      "id": "2600215ceedc70e3",
-      "name": "Mossadul a „ vizitat  centrul nuclear iranian Fordow de multe ori , spune fostul șef al serviciilor secrete israeliene",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "924cdbd9269fd436",
+      "name": "Tehran signals shift to  offensive  military doctrine , rules out extension of June interim deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "2600215ceedc70e3",
-      "strength": 0.5,
+      "dependency_group": "924cdbd9269fd436",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.348,
+      "freshness": 0.625,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "livemint.com",
+      "url": "https://www.livemint.com/news/world/tehran-signals-shift-to-offensive-military-doctrine-rules-out-extension-of-june-interim-deal-11786562710400.html",
+      "published_at": "2026-08-12T21:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "bc3bedd37f065bdc",
+      "name": "Iran reshapes military command for  offensive  phase of war , crackdown on dissent",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bc3bedd37f065bdc",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.582,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nypost.com",
+      "url": "https://nypost.com/2026/08/12/world-news/iran-reshapes-military-command-for-offensive-phase-of-war-crackdown-on-dissent/",
+      "published_at": "2026-08-12T21:00:00Z",
+      "active": true,
+      "computed": {
         "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "ziare.com",
-      "url": "https://ziare.com/program-nuclear-iran/israel-iran-centru-nuclear-mossad-2029495",
-      "published_at": "2026-08-12T18:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 8.6,
-        "short": 6.7,
-        "extended": 2.8
-      },
-      "carried_forward": true
+        "short": 3.4,
+        "extended": 5.7
+      }
     },
     {
-      "id": "456760046dfd6d46",
-      "name": "Olupina aviona F - 15E Strike Eagle u rukama Irana kao ratni trofej",
+      "id": "4466512ca04fbab3",
+      "name": "Iran exposes US military as  weaker than perceived : IRGC commander",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "456760046dfd6d46",
+      "dependency_group": "4466512ca04fbab3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.374,
+      "freshness": 0.541,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,28 +156,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "novosti.rs",
-      "url": "https://www.novosti.rs/planeta/svet/1637111/iran-ratni-trofej-olupina-aviona-15e-strike-eagle-rat-iran-amerika-izrael",
-      "published_at": "2026-08-12T18:30:00Z",
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/08/12/774239/US-military-",
+      "published_at": "2026-08-12T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
     },
     {
-      "id": "84a5621584d2643b",
-      "name": "Iranian embassy commemorates Minab school attack",
+      "id": "b9407912f7999ea3",
+      "name": "With US talks frozen , Iran takes more aggressive military stance | Politics and Government",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "84a5621584d2643b",
+      "dependency_group": "b9407912f7999ea3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.348,
+      "freshness": 0.541,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,48 +187,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "cyprus-mail.com",
-      "url": "https://cyprus-mail.com/2026/08/12/iranian-embassy-commemorates-minab-school-attack",
-      "published_at": "2026-08-12T18:15:00Z",
+      "source": "reviewjournal.com",
+      "url": "https://www.reviewjournal.com/news/politics-and-government/iran-takes-more-aggressive-military-stance-with-us-talks-frozen-3862790/",
+      "published_at": "2026-08-12T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "473ed3c6b9382921",
-      "name": "Revolutionary Guard Adviser Warns Iran Is Preparing Military Operations on US Soil as Hormuz Peace Talks Crash",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "473ed3c6b9382921",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.281,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ibtimes.co.uk",
-      "url": "https://www.ibtimes.co.uk/iran-revolutionary-guard-threatens-us-soil-hormuz-talks-collapse-1813806",
-      "published_at": "2026-08-12T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
     }
   ],
   "history": [
@@ -2050,17 +2046,23 @@ window.MAGEN_STATE = {
       "immediate": 10,
       "short": 12,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-08-12T22:53:49.343773Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 16
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-12T20:57:32.130590Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-12T22:53:49.343773Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 4
+        "ok": true,
+        "items": 150,
+        "relevant": 4
       },
       "manual": {
         "ok": true,
