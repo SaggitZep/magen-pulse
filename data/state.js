@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-12T06:02:23.991015Z",
+  "generated_at": "2026-08-12T07:47:40.424975Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
       "high": 19,
-      "confidence": 50,
+      "confidence": 46,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 7,
       "low": 0,
-      "high": 27,
-      "confidence": 50,
-      "status": "נמוך"
+      "high": 24,
+      "confidence": 46,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 50,
+      "score": 11,
+      "low": 0,
+      "high": 28,
+      "confidence": 46,
       "status": "נמוך"
     }
   },
@@ -35,14 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "07:00",
       "text": "Iran adapted attacks on US bases in Middle East to bypass diminishing defenses",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "833dbb7b919542af"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "06:45",
       "text": "Attentato a Trump in Turchia , dal terra - aria al missile portatile .  LIran conosceva ogni dettaglio dei suoi spostamenti",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "affaritaliani.it",
       "signal_id": "cea18da932053db0"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "06:30",
       "text": "Major US Military Action in the Gulf of Oman : Missiles Fired to Stop Ship Heading to Iran",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "khaskhabar.com",
       "signal_id": "9a439b6072b28236"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "06:00",
       "text": "Iran knew where Trump was staying as US detected surface - to - air missile threat : Report",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "moneycontrol.com",
       "signal_id": "1ea706f753d03247"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "833dbb7b919542af",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.558,
+      "freshness": 0.338,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cea18da932053db0",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.52,
+      "freshness": 0.315,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9a439b6072b28236",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.484,
+      "freshness": 0.293,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1ea706f753d03247",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.42,
+      "freshness": 0.254,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7701c6d2269ee9b7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.52,
+      "freshness": 0.315,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "51dccd6da25355e9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.484,
+      "freshness": 0.293,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0c3a8c43b32e63da",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.451,
+      "freshness": 0.273,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T03:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2a801b314e132e00",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.339,
+      "freshness": 0.205,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,41 +323,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T02:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "62f7e5d4c87e1948",
-      "name": "US military fires on cargo vessel it said sought to break Iran blockade - Grenada Chronicle – Daily Grenada And Caribbean News",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "62f7e5d4c87e1948",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.254,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "grenadachronicle.com",
-      "url": "https://grenadachronicle.com/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade/",
-      "published_at": "2026-08-12T01:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
+        "short": 1.3,
+        "extended": 2.3
       },
       "carried_forward": true
     }
@@ -2126,6 +2094,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 11,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-12T07:47:40.424975Z",
+      "immediate": 2,
+      "short": 7,
+      "extended": 11
     }
   ],
   "health": {
@@ -2136,7 +2110,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 9
+        "carried_forward": 8
       },
       "manual": {
         "ok": true,
