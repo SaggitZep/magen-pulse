@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-12T04:28:22.414191Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-12T06:02:23.991015Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 71,
+      "high": 19,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 17,
-      "low": 5,
-      "high": 29,
-      "confidence": 71,
+      "score": 11,
+      "low": 0,
+      "high": 27,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 27,
-      "low": 15,
-      "high": 39,
-      "confidence": 71,
-      "status": "מוגבר"
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 50,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 1
+    "level": "ירידה",
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "07:00",
       "text": "Iran adapted attacks on US bases in Middle East to bypass diminishing defenses",
-      "impact": "השפעה מיידית מחושבת: +2.0",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "833dbb7b919542af"
@@ -50,26 +50,26 @@ window.MAGEN_STATE = {
     {
       "time": "06:45",
       "text": "Attentato a Trump in Turchia , dal terra - aria al missile portatile .  LIran conosceva ogni dettaglio dei suoi spostamenti",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "affaritaliani.it",
       "signal_id": "cea18da932053db0"
     },
     {
-      "time": "06:00",
-      "text": "Iran knew where Trump was staying as US detected surface - to - air missile threat : Report",
-      "impact": "השפעה מיידית מחושבת: +1.5",
-      "direction": "up",
-      "source": "moneycontrol.com",
-      "signal_id": "1ea706f753d03247"
-    },
-    {
       "time": "06:30",
       "text": "Major US Military Action in the Gulf of Oman : Missiles Fired to Stop Ship Heading to Iran",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "khaskhabar.com",
       "signal_id": "9a439b6072b28236"
+    },
+    {
+      "time": "06:00",
+      "text": "Iran knew where Trump was staying as US detected surface - to - air missile threat : Report",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "moneycontrol.com",
+      "signal_id": "1ea706f753d03247"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "833dbb7b919542af",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.874,
+      "freshness": 0.558,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 2.0,
-        "short": 6.7,
-        "extended": 11.4
-      }
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      },
+      "carried_forward": true
     },
     {
       "id": "cea18da932053db0",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cea18da932053db0",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.813,
+      "freshness": 0.52,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,41 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.6,
-        "extended": 9.6
-      }
-    },
-    {
-      "id": "1ea706f753d03247",
-      "name": "Iran knew where Trump was staying as US detected surface - to - air missile threat : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1ea706f753d03247",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.657,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/iran-knew-where-trump-was-staying-as-us-detected-surface-to-air-missile-threat-report-article-14002324.html",
-      "published_at": "2026-08-12T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.6
-      }
+      "carried_forward": true
     },
     {
       "id": "9a439b6072b28236",
@@ -176,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9a439b6072b28236",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.757,
+      "freshness": 0.484,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +163,43 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.3,
-        "extended": 9.0
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "1ea706f753d03247",
+      "name": "Iran knew where Trump was staying as US detected surface - to - air missile threat : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1ea706f753d03247",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.42,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/iran-knew-where-trump-was-staying-as-us-detected-surface-to-air-missile-threat-report-article-14002324.html",
+      "published_at": "2026-08-12T03:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      },
+      "carried_forward": true
     },
     {
       "id": "7701c6d2269ee9b7",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7701c6d2269ee9b7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.813,
+      "freshness": 0.52,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      },
+      "carried_forward": true
     },
     {
       "id": "51dccd6da25355e9",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "51dccd6da25355e9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.757,
+      "freshness": 0.484,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      },
+      "carried_forward": true
     },
     {
       "id": "0c3a8c43b32e63da",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0c3a8c43b32e63da",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.705,
+      "freshness": 0.451,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T03:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      },
+      "carried_forward": true
     },
     {
       "id": "2a801b314e132e00",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2a801b314e132e00",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.53,
+      "freshness": 0.339,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T02:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "62f7e5d4c87e1948",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "62f7e5d4c87e1948",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.398,
+      "freshness": 0.254,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-12T01:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2111,17 +2120,23 @@ window.MAGEN_STATE = {
       "immediate": 5,
       "short": 17,
       "extended": 27
+    },
+    {
+      "timestamp": "2026-08-12T06:02:23.991015Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-12T04:28:22.414191Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 9
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 9
       },
       "manual": {
         "ok": true,
