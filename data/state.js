@@ -1,145 +1,120 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-12T17:45:25.973370Z",
+  "mode": "live",
+  "generated_at": "2026-08-12T18:43:43.820403Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
-      "low": 0,
-      "high": 20,
-      "confidence": 36,
-      "status": "לא זוהה אות חריג"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 69,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
-      "low": 0,
-      "high": 23,
-      "confidence": 36,
-      "status": "לא זוהה אות חריג"
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 69,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 7,
-      "low": 0,
-      "high": 26,
-      "confidence": 36,
-      "status": "לא זוהה אות חריג"
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "זינוק חריג",
+    "points_60m": 24
   },
   "changes": [
     {
-      "time": "15:15",
-      "text": "הברחת טראמפ מטורקיה : איראן ידעה באיזו קומה הנשיא , אדם נצפה עם טיל כתף",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "21:15",
+      "text": "Mossadul a „ vizitat  centrul nuclear iranian Fordow de multe ori , spune fostul șef al serviciilor secrete israeliene",
+      "impact": "השפעה מיידית מחושבת: +21.5",
       "direction": "up",
-      "source": "kipa.co.il",
-      "signal_id": "34420b47fe30ab54"
+      "source": "ziare.com",
+      "signal_id": "2600215ceedc70e3"
     },
     {
-      "time": "15:15",
-      "text": "Takeaways from Tuesday primaries . And , Iran threat prompted Trump secret plane swap",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "21:15",
+      "text": "Iranian embassy commemorates Minab school attack",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "knpr.org",
-      "signal_id": "bd3a2a3046c6084b"
+      "source": "cyprus-mail.com",
+      "signal_id": "84a5621584d2643b"
     },
     {
-      "time": "15:15",
-      "text": "The U . S . Just Fired on a Ship Trying to Break the Iran Blockade And Hormuz Is Getting Even More Dangerous",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "21:00",
+      "text": "U . S . helicopter fired on ship that tried to break Iran ports blockade",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "lnt.ma",
-      "signal_id": "99044e601b5efe04"
+      "source": "thehindu.com",
+      "signal_id": "441a583ddc383d1d"
+    },
+    {
+      "time": "20:30",
+      "text": "Revolutionary Guard Adviser Warns Iran Is Preparing Military Operations on US Soil as Hormuz Peace Talks Crash",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "ibtimes.co.uk",
+      "signal_id": "473ed3c6b9382921"
     }
   ],
   "signals": [
     {
-      "id": "34420b47fe30ab54",
-      "name": "הברחת טראמפ מטורקיה : איראן ידעה באיזו קומה הנשיא , אדם נצפה עם טיל כתף",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
+      "id": "2600215ceedc70e3",
+      "name": "Mossadul a „ vizitat  centrul nuclear iranian Fordow de multe ori , spune fostul șef al serviciilor secrete israeliene",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "34420b47fe30ab54",
-      "strength": 0.48,
+      "dependency_group": "2600215ceedc70e3",
+      "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.207,
+      "freshness": 0.872,
       "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
       },
       "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
       },
-      "source": "kipa.co.il",
-      "url": "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/1229466-0/",
-      "published_at": "2026-08-12T12:15:00Z",
+      "source": "ziare.com",
+      "url": "https://ziare.com/program-nuclear-iran/israel-iran-centru-nuclear-mossad-2029495",
+      "published_at": "2026-08-12T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
+        "immediate": 21.5,
+        "short": 16.8,
+        "extended": 7.1
+      }
     },
     {
-      "id": "bd3a2a3046c6084b",
-      "name": "Takeaways from Tuesday primaries . And , Iran threat prompted Trump secret plane swap",
+      "id": "84a5621584d2643b",
+      "name": "Iranian embassy commemorates Minab school attack",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "bd3a2a3046c6084b",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.207,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "knpr.org",
-      "url": "https://knpr.org/npr/2026-08-12/takeaways-from-tuesday-primaries-and-iran-threat-prompted-trumps-secret-plane-swap",
-      "published_at": "2026-08-12T12:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "99044e601b5efe04",
-      "name": "The U . S . Just Fired on a Ship Trying to Break the Iran Blockade And Hormuz Is Getting Even More Dangerous",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "99044e601b5efe04",
+      "dependency_group": "84a5621584d2643b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.207,
+      "freshness": 0.872,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -150,16 +125,201 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "lnt.ma",
-      "url": "https://lnt.ma/the-u-s-just-fired-on-a-ship-trying-to-break-the-iran-blockade-and-hormuz-is-getting-even-more-dangerous/",
-      "published_at": "2026-08-12T12:15:00Z",
+      "source": "cyprus-mail.com",
+      "url": "https://cyprus-mail.com/2026/08/12/iranian-embassy-commemorates-minab-school-attack",
+      "published_at": "2026-08-12T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.0
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "441a583ddc383d1d",
+      "name": "U . S . helicopter fired on ship that tried to break Iran ports blockade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "441a583ddc383d1d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.812,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thehindu.com",
+      "url": "https://www.thehindu.com/news/international/us-helicopter-fired-on-ship-that-tried-to-break-iran-ports-blockade/article71338058.ece",
+      "published_at": "2026-08-12T18:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "473ed3c6b9382921",
+      "name": "Revolutionary Guard Adviser Warns Iran Is Preparing Military Operations on US Soil as Hormuz Peace Talks Crash",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "473ed3c6b9382921",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.704,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ibtimes.co.uk",
+      "url": "https://www.ibtimes.co.uk/iran-revolutionary-guard-threatens-us-soil-hormuz-talks-collapse-1813806",
+      "published_at": "2026-08-12T17:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.6,
+        "extended": 7.8
+      }
+    },
+    {
+      "id": "cf06bb80dfc90f22",
+      "name": "It a Numbers Game : Trump Iran Dilemma : Depleted Missiles , Oil Reserves | 960 WELI | The Clay Travis and Buck Sexton Show",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cf06bb80dfc90f22",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.655,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "960weli.iheart.com",
+      "url": "https://960weli.iheart.com/featured/the-clay-travis-and-buck-sexton-show/content/2026-08-12-1119-the-clay-travis-and-buck-its-a-numbers-game-trumps-iran-dilemma-deplet/",
+      "published_at": "2026-08-12T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "a81fc631751376cb",
+      "name": "Iranian mayor reveals how missile strike wounded Mojtaba Khamenei",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a81fc631751376cb",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.493,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/news/431620",
+      "published_at": "2026-08-12T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "db7e3017dccca4dd",
+      "name": "Iran says no progress on reviving interim peace deal as attacks continue",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "db7e3017dccca4dd",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.493,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timeslive.co.za",
+      "url": "https://www.timeslive.co.za/news/world/2026-08-12-iran-says-no-progress-on-reviving-interim-peace-deal-as-attacks-continue/",
+      "published_at": "2026-08-12T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      }
+    },
+    {
+      "id": "7701c6d2269ee9b7",
+      "name": "Iranian - backed Houthis kill 6 in attack on vessel , and other developments in the Mideast",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7701c6d2269ee9b7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.398,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timesfreepress.com",
+      "url": "https://www.timesfreepress.com/news/2026/aug/12/iranian-backed-houthis-kill-6-attack-on-vessel/",
+      "published_at": "2026-08-12T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
     }
   ],
   "history": [
@@ -1986,17 +2146,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 7
+    },
+    {
+      "timestamp": "2026-08-12T18:43:43.820403Z",
+      "immediate": 25,
+      "short": 28,
+      "extended": 28
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-12T14:49:28.335620Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-12T18:43:43.820403Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 3
+        "ok": true,
+        "items": 150,
+        "relevant": 8
       },
       "manual": {
         "ok": true,
