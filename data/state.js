@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-13T13:38:03.638074Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-13T14:45:08.462881Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 34,
-      "low": 21,
+      "score": 31,
+      "low": 15,
       "high": 47,
-      "confidence": 69,
+      "confidence": 51,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 34,
-      "low": 21,
+      "score": 31,
+      "low": 15,
       "high": 47,
-      "confidence": 68,
+      "confidence": 51,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 33,
-      "low": 20,
-      "high": 46,
-      "confidence": 68,
+      "score": 25,
+      "low": 9,
+      "high": 41,
+      "confidence": 50,
       "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 24
+    "level": "ירידה",
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "15:45",
       "text": "Israel warned US about possible Iranian missile threat before Donald Trump secret flight from Turkey",
-      "impact": "השפעה מיידית מחושבת: +24.1",
+      "impact": "השפעה מיידית מחושבת: +17.5",
       "direction": "up",
       "source": "sangbadpratidin.in",
       "signal_id": "9d8cd7df714f6aa1"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:45",
       "text": "Iran attacks US failures as scepticism grows over Israeli role in Trump  assassination plot",
-      "impact": "השפעה מיידית מחושבת: +19.1",
+      "impact": "השפעה מיידית מחושבת: +13.9",
       "direction": "up",
       "source": "middleeasteye.net",
       "signal_id": "fa754618f490e90f"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:30",
       "text": "Trump secret escape : Iran mocks missile scare that forced aircraft switch",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "economictimes.indiatimes.com",
       "signal_id": "3951715780c356e1"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:45",
       "text": "CIA had  low confidence  in Iranian threat before Trump switched planes in Turkey",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "yahoo.com",
       "signal_id": "5569060bf5e369fd"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9d8cd7df714f6aa1",
       "strength": 0.63,
       "reliability": 0.56,
-      "freshness": 0.777,
+      "freshness": 0.564,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 24.1,
-        "short": 18.8,
-        "extended": 8.0
-      }
+        "immediate": 17.5,
+        "short": 13.7,
+        "extended": 5.8
+      },
+      "carried_forward": true
     },
     {
       "id": "fa754618f490e90f",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fa754618f490e90f",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.777,
+      "freshness": 0.564,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 19.1,
-        "short": 14.9,
-        "extended": 6.3
-      }
+        "immediate": 13.9,
+        "short": 10.8,
+        "extended": 4.6
+      },
+      "carried_forward": true
     },
     {
       "id": "3951715780c356e1",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3951715780c356e1",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.723,
+      "freshness": 0.525,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.6
-      }
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
+      },
+      "carried_forward": true
     },
     {
       "id": "5569060bf5e369fd",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5569060bf5e369fd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.777,
+      "freshness": 0.564,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
-      }
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      },
+      "carried_forward": true
     },
     {
       "id": "3e4126fe62316715",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3e4126fe62316715",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.543,
+      "freshness": 0.395,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
+      },
+      "carried_forward": true
     },
     {
       "id": "64368de1a3ab07ba",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "64368de1a3ab07ba",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.543,
+      "freshness": 0.395,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.4
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     },
     {
       "id": "83d451460b5ca46d",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "83d451460b5ca46d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.471,
+      "freshness": 0.342,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T11:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      }
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "2582e931f300aef0",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2582e931f300aef0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.408,
+      "freshness": 0.297,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
+      },
+      "carried_forward": true
     },
     {
       "id": "a5d1a947302ed04d",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a5d1a947302ed04d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.33,
+      "freshness": 0.239,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2267,17 +2276,23 @@ window.MAGEN_STATE = {
       "immediate": 34,
       "short": 34,
       "extended": 33
+    },
+    {
+      "timestamp": "2026-08-13T14:45:08.462881Z",
+      "immediate": 31,
+      "short": 31,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-13T13:38:03.638074Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 9
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 9
       },
       "manual": {
         "ok": true,
