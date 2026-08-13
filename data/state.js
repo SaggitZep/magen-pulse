@@ -1,89 +1,120 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-13T11:55:44.677146Z",
+  "mode": "live",
+  "generated_at": "2026-08-13T13:38:03.638074Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 10,
-      "low": 0,
-      "high": 26,
-      "confidence": 49,
-      "status": "נמוך"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 69,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
-      "low": 0,
-      "high": 31,
-      "confidence": 50,
-      "status": "נמוך"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 50,
-      "status": "נמוך"
+      "score": 33,
+      "low": 20,
+      "high": 46,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -3
+    "level": "זינוק חריג",
+    "points_60m": 24
   },
   "changes": [
     {
-      "time": "10:30",
-      "text": "CIA had  low confidence  in Israel claims of Iranian threat to Trump : Report",
-      "impact": "השפעה מיידית מחושבת: +7.6",
+      "time": "15:45",
+      "text": "Israel warned US about possible Iranian missile threat before Donald Trump secret flight from Turkey",
+      "impact": "השפעה מיידית מחושבת: +24.1",
+      "direction": "up",
+      "source": "sangbadpratidin.in",
+      "signal_id": "9d8cd7df714f6aa1"
+    },
+    {
+      "time": "15:45",
+      "text": "Iran attacks US failures as scepticism grows over Israeli role in Trump  assassination plot",
+      "impact": "השפעה מיידית מחושבת: +19.1",
       "direction": "up",
       "source": "middleeasteye.net",
-      "signal_id": "bc07e1919bf59794"
+      "signal_id": "fa754618f490e90f"
     },
     {
-      "time": "13:30",
-      "text": "Informazione Corretta - Mossad . Yossi Cohen : siamo entrati nel sito nucleare dellIran",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "15:30",
+      "text": "Trump secret escape : Iran mocks missile scare that forced aircraft switch",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "informazionecorretta.com",
-      "signal_id": "2582e931f300aef0"
+      "source": "economictimes.indiatimes.com",
+      "signal_id": "3951715780c356e1"
     },
     {
-      "time": "12:45",
-      "text": "Iran Boosts Military Posturing as Talks Hit Deadlock",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "15:45",
+      "text": "CIA had  low confidence  in Iranian threat before Trump switched planes in Turkey",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "rigzone.com",
-      "signal_id": "a5d1a947302ed04d"
-    },
-    {
-      "time": "12:15",
-      "text": "UAE frees frozen Iranian funds , USD 283M gold to halt attacks",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "siasat.com",
-      "signal_id": "a11e6ce24255fe85"
+      "source": "yahoo.com",
+      "signal_id": "5569060bf5e369fd"
     }
   ],
   "signals": [
     {
-      "id": "bc07e1919bf59794",
-      "name": "CIA had  low confidence  in Israel claims of Iranian threat to Trump : Report",
+      "id": "9d8cd7df714f6aa1",
+      "name": "Israel warned US about possible Iranian missile threat before Donald Trump secret flight from Turkey",
       "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
       "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "bc07e1919bf59794",
-      "strength": 0.55,
+      "dependency_group": "9d8cd7df714f6aa1",
+      "strength": 0.63,
       "reliability": 0.56,
-      "freshness": 0.282,
+      "freshness": 0.777,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "sangbadpratidin.in",
+      "url": "https://www.sangbadpratidin.in/world/israel-warned-us-about-possible-iranian-missile-threat-before-donald-trumps-secret-flight-from-turkey/pid/1287840/",
+      "published_at": "2026-08-13T12:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 24.1,
+        "short": 18.8,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "fa754618f490e90f",
+      "name": "Iran attacks US failures as scepticism grows over Israeli role in Trump  assassination plot",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fa754618f490e90f",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.777,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -95,15 +126,169 @@ window.MAGEN_STATE = {
         "extended": 0.56
       },
       "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/cia-had-low-confidence-israels-claims-iranian-threat-trump-report",
-      "published_at": "2026-08-13T07:30:00Z",
+      "url": "https://www.middleeasteye.net/news/iran-attacks-us-intelligence-failures-doubts-grow-over-israeli-trump-assassination-plot",
+      "published_at": "2026-08-13T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 7.6,
-        "short": 6.0,
-        "extended": 2.5
+        "immediate": 19.1,
+        "short": 14.9,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "3951715780c356e1",
+      "name": "Trump secret escape : Iran mocks missile scare that forced aircraft switch",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3951715780c356e1",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.723,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/trumps-secret-escape-iran-mocks-missile-scare-that-forced-aircraft-switch/articleshow/133210839.cms",
+      "published_at": "2026-08-13T12:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "5569060bf5e369fd",
+      "name": "CIA had  low confidence  in Iranian threat before Trump switched planes in Turkey",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5569060bf5e369fd",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.777,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yahoo.com",
+      "url": "https://www.yahoo.com/news/politics/articles/cia-had-low-confidence-in-iranian-threat-before-trump-switched-planes-in-turkey-234944375.html",
+      "published_at": "2026-08-13T12:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "3e4126fe62316715",
+      "name": "Iran challenges Trump : more than 75 % of missile and drone capabilities still ready for use",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3e4126fe62316715",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.543,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeastmonitor.com",
+      "url": "https://www.middleeastmonitor.com/20260813-iran-challenges-trump-more-than-75-of-missile-and-drone-capabilities-still-ready-for-use/",
+      "published_at": "2026-08-13T11:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "64368de1a3ab07ba",
+      "name": "Hormuz is under our control : Iran fires back at Trump claim that US has  total control  of key oil route",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "64368de1a3ab07ba",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.543,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/hormuz-is-under-our-control-iran-fires-back-at-trump-s-claim-that-us-has-total-control-of-key-oil-route-article-14004679.html",
+      "published_at": "2026-08-13T11:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.4
+      }
+    },
+    {
+      "id": "83d451460b5ca46d",
+      "name": "Live Updates : Tehran says Strait of Hormuz  under Iran control  after Trump threatens U . S . might  keep it",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "83d451460b5ca46d",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.471,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "cbsnews.com",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-donald-trump-tehran-control-threatens-keep-it/",
+      "published_at": "2026-08-13T11:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      }
     },
     {
       "id": "2582e931f300aef0",
@@ -115,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2582e931f300aef0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.665,
+      "freshness": 0.408,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +316,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.6
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      }
     },
     {
       "id": "a5d1a947302ed04d",
@@ -147,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a5d1a947302ed04d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.537,
+      "freshness": 0.33,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,107 +347,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a11e6ce24255fe85",
-      "name": "UAE frees frozen Iranian funds , USD 283M gold to halt attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a11e6ce24255fe85",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.465,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "siasat.com",
-      "url": "https://www.siasat.com/uae-frees-frozen-iranian-funds-usd-283m-gold-to-halt-attacks-3523779/",
-      "published_at": "2026-08-13T09:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "97b7656cfbfdf965",
-      "name": "Iran takes more aggressive military stance with US talks frozen",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "97b7656cfbfdf965",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.433,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "decaturdaily.com",
-      "url": "https://www.decaturdaily.com/news/other_news/international/iran-takes-more-aggressive-military-stance-with-us-talks-frozen/article_0c7d55c2-7b04-4c93-a203-d7af1afa3183.html",
-      "published_at": "2026-08-13T09:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e4212a2bb507d1ba",
-      "name": "Iran - US war latest : Tehran threatens to prolong war until Trump term ends so  enemy never dares attack us again",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e4212a2bb507d1ba",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.282,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "independent.co.uk",
-      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-hormuz-oil-updates-b3032264.html",
-      "published_at": "2026-08-13T07:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
+      }
     }
   ],
   "history": [
@@ -2174,17 +2261,23 @@ window.MAGEN_STATE = {
       "immediate": 10,
       "short": 15,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-13T13:38:03.638074Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 33
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-13T10:58:33.425915Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-13T13:38:03.638074Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 6
+        "ok": true,
+        "items": 150,
+        "relevant": 9
       },
       "manual": {
         "ok": true,
