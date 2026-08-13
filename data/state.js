@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-13T01:51:18.691789Z",
+  "generated_at": "2026-08-13T04:06:16.593161Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 69,
-      "status": "מוגבר"
+      "score": 4,
+      "low": 0,
+      "high": 17,
+      "confidence": 67,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 28,
-      "low": 15,
-      "high": 41,
-      "confidence": 69,
-      "status": "מוגבר"
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 67,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 29,
-      "low": 16,
-      "high": 42,
-      "confidence": 68,
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 67,
       "status": "מוגבר"
     }
   },
@@ -35,72 +35,227 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 22
+    "level": "ירידה",
+    "points_60m": -21
   },
   "changes": [
     {
-      "time": "04:00",
-      "text": "CIA Was Skeptical of Israeli Tip About Iranian Threat to Trump",
-      "impact": "השפעה מיידית מחושבת: +21.2",
+      "time": "06:30",
+      "text": "Trump Iran Threat | Turkiye NATO Summit Security Alert & Plane Change",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "newser.com",
-      "signal_id": "cfdbfc1b7c557067"
+      "source": "bhaskar.com",
+      "signal_id": "75b8e765f921c02f"
     },
     {
-      "time": "03:45",
-      "text": "Iran - Backed Houthi Terrorists Launch Missile and Drone Attacks in Red Sea",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "time": "06:30",
+      "text": "Iranian threat to Trump  not compelling enough  for CIA before plane switch in Turkey : Report",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "breitbart.com",
-      "signal_id": "9bd4030c7425bbb6"
+      "source": "hindustantimes.com",
+      "signal_id": "118735c95f888102"
     },
     {
-      "time": "03:30",
-      "text": "Trump secret plane switch took place within a day of credible Iranian missile threat",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "time": "05:30",
+      "text": "If Iran runs out of missiles ...: IRGC adviser says Tehran may drag war out until Trump leaves office",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "cbsnews.com",
-      "signal_id": "6aab613f2a5f8cd4"
+      "source": "businesstoday.in",
+      "signal_id": "85ddd96c1c995d01"
     },
     {
-      "time": "03:30",
-      "text": "Trump decoy flight sparked by fears of Iranian cell with shoulder - fired missile : Official",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "time": "05:45",
+      "text": "Iranian - backed Houthis kill 6 people in attack on vessel",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "abcnews.com",
-      "signal_id": "5b2556f68640cc3d"
+      "source": "theshillongtimes.com",
+      "signal_id": "745d2a56b5b846fc"
     }
   ],
   "signals": [
     {
-      "id": "cfdbfc1b7c557067",
-      "name": "CIA Was Skeptical of Israeli Tip About Iranian Threat to Trump",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "75b8e765f921c02f",
+      "name": "Trump Iran Threat | Turkiye NATO Summit Security Alert & Plane Change",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "cfdbfc1b7c557067",
-      "strength": 0.55,
+      "dependency_group": "75b8e765f921c02f",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.783,
+      "freshness": 0.841,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "newser.com",
-      "url": "https://www.newser.com/story/394565/cia-was-skeptical-of-israeli-tip-about-iranian-threat-to-trump.html",
-      "published_at": "2026-08-13T01:00:00Z",
+      "source": "bhaskar.com",
+      "url": "https://www.bhaskar.com/g/international/news/trump-iran-threat-turkiye-nato-summit-security-alert-138711009.html",
+      "published_at": "2026-08-13T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 21.2,
-        "short": 16.6,
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.3
+      }
+    },
+    {
+      "id": "118735c95f888102",
+      "name": "Iranian threat to Trump  not compelling enough  for CIA before plane switch in Turkey : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "118735c95f888102",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.841,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/world-news/iranian-threat-to-trump-not-compelling-enough-for-cia-before-plane-switch-in-turkey-low-confidence-israel-intel-war-101786588880541.html",
+      "published_at": "2026-08-13T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.3
+      }
+    },
+    {
+      "id": "85ddd96c1c995d01",
+      "name": "If Iran runs out of missiles ...: IRGC adviser says Tehran may drag war out until Trump leaves office",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "85ddd96c1c995d01",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.632,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "businesstoday.in",
+      "url": "https://www.businesstoday.in/world/story/if-iran-runs-out-of-missiles-irgc-adviser-says-tehran-may-drag-war-out-until-trump-leaves-office-548889-2026-08-13",
+      "published_at": "2026-08-13T02:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "745d2a56b5b846fc",
+      "name": "Iranian - backed Houthis kill 6 people in attack on vessel",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "745d2a56b5b846fc",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.679,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theshillongtimes.com",
+      "url": "https://theshillongtimes.com/2026/08/13/iranian-backed-houthis-kill-6-people-in-attack-on-vessel/",
+      "published_at": "2026-08-13T02:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "c5ad7adf97545f9b",
+      "name": "Iran takes more robust military stance with US talks frozen",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c5ad7adf97545f9b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.679,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "unionleader.com",
+      "url": "https://www.unionleader.com/news/business/economy/iran-takes-more-robust-military-stance-with-us-talks-frozen/article_74abe7e3-9b2c-4f5f-8ddb-8bc1aacfd41d.html",
+      "published_at": "2026-08-13T02:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "eb7440dc4fad891a",
+      "name": "How Trump ruse to evade an Iranian threat unfolded on the tarmac in Turkey",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "eb7440dc4fad891a",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.632,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "livemint.com",
+      "url": "https://www.livemint.com/global/how-trump-s-ruse-to-evade-an-iranian-threat-unfolded-on-the-tarmac-in-turkey-11786582207066.html",
+      "published_at": "2026-08-13T02:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
         "extended": 7.0
       }
     },
@@ -114,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9bd4030c7425bbb6",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.729,
+      "freshness": 0.383,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
       }
     },
     {
@@ -145,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6aab613f2a5f8cd4",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.679,
+      "freshness": 0.357,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T00:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.9
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
       }
     },
     {
@@ -176,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5b2556f68640cc3d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.679,
+      "freshness": 0.357,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,133 +347,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T00:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
-      }
-    },
-    {
-      "id": "75b8e765f921c02f",
-      "name": "Trump Iran Threat | Turkiye NATO Summit Security Alert & Plane Change",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "75b8e765f921c02f",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.679,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bhaskar.com",
-      "url": "https://www.bhaskar.com/international/news/trump-iran-threat-turkiye-nato-summit-security-alert-138711009.html",
-      "published_at": "2026-08-13T00:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
-    },
-    {
-      "id": "5acbf1080f958f17",
-      "name": "US forces disable Iran - bound ship with Hellfire missiles",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5acbf1080f958f17",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.589,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "signalscv.com",
-      "url": "https://signalscv.com/2026/08/us-forces-disable-iran-bound-ship-with-hellfire-missiles/",
-      "published_at": "2026-08-13T00:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
-      }
-    },
-    {
-      "id": "72521243851f5c18",
-      "name": "Iran knew Trump exact Ankara location at NATO Summit as US detected missile threat against Air Force One : NYT report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "72521243851f5c18",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.51,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newyorktelegraph.com",
-      "url": "http://www.newyorktelegraph.com/news/279237620/iran-knew-trump-exact-ankara-location-at-nato-summit-as-us-detected-missile-threat-against-air-force-one-nyt-report",
-      "published_at": "2026-08-12T23:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
-    },
-    {
-      "id": "66f27f9506f943b5",
-      "name": "Iran developed advanced missiles in attacks on US bases",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "66f27f9506f943b5",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.475,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "albawaba.net",
-      "url": "https://www.albawaba.net/news/iran-developed-advanced-missiles-attacks-1634918",
-      "published_at": "2026-08-12T23:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     }
   ],
@@ -2188,17 +2219,23 @@ window.MAGEN_STATE = {
       "immediate": 25,
       "short": 28,
       "extended": 29
+    },
+    {
+      "timestamp": "2026-08-13T04:06:16.593161Z",
+      "immediate": 4,
+      "short": 15,
+      "extended": 24
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-13T01:51:18.691789Z",
+    "last_success": "2026-08-13T04:06:16.593161Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 8
+        "relevant": 9
       },
       "manual": {
         "ok": true,
