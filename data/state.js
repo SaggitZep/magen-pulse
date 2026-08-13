@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-13T19:49:48.986966Z",
+  "generated_at": "2026-08-13T20:30:30.912050Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 13,
+      "score": 11,
       "low": 0,
-      "high": 29,
-      "confidence": 48,
+      "high": 28,
+      "confidence": 47,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 16,
+      "score": 14,
       "low": 0,
-      "high": 32,
-      "confidence": 48,
+      "high": 31,
+      "confidence": 46,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 48,
+      "score": 14,
+      "low": 0,
+      "high": 31,
+      "confidence": 46,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -5
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "18:45",
       "text": "Israel , Ukraine find common ground against growing Iranian threat , envoy says",
-      "impact": "השפעה מיידית מחושבת: +11.2",
+      "impact": "השפעה מיידית מחושבת: +9.2",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "46fbe57083492dcb"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:00",
       "text": "Tehran says Strait of Hormuz  under Iran control  after Trump threat",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "yahoo.com",
       "signal_id": "e5c32d3f95ffd990"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:30",
       "text": "Iran dismisses US claims of full control over Strait of Hormuz as  baseless lie – Middle East Monitor",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "middleeastmonitor.com",
       "signal_id": "e29d4276603babbb"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:15",
       "text": "Trump decoy flight sparked by fears of Iranian cell with shoulder - fired missile : Official",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "6abc.com",
       "signal_id": "5b2556f68640cc3d"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "46fbe57083492dcb",
       "strength": 0.55,
       "reliability": 0.74,
-      "freshness": 0.312,
+      "freshness": 0.257,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.2,
-        "short": 8.7,
-        "extended": 3.7
+        "immediate": 9.2,
+        "short": 7.2,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e5c32d3f95ffd990",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.593,
+      "freshness": 0.488,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e29d4276603babbb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.514,
+      "freshness": 0.423,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.2
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5b2556f68640cc3d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.27,
+      "freshness": 0.223,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.5,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a6e24c93c59a1730",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.312,
+      "freshness": 0.257,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4fb67d605ad0c45f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.252,
+      "freshness": 0.207,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -260,8 +260,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0b6c83930f2d491c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.234,
+      "freshness": 0.193,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "376a1c4e80ee0e25",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.234,
+      "freshness": 0.193,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
       },
       "carried_forward": true
     }
@@ -2280,6 +2280,12 @@ window.MAGEN_STATE = {
       "immediate": 13,
       "short": 16,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-13T20:30:30.912050Z",
+      "immediate": 11,
+      "short": 14,
+      "extended": 14
     }
   ],
   "health": {
@@ -2289,7 +2295,7 @@ window.MAGEN_STATE = {
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
         "carried_forward": 8
       },
       "manual": {
