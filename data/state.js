@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-13T07:10:48.286301Z",
+  "generated_at": "2026-08-13T08:45:08.693829Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 34,
-      "low": 21,
-      "high": 47,
-      "confidence": 69,
+      "score": 33,
+      "low": 20,
+      "high": 46,
+      "confidence": 67,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 34,
-      "low": 21,
-      "high": 47,
-      "confidence": 69,
+      "score": 33,
+      "low": 20,
+      "high": 46,
+      "confidence": 67,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 31,
-      "low": 19,
-      "high": 43,
-      "confidence": 70,
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 67,
       "status": "מוגבר"
     }
   },
@@ -36,43 +36,74 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
+      "time": "10:30",
+      "text": "CIA had  low confidence  in Israel claims of Iranian threat to Trump : Report",
+      "impact": "השפעה מיידית מחושבת: +18.9",
+      "direction": "up",
+      "source": "middleeasteye.net",
+      "signal_id": "bc07e1919bf59794"
+    },
+    {
       "time": "08:00",
       "text": "דיווח : ה - CIA הטיל ספק במודיעין שהעבירה ישראל על איום התנקשות איראני בטראמפ",
-      "impact": "השפעה מיידית מחושבת: +22.0",
+      "impact": "השפעה מיידית מחושבת: +14.0",
       "direction": "up",
       "source": "ynet.co.il",
       "signal_id": "0708c250906a8765"
     },
     {
-      "time": "07:15",
-      "text": "האיום האיראני על טראמפ בטורקיה : ב - CIA פקפקו במודיעין הישראלי",
-      "impact": "השפעה מיידית מחושבת: +11.7",
+      "time": "10:30",
+      "text": "Iran - US war latest : Tehran threatens to prolong war until Trump term ends so  enemy never dares attack us again",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "inn.co.il",
-      "signal_id": "a996169a8d11cd66"
+      "source": "independent.co.uk",
+      "signal_id": "e4212a2bb507d1ba"
     },
     {
-      "time": "09:45",
-      "text": "US intelligence officials skeptical of Iranian threat to Trump in Turkiye – Washington Post report",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "time": "10:15",
+      "text": "Pakistan Defense Pact India , ईरान के खिलाफ सुन्नी देशों ने बनाया सैन्य गिरोह , मक्का समझौते पर भारत को लेकर इतरा रहा पाकिस्तान , एक्सपर्ट से जानें चुनौती - mecca agreement pakistan turkey saudi military axis impact indi",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
-      "source": "arabnews.com",
-      "signal_id": "805874008f232b4e"
-    },
-    {
-      "time": "09:30",
-      "text": "Iranian - backed Houthis kill 6 in attack on vessel - News Today",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "newstodaynet.com",
-      "signal_id": "6421ef5052eea350"
+      "source": "navbharattimes.indiatimes.com",
+      "signal_id": "6411dec63bead395"
     }
   ],
   "signals": [
+    {
+      "id": "bc07e1919bf59794",
+      "name": "CIA had  low confidence  in Israel claims of Iranian threat to Trump : Report",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bc07e1919bf59794",
+      "strength": 0.55,
+      "reliability": 0.56,
+      "freshness": 0.699,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "middleeasteye.net",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/cia-had-low-confidence-israels-claims-iranian-threat-trump-report",
+      "published_at": "2026-08-13T07:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 18.9,
+        "short": 14.8,
+        "extended": 6.3
+      }
+    },
     {
       "id": "0708c250906a8765",
       "name": "דיווח : ה - CIA הטיל ספק במודיעין שהעבירה ישראל על איום התנקשות איראני בטראמפ",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0708c250906a8765",
       "strength": 0.63,
       "reliability": 0.74,
-      "freshness": 0.536,
+      "freshness": 0.342,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,40 +130,71 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 22.0,
-        "short": 17.2,
-        "extended": 7.3
+        "immediate": 14.0,
+        "short": 10.9,
+        "extended": 4.6
       }
     },
     {
-      "id": "a996169a8d11cd66",
-      "name": "האיום האיראני על טראמפ בטורקיה : ב - CIA פקפקו במודיעין הישראלי",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "e4212a2bb507d1ba",
+      "name": "Iran - US war latest : Tehran threatens to prolong war until Trump term ends so  enemy never dares attack us again",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a996169a8d11cd66",
-      "strength": 0.55,
+      "dependency_group": "e4212a2bb507d1ba",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.433,
+      "freshness": 0.699,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "inn.co.il",
-      "url": "https://www.inn.co.il/news/703871",
-      "published_at": "2026-08-13T04:15:00Z",
+      "source": "independent.co.uk",
+      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-hormuz-oil-updates-b3032264.html",
+      "published_at": "2026-08-13T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.7,
-        "short": 9.2,
-        "extended": 3.9
+        "immediate": 1.3,
+        "short": 4.6,
+        "extended": 7.8
+      }
+    },
+    {
+      "id": "6411dec63bead395",
+      "name": "Pakistan Defense Pact India , ईरान के खिलाफ सुन्नी देशों ने बनाया सैन्य गिरोह , मक्का समझौते पर भारत को लेकर इतरा रहा पाकिस्तान , एक्सपर्ट से जानें चुनौती - mecca agreement pakistan turkey saudi military axis impact indi",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6411dec63bead395",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.651,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "navbharattimes.indiatimes.com",
+      "url": "https://navbharattimes.indiatimes.com/world/pakistan/mecca-agreement-pakistan-turkey-saudi-military-axis-impact-india-iran-expert-analysis/articleshow/133200759.cms",
+      "published_at": "2026-08-13T07:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
       }
     },
     {
@@ -145,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "805874008f232b4e",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.884,
+      "freshness": 0.564,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.8,
-        "extended": 9.8
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
       }
     },
     {
@@ -176,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6421ef5052eea350",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.823,
+      "freshness": 0.525,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T06:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.1
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.2
       }
     },
     {
@@ -207,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e5171b8e041862bd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.665,
+      "freshness": 0.424,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T05:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.6
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     },
     {
@@ -238,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f771b6d3b545be1c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.536,
+      "freshness": 0.342,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,40 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      }
-    },
-    {
-      "id": "27cc7f58929413bc",
-      "name": "Iran war reveals protection of space assets on bases has to  evolve , top general says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "27cc7f58929413bc",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.465,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "defenseone.com",
-      "url": "https://www.defenseone.com/threats/2026/08/iran-war-reveals-protection-space-assets-bases-has-evolve-top-general-says/415389/",
-      "published_at": "2026-08-13T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       }
     }
   ],
@@ -2175,17 +2206,23 @@ window.MAGEN_STATE = {
       "immediate": 34,
       "short": 34,
       "extended": 31
+    },
+    {
+      "timestamp": "2026-08-13T08:45:08.693829Z",
+      "immediate": 33,
+      "short": 33,
+      "extended": 28
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-13T07:10:48.286301Z",
+    "last_success": "2026-08-13T08:45:08.693829Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 7
+        "relevant": 8
       },
       "manual": {
         "ok": true,
