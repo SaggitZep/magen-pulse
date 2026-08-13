@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-13T17:45:31.731349Z",
+  "generated_at": "2026-08-13T18:44:09.124826Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 66,
-      "status": "מוגבר"
+      "score": 18,
+      "low": 5,
+      "high": 31,
+      "confidence": 65,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 65,
+      "status": "נמוך"
+    },
+    "extended": {
+      "label": "24 שעות",
       "score": 23,
       "low": 10,
       "high": 36,
       "confidence": 65,
       "status": "מוגבר"
-    },
-    "extended": {
-      "label": "24 שעות",
-      "score": 19,
-      "low": 6,
-      "high": 32,
-      "confidence": 64,
-      "status": "נמוך"
     }
   },
   "coverage": {
@@ -36,40 +36,40 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -12
+    "points_60m": -4
   },
   "changes": [
     {
       "time": "18:45",
       "text": "Israel , Ukraine find common ground against growing Iranian threat , envoy says",
-      "impact": "השפעה מיידית מחושבת: +20.2",
+      "impact": "השפעה מיידית מחושבת: +15.3",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "46fbe57083492dcb"
     },
     {
-      "time": "18:45",
-      "text": "Tehran Fortifies Military Command to Stifle Internal Uprising Amid Fears of Economic Collapse",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "21:00",
+      "text": "Tehran says Strait of Hormuz  under Iran control  after Trump threat",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "ncr-iran.org",
-      "signal_id": "a6e24c93c59a1730"
+      "source": "yahoo.com",
+      "signal_id": "e5c32d3f95ffd990"
     },
     {
-      "time": "18:00",
-      "text": "Iran Says It Reorganized Military To Be More Aggressive In Protracted Conflict After US  Long Miscalculated",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "20:30",
+      "text": "Iran dismisses US claims of full control over Strait of Hormuz as  baseless lie – Middle East Monitor",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "zerohedge.com",
-      "signal_id": "4fb67d605ad0c45f"
+      "source": "middleeastmonitor.com",
+      "signal_id": "e29d4276603babbb"
     },
     {
-      "time": "17:30",
-      "text": "CIA had  low confidence  in Iran threat before Trump Turkey aircraft switch",
+      "time": "18:15",
+      "text": "Trump decoy flight sparked by fears of Iranian cell with shoulder - fired missile : Official",
       "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
-      "source": "europesun.com",
-      "signal_id": "f17b96c8edb970d2"
+      "source": "6abc.com",
+      "signal_id": "5b2556f68640cc3d"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "46fbe57083492dcb",
       "strength": 0.55,
       "reliability": 0.74,
-      "freshness": 0.563,
+      "freshness": 0.426,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,102 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 20.2,
-        "short": 15.7,
-        "extended": 6.7
+        "immediate": 15.3,
+        "short": 11.9,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "e5c32d3f95ffd990",
+      "name": "Tehran says Strait of Hormuz  under Iran control  after Trump threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e5c32d3f95ffd990",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.81,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yahoo.com",
+      "url": "https://www.yahoo.com/news/politics/articles/tehran-says-strait-hormuz-under-103352169.html",
+      "published_at": "2026-08-13T18:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.0
+      }
+    },
+    {
+      "id": "e29d4276603babbb",
+      "name": "Iran dismisses US claims of full control over Strait of Hormuz as  baseless lie – Middle East Monitor",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e29d4276603babbb",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.703,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeastmonitor.com",
+      "url": "https://www.middleeastmonitor.com/20260813-iran-dismisses-us-claims-of-full-control-over-strait-of-hormuz-as-baseless-lies/",
+      "published_at": "2026-08-13T17:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 6.9
+      }
+    },
+    {
+      "id": "5b2556f68640cc3d",
+      "name": "Trump decoy flight sparked by fears of Iranian cell with shoulder - fired missile : Official",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5b2556f68640cc3d",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.369,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "6abc.com",
+      "url": "https://6abc.com/story/trumps-decoy-flight-sparked-fears-iranian-cell-shoulder-fired-missile-official/19672134/",
+      "published_at": "2026-08-13T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       }
     },
     {
@@ -114,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a6e24c93c59a1730",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.563,
+      "freshness": 0.426,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.5
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     },
     {
@@ -145,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4fb67d605ad0c45f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.455,
+      "freshness": 0.344,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,40 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "f17b96c8edb970d2",
-      "name": "CIA had  low confidence  in Iran threat before Trump Turkey aircraft switch",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f17b96c8edb970d2",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.394,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "europesun.com",
-      "url": "http://www.europesun.com/news/279239182/cia-had-low-confidence-in-iran-threat-before-trump-turkey-aircraft-switch",
-      "published_at": "2026-08-13T14:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       }
     },
     {
@@ -207,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0b6c83930f2d491c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.423,
+      "freshness": 0.32,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.2
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       }
     },
     {
@@ -238,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "376a1c4e80ee0e25",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.423,
+      "freshness": 0.32,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,71 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.2
-      }
-    },
-    {
-      "id": "4f57106dbc6e3a1e",
-      "name": "Iranian press review : Tehran says it will no longer wait to be attacked",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4f57106dbc6e3a1e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.367,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/news/iranian-press-review-tehran-says-it-will-no-longer-wait-be-attacked",
-      "published_at": "2026-08-13T14:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
-    },
-    {
-      "id": "eef84dfca270a505",
-      "name": "Iran dismisses US claims of full control over Strait of Hormuz as  baseless lies",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "eef84dfca270a505",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.367,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/us-israel-iran-war/iran-dismisses-us-claims-of-full-control-over-strait-of-hormuz-as-baseless-lies-/4026439",
-      "published_at": "2026-08-13T14:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       }
     }
   ],
@@ -2260,12 +2260,18 @@ window.MAGEN_STATE = {
       "immediate": 22,
       "short": 23,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-13T18:44:09.124826Z",
+      "immediate": 18,
+      "short": 22,
+      "extended": 23
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-13T17:45:31.731349Z",
+    "last_success": "2026-08-13T18:44:09.124826Z",
     "sources": {
       "gdelt": {
         "ok": true,
