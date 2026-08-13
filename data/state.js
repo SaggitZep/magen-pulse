@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-13T16:42:20.136050Z",
+  "generated_at": "2026-08-13T17:45:31.731349Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 34,
-      "low": 21,
-      "high": 47,
-      "confidence": 67,
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 66,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 34,
-      "low": 21,
-      "high": 47,
-      "confidence": 67,
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 65,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 29,
-      "low": 16,
-      "high": 42,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 19,
+      "low": 6,
+      "high": 32,
+      "confidence": 64,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -35,41 +35,41 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "ירידה",
+    "points_60m": -12
   },
   "changes": [
     {
       "time": "18:45",
       "text": "Israel , Ukraine find common ground against growing Iranian threat , envoy says",
-      "impact": "השפעה מיידית מחושבת: +27.3",
+      "impact": "השפעה מיידית מחושבת: +20.2",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "46fbe57083492dcb"
     },
     {
-      "time": "15:45",
-      "text": "Israel warned US about possible Iranian missile threat before Donald Trump secret flight from Turkey",
-      "impact": "השפעה מיידית מחושבת: +10.0",
-      "direction": "up",
-      "source": "sangbadpratidin.in",
-      "signal_id": "9d8cd7df714f6aa1"
-    },
-    {
-      "time": "15:45",
-      "text": "Iran attacks US failures as scepticism grows over Israeli role in Trump  assassination plot",
-      "impact": "השפעה מיידית מחושבת: +8.0",
-      "direction": "up",
-      "source": "middleeasteye.net",
-      "signal_id": "fa754618f490e90f"
-    },
-    {
       "time": "18:45",
       "text": "Tehran Fortifies Military Command to Stifle Internal Uprising Amid Fears of Economic Collapse",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "ncr-iran.org",
       "signal_id": "a6e24c93c59a1730"
+    },
+    {
+      "time": "18:00",
+      "text": "Iran Says It Reorganized Military To Be More Aggressive In Protracted Conflict After US  Long Miscalculated",
+      "impact": "השפעה מיידית מחושבת: +0.8",
+      "direction": "up",
+      "source": "zerohedge.com",
+      "signal_id": "4fb67d605ad0c45f"
+    },
+    {
+      "time": "17:30",
+      "text": "CIA had  low confidence  in Iran threat before Trump Turkey aircraft switch",
+      "impact": "השפעה מיידית מחושבת: +0.8",
+      "direction": "up",
+      "source": "europesun.com",
+      "signal_id": "f17b96c8edb970d2"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "46fbe57083492dcb",
       "strength": 0.55,
       "reliability": 0.74,
-      "freshness": 0.761,
+      "freshness": 0.563,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,71 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 27.3,
-        "short": 21.3,
-        "extended": 9.0
-      }
-    },
-    {
-      "id": "9d8cd7df714f6aa1",
-      "name": "Israel warned US about possible Iranian missile threat before Donald Trump secret flight from Turkey",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9d8cd7df714f6aa1",
-      "strength": 0.63,
-      "reliability": 0.56,
-      "freshness": 0.323,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "sangbadpratidin.in",
-      "url": "https://www.sangbadpratidin.in/world/israel-warned-us-about-possible-iranian-missile-threat-before-donald-trumps-secret-flight-from-turkey/pid/1287840/",
-      "published_at": "2026-08-13T12:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 10.0,
-        "short": 7.8,
-        "extended": 3.3
-      }
-    },
-    {
-      "id": "fa754618f490e90f",
-      "name": "Iran attacks US failures as scepticism grows over Israeli role in Trump  assassination plot",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fa754618f490e90f",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.323,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/news/iran-attacks-us-intelligence-failures-doubts-grow-over-israeli-trump-assassination-plot",
-      "published_at": "2026-08-13T12:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 8.0,
-        "short": 6.2,
-        "extended": 2.6
+        "immediate": 20.2,
+        "short": 15.7,
+        "extended": 6.7
       }
     },
     {
@@ -176,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a6e24c93c59a1730",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.761,
+      "freshness": 0.563,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.5
       }
     },
     {
@@ -207,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4fb67d605ad0c45f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.614,
+      "freshness": 0.455,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,71 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.6,
-        "extended": 6.1
-      }
-    },
-    {
-      "id": "0b6c83930f2d491c",
-      "name": "Fear of our military : Iran mocks Trump over aircraft switch during Turkey trip",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0b6c83930f2d491c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.572,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/fear-of-our-military-iran-mocks-donald-trump-over-aircraft-switch-during-turkey-trip-101786626543474.html",
-      "published_at": "2026-08-13T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
-    },
-    {
-      "id": "376a1c4e80ee0e25",
-      "name": "Baseless Lie : Iran dismisses US President Trump claims of  total control  over Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "376a1c4e80ee0e25",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.572,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thestar.com.my",
-      "url": "https://www.thestar.com.my/news/world/2026/08/13/039baseless-lies039-iran-dismisses-us-president-trump039s-claims-of-039total-control039-over-strait-of-hormuz",
-      "published_at": "2026-08-13T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
       }
     },
     {
@@ -300,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f17b96c8edb970d2",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.533,
+      "freshness": 0.394,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,9 +192,71 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "0b6c83930f2d491c",
+      "name": "Fear of our military : Iran mocks Trump over aircraft switch during Turkey trip",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0b6c83930f2d491c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.423,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/world-news/fear-of-our-military-iran-mocks-donald-trump-over-aircraft-switch-during-turkey-trip-101786626543474.html",
+      "published_at": "2026-08-13T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.2
+      }
+    },
+    {
+      "id": "376a1c4e80ee0e25",
+      "name": "Baseless Lie : Iran dismisses US President Trump claims of  total control  over Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "376a1c4e80ee0e25",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.423,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thestar.com.my",
+      "url": "https://www.thestar.com.my/news/world/2026/08/13/039baseless-lies039-iran-dismisses-us-president-trump039s-claims-of-039total-control039-over-strait-of-hormuz",
+      "published_at": "2026-08-13T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.2
       }
     },
     {
@@ -331,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4f57106dbc6e3a1e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.496,
+      "freshness": 0.367,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       }
     },
     {
@@ -362,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "eef84dfca270a505",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.496,
+      "freshness": 0.367,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -376,37 +314,6 @@ window.MAGEN_STATE = {
       "source": "aa.com.tr",
       "url": "https://aa.com.tr/en/us-israel-iran-war/iran-dismisses-us-claims-of-full-control-over-strait-of-hormuz-as-baseless-lies-/4026439",
       "published_at": "2026-08-13T14:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      }
-    },
-    {
-      "id": "5569060bf5e369fd",
-      "name": "CIA had  low confidence  in Iranian threat before Trump switched planes in Turkey",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5569060bf5e369fd",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.323,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yahoo.com",
-      "url": "https://www.yahoo.com/news/politics/articles/cia-had-low-confidence-in-iranian-threat-before-trump-switched-planes-in-turkey-234944375.html",
-      "published_at": "2026-08-13T12:45:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
@@ -2347,17 +2254,23 @@ window.MAGEN_STATE = {
       "immediate": 34,
       "short": 34,
       "extended": 29
+    },
+    {
+      "timestamp": "2026-08-13T17:45:31.731349Z",
+      "immediate": 22,
+      "short": 23,
+      "extended": 19
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-13T16:42:20.136050Z",
+    "last_success": "2026-08-13T17:45:31.731349Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 11
+        "relevant": 8
       },
       "manual": {
         "ok": true,
