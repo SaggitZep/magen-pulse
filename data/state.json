@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-13T18:44:09.124826Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-13T19:49:48.986966Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 18,
-      "low": 5,
-      "high": 31,
-      "confidence": 65,
+      "score": 13,
+      "low": 0,
+      "high": 29,
+      "confidence": 48,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 65,
+      "score": 16,
+      "low": 0,
+      "high": 32,
+      "confidence": 48,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 23,
-      "low": 10,
-      "high": 36,
-      "confidence": 65,
-      "status": "מוגבר"
+      "score": 17,
+      "low": 1,
+      "high": 33,
+      "confidence": 48,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -4
+    "points_60m": -5
   },
   "changes": [
     {
       "time": "18:45",
       "text": "Israel , Ukraine find common ground against growing Iranian threat , envoy says",
-      "impact": "השפעה מיידית מחושבת: +15.3",
+      "impact": "השפעה מיידית מחושבת: +11.2",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "46fbe57083492dcb"
@@ -50,7 +50,7 @@
     {
       "time": "21:00",
       "text": "Tehran says Strait of Hormuz  under Iran control  after Trump threat",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "yahoo.com",
       "signal_id": "e5c32d3f95ffd990"
@@ -58,7 +58,7 @@
     {
       "time": "20:30",
       "text": "Iran dismisses US claims of full control over Strait of Hormuz as  baseless lie – Middle East Monitor",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "middleeastmonitor.com",
       "signal_id": "e29d4276603babbb"
@@ -66,7 +66,7 @@
     {
       "time": "18:15",
       "text": "Trump decoy flight sparked by fears of Iranian cell with shoulder - fired missile : Official",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "6abc.com",
       "signal_id": "5b2556f68640cc3d"
@@ -83,7 +83,7 @@
       "dependency_group": "46fbe57083492dcb",
       "strength": 0.55,
       "reliability": 0.74,
-      "freshness": 0.426,
+      "freshness": 0.312,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-13T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 15.3,
-        "short": 11.9,
-        "extended": 5.0
-      }
+        "immediate": 11.2,
+        "short": 8.7,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "e5c32d3f95ffd990",
@@ -114,7 +115,7 @@
       "dependency_group": "e5c32d3f95ffd990",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.81,
+      "freshness": 0.593,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-13T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.3,
-        "extended": 9.0
-      }
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      },
+      "carried_forward": true
     },
     {
       "id": "e29d4276603babbb",
@@ -145,7 +147,7 @@
       "dependency_group": "e29d4276603babbb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.703,
+      "freshness": 0.514,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-13T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      },
+      "carried_forward": true
     },
     {
       "id": "5b2556f68640cc3d",
@@ -176,7 +179,7 @@
       "dependency_group": "5b2556f68640cc3d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.369,
+      "freshness": 0.27,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-13T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "a6e24c93c59a1730",
@@ -207,7 +211,7 @@
       "dependency_group": "a6e24c93c59a1730",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.426,
+      "freshness": 0.312,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-13T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     },
     {
       "id": "4fb67d605ad0c45f",
@@ -238,7 +243,7 @@
       "dependency_group": "4fb67d605ad0c45f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.344,
+      "freshness": 0.252,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@
       "published_at": "2026-08-13T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
     },
     {
       "id": "0b6c83930f2d491c",
@@ -269,7 +275,7 @@
       "dependency_group": "0b6c83930f2d491c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.32,
+      "freshness": 0.234,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@
       "published_at": "2026-08-13T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.3
+      },
+      "carried_forward": true
     },
     {
       "id": "376a1c4e80ee0e25",
@@ -300,7 +307,7 @@
       "dependency_group": "376a1c4e80ee0e25",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.32,
+      "freshness": 0.234,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@
       "published_at": "2026-08-13T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.3
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2266,17 +2274,23 @@
       "immediate": 18,
       "short": 22,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-08-13T19:49:48.986966Z",
+      "immediate": 13,
+      "short": 16,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-13T18:44:09.124826Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 8
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 8
       },
       "manual": {
         "ok": true,
