@@ -1,48 +1,56 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-13T14:45:08.462881Z",
+  "mode": "live",
+  "generated_at": "2026-08-13T15:45:54.836185Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 31,
-      "low": 15,
+      "score": 34,
+      "low": 21,
       "high": 47,
-      "confidence": 51,
+      "confidence": 69,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 31,
-      "low": 15,
+      "score": 34,
+      "low": 21,
       "high": 47,
-      "confidence": 51,
+      "confidence": 69,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 9,
-      "high": 41,
-      "confidence": 50,
+      "score": 32,
+      "low": 19,
+      "high": 45,
+      "confidence": 69,
       "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -3
+    "level": "עלייה מתונה",
+    "points_60m": 3
   },
   "changes": [
     {
+      "time": "17:30",
+      "text": "Israel , Ukraine find common ground against growing Iranian threat , envoy says",
+      "impact": "השפעה מיידית מחושבת: +25.0",
+      "direction": "up",
+      "source": "jpost.com",
+      "signal_id": "46fbe57083492dcb"
+    },
+    {
       "time": "15:45",
       "text": "Israel warned US about possible Iranian missile threat before Donald Trump secret flight from Turkey",
-      "impact": "השפעה מיידית מחושבת: +17.5",
+      "impact": "השפעה מיידית מחושבת: +13.1",
       "direction": "up",
       "source": "sangbadpratidin.in",
       "signal_id": "9d8cd7df714f6aa1"
@@ -50,29 +58,52 @@ window.MAGEN_STATE = {
     {
       "time": "15:45",
       "text": "Iran attacks US failures as scepticism grows over Israeli role in Trump  assassination plot",
-      "impact": "השפעה מיידית מחושבת: +13.9",
+      "impact": "השפעה מיידית מחושבת: +10.4",
       "direction": "up",
       "source": "middleeasteye.net",
       "signal_id": "fa754618f490e90f"
     },
     {
-      "time": "15:30",
-      "text": "Trump secret escape : Iran mocks missile scare that forced aircraft switch",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "18:00",
+      "text": "Iran Says It Reorganized Military To Be More Aggressive In Protracted Conflict After US  Long Miscalculated",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "economictimes.indiatimes.com",
-      "signal_id": "3951715780c356e1"
-    },
-    {
-      "time": "15:45",
-      "text": "CIA had  low confidence  in Iranian threat before Trump switched planes in Turkey",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "yahoo.com",
-      "signal_id": "5569060bf5e369fd"
+      "source": "zerohedge.com",
+      "signal_id": "4fb67d605ad0c45f"
     }
   ],
   "signals": [
+    {
+      "id": "46fbe57083492dcb",
+      "name": "Israel , Ukraine find common ground against growing Iranian threat , envoy says",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "46fbe57083492dcb",
+      "strength": 0.55,
+      "reliability": 0.74,
+      "freshness": 0.697,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "jpost.com",
+      "url": "http://www.jpost.com/israel-news/article-905447",
+      "published_at": "2026-08-13T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 25.0,
+        "short": 19.5,
+        "extended": 8.3
+      }
+    },
     {
       "id": "9d8cd7df714f6aa1",
       "name": "Israel warned US about possible Iranian missile threat before Donald Trump secret flight from Turkey",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9d8cd7df714f6aa1",
       "strength": 0.63,
       "reliability": 0.56,
-      "freshness": 0.564,
+      "freshness": 0.423,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,11 +130,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 17.5,
-        "short": 13.7,
-        "extended": 5.8
-      },
-      "carried_forward": true
+        "immediate": 13.1,
+        "short": 10.2,
+        "extended": 4.3
+      }
     },
     {
       "id": "fa754618f490e90f",
@@ -115,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fa754618f490e90f",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.564,
+      "freshness": 0.423,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -131,11 +161,196 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 13.9,
-        "short": 10.8,
-        "extended": 4.6
+        "immediate": 10.4,
+        "short": 8.1,
+        "extended": 3.4
+      }
+    },
+    {
+      "id": "4fb67d605ad0c45f",
+      "name": "Iran Says It Reorganized Military To Be More Aggressive In Protracted Conflict After US  Long Miscalculated",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4fb67d605ad0c45f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.804,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "zerohedge.com",
+      "url": "https://www.zerohedge.com/geopolitical/iran-reorganized-military-be-more-aggressive-protracted-conflict-after-us-has-long",
+      "published_at": "2026-08-13T15:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 7.9
+      }
+    },
+    {
+      "id": "0b6c83930f2d491c",
+      "name": "Fear of our military : Iran mocks Trump over aircraft switch during Turkey trip",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0b6c83930f2d491c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.748,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/world-news/fear-of-our-military-iran-mocks-donald-trump-over-aircraft-switch-during-turkey-trip-101786626543474.html",
+      "published_at": "2026-08-13T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "376a1c4e80ee0e25",
+      "name": "Baseless Lie : Iran dismisses US President Trump claims of  total control  over Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "376a1c4e80ee0e25",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.748,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thestar.com.my",
+      "url": "https://www.thestar.com.my/news/world/2026/08/13/039baseless-lies039-iran-dismisses-us-president-trump039s-claims-of-039total-control039-over-strait-of-hormuz",
+      "published_at": "2026-08-13T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "f17b96c8edb970d2",
+      "name": "CIA had  low confidence  in Iran threat before Trump Turkey aircraft switch",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f17b96c8edb970d2",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.697,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "europesun.com",
+      "url": "http://www.europesun.com/news/279239182/cia-had-low-confidence-in-iran-threat-before-trump-turkey-aircraft-switch",
+      "published_at": "2026-08-13T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "4f57106dbc6e3a1e",
+      "name": "Iranian press review : Tehran says it will no longer wait to be attacked",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4f57106dbc6e3a1e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.649,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeasteye.net",
+      "url": "https://www.middleeasteye.net/news/iranian-press-review-tehran-says-it-will-no-longer-wait-be-attacked",
+      "published_at": "2026-08-13T14:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "eef84dfca270a505",
+      "name": "Iran dismisses US claims of full control over Strait of Hormuz as  baseless lies",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "eef84dfca270a505",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.649,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/us-israel-iran-war/iran-dismisses-us-claims-of-full-control-over-strait-of-hormuz-as-baseless-lies-/4026439",
+      "published_at": "2026-08-13T14:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
+      }
     },
     {
       "id": "3951715780c356e1",
@@ -147,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3951715780c356e1",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.525,
+      "freshness": 0.393,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +378,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
     },
     {
       "id": "5569060bf5e369fd",
@@ -179,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5569060bf5e369fd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.564,
+      "freshness": 0.423,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,171 +409,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3e4126fe62316715",
-      "name": "Iran challenges Trump : more than 75 % of missile and drone capabilities still ready for use",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3e4126fe62316715",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.395,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeastmonitor.com",
-      "url": "https://www.middleeastmonitor.com/20260813-iran-challenges-trump-more-than-75-of-missile-and-drone-capabilities-still-ready-for-use/",
-      "published_at": "2026-08-13T11:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.8,
-        "short": 2.7,
+        "short": 2.8,
         "extended": 4.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "64368de1a3ab07ba",
-      "name": "Hormuz is under our control : Iran fires back at Trump claim that US has  total control  of key oil route",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "64368de1a3ab07ba",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.395,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/hormuz-is-under-our-control-iran-fires-back-at-trump-s-claim-that-us-has-total-control-of-key-oil-route-article-14004679.html",
-      "published_at": "2026-08-13T11:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "83d451460b5ca46d",
-      "name": "Live Updates : Tehran says Strait of Hormuz  under Iran control  after Trump threatens U . S . might  keep it",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "83d451460b5ca46d",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.342,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cbsnews.com",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-donald-trump-tehran-control-threatens-keep-it/",
-      "published_at": "2026-08-13T11:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2582e931f300aef0",
-      "name": "Informazione Corretta - Mossad . Yossi Cohen : siamo entrati nel sito nucleare dellIran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2582e931f300aef0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.297,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "informazionecorretta.com",
-      "url": "https://www.informazionecorretta.com/main.php?mediaId=329&sez=120&id=104037",
-      "published_at": "2026-08-13T10:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a5d1a947302ed04d",
-      "name": "Iran Boosts Military Posturing as Talks Hit Deadlock",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a5d1a947302ed04d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.239,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "rigzone.com",
-      "url": "https://www.rigzone.com/news/wire/iran_boosts_military_posturing_as_talks_hit_deadlock-13-aug-2026-184365-article/",
-      "published_at": "2026-08-13T09:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
+      }
     }
   ],
   "history": [
@@ -2282,17 +2335,23 @@ window.MAGEN_STATE = {
       "immediate": 31,
       "short": 31,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-08-13T15:45:54.836185Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 32
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-13T13:38:03.638074Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-13T15:45:54.836185Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 9
+        "ok": true,
+        "items": 150,
+        "relevant": 11
       },
       "manual": {
         "ok": true,
