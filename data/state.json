@@ -1,105 +1,151 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-13T22:22:02.912265Z",
+  "mode": "live",
+  "generated_at": "2026-08-13T23:11:42.729947Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
-      "low": 0,
-      "high": 20,
-      "confidence": 33,
-      "status": "לא זוהה אות חריג"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 3,
-      "low": 0,
-      "high": 22,
-      "confidence": 33,
-      "status": "לא זוהה אות חריג"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 6,
-      "low": 0,
-      "high": 25,
-      "confidence": 33,
-      "status": "לא זוהה אות חריג"
+      "score": 30,
+      "low": 17,
+      "high": 43,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -8
+    "level": "זינוק חריג",
+    "points_60m": 33
   },
   "changes": [
     {
-      "time": "21:00",
-      "text": "Tehran says Strait of Hormuz  under Iran control  after Trump threat",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "01:30",
+      "text": "Israel Missile Shield Under Pressure : Can the U . S .- Israeli Defense Network Stop a Major Iranian Attack ?",
+      "impact": "השפעה מיידית מחושבת: +23.4",
       "direction": "up",
-      "source": "yahoo.com",
-      "signal_id": "e5c32d3f95ffd990"
+      "source": "finchannel.com",
+      "signal_id": "5b2c33bff5701bd5"
     },
     {
-      "time": "20:30",
-      "text": "Iran dismisses US claims of full control over Strait of Hormuz as  baseless lie – Middle East Monitor",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "22:45",
+      "text": "CIA doubted Israeli intel on alleged Iranian threat that forced Trump to change planes : Report",
+      "impact": "השפעה מיידית מחושבת: +10.1",
       "direction": "up",
-      "source": "middleeastmonitor.com",
-      "signal_id": "e29d4276603babbb"
+      "source": "presstv.co.uk",
+      "signal_id": "fde82d293bddac00"
+    },
+    {
+      "time": "01:30",
+      "text": "US lost quarter of its Reaper drones in Iran war",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "iranherald.com",
+      "signal_id": "a9449db6daa4e18c"
+    },
+    {
+      "time": "01:00",
+      "text": "Hormuz is under our control : Iran fires back at Trump claim that the US has  total control  of key oil route",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "greekherald.com",
+      "signal_id": "d8403259a28ac1a8"
     }
   ],
   "signals": [
     {
-      "id": "e5c32d3f95ffd990",
-      "name": "Tehran says Strait of Hormuz  under Iran control  after Trump threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
+      "id": "5b2c33bff5701bd5",
+      "name": "Israel Missile Shield Under Pressure : Can the U . S .- Israeli Defense Network Stop a Major Iranian Attack ?",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e5c32d3f95ffd990",
-      "strength": 0.45,
+      "dependency_group": "5b2c33bff5701bd5",
+      "strength": 0.58,
       "reliability": 0.56,
-      "freshness": 0.287,
+      "freshness": 0.82,
       "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
       },
       "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
       },
-      "source": "yahoo.com",
-      "url": "https://www.yahoo.com/news/politics/articles/tehran-says-strait-hormuz-under-103352169.html",
-      "published_at": "2026-08-13T18:00:00Z",
+      "source": "finchannel.com",
+      "url": "https://finchannel.com/israel-iran-attack-us-israel-missile-defense/133228/world-2/2026/08/",
+      "published_at": "2026-08-13T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
+        "immediate": 23.4,
+        "short": 18.3,
+        "extended": 7.8
+      }
     },
     {
-      "id": "e29d4276603babbb",
-      "name": "Iran dismisses US claims of full control over Strait of Hormuz as  baseless lie – Middle East Monitor",
+      "id": "fde82d293bddac00",
+      "name": "CIA doubted Israeli intel on alleged Iranian threat that forced Trump to change planes : Report",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fde82d293bddac00",
+      "strength": 0.55,
+      "reliability": 0.56,
+      "freshness": 0.374,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/08/13/774302/CIA-doubted-Israeli-intel-on-alleged-Iranian-threat-that-forced-Trump-to-secretly-change-planes--Report",
+      "published_at": "2026-08-13T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 10.1,
+        "short": 7.9,
+        "extended": 3.4
+      }
+    },
+    {
+      "id": "a9449db6daa4e18c",
+      "name": "US lost quarter of its Reaper drones in Iran war",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e29d4276603babbb",
-      "strength": 0.4,
+      "dependency_group": "a9449db6daa4e18c",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.249,
+      "freshness": 0.82,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -110,16 +156,139 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "middleeastmonitor.com",
-      "url": "https://www.middleeastmonitor.com/20260813-iran-dismisses-us-claims-of-full-control-over-strait-of-hormuz-as-baseless-lies/",
-      "published_at": "2026-08-13T17:30:00Z",
+      "source": "iranherald.com",
+      "url": "http://www.iranherald.com/news/279240324/us-lost-quarter-of-its-reaper-drones-in-iran-war-wapo",
+      "published_at": "2026-08-13T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.5
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.7
+      }
+    },
+    {
+      "id": "d8403259a28ac1a8",
+      "name": "Hormuz is under our control : Iran fires back at Trump claim that the US has  total control  of key oil route",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d8403259a28ac1a8",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.711,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "greekherald.com",
+      "url": "http://www.greekherald.com/news/279240275/hormuz-is-under-our-control-iran-fires-back-at-trump-claim-that-the-us-has-total-control-of-key-oil-route",
+      "published_at": "2026-08-13T22:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
+    },
+    {
+      "id": "913d7dde0c93c148",
+      "name": "US military has lost 25 % of its Reaper drones as Iran war depletes arsenal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "913d7dde0c93c148",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.574,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nzherald.co.nz",
+      "url": "https://www.nzherald.co.nz/world/us-military-has-lost-25-of-its-reaper-drones-as-iran-war-depletes-arsenal/V27UZOMSB5B23HQADXOR74E5MU/",
+      "published_at": "2026-08-13T21:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "ba98c342afbb6f42",
+      "name": "Trump Has Lost Nearly a Quarter of Key Drone Stockpile in Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ba98c342afbb6f42",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.497,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newrepublic.com",
+      "url": "https://newrepublic.com/post/214338/donald-trump-lost-quarter-reaper-drone-iran",
+      "published_at": "2026-08-13T20:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      }
+    },
+    {
+      "id": "49bfbfb1a32c2511",
+      "name": "Le dilemme de Trump : mettre fin à la guerre contre lIran pour satisfaire les Américains , au risque de mécontenter sa base évangélique",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "49bfbfb1a32c2511",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.324,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theconversation.com",
+      "url": "https://theconversation.com/le-dilemme-de-trump-mettre-fin-a-la-guerre-contre-liran-pour-satisfaire-les-americains-au-risque-de-mecontenter-sa-base-evangelique-289549",
+      "published_at": "2026-08-13T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      }
     }
   ],
   "history": [
@@ -2090,17 +2259,23 @@
       "immediate": 1,
       "short": 3,
       "extended": 6
+    },
+    {
+      "timestamp": "2026-08-13T23:11:42.729947Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 30
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-13T18:44:09.124826Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-13T23:11:42.729947Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 2
+        "ok": true,
+        "items": 150,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
