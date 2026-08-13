@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-13T20:30:30.912050Z",
+  "generated_at": "2026-08-13T21:26:23.410574Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 11,
+      "score": 9,
       "low": 0,
-      "high": 28,
-      "confidence": 47,
+      "high": 26,
+      "confidence": 42,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
+      "score": 11,
       "low": 0,
-      "high": 31,
-      "confidence": 46,
+      "high": 28,
+      "confidence": 42,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
+      "score": 11,
       "low": 0,
-      "high": 31,
-      "confidence": 46,
+      "high": 28,
+      "confidence": 42,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@
     {
       "time": "18:45",
       "text": "Israel , Ukraine find common ground against growing Iranian threat , envoy says",
-      "impact": "השפעה מיידית מחושבת: +9.2",
+      "impact": "השפעה מיידית מחושבת: +7.1",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "46fbe57083492dcb"
@@ -50,7 +50,7 @@
     {
       "time": "21:00",
       "text": "Tehran says Strait of Hormuz  under Iran control  after Trump threat",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "yahoo.com",
       "signal_id": "e5c32d3f95ffd990"
@@ -58,18 +58,18 @@
     {
       "time": "20:30",
       "text": "Iran dismisses US claims of full control over Strait of Hormuz as  baseless lie – Middle East Monitor",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "middleeastmonitor.com",
       "signal_id": "e29d4276603babbb"
     },
     {
-      "time": "18:15",
-      "text": "Trump decoy flight sparked by fears of Iranian cell with shoulder - fired missile : Official",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "18:45",
+      "text": "Tehran Fortifies Military Command to Stifle Internal Uprising Amid Fears of Economic Collapse",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
-      "source": "6abc.com",
-      "signal_id": "5b2556f68640cc3d"
+      "source": "ncr-iran.org",
+      "signal_id": "a6e24c93c59a1730"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@
       "dependency_group": "46fbe57083492dcb",
       "strength": 0.55,
       "reliability": 0.74,
-      "freshness": 0.257,
+      "freshness": 0.197,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-13T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 9.2,
-        "short": 7.2,
-        "extended": 3.0
+        "immediate": 7.1,
+        "short": 5.5,
+        "extended": 2.3
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "e5c32d3f95ffd990",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.488,
+      "freshness": 0.374,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-13T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "e29d4276603babbb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.423,
+      "freshness": 0.324,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,41 +163,9 @@
       "published_at": "2026-08-13T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5b2556f68640cc3d",
-      "name": "Trump decoy flight sparked by fears of Iranian cell with shoulder - fired missile : Official",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5b2556f68640cc3d",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.223,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "6abc.com",
-      "url": "https://6abc.com/story/trumps-decoy-flight-sparked-fears-iranian-cell-shoulder-fired-missile-official/19672134/",
-      "published_at": "2026-08-13T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -211,7 +179,7 @@
       "dependency_group": "a6e24c93c59a1730",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.257,
+      "freshness": 0.197,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -225,102 +193,6 @@
       "source": "ncr-iran.org",
       "url": "https://www.ncr-iran.org/en/news/iran-protests/tehran-fortifies-military-command-to-stifle-internal-uprising-amid-fears-of-economic-collapse/",
       "published_at": "2026-08-13T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4fb67d605ad0c45f",
-      "name": "Iran Says It Reorganized Military To Be More Aggressive In Protracted Conflict After US  Long Miscalculated",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4fb67d605ad0c45f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.207,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "zerohedge.com",
-      "url": "https://www.zerohedge.com/geopolitical/iran-reorganized-military-be-more-aggressive-protracted-conflict-after-us-has-long",
-      "published_at": "2026-08-13T15:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0b6c83930f2d491c",
-      "name": "Fear of our military : Iran mocks Trump over aircraft switch during Turkey trip",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0b6c83930f2d491c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.193,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/fear-of-our-military-iran-mocks-donald-trump-over-aircraft-switch-during-turkey-trip-101786626543474.html",
-      "published_at": "2026-08-13T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "376a1c4e80ee0e25",
-      "name": "Baseless Lie : Iran dismisses US President Trump claims of  total control  over Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "376a1c4e80ee0e25",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.193,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thestar.com.my",
-      "url": "https://www.thestar.com.my/news/world/2026/08/13/039baseless-lies039-iran-dismisses-us-president-trump039s-claims-of-039total-control039-over-strait-of-hormuz",
-      "published_at": "2026-08-13T14:45:00Z",
       "active": true,
       "computed": {
         "immediate": 0.3,
@@ -2286,6 +2158,12 @@
       "immediate": 11,
       "short": 14,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-08-13T21:26:23.410574Z",
+      "immediate": 9,
+      "short": 11,
+      "extended": 11
     }
   ],
   "health": {
@@ -2295,8 +2173,8 @@
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 8
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 4
       },
       "manual": {
         "ok": true,
