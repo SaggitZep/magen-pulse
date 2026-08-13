@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-13T21:26:23.410574Z",
+  "generated_at": "2026-08-13T22:22:02.912265Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 9,
+      "score": 1,
       "low": 0,
-      "high": 26,
-      "confidence": 42,
-      "status": "נמוך"
+      "high": 20,
+      "confidence": 33,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 3,
       "low": 0,
-      "high": 28,
-      "confidence": 42,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 33,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
+      "score": 6,
       "low": 0,
-      "high": 28,
-      "confidence": 42,
-      "status": "נמוך"
+      "high": 25,
+      "confidence": 33,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -36,21 +36,13 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -2
+    "points_60m": -8
   },
   "changes": [
     {
-      "time": "18:45",
-      "text": "Israel , Ukraine find common ground against growing Iranian threat , envoy says",
-      "impact": "השפעה מיידית מחושבת: +7.1",
-      "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "46fbe57083492dcb"
-    },
-    {
       "time": "21:00",
       "text": "Tehran says Strait of Hormuz  under Iran control  after Trump threat",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "yahoo.com",
       "signal_id": "e5c32d3f95ffd990"
@@ -58,53 +50,13 @@
     {
       "time": "20:30",
       "text": "Iran dismisses US claims of full control over Strait of Hormuz as  baseless lie – Middle East Monitor",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "middleeastmonitor.com",
       "signal_id": "e29d4276603babbb"
-    },
-    {
-      "time": "18:45",
-      "text": "Tehran Fortifies Military Command to Stifle Internal Uprising Amid Fears of Economic Collapse",
-      "impact": "השפעה מיידית מחושבת: +0.3",
-      "direction": "up",
-      "source": "ncr-iran.org",
-      "signal_id": "a6e24c93c59a1730"
     }
   ],
   "signals": [
-    {
-      "id": "46fbe57083492dcb",
-      "name": "Israel , Ukraine find common ground against growing Iranian threat , envoy says",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "46fbe57083492dcb",
-      "strength": 0.55,
-      "reliability": 0.74,
-      "freshness": 0.197,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/israel-news/article-905447",
-      "published_at": "2026-08-13T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 7.1,
-        "short": 5.5,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
     {
       "id": "e5c32d3f95ffd990",
       "name": "Tehran says Strait of Hormuz  under Iran control  after Trump threat",
@@ -115,7 +67,7 @@
       "dependency_group": "e5c32d3f95ffd990",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.374,
+      "freshness": 0.287,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +83,9 @@
       "published_at": "2026-08-13T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -147,7 +99,7 @@
       "dependency_group": "e29d4276603babbb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.324,
+      "freshness": 0.249,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,41 +115,9 @@
       "published_at": "2026-08-13T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a6e24c93c59a1730",
-      "name": "Tehran Fortifies Military Command to Stifle Internal Uprising Amid Fears of Economic Collapse",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a6e24c93c59a1730",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.197,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ncr-iran.org",
-      "url": "https://www.ncr-iran.org/en/news/iran-protests/tehran-fortifies-military-command-to-stifle-internal-uprising-amid-fears-of-economic-collapse/",
-      "published_at": "2026-08-13T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.5
       },
       "carried_forward": true
     }
@@ -2164,6 +2084,12 @@
       "immediate": 9,
       "short": 11,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-13T22:22:02.912265Z",
+      "immediate": 1,
+      "short": 3,
+      "extended": 6
     }
   ],
   "health": {
@@ -2174,7 +2100,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 4
+        "carried_forward": 2
       },
       "manual": {
         "ok": true,
