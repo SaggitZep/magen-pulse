@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-13T04:06:16.593161Z",
+  "generated_at": "2026-08-13T05:49:13.367158Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
-      "low": 0,
-      "high": 17,
-      "confidence": 67,
-      "status": "לא זוהה אות חריג"
+      "score": 34,
+      "low": 22,
+      "high": 46,
+      "confidence": 70,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
-      "low": 2,
-      "high": 28,
-      "confidence": 67,
-      "status": "נמוך"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 69,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 67,
+      "score": 32,
+      "low": 19,
+      "high": 45,
+      "confidence": 68,
       "status": "מוגבר"
     }
   },
@@ -35,86 +35,117 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -21
+    "level": "זינוק חריג",
+    "points_60m": 30
   },
   "changes": [
     {
-      "time": "06:30",
-      "text": "Trump Iran Threat | Turkiye NATO Summit Security Alert & Plane Change",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "time": "08:00",
+      "text": "דיווח : ה - CIA הטיל ספק במודיעין שהעבירה ישראל על איום התנקשות איראני בטראמפ",
+      "impact": "השפעה מיידית מחושבת: +32.5",
       "direction": "up",
-      "source": "bhaskar.com",
-      "signal_id": "75b8e765f921c02f"
+      "source": "ynet.co.il",
+      "signal_id": "0708c250906a8765"
     },
     {
-      "time": "06:30",
-      "text": "Iranian threat to Trump  not compelling enough  for CIA before plane switch in Turkey : Report",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "time": "07:15",
+      "text": "האיום האיראני על טראמפ בטורקיה : ב - CIA פקפקו במודיעין הישראלי",
+      "impact": "השפעה מיידית מחושבת: +17.3",
       "direction": "up",
-      "source": "hindustantimes.com",
-      "signal_id": "118735c95f888102"
+      "source": "inn.co.il",
+      "signal_id": "a996169a8d11cd66"
     },
     {
-      "time": "05:30",
-      "text": "If Iran runs out of missiles ...: IRGC adviser says Tehran may drag war out until Trump leaves office",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "time": "08:00",
+      "text": "CIA had  low confidence  in Iranian threat before Trump switched planes in Türkiye : Report",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "businesstoday.in",
-      "signal_id": "85ddd96c1c995d01"
+      "source": "aa.com.tr",
+      "signal_id": "f771b6d3b545be1c"
     },
     {
-      "time": "05:45",
-      "text": "Iranian - backed Houthis kill 6 people in attack on vessel",
+      "time": "07:30",
+      "text": "Iran war reveals protection of space assets on bases has to  evolve , top general says",
       "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "theshillongtimes.com",
-      "signal_id": "745d2a56b5b846fc"
+      "source": "defenseone.com",
+      "signal_id": "27cc7f58929413bc"
     }
   ],
   "signals": [
     {
-      "id": "75b8e765f921c02f",
-      "name": "Trump Iran Threat | Turkiye NATO Summit Security Alert & Plane Change",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
+      "id": "0708c250906a8765",
+      "name": "דיווח : ה - CIA הטיל ספק במודיעין שהעבירה ישראל על איום התנקשות איראני בטראמפ",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "75b8e765f921c02f",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.841,
+      "dependency_group": "0708c250906a8765",
+      "strength": 0.63,
+      "reliability": 0.74,
+      "freshness": 0.791,
       "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
       },
       "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
       },
-      "source": "bhaskar.com",
-      "url": "https://www.bhaskar.com/g/international/news/trump-iran-threat-turkiye-nato-summit-security-alert-138711009.html",
-      "published_at": "2026-08-13T03:30:00Z",
+      "source": "ynet.co.il",
+      "url": "https://www.ynet.co.il/news/article/hjixeoqiml",
+      "published_at": "2026-08-13T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.3
+        "immediate": 32.5,
+        "short": 25.3,
+        "extended": 10.7
       }
     },
     {
-      "id": "118735c95f888102",
-      "name": "Iranian threat to Trump  not compelling enough  for CIA before plane switch in Turkey : Report",
+      "id": "a996169a8d11cd66",
+      "name": "האיום האיראני על טראמפ בטורקיה : ב - CIA פקפקו במודיעין הישראלי",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a996169a8d11cd66",
+      "strength": 0.55,
+      "reliability": 0.56,
+      "freshness": 0.638,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "inn.co.il",
+      "url": "https://www.inn.co.il/news/703871",
+      "published_at": "2026-08-13T04:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 17.3,
+        "short": 13.5,
+        "extended": 5.7
+      }
+    },
+    {
+      "id": "f771b6d3b545be1c",
+      "name": "CIA had  low confidence  in Iranian threat before Trump switched planes in Türkiye : Report",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "118735c95f888102",
+      "dependency_group": "f771b6d3b545be1c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.841,
+      "freshness": 0.791,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,14 +156,45 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/iranian-threat-to-trump-not-compelling-enough-for-cia-before-plane-switch-in-turkey-low-confidence-israel-intel-war-101786588880541.html",
-      "published_at": "2026-08-13T03:30:00Z",
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/americas/cia-had-low-confidence-in-iranian-threat-before-trump-switched-planes-in-turkiye-report/4025847",
+      "published_at": "2026-08-13T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.3
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "27cc7f58929413bc",
+      "name": "Iran war reveals protection of space assets on bases has to  evolve , top general says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "27cc7f58929413bc",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.686,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "defenseone.com",
+      "url": "https://www.defenseone.com/threats/2026/08/iran-war-reveals-protection-space-assets-bases-has-evolve-top-general-says/415389/",
+      "published_at": "2026-08-13T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
       }
     },
     {
@@ -145,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "85ddd96c1c995d01",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.632,
+      "freshness": 0.387,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T02:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     },
     {
@@ -176,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "745d2a56b5b846fc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.679,
+      "freshness": 0.416,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T02:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
@@ -207,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c5ad7adf97545f9b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.679,
+      "freshness": 0.416,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T02:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
@@ -238,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "eb7440dc4fad891a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.632,
+      "freshness": 0.387,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,102 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T02:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
-      }
-    },
-    {
-      "id": "9bd4030c7425bbb6",
-      "name": "Iran - Backed Houthi Terrorists Launch Missile and Drone Attacks in Red Sea",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9bd4030c7425bbb6",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.383,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "breitbart.com",
-      "url": "https://www.breitbart.com/middle-east/2026/08/12/iran-backed-houthi-terrorists-launch-missile-and-drone-attacks-in-red-sea/",
-      "published_at": "2026-08-13T00:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "6aab613f2a5f8cd4",
-      "name": "Trump secret plane switch took place within a day of credible Iranian missile threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6aab613f2a5f8cd4",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.357,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cbsnews.com",
-      "url": "https://www.cbsnews.com/news/trump-secret-air-force-one-switch-iran-missile-threat/",
-      "published_at": "2026-08-13T00:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "5b2556f68640cc3d",
-      "name": "Trump decoy flight sparked by fears of Iranian cell with shoulder - fired missile : Official",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5b2556f68640cc3d",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.357,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "abcnews.com",
-      "url": "https://abcnews.com/Politics/official-iranians-shoulder-launched-missile-turkey-caused-trumps/story?id=135593076",
-      "published_at": "2026-08-13T00:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
         "short": 2.5,
-        "extended": 4.2
+        "extended": 4.3
       }
     }
   ],
@@ -2225,17 +2194,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 15,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-13T05:49:13.367158Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 32
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-13T04:06:16.593161Z",
+    "last_success": "2026-08-13T05:49:13.367158Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 9
+        "relevant": 8
       },
       "manual": {
         "ok": true,
