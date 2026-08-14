@@ -1,75 +1,75 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-14T17:35:55.334472Z",
+  "mode": "live",
+  "generated_at": "2026-08-14T18:34:06.560729Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 30,
-      "low": 14,
-      "high": 46,
-      "confidence": 50,
-      "status": "מוגבר"
+      "score": 13,
+      "low": 0,
+      "high": 26,
+      "confidence": 65,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 31,
-      "low": 15,
-      "high": 47,
-      "confidence": 51,
-      "status": "מוגבר"
+      "score": 20,
+      "low": 7,
+      "high": 33,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 26,
-      "low": 10,
-      "high": 42,
-      "confidence": 51,
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 66,
       "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -4
+    "points_60m": -17
   },
   "changes": [
     {
       "time": "18:00",
       "text": "Iran formalises Strait of Hormuz control as US struggles to sustain war it launched with Israel",
-      "impact": "השפעה מיידית מחושבת: +11.7",
+      "impact": "השפעה מיידית מחושבת: +8.9",
       "direction": "up",
       "source": "middleeasteye.net",
       "signal_id": "bd51b313832c932e"
     },
     {
-      "time": "17:15",
-      "text": "US threatens  indefinite  blockade against Iran : How long can it last ? | US - Israel war on Iran News",
-      "impact": "השפעה מיידית מחושבת: +10.4",
+      "time": "20:30",
+      "text": "Iran says it downed US - made MQ - 9 drone over southern Hormozgan province",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "aljazeera.com",
-      "signal_id": "1a459d8d34e572a2"
+      "source": "aa.com.tr",
+      "signal_id": "865410d4ec162a6d"
     },
     {
-      "time": "16:30",
-      "text": "Iran Klaim 75 Persen Rudal dan Drone Masih Utuh , Siap Tempur Lawan AS dan Israel",
-      "impact": "השפעה מיידית מחושבת: +8.9",
+      "time": "21:00",
+      "text": "UAE claims Iran attacked two vessels of state - owned oil firm in Strait of Hormuz",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "aceh.tribunnews.com",
-      "signal_id": "01f570caed1c3ba7"
+      "source": "newindianexpress.com",
+      "signal_id": "84e032a21cb0f9b7"
     },
     {
-      "time": "16:45",
-      "text": "Israel shocked by pace of Irans military recovery media",
-      "impact": "השפעה מיידית מחושבת: +8.2",
+      "time": "20:15",
+      "text": "Iran Kembali Tembak Jatuh Drone MQ - 9 AS di Selatan Provinsi Hormozgan",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "iranherald.com",
-      "signal_id": "5a391f53de997bbd"
+      "source": "international.sindonews.com",
+      "signal_id": "a81191f5bb7da2c1"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bd51b313832c932e",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.476,
+      "freshness": 0.361,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,107 +99,227 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.7,
-        "short": 9.1,
-        "extended": 3.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1a459d8d34e572a2",
-      "name": "US threatens  indefinite  blockade against Iran : How long can it last ? | US - Israel war on Iran News",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1a459d8d34e572a2",
-      "strength": 0.55,
-      "reliability": 0.56,
-      "freshness": 0.384,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/news/2026/8/14/us-threatens-indefinite-blockade-against-iran-how-long-can-it-last",
-      "published_at": "2026-08-14T14:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 10.4,
-        "short": 8.1,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "01f570caed1c3ba7",
-      "name": "Iran Klaim 75 Persen Rudal dan Drone Masih Utuh , Siap Tempur Lawan AS dan Israel",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "01f570caed1c3ba7",
-      "strength": 0.58,
-      "reliability": 0.56,
-      "freshness": 0.31,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "aceh.tribunnews.com",
-      "url": "https://aceh.tribunnews.com/news/1038818/iran-klaim-75-persen-rudal-dan-drone-masih-utuh-siap-tempur-lawan-as-dan-israel",
-      "published_at": "2026-08-14T13:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 8.9,
         "short": 6.9,
         "extended": 2.9
-      },
-      "carried_forward": true
+      }
     },
     {
-      "id": "5a391f53de997bbd",
-      "name": "Israel shocked by pace of Irans military recovery media",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "865410d4ec162a6d",
+      "name": "Iran says it downed US - made MQ - 9 drone over southern Hormozgan province",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "5a391f53de997bbd",
-      "strength": 0.5,
+      "dependency_group": "865410d4ec162a6d",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.333,
+      "freshness": 0.737,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279240951/israel-shocked-by-pace-of-irans-military-recovery-media",
-      "published_at": "2026-08-14T13:45:00Z",
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/middle-east/iran-says-it-downed-us-made-mq-9-drone-over-southern-hormozgan-province/4027482",
+      "published_at": "2026-08-14T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 8.2,
-        "short": 6.4,
-        "extended": 2.7
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "84e032a21cb0f9b7",
+      "name": "UAE claims Iran attacked two vessels of state - owned oil firm in Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "84e032a21cb0f9b7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.85,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newindianexpress.com",
+      "url": "https://www.newindianexpress.com/world/2026/Aug/14/uae-claims-iran-attacked-two-vessels-of-state-owned-oil-firm-in-strait-of-hormuz",
+      "published_at": "2026-08-14T18:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "a81191f5bb7da2c1",
+      "name": "Iran Kembali Tembak Jatuh Drone MQ - 9 AS di Selatan Provinsi Hormozgan",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a81191f5bb7da2c1",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.686,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "international.sindonews.com",
+      "url": "https://international.sindonews.com/read/1739189/43/iran-kembali-tembak-jatuh-drone-mq-9-as-di-selatan-provinsi-hormozgan-1786716534",
+      "published_at": "2026-08-14T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "bce1793ca6e184fe",
+      "name": "Iran - US tensions rise after drone strikes on UAE oil tankers",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bce1793ca6e184fe",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.639,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bankingnews.gr",
+      "url": "https://www.bankingnews.gr/diethni/articles/893830/iran-us-tensions-rise-after-drone-strikes-on-uae-oil-tankers",
+      "published_at": "2026-08-14T17:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "4327c097c4a8e95f",
+      "name": "Hormuz traffic slows further after US threatens more economic pressure on Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4327c097c4a8e95f",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.686,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sowetan.co.za",
+      "url": "https://www.sowetan.co.za/news/world/2026-08-14-hormuz-traffic-slows-further-after-us-threatens-more-economic-pressure-on-iran/",
+      "published_at": "2026-08-14T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "5a76267b4a73e303",
+      "name": "Lower oil prices , not Iran nuclear programme , now top priority : U . S .",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5a76267b4a73e303",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.686,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thehindu.com",
+      "url": "https://www.thehindu.com/news/international/lower-oil-prices-not-irans-nuclear-programme-now-top-priority-us/article71347037.ece",
+      "published_at": "2026-08-14T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "55d22021e70fa64f",
+      "name": "UAE says two Adnoc ships attacked by Iran | Latest Market News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "55d22021e70fa64f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.639,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "argusmedia.com",
+      "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2865163-uae-says-two-adnoc-ships-attacked-by-iran",
+      "published_at": "2026-08-14T17:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
     },
     {
       "id": "549e475a7a822320",
@@ -211,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "549e475a7a822320",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.633,
+      "freshness": 0.48,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,75 +347,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "51adba34f6dde5f2",
-      "name": "US Warns Iran It Will Step Up Economic Pressure ; Two More Ships Attacked in Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "51adba34f6dde5f2",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.549,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gcaptain.com",
-      "url": "https://gcaptain.com/us-warns-iran-it-will-step-up-economic-pressure-two-more-ships-attacked-in-hormuz/",
-      "published_at": "2026-08-14T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9c609cc4cbba77e2",
-      "name": "US Treasury secretary threatens  unprecedented  economic measures against Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9c609cc4cbba77e2",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.549,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "sana.sy",
-      "url": "https://sana.sy/en/politics/2336347/",
-      "published_at": "2026-08-14T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
+      }
     },
     {
       "id": "d6beb8d79b83fd2f",
@@ -307,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d6beb8d79b83fd2f",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.511,
+      "freshness": 0.387,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,11 +378,72 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "51adba34f6dde5f2",
+      "name": "US Warns Iran It Will Step Up Economic Pressure ; Two More Ships Attacked in Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "51adba34f6dde5f2",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.416,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gcaptain.com",
+      "url": "https://gcaptain.com/us-warns-iran-it-will-step-up-economic-pressure-two-more-ships-attacked-in-hormuz/",
+      "published_at": "2026-08-14T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "9c609cc4cbba77e2",
+      "name": "US Treasury secretary threatens  unprecedented  economic measures against Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9c609cc4cbba77e2",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.416,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sana.sy",
+      "url": "https://sana.sy/en/politics/2336347/",
+      "published_at": "2026-08-14T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
     },
     {
       "id": "f869b90737e23273",
@@ -339,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f869b90737e23273",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.511,
+      "freshness": 0.387,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,11 +471,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.7
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
     },
     {
       "id": "71b146edc46a5fa0",
@@ -371,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "71b146edc46a5fa0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.549,
+      "freshness": 0.416,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -387,11 +502,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     },
     {
       "id": "65407012b429e7d0",
@@ -403,7 +517,7 @@ window.MAGEN_STATE = {
       "dependency_group": "65407012b429e7d0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.549,
+      "freshness": 0.416,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -419,43 +533,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4327c097c4a8e95f",
-      "name": "Hormuz traffic slows further after US threatens more economic pressure on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4327c097c4a8e95f",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.476,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/hormuz-traffic-slows-further-after-us-threatens-more-economic-pressure-on-iran/articleshow/133244610.cms",
-      "published_at": "2026-08-14T15:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     },
     {
       "id": "43ee899760a13be2",
@@ -467,7 +548,7 @@ window.MAGEN_STATE = {
       "dependency_group": "43ee899760a13be2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.511,
+      "freshness": 0.387,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -483,43 +564,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ae206a9a0fa22da9",
-      "name": "US threatens  indefinite  blockade against Iran : How long can it last ? - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ae206a9a0fa22da9",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.333,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dominicanrepublicpost.com",
-      "url": "https://dominicanrepublicpost.com/us-threatens-indefinite-blockade-against-iran-how-long-can-it-last/",
-      "published_at": "2026-08-14T13:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
+        "immediate": 0.7,
         "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
+        "extended": 3.8
+      }
     }
   ],
   "history": [
@@ -2580,17 +2628,23 @@ window.MAGEN_STATE = {
       "immediate": 30,
       "short": 31,
       "extended": 26
+    },
+    {
+      "timestamp": "2026-08-14T18:34:06.560729Z",
+      "immediate": 13,
+      "short": 20,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-14T16:32:52.704593Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-14T18:34:06.560729Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 14
+        "ok": true,
+        "items": 150,
+        "relevant": 16
       },
       "manual": {
         "ok": true,
