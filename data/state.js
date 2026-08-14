@@ -1,89 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-14T08:55:03.522566Z",
+  "mode": "live",
+  "generated_at": "2026-08-14T10:13:20.725936Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 15,
-      "low": 0,
-      "high": 32,
-      "confidence": 47,
-      "status": "נמוך"
+      "score": 34,
+      "low": 22,
+      "high": 46,
+      "confidence": 72,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 16,
-      "low": 0,
-      "high": 33,
-      "confidence": 47,
-      "status": "נמוך"
+      "score": 34,
+      "low": 22,
+      "high": 46,
+      "confidence": 72,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 12,
-      "low": 0,
-      "high": 29,
-      "confidence": 47,
-      "status": "נמוך"
+      "score": 33,
+      "low": 21,
+      "high": 45,
+      "confidence": 71,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -5
+    "level": "זינוק חריג",
+    "points_60m": 19
   },
   "changes": [
     {
-      "time": "07:15",
-      "text": "Israel warned US of Iran plots against Trump , but US could not verify threats",
-      "impact": "השפעה מיידית מחושבת: +7.2",
+      "time": "12:45",
+      "text": "Did Israel use Iran threat warnings to shape Trump decisions ?",
+      "impact": "השפעה מיידית מחושבת: +23.7",
       "direction": "up",
-      "source": "economictimes.indiatimes.com",
-      "signal_id": "1776de1296d778d5"
+      "source": "middle-east-online.com",
+      "signal_id": "f72e12946a3af588"
     },
     {
-      "time": "06:30",
-      "text": "Sniper , knife , missile threats : Israel warned US of alleged Iran plot to assassinate Donald Trump",
-      "impact": "השפעה מיידית מחושבת: +6.6",
+      "time": "12:30",
+      "text": "Israel shocked by pace of Irans military recovery media",
+      "impact": "השפעה מיידית מחושבת: +20.1",
       "direction": "up",
-      "source": "timesofindia.indiatimes.com",
-      "signal_id": "e001ad521f7fb075"
+      "source": "batonrougepost.com",
+      "signal_id": "5a391f53de997bbd"
     },
     {
-      "time": "08:15",
-      "text": "The US threatens  indefinite naval blockade  of Iran as oil crisis resurges",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "12:30",
+      "text": "Shipping in Strait of Hormuz drops off as Iran , US continue fight for control",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "sbs.com.au",
-      "signal_id": "f673bfb2980d4ba2"
+      "source": "jpost.com",
+      "signal_id": "86fae9b5103a0836"
     },
     {
-      "time": "08:15",
-      "text": "Vance puts cheap energy ahead of Iran nuclear threat as US tightens pressure",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "12:45",
+      "text": "US threatens indefinite Iran blockade , deeper economic pressure",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "ynetnews.com",
-      "signal_id": "fc40ee8645f9d239"
+      "source": "middle-east-online.com",
+      "signal_id": "4f5abdc0c165e225"
     }
   ],
   "signals": [
     {
-      "id": "1776de1296d778d5",
-      "name": "Israel warned US of Iran plots against Trump , but US could not verify threats",
+      "id": "f72e12946a3af588",
+      "name": "Did Israel use Iran threat warnings to shape Trump decisions ?",
       "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
       "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "1776de1296d778d5",
+      "dependency_group": "f72e12946a3af588",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.264,
+      "freshness": 0.874,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -94,28 +94,27 @@ window.MAGEN_STATE = {
         "short": 0.88,
         "extended": 0.56
       },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/international/global-trends/israel-warned-us-of-iran-plots-against-trump-but-us-could-not-verify-threats/articleshow/133227786.cms",
-      "published_at": "2026-08-14T04:15:00Z",
+      "source": "middle-east-online.com",
+      "url": "https://www.middle-east-online.com/en/did-israel-use-iran-threat-warnings-shape-trump%E2%80%99s-decisions",
+      "published_at": "2026-08-14T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 7.2,
-        "short": 5.6,
-        "extended": 2.4
-      },
-      "carried_forward": true
+        "immediate": 23.7,
+        "short": 18.5,
+        "extended": 7.8
+      }
     },
     {
-      "id": "e001ad521f7fb075",
-      "name": "Sniper , knife , missile threats : Israel warned US of alleged Iran plot to assassinate Donald Trump",
+      "id": "5a391f53de997bbd",
+      "name": "Israel shocked by pace of Irans military recovery media",
       "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
       "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e001ad521f7fb075",
-      "strength": 0.63,
+      "dependency_group": "5a391f53de997bbd",
+      "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.213,
+      "freshness": 0.814,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -126,28 +125,58 @@ window.MAGEN_STATE = {
         "short": 0.88,
         "extended": 0.56
       },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/us/sniper-knife-missile-threats-israel-warned-us-of-alleged-iran-plot-to-assassinate-donald-trump/articleshow/133227970.cms",
-      "published_at": "2026-08-14T03:30:00Z",
+      "source": "batonrougepost.com",
+      "url": "http://www.batonrougepost.com/news/279240951/israel-shocked-by-pace-of-irans-military-recovery-media",
+      "published_at": "2026-08-14T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 6.6,
-        "short": 5.2,
-        "extended": 2.2
-      },
-      "carried_forward": true
+        "immediate": 20.1,
+        "short": 15.6,
+        "extended": 6.6
+      }
     },
     {
-      "id": "f673bfb2980d4ba2",
-      "name": "The US threatens  indefinite naval blockade  of Iran as oil crisis resurges",
+      "id": "86fae9b5103a0836",
+      "name": "Shipping in Strait of Hormuz drops off as Iran , US continue fight for control",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "f673bfb2980d4ba2",
+      "dependency_group": "86fae9b5103a0836",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.814,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jpost.com",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-905516",
+      "published_at": "2026-08-14T09:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.2,
+        "extended": 10.6
+      }
+    },
+    {
+      "id": "4f5abdc0c165e225",
+      "name": "US threatens indefinite Iran blockade , deeper economic pressure",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4f5abdc0c165e225",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.351,
+      "freshness": 0.874,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,28 +187,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "sbs.com.au",
-      "url": "https://www.sbs.com.au/news/article/the-us-threatens-indefinite-naval-blockade-of-iran-as-oil-crisis-resurges/9kzf1e95h",
-      "published_at": "2026-08-14T05:15:00Z",
+      "source": "middle-east-online.com",
+      "url": "https://www.middle-east-online.com/en/us-threatens-indefinite-iran-blockade-deeper-economic-pressure",
+      "published_at": "2026-08-14T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.7
+      }
     },
     {
-      "id": "fc40ee8645f9d239",
-      "name": "Vance puts cheap energy ahead of Iran nuclear threat as US tightens pressure",
+      "id": "ced127aa492a2111",
+      "name": "Oil rises after U . S . threatens indefinite blockade of Iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "fc40ee8645f9d239",
+      "dependency_group": "ced127aa492a2111",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.351,
+      "freshness": 0.814,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -190,28 +218,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/sjez7wnimx",
-      "published_at": "2026-08-14T05:15:00Z",
+      "source": "theglobeandmail.com",
+      "url": "https://www.theglobeandmail.com/investing/article-oil-rises-after-us-threatens-indefinite-blockade-of-iran/",
+      "published_at": "2026-08-14T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.0
+      }
     },
     {
-      "id": "fdff24b1144ffb93",
-      "name": "UAE accuses Iran of attacks on two ADNOC vessels in Strait of Hormuz",
+      "id": "5ddadc08b4684e3b",
+      "name": "UAE denounces Iranian attack on ADNOC vessels in Strait of Hormuz as  act of piracy",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "fdff24b1144ffb93",
+      "dependency_group": "5ddadc08b4684e3b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.351,
+      "freshness": 0.874,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -222,28 +249,58 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/news/2026/8/14/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz",
-      "published_at": "2026-08-14T05:15:00Z",
+      "source": "aninews.in",
+      "url": "https://aninews.in/news/world/middle-east/uae-denounces-iranian-attack-on-adnoc-vessels-in-strait-of-hormuz-as-act-of-piracy20260814130039/",
+      "published_at": "2026-08-14T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
-      },
-      "carried_forward": true
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
     },
     {
-      "id": "8d85cba31343b29e",
-      "name": "UAE points finger at Iran as two ADNOC ships attacked in Strait of Hormuz",
+      "id": "06f6ff8b7bdba38f",
+      "name": "US military refutes claims of planned Iran strikes as Mossad assesses Tehran missile capacity",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "8d85cba31343b29e",
+      "dependency_group": "06f6ff8b7bdba38f",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.705,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bankingnews.gr",
+      "url": "https://www.bankingnews.gr/diethni/articles/893719/us-military-refutes-claims-of-planned-iran-strikes-as-mossad-assesses-tehran-s-missile-capacity",
+      "published_at": "2026-08-14T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.3
+      }
+    },
+    {
+      "id": "06b9600af476e316",
+      "name": "US says lower oil prices , not Iran nuclear program , are now top priority in war – The Frontier Post",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "06b9600af476e316",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.327,
+      "freshness": 0.814,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,28 +311,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/defence/uae-points-finger-at-iran-as-two-adnoc-ships-attacked-in-strait-of-hormuz/articleshow/133229037.cms",
-      "published_at": "2026-08-14T05:00:00Z",
+      "source": "thefrontierpost.com",
+      "url": "https://thefrontierpost.com/us-says-lower-oil-prices-not-irans-nuclear-program-are-now-top-priority-in-war/",
+      "published_at": "2026-08-14T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
     },
     {
-      "id": "fe9200219cdd451e",
-      "name": "How Iranian missile threat sparked a secret operation to move Trump out of Turkey as Air Force One flew as a decoy",
+      "id": "657d627ab803a8e6",
+      "name": "Bantah Klaim Trump , Iran Pamer Masih Punya 75 % Stok Rudal & Drone",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "fe9200219cdd451e",
-      "strength": 0.53,
+      "dependency_group": "657d627ab803a8e6",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.264,
+      "freshness": 0.705,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -286,28 +342,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/us/how-iranian-missile-threat-sparked-a-secret-operation-to-move-trump-out-of-turkey-as-air-force-one-flew-as-a-decoy/articleshow/133228504.cms",
-      "published_at": "2026-08-14T04:15:00Z",
+      "source": "cnnindonesia.com",
+      "url": "https://www.cnnindonesia.com/internasional/20260814130906-120-1392275/bantah-klaim-trump-iran-pamer-masih-punya-75-stok-rudal-drone",
+      "published_at": "2026-08-14T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.3
+      }
     },
     {
-      "id": "33e4f11b668b6c85",
-      "name": "UAE strongly condemns Iranian attack on two ADNOC vessels",
+      "id": "084ed4a66af8224b",
+      "name": "Iran blames  foreign military aggression  for oil pollution along Qeshm Island shores",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "33e4f11b668b6c85",
+      "dependency_group": "084ed4a66af8224b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.283,
+      "freshness": 0.459,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -318,92 +373,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "tag911.ae",
-      "url": "https://www.tag911.ae/news/local-news/uae-strongly-condemns-iranian-attack-on-two-adnoc-vessels/",
-      "published_at": "2026-08-14T04:30:00Z",
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260814/4486958.html",
+      "published_at": "2026-08-14T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      }
     },
     {
-      "id": "cb12d80b688e35e8",
-      "name": "Oil steadies after US threatens indefinite blockade of Iran",
+      "id": "f0a6042b3bb32061",
+      "name": "JD Vance says the top US war priority is now lowering fuel prices , not Iran nuclear programme",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "cb12d80b688e35e8",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.264,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dunyanews.tv",
-      "url": "https://dunyanews.tv/en/Business/967874-oil-steadies-after-us-threatens-indefinite-blockade-of-iran",
-      "published_at": "2026-08-14T04:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "34afc67eb1898f45",
-      "name": "Oil prices edge higher after US threatens indefinite blockade of Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "34afc67eb1898f45",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.264,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "business-standard.com",
-      "url": "https://www.business-standard.com/markets/commodities/oil-prices-edge-higher-after-us-threatens-indefinite-blockade-of-iran-126081400107_1.html",
-      "published_at": "2026-08-14T04:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "799cb2bfc5d5d34b",
-      "name": "UAE accuses Iran of attacks on two ADNOC vessels in Strait of Hormuz - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "799cb2bfc5d5d34b",
+      "dependency_group": "f0a6042b3bb32061",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.198,
+      "freshness": 0.459,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -414,16 +404,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "dominicanrepublicpost.com",
-      "url": "https://dominicanrepublicpost.com/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz/",
-      "published_at": "2026-08-14T03:15:00Z",
+      "source": "thejournal.ie",
+      "url": "https://www.thejournal.ie/us-war-aim-lower-fuel-prices-jd-vance-7130778-Aug2026/",
+      "published_at": "2026-08-14T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 2.0
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      }
     }
   ],
   "history": [
@@ -2436,17 +2425,23 @@ window.MAGEN_STATE = {
       "immediate": 15,
       "short": 16,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-08-14T10:13:20.725936Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 33
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-14T06:03:14.591776Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-14T10:13:20.725936Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 11
+        "ok": true,
+        "items": 150,
+        "relevant": 11
       },
       "manual": {
         "ok": true,
