@@ -1,89 +1,89 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-14T02:41:01.228154Z",
+  "mode": "live",
+  "generated_at": "2026-08-14T04:31:21.686740Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 10,
-      "low": 0,
-      "high": 27,
-      "confidence": 46,
-      "status": "נמוך"
+      "score": 33,
+      "low": 20,
+      "high": 46,
+      "confidence": 67,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
-      "low": 0,
-      "high": 28,
-      "confidence": 46,
-      "status": "נמוך"
+      "score": 33,
+      "low": 20,
+      "high": 46,
+      "confidence": 66,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
-      "low": 0,
-      "high": 28,
-      "confidence": 46,
-      "status": "נמוך"
+      "score": 26,
+      "low": 13,
+      "high": 39,
+      "confidence": 66,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -17
+    "level": "זינוק חריג",
+    "points_60m": 23
   },
   "changes": [
     {
-      "time": "01:30",
-      "text": "Israel Missile Shield Under Pressure : Can the U . S .- Israeli Defense Network Stop a Major Iranian Attack ?",
-      "impact": "השפעה מיידית מחושבת: +8.7",
+      "time": "06:30",
+      "text": "Sniper , knife , missile threats : Israel warned US of alleged Iran plot to assassinate Donald Trump",
+      "impact": "השפעה מיידית מחושבת: +23.2",
       "direction": "up",
-      "source": "finchannel.com",
-      "signal_id": "5b2c33bff5701bd5"
+      "source": "timesofindia.indiatimes.com",
+      "signal_id": "e001ad521f7fb075"
     },
     {
-      "time": "01:30",
-      "text": "US lost quarter of its Reaper drones in Iran war",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "04:00",
+      "text": "INTEL DOUBTS : CIA Reportedly Questioned Israeli Warning Of Iranian Assassination Threat Against Trump",
+      "impact": "השפעה מיידית מחושבת: +9.9",
       "direction": "up",
-      "source": "iranherald.com",
-      "signal_id": "a9449db6daa4e18c"
+      "source": "theyeshivaworld.com",
+      "signal_id": "c093077616374d95"
     },
     {
-      "time": "01:00",
-      "text": "Hormuz is under our control : Iran fires back at Trump claim that the US has  total control  of key oil route",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "06:15",
+      "text": "UAE accuses Iran of attacks on two ADNOC vessels in Strait of Hormuz - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "greekherald.com",
-      "signal_id": "d8403259a28ac1a8"
+      "source": "dominicanrepublicpost.com",
+      "signal_id": "799cb2bfc5d5d34b"
     },
     {
-      "time": "00:15",
-      "text": "US military has lost 25 % of its Reaper drones as Iran war depletes arsenal",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "05:45",
+      "text": "Oil Price Today ( August 14 ): Crude oil dips below $88 despite Trump threat to blockade Iran indefinitely . What are experts saying ?",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "nzherald.co.nz",
-      "signal_id": "913d7dde0c93c148"
+      "source": "economictimes.indiatimes.com",
+      "signal_id": "c966fad2d6ec16c5"
     }
   ],
   "signals": [
     {
-      "id": "5b2c33bff5701bd5",
-      "name": "Israel Missile Shield Under Pressure : Can the U . S .- Israeli Defense Network Stop a Major Iranian Attack ?",
+      "id": "e001ad521f7fb075",
+      "name": "Sniper , knife , missile threats : Israel warned US of alleged Iran plot to assassinate Donald Trump",
       "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
       "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "5b2c33bff5701bd5",
-      "strength": 0.58,
+      "dependency_group": "e001ad521f7fb075",
+      "strength": 0.63,
       "reliability": 0.56,
-      "freshness": 0.303,
+      "freshness": 0.747,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -94,28 +94,58 @@
         "short": 0.88,
         "extended": 0.56
       },
-      "source": "finchannel.com",
-      "url": "https://finchannel.com/israel-iran-attack-us-israel-missile-defense/133228/world-2/2026/08/",
-      "published_at": "2026-08-13T22:30:00Z",
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/us/sniper-knife-missile-threats-israel-warned-us-of-alleged-iran-plot-to-assassinate-donald-trump/articleshow/133227970.cms",
+      "published_at": "2026-08-14T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 8.7,
-        "short": 6.8,
-        "extended": 2.9
-      },
-      "carried_forward": true
+        "immediate": 23.2,
+        "short": 18.1,
+        "extended": 7.7
+      }
     },
     {
-      "id": "a9449db6daa4e18c",
-      "name": "US lost quarter of its Reaper drones in Iran war",
+      "id": "c093077616374d95",
+      "name": "INTEL DOUBTS : CIA Reportedly Questioned Israeli Warning Of Iranian Assassination Threat Against Trump",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c093077616374d95",
+      "strength": 0.55,
+      "reliability": 0.56,
+      "freshness": 0.366,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2585266/intel-doubts-cia-reportedly-questioned-israeli-warning-of-iranian-assassination-threat-against-trump.html",
+      "published_at": "2026-08-14T01:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 9.9,
+        "short": 7.7,
+        "extended": 3.3
+      }
+    },
+    {
+      "id": "799cb2bfc5d5d34b",
+      "name": "UAE accuses Iran of attacks on two ADNOC vessels in Strait of Hormuz - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a9449db6daa4e18c",
-      "strength": 0.48,
+      "dependency_group": "799cb2bfc5d5d34b",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.303,
+      "freshness": 0.695,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,28 +156,213 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279240324/us-lost-quarter-of-its-reaper-drones-in-iran-war-wapo",
-      "published_at": "2026-08-13T22:30:00Z",
+      "source": "dominicanrepublicpost.com",
+      "url": "https://dominicanrepublicpost.com/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz/",
+      "published_at": "2026-08-14T03:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "c966fad2d6ec16c5",
+      "name": "Oil Price Today ( August 14 ): Crude oil dips below $88 despite Trump threat to blockade Iran indefinitely . What are experts saying ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c966fad2d6ec16c5",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.603,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-14-crude-oil-dips-below-88-despite-trumps-threat-to-blockade-iran-indefinitely-what-are-experts-saying/articleshow/133227242.cms",
+      "published_at": "2026-08-14T02:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "8acb2b7a31f71bf1",
+      "name": "AS Kehilangan 45 Drone Canggih MQ - 9 Reaper dalam Perang Iran , Rugi Rp23 Triliun",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8acb2b7a31f71bf1",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.603,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "international.sindonews.com",
+      "url": "https://international.sindonews.com/read/1738847/43/as-kehilangan-45-drone-canggih-mq-9-reaper-dalam-perang-iran-rugi-rp23-triliun-1786669685",
+      "published_at": "2026-08-14T02:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      }
+    },
+    {
+      "id": "28502d903def4503",
+      "name": "Oil steadies after US threatens to blockade Iran indefinitely",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "28502d903def4503",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.603,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-steadies-after-us-threatens-to-blockade-iran-indefinitely/articleshow/133227088.cms",
+      "published_at": "2026-08-14T02:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "6a2ccf8c936c6f73",
+      "name": "U . S . military has lost roughly 25 % of its Reaper drones as Iran war depletes arsenal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6a2ccf8c936c6f73",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.422,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "spokesman.com",
+      "url": "https://www.spokesman.com/stories/2026/aug/13/us-military-has-lost-roughly-25-of-its-reaper-dron/",
+      "published_at": "2026-08-14T01:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "c80d7082bb75302a",
+      "name": "Mq 9 Reapers Us Iran , ईरान के साथ जंग में अमेरिका ने गंवाई एक चौथाई ड्रोन फ्लीट , 45 MQ - 9 रीपर तबाह , भारी नुकसान - us lost one fourth mq 9 reapers drone fleet in iran war says report trump face crisis - America News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c80d7082bb75302a",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.393,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "navbharattimes.indiatimes.com",
+      "url": "https://navbharattimes.indiatimes.com/world/america/us-lost-one-fourth-mq-9-reapers-drone-fleet-in-iran-war-says-report-trump-face-crisis/articleshow/133226722.cms",
+      "published_at": "2026-08-14T01:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "f7d550d405198885",
+      "name": "IRAN STRIKES : CENTCOM Chief Pushes For Renewed Attacks On Key Infrastructure",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f7d550d405198885",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.366,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2585420/iran-strikes-centcom-chief-pushes-for-renewed-attacks-on-key-infrastructure.html",
+      "published_at": "2026-08-14T01:00:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
         "short": 2.1,
         "extended": 3.6
-      },
-      "carried_forward": true
+      }
     },
     {
-      "id": "d8403259a28ac1a8",
-      "name": "Hormuz is under our control : Iran fires back at Trump claim that the US has  total control  of key oil route",
+      "id": "5960a1fb16840fca",
+      "name": "Iran could launch fall strikes on ships and Gulf targets , analysts warn",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "d8403259a28ac1a8",
+      "dependency_group": "5960a1fb16840fca",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.262,
+      "freshness": 0.34,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,80 +373,15 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "greekherald.com",
-      "url": "http://www.greekherald.com/news/279240275/hormuz-is-under-our-control-iran-fires-back-at-trump-claim-that-the-us-has-total-control-of-key-oil-route",
-      "published_at": "2026-08-13T22:00:00Z",
+      "source": "foxnews.com",
+      "url": "https://www.foxnews.com/world/tehran-turn-kinetic-tool-break-us-economic-containment-analyst-warns",
+      "published_at": "2026-08-14T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "913d7dde0c93c148",
-      "name": "US military has lost 25 % of its Reaper drones as Iran war depletes arsenal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "913d7dde0c93c148",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.212,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nzherald.co.nz",
-      "url": "https://www.nzherald.co.nz/world/us-military-has-lost-25-of-its-reaper-drones-as-iran-war-depletes-arsenal/V27UZOMSB5B23HQADXOR74E5MU/",
-      "published_at": "2026-08-13T21:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ba98c342afbb6f42",
-      "name": "Trump Has Lost Nearly a Quarter of Key Drone Stockpile in Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ba98c342afbb6f42",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.184,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newrepublic.com",
-      "url": "https://newrepublic.com/post/214338/donald-trump-lost-quarter-reaper-drone-iran",
-      "published_at": "2026-08-13T20:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
     }
   ],
   "history": [
@@ -2220,17 +2370,23 @@
       "immediate": 10,
       "short": 11,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-14T04:31:21.686740Z",
+      "immediate": 33,
+      "short": 33,
+      "extended": 26
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-13T23:11:42.729947Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-14T04:31:21.686740Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "ok": true,
+        "items": 150,
+        "relevant": 10
       },
       "manual": {
         "ok": true,
