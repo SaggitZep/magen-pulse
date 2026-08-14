@@ -1,37 +1,37 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-14T15:34:58.692551Z",
+  "mode": "live",
+  "generated_at": "2026-08-14T16:32:52.704593Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 34,
-      "low": 18,
-      "high": 50,
-      "confidence": 51,
+      "low": 21,
+      "high": 47,
+      "confidence": 68,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
       "score": 34,
-      "low": 18,
-      "high": 50,
-      "confidence": 51,
+      "low": 21,
+      "high": 47,
+      "confidence": 69,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 29,
-      "low": 13,
-      "high": 45,
-      "confidence": 51,
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 69,
       "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
@@ -40,9 +40,17 @@ window.MAGEN_STATE = {
   },
   "changes": [
     {
+      "time": "18:00",
+      "text": "Iran formalises Strait of Hormuz control as US struggles to sustain war it launched with Israel",
+      "impact": "השפעה מיידית מחושבת: +15.8",
+      "direction": "up",
+      "source": "middleeasteye.net",
+      "signal_id": "bd51b313832c932e"
+    },
+    {
       "time": "17:15",
       "text": "US threatens  indefinite  blockade against Iran : How long can it last ? | US - Israel war on Iran News",
-      "impact": "השפעה מיידית מחושבת: +18.5",
+      "impact": "השפעה מיידית מחושבת: +14.1",
       "direction": "up",
       "source": "aljazeera.com",
       "signal_id": "1a459d8d34e572a2"
@@ -50,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "16:30",
       "text": "Iran Klaim 75 Persen Rudal dan Drone Masih Utuh , Siap Tempur Lawan AS dan Israel",
-      "impact": "השפעה מיידית מחושבת: +15.7",
+      "impact": "השפעה מיידית מחושבת: +12.0",
       "direction": "up",
       "source": "aceh.tribunnews.com",
       "signal_id": "01f570caed1c3ba7"
@@ -58,21 +66,44 @@ window.MAGEN_STATE = {
     {
       "time": "16:45",
       "text": "Israel shocked by pace of Irans military recovery media",
-      "impact": "השפעה מיידית מחושבת: +14.6",
+      "impact": "השפעה מיידית מחושבת: +11.1",
       "direction": "up",
       "source": "iranherald.com",
       "signal_id": "5a391f53de997bbd"
-    },
-    {
-      "time": "14:30",
-      "text": "US CENTCOM chief pushing for renewed strikes on Iran , claims Israeli media",
-      "impact": "השפעה מיידית מחושבת: +7.7",
-      "direction": "up",
-      "source": "middleeastmonitor.com",
-      "signal_id": "1a87b1864d8a03c8"
     }
   ],
   "signals": [
+    {
+      "id": "bd51b313832c932e",
+      "name": "Iran formalises Strait of Hormuz control as US struggles to sustain war it launched with Israel",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bd51b313832c932e",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.643,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "middleeasteye.net",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-formalises-strait-hormuz-control-us-struggles-sustain-war-it",
+      "published_at": "2026-08-14T15:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 15.8,
+        "short": 12.4,
+        "extended": 5.2
+      }
+    },
     {
       "id": "1a459d8d34e572a2",
       "name": "US threatens  indefinite  blockade against Iran : How long can it last ? | US - Israel war on Iran News",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1a459d8d34e572a2",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.683,
+      "freshness": 0.519,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,11 +130,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 18.5,
-        "short": 14.4,
-        "extended": 6.1
-      },
-      "carried_forward": true
+        "immediate": 14.1,
+        "short": 11.0,
+        "extended": 4.7
+      }
     },
     {
       "id": "01f570caed1c3ba7",
@@ -115,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "01f570caed1c3ba7",
       "strength": 0.58,
       "reliability": 0.56,
-      "freshness": 0.551,
+      "freshness": 0.419,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -131,11 +161,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 15.7,
-        "short": 12.3,
-        "extended": 5.2
-      },
-      "carried_forward": true
+        "immediate": 12.0,
+        "short": 9.3,
+        "extended": 4.0
+      }
     },
     {
       "id": "5a391f53de997bbd",
@@ -147,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5a391f53de997bbd",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.592,
+      "freshness": 0.45,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -163,87 +192,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 14.6,
-        "short": 11.4,
-        "extended": 4.8
-      },
-      "carried_forward": true
+        "immediate": 11.1,
+        "short": 8.6,
+        "extended": 3.7
+      }
     },
     {
-      "id": "1a87b1864d8a03c8",
-      "name": "US CENTCOM chief pushing for renewed strikes on Iran , claims Israeli media",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1a87b1864d8a03c8",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.311,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "middleeastmonitor.com",
-      "url": "https://www.middleeastmonitor.com/20260814-us-centcom-chief-pushing-for-renewed-strikes-on-iran-claims-israeli-media/",
-      "published_at": "2026-08-14T11:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 7.7,
-        "short": 6.0,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "809d5b14e4406de9",
-      "name": "ഇസ്രായേലിനെ ഞെട്ടിച്ച് ഇറാന്റെ തിരിച്ചുവരവ് ; തകർന്ന മിസൈൽ ശേഷി പുനർനിർമിച്ചത് അതിവേഗം | Israeli officials shocked by the speed of Irans military recovery after war",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "809d5b14e4406de9",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.311,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "madhyamam.com",
-      "url": "https://www.madhyamam.com/world/israeli-officials-stunned-by-irans-rapid-military-recovery-1545917",
-      "published_at": "2026-08-14T11:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 7.7,
-        "short": 6.0,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "51adba34f6dde5f2",
-      "name": "US warns Iran it will step up economic pressure ; two more ships attacked in Hormuz",
+      "id": "549e475a7a822320",
+      "name": "Iran IRGC claims it shot down US MQ - 9 Reaper drone over Hormozgan",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "51adba34f6dde5f2",
-      "strength": 0.45,
-      "reliability": 0.74,
-      "freshness": 0.592,
+      "dependency_group": "549e475a7a822320",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.855,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,16 +218,263 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "al-monitor.com",
-      "url": "https://www.al-monitor.com/originals/2026/08/us-warns-iran-it-will-step-economic-pressure-two-more-ships-attacked-hormuz",
-      "published_at": "2026-08-14T13:45:00Z",
+      "source": "news.az",
+      "url": "https://news.az/news/iran-s-irgc-claims-it-shot-down-us-mq-9-reaper-drone-over-hormozgan",
+      "published_at": "2026-08-14T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
+        "immediate": 1.7,
+        "short": 5.9,
+        "extended": 10.1
+      }
+    },
+    {
+      "id": "d6beb8d79b83fd2f",
+      "name": "IRGC shoots down US MQ - 9 Reaper drone over Hormozgan",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d6beb8d79b83fd2f",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.69,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/08/14/774343/IRGC-shoots-down-US-MQ-9-drone-Iran-Hormozgan",
+      "published_at": "2026-08-14T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "51adba34f6dde5f2",
+      "name": "US Warns Iran It Will Step Up Economic Pressure ; Two More Ships Attacked in Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "51adba34f6dde5f2",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.741,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gcaptain.com",
+      "url": "https://gcaptain.com/us-warns-iran-it-will-step-up-economic-pressure-two-more-ships-attacked-in-hormuz/",
+      "published_at": "2026-08-14T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "9c609cc4cbba77e2",
+      "name": "US Treasury secretary threatens  unprecedented  economic measures against Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9c609cc4cbba77e2",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.741,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sana.sy",
+      "url": "https://sana.sy/en/politics/2336347/",
+      "published_at": "2026-08-14T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "f869b90737e23273",
+      "name": "IRAN THREATENS U . S .: IRGC Commander Warns American Troops Would Find Their  Grave On Iranian Islands – The Yeshiva World",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f869b90737e23273",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.69,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2585753/iran-threatens-u-s-irgc-commander-warns-american-troops-would-find-their-graves-on-iranian-islands.html",
+      "published_at": "2026-08-14T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "71b146edc46a5fa0",
+      "name": "Two ADNOC tankers attacked in Strait of Hormuz ; UAE blames Iran , calls it  flagrant violation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "71b146edc46a5fa0",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.741,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/two-adnoc-tankers-attacked-in-strait-of-hormuz-uae-blames-iran-calls-it-flagrant-violation-article-14005998.html",
+      "published_at": "2026-08-14T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "65407012b429e7d0",
+      "name": "UAE denounces Iranian attack on ADNOC vessels in Strait of Hormuz as",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "65407012b429e7d0",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.741,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeaststar.com",
+      "url": "http://www.middleeaststar.com/news/279241113/uae-denounces-iranian-attack-on-adnoc-vessels-in-strait-of-hormuz-as-act-of-piracy",
+      "published_at": "2026-08-14T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "4327c097c4a8e95f",
+      "name": "Hormuz traffic slows further after US threatens more economic pressure on Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4327c097c4a8e95f",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.643,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/hormuz-traffic-slows-further-after-us-threatens-more-economic-pressure-on-iran/articleshow/133244610.cms",
+      "published_at": "2026-08-14T15:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      }
+    },
+    {
+      "id": "43ee899760a13be2",
+      "name": "Vance : Confrontation will end with Tehran having no nuclear weapons",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "43ee899760a13be2",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.69,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "clevelandjewishnews.com",
+      "url": "https://www.clevelandjewishnews.com/news/world_news/vance-confrontation-will-end-with-tehran-having-no-nuclear-weapons/article_a94a7215-21f1-5e0c-bee3-ba342fd5360b.html",
+      "published_at": "2026-08-14T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
     },
     {
       "id": "ae206a9a0fa22da9",
@@ -275,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ae206a9a0fa22da9",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.592,
+      "freshness": 0.45,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,139 +502,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "65407012b429e7d0",
-      "name": "UAE denounces Iranian attack on ADNOC vessels in Strait of Hormuz as",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "65407012b429e7d0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.513,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279241113/uae-denounces-iranian-attack-on-adnoc-vessels-in-strait-of-hormuz-as-act-of-piracy",
-      "published_at": "2026-08-14T13:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "db61bbb5f913a712",
-      "name": "Low oil prices now  goal number one  in Iran war , Vance says , as U . S . threatens new economic pressure",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "db61bbb5f913a712",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.311,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nbcnews.com",
-      "url": "https://www.nbcnews.com/world/iran/low-oil-prices-trump-goal-iran-war-vance-blockade-economic-pressure-rcna592504",
-      "published_at": "2026-08-14T11:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f648884926939dc4",
-      "name": "US lost 45 reaper drones in Iran war , representing 25 % fleet worth $1 . 3 billion : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f648884926939dc4",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.27,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/defence/international/us-loses-45-reaper-drones-in-iran-war-representing-25-of-fleet-worth-1-3-billion-report/articleshow/133236331.cms",
-      "published_at": "2026-08-14T11:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4f9fc6d50dc59d0d",
-      "name": "Arab nations condemn latest Iranian attack on ADNOC tankers",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4f9fc6d50dc59d0d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.29,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabnews.com",
-      "url": "https://www.arabnews.com/node/2654636/middle-east",
-      "published_at": "2026-08-14T11:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
+        "short": 2.9,
+        "extended": 5.0
+      }
     }
   ],
   "history": [
@@ -2472,17 +2554,23 @@ window.MAGEN_STATE = {
       "immediate": 34,
       "short": 34,
       "extended": 29
+    },
+    {
+      "timestamp": "2026-08-14T16:32:52.704593Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 34
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-14T14:39:48.949138Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-14T16:32:52.704593Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 11
+        "ok": true,
+        "items": 150,
+        "relevant": 14
       },
       "manual": {
         "ok": true,
