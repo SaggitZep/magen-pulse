@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-14T23:03:38.526935Z",
+  "generated_at": "2026-08-14T23:33:33.953870Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 3,
       "low": 0,
-      "high": 16,
-      "confidence": 66,
+      "high": 17,
+      "confidence": 61,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 10,
       "low": 0,
-      "high": 25,
-      "confidence": 66,
+      "high": 24,
+      "confidence": 61,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 6,
-      "high": 32,
-      "confidence": 66,
+      "score": 17,
+      "low": 3,
+      "high": 31,
+      "confidence": 61,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "01:00",
       "text": "US threatens indefinite blockade on Iran : Update",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "argusmedia.com",
       "signal_id": "fcc27debf3cee856"
@@ -50,26 +50,26 @@ window.MAGEN_STATE = {
     {
       "time": "23:45",
       "text": "US Lost 25 % Of Its Reaper Drones In Iran War , Officials Estimate",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "zerohedge.com",
       "signal_id": "96f6cd23966ab03f"
     },
     {
-      "time": "23:45",
-      "text": "WP : Armata SUA a pierdut un sfert din flota de drone Reaper în războiul cu Iranul . O singură dronă costă 50 milioane de dolari",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "antena3.ro",
-      "signal_id": "5b9c1ad975b0bdc1"
-    },
-    {
       "time": "00:15",
       "text": "UAE Blames Iran For Tanker Strikes In Strait Of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "theuknews.com",
       "signal_id": "d1cd65fb6f5da1a3"
+    },
+    {
+      "time": "23:45",
+      "text": "WP : Armata SUA a pierdut un sfert din flota de drone Reaper în războiul cu Iranul . O singură dronă costă 50 milioane de dolari",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "antena3.ro",
+      "signal_id": "5b9c1ad975b0bdc1"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fcc27debf3cee856",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.739,
+      "freshness": 0.64,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
       }
     },
     {
@@ -114,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "96f6cd23966ab03f",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.517,
+      "freshness": 0.448,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,40 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
-    },
-    {
-      "id": "5b9c1ad975b0bdc1",
-      "name": "WP : Armata SUA a pierdut un sfert din flota de drone Reaper în războiul cu Iranul . O singură dronă costă 50 milioane de dolari",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5b9c1ad975b0bdc1",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.517,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "antena3.ro",
-      "url": "https://www.antena3.ro/externe/wp-armata-sua-a-pierdut-un-sfert-din-flota-de-drone-reaper-in-razboiul-cu-iranul-o-singura-drona-costa-50-milioane-de-dolari-799550.html",
-      "published_at": "2026-08-14T20:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       }
     },
     {
@@ -176,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d1cd65fb6f5da1a3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.596,
+      "freshness": 0.517,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +161,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.9
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "5b9c1ad975b0bdc1",
+      "name": "WP : Armata SUA a pierdut un sfert din flota de drone Reaper în războiul cu Iranul . O singură dronă costă 50 milioane de dolari",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5b9c1ad975b0bdc1",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.448,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "antena3.ro",
+      "url": "https://www.antena3.ro/externe/wp-armata-sua-a-pierdut-un-sfert-din-flota-de-drone-reaper-in-razboiul-cu-iranul-o-singura-drona-costa-50-milioane-de-dolari-799550.html",
+      "published_at": "2026-08-14T20:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       }
     },
     {
@@ -207,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "12915e486985318f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.555,
+      "freshness": 0.481,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,40 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "e65ad4e2253d7607",
-      "name": "फिर बंद हो गया होर्मुज ? UAE के दो तेल टैंकरों पर हमला , अमेरिका ने ईरान को दी वॉर्निंग - hormuz blocked again two uae oil tankers attacked us warning to iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e65ad4e2253d7607",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.362,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jagran.com",
-      "url": "https://www.jagran.com/world/middle-east-hormuz-blocked-again-two-uae-oil-tankers-attacked-us-warning-to-iran-40341023.html",
-      "published_at": "2026-08-14T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
       }
     }
   ],
@@ -2372,17 +2341,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 12,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-14T23:33:33.953870Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-14T23:03:38.526935Z",
+    "last_success": "2026-08-14T23:33:33.953870Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 6
+        "relevant": 5
       },
       "manual": {
         "ok": true,
