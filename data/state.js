@@ -1,89 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-14T21:49:25.710984Z",
+  "mode": "live",
+  "generated_at": "2026-08-14T22:11:26.832525Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 45,
+      "high": 17,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
+      "score": 13,
       "low": 0,
-      "high": 23,
-      "confidence": 45,
-      "status": "לא זוהה אות חריג"
+      "high": 26,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 10,
-      "low": 0,
-      "high": 27,
-      "confidence": 45,
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 66,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "20:30",
-      "text": "Iran says it downed US - made MQ - 9 drone over southern Hormozgan province",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "23:45",
+      "text": "US Lost 25 % Of Its Reaper Drones In Iran War , Officials Estimate",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "aa.com.tr",
-      "signal_id": "865410d4ec162a6d"
+      "source": "zerohedge.com",
+      "signal_id": "96f6cd23966ab03f"
     },
     {
-      "time": "21:00",
-      "text": "UAE claims Iran attacked two vessels of state - owned oil firm in Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "23:45",
+      "text": "WP : Armata SUA a pierdut un sfert din flota de drone Reaper în războiul cu Iranul . O singură dronă costă 50 milioane de dolari",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "newindianexpress.com",
-      "signal_id": "84e032a21cb0f9b7"
+      "source": "antena3.ro",
+      "signal_id": "5b9c1ad975b0bdc1"
     },
     {
-      "time": "20:15",
-      "text": "Iran Kembali Tembak Jatuh Drone MQ - 9 AS di Selatan Provinsi Hormozgan",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "00:15",
+      "text": "UAE Blames Iran For Tanker Strikes In Strait Of Hormuz",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "international.sindonews.com",
-      "signal_id": "a81191f5bb7da2c1"
+      "source": "theuknews.com",
+      "signal_id": "d1cd65fb6f5da1a3"
     },
     {
-      "time": "20:00",
-      "text": "Iran - US tensions rise after drone strikes on UAE oil tankers",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "00:00",
+      "text": "Benjamin Netanyahu numește Marea Britanie  prima republică islamică cu arme nucleare  și spune că va împiedica Iranul să devină a doua",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "bankingnews.gr",
-      "signal_id": "bce1793ca6e184fe"
+      "source": "antena3.ro",
+      "signal_id": "12915e486985318f"
     }
   ],
   "signals": [
     {
-      "id": "865410d4ec162a6d",
-      "name": "Iran says it downed US - made MQ - 9 drone over southern Hormozgan province",
+      "id": "96f6cd23966ab03f",
+      "name": "US Lost 25 % Of Its Reaper Drones In Iran War , Officials Estimate",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "865410d4ec162a6d",
+      "dependency_group": "96f6cd23966ab03f",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.291,
+      "freshness": 0.663,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,28 +94,58 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/middle-east/iran-says-it-downed-us-made-mq-9-drone-over-southern-hormozgan-province/4027482",
-      "published_at": "2026-08-14T17:30:00Z",
+      "source": "zerohedge.com",
+      "url": "https://www.zerohedge.com/geopolitical/us-lost-25-its-reaper-drones-iran-war-officials-estimate",
+      "published_at": "2026-08-14T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.8
+      }
     },
     {
-      "id": "84e032a21cb0f9b7",
-      "name": "UAE claims Iran attacked two vessels of state - owned oil firm in Strait of Hormuz",
+      "id": "5b9c1ad975b0bdc1",
+      "name": "WP : Armata SUA a pierdut un sfert din flota de drone Reaper în războiul cu Iranul . O singură dronă costă 50 milioane de dolari",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "84e032a21cb0f9b7",
+      "dependency_group": "5b9c1ad975b0bdc1",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.663,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "antena3.ro",
+      "url": "https://www.antena3.ro/externe/wp-armata-sua-a-pierdut-un-sfert-din-flota-de-drone-reaper-in-razboiul-cu-iranul-o-singura-drona-costa-50-milioane-de-dolari-799550.html",
+      "published_at": "2026-08-14T20:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.8
+      }
+    },
+    {
+      "id": "d1cd65fb6f5da1a3",
+      "name": "UAE Blames Iran For Tanker Strikes In Strait Of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d1cd65fb6f5da1a3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.335,
+      "freshness": 0.764,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,28 +156,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "newindianexpress.com",
-      "url": "https://www.newindianexpress.com/world/2026/Aug/14/uae-claims-iran-attacked-two-vessels-of-state-owned-oil-firm-in-strait-of-hormuz",
-      "published_at": "2026-08-14T18:00:00Z",
+      "source": "theuknews.com",
+      "url": "http://www.theuknews.com/news/279241756/uae-blames-iran-for-tanker-strikes-in-strait-of-hormuz",
+      "published_at": "2026-08-14T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
     },
     {
-      "id": "a81191f5bb7da2c1",
-      "name": "Iran Kembali Tembak Jatuh Drone MQ - 9 AS di Selatan Provinsi Hormozgan",
+      "id": "12915e486985318f",
+      "name": "Benjamin Netanyahu numește Marea Britanie  prima republică islamică cu arme nucleare  și spune că va împiedica Iranul să devină a doua",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a81191f5bb7da2c1",
-      "strength": 0.48,
+      "dependency_group": "12915e486985318f",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.271,
+      "freshness": 0.712,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,48 +187,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "international.sindonews.com",
-      "url": "https://international.sindonews.com/read/1739189/43/iran-kembali-tembak-jatuh-drone-mq-9-as-di-selatan-provinsi-hormozgan-1786716534",
-      "published_at": "2026-08-14T17:15:00Z",
+      "source": "antena3.ro",
+      "url": "https://www.antena3.ro/externe/benjamin-netanyahu-numeste-marea-britanie-prima-republica-islamica-cu-arme-nucleare-si-spune-ca-va-impiedica-iranul-sa-devina-a-doua-799554.html",
+      "published_at": "2026-08-14T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "bce1793ca6e184fe",
-      "name": "Iran - US tensions rise after drone strikes on UAE oil tankers",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bce1793ca6e184fe",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.252,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bankingnews.gr",
-      "url": "https://www.bankingnews.gr/diethni/articles/893830/iran-us-tensions-rise-after-drone-strikes-on-uae-oil-tankers",
-      "published_at": "2026-08-14T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
-      },
-      "carried_forward": true
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
     },
     {
       "id": "4327c097c4a8e95f",
@@ -210,8 +206,8 @@ window.MAGEN_STATE = {
       "evidence_type": "report",
       "dependency_group": "4327c097c4a8e95f",
       "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.271,
+      "reliability": 0.74,
+      "freshness": 0.348,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -222,28 +218,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "sowetan.co.za",
-      "url": "https://www.sowetan.co.za/news/world/2026-08-14-hormuz-traffic-slows-further-after-us-threatens-more-economic-pressure-on-iran/",
-      "published_at": "2026-08-14T17:15:00Z",
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/08/hormuz-traffic-slows-further-after-us-threatens-more-economic-pressure-iran",
+      "published_at": "2026-08-14T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
     },
     {
-      "id": "5a76267b4a73e303",
-      "name": "Lower oil prices , not Iran nuclear programme , now top priority : U . S .",
+      "id": "e65ad4e2253d7607",
+      "name": "फिर बंद हो गया होर्मुज ? UAE के दो तेल टैंकरों पर हमला , अमेरिका ने ईरान को दी वॉर्निंग - hormuz blocked again two uae oil tankers attacked us warning to iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "5a76267b4a73e303",
+      "dependency_group": "e65ad4e2253d7607",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.271,
+      "freshness": 0.464,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,28 +249,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "thehindu.com",
-      "url": "https://www.thehindu.com/news/international/lower-oil-prices-not-irans-nuclear-programme-now-top-priority-us/article71347037.ece",
-      "published_at": "2026-08-14T17:15:00Z",
+      "source": "jagran.com",
+      "url": "https://www.jagran.com/world/middle-east-hormuz-blocked-again-two-uae-oil-tankers-attacked-us-warning-to-iran-40341023.html",
+      "published_at": "2026-08-14T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
     },
     {
-      "id": "55d22021e70fa64f",
-      "name": "UAE says two Adnoc ships attacked by Iran | Latest Market News",
+      "id": "51adba34f6dde5f2",
+      "name": "US warns Iran it will step up economic pressure ; two more ships attacked in Hormuz",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "55d22021e70fa64f",
-      "strength": 0.4,
+      "dependency_group": "51adba34f6dde5f2",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.252,
+      "freshness": 0.374,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -286,28 +280,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "argusmedia.com",
-      "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2865163-uae-says-two-adnoc-ships-attacked-by-iran",
-      "published_at": "2026-08-14T17:00:00Z",
+      "source": "thefrontierpost.com",
+      "url": "https://thefrontierpost.com/us-warns-iran-it-will-step-up-economic-pressure-two-more-ships-attacked-in-hormuz/",
+      "published_at": "2026-08-14T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     },
     {
-      "id": "549e475a7a822320",
-      "name": "Iran IRGC claims it shot down US MQ - 9 Reaper drone over Hormozgan",
+      "id": "6cb0d37d57c24686",
+      "name": "Iran War Day 168 : Bessent Threatens Economic Measures Against Iran  Like ‌The World Has ​Never Seen Before",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "549e475a7a822320",
-      "strength": 0.48,
+      "dependency_group": "6cb0d37d57c24686",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.189,
+      "freshness": 0.324,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -318,16 +311,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "news.az",
-      "url": "https://news.az/news/iran-s-irgc-claims-it-shot-down-us-mq-9-reaper-drone-over-hormozgan",
-      "published_at": "2026-08-14T16:00:00Z",
+      "source": "theamericanconservative.com",
+      "url": "https://www.theamericanconservative.com/iran-war-day-168-bessent-threatens-economic-measures-against-iran-like-the-world-has-never-seen-before/",
+      "published_at": "2026-08-14T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
     }
   ],
   "history": [
@@ -2424,17 +2416,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 6,
       "extended": 10
+    },
+    {
+      "timestamp": "2026-08-14T22:11:26.832525Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-14T18:34:06.560729Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-14T22:11:26.832525Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 8
       },
       "manual": {
         "ok": true,
