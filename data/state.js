@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-14T20:52:21.808178Z",
+  "generated_at": "2026-08-14T21:22:02.538744Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
+      "score": 2,
+      "low": 0,
+      "high": 19,
+      "confidence": 45,
+      "status": "לא זוהה אות חריג"
+    },
+    "short": {
+      "label": "6 שעות",
       "score": 7,
       "low": 0,
       "high": 24,
       "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
-    "short": {
-      "label": "6 שעות",
+    "extended": {
+      "label": "24 שעות",
       "score": 11,
       "low": 0,
       "high": 28,
-      "confidence": 46,
-      "status": "נמוך"
-    },
-    "extended": {
-      "label": "24 שעות",
-      "score": 14,
-      "low": 0,
-      "high": 31,
-      "confidence": 46,
+      "confidence": 45,
       "status": "נמוך"
     }
   },
@@ -35,22 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "ירידה",
+    "points_60m": -5
   },
   "changes": [
     {
-      "time": "18:00",
-      "text": "Iran formalises Strait of Hormuz control as US struggles to sustain war it launched with Israel",
-      "impact": "השפעה מיידית מחושבת: +4.6",
-      "direction": "up",
-      "source": "middleeasteye.net",
-      "signal_id": "bd51b313832c932e"
-    },
-    {
       "time": "20:30",
       "text": "Iran says it downed US - made MQ - 9 drone over southern Hormozgan province",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "865410d4ec162a6d"
@@ -66,45 +58,21 @@ window.MAGEN_STATE = {
     {
       "time": "20:15",
       "text": "Iran Kembali Tembak Jatuh Drone MQ - 9 AS di Selatan Provinsi Hormozgan",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "international.sindonews.com",
       "signal_id": "a81191f5bb7da2c1"
+    },
+    {
+      "time": "20:00",
+      "text": "Iran - US tensions rise after drone strikes on UAE oil tankers",
+      "impact": "השפעה מיידית מחושבת: +0.6",
+      "direction": "up",
+      "source": "bankingnews.gr",
+      "signal_id": "bce1793ca6e184fe"
     }
   ],
   "signals": [
-    {
-      "id": "bd51b313832c932e",
-      "name": "Iran formalises Strait of Hormuz control as US struggles to sustain war it launched with Israel",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bd51b313832c932e",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.187,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-formalises-strait-hormuz-control-us-struggles-sustain-war-it",
-      "published_at": "2026-08-14T15:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 4.6,
-        "short": 3.6,
-        "extended": 1.5
-      },
-      "carried_forward": true
-    },
     {
       "id": "865410d4ec162a6d",
       "name": "Iran says it downed US - made MQ - 9 drone over southern Hormozgan province",
@@ -115,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "865410d4ec162a6d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.382,
+      "freshness": 0.331,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       },
       "carried_forward": true
     },
@@ -147,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "84e032a21cb0f9b7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.44,
+      "freshness": 0.382,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -164,8 +132,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
+        "short": 2.2,
+        "extended": 3.8
       },
       "carried_forward": true
     },
@@ -179,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a81191f5bb7da2c1",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.355,
+      "freshness": 0.308,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       },
       "carried_forward": true
     },
@@ -211,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bce1793ca6e184fe",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.331,
+      "freshness": 0.287,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       },
       "carried_forward": true
     },
@@ -243,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4327c097c4a8e95f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.355,
+      "freshness": 0.308,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       },
       "carried_forward": true
     },
@@ -275,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5a76267b4a73e303",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.355,
+      "freshness": 0.308,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -307,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "55d22021e70fa64f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.331,
+      "freshness": 0.287,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -339,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "549e475a7a822320",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.249,
+      "freshness": 0.216,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,41 +323,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d6beb8d79b83fd2f",
-      "name": "IRGC shoots down US MQ - 9 Reaper drone over Hormozgan",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d6beb8d79b83fd2f",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.201,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/08/14/774343/IRGC-shoots-down-US-MQ-9-drone-Iran-Hormozgan",
-      "published_at": "2026-08-14T15:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -403,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "51adba34f6dde5f2",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.215,
+      "freshness": 0.187,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -420,8 +356,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -435,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9c609cc4cbba77e2",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.215,
+      "freshness": 0.187,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -452,40 +388,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f869b90737e23273",
-      "name": "IRAN THREATENS U . S .: IRGC Commander Warns American Troops Would Find Their  Grave On Iranian Islands – The Yeshiva World",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f869b90737e23273",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.201,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2585753/iran-threatens-u-s-irgc-commander-warns-american-troops-would-find-their-graves-on-iranian-islands.html",
-      "published_at": "2026-08-14T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -499,7 +403,7 @@ window.MAGEN_STATE = {
       "dependency_group": "71b146edc46a5fa0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.215,
+      "freshness": 0.187,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -515,9 +419,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.8
       },
       "carried_forward": true
     },
@@ -531,7 +435,7 @@ window.MAGEN_STATE = {
       "dependency_group": "65407012b429e7d0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.215,
+      "freshness": 0.187,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -547,41 +451,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "43ee899760a13be2",
-      "name": "Vance : Confrontation will end with Tehran having no nuclear weapons",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "43ee899760a13be2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.201,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "clevelandjewishnews.com",
-      "url": "https://www.clevelandjewishnews.com/news/world_news/vance-confrontation-will-end-with-tehran-having-no-nuclear-weapons/article_a94a7215-21f1-5e0c-bee3-ba342fd5360b.html",
-      "published_at": "2026-08-14T15:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
+        "short": 1.1,
+        "extended": 1.8
       },
       "carried_forward": true
     }
@@ -2668,6 +2540,12 @@ window.MAGEN_STATE = {
       "immediate": 7,
       "short": 11,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-08-14T21:22:02.538744Z",
+      "immediate": 2,
+      "short": 7,
+      "extended": 11
     }
   ],
   "health": {
@@ -2677,8 +2555,8 @@ window.MAGEN_STATE = {
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 16
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "carried_forward": 12
       },
       "manual": {
         "ok": true,
