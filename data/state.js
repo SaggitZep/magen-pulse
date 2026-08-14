@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-14T21:22:02.538744Z",
+  "generated_at": "2026-08-14T21:49:25.710984Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -14,17 +14,17 @@ window.MAGEN_STATE = {
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 6,
       "low": 0,
-      "high": 24,
+      "high": 23,
       "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
+      "score": 10,
       "low": 0,
-      "high": 28,
+      "high": 27,
       "confidence": 45,
       "status": "נמוך"
     }
@@ -35,14 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -5
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "20:30",
       "text": "Iran says it downed US - made MQ - 9 drone over southern Hormozgan province",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "865410d4ec162a6d"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:00",
       "text": "UAE claims Iran attacked two vessels of state - owned oil firm in Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "newindianexpress.com",
       "signal_id": "84e032a21cb0f9b7"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:00",
       "text": "Iran - US tensions rise after drone strikes on UAE oil tankers",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "bankingnews.gr",
       "signal_id": "bce1793ca6e184fe"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "865410d4ec162a6d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.331,
+      "freshness": 0.291,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "84e032a21cb0f9b7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.382,
+      "freshness": 0.335,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a81191f5bb7da2c1",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.308,
+      "freshness": 0.271,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -164,8 +164,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bce1793ca6e184fe",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.287,
+      "freshness": 0.252,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4327c097c4a8e95f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.308,
+      "freshness": 0.271,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5a76267b4a73e303",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.308,
+      "freshness": 0.271,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -260,8 +260,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "55d22021e70fa64f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.287,
+      "freshness": 0.252,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.8
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "549e475a7a822320",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.216,
+      "freshness": 0.189,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -324,136 +324,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "51adba34f6dde5f2",
-      "name": "US Warns Iran It Will Step Up Economic Pressure ; Two More Ships Attacked in Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "51adba34f6dde5f2",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.187,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gcaptain.com",
-      "url": "https://gcaptain.com/us-warns-iran-it-will-step-up-economic-pressure-two-more-ships-attacked-in-hormuz/",
-      "published_at": "2026-08-14T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9c609cc4cbba77e2",
-      "name": "US Treasury secretary threatens  unprecedented  economic measures against Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9c609cc4cbba77e2",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.187,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "sana.sy",
-      "url": "https://sana.sy/en/politics/2336347/",
-      "published_at": "2026-08-14T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "71b146edc46a5fa0",
-      "name": "Two ADNOC tankers attacked in Strait of Hormuz ; UAE blames Iran , calls it  flagrant violation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "71b146edc46a5fa0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.187,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/two-adnoc-tankers-attacked-in-strait-of-hormuz-uae-blames-iran-calls-it-flagrant-violation-article-14005998.html",
-      "published_at": "2026-08-14T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "65407012b429e7d0",
-      "name": "UAE denounces Iranian attack on ADNOC vessels in Strait of Hormuz as",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "65407012b429e7d0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.187,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeaststar.com",
-      "url": "http://www.middleeaststar.com/news/279241113/uae-denounces-iranian-attack-on-adnoc-vessels-in-strait-of-hormuz-as-act-of-piracy",
-      "published_at": "2026-08-14T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     }
@@ -2546,6 +2418,12 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 7,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-14T21:49:25.710984Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 10
     }
   ],
   "health": {
@@ -2555,8 +2433,8 @@ window.MAGEN_STATE = {
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 12
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 8
       },
       "manual": {
         "ok": true,
