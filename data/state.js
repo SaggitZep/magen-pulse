@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-14T07:47:36.081027Z",
+  "generated_at": "2026-08-14T08:55:03.522566Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 20,
-      "low": 4,
-      "high": 36,
-      "confidence": 49,
+      "score": 15,
+      "low": 0,
+      "high": 32,
+      "confidence": 47,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 22,
-      "low": 6,
-      "high": 38,
-      "confidence": 49,
+      "score": 16,
+      "low": 0,
+      "high": 33,
+      "confidence": 47,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 49,
+      "score": 12,
+      "low": 0,
+      "high": 29,
+      "confidence": 47,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -12
+    "points_60m": -5
   },
   "changes": [
     {
       "time": "07:15",
       "text": "Israel warned US of Iran plots against Trump , but US could not verify threats",
-      "impact": "השפעה מיידית מחושבת: +9.8",
+      "impact": "השפעה מיידית מחושבת: +7.2",
       "direction": "up",
       "source": "economictimes.indiatimes.com",
       "signal_id": "1776de1296d778d5"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "06:30",
       "text": "Sniper , knife , missile threats : Israel warned US of alleged Iran plot to assassinate Donald Trump",
-      "impact": "השפעה מיידית מחושבת: +9.1",
+      "impact": "השפעה מיידית מחושבת: +6.6",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "e001ad521f7fb075"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "08:15",
       "text": "The US threatens  indefinite naval blockade  of Iran as oil crisis resurges",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "sbs.com.au",
       "signal_id": "f673bfb2980d4ba2"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "08:15",
       "text": "Vance puts cheap energy ahead of Iran nuclear threat as US tightens pressure",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "ynetnews.com",
       "signal_id": "fc40ee8645f9d239"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1776de1296d778d5",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.363,
+      "freshness": 0.264,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 9.8,
-        "short": 7.7,
-        "extended": 3.3
+        "immediate": 7.2,
+        "short": 5.6,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e001ad521f7fb075",
       "strength": 0.63,
       "reliability": 0.56,
-      "freshness": 0.293,
+      "freshness": 0.213,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 9.1,
-        "short": 7.1,
-        "extended": 3.0
+        "immediate": 6.6,
+        "short": 5.2,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f673bfb2980d4ba2",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.484,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fc40ee8645f9d239",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.484,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fdff24b1144ffb93",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.484,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8d85cba31343b29e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.45,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fe9200219cdd451e",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.363,
+      "freshness": 0.264,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "33e4f11b668b6c85",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.39,
+      "freshness": 0.283,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.8
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -339,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cb12d80b688e35e8",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.363,
+      "freshness": 0.264,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +355,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -371,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "34afc67eb1898f45",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.363,
+      "freshness": 0.264,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -387,9 +387,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -403,7 +403,7 @@ window.MAGEN_STATE = {
       "dependency_group": "799cb2bfc5d5d34b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.273,
+      "freshness": 0.198,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -419,105 +419,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T03:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8acb2b7a31f71bf1",
-      "name": "AS Kehilangan 45 Drone Canggih MQ - 9 Reaper dalam Perang Iran , Rugi Rp23 Triliun",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8acb2b7a31f71bf1",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.237,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "international.sindonews.com",
-      "url": "https://international.sindonews.com/read/1738847/43/as-kehilangan-45-drone-canggih-mq-9-reaper-dalam-perang-iran-rugi-rp23-triliun-1786669685",
-      "published_at": "2026-08-14T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c966fad2d6ec16c5",
-      "name": "Oil Price Today ( August 14 ): Crude oil dips below $88 despite Trump threat to blockade Iran indefinitely . What are experts saying ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c966fad2d6ec16c5",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.237,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-14-crude-oil-dips-below-88-despite-trumps-threat-to-blockade-iran-indefinitely-what-are-experts-saying/articleshow/133227242.cms",
-      "published_at": "2026-08-14T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "28502d903def4503",
-      "name": "Oil steadies after US threatens to blockade Iran indefinitely",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "28502d903def4503",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.237,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-steadies-after-us-threatens-to-blockade-iran-indefinitely/articleshow/133227088.cms",
-      "published_at": "2026-08-14T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -2526,6 +2430,12 @@ window.MAGEN_STATE = {
       "immediate": 20,
       "short": 22,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-14T08:55:03.522566Z",
+      "immediate": 15,
+      "short": 16,
+      "extended": 12
     }
   ],
   "health": {
@@ -2536,7 +2446,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 14
+        "carried_forward": 11
       },
       "manual": {
         "ok": true,
