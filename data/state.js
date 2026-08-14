@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-14T22:11:26.832525Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-14T22:43:42.811125Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 66,
+      "high": 19,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 11,
       "low": 0,
-      "high": 26,
-      "confidence": 66,
+      "high": 27,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 66,
+      "score": 19,
+      "low": 3,
+      "high": 35,
+      "confidence": 50,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "23:45",
       "text": "US Lost 25 % Of Its Reaper Drones In Iran War , Officials Estimate",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "zerohedge.com",
       "signal_id": "96f6cd23966ab03f"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "23:45",
       "text": "WP : Armata SUA a pierdut un sfert din flota de drone Reaper în războiul cu Iranul . O singură dronă costă 50 milioane de dolari",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "antena3.ro",
       "signal_id": "5b9c1ad975b0bdc1"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "00:15",
       "text": "UAE Blames Iran For Tanker Strikes In Strait Of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "theuknews.com",
       "signal_id": "d1cd65fb6f5da1a3"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "00:00",
       "text": "Benjamin Netanyahu numește Marea Britanie  prima republică islamică cu arme nucleare  și spune că va împiedica Iranul să devină a doua",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "antena3.ro",
       "signal_id": "12915e486985318f"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "96f6cd23966ab03f",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.663,
+      "freshness": 0.568,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.8
-      }
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "5b9c1ad975b0bdc1",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5b9c1ad975b0bdc1",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.663,
+      "freshness": 0.568,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.8
-      }
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "d1cd65fb6f5da1a3",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d1cd65fb6f5da1a3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.764,
+      "freshness": 0.655,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      },
+      "carried_forward": true
     },
     {
       "id": "12915e486985318f",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "12915e486985318f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.712,
+      "freshness": 0.61,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
-      }
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      },
+      "carried_forward": true
     },
     {
       "id": "4327c097c4a8e95f",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4327c097c4a8e95f",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.348,
+      "freshness": 0.299,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      },
+      "carried_forward": true
     },
     {
       "id": "e65ad4e2253d7607",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e65ad4e2253d7607",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.464,
+      "freshness": 0.398,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     },
     {
       "id": "51adba34f6dde5f2",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "51adba34f6dde5f2",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.374,
+      "freshness": 0.321,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      },
+      "carried_forward": true
     },
     {
       "id": "6cb0d37d57c24686",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6cb0d37d57c24686",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.324,
+      "freshness": 0.278,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2422,17 +2430,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-14T22:43:42.811125Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 19
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-14T22:11:26.832525Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 8
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 8
       },
       "manual": {
         "ok": true,
