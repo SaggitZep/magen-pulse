@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-14T11:59:42.660819Z",
+  "generated_at": "2026-08-14T13:33:56.761644Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,7 +9,7 @@ window.MAGEN_STATE = {
       "score": 34,
       "low": 21,
       "high": 47,
-      "confidence": 69,
+      "confidence": 66,
       "status": "מוגבר"
     },
     "short": {
@@ -17,15 +17,15 @@ window.MAGEN_STATE = {
       "score": 34,
       "low": 21,
       "high": 47,
-      "confidence": 68,
+      "confidence": 66,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 34,
-      "low": 21,
-      "high": 47,
-      "confidence": 68,
+      "score": 29,
+      "low": 16,
+      "high": 42,
+      "confidence": 66,
       "status": "מוגבר"
     }
   },
@@ -40,9 +40,17 @@ window.MAGEN_STATE = {
   },
   "changes": [
     {
+      "time": "16:00",
+      "text": "Israel shocked by pace of Irans military recovery media",
+      "impact": "השפעה מיידית מחושבת: +21.0",
+      "direction": "up",
+      "source": "arabherald.com",
+      "signal_id": "5a391f53de997bbd"
+    },
+    {
       "time": "14:30",
       "text": "US CENTCOM chief pushing for renewed strikes on Iran , claims Israeli media",
-      "impact": "השפעה מיידית מחושבת: +21.4",
+      "impact": "השפעה מיידית מחושבת: +13.7",
       "direction": "up",
       "source": "middleeastmonitor.com",
       "signal_id": "1a87b1864d8a03c8"
@@ -50,29 +58,52 @@ window.MAGEN_STATE = {
     {
       "time": "14:30",
       "text": "ഇസ്രായേലിനെ ഞെട്ടിച്ച് ഇറാന്റെ തിരിച്ചുവരവ് ; തകർന്ന മിസൈൽ ശേഷി പുനർനിർമിച്ചത് അതിവേഗം | Israeli officials shocked by the speed of Irans military recovery after war",
-      "impact": "השפעה מיידית מחושבת: +21.4",
+      "impact": "השפעה מיידית מחושבת: +13.7",
       "direction": "up",
       "source": "madhyamam.com",
       "signal_id": "809d5b14e4406de9"
     },
     {
-      "time": "14:00",
-      "text": "Israel shocked by pace of Irans military recovery media",
-      "impact": "השפעה מיידית מחושבת: +18.6",
-      "direction": "up",
-      "source": "heraldglobe.com",
-      "signal_id": "5a391f53de997bbd"
-    },
-    {
       "time": "12:45",
       "text": "Did Israel use Iran threat warnings to shape Trump decisions ?",
-      "impact": "השפעה מיידית מחושבת: +14.3",
+      "impact": "השפעה מיידית מחושבת: +9.1",
       "direction": "up",
       "source": "middle-east-online.com",
       "signal_id": "f72e12946a3af588"
     }
   ],
   "signals": [
+    {
+      "id": "5a391f53de997bbd",
+      "name": "Israel shocked by pace of Irans military recovery media",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5a391f53de997bbd",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.851,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "arabherald.com",
+      "url": "http://www.arabherald.com/news/279240951/israel-shocked-by-pace-of-irans-military-recovery-media",
+      "published_at": "2026-08-14T13:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 21.0,
+        "short": 16.4,
+        "extended": 6.9
+      }
+    },
     {
       "id": "1a87b1864d8a03c8",
       "name": "US CENTCOM chief pushing for renewed strikes on Iran , claims Israeli media",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1a87b1864d8a03c8",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.868,
+      "freshness": 0.554,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 21.4,
-        "short": 16.7,
-        "extended": 7.1
+        "immediate": 13.7,
+        "short": 10.6,
+        "extended": 4.5
       }
     },
     {
@@ -114,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "809d5b14e4406de9",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.868,
+      "freshness": 0.554,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -130,40 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 21.4,
-        "short": 16.7,
-        "extended": 7.1
-      }
-    },
-    {
-      "id": "5a391f53de997bbd",
-      "name": "Israel shocked by pace of Irans military recovery media",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5a391f53de997bbd",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.753,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "heraldglobe.com",
-      "url": "http://www.heraldglobe.com/news/279240951/israel-shocked-by-pace-of-irans-military-recovery-media",
-      "published_at": "2026-08-14T11:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 18.6,
-        "short": 14.5,
-        "extended": 6.1
+        "immediate": 13.7,
+        "short": 10.6,
+        "extended": 4.5
       }
     },
     {
@@ -176,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f72e12946a3af588",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.527,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -192,9 +192,71 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 14.3,
-        "short": 11.1,
-        "extended": 4.7
+        "immediate": 9.1,
+        "short": 7.1,
+        "extended": 3.0
+      }
+    },
+    {
+      "id": "65407012b429e7d0",
+      "name": "UAE denounces Iranian attack on ADNOC vessels in Strait of Hormuz as",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "65407012b429e7d0",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.851,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arabherald.com",
+      "url": "http://www.arabherald.com/news/279241113/uae-denounces-iranian-attack-on-adnoc-vessels-in-strait-of-hormuz-as-act-of-piracy",
+      "published_at": "2026-08-14T13:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "51adba34f6dde5f2",
+      "name": "US warns Iran it will step up economic pressure ; two more ships attacked in Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "51adba34f6dde5f2",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.639,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/us-warns-iran-it-will-step-up-economic-pressure-two-more-ships-attacked-in-hormuz/articleshow/133238963.cms",
+      "published_at": "2026-08-14T12:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
       }
     },
     {
@@ -207,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "db61bbb5f913a712",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.868,
+      "freshness": 0.554,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.7,
-        "extended": 9.6
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
       }
     },
     {
@@ -238,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f648884926939dc4",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.753,
+      "freshness": 0.48,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T11:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.9
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
       }
     },
     {
@@ -269,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4f9fc6d50dc59d0d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.808,
+      "freshness": 0.516,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +347,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T11:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
       }
     },
     {
@@ -300,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "84e87b6bd7c80b80",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.565,
+      "freshness": 0.361,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,40 +378,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T10:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
-    },
-    {
-      "id": "86fae9b5103a0836",
-      "name": "Shipping in Strait of Hormuz drops off as Iran , US continue fight for control",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "86fae9b5103a0836",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.49,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-905516",
-      "published_at": "2026-08-14T09:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     },
     {
@@ -362,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4f5abdc0c165e225",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.527,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,9 +409,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       }
     },
     {
@@ -393,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "76480709c48b827c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.565,
+      "freshness": 0.361,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,9 +440,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T10:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       }
     },
     {
@@ -424,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "52df1bb90dab3ac0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.565,
+      "freshness": 0.361,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,164 +471,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T10:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
-    },
-    {
-      "id": "06f6ff8b7bdba38f",
-      "name": "US military refutes claims of planned Iran strikes as Mossad assesses Tehran missile capacity",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "06f6ff8b7bdba38f",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.425,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bankingnews.gr",
-      "url": "https://www.bankingnews.gr/diethni/articles/893719/us-military-refutes-claims-of-planned-iran-strikes-as-mossad-assesses-tehran-s-missile-capacity",
-      "published_at": "2026-08-14T09:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
-      }
-    },
-    {
-      "id": "5ddadc08b4684e3b",
-      "name": "UAE denounces Iranian attack on ADNOC vessels in Strait of Hormuz as  act of piracy",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5ddadc08b4684e3b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.527,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aninews.in",
-      "url": "https://aninews.in/news/world/middle-east/uae-denounces-iranian-attack-on-adnoc-vessels-in-strait-of-hormuz-as-act-of-piracy20260814130039/",
-      "published_at": "2026-08-14T09:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      }
-    },
-    {
-      "id": "657d627ab803a8e6",
-      "name": "Bantah Klaim Trump , Iran Pamer Masih Punya 75 % Stok Rudal & Drone",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "657d627ab803a8e6",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.425,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cnnindonesia.com",
-      "url": "https://www.cnnindonesia.com/internasional/20260814130906-120-1392275/bantah-klaim-trump-iran-pamer-masih-punya-75-stok-rudal-drone",
-      "published_at": "2026-08-14T09:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
-      }
-    },
-    {
-      "id": "ced127aa492a2111",
-      "name": "Oil rises after U . S . threatens indefinite blockade of Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ced127aa492a2111",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.49,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theglobeandmail.com",
-      "url": "https://www.theglobeandmail.com/investing/article-oil-rises-after-us-threatens-indefinite-blockade-of-iran/",
-      "published_at": "2026-08-14T09:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      }
-    },
-    {
-      "id": "43ee899760a13be2",
-      "name": "Vance : Confrontation will end with Tehran having no nuclear weapons",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "43ee899760a13be2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.425,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "clevelandjewishnews.com",
-      "url": "https://www.clevelandjewishnews.com/jns/vance-confrontation-will-end-with-tehran-having-no-nuclear-weapons/article_a94a7215-21f1-5e0c-bee3-ba342fd5360b.html",
-      "published_at": "2026-08-14T09:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       }
     }
   ],
@@ -2629,17 +2505,23 @@ window.MAGEN_STATE = {
       "immediate": 34,
       "short": 34,
       "extended": 34
+    },
+    {
+      "timestamp": "2026-08-14T13:33:56.761644Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 29
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-14T11:59:42.660819Z",
+    "last_success": "2026-08-14T13:33:56.761644Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 17
+        "relevant": 13
       },
       "manual": {
         "ok": true,
