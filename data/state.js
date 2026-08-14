@@ -1,23 +1,23 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-14T04:31:21.686740Z",
+  "generated_at": "2026-08-14T06:03:14.591776Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 33,
-      "low": 20,
-      "high": 46,
-      "confidence": 67,
+      "score": 32,
+      "low": 19,
+      "high": 45,
+      "confidence": 68,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 33,
-      "low": 20,
-      "high": 46,
-      "confidence": 66,
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 68,
       "status": "מוגבר"
     },
     "extended": {
@@ -25,7 +25,7 @@ window.MAGEN_STATE = {
       "score": 26,
       "low": 13,
       "high": 39,
-      "confidence": 66,
+      "confidence": 68,
       "status": "מוגבר"
     }
   },
@@ -35,44 +35,75 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 23
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
+      "time": "07:15",
+      "text": "Israel warned US of Iran plots against Trump , but US could not verify threats",
+      "impact": "השפעה מיידית מחושבת: +16.2",
+      "direction": "up",
+      "source": "economictimes.indiatimes.com",
+      "signal_id": "1776de1296d778d5"
+    },
+    {
       "time": "06:30",
       "text": "Sniper , knife , missile threats : Israel warned US of alleged Iran plot to assassinate Donald Trump",
-      "impact": "השפעה מיידית מחושבת: +23.2",
+      "impact": "השפעה מיידית מחושבת: +15.0",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "e001ad521f7fb075"
     },
     {
-      "time": "04:00",
-      "text": "INTEL DOUBTS : CIA Reportedly Questioned Israeli Warning Of Iranian Assassination Threat Against Trump",
-      "impact": "השפעה מיידית מחושבת: +9.9",
+      "time": "08:15",
+      "text": "The US threatens  indefinite naval blockade  of Iran as oil crisis resurges",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "theyeshivaworld.com",
-      "signal_id": "c093077616374d95"
+      "source": "sbs.com.au",
+      "signal_id": "f673bfb2980d4ba2"
     },
     {
-      "time": "06:15",
-      "text": "UAE accuses Iran of attacks on two ADNOC vessels in Strait of Hormuz - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "time": "08:15",
+      "text": "Vance puts cheap energy ahead of Iran nuclear threat as US tightens pressure",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "dominicanrepublicpost.com",
-      "signal_id": "799cb2bfc5d5d34b"
-    },
-    {
-      "time": "05:45",
-      "text": "Oil Price Today ( August 14 ): Crude oil dips below $88 despite Trump threat to blockade Iran indefinitely . What are experts saying ?",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "economictimes.indiatimes.com",
-      "signal_id": "c966fad2d6ec16c5"
+      "source": "ynetnews.com",
+      "signal_id": "fc40ee8645f9d239"
     }
   ],
   "signals": [
+    {
+      "id": "1776de1296d778d5",
+      "name": "Israel warned US of Iran plots against Trump , but US could not verify threats",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1776de1296d778d5",
+      "strength": 0.55,
+      "reliability": 0.56,
+      "freshness": 0.597,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/international/global-trends/israel-warned-us-of-iran-plots-against-trump-but-us-could-not-verify-threats/articleshow/133227786.cms",
+      "published_at": "2026-08-14T04:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 16.2,
+        "short": 12.6,
+        "extended": 5.4
+      }
+    },
     {
       "id": "e001ad521f7fb075",
       "name": "Sniper , knife , missile threats : Israel warned US of alleged Iran plot to assassinate Donald Trump",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e001ad521f7fb075",
       "strength": 0.63,
       "reliability": 0.56,
-      "freshness": 0.747,
+      "freshness": 0.482,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,40 +130,257 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 23.2,
-        "short": 18.1,
-        "extended": 7.7
+        "immediate": 15.0,
+        "short": 11.7,
+        "extended": 5.0
       }
     },
     {
-      "id": "c093077616374d95",
-      "name": "INTEL DOUBTS : CIA Reportedly Questioned Israeli Warning Of Iranian Assassination Threat Against Trump",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "f673bfb2980d4ba2",
+      "name": "The US threatens  indefinite naval blockade  of Iran as oil crisis resurges",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "c093077616374d95",
-      "strength": 0.55,
+      "dependency_group": "f673bfb2980d4ba2",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.366,
+      "freshness": 0.795,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2585266/intel-doubts-cia-reportedly-questioned-israeli-warning-of-iranian-assassination-threat-against-trump.html",
-      "published_at": "2026-08-14T01:00:00Z",
+      "source": "sbs.com.au",
+      "url": "https://www.sbs.com.au/news/article/the-us-threatens-indefinite-naval-blockade-of-iran-as-oil-crisis-resurges/9kzf1e95h",
+      "published_at": "2026-08-14T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 9.9,
-        "short": 7.7,
-        "extended": 3.3
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "fc40ee8645f9d239",
+      "name": "Vance puts cheap energy ahead of Iran nuclear threat as US tightens pressure",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fc40ee8645f9d239",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.795,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ynetnews.com",
+      "url": "https://www.ynetnews.com/article/sjez7wnimx",
+      "published_at": "2026-08-14T05:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "fdff24b1144ffb93",
+      "name": "UAE accuses Iran of attacks on two ADNOC vessels in Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fdff24b1144ffb93",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.795,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/8/14/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz",
+      "published_at": "2026-08-14T05:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.8
+      }
+    },
+    {
+      "id": "8d85cba31343b29e",
+      "name": "UAE points finger at Iran as two ADNOC ships attacked in Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8d85cba31343b29e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.74,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/defence/uae-points-finger-at-iran-as-two-adnoc-ships-attacked-in-strait-of-hormuz/articleshow/133229037.cms",
+      "published_at": "2026-08-14T05:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "fe9200219cdd451e",
+      "name": "How Iranian missile threat sparked a secret operation to move Trump out of Turkey as Air Force One flew as a decoy",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fe9200219cdd451e",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.597,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/us/how-iranian-missile-threat-sparked-a-secret-operation-to-move-trump-out-of-turkey-as-air-force-one-flew-as-a-decoy/articleshow/133228504.cms",
+      "published_at": "2026-08-14T04:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.6,
+        "extended": 7.8
+      }
+    },
+    {
+      "id": "33e4f11b668b6c85",
+      "name": "UAE strongly condemns Iranian attack on two ADNOC vessels",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "33e4f11b668b6c85",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.641,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tag911.ae",
+      "url": "https://www.tag911.ae/news/local-news/uae-strongly-condemns-iranian-attack-on-two-adnoc-vessels/",
+      "published_at": "2026-08-14T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "cb12d80b688e35e8",
+      "name": "Oil steadies after US threatens indefinite blockade of Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cb12d80b688e35e8",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.597,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dunyanews.tv",
+      "url": "https://dunyanews.tv/en/Business/967874-oil-steadies-after-us-threatens-indefinite-blockade-of-iran",
+      "published_at": "2026-08-14T04:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
+    },
+    {
+      "id": "34afc67eb1898f45",
+      "name": "Oil prices edge higher after US threatens indefinite blockade of Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "34afc67eb1898f45",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.597,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "business-standard.com",
+      "url": "https://www.business-standard.com/markets/commodities/oil-prices-edge-higher-after-us-threatens-indefinite-blockade-of-iran-126081400107_1.html",
+      "published_at": "2026-08-14T04:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
       }
     },
     {
@@ -145,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "799cb2bfc5d5d34b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.695,
+      "freshness": 0.449,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,40 +409,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T03:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
-    },
-    {
-      "id": "c966fad2d6ec16c5",
-      "name": "Oil Price Today ( August 14 ): Crude oil dips below $88 despite Trump threat to blockade Iran indefinitely . What are experts saying ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c966fad2d6ec16c5",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.603,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-14-crude-oil-dips-below-88-despite-trumps-threat-to-blockade-iran-indefinitely-what-are-experts-saying/articleshow/133227242.cms",
-      "published_at": "2026-08-14T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       }
     },
     {
@@ -207,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8acb2b7a31f71bf1",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.603,
+      "freshness": 0.389,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +440,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T02:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "c966fad2d6ec16c5",
+      "name": "Oil Price Today ( August 14 ): Crude oil dips below $88 despite Trump threat to blockade Iran indefinitely . What are experts saying ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c966fad2d6ec16c5",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.389,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-14-crude-oil-dips-below-88-despite-trumps-threat-to-blockade-iran-indefinitely-what-are-experts-saying/articleshow/133227242.cms",
+      "published_at": "2026-08-14T02:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     },
     {
@@ -238,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "28502d903def4503",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.603,
+      "freshness": 0.389,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,133 +502,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T02:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
-    },
-    {
-      "id": "6a2ccf8c936c6f73",
-      "name": "U . S . military has lost roughly 25 % of its Reaper drones as Iran war depletes arsenal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6a2ccf8c936c6f73",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.422,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "spokesman.com",
-      "url": "https://www.spokesman.com/stories/2026/aug/13/us-military-has-lost-roughly-25-of-its-reaper-dron/",
-      "published_at": "2026-08-14T01:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      }
-    },
-    {
-      "id": "c80d7082bb75302a",
-      "name": "Mq 9 Reapers Us Iran , ईरान के साथ जंग में अमेरिका ने गंवाई एक चौथाई ड्रोन फ्लीट , 45 MQ - 9 रीपर तबाह , भारी नुकसान - us lost one fourth mq 9 reapers drone fleet in iran war says report trump face crisis - America News",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c80d7082bb75302a",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.393,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "navbharattimes.indiatimes.com",
-      "url": "https://navbharattimes.indiatimes.com/world/america/us-lost-one-fourth-mq-9-reapers-drone-fleet-in-iran-war-says-report-trump-face-crisis/articleshow/133226722.cms",
-      "published_at": "2026-08-14T01:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
-    },
-    {
-      "id": "f7d550d405198885",
-      "name": "IRAN STRIKES : CENTCOM Chief Pushes For Renewed Attacks On Key Infrastructure",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f7d550d405198885",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.366,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2585420/iran-strikes-centcom-chief-pushes-for-renewed-attacks-on-key-infrastructure.html",
-      "published_at": "2026-08-14T01:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
-    },
-    {
-      "id": "5960a1fb16840fca",
-      "name": "Iran could launch fall strikes on ships and Gulf targets , analysts warn",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5960a1fb16840fca",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.34,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "foxnews.com",
-      "url": "https://www.foxnews.com/world/tehran-turn-kinetic-tool-break-us-economic-containment-analyst-warns",
-      "published_at": "2026-08-14T00:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     }
   ],
@@ -2376,17 +2500,23 @@ window.MAGEN_STATE = {
       "immediate": 33,
       "short": 33,
       "extended": 26
+    },
+    {
+      "timestamp": "2026-08-14T06:03:14.591776Z",
+      "immediate": 32,
+      "short": 34,
+      "extended": 26
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-14T04:31:21.686740Z",
+    "last_success": "2026-08-14T06:03:14.591776Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 10
+        "relevant": 14
       },
       "manual": {
         "ok": true,
