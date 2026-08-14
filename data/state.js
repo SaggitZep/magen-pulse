@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-14T23:33:33.953870Z",
+  "generated_at": "2026-08-14T23:57:29.633632Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 4,
       "low": 0,
       "high": 17,
-      "confidence": 61,
+      "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 12,
       "low": 0,
-      "high": 24,
-      "confidence": 61,
+      "high": 25,
+      "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 3,
-      "high": 31,
-      "confidence": 61,
+      "score": 19,
+      "low": 6,
+      "high": 32,
+      "confidence": 65,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,21 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": 1
   },
   "changes": [
     {
+      "time": "02:30",
+      "text": "The Strait will remain Iranian : Iran unfazed by Trump threat to claim Hormuz",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "israelnationalnews.com",
+      "signal_id": "2bc6f02702716c3a"
+    },
+    {
       "time": "01:00",
       "text": "US threatens indefinite blockade on Iran : Update",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "argusmedia.com",
       "signal_id": "fcc27debf3cee856"
@@ -50,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "23:45",
       "text": "US Lost 25 % Of Its Reaper Drones In Iran War , Officials Estimate",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "zerohedge.com",
       "signal_id": "96f6cd23966ab03f"
@@ -58,21 +66,44 @@ window.MAGEN_STATE = {
     {
       "time": "00:15",
       "text": "UAE Blames Iran For Tanker Strikes In Strait Of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "theuknews.com",
       "signal_id": "d1cd65fb6f5da1a3"
-    },
-    {
-      "time": "23:45",
-      "text": "WP : Armata SUA a pierdut un sfert din flota de drone Reaper în războiul cu Iranul . O singură dronă costă 50 milioane de dolari",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "antena3.ro",
-      "signal_id": "5b9c1ad975b0bdc1"
     }
   ],
   "signals": [
+    {
+      "id": "2bc6f02702716c3a",
+      "name": "The Strait will remain Iranian : Iran unfazed by Trump threat to claim Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2bc6f02702716c3a",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.877,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/news/431731",
+      "published_at": "2026-08-14T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.7
+      }
+    },
     {
       "id": "fcc27debf3cee856",
       "name": "US threatens indefinite blockade on Iran : Update",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fcc27debf3cee856",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.64,
+      "freshness": 0.571,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
       }
     },
     {
@@ -114,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "96f6cd23966ab03f",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.448,
+      "freshness": 0.4,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d1cd65fb6f5da1a3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.517,
+      "freshness": 0.461,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5b9c1ad975b0bdc1",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.448,
+      "freshness": 0.4,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
       }
     },
     {
@@ -207,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "12915e486985318f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.481,
+      "freshness": 0.429,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     }
   ],
@@ -2347,17 +2378,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-14T23:57:29.633632Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 19
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-14T23:33:33.953870Z",
+    "last_success": "2026-08-14T23:57:29.633632Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 5
+        "relevant": 6
       },
       "manual": {
         "ok": true,
