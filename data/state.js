@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-14T00:02:15.057038Z",
+  "generated_at": "2026-08-14T02:41:01.228154Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 27,
-      "low": 11,
-      "high": 43,
-      "confidence": 51,
-      "status": "מוגבר"
+      "score": 10,
+      "low": 0,
+      "high": 27,
+      "confidence": 46,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 28,
-      "low": 12,
-      "high": 44,
-      "confidence": 51,
-      "status": "מוגבר"
+      "score": 11,
+      "low": 0,
+      "high": 28,
+      "confidence": 46,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 8,
-      "high": 40,
-      "confidence": 51,
-      "status": "מוגבר"
+      "score": 11,
+      "low": 0,
+      "high": 28,
+      "confidence": 46,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -36,29 +36,21 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -7
+    "points_60m": -17
   },
   "changes": [
     {
       "time": "01:30",
       "text": "Israel Missile Shield Under Pressure : Can the U . S .- Israeli Defense Network Stop a Major Iranian Attack ?",
-      "impact": "השפעה מיידית מחושבת: +18.4",
+      "impact": "השפעה מיידית מחושבת: +8.7",
       "direction": "up",
       "source": "finchannel.com",
       "signal_id": "5b2c33bff5701bd5"
     },
     {
-      "time": "22:45",
-      "text": "CIA doubted Israeli intel on alleged Iranian threat that forced Trump to change planes : Report",
-      "impact": "השפעה מיידית מחושבת: +8.0",
-      "direction": "up",
-      "source": "presstv.co.uk",
-      "signal_id": "fde82d293bddac00"
-    },
-    {
       "time": "01:30",
       "text": "US lost quarter of its Reaper drones in Iran war",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "iranherald.com",
       "signal_id": "a9449db6daa4e18c"
@@ -66,10 +58,18 @@ window.MAGEN_STATE = {
     {
       "time": "01:00",
       "text": "Hormuz is under our control : Iran fires back at Trump claim that the US has  total control  of key oil route",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "greekherald.com",
       "signal_id": "d8403259a28ac1a8"
+    },
+    {
+      "time": "00:15",
+      "text": "US military has lost 25 % of its Reaper drones as Iran war depletes arsenal",
+      "impact": "השפעה מיידית מחושבת: +0.4",
+      "direction": "up",
+      "source": "nzherald.co.nz",
+      "signal_id": "913d7dde0c93c148"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5b2c33bff5701bd5",
       "strength": 0.58,
       "reliability": 0.56,
-      "freshness": 0.644,
+      "freshness": 0.303,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,41 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 18.4,
-        "short": 14.4,
-        "extended": 6.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "fde82d293bddac00",
-      "name": "CIA doubted Israeli intel on alleged Iranian threat that forced Trump to change planes : Report",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fde82d293bddac00",
-      "strength": 0.55,
-      "reliability": 0.56,
-      "freshness": 0.294,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/08/13/774302/CIA-doubted-Israeli-intel-on-alleged-Iranian-threat-that-forced-Trump-to-secretly-change-planes--Report",
-      "published_at": "2026-08-13T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 8.0,
-        "short": 6.2,
-        "extended": 2.6
+        "immediate": 8.7,
+        "short": 6.8,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -147,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a9449db6daa4e18c",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.644,
+      "freshness": 0.303,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       },
       "carried_forward": true
     },
@@ -179,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d8403259a28ac1a8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.559,
+      "freshness": 0.262,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -211,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "913d7dde0c93c148",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.451,
+      "freshness": 0.212,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -243,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ba98c342afbb6f42",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.391,
+      "freshness": 0.184,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,41 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-13T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "49bfbfb1a32c2511",
-      "name": "Le dilemme de Trump : mettre fin à la guerre contre lIran pour satisfaire les Américains , au risque de mécontenter sa base évangélique",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "49bfbfb1a32c2511",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.255,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theconversation.com",
-      "url": "https://theconversation.com/le-dilemme-de-trump-mettre-fin-a-la-guerre-contre-liran-pour-satisfaire-les-americains-au-risque-de-mecontenter-sa-base-evangelique-289549",
-      "published_at": "2026-08-13T19:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     }
@@ -2278,6 +2214,12 @@ window.MAGEN_STATE = {
       "immediate": 27,
       "short": 28,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-14T02:41:01.228154Z",
+      "immediate": 10,
+      "short": 11,
+      "extended": 11
     }
   ],
   "health": {
@@ -2288,7 +2230,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
