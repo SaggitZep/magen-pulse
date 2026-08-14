@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-14T10:13:20.725936Z",
+  "generated_at": "2026-08-14T11:11:18.587725Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 34,
-      "low": 22,
-      "high": 46,
-      "confidence": 72,
+      "low": 21,
+      "high": 47,
+      "confidence": 68,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
       "score": 34,
-      "low": 22,
-      "high": 46,
-      "confidence": 72,
+      "low": 21,
+      "high": 47,
+      "confidence": 68,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 33,
-      "low": 21,
-      "high": 45,
-      "confidence": 71,
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 67,
       "status": "מוגבר"
     }
   },
@@ -35,41 +35,41 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 19
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "12:45",
       "text": "Did Israel use Iran threat warnings to shape Trump decisions ?",
-      "impact": "השפעה מיידית מחושבת: +23.7",
+      "impact": "השפעה מיידית מחושבת: +18.0",
       "direction": "up",
       "source": "middle-east-online.com",
       "signal_id": "f72e12946a3af588"
     },
     {
-      "time": "12:30",
+      "time": "13:00",
       "text": "Israel shocked by pace of Irans military recovery media",
-      "impact": "השפעה מיידית מחושבת: +20.1",
+      "impact": "השפעה מיידית מחושבת: +17.5",
       "direction": "up",
-      "source": "batonrougepost.com",
+      "source": "middleeaststar.com",
       "signal_id": "5a391f53de997bbd"
+    },
+    {
+      "time": "13:00",
+      "text": "The Xinjiang Connection : CCP Providing Shoulder - Fired Missiles to Iran",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "theepochtimes.com",
+      "signal_id": "84e87b6bd7c80b80"
     },
     {
       "time": "12:30",
       "text": "Shipping in Strait of Hormuz drops off as Iran , US continue fight for control",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "86fae9b5103a0836"
-    },
-    {
-      "time": "12:45",
-      "text": "US threatens indefinite Iran blockade , deeper economic pressure",
-      "impact": "השפעה מיידית מחושבת: +1.7",
-      "direction": "up",
-      "source": "middle-east-online.com",
-      "signal_id": "4f5abdc0c165e225"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f72e12946a3af588",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.874,
+      "freshness": 0.663,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 23.7,
-        "short": 18.5,
-        "extended": 7.8
+        "immediate": 18.0,
+        "short": 14.0,
+        "extended": 5.9
       }
     },
     {
@@ -114,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5a391f53de997bbd",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.814,
+      "freshness": 0.712,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -125,14 +125,45 @@ window.MAGEN_STATE = {
         "short": 0.88,
         "extended": 0.56
       },
-      "source": "batonrougepost.com",
-      "url": "http://www.batonrougepost.com/news/279240951/israel-shocked-by-pace-of-irans-military-recovery-media",
-      "published_at": "2026-08-14T09:30:00Z",
+      "source": "middleeaststar.com",
+      "url": "http://www.middleeaststar.com/news/279240951/israel-shocked-by-pace-of-irans-military-recovery-media",
+      "published_at": "2026-08-14T10:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 20.1,
-        "short": 15.6,
-        "extended": 6.6
+        "immediate": 17.5,
+        "short": 13.7,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "84e87b6bd7c80b80",
+      "name": "The Xinjiang Connection : CCP Providing Shoulder - Fired Missiles to Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "84e87b6bd7c80b80",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.712,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theepochtimes.com",
+      "url": "https://www.theepochtimes.com/opinion/the-xinjiang-connection-ccp-providing-shoulder-fired-missiles-to-iran-6073521",
+      "published_at": "2026-08-14T10:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "86fae9b5103a0836",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.814,
+      "freshness": 0.617,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.2,
-        "extended": 10.6
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4f5abdc0c165e225",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.874,
+      "freshness": 0.663,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +223,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.7,
-        "extended": 9.7
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "76480709c48b827c",
+      "name": "US says lower oil prices , not Iran nuclear program , are now top priority in war",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "76480709c48b827c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.712,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "naharnet.com:443",
+      "url": "https://www.naharnet.com:443/stories/en/321839-us-says-lower-oil-prices-not-iran-s-nuclear-program-are-now-top-priority-in-war",
+      "published_at": "2026-08-14T10:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
       }
     },
     {
@@ -207,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ced127aa492a2111",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.814,
+      "freshness": 0.617,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,22 +285,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.3,
-        "extended": 9.0
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
       }
     },
     {
-      "id": "5ddadc08b4684e3b",
-      "name": "UAE denounces Iranian attack on ADNOC vessels in Strait of Hormuz as  act of piracy",
+      "id": "52df1bb90dab3ac0",
+      "name": "UAE says Iran attacked two ADNOC vessels in Hormuz strait",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "5ddadc08b4684e3b",
+      "dependency_group": "52df1bb90dab3ac0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.874,
+      "freshness": 0.712,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -249,14 +311,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "aninews.in",
-      "url": "https://aninews.in/news/world/middle-east/uae-denounces-iranian-attack-on-adnoc-vessels-in-strait-of-hormuz-as-act-of-piracy20260814130039/",
-      "published_at": "2026-08-14T09:45:00Z",
+      "source": "naharnet.com:443",
+      "url": "https://www.naharnet.com:443/stories/en/321838-uae-says-iran-attacked-two-adnoc-vessels-in-hormuz-strait",
+      "published_at": "2026-08-14T10:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
       }
     },
     {
@@ -269,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "06f6ff8b7bdba38f",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.705,
+      "freshness": 0.535,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,22 +347,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.3
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
       }
     },
     {
-      "id": "06b9600af476e316",
-      "name": "US says lower oil prices , not Iran nuclear program , are now top priority in war – The Frontier Post",
+      "id": "5ddadc08b4684e3b",
+      "name": "UAE denounces Iranian attack on ADNOC vessels in Strait of Hormuz as  act of piracy",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "06b9600af476e316",
+      "dependency_group": "5ddadc08b4684e3b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.814,
+      "freshness": 0.663,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -311,14 +373,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "thefrontierpost.com",
-      "url": "https://thefrontierpost.com/us-says-lower-oil-prices-not-irans-nuclear-program-are-now-top-priority-in-war/",
-      "published_at": "2026-08-14T09:30:00Z",
+      "source": "aninews.in",
+      "url": "https://aninews.in/news/world/middle-east/uae-denounces-iranian-attack-on-adnoc-vessels-in-strait-of-hormuz-as-act-of-piracy20260814130039/",
+      "published_at": "2026-08-14T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       }
     },
     {
@@ -331,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "657d627ab803a8e6",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.705,
+      "freshness": 0.535,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,9 +409,71 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.3
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "43ee899760a13be2",
+      "name": "Vance : Confrontation will end with Tehran having no nuclear weapons",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "43ee899760a13be2",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.535,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "clevelandjewishnews.com",
+      "url": "https://www.clevelandjewishnews.com/jns/vance-confrontation-will-end-with-tehran-having-no-nuclear-weapons/article_a94a7215-21f1-5e0c-bee3-ba342fd5360b.html",
+      "published_at": "2026-08-14T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
+    },
+    {
+      "id": "3c6fa1927cf95175",
+      "name": "US threatens Iran with sweeping economic isolation amid Hormuz tensions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3c6fa1927cf95175",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.374,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hurriyetdailynews.com",
+      "url": "https://www.hurriyetdailynews.com/us-threatens-iran-with-sweeping-economic-isolation-amid-hormuz-tensions-225603",
+      "published_at": "2026-08-14T07:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
@@ -362,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "084ed4a66af8224b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.459,
+      "freshness": 0.349,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,9 +502,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       }
     },
     {
@@ -393,7 +517,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f0a6042b3bb32061",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.459,
+      "freshness": 0.349,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,9 +533,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       }
     }
   ],
@@ -2431,17 +2555,23 @@ window.MAGEN_STATE = {
       "immediate": 34,
       "short": 34,
       "extended": 33
+    },
+    {
+      "timestamp": "2026-08-14T11:11:18.587725Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 28
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-14T10:13:20.725936Z",
+    "last_success": "2026-08-14T11:11:18.587725Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 11
+        "relevant": 15
       },
       "manual": {
         "ok": true,
