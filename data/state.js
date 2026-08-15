@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-14T23:57:29.633632Z",
+  "generated_at": "2026-08-15T01:45:06.341202Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,24 +9,24 @@ window.MAGEN_STATE = {
       "score": 4,
       "low": 0,
       "high": 17,
-      "confidence": 65,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
-      "low": 0,
-      "high": 25,
-      "confidence": 65,
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 68,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 6,
-      "high": 32,
-      "confidence": 65,
-      "status": "נמוך"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
@@ -36,43 +36,136 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": 0
   },
   "changes": [
     {
+      "time": "04:30",
+      "text": "Hormuz slows as US threatens economic pressure on Iran",
+      "impact": "השפעה מיידית מחושבת: +1.8",
+      "direction": "up",
+      "source": "goulburnpost.com.au",
+      "signal_id": "75e7facde3fdfed1"
+    },
+    {
+      "time": "04:00",
+      "text": "Iran neither intimidated by threats nor cowed by displays of power : Deputy FM",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "presstv.co.uk",
+      "signal_id": "1e47676b34786d4c"
+    },
+    {
+      "time": "03:30",
+      "text": "We will not allow Iran march toward a nuclear weapon Vance",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "vanguardngr.com",
+      "signal_id": "5b6560f58c7719ae"
+    },
+    {
       "time": "02:30",
       "text": "The Strait will remain Iranian : Iran unfazed by Trump threat to claim Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "israelnationalnews.com",
       "signal_id": "2bc6f02702716c3a"
-    },
-    {
-      "time": "01:00",
-      "text": "US threatens indefinite blockade on Iran : Update",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "argusmedia.com",
-      "signal_id": "fcc27debf3cee856"
-    },
-    {
-      "time": "23:45",
-      "text": "US Lost 25 % Of Its Reaper Drones In Iran War , Officials Estimate",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "zerohedge.com",
-      "signal_id": "96f6cd23966ab03f"
-    },
-    {
-      "time": "00:15",
-      "text": "UAE Blames Iran For Tanker Strikes In Strait Of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "theuknews.com",
-      "signal_id": "d1cd65fb6f5da1a3"
     }
   ],
   "signals": [
+    {
+      "id": "75e7facde3fdfed1",
+      "name": "Hormuz slows as US threatens economic pressure on Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "75e7facde3fdfed1",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.931,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "goulburnpost.com.au",
+      "url": "https://www.goulburnpost.com.au/story/9330792/hormuz-slows-as-us-threatens-economic-pressure-on-iran/",
+      "published_at": "2026-08-15T01:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.1,
+        "extended": 10.3
+      }
+    },
+    {
+      "id": "1e47676b34786d4c",
+      "name": "Iran neither intimidated by threats nor cowed by displays of power : Deputy FM",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1e47676b34786d4c",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.807,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/08/14/774365/Iran-Trump-Hormuz-threats-military-power",
+      "published_at": "2026-08-15T01:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.3,
+        "extended": 8.9
+      }
+    },
+    {
+      "id": "5b6560f58c7719ae",
+      "name": "We will not allow Iran march toward a nuclear weapon Vance",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5b6560f58c7719ae",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.699,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "vanguardngr.com",
+      "url": "https://www.vanguardngr.com/2026/08/we-will-not-allow-iran-march-toward-a-nuclear-weapon-vance/",
+      "published_at": "2026-08-15T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.9
+      }
+    },
     {
       "id": "2bc6f02702716c3a",
       "name": "The Strait will remain Iranian : Iran unfazed by Trump threat to claim Hormuz",
@@ -83,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2bc6f02702716c3a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.877,
+      "freshness": 0.526,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T23:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.7,
-        "extended": 9.7
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
       }
     },
     {
@@ -114,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fcc27debf3cee856",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.571,
+      "freshness": 0.342,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,133 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-14T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
-    },
-    {
-      "id": "96f6cd23966ab03f",
-      "name": "US Lost 25 % Of Its Reaper Drones In Iran War , Officials Estimate",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "96f6cd23966ab03f",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.4,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "zerohedge.com",
-      "url": "https://www.zerohedge.com/geopolitical/us-lost-25-its-reaper-drones-iran-war-officials-estimate",
-      "published_at": "2026-08-14T20:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "d1cd65fb6f5da1a3",
-      "name": "UAE Blames Iran For Tanker Strikes In Strait Of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d1cd65fb6f5da1a3",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.461,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theuknews.com",
-      "url": "http://www.theuknews.com/news/279241756/uae-blames-iran-for-tanker-strikes-in-strait-of-hormuz",
-      "published_at": "2026-08-14T21:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "5b9c1ad975b0bdc1",
-      "name": "WP : Armata SUA a pierdut un sfert din flota de drone Reaper în războiul cu Iranul . O singură dronă costă 50 milioane de dolari",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5b9c1ad975b0bdc1",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.4,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "antena3.ro",
-      "url": "https://www.antena3.ro/externe/wp-armata-sua-a-pierdut-un-sfert-din-flota-de-drone-reaper-in-razboiul-cu-iranul-o-singura-drona-costa-50-milioane-de-dolari-799550.html",
-      "published_at": "2026-08-14T20:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "12915e486985318f",
-      "name": "Benjamin Netanyahu numește Marea Britanie  prima republică islamică cu arme nucleare  și spune că va împiedica Iranul să devină a doua",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "12915e486985318f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.429,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "antena3.ro",
-      "url": "https://www.antena3.ro/externe/benjamin-netanyahu-numeste-marea-britanie-prima-republica-islamica-cu-arme-nucleare-si-spune-ca-va-impiedica-iranul-sa-devina-a-doua-799554.html",
-      "published_at": "2026-08-14T21:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "short": 2.2,
+        "extended": 3.8
       }
     }
   ],
@@ -2384,17 +2353,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-15T01:45:06.341202Z",
+      "immediate": 4,
+      "short": 15,
+      "extended": 24
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-14T23:57:29.633632Z",
+    "last_success": "2026-08-15T01:45:06.341202Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 6
+        "relevant": 5
       },
       "manual": {
         "ok": true,
