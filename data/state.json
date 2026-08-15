@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-15T06:17:17.301878Z",
+  "generated_at": "2026-08-15T07:04:24.977838Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@
       "score": 2,
       "low": 0,
       "high": 20,
-      "confidence": 40,
+      "confidence": 37,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 6,
       "low": 0,
-      "high": 25,
-      "confidence": 40,
+      "high": 24,
+      "confidence": 37,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 12,
+      "score": 10,
       "low": 0,
-      "high": 30,
-      "confidence": 40,
+      "high": 28,
+      "confidence": 37,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@
     {
       "time": "07:15",
       "text": "Strait of Hormuz grinds to a halt as US threatens Iran",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "sbs.com.au",
       "signal_id": "7daa71e291af69dc"
@@ -50,7 +50,7 @@
     {
       "time": "07:15",
       "text": "Hormuz slows as US threatens economic pressure on Iran",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "centralwesterndaily.com.au",
       "signal_id": "75e7facde3fdfed1"
@@ -67,7 +67,7 @@
       "dependency_group": "7daa71e291af69dc",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.559,
+      "freshness": 0.446,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -83,9 +83,9 @@
       "published_at": "2026-08-15T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
       },
       "carried_forward": true
     },
@@ -99,7 +99,7 @@
       "dependency_group": "75e7facde3fdfed1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.559,
+      "freshness": 0.446,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -115,9 +115,9 @@
       "published_at": "2026-08-15T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
       },
       "carried_forward": true
     }
@@ -2294,6 +2294,12 @@
       "immediate": 2,
       "short": 7,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-08-15T07:04:24.977838Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 10
     }
   ],
   "health": {
