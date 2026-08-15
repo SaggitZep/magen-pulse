@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-15T21:57:44.749990Z",
+  "generated_at": "2026-08-15T22:32:44.233717Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 11,
+      "score": 3,
       "low": 0,
-      "high": 24,
-      "confidence": 64,
-      "status": "נמוך"
+      "high": 17,
+      "confidence": 61,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 17,
-      "low": 4,
-      "high": 30,
-      "confidence": 64,
+      "score": 10,
+      "low": 0,
+      "high": 24,
+      "confidence": 61,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 64,
+      "score": 17,
+      "low": 3,
+      "high": 31,
+      "confidence": 61,
       "status": "נמוך"
     }
   },
@@ -35,22 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "ירידה",
+    "points_60m": -8
   },
   "changes": [
     {
-      "time": "21:00",
-      "text": "Iran Qalibaf says US talks suspended after Israeli strike in Beirut",
-      "impact": "השפעה מיידית מחושבת: +7.9",
-      "direction": "up",
-      "source": "dunyanews.tv",
-      "signal_id": "1ad78d61a874942d"
-    },
-    {
       "time": "00:30",
       "text": "Iran claims Qatar holding pilots as UAE says ship attacked in Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "redditchadvertiser.co.uk",
       "signal_id": "c1248689ad113787"
@@ -58,52 +50,29 @@ window.MAGEN_STATE = {
     {
       "time": "23:00",
       "text": "Iran says full security in Hormuz contingent on end to US blockade , threats",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "e086df18bf1ef3f6"
     },
     {
+      "time": "23:15",
+      "text": "Iran Says It Reached Oman Deal on Strait Shipping Routes",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "pakistantoday.com.pk",
+      "signal_id": "59ba4c8a6c3ea71d"
+    },
+    {
       "time": "23:00",
       "text": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "postregister.com",
       "signal_id": "a1bc59252ef59afa"
     }
   ],
   "signals": [
-    {
-      "id": "1ad78d61a874942d",
-      "name": "Iran Qalibaf says US talks suspended after Israeli strike in Beirut",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1ad78d61a874942d",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.322,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "dunyanews.tv",
-      "url": "https://dunyanews.tv/en/World/968076-irans-qalibaf-says-us-talks-suspended-after-israeli-strike-in-beirut",
-      "published_at": "2026-08-15T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 7.9,
-        "short": 6.2,
-        "extended": 2.6
-      }
-    },
     {
       "id": "c1248689ad113787",
       "name": "Iran claims Qatar holding pilots as UAE says ship attacked in Strait of Hormuz",
@@ -114,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c1248689ad113787",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.876,
+      "freshness": 0.742,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
       }
     },
     {
@@ -145,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e086df18bf1ef3f6",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.571,
+      "freshness": 0.483,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,40 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
-    },
-    {
-      "id": "a1bc59252ef59afa",
-      "name": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a1bc59252ef59afa",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.571,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "postregister.com",
-      "url": "http://www.postregister.com/news/national/iran-claims-qatar-is-holding-pilots-israeli-strikes-kill-11-in-lebanon-and-other-middle/article_86b9689f-ad24-5242-8019-cd21ec98ca19.html",
-      "published_at": "2026-08-15T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.4
       }
     },
     {
@@ -207,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "59ba4c8a6c3ea71d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.613,
+      "freshness": 0.519,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +161,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "a1bc59252ef59afa",
+      "name": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a1bc59252ef59afa",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.483,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "postregister.com",
+      "url": "http://www.postregister.com/news/national/iran-claims-qatar-is-holding-pilots-israeli-strikes-kill-11-in-lebanon-and-other-middle/article_86b9689f-ad24-5242-8019-cd21ec98ca19.html",
+      "published_at": "2026-08-15T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     },
     {
@@ -238,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "08515a51a016ded7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.571,
+      "freshness": 0.483,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,164 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
-    },
-    {
-      "id": "e211ec0df89f35d5",
-      "name": "Iran fires back at Trump threat to declare Hormuz a U . S . territory",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e211ec0df89f35d5",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.372,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/defence/iran-fires-back-at-trumps-threat-to-declare-hormuz-a-u-s-territory/articleshow/133266564.cms",
-      "published_at": "2026-08-15T18:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "48b908aa8f06cf40",
-      "name": "Iran says Qatar holding pilots , vessel is attacked in Hormuz , Israeli strikes kill 11 in Lebanon",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "48b908aa8f06cf40",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.346,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wsbradio.com",
-      "url": "https://www.wsbradio.com/news/vessel-is-attacked/BX4C2W7EOA4DLPMNMWUYPNF64M/",
-      "published_at": "2026-08-15T18:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
-    },
-    {
-      "id": "1268d1e1da4dd137",
-      "name": "Middle East news : Iran says Qatar is holding pilots , Israeli strikes kill 9 in Lebanon | Politics and Government",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1268d1e1da4dd137",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.346,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "reviewjournal.com",
-      "url": "https://www.reviewjournal.com/news/politics-and-government/iran-says-qatar-is-holding-pilots-israeli-strikes-kill-9-in-lebanon-3864542/",
-      "published_at": "2026-08-15T18:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
-    },
-    {
-      "id": "0335ab35730b548e",
-      "name": "Hormuz ship attacks mount as US vows to cripple Iran economy",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0335ab35730b548e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.372,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/defence/hormuz-ship-attacks-mount-as-us-vows-to-cripple-iran-economy/articleshow/133266552.cms",
-      "published_at": "2026-08-15T18:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    },
-    {
-      "id": "4fa13fa9c1bb2f6e",
-      "name": "Iran , Oman home in on Hormuz Strait deal as ship attacks mount",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4fa13fa9c1bb2f6e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.322,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/defence/iran-oman-home-in-on-hormuz-strait-deal-as-ship-attacks-mount/articleshow/133265965.cms",
-      "published_at": "2026-08-15T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     }
   ],
@@ -2779,17 +2593,23 @@ window.MAGEN_STATE = {
       "immediate": 11,
       "short": 17,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-15T22:32:44.233717Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-15T21:57:44.749990Z",
+    "last_success": "2026-08-15T22:32:44.233717Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 11
+        "relevant": 5
       },
       "manual": {
         "ok": true,
