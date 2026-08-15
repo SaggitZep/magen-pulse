@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-15T15:53:44.221514Z",
+  "generated_at": "2026-08-15T16:24:22.795703Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 19,
-      "low": 3,
-      "high": 35,
-      "confidence": 50,
+      "score": 16,
+      "low": 0,
+      "high": 32,
+      "confidence": 49,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 21,
-      "low": 5,
-      "high": 37,
-      "confidence": 49,
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 48,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 4,
-      "high": 36,
-      "confidence": 49,
+      "score": 18,
+      "low": 1,
+      "high": 35,
+      "confidence": 47,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -2
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "17:30",
       "text": "US - Iran Talks in limbo after Israeli Strike kills Hezbollah Intelligence Chief",
-      "impact": "השפעה מיידית מחושבת: +16.5",
+      "impact": "השפעה מיידית מחושבת: +14.3",
       "direction": "up",
       "source": "pakobserver.net",
       "signal_id": "0171d083057e45ba"
@@ -50,7 +50,7 @@
     {
       "time": "17:30",
       "text": "IRGC downs US - made MQ - 9 drone over Iran Hormozgan province - Islamic Invitation Turkey",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "islamicinvitationturkey.com",
       "signal_id": "9b4aaa6fa7db6d17"
@@ -58,7 +58,7 @@
     {
       "time": "16:15",
       "text": "IRGC chief : Iran brought world most heavily armed military to its knees",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "10741be42739e579"
@@ -83,7 +83,7 @@
       "dependency_group": "0171d083057e45ba",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.671,
+      "freshness": 0.58,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-15T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 16.5,
-        "short": 12.9,
-        "extended": 5.5
+        "immediate": 14.3,
+        "short": 11.1,
+        "extended": 4.7
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "9b4aaa6fa7db6d17",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.671,
+      "freshness": 0.58,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-15T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 7.9
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.9
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "10741be42739e579",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.47,
+      "freshness": 0.406,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-15T13:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "dd8a441d908fd85e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.379,
+      "freshness": 0.328,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -196,8 +196,8 @@
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "ffc0642bb1a27e44",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.285,
+      "freshness": 0.246,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-15T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "0335ab35730b548e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.265,
+      "freshness": 0.229,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-08-15T11:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.3
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "14ea343ff561e972",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.285,
+      "freshness": 0.246,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@
       "published_at": "2026-08-15T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     }
@@ -2584,6 +2584,12 @@
       "immediate": 19,
       "short": 21,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-15T16:24:22.795703Z",
+      "immediate": 16,
+      "short": 18,
+      "extended": 18
     }
   ],
   "health": {
