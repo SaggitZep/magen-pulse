@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-15T15:32:31.247233Z",
+  "generated_at": "2026-08-15T15:53:44.221514Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 21,
-      "low": 5,
-      "high": 37,
-      "confidence": 51,
+      "score": 19,
+      "low": 3,
+      "high": 35,
+      "confidence": 50,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 23,
-      "low": 7,
-      "high": 39,
-      "confidence": 50,
-      "status": "מוגבר"
+      "score": 21,
+      "low": 5,
+      "high": 37,
+      "confidence": 49,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 6,
-      "high": 38,
-      "confidence": 50,
-      "status": "מוגבר"
+      "score": 20,
+      "low": 4,
+      "high": 36,
+      "confidence": 49,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -3
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "17:30",
       "text": "US - Iran Talks in limbo after Israeli Strike kills Hezbollah Intelligence Chief",
-      "impact": "השפעה מיידית מחושבת: +18.3",
+      "impact": "השפעה מיידית מחושבת: +16.5",
       "direction": "up",
       "source": "pakobserver.net",
       "signal_id": "0171d083057e45ba"
@@ -50,7 +50,7 @@
     {
       "time": "17:30",
       "text": "IRGC downs US - made MQ - 9 drone over Iran Hormozgan province - Islamic Invitation Turkey",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "islamicinvitationturkey.com",
       "signal_id": "9b4aaa6fa7db6d17"
@@ -58,7 +58,7 @@
     {
       "time": "16:15",
       "text": "IRGC chief : Iran brought world most heavily armed military to its knees",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "10741be42739e579"
@@ -66,7 +66,7 @@
     {
       "time": "15:30",
       "text": "Iran attacked state oil company vessel in Hormuz strait , says UAE",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "vanguardngr.com",
       "signal_id": "dd8a441d908fd85e"
@@ -83,7 +83,7 @@
       "dependency_group": "0171d083057e45ba",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.743,
+      "freshness": 0.671,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-15T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 18.3,
-        "short": 14.3,
-        "extended": 6.1
+        "immediate": 16.5,
+        "short": 12.9,
+        "extended": 5.5
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "9b4aaa6fa7db6d17",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.743,
+      "freshness": 0.671,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-15T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 7.9
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "10741be42739e579",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.52,
+      "freshness": 0.47,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-15T13:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "dd8a441d908fd85e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.419,
+      "freshness": 0.379,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-15T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "ffc0642bb1a27e44",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.315,
+      "freshness": 0.285,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -228,8 +228,8 @@
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "0335ab35730b548e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.293,
+      "freshness": 0.265,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -260,8 +260,8 @@
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "14ea343ff561e972",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.315,
+      "freshness": 0.285,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -292,8 +292,8 @@
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     }
@@ -2578,6 +2578,12 @@
       "immediate": 21,
       "short": 23,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-15T15:53:44.221514Z",
+      "immediate": 19,
+      "short": 21,
+      "extended": 20
     }
   ],
   "health": {
