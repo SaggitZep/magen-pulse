@@ -1,64 +1,64 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-15T19:50:41.251245Z",
+  "mode": "live",
+  "generated_at": "2026-08-15T20:13:55.386889Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 52,
+      "score": 16,
+      "low": 3,
+      "high": 29,
+      "confidence": 66,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 22,
-      "low": 6,
-      "high": 38,
-      "confidence": 52,
+      "score": 20,
+      "low": 7,
+      "high": 33,
+      "confidence": 66,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 23,
-      "low": 7,
-      "high": 39,
-      "confidence": 52,
-      "status": "מוגבר"
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 66,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "ירידה",
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "21:00",
       "text": "Iran Qalibaf says US talks suspended after Israeli strike in Beirut",
-      "impact": "השפעה מיידית מחושבת: +14.5",
+      "impact": "השפעה מיידית מחושבת: +13.0",
       "direction": "up",
       "source": "dunyanews.tv",
       "signal_id": "1ad78d61a874942d"
     },
     {
-      "time": "22:00",
+      "time": "22:15",
       "text": "Iran claims Qatar holding pilots as UAE says ship attacked in Strait of Hormuz",
       "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "bucksfreepress.co.uk",
+      "source": "ipswichstar.co.uk",
       "signal_id": "c1248689ad113787"
     },
     {
       "time": "21:45",
       "text": "Iran says Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "news-gazette.com",
       "signal_id": "79a27da92c3b3a56"
@@ -66,7 +66,7 @@
     {
       "time": "21:15",
       "text": "Iran says Qatar holding pilots , vessel is attacked in Hormuz , Israeli strikes kill 11 in Lebanon",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "wsbradio.com",
       "signal_id": "48b908aa8f06cf40"
@@ -83,7 +83,7 @@
       "dependency_group": "1ad78d61a874942d",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.59,
+      "freshness": 0.528,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,11 +99,10 @@
       "published_at": "2026-08-15T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 14.5,
-        "short": 11.3,
-        "extended": 4.8
-      },
-      "carried_forward": true
+        "immediate": 13.0,
+        "short": 10.1,
+        "extended": 4.3
+      }
     },
     {
       "id": "c1248689ad113787",
@@ -115,7 +114,7 @@
       "dependency_group": "c1248689ad113787",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.786,
+      "freshness": 0.755,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,16 +125,15 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "bucksfreepress.co.uk",
-      "url": "https://www.bucksfreepress.co.uk/news/national/26467922.iran-claims-qatar-holding-pilots-uae-says-ship-attacked-strait-hormuz/",
-      "published_at": "2026-08-15T19:00:00Z",
+      "source": "ipswichstar.co.uk",
+      "url": "https://www.ipswichstar.co.uk/news/national/26467922.iran-claims-qatar-holding-pilots-uae-says-ship-attacked-strait-hormuz/",
+      "published_at": "2026-08-15T19:15:00Z",
       "active": true,
       "computed": {
         "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      },
-      "carried_forward": true
+        "short": 4.4,
+        "extended": 7.4
+      }
     },
     {
       "id": "79a27da92c3b3a56",
@@ -147,7 +145,7 @@
       "dependency_group": "79a27da92c3b3a56",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.731,
+      "freshness": 0.655,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +161,10 @@
       "published_at": "2026-08-15T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
-      },
-      "carried_forward": true
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      }
     },
     {
       "id": "48b908aa8f06cf40",
@@ -179,7 +176,7 @@
       "dependency_group": "48b908aa8f06cf40",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.634,
+      "freshness": 0.568,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +192,10 @@
       "published_at": "2026-08-15T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
     },
     {
       "id": "1268d1e1da4dd137",
@@ -211,7 +207,7 @@
       "dependency_group": "1268d1e1da4dd137",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.634,
+      "freshness": 0.568,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,43 +223,10 @@
       "published_at": "2026-08-15T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e211ec0df89f35d5",
-      "name": "Iran fires back at Trump threat to declare Hormuz a U . S . territory",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e211ec0df89f35d5",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.55,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thehindu.com",
-      "url": "https://www.thehindu.com/news/international/iran-fires-back-at-trumps-threat-to-declare-hormuz-a-us-territory/article71350593.ece",
-      "published_at": "2026-08-15T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
     },
     {
       "id": "4fa13fa9c1bb2f6e",
@@ -275,7 +238,7 @@
       "dependency_group": "4fa13fa9c1bb2f6e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.59,
+      "freshness": 0.528,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,11 +254,41 @@
       "published_at": "2026-08-15T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      }
+    },
+    {
+      "id": "e211ec0df89f35d5",
+      "name": "Iran fires back at Trump threat to declare Hormuz a U . S . territory",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e211ec0df89f35d5",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.492,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thehindu.com",
+      "url": "https://www.thehindu.com/news/international/iran-fires-back-at-trumps-threat-to-declare-hormuz-a-us-territory/article71350593.ece",
+      "published_at": "2026-08-15T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
     },
     {
       "id": "527ed8c63bd447fc",
@@ -307,7 +300,7 @@
       "dependency_group": "527ed8c63bd447fc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.444,
+      "freshness": 0.397,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,43 +316,10 @@
       "published_at": "2026-08-15T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7482c6e4b8c8fbfc",
-      "name": "Iran says agreement reached with Oman on Strait of Hormuz shipping routes",
-      "finding": "דיווח המצביע על רגיעה, הכחשה או הפחתת הסלמה.",
-      "category": "regional_escalation",
-      "direction": "down",
-      "evidence_type": "deescalation",
-      "dependency_group": "7482c6e4b8c8fbfc",
-      "strength": 0.54,
-      "reliability": 0.56,
-      "freshness": 0.333,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/world/iran-says-agreement-reached-with-oman-on-strait-of-hormuz-shipping-routes/4028346",
-      "published_at": "2026-08-15T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": -0.8,
-        "short": -2.6,
-        "extended": -4.4
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
     },
     {
       "id": "2901037ff64f1794",
@@ -371,7 +331,7 @@
       "dependency_group": "2901037ff64f1794",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.385,
+      "freshness": 0.344,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -387,75 +347,10 @@
       "published_at": "2026-08-15T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a75da9d9377aed33",
-      "name": "ADNOC vessel attacked in Hormuz , UAE urges Iran to halt attacks , reopen Strait",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a75da9d9377aed33",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.289,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "http://www.jpost.com/middle-east/article-905582",
-      "published_at": "2026-08-15T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "161aa8a60612823c",
-      "name": "Iranian military pilots held in Qatari captivity after capture six months ago",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "161aa8a60612823c",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.289,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "http://www.jpost.com/middle-east/iran-news/article-905579",
-      "published_at": "2026-08-15T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
     }
   ],
   "history": [
@@ -2792,17 +2687,23 @@
       "immediate": 18,
       "short": 22,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-08-15T20:13:55.386889Z",
+      "immediate": 16,
+      "short": 20,
+      "extended": 22
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-15T19:29:27.239361Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-15T20:13:55.386889Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 12
+        "ok": true,
+        "items": 150,
+        "relevant": 9
       },
       "manual": {
         "ok": true,
