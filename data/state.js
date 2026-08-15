@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-15T04:48:06.745519Z",
+  "generated_at": "2026-08-15T05:14:14.600707Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
       "high": 18,
-      "confidence": 61,
+      "confidence": 58,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 10,
       "low": 0,
-      "high": 27,
-      "confidence": 61,
+      "high": 25,
+      "confidence": 58,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 7,
-      "high": 35,
-      "confidence": 61,
+      "score": 16,
+      "low": 1,
+      "high": 31,
+      "confidence": 58,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "07:15",
       "text": "Strait of Hormuz grinds to a halt as US threatens Iran",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "sbs.com.au",
       "signal_id": "7daa71e291af69dc"
@@ -50,18 +50,10 @@ window.MAGEN_STATE = {
     {
       "time": "07:15",
       "text": "Hormuz slows as US threatens economic pressure on Iran",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "centralwesterndaily.com.au",
       "signal_id": "75e7facde3fdfed1"
-    },
-    {
-      "time": "04:00",
-      "text": "Iran neither intimidated by threats nor cowed by displays of power : Deputy FM",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "presstv.co.uk",
-      "signal_id": "1e47676b34786d4c"
     }
   ],
   "signals": [
@@ -75,7 +67,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7daa71e291af69dc",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.854,
+      "freshness": 0.754,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -91,9 +83,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.6,
-        "extended": 9.5
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.4
       }
     },
     {
@@ -106,7 +98,7 @@ window.MAGEN_STATE = {
       "dependency_group": "75e7facde3fdfed1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.854,
+      "freshness": 0.754,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -122,40 +114,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.6,
-        "extended": 9.5
-      }
-    },
-    {
-      "id": "1e47676b34786d4c",
-      "name": "Iran neither intimidated by threats nor cowed by displays of power : Deputy FM",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1e47676b34786d4c",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.337,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/08/14/774365/Iran-Trump-Hormuz-threats-military-power",
-      "published_at": "2026-08-15T01:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.4
       }
     }
   ],
@@ -2313,17 +2274,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-15T05:14:14.600707Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 16
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-15T04:48:06.745519Z",
+    "last_success": "2026-08-15T05:14:14.600707Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 3
+        "relevant": 2
       },
       "manual": {
         "ok": true,
