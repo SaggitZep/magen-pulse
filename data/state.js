@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-15T05:14:14.600707Z",
+  "generated_at": "2026-08-15T05:47:08.034722Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
-      "high": 18,
-      "confidence": 58,
+      "high": 17,
+      "confidence": 56,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 8,
       "low": 0,
-      "high": 25,
-      "confidence": 58,
+      "high": 23,
+      "confidence": 56,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
-      "low": 1,
-      "high": 31,
-      "confidence": 58,
+      "score": 14,
+      "low": 0,
+      "high": 29,
+      "confidence": 56,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:15",
       "text": "Strait of Hormuz grinds to a halt as US threatens Iran",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "sbs.com.au",
       "signal_id": "7daa71e291af69dc"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:15",
       "text": "Hormuz slows as US threatens economic pressure on Iran",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "centralwesterndaily.com.au",
       "signal_id": "75e7facde3fdfed1"
@@ -67,7 +67,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7daa71e291af69dc",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.754,
+      "freshness": 0.645,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -83,9 +83,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.4
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
       }
     },
     {
@@ -98,7 +98,7 @@ window.MAGEN_STATE = {
       "dependency_group": "75e7facde3fdfed1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.754,
+      "freshness": 0.645,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -114,9 +114,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.4
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
       }
     }
   ],
@@ -2280,12 +2280,18 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-15T05:47:08.034722Z",
+      "immediate": 2,
+      "short": 8,
+      "extended": 14
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-15T05:14:14.600707Z",
+    "last_success": "2026-08-15T05:47:08.034722Z",
     "sources": {
       "gdelt": {
         "ok": true,
