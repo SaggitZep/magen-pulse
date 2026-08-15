@@ -1,48 +1,56 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-15T07:04:24.977838Z",
+  "mode": "live",
+  "generated_at": "2026-08-15T07:44:49.388569Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 3,
       "low": 0,
-      "high": 20,
-      "confidence": 37,
+      "high": 18,
+      "confidence": 57,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
+      "score": 10,
       "low": 0,
-      "high": 24,
-      "confidence": 37,
-      "status": "לא זוהה אות חריג"
+      "high": 25,
+      "confidence": 57,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 10,
-      "low": 0,
-      "high": 28,
-      "confidence": 37,
+      "score": 16,
+      "low": 1,
+      "high": 31,
+      "confidence": 57,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": 1
   },
   "changes": [
     {
+      "time": "10:15",
+      "text": "US wont allow Iran develop nuclear weapon - Vance",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "dailypost.ng",
+      "signal_id": "cd76b3e0f14378d8"
+    },
+    {
       "time": "07:15",
       "text": "Strait of Hormuz grinds to a halt as US threatens Iran",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "sbs.com.au",
       "signal_id": "7daa71e291af69dc"
@@ -50,13 +58,44 @@
     {
       "time": "07:15",
       "text": "Hormuz slows as US threatens economic pressure on Iran",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "centralwesterndaily.com.au",
       "signal_id": "75e7facde3fdfed1"
     }
   ],
   "signals": [
+    {
+      "id": "cd76b3e0f14378d8",
+      "name": "US wont allow Iran develop nuclear weapon - Vance",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cd76b3e0f14378d8",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.868,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailypost.ng",
+      "url": "https://dailypost.ng/2026/08/15/us-wont-allow-iran-develop-nuclear-weapon-vance/",
+      "published_at": "2026-08-15T07:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
     {
       "id": "7daa71e291af69dc",
       "name": "Strait of Hormuz grinds to a halt as US threatens Iran",
@@ -67,7 +106,7 @@
       "dependency_group": "7daa71e291af69dc",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.446,
+      "freshness": 0.368,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -83,11 +122,10 @@
       "published_at": "2026-08-15T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 4.9
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     },
     {
       "id": "75e7facde3fdfed1",
@@ -99,7 +137,7 @@
       "dependency_group": "75e7facde3fdfed1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.446,
+      "freshness": 0.368,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -115,11 +153,10 @@
       "published_at": "2026-08-15T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 4.9
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     }
   ],
   "history": [
@@ -2300,17 +2337,23 @@
       "immediate": 2,
       "short": 6,
       "extended": 10
+    },
+    {
+      "timestamp": "2026-08-15T07:44:49.388569Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 16
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-15T05:47:08.034722Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-15T07:44:49.388569Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 2
+        "ok": true,
+        "items": 150,
+        "relevant": 3
       },
       "manual": {
         "ok": true,
