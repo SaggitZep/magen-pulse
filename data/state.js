@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-15T09:13:51.966330Z",
+  "generated_at": "2026-08-15T09:46:40.693165Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -22,9 +22,9 @@ window.MAGEN_STATE = {
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 7,
-      "high": 35,
+      "score": 22,
+      "low": 8,
+      "high": 36,
       "confidence": 61,
       "status": "נמוך"
     }
@@ -36,21 +36,21 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": 0
   },
   "changes": [
     {
-      "time": "11:30",
+      "time": "12:00",
       "text": "Iran fires back at Trump threat to declare Hormuz a US territory",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +2.0",
       "direction": "up",
-      "source": "vanguardngr.com",
+      "source": "al-monitor.com",
       "signal_id": "f07cc16897dd1e31"
     },
     {
       "time": "11:00",
       "text": "Iran says Hormuz  will remain Iranian  after Trump threats",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "hurriyetdailynews.com",
       "signal_id": "d1824221cd335b7b"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:15",
       "text": "US wont allow Iran develop nuclear weapon - Vance",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "dailypost.ng",
       "signal_id": "cd76b3e0f14378d8"
@@ -74,8 +74,8 @@ window.MAGEN_STATE = {
       "evidence_type": "report",
       "dependency_group": "f07cc16897dd1e31",
       "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.811,
+      "reliability": 0.74,
+      "freshness": 0.801,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -86,14 +86,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "vanguardngr.com",
-      "url": "https://www.vanguardngr.com/2026/08/iran-fires-back-at-trumps-threat-to-declare-hormuz-a-us-territory/",
-      "published_at": "2026-08-15T08:30:00Z",
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/08/iran-fires-back-trumps-threat-declare-hormuz-us-territory",
+      "published_at": "2026-08-15T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.3,
-        "extended": 9.0
+        "immediate": 2.0,
+        "short": 6.9,
+        "extended": 11.7
       }
     },
     {
@@ -106,7 +106,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d1824221cd335b7b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.703,
+      "freshness": 0.602,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -122,9 +122,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.6,
-        "extended": 7.8
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
       }
     },
     {
@@ -137,7 +137,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cd76b3e0f14378d8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.568,
+      "freshness": 0.486,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -153,9 +153,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     }
   ],
@@ -2361,12 +2361,18 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-15T09:46:40.693165Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 22
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-15T09:13:51.966330Z",
+    "last_success": "2026-08-15T09:46:40.693165Z",
     "sources": {
       "gdelt": {
         "ok": true,
