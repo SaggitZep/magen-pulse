@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-15T17:51:52.909810Z",
+  "generated_at": "2026-08-15T18:24:48.799466Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 27,
-      "low": 14,
-      "high": 40,
+      "score": 34,
+      "low": 21,
+      "high": 47,
       "confidence": 68,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 30,
-      "low": 17,
-      "high": 43,
+      "score": 34,
+      "low": 21,
+      "high": 47,
       "confidence": 68,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 28,
-      "low": 15,
-      "high": 41,
-      "confidence": 69,
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 68,
       "status": "מוגבר"
     }
   },
@@ -35,55 +35,55 @@
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -3
+    "level": "עלייה מהירה",
+    "points_60m": 7
   },
   "changes": [
     {
-      "time": "19:30",
-      "text": "US talks suspended after Israeli strike kills senior Hezbollah commander : Iran",
-      "impact": "השפעה מיידית מחושבת: +16.7",
+      "time": "21:00",
+      "text": "Iran Qalibaf says US talks suspended after Israeli strike in Beirut",
+      "impact": "השפעה מיידית מחושבת: +21.9",
       "direction": "up",
-      "source": "samaa.tv",
-      "signal_id": "d8146aa75a6112dc"
+      "source": "dunyanews.tv",
+      "signal_id": "1ad78d61a874942d"
+    },
+    {
+      "time": "20:30",
+      "text": "Iran says Qatar is holding pilots , Israeli strikes kill 11 i ...",
+      "impact": "השפעה מיידית מחושבת: +19.0",
+      "direction": "up",
+      "source": "semissourian.com",
+      "signal_id": "f50a80fe36edf4e0"
     },
     {
       "time": "17:30",
       "text": "US - Iran Talks in limbo after Israeli Strike kills Hezbollah Intelligence Chief",
-      "impact": "השפעה מיידית מחושבת: +9.4",
+      "impact": "השפעה מיידית מחושבת: +8.1",
       "direction": "up",
       "source": "pakobserver.net",
       "signal_id": "0171d083057e45ba"
     },
     {
-      "time": "20:30",
-      "text": "Iran claims Qatar holding pilots as UAE says ship attacked in Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "time": "20:45",
+      "text": "Iran fires back at Trump threat to declare Hormuz a U . S . territory",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "thisiswiltshire.co.uk",
-      "signal_id": "c1248689ad113787"
-    },
-    {
-      "time": "20:00",
-      "text": "Iran says Qatar is holding pilots , Israeli strikes kill 9 in Lebanon , and other Middle East news",
-      "impact": "השפעה מיידית מחושבת: +1.3",
-      "direction": "up",
-      "source": "abcnews.com",
-      "signal_id": "6933c2ee018fda71"
+      "source": "thehindu.com",
+      "signal_id": "e211ec0df89f35d5"
     }
   ],
   "signals": [
     {
-      "id": "d8146aa75a6112dc",
-      "name": "US talks suspended after Israeli strike kills senior Hezbollah commander : Iran",
+      "id": "1ad78d61a874942d",
+      "name": "Iran Qalibaf says US talks suspended after Israeli strike in Beirut",
       "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
       "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "d8146aa75a6112dc",
+      "dependency_group": "1ad78d61a874942d",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.677,
+      "freshness": 0.889,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -94,14 +94,45 @@
         "short": 0.88,
         "extended": 0.56
       },
-      "source": "samaa.tv",
-      "url": "https://www.samaa.tv/2087355244-us-talks-suspended-after-israeli-strike-kills-senior-hezbollah-commander-iran",
-      "published_at": "2026-08-15T16:30:00Z",
+      "source": "dunyanews.tv",
+      "url": "https://dunyanews.tv/en/World/968076-irans-qalibaf-says-us-talks-suspended-after-israeli-strike-in-beirut",
+      "published_at": "2026-08-15T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 16.7,
-        "short": 13.0,
-        "extended": 5.5
+        "immediate": 21.9,
+        "short": 17.1,
+        "extended": 7.2
+      }
+    },
+    {
+      "id": "f50a80fe36edf4e0",
+      "name": "Iran says Qatar is holding pilots , Israeli strikes kill 11 i ...",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f50a80fe36edf4e0",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.77,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "semissourian.com",
+      "url": "https://www.semissourian.com/world/vessel-is-attacked-in-hormuz-israeli-strike-kills-7-in-lebanon-and-other-news-from-the-middle-east-39cdd58f",
+      "published_at": "2026-08-15T17:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 19.0,
+        "short": 14.8,
+        "extended": 6.3
       }
     },
     {
@@ -114,7 +145,7 @@
       "dependency_group": "0171d083057e45ba",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.382,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -130,9 +161,40 @@
       "published_at": "2026-08-15T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 9.4,
-        "short": 7.3,
-        "extended": 3.1
+        "immediate": 8.1,
+        "short": 6.3,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "e211ec0df89f35d5",
+      "name": "Iran fires back at Trump threat to declare Hormuz a U . S . territory",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e211ec0df89f35d5",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.827,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thehindu.com",
+      "url": "https://www.thehindu.com/news/international/iran-fires-back-at-trumps-threat-to-declare-hormuz-a-us-territory/article71350593.ece",
+      "published_at": "2026-08-15T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
       }
     },
     {
@@ -145,7 +207,7 @@
       "dependency_group": "c1248689ad113787",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.901,
+      "freshness": 0.889,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -156,27 +218,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "thisiswiltshire.co.uk",
-      "url": "https://www.thisiswiltshire.co.uk/news/national/26467922.iran-claims-qatar-holding-pilots-uae-says-ship-attacked-strait-hormuz/",
-      "published_at": "2026-08-15T17:30:00Z",
+      "source": "glasgowtimes.co.uk",
+      "url": "https://www.glasgowtimes.co.uk/news/national/26467922.iran-claims-qatar-holding-pilots-uae-says-ship-attacked-strait-hormuz/",
+      "published_at": "2026-08-15T18:00:00Z",
       "active": true,
       "computed": {
         "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.9
+        "short": 5.1,
+        "extended": 8.8
       }
     },
     {
-      "id": "6933c2ee018fda71",
-      "name": "Iran says Qatar is holding pilots , Israeli strikes kill 9 in Lebanon , and other Middle East news",
+      "id": "4fa13fa9c1bb2f6e",
+      "name": "Iran , Oman home in on Hormuz Strait deal as ship attacks mount",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "6933c2ee018fda71",
+      "dependency_group": "4fa13fa9c1bb2f6e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.781,
+      "freshness": 0.889,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -187,45 +249,14 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "abcnews.com",
-      "url": "https://abcnews.com/Business/wireStory/iran-qatar-holding-pilots-israeli-strikes-kill-9-135667603",
-      "published_at": "2026-08-15T17:00:00Z",
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/defence/iran-oman-home-in-on-hormuz-strait-deal-as-ship-attacks-mount/articleshow/133265965.cms",
+      "published_at": "2026-08-15T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
-    },
-    {
-      "id": "527ed8c63bd447fc",
-      "name": "Iran , Oman edge closer to Hormuz shipping routes deal as war continues",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "527ed8c63bd447fc",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.781,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "business-standard.com",
-      "url": "https://www.business-standard.com/world-news/iran-oman-edge-closer-to-hormuz-shipping-routes-deal-as-war-continues-126081501311_1.html",
-      "published_at": "2026-08-15T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.8
       }
     },
     {
@@ -238,7 +269,7 @@
       "dependency_group": "7482c6e4b8c8fbfc",
       "strength": 0.54,
       "reliability": 0.56,
-      "freshness": 0.587,
+      "freshness": 0.502,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +285,71 @@
       "published_at": "2026-08-15T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": -1.3,
-        "short": -4.6,
-        "extended": -7.8
+        "immediate": -1.2,
+        "short": -3.9,
+        "extended": -6.7
+      }
+    },
+    {
+      "id": "6933c2ee018fda71",
+      "name": "Iran says Qatar is holding pilots , Israeli strikes kill 9 in Lebanon , and other Middle East news",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6933c2ee018fda71",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.668,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "abcnews.com",
+      "url": "https://abcnews.com/Business/wireStory/iran-qatar-holding-pilots-israeli-strikes-kill-9-135667603",
+      "published_at": "2026-08-15T17:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
+    },
+    {
+      "id": "527ed8c63bd447fc",
+      "name": "Iran , Oman edge closer to Hormuz shipping routes deal as war continues",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "527ed8c63bd447fc",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.668,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "business-standard.com",
+      "url": "https://www.business-standard.com/world-news/iran-oman-edge-closer-to-hormuz-shipping-routes-deal-as-war-continues-126081501311_1.html",
+      "published_at": "2026-08-15T17:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
       }
     },
     {
@@ -269,7 +362,7 @@
       "dependency_group": "2901037ff64f1794",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.677,
+      "freshness": 0.579,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,40 +378,9 @@
       "published_at": "2026-08-15T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
-    },
-    {
-      "id": "4fa13fa9c1bb2f6e",
-      "name": "Iran , Oman home in on Hormuz Strait deal as ship attacks mount",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4fa13fa9c1bb2f6e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.677,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/iran-oman-home-in-on-hormuz-strait-deal-as-ship-attacks-mount-article-14006499.html",
-      "published_at": "2026-08-15T16:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
       }
     },
     {
@@ -331,7 +393,7 @@
       "dependency_group": "a75da9d9377aed33",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.509,
+      "freshness": 0.435,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,9 +409,9 @@
       "published_at": "2026-08-15T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
       }
     },
     {
@@ -362,7 +424,7 @@
       "dependency_group": "161aa8a60612823c",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.509,
+      "freshness": 0.435,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,9 +440,9 @@
       "published_at": "2026-08-15T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
       }
     },
     {
@@ -393,7 +455,7 @@
       "dependency_group": "9b4aaa6fa7db6d17",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.382,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,9 +471,9 @@
       "published_at": "2026-08-15T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     },
     {
@@ -424,7 +486,7 @@
       "dependency_group": "396003b990814acb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.441,
+      "freshness": 0.377,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,9 +502,9 @@
       "published_at": "2026-08-15T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.3
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       }
     }
   ],
@@ -2756,17 +2818,23 @@
       "immediate": 27,
       "short": 30,
       "extended": 28
+    },
+    {
+      "timestamp": "2026-08-15T18:24:48.799466Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 34
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-15T17:51:52.909810Z",
+    "last_success": "2026-08-15T18:24:48.799466Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 12
+        "relevant": 14
       },
       "manual": {
         "ok": true,
