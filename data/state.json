@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-15T22:55:14.563704Z",
+  "generated_at": "2026-08-15T23:28:38.797764Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 4,
       "low": 0,
-      "high": 16,
-      "confidence": 66,
+      "high": 17,
+      "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 13,
       "low": 0,
-      "high": 24,
-      "confidence": 66,
+      "high": 26,
+      "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 6,
-      "high": 32,
-      "confidence": 66,
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 65,
       "status": "נמוך"
     }
   },
@@ -36,21 +36,29 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": 1
   },
   "changes": [
     {
-      "time": "01:30",
+      "time": "02:00",
+      "text": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "mankatofreepress.com",
+      "signal_id": "a1bc59252ef59afa"
+    },
+    {
+      "time": "02:00",
       "text": "Gross violations of international law : Iran condemns Israeli strikes on southern Lebanon",
       "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "aninews.in",
+      "source": "austinglobe.com",
       "signal_id": "b899517428c29780"
     },
     {
       "time": "00:30",
       "text": "Iran claims Qatar holding pilots as UAE says ship attacked in Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "redditchadvertiser.co.uk",
       "signal_id": "c1248689ad113787"
@@ -58,32 +66,24 @@
     {
       "time": "23:00",
       "text": "Iran says full security in Hormuz contingent on end to US blockade , threats",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "e086df18bf1ef3f6"
-    },
-    {
-      "time": "23:15",
-      "text": "Iran Says It Reached Oman Deal on Strait Shipping Routes",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "pakistantoday.com.pk",
-      "signal_id": "59ba4c8a6c3ea71d"
     }
   ],
   "signals": [
     {
-      "id": "b899517428c29780",
-      "name": "Gross violations of international law : Iran condemns Israeli strikes on southern Lebanon",
+      "id": "a1bc59252ef59afa",
+      "name": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "b899517428c29780",
+      "dependency_group": "a1bc59252ef59afa",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.887,
+      "freshness": 0.872,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,14 +94,45 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "aninews.in",
-      "url": "https://aninews.in/news/world/middle-east/gross-violations-of-international-law-iran-condemns-israeli-strikes-on-southern-lebanon20260816024605/",
-      "published_at": "2026-08-15T22:30:00Z",
+      "source": "mankatofreepress.com",
+      "url": "https://www.mankatofreepress.com/news/state_national_news/iran-claims-qatar-is-holding-pilots-israeli-strikes-kill-11-in-lebanon-and-other-middle/article_9499fa62-4992-51de-80a4-8b7c18cd18b5.html",
+      "published_at": "2026-08-15T23:00:00Z",
       "active": true,
       "computed": {
         "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "b899517428c29780",
+      "name": "Gross violations of international law : Iran condemns Israeli strikes on southern Lebanon",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b899517428c29780",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.872,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "austinglobe.com",
+      "url": "http://www.austinglobe.com/news/279244189/gross-violations-of-international-law-iran-condemns-israeli-strikes-on-southern-lebanon",
+      "published_at": "2026-08-15T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
       }
     },
     {
@@ -114,7 +145,7 @@
       "dependency_group": "c1248689ad113787",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.666,
+      "freshness": 0.568,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +161,9 @@
       "published_at": "2026-08-15T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       }
     },
     {
@@ -145,7 +176,7 @@
       "dependency_group": "e086df18bf1ef3f6",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.434,
+      "freshness": 0.37,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@
       "published_at": "2026-08-15T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
@@ -176,7 +207,7 @@
       "dependency_group": "59ba4c8a6c3ea71d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.466,
+      "freshness": 0.398,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,40 +223,9 @@
       "published_at": "2026-08-15T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
-    },
-    {
-      "id": "a1bc59252ef59afa",
-      "name": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a1bc59252ef59afa",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.434,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "postregister.com",
-      "url": "http://www.postregister.com/news/national/iran-claims-qatar-is-holding-pilots-israeli-strikes-kill-11-in-lebanon-and-other-middle/article_86b9689f-ad24-5242-8019-cd21ec98ca19.html",
-      "published_at": "2026-08-15T20:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
+        "short": 2.3,
+        "extended": 3.9
       }
     },
     {
@@ -238,7 +238,7 @@
       "dependency_group": "08515a51a016ded7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.434,
+      "freshness": 0.37,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +254,40 @@
       "published_at": "2026-08-15T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
+    },
+    {
+      "id": "bc0ff5f73cc97932",
+      "name": "War On Iran : – U . S . Opts For Containment – Iran Plans To Attack – Moon of Alabama",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bc0ff5f73cc97932",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.37,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moonofalabama.org",
+      "url": "https://www.moonofalabama.org/2026/08/war-on-iran-u-s-opts-for-containment-iran-plans-to-attack.html/comment-page-3",
+      "published_at": "2026-08-15T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       }
     }
   ],
@@ -2636,17 +2667,23 @@
       "immediate": 3,
       "short": 11,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-15T23:28:38.797764Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 21
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-15T22:55:14.563704Z",
+    "last_success": "2026-08-15T23:28:38.797764Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 6
+        "relevant": 7
       },
       "manual": {
         "ok": true,
