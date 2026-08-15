@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-15T11:01:21.417037Z",
+  "generated_at": "2026-08-15T11:30:47.577604Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 4,
       "low": 0,
-      "high": 17,
-      "confidence": 67,
+      "high": 18,
+      "confidence": 62,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
-      "low": 1,
-      "high": 27,
-      "confidence": 67,
+      "score": 12,
+      "low": 0,
+      "high": 26,
+      "confidence": 62,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 23,
-      "low": 10,
-      "high": 36,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 21,
+      "low": 7,
+      "high": 35,
+      "confidence": 62,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -42,31 +42,31 @@ window.MAGEN_STATE = {
     {
       "time": "13:30",
       "text": "Bangkok Post - Iran fires back at Trump Hormuz takeover threat",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "bangkokpost.com",
       "signal_id": "1616e9786cb5037c"
     },
     {
-      "time": "12:00",
-      "text": "Iran fires back at Trump threat to declare Hormuz a US territory",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "al-monitor.com",
-      "signal_id": "f07cc16897dd1e31"
-    },
-    {
       "time": "12:30",
       "text": "Iran accused of firing drones at UAE ships | Northwest Arkansas Democrat - Gazette",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "nwaonline.com",
       "signal_id": "fc73440a82aaf455"
     },
     {
+      "time": "12:00",
+      "text": "Iran fires back at Trump threat to declare Hormuz a US territory",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "al-monitor.com",
+      "signal_id": "f07cc16897dd1e31"
+    },
+    {
       "time": "11:00",
       "text": "Iran says Hormuz  will remain Iranian  after Trump threats",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "hurriyetdailynews.com",
       "signal_id": "d1824221cd335b7b"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1616e9786cb5037c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.861,
+      "freshness": 0.749,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,40 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.6,
-        "extended": 9.5
-      }
-    },
-    {
-      "id": "f07cc16897dd1e31",
-      "name": "Iran fires back at Trump threat to declare Hormuz a US territory",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f07cc16897dd1e31",
-      "strength": 0.45,
-      "reliability": 0.74,
-      "freshness": 0.561,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "al-monitor.com",
-      "url": "https://www.al-monitor.com/originals/2026/08/iran-fires-back-trumps-threat-declare-hormuz-us-territory",
-      "published_at": "2026-08-15T09:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
+        "short": 4.9,
+        "extended": 8.3
       }
     },
     {
@@ -145,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fc73440a82aaf455",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.647,
+      "freshness": 0.563,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +130,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "f07cc16897dd1e31",
+      "name": "Iran fires back at Trump threat to declare Hormuz a US territory",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f07cc16897dd1e31",
+      "strength": 0.45,
+      "reliability": 0.74,
+      "freshness": 0.488,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/08/iran-fires-back-trumps-threat-declare-hormuz-us-territory",
+      "published_at": "2026-08-15T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
       }
     },
     {
@@ -176,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d1824221cd335b7b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.422,
+      "freshness": 0.366,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,40 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "cd76b3e0f14378d8",
-      "name": "US wont allow Iran develop nuclear weapon - Vance",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cd76b3e0f14378d8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.34,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailypost.ng",
-      "url": "https://dailypost.ng/2026/08/15/us-wont-allow-iran-develop-nuclear-weapon-vance/",
-      "published_at": "2026-08-15T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     }
   ],
@@ -2455,17 +2424,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 14,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-08-15T11:30:47.577604Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 21
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-15T11:01:21.417037Z",
+    "last_success": "2026-08-15T11:30:47.577604Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 5
+        "relevant": 4
       },
       "manual": {
         "ok": true,
