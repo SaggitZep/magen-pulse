@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-15T13:45:20.471550Z",
+  "generated_at": "2026-08-15T14:10:06.299924Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 66,
+      "high": 16,
+      "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 10,
       "low": 0,
-      "high": 25,
-      "confidence": 66,
+      "high": 23,
+      "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 6,
-      "high": 32,
-      "confidence": 66,
+      "score": 17,
+      "low": 4,
+      "high": 30,
+      "confidence": 65,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "16:15",
       "text": "IRGC chief : Iran brought world most heavily armed military to its knees",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "10741be42739e579"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:30",
       "text": "Iran attacked state oil company vessel in Hormuz strait , says UAE",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "vanguardngr.com",
       "signal_id": "dd8a441d908fd85e"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "14:30",
       "text": "Iran bombs US base with F - 5s breaking 70 - Year air record",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "bankingnews.gr",
       "signal_id": "ffc0642bb1a27e44"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "14:30",
       "text": "Iran rebuffs Trump claim over Hormuz amid report of ship strike",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "cnbc.com",
       "signal_id": "14ea343ff561e972"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "10741be42739e579",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.865,
+      "freshness": 0.769,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T13:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
       }
     },
     {
@@ -114,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "dd8a441d908fd85e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.699,
+      "freshness": 0.621,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.9
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
       }
     },
     {
@@ -145,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ffc0642bb1a27e44",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.525,
+      "freshness": 0.467,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     },
     {
@@ -176,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "14ea343ff561e972",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.525,
+      "freshness": 0.467,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     },
     {
@@ -207,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0335ab35730b548e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.489,
+      "freshness": 0.434,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T11:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     },
     {
@@ -238,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1616e9786cb5037c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.394,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     }
   ],
@@ -2516,12 +2516,18 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-15T14:10:06.299924Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-15T13:45:20.471550Z",
+    "last_success": "2026-08-15T14:10:06.299924Z",
     "sources": {
       "gdelt": {
         "ok": true,
