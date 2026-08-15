@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-15T08:13:14.472760Z",
+  "generated_at": "2026-08-15T08:48:34.972183Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@ window.MAGEN_STATE = {
       "score": 3,
       "low": 0,
       "high": 18,
-      "confidence": 55,
+      "confidence": 57,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 9,
       "low": 0,
-      "high": 23,
-      "confidence": 55,
+      "high": 24,
+      "confidence": 57,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
+      "score": 15,
       "low": 0,
-      "high": 29,
-      "confidence": 55,
+      "high": 30,
+      "confidence": 57,
       "status": "נמוך"
     }
   },
@@ -40,31 +40,54 @@ window.MAGEN_STATE = {
   },
   "changes": [
     {
+      "time": "11:00",
+      "text": "Iran says Hormuz  will remain Iranian  after Trump threats",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "hurriyetdailynews.com",
+      "signal_id": "d1824221cd335b7b"
+    },
+    {
       "time": "10:15",
       "text": "US wont allow Iran develop nuclear weapon - Vance",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "dailypost.ng",
       "signal_id": "cd76b3e0f14378d8"
-    },
-    {
-      "time": "07:15",
-      "text": "Strait of Hormuz grinds to a halt as US threatens Iran",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "sbs.com.au",
-      "signal_id": "7daa71e291af69dc"
-    },
-    {
-      "time": "07:15",
-      "text": "Hormuz slows as US threatens economic pressure on Iran",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "centralwesterndaily.com.au",
-      "signal_id": "75e7facde3fdfed1"
     }
   ],
   "signals": [
+    {
+      "id": "d1824221cd335b7b",
+      "name": "Iran says Hormuz  will remain Iranian  after Trump threats",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d1824221cd335b7b",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.793,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hurriyetdailynews.com",
+      "url": "https://www.hurriyetdailynews.com/iran-says-hormuz-will-remain-iranian-after-trump-threats-225647",
+      "published_at": "2026-08-15T08:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
     {
       "id": "cd76b3e0f14378d8",
       "name": "US wont allow Iran develop nuclear weapon - Vance",
@@ -75,7 +98,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cd76b3e0f14378d8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.758,
+      "freshness": 0.64,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -91,71 +114,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
-    },
-    {
-      "id": "7daa71e291af69dc",
-      "name": "Strait of Hormuz grinds to a halt as US threatens Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7daa71e291af69dc",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.322,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "sbs.com.au",
-      "url": "https://www.sbs.com.au/news/article/strait-of-hormuz-us-blockade-iran-oil-shipping/71oqua71g",
-      "published_at": "2026-08-15T04:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
-    },
-    {
-      "id": "75e7facde3fdfed1",
-      "name": "Hormuz slows as US threatens economic pressure on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "75e7facde3fdfed1",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.322,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "centralwesterndaily.com.au",
-      "url": "https://www.centralwesterndaily.com.au/story/9330792/hormuz-slows-as-us-threatens-economic-pressure-on-iran/",
-      "published_at": "2026-08-15T04:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
       }
     }
   ],
@@ -2349,17 +2310,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 8,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-08-15T08:48:34.972183Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 15
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-15T08:13:14.472760Z",
+    "last_success": "2026-08-15T08:48:34.972183Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 3
+        "relevant": 2
       },
       "manual": {
         "ok": true,
