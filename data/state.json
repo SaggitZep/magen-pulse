@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-15T23:28:38.797764Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-15T23:50:45.272072Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 4,
       "low": 0,
-      "high": 17,
-      "confidence": 65,
+      "high": 20,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 12,
       "low": 0,
-      "high": 26,
-      "confidence": 65,
+      "high": 28,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 65,
+      "score": 19,
+      "low": 3,
+      "high": 35,
+      "confidence": 50,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "02:00",
       "text": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "mankatofreepress.com",
       "signal_id": "a1bc59252ef59afa"
@@ -50,7 +50,7 @@
     {
       "time": "02:00",
       "text": "Gross violations of international law : Iran condemns Israeli strikes on southern Lebanon",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "austinglobe.com",
       "signal_id": "b899517428c29780"
@@ -58,7 +58,7 @@
     {
       "time": "00:30",
       "text": "Iran claims Qatar holding pilots as UAE says ship attacked in Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "redditchadvertiser.co.uk",
       "signal_id": "c1248689ad113787"
@@ -66,7 +66,7 @@
     {
       "time": "23:00",
       "text": "Iran says full security in Hormuz contingent on end to US blockade , threats",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "e086df18bf1ef3f6"
@@ -83,7 +83,7 @@
       "dependency_group": "a1bc59252ef59afa",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.872,
+      "freshness": 0.785,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-15T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.6
-      }
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      },
+      "carried_forward": true
     },
     {
       "id": "b899517428c29780",
@@ -114,7 +115,7 @@
       "dependency_group": "b899517428c29780",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.872,
+      "freshness": 0.785,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-15T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.6
-      }
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      },
+      "carried_forward": true
     },
     {
       "id": "c1248689ad113787",
@@ -145,7 +147,7 @@
       "dependency_group": "c1248689ad113787",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.568,
+      "freshness": 0.512,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-15T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.0
+      },
+      "carried_forward": true
     },
     {
       "id": "e086df18bf1ef3f6",
@@ -176,7 +179,7 @@
       "dependency_group": "e086df18bf1ef3f6",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.37,
+      "freshness": 0.333,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-15T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "59ba4c8a6c3ea71d",
@@ -207,7 +211,7 @@
       "dependency_group": "59ba4c8a6c3ea71d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.398,
+      "freshness": 0.358,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-15T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      },
+      "carried_forward": true
     },
     {
       "id": "08515a51a016ded7",
@@ -238,7 +243,7 @@
       "dependency_group": "08515a51a016ded7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.37,
+      "freshness": 0.333,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -255,9 +260,10 @@
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+        "short": 1.9,
+        "extended": 3.3
+      },
+      "carried_forward": true
     },
     {
       "id": "bc0ff5f73cc97932",
@@ -269,7 +275,7 @@
       "dependency_group": "bc0ff5f73cc97932",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.37,
+      "freshness": 0.333,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -286,9 +292,10 @@
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+        "short": 1.9,
+        "extended": 3.3
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2673,17 +2680,23 @@
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-15T23:50:45.272072Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 19
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-15T23:28:38.797764Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 7
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
