@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-15T11:30:47.577604Z",
+  "generated_at": "2026-08-15T11:51:35.254062Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 4,
       "low": 0,
-      "high": 18,
-      "confidence": 62,
+      "high": 17,
+      "confidence": 69,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
-      "low": 0,
-      "high": 26,
-      "confidence": 62,
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 69,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 7,
-      "high": 35,
-      "confidence": 62,
-      "status": "נמוך"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 69,
+      "status": "מוגבר"
     }
   },
   "coverage": {
@@ -40,39 +40,132 @@
   },
   "changes": [
     {
+      "time": "14:30",
+      "text": "Iran bombs US base with F - 5s breaking 70 - Year air record",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "bankingnews.gr",
+      "signal_id": "ffc0642bb1a27e44"
+    },
+    {
+      "time": "14:30",
+      "text": "Iran rebuffs Trump claim over Hormuz amid report of ship strike",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "cnbc.com",
+      "signal_id": "14ea343ff561e972"
+    },
+    {
+      "time": "14:15",
+      "text": "Hormuz ship attacks mount as US vows to cripple Iran economy",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "moneycontrol.com",
+      "signal_id": "0335ab35730b548e"
+    },
+    {
       "time": "13:30",
       "text": "Bangkok Post - Iran fires back at Trump Hormuz takeover threat",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "bangkokpost.com",
       "signal_id": "1616e9786cb5037c"
-    },
-    {
-      "time": "12:30",
-      "text": "Iran accused of firing drones at UAE ships | Northwest Arkansas Democrat - Gazette",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "nwaonline.com",
-      "signal_id": "fc73440a82aaf455"
-    },
-    {
-      "time": "12:00",
-      "text": "Iran fires back at Trump threat to declare Hormuz a US territory",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "al-monitor.com",
-      "signal_id": "f07cc16897dd1e31"
-    },
-    {
-      "time": "11:00",
-      "text": "Iran says Hormuz  will remain Iranian  after Trump threats",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "hurriyetdailynews.com",
-      "signal_id": "d1824221cd335b7b"
     }
   ],
   "signals": [
+    {
+      "id": "ffc0642bb1a27e44",
+      "name": "Iran bombs US base with F - 5s breaking 70 - Year air record",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ffc0642bb1a27e44",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.902,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bankingnews.gr",
+      "url": "https://www.bankingnews.gr/diethni/articles/893916/iran-bombs-us-base-with-f-5s-breaking-70-year-air-record",
+      "published_at": "2026-08-15T11:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.9
+      }
+    },
+    {
+      "id": "14ea343ff561e972",
+      "name": "Iran rebuffs Trump claim over Hormuz amid report of ship strike",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "14ea343ff561e972",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.902,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/08/15/iran-rebuffs-trumps-claim-over-hormuz-amid-report-of-ship-strike.html",
+      "published_at": "2026-08-15T11:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.9
+      }
+    },
+    {
+      "id": "0335ab35730b548e",
+      "name": "Hormuz ship attacks mount as US vows to cripple Iran economy",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0335ab35730b548e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.84,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/hormuz-ship-attacks-mount-as-us-vows-to-cripple-iran-s-economy-article-14006415.html",
+      "published_at": "2026-08-15T11:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.3
+      }
+    },
     {
       "id": "1616e9786cb5037c",
       "name": "Bangkok Post - Iran fires back at Trump Hormuz takeover threat",
@@ -83,7 +176,7 @@
       "dependency_group": "1616e9786cb5037c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.749,
+      "freshness": 0.678,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,40 +192,9 @@
       "published_at": "2026-08-15T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.3
-      }
-    },
-    {
-      "id": "fc73440a82aaf455",
-      "name": "Iran accused of firing drones at UAE ships | Northwest Arkansas Democrat - Gazette",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fc73440a82aaf455",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.563,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nwaonline.com",
-      "url": "https://www.nwaonline.com/news/2026/aug/15/iran-accused-of-firing-drones-at-uae-ships/",
-      "published_at": "2026-08-15T09:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
       }
     },
     {
@@ -145,7 +207,7 @@
       "dependency_group": "f07cc16897dd1e31",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.488,
+      "freshness": 0.442,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +223,40 @@
       "published_at": "2026-08-15T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      }
+    },
+    {
+      "id": "fc73440a82aaf455",
+      "name": "Iran accused of firing drones at UAE ships | Northwest Arkansas Democrat - Gazette",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fc73440a82aaf455",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.51,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nwaonline.com",
+      "url": "https://www.nwaonline.com/news/2026/aug/15/iran-accused-of-firing-drones-at-uae-ships/",
+      "published_at": "2026-08-15T09:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
       }
     },
     {
@@ -176,7 +269,7 @@
       "dependency_group": "d1824221cd335b7b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.366,
+      "freshness": 0.332,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +285,9 @@
       "published_at": "2026-08-15T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       }
     }
   ],
@@ -2430,17 +2523,23 @@
       "immediate": 4,
       "short": 12,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-15T11:51:35.254062Z",
+      "immediate": 4,
+      "short": 15,
+      "extended": 24
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-15T11:30:47.577604Z",
+    "last_success": "2026-08-15T11:51:35.254062Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 4
+        "relevant": 7
       },
       "manual": {
         "ok": true,
