@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-15T16:24:22.795703Z",
+  "generated_at": "2026-08-15T16:54:58.602951Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 16,
+      "score": 14,
       "low": 0,
-      "high": 32,
-      "confidence": 49,
+      "high": 31,
+      "confidence": 47,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 48,
+      "score": 16,
+      "low": 0,
+      "high": 33,
+      "confidence": 47,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 1,
-      "high": 35,
-      "confidence": 47,
+      "score": 15,
+      "low": 0,
+      "high": 32,
+      "confidence": 46,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -3
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "17:30",
       "text": "US - Iran Talks in limbo after Israeli Strike kills Hezbollah Intelligence Chief",
-      "impact": "השפעה מיידית מחושבת: +14.3",
+      "impact": "השפעה מיידית מחושבת: +12.3",
       "direction": "up",
       "source": "pakobserver.net",
       "signal_id": "0171d083057e45ba"
@@ -50,7 +50,7 @@
     {
       "time": "17:30",
       "text": "IRGC downs US - made MQ - 9 drone over Iran Hormozgan province - Islamic Invitation Turkey",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "islamicinvitationturkey.com",
       "signal_id": "9b4aaa6fa7db6d17"
@@ -58,7 +58,7 @@
     {
       "time": "16:15",
       "text": "IRGC chief : Iran brought world most heavily armed military to its knees",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "10741be42739e579"
@@ -66,7 +66,7 @@
     {
       "time": "15:30",
       "text": "Iran attacked state oil company vessel in Hormuz strait , says UAE",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "vanguardngr.com",
       "signal_id": "dd8a441d908fd85e"
@@ -83,7 +83,7 @@
       "dependency_group": "0171d083057e45ba",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.58,
+      "freshness": 0.501,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-15T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 14.3,
-        "short": 11.1,
-        "extended": 4.7
+        "immediate": 12.3,
+        "short": 9.6,
+        "extended": 4.1
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "9b4aaa6fa7db6d17",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.58,
+      "freshness": 0.501,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-15T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.9
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "10741be42739e579",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.406,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-15T13:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "dd8a441d908fd85e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.328,
+      "freshness": 0.283,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-15T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "ffc0642bb1a27e44",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.246,
+      "freshness": 0.213,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -228,40 +228,8 @@
       "active": true,
       "computed": {
         "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0335ab35730b548e",
-      "name": "Hormuz ship attacks mount as US vows to cripple Iran economy",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0335ab35730b548e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.229,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/hormuz-ship-attacks-mount-as-us-vows-to-cripple-iran-s-economy-article-14006415.html",
-      "published_at": "2026-08-15T11:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -275,7 +243,7 @@
       "dependency_group": "14ea343ff561e972",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.246,
+      "freshness": 0.213,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -292,8 +260,40 @@
       "active": true,
       "computed": {
         "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
+        "short": 1.2,
+        "extended": 2.1
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "0335ab35730b548e",
+      "name": "Hormuz ship attacks mount as US vows to cripple Iran economy",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0335ab35730b548e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.198,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/hormuz-ship-attacks-mount-as-us-vows-to-cripple-iran-s-economy-article-14006415.html",
+      "published_at": "2026-08-15T11:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -2590,6 +2590,12 @@
       "immediate": 16,
       "short": 18,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-15T16:54:58.602951Z",
+      "immediate": 14,
+      "short": 16,
+      "extended": 15
     }
   ],
   "health": {
