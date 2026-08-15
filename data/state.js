@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-15T21:09:35.470493Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-15T21:36:26.101682Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 14,
-      "low": 1,
-      "high": 27,
-      "confidence": 66,
+      "score": 12,
+      "low": 0,
+      "high": 28,
+      "confidence": 50,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 20,
-      "low": 7,
-      "high": 33,
-      "confidence": 66,
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 51,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 11,
+      "score": 21,
+      "low": 5,
       "high": 37,
-      "confidence": 66,
-      "status": "מוגבר"
+      "confidence": 51,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "ירידה",
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "21:00",
       "text": "Iran Qalibaf says US talks suspended after Israeli strike in Beirut",
-      "impact": "השפעה מיידית מחושבת: +10.0",
+      "impact": "השפעה מיידית מחושבת: +8.8",
       "direction": "up",
       "source": "dunyanews.tv",
       "signal_id": "1ad78d61a874942d"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "23:00",
       "text": "Iran says full security in Hormuz contingent on end to US blockade , threats",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "e086df18bf1ef3f6"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "23:15",
       "text": "Iran claims Qatar holding pilots as UAE says ship attacked in Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "salisburyjournal.co.uk",
       "signal_id": "c1248689ad113787"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "23:15",
       "text": "Iran Says It Reached Oman Deal on Strait Shipping Routes",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "pakistantoday.com.pk",
       "signal_id": "59ba4c8a6c3ea71d"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1ad78d61a874942d",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.405,
+      "freshness": 0.357,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 10.0,
-        "short": 7.8,
-        "extended": 3.3
-      }
+        "immediate": 8.8,
+        "short": 6.9,
+        "extended": 2.9
+      },
+      "carried_forward": true
     },
     {
       "id": "e086df18bf1ef3f6",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e086df18bf1ef3f6",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.718,
+      "freshness": 0.632,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
-      }
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      },
+      "carried_forward": true
     },
     {
       "id": "c1248689ad113787",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c1248689ad113787",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.771,
+      "freshness": 0.679,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
-      }
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "59ba4c8a6c3ea71d",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "59ba4c8a6c3ea71d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.771,
+      "freshness": 0.679,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
-      }
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "a1bc59252ef59afa",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a1bc59252ef59afa",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.718,
+      "freshness": 0.632,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      }
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.2
+      },
+      "carried_forward": true
     },
     {
       "id": "48b908aa8f06cf40",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "48b908aa8f06cf40",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.435,
+      "freshness": 0.383,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -255,9 +260,10 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "1268d1e1da4dd137",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1268d1e1da4dd137",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.435,
+      "freshness": 0.383,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -286,9 +292,10 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "4fa13fa9c1bb2f6e",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4fa13fa9c1bb2f6e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.405,
+      "freshness": 0.357,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      },
+      "carried_forward": true
     },
     {
       "id": "e211ec0df89f35d5",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e211ec0df89f35d5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.377,
+      "freshness": 0.332,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2705,17 +2714,23 @@ window.MAGEN_STATE = {
       "immediate": 14,
       "short": 20,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-15T21:36:26.101682Z",
+      "immediate": 12,
+      "short": 18,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-15T21:09:35.470493Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 9
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 9
       },
       "manual": {
         "ok": true,
