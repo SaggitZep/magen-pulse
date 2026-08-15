@@ -1,37 +1,37 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-15T10:42:15.936174Z",
+  "mode": "live",
+  "generated_at": "2026-08-15T11:01:21.417037Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 4,
       "low": 0,
-      "high": 20,
-      "confidence": 49,
+      "high": 17,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
-      "low": 0,
-      "high": 29,
-      "confidence": 49,
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 5,
-      "high": 37,
-      "confidence": 49,
-      "status": "נמוך"
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
@@ -40,9 +40,17 @@ window.MAGEN_STATE = {
   },
   "changes": [
     {
+      "time": "13:30",
+      "text": "Bangkok Post - Iran fires back at Trump Hormuz takeover threat",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "bangkokpost.com",
+      "signal_id": "1616e9786cb5037c"
+    },
+    {
       "time": "12:00",
       "text": "Iran fires back at Trump threat to declare Hormuz a US territory",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "al-monitor.com",
       "signal_id": "f07cc16897dd1e31"
@@ -50,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "12:30",
       "text": "Iran accused of firing drones at UAE ships | Northwest Arkansas Democrat - Gazette",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "nwaonline.com",
       "signal_id": "fc73440a82aaf455"
@@ -58,21 +66,44 @@ window.MAGEN_STATE = {
     {
       "time": "11:00",
       "text": "Iran says Hormuz  will remain Iranian  after Trump threats",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "hurriyetdailynews.com",
       "signal_id": "d1824221cd335b7b"
-    },
-    {
-      "time": "10:15",
-      "text": "US wont allow Iran develop nuclear weapon - Vance",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "dailypost.ng",
-      "signal_id": "cd76b3e0f14378d8"
     }
   ],
   "signals": [
+    {
+      "id": "1616e9786cb5037c",
+      "name": "Bangkok Post - Iran fires back at Trump Hormuz takeover threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1616e9786cb5037c",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.861,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bangkokpost.com",
+      "url": "https://www.bangkokpost.com/world/3302245/iran-fires-back-at-trumps-hormuz-takeover-threat",
+      "published_at": "2026-08-15T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.6,
+        "extended": 9.5
+      }
+    },
     {
       "id": "f07cc16897dd1e31",
       "name": "Iran fires back at Trump threat to declare Hormuz a US territory",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f07cc16897dd1e31",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.614,
+      "freshness": 0.561,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +130,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.3,
-        "extended": 9.0
-      },
-      "carried_forward": true
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
     },
     {
       "id": "fc73440a82aaf455",
@@ -115,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fc73440a82aaf455",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.709,
+      "freshness": 0.647,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +161,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.4
-      },
-      "carried_forward": true
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
     },
     {
       "id": "d1824221cd335b7b",
@@ -147,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d1824221cd335b7b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.462,
+      "freshness": 0.422,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +192,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
+      }
     },
     {
       "id": "cd76b3e0f14378d8",
@@ -179,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cd76b3e0f14378d8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.373,
+      "freshness": 0.34,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -196,10 +224,9 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
+        "short": 2.0,
+        "extended": 3.4
+      }
     }
   ],
   "history": [
@@ -2422,17 +2449,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-15T11:01:21.417037Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 23
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-15T10:10:28.928009Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-15T11:01:21.417037Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 4
+        "ok": true,
+        "items": 150,
+        "relevant": 5
       },
       "manual": {
         "ok": true,
