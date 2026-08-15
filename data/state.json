@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-15T15:01:26.838112Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-15T15:32:31.247233Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 24,
-      "low": 11,
+      "score": 21,
+      "low": 5,
       "high": 37,
-      "confidence": 67,
-      "status": "מוגבר"
+      "confidence": 51,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 26,
-      "low": 13,
+      "score": 23,
+      "low": 7,
       "high": 39,
-      "confidence": 66,
+      "confidence": 50,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
+      "score": 22,
+      "low": 6,
       "high": 38,
-      "confidence": 66,
+      "confidence": 50,
       "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 21
+    "level": "ירידה",
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "17:30",
       "text": "US - Iran Talks in limbo after Israeli Strike kills Hezbollah Intelligence Chief",
-      "impact": "השפעה מיידית מחושבת: +21.2",
+      "impact": "השפעה מיידית מחושבת: +18.3",
       "direction": "up",
       "source": "pakobserver.net",
       "signal_id": "0171d083057e45ba"
@@ -50,7 +50,7 @@
     {
       "time": "17:30",
       "text": "IRGC downs US - made MQ - 9 drone over Iran Hormozgan province - Islamic Invitation Turkey",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
       "source": "islamicinvitationturkey.com",
       "signal_id": "9b4aaa6fa7db6d17"
@@ -58,7 +58,7 @@
     {
       "time": "16:15",
       "text": "IRGC chief : Iran brought world most heavily armed military to its knees",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "10741be42739e579"
@@ -66,7 +66,7 @@
     {
       "time": "15:30",
       "text": "Iran attacked state oil company vessel in Hormuz strait , says UAE",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "vanguardngr.com",
       "signal_id": "dd8a441d908fd85e"
@@ -83,7 +83,7 @@
       "dependency_group": "0171d083057e45ba",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.861,
+      "freshness": 0.743,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-15T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 21.2,
-        "short": 16.5,
-        "extended": 7.0
-      }
+        "immediate": 18.3,
+        "short": 14.3,
+        "extended": 6.1
+      },
+      "carried_forward": true
     },
     {
       "id": "9b4aaa6fa7db6d17",
@@ -114,7 +115,7 @@
       "dependency_group": "9b4aaa6fa7db6d17",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.861,
+      "freshness": 0.743,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-15T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.0,
-        "extended": 10.2
-      }
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      },
+      "carried_forward": true
     },
     {
       "id": "10741be42739e579",
@@ -145,7 +147,7 @@
       "dependency_group": "10741be42739e579",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.602,
+      "freshness": 0.52,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-15T13:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      },
+      "carried_forward": true
     },
     {
       "id": "dd8a441d908fd85e",
@@ -176,7 +179,7 @@
       "dependency_group": "dd8a441d908fd85e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.486,
+      "freshness": 0.419,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-15T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "ffc0642bb1a27e44",
@@ -207,7 +211,7 @@
       "dependency_group": "ffc0642bb1a27e44",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.365,
+      "freshness": 0.315,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-15T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     },
     {
       "id": "0335ab35730b548e",
@@ -238,7 +243,7 @@
       "dependency_group": "0335ab35730b548e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.34,
+      "freshness": 0.293,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@
       "published_at": "2026-08-15T11:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
+      },
+      "carried_forward": true
     },
     {
       "id": "14ea343ff561e972",
@@ -269,7 +275,7 @@
       "dependency_group": "14ea343ff561e972",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.365,
+      "freshness": 0.315,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@
       "published_at": "2026-08-15T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2565,17 +2572,23 @@
       "immediate": 24,
       "short": 26,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-08-15T15:32:31.247233Z",
+      "immediate": 21,
+      "short": 23,
+      "extended": 22
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-15T15:01:26.838112Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 7
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
