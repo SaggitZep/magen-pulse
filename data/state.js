@@ -1,48 +1,56 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-15T12:28:58.680528Z",
+  "mode": "live",
+  "generated_at": "2026-08-15T13:09:58.751677Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 20,
-      "confidence": 52,
+      "high": 16,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
       "score": 12,
       "low": 0,
-      "high": 28,
-      "confidence": 52,
+      "high": 25,
+      "confidence": 66,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 4,
-      "high": 36,
-      "confidence": 52,
+      "score": 19,
+      "low": 6,
+      "high": 32,
+      "confidence": 66,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
+      "time": "15:30",
+      "text": "Iran attacked state oil company vessel in Hormuz strait , says UAE",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "vanguardngr.com",
+      "signal_id": "dd8a441d908fd85e"
+    },
+    {
       "time": "14:30",
       "text": "Iran bombs US base with F - 5s breaking 70 - Year air record",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "bankingnews.gr",
       "signal_id": "ffc0642bb1a27e44"
@@ -50,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "14:30",
       "text": "Iran rebuffs Trump claim over Hormuz amid report of ship strike",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "cnbc.com",
       "signal_id": "14ea343ff561e972"
@@ -58,21 +66,44 @@ window.MAGEN_STATE = {
     {
       "time": "14:15",
       "text": "Hormuz ship attacks mount as US vows to cripple Iran economy",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "moneycontrol.com",
       "signal_id": "0335ab35730b548e"
-    },
-    {
-      "time": "13:30",
-      "text": "Bangkok Post - Iran fires back at Trump Hormuz takeover threat",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "bangkokpost.com",
-      "signal_id": "1616e9786cb5037c"
     }
   ],
   "signals": [
+    {
+      "id": "dd8a441d908fd85e",
+      "name": "Iran attacked state oil company vessel in Hormuz strait , says UAE",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dd8a441d908fd85e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.827,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "vanguardngr.com",
+      "url": "https://www.vanguardngr.com/2026/08/iran-attacked-state-oil-company-vessel-in-hormuz-strait-says-uae/",
+      "published_at": "2026-08-15T12:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
     {
       "id": "ffc0642bb1a27e44",
       "name": "Iran bombs US base with F - 5s breaking 70 - Year air record",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ffc0642bb1a27e44",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.755,
+      "freshness": 0.621,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +130,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.4
-      },
-      "carried_forward": true
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
     },
     {
       "id": "14ea343ff561e972",
@@ -115,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "14ea343ff561e972",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.755,
+      "freshness": 0.621,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +161,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.4
-      },
-      "carried_forward": true
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
     },
     {
       "id": "0335ab35730b548e",
@@ -147,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0335ab35730b548e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.703,
+      "freshness": 0.578,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +192,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T11:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
+      }
     },
     {
       "id": "1616e9786cb5037c",
@@ -179,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1616e9786cb5037c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.567,
+      "freshness": 0.467,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,43 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f07cc16897dd1e31",
-      "name": "Iran fires back at Trump threat to declare Hormuz a US territory",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f07cc16897dd1e31",
-      "strength": 0.45,
-      "reliability": 0.74,
-      "freshness": 0.37,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "al-monitor.com",
-      "url": "https://www.al-monitor.com/originals/2026/08/iran-fires-back-trumps-threat-declare-hormuz-us-territory",
-      "published_at": "2026-08-15T09:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
+        "short": 3.0,
+        "extended": 5.2
+      }
     },
     {
       "id": "fc73440a82aaf455",
@@ -243,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fc73440a82aaf455",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.426,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,43 +254,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d1824221cd335b7b",
-      "name": "Iran says Hormuz  will remain Iranian  after Trump threats",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d1824221cd335b7b",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.278,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hurriyetdailynews.com",
-      "url": "https://www.hurriyetdailynews.com/iran-says-hormuz-will-remain-iranian-after-trump-threats-225647",
-      "published_at": "2026-08-15T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.2
+      }
     }
   ],
   "history": [
@@ -2542,17 +2504,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-15T13:09:58.751677Z",
+      "immediate": 3,
+      "short": 12,
+      "extended": 19
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-15T11:51:35.254062Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-15T13:09:58.751677Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
