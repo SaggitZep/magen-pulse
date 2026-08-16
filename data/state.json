@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-16T21:51:22.376744Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-16T22:15:25.853432Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 12,
+      "score": 11,
       "low": 0,
-      "high": 25,
-      "confidence": 65,
+      "high": 27,
+      "confidence": 50,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 17,
-      "low": 4,
-      "high": 30,
-      "confidence": 66,
+      "score": 15,
+      "low": 0,
+      "high": 31,
+      "confidence": 51,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 7,
-      "high": 33,
-      "confidence": 67,
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 51,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -9
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "21:00",
       "text": "Israel surprised by speed of Iran missile recovery despite strikes : Report",
-      "impact": "השפעה מיידית מחושבת: +9.5",
+      "impact": "השפעה מיידית מחושבת: +8.5",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "b5d138d49ea8bf88"
@@ -50,7 +50,7 @@
     {
       "time": "23:30",
       "text": "Israel strikes Lebanon again , 11 dead ; Iran still defiant on Hormuz control",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "7de9d0572f5155fe"
@@ -58,7 +58,7 @@
     {
       "time": "23:30",
       "text": "iran us war culf allies frustrated with trump questions on american bases",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "express.pk",
       "signal_id": "84c4208def760102"
@@ -66,7 +66,7 @@
     {
       "time": "22:45",
       "text": "Israel strikes Lebanon as US preps fresh Iran sanctions package",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "stripes.com",
       "signal_id": "9a92860781bfd168"
@@ -83,7 +83,7 @@
       "dependency_group": "b5d138d49ea8bf88",
       "strength": 0.58,
       "reliability": 0.56,
-      "freshness": 0.332,
+      "freshness": 0.296,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-16T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 9.5,
-        "short": 7.4,
-        "extended": 3.1
-      }
+        "immediate": 8.5,
+        "short": 6.6,
+        "extended": 2.8
+      },
+      "carried_forward": true
     },
     {
       "id": "7de9d0572f5155fe",
@@ -114,7 +115,7 @@
       "dependency_group": "7de9d0572f5155fe",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.679,
+      "freshness": 0.605,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-16T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      },
+      "carried_forward": true
     },
     {
       "id": "84c4208def760102",
@@ -145,7 +147,7 @@
       "dependency_group": "84c4208def760102",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.679,
+      "freshness": 0.605,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-16T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      },
+      "carried_forward": true
     },
     {
       "id": "9a92860781bfd168",
@@ -176,7 +179,7 @@
       "dependency_group": "9a92860781bfd168",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.548,
+      "freshness": 0.489,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-16T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      },
+      "carried_forward": true
     },
     {
       "id": "adf8dd214e15952b",
@@ -207,7 +211,7 @@
       "dependency_group": "adf8dd214e15952b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.442,
+      "freshness": 0.394,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-16T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2851,17 +2856,23 @@
       "immediate": 12,
       "short": 17,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-16T22:15:25.853432Z",
+      "immediate": 11,
+      "short": 15,
+      "extended": 18
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-16T21:51:22.376744Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 5
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
