@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-16T22:43:31.841848Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-16T23:01:26.533549Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 3,
       "low": 0,
-      "high": 16,
-      "confidence": 67,
+      "high": 19,
+      "confidence": 52,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 10,
       "low": 0,
-      "high": 24,
-      "confidence": 67,
+      "high": 26,
+      "confidence": 52,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 5,
-      "high": 31,
-      "confidence": 67,
+      "score": 16,
+      "low": 0,
+      "high": 32,
+      "confidence": 52,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -8
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "01:30",
       "text": "IRANIAN CYBER THREAT : Shin Bet Warns Journalists Of Targeted Phishing Campaign",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
       "source": "theyeshivaworld.com",
       "signal_id": "ef12d9d40f930320"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "01:30",
       "text": "BETTING SCANDAL : IAF Major Faces Charges Over Polymarket Wagers On Iran , Yemen Strikes",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
       "source": "theyeshivaworld.com",
       "signal_id": "59435f63e601317d"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "23:30",
       "text": "Israel strikes Lebanon again , 11 dead ; Iran still defiant on Hormuz control",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "7de9d0572f5155fe"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "23:30",
       "text": "iran us war culf allies frustrated with trump questions on american bases",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "express.pk",
       "signal_id": "84c4208def760102"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ef12d9d40f930320",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.938,
+      "freshness": 0.861,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.1,
-        "extended": 10.4
-      }
+        "immediate": 1.6,
+        "short": 5.6,
+        "extended": 9.5
+      },
+      "carried_forward": true
     },
     {
       "id": "59435f63e601317d",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "59435f63e601317d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.938,
+      "freshness": 0.861,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.2
-      }
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      },
+      "carried_forward": true
     },
     {
       "id": "7de9d0572f5155fe",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7de9d0572f5155fe",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.529,
+      "freshness": 0.486,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      },
+      "carried_forward": true
     },
     {
       "id": "84c4208def760102",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "84c4208def760102",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.529,
+      "freshness": 0.486,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      },
+      "carried_forward": true
     },
     {
       "id": "9a92860781bfd168",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9a92860781bfd168",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.427,
+      "freshness": 0.392,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -224,9 +228,10 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     },
     {
       "id": "adf8dd214e15952b",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "adf8dd214e15952b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.345,
+      "freshness": 0.317,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2894,17 +2900,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 11,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-16T23:01:26.533549Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 16
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-16T22:43:31.841848Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 6
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 6
       },
       "manual": {
         "ok": true,
