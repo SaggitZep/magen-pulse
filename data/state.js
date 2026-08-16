@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-16T20:08:49.148743Z",
+  "generated_at": "2026-08-16T20:38:43.834784Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 28,
-      "low": 15,
-      "high": 41,
+      "score": 26,
+      "low": 13,
+      "high": 39,
       "confidence": 66,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 27,
-      "low": 14,
-      "high": 40,
-      "confidence": 66,
+      "score": 30,
+      "low": 17,
+      "high": 43,
+      "confidence": 67,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 23,
-      "low": 10,
-      "high": 36,
-      "confidence": 66,
+      "score": 29,
+      "low": 16,
+      "high": 42,
+      "confidence": 67,
       "status": "מוגבר"
     }
   },
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:00",
       "text": "Israel surprised by speed of Iran missile recovery despite strikes : Report",
-      "impact": "השפעה מיידית מחושבת: +15.5",
+      "impact": "השפעה מיידית מחושבת: +13.4",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "b5d138d49ea8bf88"
@@ -50,26 +50,26 @@ window.MAGEN_STATE = {
     {
       "time": "20:45",
       "text": "From India to Israel to US : How a Fake Iran Nuclear Quote Went Viral and Misled Global Media",
-      "impact": "השפעה מיידית מחושבת: +12.4",
+      "impact": "השפעה מיידית מחושבת: +10.8",
       "direction": "up",
       "source": "gulfnews.com",
       "signal_id": "1c099ad70469f28b"
     },
     {
-      "time": "22:45",
-      "text": "Israel strikes Lebanon as US preps fresh Iran sanctions package",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "time": "23:30",
+      "text": "Israel strikes Lebanon again , 11 dead ; Iran still defiant on Hormuz control",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "stripes.com",
-      "signal_id": "9a92860781bfd168"
+      "source": "business-standard.com",
+      "signal_id": "7de9d0572f5155fe"
     },
     {
-      "time": "20:45",
-      "text": "US - Iran Standoff Impact on UAE : Strait of Hormuz , Flight Disruptions , Shipping Routes and What Residents Should Know Today",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "23:30",
+      "text": "iran us war culf allies frustrated with trump questions on american bases",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "gulfnews.com",
-      "signal_id": "35f9c9d5fa21ddb9"
+      "source": "express.pk",
+      "signal_id": "84c4208def760102"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b5d138d49ea8bf88",
       "strength": 0.58,
       "reliability": 0.56,
-      "freshness": 0.541,
+      "freshness": 0.47,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 15.5,
-        "short": 12.1,
-        "extended": 5.1
+        "immediate": 13.4,
+        "short": 10.5,
+        "extended": 4.4
       }
     },
     {
@@ -114,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1c099ad70469f28b",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.504,
+      "freshness": 0.437,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -130,9 +130,71 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 12.4,
-        "short": 9.7,
-        "extended": 4.1
+        "immediate": 10.8,
+        "short": 8.4,
+        "extended": 3.6
+      }
+    },
+    {
+      "id": "7de9d0572f5155fe",
+      "name": "Israel strikes Lebanon again , 11 dead ; Iran still defiant on Hormuz control",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7de9d0572f5155fe",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.959,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "business-standard.com",
+      "url": "https://www.business-standard.com/world-news/israel-strikes-lebanon-again-11-dead-iran-still-defiant-on-hormuz-control-126081700004_1.html",
+      "published_at": "2026-08-16T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.6,
+        "extended": 9.5
+      }
+    },
+    {
+      "id": "84c4208def760102",
+      "name": "iran us war culf allies frustrated with trump questions on american bases",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "84c4208def760102",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.959,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "express.pk",
+      "url": "https://www.express.pk/story/2827625/iran-us-war-culf-allies-frustrated-with-trump-questions-on-american-bases-2827625",
+      "published_at": "2026-08-16T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.6,
+        "extended": 9.5
       }
     },
     {
@@ -145,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9a92860781bfd168",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.893,
+      "freshness": 0.774,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
       }
     },
     {
@@ -176,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "35f9c9d5fa21ddb9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.504,
+      "freshness": 0.437,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     },
     {
@@ -207,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "804061d08f9505fd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.407,
+      "freshness": 0.353,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     },
     {
@@ -238,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bcb196bd93951757",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.379,
+      "freshness": 0.329,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     },
     {
@@ -269,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c51d189ea24deaaf",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.407,
+      "freshness": 0.353,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +347,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     }
   ],
@@ -2889,17 +2951,23 @@ window.MAGEN_STATE = {
       "immediate": 28,
       "short": 27,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-08-16T20:38:43.834784Z",
+      "immediate": 26,
+      "short": 30,
+      "extended": 29
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-16T20:08:49.148743Z",
+    "last_success": "2026-08-16T20:38:43.834784Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 7
+        "relevant": 9
       },
       "manual": {
         "ok": true,
