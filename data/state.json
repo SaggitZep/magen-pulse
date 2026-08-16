@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-16T17:30:15.356226Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-16T17:52:05.463322Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 4,
       "low": 0,
-      "high": 18,
-      "confidence": 67,
+      "high": 20,
+      "confidence": 51,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 16,
-      "low": 3,
-      "high": 29,
-      "confidence": 67,
+      "score": 14,
+      "low": 0,
+      "high": 30,
+      "confidence": 51,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 26,
-      "low": 13,
-      "high": 39,
-      "confidence": 67,
+      "score": 24,
+      "low": 8,
+      "high": 40,
+      "confidence": 51,
       "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "20:00",
       "text": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
       "source": "taiwansun.com",
       "signal_id": "804061d08f9505fd"
@@ -50,7 +50,7 @@
     {
       "time": "20:00",
       "text": "Iran and Oman work on temporary Hormuz shipping route as Trump threatens to claim the strait",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
       "source": "middleeasteye.net",
       "signal_id": "c51d189ea24deaaf"
@@ -58,7 +58,7 @@
     {
       "time": "19:45",
       "text": "בלי מטוסים וטילים : כך יכול טראמפ להדק את טבעת החנק סביב איראן",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
       "source": "globes.co.il",
       "signal_id": "bcb196bd93951757"
@@ -66,7 +66,7 @@
     {
       "time": "17:15",
       "text": "Hamas , Hezbollah coordinate attacks with Iran , IDF warns of rebuilt axis of evil",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "ffb222682152a239"
@@ -83,7 +83,7 @@
       "dependency_group": "804061d08f9505fd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.866,
+      "freshness": 0.78,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-16T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.6,
-        "extended": 9.6
-      }
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      },
+      "carried_forward": true
     },
     {
       "id": "c51d189ea24deaaf",
@@ -114,7 +115,7 @@
       "dependency_group": "c51d189ea24deaaf",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.866,
+      "freshness": 0.78,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-16T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.6,
-        "extended": 9.6
-      }
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      },
+      "carried_forward": true
     },
     {
       "id": "bcb196bd93951757",
@@ -145,7 +147,7 @@
       "dependency_group": "bcb196bd93951757",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.806,
+      "freshness": 0.727,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-16T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.6,
-        "extended": 9.5
-      }
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      },
+      "carried_forward": true
     },
     {
       "id": "ffb222682152a239",
@@ -176,7 +179,7 @@
       "dependency_group": "ffb222682152a239",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.395,
+      "freshness": 0.356,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-16T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      }
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2760,17 +2764,23 @@
       "immediate": 5,
       "short": 16,
       "extended": 26
+    },
+    {
+      "timestamp": "2026-08-16T17:52:05.463322Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 24
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-16T17:30:15.356226Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 4
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 4
       },
       "manual": {
         "ok": true,
