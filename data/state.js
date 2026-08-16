@@ -1,78 +1,171 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-16T11:02:26.721010Z",
+  "mode": "live",
+  "generated_at": "2026-08-16T11:31:09.285286Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 48,
+      "high": 17,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 12,
       "low": 0,
       "high": 25,
-      "confidence": 48,
+      "confidence": 66,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
-      "low": 0,
-      "high": 31,
-      "confidence": 48,
+      "score": 20,
+      "low": 7,
+      "high": 33,
+      "confidence": 66,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": 1
   },
   "changes": [
     {
+      "time": "13:15",
+      "text": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "economictimes.indiatimes.com",
+      "signal_id": "804061d08f9505fd"
+    },
+    {
+      "time": "13:30",
+      "text": "Trump Says US Could Claim Strait of Hormuz as Iran Keeps Shipping Route Nearly Shut",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "wgow.com",
+      "signal_id": "4778c282991c01d7"
+    },
+    {
+      "time": "12:45",
+      "text": "Iran , Oman agree on new shipping route through Strait of Hormuz",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "azernews.az",
+      "signal_id": "acf819bce06cb80e"
+    },
+    {
       "time": "12:00",
       "text": "UAE says Iran attacked ADNOC vessel in Hormuz , urges waterway reopening",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "asiaone.com",
       "signal_id": "0d2961a8311375d2"
-    },
-    {
-      "time": "11:45",
-      "text": "Iran steps up pressure on Qatar , Kuwait over missing military personnel",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "middle-east-online.com",
-      "signal_id": "fb6d90adb1042908"
-    },
-    {
-      "time": "11:30",
-      "text": "Iran says reached deal with Oman on Hormuz shipping routes",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "arynews.tv",
-      "signal_id": "b5b5bd9b005c743a"
-    },
-    {
-      "time": "10:00",
-      "text": "Iran says full security in Hormuz depends on end to US blockade , threats",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "tribune.com.pk",
-      "signal_id": "db72958c65377a98"
     }
   ],
   "signals": [
+    {
+      "id": "804061d08f9505fd",
+      "name": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "804061d08f9505fd",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.696,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/iranian-parliament-to-debate-hormuz-strait-oversight-bills-as-top-lawmaker-mocks-trumps-threats/articleshow/133272841.cms",
+      "published_at": "2026-08-16T10:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "4778c282991c01d7",
+      "name": "Trump Says US Could Claim Strait of Hormuz as Iran Keeps Shipping Route Nearly Shut",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4778c282991c01d7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.747,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wgow.com",
+      "url": "https://www.wgow.com/2026/08/16/trump-says-us-could-claim-strait-of-hormuz-as-iran-keeps-shipping-route-nearly-shut/",
+      "published_at": "2026-08-16T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "acf819bce06cb80e",
+      "name": "Iran , Oman agree on new shipping route through Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "acf819bce06cb80e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.603,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "azernews.az",
+      "url": "https://www.azernews.az/region/262441.html",
+      "published_at": "2026-08-16T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      }
+    },
     {
       "id": "0d2961a8311375d2",
       "name": "UAE says Iran attacked ADNOC vessel in Hormuz , urges waterway reopening",
@@ -83,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0d2961a8311375d2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.558,
+      "freshness": 0.487,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +192,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
     },
     {
       "id": "fb6d90adb1042908",
@@ -115,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fb6d90adb1042908",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.52,
+      "freshness": 0.453,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
     },
     {
       "id": "b5b5bd9b005c743a",
@@ -147,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b5b5bd9b005c743a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.484,
+      "freshness": 0.422,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,107 +254,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "db72958c65377a98",
-      "name": "Iran says full security in Hormuz depends on end to US blockade , threats",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "db72958c65377a98",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.315,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "tribune.com.pk",
-      "url": "https://tribune.com.pk/story/2624167/iran-says-full-security-in-hormuz-depends-on-end-to-us-blockade-threats",
-      "published_at": "2026-08-16T07:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a1bc59252ef59afa",
-      "name": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a1bc59252ef59afa",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.339,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wtop.com",
-      "url": "https://wtop.com/world/2026/08/israeli-strike-kills-7-in-lebanon-2-tankers-attacked-in-hormuz-and-other-news-from-the-middle-east/",
-      "published_at": "2026-08-16T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2995e79bc8543257",
-      "name": "Hormuz Strait Deal , होर्मुज स्ट्रेट में मिलकर टोल वसूलेंगे ईरान - ओमान ? दोनों देशों में शिपिंग डील का ऐलान , डोनाल्ड ट्रंप पर नजर - iran oman agreement hormuz strait shipping route eyes on donald trump us blockade - As",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2995e79bc8543257",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.315,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "navbharattimes.indiatimes.com",
-      "url": "https://navbharattimes.indiatimes.com/world/asian-countries/iran-oman-agreement-hormuz-strait-shipping-route-eyes-on-donald-trump-us-blockade/articleshow/133270982.cms",
-      "published_at": "2026-08-16T07:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.2
+      }
     }
   ],
   "history": [
@@ -2750,17 +2744,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 9,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-08-16T11:31:09.285286Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-16T09:48:14.696957Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-16T11:31:09.285286Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 6
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
