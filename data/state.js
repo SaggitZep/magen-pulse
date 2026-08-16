@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-16T09:14:54.052834Z",
+  "generated_at": "2026-08-16T09:48:14.696957Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -14,17 +14,17 @@ window.MAGEN_STATE = {
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 12,
       "low": 0,
-      "high": 26,
+      "high": 25,
       "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
+      "score": 20,
+      "low": 7,
+      "high": 33,
       "confidence": 67,
       "status": "נמוך"
     }
@@ -35,14 +35,22 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -8
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
+      "time": "12:00",
+      "text": "UAE says Iran attacked ADNOC vessel in Hormuz , urges waterway reopening",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "asiaone.com",
+      "signal_id": "0d2961a8311375d2"
+    },
+    {
       "time": "11:45",
       "text": "Iran steps up pressure on Qatar , Kuwait over missing military personnel",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "middle-east-online.com",
       "signal_id": "fb6d90adb1042908"
@@ -50,29 +58,52 @@ window.MAGEN_STATE = {
     {
       "time": "11:30",
       "text": "Iran says reached deal with Oman on Hormuz shipping routes",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "arynews.tv",
       "signal_id": "b5b5bd9b005c743a"
     },
     {
-      "time": "11:00",
-      "text": "UAE says Iran attacked ADNOC vessel in Hormuz , urges waterway reopening",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "time": "10:00",
+      "text": "Iran says full security in Hormuz depends on end to US blockade , threats",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
-      "source": "asiaone.com:443",
-      "signal_id": "0d2961a8311375d2"
-    },
-    {
-      "time": "10:15",
-      "text": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "wtop.com",
-      "signal_id": "a1bc59252ef59afa"
+      "source": "tribune.com.pk",
+      "signal_id": "db72958c65377a98"
     }
   ],
   "signals": [
+    {
+      "id": "0d2961a8311375d2",
+      "name": "UAE says Iran attacked ADNOC vessel in Hormuz , urges waterway reopening",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0d2961a8311375d2",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.795,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "asiaone.com",
+      "url": "https://www.asiaone.com/asia/uae-says-iran-attacked-adnoc-vessel-hormuz-urges-waterways-reopening",
+      "published_at": "2026-08-16T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.8
+      }
+    },
     {
       "id": "fb6d90adb1042908",
       "name": "Iran steps up pressure on Qatar , Kuwait over missing military personnel",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fb6d90adb1042908",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.867,
+      "freshness": 0.74,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
       }
     },
     {
@@ -114,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b5b5bd9b005c743a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.807,
+      "freshness": 0.689,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,71 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
-      }
-    },
-    {
-      "id": "0d2961a8311375d2",
-      "name": "UAE says Iran attacked ADNOC vessel in Hormuz , urges waterway reopening",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0d2961a8311375d2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.7,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "asiaone.com:443",
-      "url": "https://www.asiaone.com:443/asia/uae-says-iran-attacked-adnoc-vessel-hormuz-urges-waterways-reopening",
-      "published_at": "2026-08-16T08:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
-      }
-    },
-    {
-      "id": "a1bc59252ef59afa",
-      "name": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a1bc59252ef59afa",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.565,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wtop.com",
-      "url": "https://wtop.com/world/2026/08/israeli-strike-kills-7-in-lebanon-2-tankers-attacked-in-hormuz-and-other-news-from-the-middle-east/",
-      "published_at": "2026-08-16T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "short": 4.0,
+        "extended": 6.8
       }
     },
     {
@@ -207,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "db72958c65377a98",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.526,
+      "freshness": 0.449,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +192,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "a1bc59252ef59afa",
+      "name": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a1bc59252ef59afa",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.482,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wtop.com",
+      "url": "https://wtop.com/world/2026/08/israeli-strike-kills-7-in-lebanon-2-tankers-attacked-in-hormuz-and-other-news-from-the-middle-east/",
+      "published_at": "2026-08-16T07:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     },
     {
@@ -238,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2995e79bc8543257",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.526,
+      "freshness": 0.449,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,40 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
-      }
-    },
-    {
-      "id": "f5afb2671a4eb5d3",
-      "name": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f5afb2671a4eb5d3",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.343,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "tribuneindia.com",
-      "url": "https://www.tribuneindia.com/news/world/iran-claims-qatar-is-holding-pilots-israeli-strikes-kill-11-in-lebanon/",
-      "published_at": "2026-08-16T05:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       }
     }
   ],
@@ -2751,17 +2720,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-16T09:48:14.696957Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-16T09:14:54.052834Z",
+    "last_success": "2026-08-16T09:48:14.696957Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 7
+        "relevant": 6
       },
       "manual": {
         "ok": true,
