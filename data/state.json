@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-16T05:57:22.984528Z",
+  "generated_at": "2026-08-16T06:54:32.434779Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 22,
-      "low": 6,
-      "high": 38,
-      "confidence": 52,
-      "status": "מוגבר"
+      "score": 17,
+      "low": 1,
+      "high": 33,
+      "confidence": 49,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 24,
-      "low": 8,
-      "high": 40,
-      "confidence": 52,
-      "status": "מוגבר"
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 49,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 5,
-      "high": 37,
-      "confidence": 51,
+      "score": 17,
+      "low": 1,
+      "high": 33,
+      "confidence": 48,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -4
+    "points_60m": -5
   },
   "changes": [
     {
       "time": "06:45",
       "text": "Israel cannot wait forever for a deal as Iran rapidly rearms its missile program",
-      "impact": "השפעה מיידית מחושבת: +20.1",
+      "impact": "השפעה מיידית מחושבת: +15.3",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "b5d8e8386e7355e9"
@@ -50,7 +50,7 @@
     {
       "time": "07:00",
       "text": "Another tanker attacked in Hormuz ; Iran says Qatar is holding 3 missing pilots",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "businesstoday.in",
       "signal_id": "7d4fef449d706b3e"
@@ -58,7 +58,7 @@
     {
       "time": "07:00",
       "text": "Israeli Strikes Kill 11 in Lebanon ; Iran Condemns Attacks",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "deccanchronicle.com",
       "signal_id": "bb5b23f7495ecf14"
@@ -66,7 +66,7 @@
     {
       "time": "06:45",
       "text": "Qatar denies Iran claim it detained 3 fighter pilots after March attack",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "dunyanews.tv",
       "signal_id": "b538431aa1d59007"
@@ -83,7 +83,7 @@
       "dependency_group": "b5d8e8386e7355e9",
       "strength": 0.58,
       "reliability": 0.74,
-      "freshness": 0.532,
+      "freshness": 0.406,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-16T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 20.1,
-        "short": 15.7,
-        "extended": 6.6
+        "immediate": 15.3,
+        "short": 12.0,
+        "extended": 5.1
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "7d4fef449d706b3e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.572,
+      "freshness": 0.436,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-16T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "bb5b23f7495ecf14",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.572,
+      "freshness": 0.436,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-16T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "b538431aa1d59007",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.532,
+      "freshness": 0.406,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-16T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "af170d126f5db3ec",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.43,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-16T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "eb057c16c0c61e9f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.43,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-08-16T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "b899517428c29780",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.243,
+      "freshness": 0.185,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@
       "published_at": "2026-08-16T01:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.8
       },
       "carried_forward": true
     }
@@ -2728,6 +2728,12 @@
       "immediate": 22,
       "short": 24,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-16T06:54:32.434779Z",
+      "immediate": 17,
+      "short": 18,
+      "extended": 17
     }
   ],
   "health": {
