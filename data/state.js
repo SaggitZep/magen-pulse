@@ -1,37 +1,37 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-15T23:50:45.272072Z",
+  "mode": "live",
+  "generated_at": "2026-08-16T00:50:37.497561Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 4,
       "low": 0,
-      "high": 20,
-      "confidence": 50,
+      "high": 17,
+      "confidence": 69,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 13,
       "low": 0,
-      "high": 28,
-      "confidence": 50,
+      "high": 26,
+      "confidence": 69,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 3,
+      "score": 22,
+      "low": 9,
       "high": 35,
-      "confidence": 50,
+      "confidence": 69,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
@@ -40,50 +40,50 @@ window.MAGEN_STATE = {
   },
   "changes": [
     {
-      "time": "02:00",
+      "time": "02:45",
+      "text": "Iran fires back at Trump threat to declare Hormuz a US territory",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "rnz.co.nz",
+      "signal_id": "f07cc16897dd1e31"
+    },
+    {
+      "time": "03:00",
       "text": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
       "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "mankatofreepress.com",
+      "source": "yankton.net",
       "signal_id": "a1bc59252ef59afa"
     },
     {
-      "time": "02:00",
+      "time": "03:00",
       "text": "Gross violations of international law : Iran condemns Israeli strikes on southern Lebanon",
       "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "austinglobe.com",
+      "source": "batonrougepost.com",
       "signal_id": "b899517428c29780"
     },
     {
-      "time": "00:30",
-      "text": "Iran claims Qatar holding pilots as UAE says ship attacked in Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "02:45",
+      "text": "Iran Accuses Qatar of Holding 3 of Its Military Pilots Captive",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "redditchadvertiser.co.uk",
-      "signal_id": "c1248689ad113787"
-    },
-    {
-      "time": "23:00",
-      "text": "Iran says full security in Hormuz contingent on end to US blockade , threats",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "presstv.co.uk",
-      "signal_id": "e086df18bf1ef3f6"
+      "source": "theepochtimes.com",
+      "signal_id": "e41dba0de04af92b"
     }
   ],
   "signals": [
     {
-      "id": "a1bc59252ef59afa",
-      "name": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
+      "id": "f07cc16897dd1e31",
+      "name": "Iran fires back at Trump threat to declare Hormuz a US territory",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a1bc59252ef59afa",
-      "strength": 0.4,
+      "dependency_group": "f07cc16897dd1e31",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.785,
+      "freshness": 0.732,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,16 +94,46 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "mankatofreepress.com",
-      "url": "https://www.mankatofreepress.com/news/state_national_news/iran-claims-qatar-is-holding-pilots-israeli-strikes-kill-11-in-lebanon-and-other-middle/article_9499fa62-4992-51de-80a4-8b7c18cd18b5.html",
-      "published_at": "2026-08-15T23:00:00Z",
+      "source": "rnz.co.nz",
+      "url": "https://www.rnz.co.nz/news/world/1010211/iran-fires-back-at-trump-s-threat-to-declare-hormuz-a-us-territory",
+      "published_at": "2026-08-15T23:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "a1bc59252ef59afa",
+      "name": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a1bc59252ef59afa",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.786,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yankton.net",
+      "url": "https://www.yankton.net/news/national_ap/article_819b5f46-dfeb-5327-ad74-5902fc145e35.html",
+      "published_at": "2026-08-16T00:00:00Z",
       "active": true,
       "computed": {
         "immediate": 1.3,
         "short": 4.5,
         "extended": 7.7
-      },
-      "carried_forward": true
+      }
     },
     {
       "id": "b899517428c29780",
@@ -115,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b899517428c29780",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.785,
+      "freshness": 0.786,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,16 +156,46 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "austinglobe.com",
-      "url": "http://www.austinglobe.com/news/279244189/gross-violations-of-international-law-iran-condemns-israeli-strikes-on-southern-lebanon",
-      "published_at": "2026-08-15T23:00:00Z",
+      "source": "batonrougepost.com",
+      "url": "http://www.batonrougepost.com/news/279244189/gross-violations-of-international-law-iran-condemns-israeli-strikes-on-southern-lebanon",
+      "published_at": "2026-08-16T00:00:00Z",
       "active": true,
       "computed": {
         "immediate": 1.3,
         "short": 4.5,
         "extended": 7.7
+      }
+    },
+    {
+      "id": "e41dba0de04af92b",
+      "name": "Iran Accuses Qatar of Holding 3 of Its Military Pilots Captive",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e41dba0de04af92b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.732,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theepochtimes.com",
+      "url": "https://www.theepochtimes.com/world/iran-accuses-qatar-of-holding-3-of-its-military-pilots-captive-6075596",
+      "published_at": "2026-08-15T23:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      }
     },
     {
       "id": "c1248689ad113787",
@@ -147,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c1248689ad113787",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.512,
+      "freshness": 0.385,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,139 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-15T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e086df18bf1ef3f6",
-      "name": "Iran says full security in Hormuz contingent on end to US blockade , threats",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e086df18bf1ef3f6",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.333,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/08/15/774416/Iran-Oman-Hormuz-Baghaei",
-      "published_at": "2026-08-15T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
+        "immediate": 0.7,
         "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "59ba4c8a6c3ea71d",
-      "name": "Iran Says It Reached Oman Deal on Strait Shipping Routes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "59ba4c8a6c3ea71d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.358,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "pakistantoday.com.pk",
-      "url": "https://www.pakistantoday.com.pk/2026/08/15/iran-says-agreement-reached-with-oman-on-strait-of-hormuz-shipping-routes",
-      "published_at": "2026-08-15T20:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "08515a51a016ded7",
-      "name": "US relocates navy logistics after Iran attacks on Bahrain , reports show",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "08515a51a016ded7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.333,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/08/15/774417/US-Navy-logistics-relocation-Iran-attacks-Bahrain",
-      "published_at": "2026-08-15T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "bc0ff5f73cc97932",
-      "name": "War On Iran : – U . S . Opts For Containment – Iran Plans To Attack – Moon of Alabama",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bc0ff5f73cc97932",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.333,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moonofalabama.org",
-      "url": "https://www.moonofalabama.org/2026/08/war-on-iran-u-s-opts-for-containment-iran-plans-to-attack.html/comment-page-3",
-      "published_at": "2026-08-15T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
+        "extended": 3.8
+      }
     }
   ],
   "history": [
@@ -2686,17 +2617,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-16T00:50:37.497561Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 22
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-15T23:28:38.797764Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-16T00:50:37.497561Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "ok": true,
+        "items": 150,
+        "relevant": 5
       },
       "manual": {
         "ok": true,
