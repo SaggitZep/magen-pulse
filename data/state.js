@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-16T11:31:09.285286Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-16T11:53:28.463158Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 66,
+      "high": 19,
+      "confidence": 51,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 11,
       "low": 0,
-      "high": 25,
-      "confidence": 66,
+      "high": 27,
+      "confidence": 51,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 7,
-      "high": 33,
-      "confidence": 66,
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 51,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "13:15",
       "text": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "economictimes.indiatimes.com",
       "signal_id": "804061d08f9505fd"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "13:30",
       "text": "Trump Says US Could Claim Strait of Hormuz as Iran Keeps Shipping Route Nearly Shut",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "wgow.com",
       "signal_id": "4778c282991c01d7"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "12:45",
       "text": "Iran , Oman agree on new shipping route through Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "azernews.az",
       "signal_id": "acf819bce06cb80e"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "12:00",
       "text": "UAE says Iran attacked ADNOC vessel in Hormuz , urges waterway reopening",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "asiaone.com",
       "signal_id": "0d2961a8311375d2"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "804061d08f9505fd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.696,
+      "freshness": 0.626,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T10:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 6.9
+      },
+      "carried_forward": true
     },
     {
       "id": "4778c282991c01d7",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4778c282991c01d7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.747,
+      "freshness": 0.672,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.4
-      }
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      },
+      "carried_forward": true
     },
     {
       "id": "acf819bce06cb80e",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "acf819bce06cb80e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.603,
+      "freshness": 0.542,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      }
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      },
+      "carried_forward": true
     },
     {
       "id": "0d2961a8311375d2",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0d2961a8311375d2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.487,
+      "freshness": 0.438,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      },
+      "carried_forward": true
     },
     {
       "id": "fb6d90adb1042908",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fb6d90adb1042908",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.453,
+      "freshness": 0.408,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      },
+      "carried_forward": true
     },
     {
       "id": "b5b5bd9b005c743a",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b5b5bd9b005c743a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.422,
+      "freshness": 0.379,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.2
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2750,17 +2756,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-16T11:53:28.463158Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-16T11:31:09.285286Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 6
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 6
       },
       "manual": {
         "ok": true,
