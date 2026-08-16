@@ -1,37 +1,37 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-16T13:19:42.981235Z",
+  "mode": "live",
+  "generated_at": "2026-08-16T13:50:23.450906Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 4,
       "low": 0,
-      "high": 20,
-      "confidence": 51,
+      "high": 17,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
-      "low": 0,
-      "high": 28,
-      "confidence": 51,
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 68,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 4,
+      "score": 23,
+      "low": 10,
       "high": 36,
-      "confidence": 51,
-      "status": "נמוך"
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
@@ -40,39 +40,132 @@ window.MAGEN_STATE = {
   },
   "changes": [
     {
+      "time": "16:15",
+      "text": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "zimbabwestar.com",
+      "signal_id": "804061d08f9505fd"
+    },
+    {
+      "time": "16:15",
+      "text": "Iran working continuously to counter cyber attacks : Minister",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "prokerala.com",
+      "signal_id": "d37aee6fccd318ca"
+    },
+    {
+      "time": "15:45",
+      "text": "Iran says Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "mizonews.net",
+      "signal_id": "79a27da92c3b3a56"
+    },
+    {
       "time": "14:45",
       "text": "Iran unveils Downed US Drones with  Elon Musk Starlink Gear  in dramatic display",
-      "impact": "השפעה מיידית מחושבת: +1.3",
-      "direction": "up",
-      "source": "en.dailypakistan.com.pk",
-      "signal_id": "4a7733fb9029891b"
-    },
-    {
-      "time": "15:00",
-      "text": "Iran , Oman home in on Hormuz Strait deal as ship attacks mount",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "westhawaiitoday.com",
-      "signal_id": "4fa13fa9c1bb2f6e"
-    },
-    {
-      "time": "15:00",
-      "text": "Trump Says US Could Claim Strait of Hormuz as Iran Keeps Shipping Route Nearly Shut",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "1290wlby.com",
-      "signal_id": "4778c282991c01d7"
-    },
-    {
-      "time": "14:45",
-      "text": "Is Iran - Oman New Shipping Deal Set to Change Strait of Hormuz ?",
       "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "en.dailypakistan.com.pk",
-      "signal_id": "c8e29e02a2237a15"
+      "signal_id": "4a7733fb9029891b"
     }
   ],
   "signals": [
+    {
+      "id": "804061d08f9505fd",
+      "name": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "804061d08f9505fd",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.845,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "zimbabwestar.com",
+      "url": "http://www.zimbabwestar.com/news/279245198/iranian-parliament-to-debate-hormuz-strait-oversight-bills-as-top-lawmaker-mocks-trump-threats",
+      "published_at": "2026-08-16T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
+    },
+    {
+      "id": "d37aee6fccd318ca",
+      "name": "Iran working continuously to counter cyber attacks : Minister",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d37aee6fccd318ca",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.845,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "prokerala.com",
+      "url": "https://www.prokerala.com/news/articles/a1801053.html",
+      "published_at": "2026-08-16T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.3
+      }
+    },
+    {
+      "id": "79a27da92c3b3a56",
+      "name": "Iran says Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "79a27da92c3b3a56",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.732,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "mizonews.net",
+      "url": "https://mizonews.net/business/17585/",
+      "published_at": "2026-08-16T12:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      }
+    },
     {
       "id": "4a7733fb9029891b",
       "name": "Iran unveils Downed US Drones with  Elon Musk Starlink Gear  in dramatic display",
@@ -83,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4a7733fb9029891b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.637,
+      "freshness": 0.55,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +192,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T11:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      },
-      "carried_forward": true
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      }
     },
     {
       "id": "4fa13fa9c1bb2f6e",
@@ -115,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4fa13fa9c1bb2f6e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.684,
+      "freshness": 0.591,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,43 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T12:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4778c282991c01d7",
-      "name": "Trump Says US Could Claim Strait of Hormuz as Iran Keeps Shipping Route Nearly Shut",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4778c282991c01d7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.684,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "1290wlby.com",
-      "url": "https://www.1290wlby.com/2026/08/16/trump-says-us-could-claim-strait-of-hormuz-as-iran-keeps-shipping-route-nearly-shut/",
-      "published_at": "2026-08-16T12:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.7
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
     },
     {
       "id": "c8e29e02a2237a15",
@@ -179,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c8e29e02a2237a15",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.637,
+      "freshness": 0.55,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +254,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T11:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
     },
     {
       "id": "17d454fbdf9e7765",
@@ -211,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "17d454fbdf9e7765",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.593,
+      "freshness": 0.512,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,107 +285,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "804061d08f9505fd",
-      "name": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "804061d08f9505fd",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.415,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/iranian-parliament-to-debate-hormuz-strait-oversight-bills-as-top-lawmaker-mocks-trumps-threats/articleshow/133272841.cms",
-      "published_at": "2026-08-16T10:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0d2961a8311375d2",
-      "name": "UAE says Iran attacked ADNOC vessel in Hormuz , urges waterway reopening",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0d2961a8311375d2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.29,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "asiaone.com",
-      "url": "https://www.asiaone.com/asia/uae-says-iran-attacked-adnoc-vessel-hormuz-urges-waterways-reopening",
-      "published_at": "2026-08-16T09:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "fb6d90adb1042908",
-      "name": "Iran steps up pressure on Qatar , Kuwait over missing military personnel",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fb6d90adb1042908",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.27,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middle-east-online.com",
-      "url": "https://www.middle-east-online.com/en/iran-steps-pressure-qatar-kuwait-over-missing-military-personnel",
-      "published_at": "2026-08-16T08:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.0
+      }
     }
   ],
   "history": [
@@ -2838,17 +2799,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-16T13:50:23.450906Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 23
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-16T12:37:36.752277Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-16T13:50:23.450906Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
