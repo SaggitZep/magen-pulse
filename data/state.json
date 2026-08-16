@@ -1,37 +1,37 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-16T23:30:23.892692Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-16T23:52:22.098456Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 3,
       "low": 0,
-      "high": 16,
-      "confidence": 66,
+      "high": 19,
+      "confidence": 51,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 10,
       "low": 0,
-      "high": 24,
-      "confidence": 66,
+      "high": 26,
+      "confidence": 51,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 5,
-      "high": 31,
-      "confidence": 66,
+      "score": 16,
+      "low": 0,
+      "high": 32,
+      "confidence": 51,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
@@ -42,7 +42,7 @@
     {
       "time": "01:30",
       "text": "IRANIAN CYBER THREAT : Shin Bet Warns Journalists Of Targeted Phishing Campaign",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "theyeshivaworld.com",
       "signal_id": "ef12d9d40f930320"
@@ -50,7 +50,7 @@
     {
       "time": "01:45",
       "text": "White House  discussing using nuclear weapons on Iran , claims former Congresswoman | World | News",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "express.co.uk",
       "signal_id": "c5660f477eeca86a"
@@ -58,7 +58,7 @@
     {
       "time": "01:30",
       "text": "BETTING SCANDAL : IAF Major Faces Charges Over Polymarket Wagers On Iran , Yemen Strikes",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "theyeshivaworld.com",
       "signal_id": "59435f63e601317d"
@@ -66,7 +66,7 @@
     {
       "time": "23:30",
       "text": "Israel strikes Lebanon again , 11 dead ; Iran still defiant on Hormuz control",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "7de9d0572f5155fe"
@@ -83,7 +83,7 @@
       "dependency_group": "ef12d9d40f930320",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.75,
+      "freshness": 0.676,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-16T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.3
-      }
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      },
+      "carried_forward": true
     },
     {
       "id": "c5660f477eeca86a",
@@ -114,7 +115,7 @@
       "dependency_group": "c5660f477eeca86a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.806,
+      "freshness": 0.726,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-16T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 7.9
-      }
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      },
+      "carried_forward": true
     },
     {
       "id": "59435f63e601317d",
@@ -145,7 +147,7 @@
       "dependency_group": "59435f63e601317d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.75,
+      "freshness": 0.676,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-16T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.4
-      }
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "7de9d0572f5155fe",
@@ -176,7 +179,7 @@
       "dependency_group": "7de9d0572f5155fe",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.424,
+      "freshness": 0.381,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-16T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "84c4208def760102",
@@ -207,7 +211,7 @@
       "dependency_group": "84c4208def760102",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.424,
+      "freshness": 0.381,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-16T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "9a92860781bfd168",
@@ -238,7 +243,7 @@
       "dependency_group": "9a92860781bfd168",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.342,
+      "freshness": 0.308,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@
       "published_at": "2026-08-16T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2906,17 +2912,23 @@
       "immediate": 3,
       "short": 11,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-16T23:52:22.098456Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 16
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-16T23:30:23.892692Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 6
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 6
       },
       "manual": {
         "ok": true,
