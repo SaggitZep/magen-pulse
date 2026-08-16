@@ -1,56 +1,64 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-16T22:15:25.853432Z",
+  "mode": "live",
+  "generated_at": "2026-08-16T22:43:31.841848Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 11,
+      "score": 3,
       "low": 0,
-      "high": 27,
-      "confidence": 50,
-      "status": "נמוך"
+      "high": 16,
+      "confidence": 67,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
+      "score": 11,
       "low": 0,
-      "high": 31,
-      "confidence": 51,
+      "high": 24,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
       "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 51,
+      "low": 5,
+      "high": 31,
+      "confidence": 67,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "ירידה",
+    "points_60m": -8
   },
   "changes": [
     {
-      "time": "21:00",
-      "text": "Israel surprised by speed of Iran missile recovery despite strikes : Report",
-      "impact": "השפעה מיידית מחושבת: +8.5",
+      "time": "01:30",
+      "text": "IRANIAN CYBER THREAT : Shin Bet Warns Journalists Of Targeted Phishing Campaign",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "timesofindia.indiatimes.com",
-      "signal_id": "b5d138d49ea8bf88"
+      "source": "theyeshivaworld.com",
+      "signal_id": "ef12d9d40f930320"
+    },
+    {
+      "time": "01:30",
+      "text": "BETTING SCANDAL : IAF Major Faces Charges Over Polymarket Wagers On Iran , Yemen Strikes",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "theyeshivaworld.com",
+      "signal_id": "59435f63e601317d"
     },
     {
       "time": "23:30",
       "text": "Israel strikes Lebanon again , 11 dead ; Iran still defiant on Hormuz control",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "7de9d0572f5155fe"
@@ -58,52 +66,74 @@
     {
       "time": "23:30",
       "text": "iran us war culf allies frustrated with trump questions on american bases",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "express.pk",
       "signal_id": "84c4208def760102"
-    },
-    {
-      "time": "22:45",
-      "text": "Israel strikes Lebanon as US preps fresh Iran sanctions package",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "stripes.com",
-      "signal_id": "9a92860781bfd168"
     }
   ],
   "signals": [
     {
-      "id": "b5d138d49ea8bf88",
-      "name": "Israel surprised by speed of Iran missile recovery despite strikes : Report",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "ef12d9d40f930320",
+      "name": "IRANIAN CYBER THREAT : Shin Bet Warns Journalists Of Targeted Phishing Campaign",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "b5d138d49ea8bf88",
-      "strength": 0.58,
+      "dependency_group": "ef12d9d40f930320",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.296,
+      "freshness": 0.938,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/israel-surprised-by-speed-of-irans-missile-recovery-despite-strikes-report/articleshow/133278681.cms",
-      "published_at": "2026-08-16T18:00:00Z",
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2586134/iranian-cyber-threat-shin-bet-warns-journalists-of-targeted-phishing-campaign.html",
+      "published_at": "2026-08-16T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 8.5,
-        "short": 6.6,
-        "extended": 2.8
+        "immediate": 1.8,
+        "short": 6.1,
+        "extended": 10.4
+      }
+    },
+    {
+      "id": "59435f63e601317d",
+      "name": "BETTING SCANDAL : IAF Major Faces Charges Over Polymarket Wagers On Iran , Yemen Strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "59435f63e601317d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.938,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2586441/betting-scandal-iaf-major-faces-charges-over-polymarket-wagers-on-iran-yemen-strikes.html",
+      "published_at": "2026-08-16T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
     },
     {
       "id": "7de9d0572f5155fe",
@@ -115,7 +145,7 @@
       "dependency_group": "7de9d0572f5155fe",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.605,
+      "freshness": 0.529,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +161,10 @@
       "published_at": "2026-08-16T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      }
     },
     {
       "id": "84c4208def760102",
@@ -147,7 +176,7 @@
       "dependency_group": "84c4208def760102",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.605,
+      "freshness": 0.529,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +192,10 @@
       "published_at": "2026-08-16T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      }
     },
     {
       "id": "9a92860781bfd168",
@@ -179,7 +207,7 @@
       "dependency_group": "9a92860781bfd168",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.489,
+      "freshness": 0.427,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +223,10 @@
       "published_at": "2026-08-16T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
     },
     {
       "id": "adf8dd214e15952b",
@@ -211,7 +238,7 @@
       "dependency_group": "adf8dd214e15952b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.394,
+      "freshness": 0.345,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,11 +254,10 @@
       "published_at": "2026-08-16T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     }
   ],
   "history": [
@@ -2862,17 +2888,23 @@
       "immediate": 11,
       "short": 15,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-16T22:43:31.841848Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-16T21:51:22.376744Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-16T22:43:31.841848Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
