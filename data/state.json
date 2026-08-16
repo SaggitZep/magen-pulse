@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-16T17:52:05.463322Z",
+  "generated_at": "2026-08-16T18:22:44.234212Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,24 +9,24 @@
       "score": 4,
       "low": 0,
       "high": 20,
-      "confidence": 51,
+      "confidence": 49,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
+      "score": 13,
       "low": 0,
-      "high": 30,
-      "confidence": 51,
+      "high": 29,
+      "confidence": 49,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 8,
-      "high": 40,
-      "confidence": 51,
-      "status": "מוגבר"
+      "score": 21,
+      "low": 5,
+      "high": 37,
+      "confidence": 49,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "20:00",
       "text": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "taiwansun.com",
       "signal_id": "804061d08f9505fd"
@@ -50,7 +50,7 @@
     {
       "time": "20:00",
       "text": "Iran and Oman work on temporary Hormuz shipping route as Trump threatens to claim the strait",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "middleeasteye.net",
       "signal_id": "c51d189ea24deaaf"
@@ -58,7 +58,7 @@
     {
       "time": "19:45",
       "text": "בלי מטוסים וטילים : כך יכול טראמפ להדק את טבעת החנק סביב איראן",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "globes.co.il",
       "signal_id": "bcb196bd93951757"
@@ -66,7 +66,7 @@
     {
       "time": "17:15",
       "text": "Hamas , Hezbollah coordinate attacks with Iran , IDF warns of rebuilt axis of evil",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "ffb222682152a239"
@@ -83,7 +83,7 @@
       "dependency_group": "804061d08f9505fd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.78,
+      "freshness": 0.674,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-16T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "c51d189ea24deaaf",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.78,
+      "freshness": 0.674,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-16T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "bcb196bd93951757",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.727,
+      "freshness": 0.628,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-16T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.6
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.4
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "ffb222682152a239",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.356,
+      "freshness": 0.307,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-16T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
       },
       "carried_forward": true
     }
@@ -2770,6 +2770,12 @@
       "immediate": 4,
       "short": 14,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-16T18:22:44.234212Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 21
     }
   ],
   "health": {
