@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-16T08:02:08.466093Z",
+  "generated_at": "2026-08-16T08:44:18.671921Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 15,
+      "score": 12,
       "low": 0,
-      "high": 31,
-      "confidence": 51,
+      "high": 28,
+      "confidence": 49,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 21,
-      "low": 5,
-      "high": 37,
-      "confidence": 52,
+      "score": 17,
+      "low": 1,
+      "high": 33,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 9,
-      "high": 41,
-      "confidence": 52,
-      "status": "מוגבר"
+      "score": 20,
+      "low": 4,
+      "high": 36,
+      "confidence": 50,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -35,14 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "ירידה",
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "06:45",
       "text": "Israel cannot wait forever for a deal as Iran rapidly rearms its missile program",
-      "impact": "השפעה מיידית מחושבת: +11.1",
+      "impact": "השפעה מיידית מחושבת: +9.1",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "b5d8e8386e7355e9"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:00",
       "text": "Iran says full security in Hormuz depends on end to US blockade , threats",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "tribune.com.pk",
       "signal_id": "db72958c65377a98"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:15",
       "text": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "wtop.com",
       "signal_id": "a1bc59252ef59afa"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:00",
       "text": "Hormuz Strait Deal , होर्मुज स्ट्रेट में मिलकर टोल वसूलेंगे ईरान - ओमान ? दोनों देशों में शिपिंग डील का ऐलान , डोनाल्ड ट्रंप पर नजर - iran oman agreement hormuz strait shipping route eyes on donald trump us blockade - As",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "navbharattimes.indiatimes.com",
       "signal_id": "2995e79bc8543257"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b5d8e8386e7355e9",
       "strength": 0.58,
       "reliability": 0.74,
-      "freshness": 0.294,
+      "freshness": 0.24,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.1,
-        "short": 8.7,
-        "extended": 3.7
+        "immediate": 9.1,
+        "short": 7.1,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "db72958c65377a98",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.744,
+      "freshness": 0.609,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a1bc59252ef59afa",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.799,
+      "freshness": 0.654,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.9
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2995e79bc8543257",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.744,
+      "freshness": 0.609,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f5afb2671a4eb5d3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.485,
+      "freshness": 0.396,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T05:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7d4fef449d706b3e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.316,
+      "freshness": 0.258,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bb5b23f7495ecf14",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.316,
+      "freshness": 0.258,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b538431aa1d59007",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.294,
+      "freshness": 0.24,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     }
@@ -2778,6 +2778,12 @@ window.MAGEN_STATE = {
       "immediate": 15,
       "short": 21,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-08-16T08:44:18.671921Z",
+      "immediate": 12,
+      "short": 17,
+      "extended": 20
     }
   ],
   "health": {
