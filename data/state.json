@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-16T15:57:54.852387Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-16T16:36:41.267593Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 66,
+      "high": 19,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 11,
       "low": 0,
-      "high": 26,
-      "confidence": 66,
+      "high": 27,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 66,
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 50,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "18:30",
       "text": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "floridastatesman.com",
       "signal_id": "804061d08f9505fd"
@@ -50,7 +50,7 @@
     {
       "time": "17:15",
       "text": "Hamas , Hezbollah coordinate attacks with Iran , IDF warns of rebuilt axis of evil",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "ffb222682152a239"
@@ -58,7 +58,7 @@
     {
       "time": "16:15",
       "text": "Iran working continuously to counter cyber attacks : Minister",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "prokerala.com",
       "signal_id": "d37aee6fccd318ca"
@@ -66,7 +66,7 @@
     {
       "time": "15:45",
       "text": "Iran says Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "mizonews.net",
       "signal_id": "79a27da92c3b3a56"
@@ -83,7 +83,7 @@
       "dependency_group": "804061d08f9505fd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.876,
+      "freshness": 0.728,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-16T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.7,
-        "extended": 9.7
-      }
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.1
+      },
+      "carried_forward": true
     },
     {
       "id": "ffb222682152a239",
@@ -114,7 +115,7 @@
       "dependency_group": "ffb222682152a239",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.613,
+      "freshness": 0.509,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-16T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.3,
-        "extended": 9.0
-      }
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      },
+      "carried_forward": true
     },
     {
       "id": "d37aee6fccd318ca",
@@ -145,7 +147,7 @@
       "dependency_group": "d37aee6fccd318ca",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.46,
+      "freshness": 0.383,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-16T13:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "79a27da92c3b3a56",
@@ -176,7 +179,7 @@
       "dependency_group": "79a27da92c3b3a56",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.399,
+      "freshness": 0.332,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-16T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
+      },
+      "carried_forward": true
     },
     {
       "id": "4fa13fa9c1bb2f6e",
@@ -207,7 +211,7 @@
       "dependency_group": "4fa13fa9c1bb2f6e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.322,
+      "freshness": 0.268,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -224,9 +228,10 @@
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      }
+        "short": 1.6,
+        "extended": 2.6
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2773,17 +2778,23 @@
       "immediate": 4,
       "short": 13,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-16T16:36:41.267593Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-16T15:57:54.852387Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 5
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
