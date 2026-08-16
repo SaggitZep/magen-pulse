@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-16T03:24:34.022977Z",
+  "generated_at": "2026-08-16T04:10:45.403734Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
-      "low": 0,
-      "high": 17,
-      "confidence": 66,
-      "status": "לא זוהה אות חריג"
+      "score": 34,
+      "low": 22,
+      "high": 46,
+      "confidence": 75,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
-      "low": 0,
-      "high": 26,
-      "confidence": 66,
-      "status": "נמוך"
+      "score": 34,
+      "low": 22,
+      "high": 46,
+      "confidence": 73,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 66,
-      "status": "נמוך"
+      "score": 33,
+      "low": 21,
+      "high": 45,
+      "confidence": 73,
+      "status": "מוגבר"
     }
   },
   "coverage": {
@@ -35,44 +35,168 @@
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 1
+    "level": "זינוק חריג",
+    "points_60m": 30
   },
   "changes": [
     {
-      "time": "06:00",
-      "text": "Misleading statement : Qatar rejects Iran claim it captured 3 pilots after March strikes",
+      "time": "06:45",
+      "text": "Israel cannot wait forever for a deal as Iran rapidly rearms its missile program",
+      "impact": "השפעה מיידית מחושבת: +33.4",
+      "direction": "up",
+      "source": "jpost.com",
+      "signal_id": "b5d8e8386e7355e9"
+    },
+    {
+      "time": "07:00",
+      "text": "Another tanker attacked in Hormuz ; Iran says Qatar is holding 3 missing pilots",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "businesstoday.in",
+      "signal_id": "7d4fef449d706b3e"
+    },
+    {
+      "time": "07:00",
+      "text": "Israeli Strikes Kill 11 in Lebanon ; Iran Condemns Attacks",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "deccanchronicle.com",
+      "signal_id": "bb5b23f7495ecf14"
+    },
+    {
+      "time": "06:45",
+      "text": "Qatar denies Iran claim it detained 3 fighter pilots after March attack",
       "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "moneycontrol.com",
-      "signal_id": "af170d126f5db3ec"
-    },
-    {
-      "time": "06:00",
-      "text": "Qatar calls Iran claim  misleading , denies capturing 3 pilots after March strike",
-      "impact": "השפעה מיידית מחושבת: +1.5",
-      "direction": "up",
-      "source": "timesofindia.indiatimes.com",
-      "signal_id": "eb057c16c0c61e9f"
-    },
-    {
-      "time": "04:00",
-      "text": "Gross violations of international law : Iran condemns Israeli strikes on southern Lebanon",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "russiaherald.com",
-      "signal_id": "b899517428c29780"
-    },
-    {
-      "time": "02:45",
-      "text": "Iran fires back at Trump threat to declare Hormuz a US territory",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "rnz.co.nz",
-      "signal_id": "f07cc16897dd1e31"
+      "source": "dunyanews.tv",
+      "signal_id": "b538431aa1d59007"
     }
   ],
   "signals": [
+    {
+      "id": "b5d8e8386e7355e9",
+      "name": "Israel cannot wait forever for a deal as Iran rapidly rearms its missile program",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b5d8e8386e7355e9",
+      "strength": 0.58,
+      "reliability": 0.74,
+      "freshness": 0.885,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "jpost.com",
+      "url": "https://www.jpost.com/opinion/article-905596",
+      "published_at": "2026-08-16T03:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 33.4,
+        "short": 26.1,
+        "extended": 11.1
+      }
+    },
+    {
+      "id": "7d4fef449d706b3e",
+      "name": "Another tanker attacked in Hormuz ; Iran says Qatar is holding 3 missing pilots",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7d4fef449d706b3e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.95,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "businesstoday.in",
+      "url": "https://www.businesstoday.in/world/story/another-tanker-attacked-in-hormuz-iran-says-qatar-is-holding-3-missing-pilots-549440-2026-08-16",
+      "published_at": "2026-08-16T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
+    },
+    {
+      "id": "bb5b23f7495ecf14",
+      "name": "Israeli Strikes Kill 11 in Lebanon ; Iran Condemns Attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bb5b23f7495ecf14",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.95,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "deccanchronicle.com",
+      "url": "https://www.deccanchronicle.com/west-asia/israeli-strikes-kill-11-in-lebanon-iran-condemns-attacks-1979534",
+      "published_at": "2026-08-16T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
+    },
+    {
+      "id": "b538431aa1d59007",
+      "name": "Qatar denies Iran claim it detained 3 fighter pilots after March attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b538431aa1d59007",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.885,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dunyanews.tv",
+      "url": "https://dunyanews.tv/en/World/968133-qatar-denies-irans-claim-it-detained-3-fighter-pilots-after-march-att",
+      "published_at": "2026-08-16T03:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
     {
       "id": "af170d126f5db3ec",
       "name": "Misleading statement : Qatar rejects Iran claim it captured 3 pilots after March strikes",
@@ -83,7 +207,7 @@
       "dependency_group": "af170d126f5db3ec",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.89,
+      "freshness": 0.714,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +223,9 @@
       "published_at": "2026-08-16T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
       }
     },
     {
@@ -114,7 +238,7 @@
       "dependency_group": "eb057c16c0c61e9f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.89,
+      "freshness": 0.714,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +254,9 @@
       "published_at": "2026-08-16T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
       }
     },
     {
@@ -145,7 +269,7 @@
       "dependency_group": "b899517428c29780",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.502,
+      "freshness": 0.403,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,102 +285,9 @@
       "published_at": "2026-08-16T01:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 4.9
-      }
-    },
-    {
-      "id": "f07cc16897dd1e31",
-      "name": "Iran fires back at Trump threat to declare Hormuz a US territory",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f07cc16897dd1e31",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.351,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "rnz.co.nz",
-      "url": "https://www.rnz.co.nz/news/world/1010211/iran-fires-back-at-trump-s-threat-to-declare-hormuz-a-us-territory",
-      "published_at": "2026-08-15T23:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
         "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "a1bc59252ef59afa",
-      "name": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a1bc59252ef59afa",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.378,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yankton.net",
-      "url": "https://www.yankton.net/news/national_ap/article_819b5f46-dfeb-5327-ad74-5902fc145e35.html",
-      "published_at": "2026-08-16T00:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    },
-    {
-      "id": "e41dba0de04af92b",
-      "name": "Iran Accuses Qatar of Holding 3 of Its Military Pilots Captive",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e41dba0de04af92b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.351,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theepochtimes.com",
-      "url": "https://www.theepochtimes.com/world/iran-accuses-qatar-of-holding-3-of-its-military-pilots-captive-6075596",
-      "published_at": "2026-08-15T23:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
+        "extended": 4.0
       }
     }
   ],
@@ -2666,17 +2697,23 @@
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-16T04:10:45.403734Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 33
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-16T03:24:34.022977Z",
+    "last_success": "2026-08-16T04:10:45.403734Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 6
+        "relevant": 7
       },
       "manual": {
         "ok": true,
