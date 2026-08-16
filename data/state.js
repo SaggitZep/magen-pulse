@@ -1,37 +1,37 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-16T23:01:26.533549Z",
+  "mode": "live",
+  "generated_at": "2026-08-16T23:30:23.892692Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 3,
       "low": 0,
-      "high": 19,
-      "confidence": 52,
+      "high": 16,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 11,
       "low": 0,
-      "high": 26,
-      "confidence": 52,
+      "high": 24,
+      "confidence": 66,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
-      "low": 0,
-      "high": 32,
-      "confidence": 52,
+      "score": 18,
+      "low": 5,
+      "high": 31,
+      "confidence": 66,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
@@ -42,15 +42,23 @@ window.MAGEN_STATE = {
     {
       "time": "01:30",
       "text": "IRANIAN CYBER THREAT : Shin Bet Warns Journalists Of Targeted Phishing Campaign",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "theyeshivaworld.com",
       "signal_id": "ef12d9d40f930320"
     },
     {
+      "time": "01:45",
+      "text": "White House  discussing using nuclear weapons on Iran , claims former Congresswoman | World | News",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "express.co.uk",
+      "signal_id": "c5660f477eeca86a"
+    },
+    {
       "time": "01:30",
       "text": "BETTING SCANDAL : IAF Major Faces Charges Over Polymarket Wagers On Iran , Yemen Strikes",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "theyeshivaworld.com",
       "signal_id": "59435f63e601317d"
@@ -58,18 +66,10 @@ window.MAGEN_STATE = {
     {
       "time": "23:30",
       "text": "Israel strikes Lebanon again , 11 dead ; Iran still defiant on Hormuz control",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "7de9d0572f5155fe"
-    },
-    {
-      "time": "23:30",
-      "text": "iran us war culf allies frustrated with trump questions on american bases",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "express.pk",
-      "signal_id": "84c4208def760102"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ef12d9d40f930320",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.861,
+      "freshness": 0.75,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +99,41 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.6,
-        "extended": 9.5
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.3
+      }
+    },
+    {
+      "id": "c5660f477eeca86a",
+      "name": "White House  discussing using nuclear weapons on Iran , claims former Congresswoman | World | News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c5660f477eeca86a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.806,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "express.co.uk",
+      "url": "https://www.express.co.uk/news/world/2239689/white-house-discussing-nuclear-weapons",
+      "published_at": "2026-08-16T22:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 7.9
+      }
     },
     {
       "id": "59435f63e601317d",
@@ -115,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "59435f63e601317d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.861,
+      "freshness": 0.75,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +161,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      },
-      "carried_forward": true
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      }
     },
     {
       "id": "7de9d0572f5155fe",
@@ -147,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7de9d0572f5155fe",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.486,
+      "freshness": 0.424,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +192,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
     },
     {
       "id": "84c4208def760102",
@@ -179,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "84c4208def760102",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.486,
+      "freshness": 0.424,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
     },
     {
       "id": "9a92860781bfd168",
@@ -211,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9a92860781bfd168",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.392,
+      "freshness": 0.342,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,43 +254,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "adf8dd214e15952b",
-      "name": "Houthi Missile Bases Relocated to Civilian Areas Near Sanaa , Iranian Experts Reportedly Present",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "adf8dd214e15952b",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.317,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "khabaragency.net",
-      "url": "https://www.khabaragency.net/news251632.html",
-      "published_at": "2026-08-16T19:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
+        "short": 2.0,
+        "extended": 3.4
+      }
     }
   ],
   "history": [
@@ -2906,17 +2900,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-16T23:30:23.892692Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-16T22:43:31.841848Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-16T23:30:23.892692Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 6
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
