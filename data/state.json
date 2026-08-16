@@ -1,78 +1,171 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-16T02:18:19.830894Z",
+  "mode": "live",
+  "generated_at": "2026-08-16T03:24:34.022977Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 49,
+      "high": 17,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 13,
       "low": 0,
-      "high": 25,
-      "confidence": 49,
+      "high": 26,
+      "confidence": 66,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
-      "low": 0,
-      "high": 31,
-      "confidence": 49,
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 66,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 1
   },
   "changes": [
     {
-      "time": "02:45",
-      "text": "Iran fires back at Trump threat to declare Hormuz a US territory",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "06:00",
+      "text": "Misleading statement : Qatar rejects Iran claim it captured 3 pilots after March strikes",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "rnz.co.nz",
-      "signal_id": "f07cc16897dd1e31"
+      "source": "moneycontrol.com",
+      "signal_id": "af170d126f5db3ec"
     },
     {
-      "time": "03:00",
-      "text": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "06:00",
+      "text": "Qatar calls Iran claim  misleading , denies capturing 3 pilots after March strike",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "yankton.net",
-      "signal_id": "a1bc59252ef59afa"
+      "source": "timesofindia.indiatimes.com",
+      "signal_id": "eb057c16c0c61e9f"
     },
     {
-      "time": "03:00",
+      "time": "04:00",
       "text": "Gross violations of international law : Iran condemns Israeli strikes on southern Lebanon",
       "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
-      "source": "batonrougepost.com",
+      "source": "russiaherald.com",
       "signal_id": "b899517428c29780"
     },
     {
       "time": "02:45",
-      "text": "Iran Accuses Qatar of Holding 3 of Its Military Pilots Captive",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "text": "Iran fires back at Trump threat to declare Hormuz a US territory",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
-      "source": "theepochtimes.com",
-      "signal_id": "e41dba0de04af92b"
+      "source": "rnz.co.nz",
+      "signal_id": "f07cc16897dd1e31"
     }
   ],
   "signals": [
+    {
+      "id": "af170d126f5db3ec",
+      "name": "Misleading statement : Qatar rejects Iran claim it captured 3 pilots after March strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "af170d126f5db3ec",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.89,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/misleading-statements-qatar-rejects-iran-s-claim-it-captured-3-pilots-after-march-strikes-article-14006526.html",
+      "published_at": "2026-08-16T03:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "eb057c16c0c61e9f",
+      "name": "Qatar calls Iran claim  misleading , denies capturing 3 pilots after March strike",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "eb057c16c0c61e9f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.89,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/qatar-calls-irans-claim-misleading-denies-capturing-3-pilots-after-march-strike/articleshow/133268959.cms",
+      "published_at": "2026-08-16T03:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "b899517428c29780",
+      "name": "Gross violations of international law : Iran condemns Israeli strikes on southern Lebanon",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b899517428c29780",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.502,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "russiaherald.com",
+      "url": "http://www.russiaherald.com/news/279244189/gross-violations-of-international-law-iran-condemns-israeli-strikes-on-southern-lebanon",
+      "published_at": "2026-08-16T01:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      }
+    },
     {
       "id": "f07cc16897dd1e31",
       "name": "Iran fires back at Trump threat to declare Hormuz a US territory",
@@ -83,7 +176,7 @@
       "dependency_group": "f07cc16897dd1e31",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.482,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +192,10 @@
       "published_at": "2026-08-15T23:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
     },
     {
       "id": "a1bc59252ef59afa",
@@ -115,7 +207,7 @@
       "dependency_group": "a1bc59252ef59afa",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.518,
+      "freshness": 0.378,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,43 +223,10 @@
       "published_at": "2026-08-16T00:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b899517428c29780",
-      "name": "Gross violations of international law : Iran condemns Israeli strikes on southern Lebanon",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b899517428c29780",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.518,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "batonrougepost.com",
-      "url": "http://www.batonrougepost.com/news/279244189/gross-violations-of-international-law-iran-condemns-israeli-strikes-on-southern-lebanon",
-      "published_at": "2026-08-16T00:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      }
     },
     {
       "id": "e41dba0de04af92b",
@@ -179,7 +238,7 @@
       "dependency_group": "e41dba0de04af92b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.482,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,43 +254,10 @@
       "published_at": "2026-08-15T23:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c1248689ad113787",
-      "name": "Iran claims Qatar holding pilots as UAE says ship attacked in Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c1248689ad113787",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.253,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "redditchadvertiser.co.uk",
-      "url": "https://www.redditchadvertiser.co.uk/news/national/26467922.iran-claims-qatar-holding-pilots-uae-says-ship-attacked-strait-hormuz/",
-      "published_at": "2026-08-15T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
+      }
     }
   ],
   "history": [
@@ -2634,17 +2660,23 @@
       "immediate": 3,
       "short": 9,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-08-16T03:24:34.022977Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-16T00:50:37.497561Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-16T03:24:34.022977Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
