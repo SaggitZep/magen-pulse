@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-16T18:56:31.673258Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-16T19:28:58.478067Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 34,
-      "low": 22,
-      "high": 46,
-      "confidence": 70,
+      "score": 32,
+      "low": 17,
+      "high": 47,
+      "confidence": 53,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 34,
-      "low": 21,
-      "high": 47,
-      "confidence": 69,
+      "score": 30,
+      "low": 15,
+      "high": 45,
+      "confidence": 53,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 26,
-      "low": 13,
+      "score": 23,
+      "low": 7,
       "high": 39,
-      "confidence": 69,
+      "confidence": 52,
       "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 30
+    "level": "ירידה",
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "21:00",
       "text": "Israel surprised by speed of Iran missile recovery despite strikes : Report",
-      "impact": "השפעה מיידית מחושבת: +21.8",
+      "impact": "השפעה מיידית מחושבת: +18.7",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "b5d138d49ea8bf88"
@@ -50,7 +50,7 @@
     {
       "time": "20:45",
       "text": "From India to Israel to US : How a Fake Iran Nuclear Quote Went Viral and Misled Global Media",
-      "impact": "השפעה מיידית מחושבת: +17.5",
+      "impact": "השפעה מיידית מחושבת: +15.0",
       "direction": "up",
       "source": "gulfnews.com",
       "signal_id": "1c099ad70469f28b"
@@ -58,7 +58,7 @@
     {
       "time": "20:45",
       "text": "US - Iran Standoff Impact on UAE : Strait of Hormuz , Flight Disruptions , Shipping Routes and What Residents Should Know Today",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "gulfnews.com",
       "signal_id": "35f9c9d5fa21ddb9"
@@ -66,7 +66,7 @@
     {
       "time": "20:00",
       "text": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "taiwansun.com",
       "signal_id": "804061d08f9505fd"
@@ -83,7 +83,7 @@
       "dependency_group": "b5d138d49ea8bf88",
       "strength": 0.58,
       "reliability": 0.56,
-      "freshness": 0.764,
+      "freshness": 0.655,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-16T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 21.8,
-        "short": 17.0,
-        "extended": 7.2
-      }
+        "immediate": 18.7,
+        "short": 14.6,
+        "extended": 6.2
+      },
+      "carried_forward": true
     },
     {
       "id": "1c099ad70469f28b",
@@ -114,7 +115,7 @@
       "dependency_group": "1c099ad70469f28b",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.711,
+      "freshness": 0.609,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-16T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 17.5,
-        "short": 13.7,
-        "extended": 5.8
-      }
+        "immediate": 15.0,
+        "short": 11.7,
+        "extended": 5.0
+      },
+      "carried_forward": true
     },
     {
       "id": "35f9c9d5fa21ddb9",
@@ -145,7 +147,7 @@
       "dependency_group": "35f9c9d5fa21ddb9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.711,
+      "freshness": 0.609,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-16T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
-      }
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      },
+      "carried_forward": true
     },
     {
       "id": "804061d08f9505fd",
@@ -176,7 +179,7 @@
       "dependency_group": "804061d08f9505fd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.574,
+      "freshness": 0.492,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-16T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
-      }
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      },
+      "carried_forward": true
     },
     {
       "id": "bcb196bd93951757",
@@ -207,7 +211,7 @@
       "dependency_group": "bcb196bd93951757",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.535,
+      "freshness": 0.458,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-16T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      },
+      "carried_forward": true
     },
     {
       "id": "c51d189ea24deaaf",
@@ -238,7 +243,7 @@
       "dependency_group": "c51d189ea24deaaf",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.574,
+      "freshness": 0.492,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@
       "published_at": "2026-08-16T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
-      }
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2840,17 +2846,23 @@
       "immediate": 34,
       "short": 34,
       "extended": 26
+    },
+    {
+      "timestamp": "2026-08-16T19:28:58.478067Z",
+      "immediate": 32,
+      "short": 30,
+      "extended": 23
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-16T18:56:31.673258Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 6
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 6
       },
       "manual": {
         "ok": true,
