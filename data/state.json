@@ -1,75 +1,75 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-16T06:54:32.434779Z",
+  "mode": "live",
+  "generated_at": "2026-08-16T07:39:42.221376Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 49,
+      "score": 16,
+      "low": 3,
+      "high": 29,
+      "confidence": 67,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 49,
-      "status": "נמוך"
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 67,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 48,
-      "status": "נמוך"
+      "score": 27,
+      "low": 14,
+      "high": 40,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -5
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "06:45",
       "text": "Israel cannot wait forever for a deal as Iran rapidly rearms its missile program",
-      "impact": "השפעה מיידית מחושבת: +15.3",
+      "impact": "השפעה מיידית מחושבת: +12.4",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "b5d8e8386e7355e9"
     },
     {
-      "time": "07:00",
-      "text": "Another tanker attacked in Hormuz ; Iran says Qatar is holding 3 missing pilots",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "10:00",
+      "text": "Iran says full security in Hormuz depends on end to US blockade , threats",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "businesstoday.in",
-      "signal_id": "7d4fef449d706b3e"
+      "source": "tribune.com.pk",
+      "signal_id": "db72958c65377a98"
     },
     {
-      "time": "07:00",
-      "text": "Israeli Strikes Kill 11 in Lebanon ; Iran Condemns Attacks",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "10:15",
+      "text": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "deccanchronicle.com",
-      "signal_id": "bb5b23f7495ecf14"
+      "source": "wtop.com",
+      "signal_id": "a1bc59252ef59afa"
     },
     {
-      "time": "06:45",
-      "text": "Qatar denies Iran claim it detained 3 fighter pilots after March attack",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "10:00",
+      "text": "Hormuz Strait Deal , होर्मुज स्ट्रेट में मिलकर टोल वसूलेंगे ईरान - ओमान ? दोनों देशों में शिपिंग डील का ऐलान , डोनाल्ड ट्रंप पर नजर - iran oman agreement hormuz strait shipping route eyes on donald trump us blockade - As",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "dunyanews.tv",
-      "signal_id": "b538431aa1d59007"
+      "source": "navbharattimes.indiatimes.com",
+      "signal_id": "2995e79bc8543257"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@
       "dependency_group": "b5d8e8386e7355e9",
       "strength": 0.58,
       "reliability": 0.74,
-      "freshness": 0.406,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,11 +99,134 @@
       "published_at": "2026-08-16T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 15.3,
-        "short": 12.0,
-        "extended": 5.1
+        "immediate": 12.4,
+        "short": 9.6,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "db72958c65377a98",
+      "name": "Iran says full security in Hormuz depends on end to US blockade , threats",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "db72958c65377a98",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.828,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tribune.com.pk",
+      "url": "https://tribune.com.pk/story/2624167/iran-says-full-security-in-hormuz-depends-on-end-to-us-blockade-threats",
+      "published_at": "2026-08-16T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
+    {
+      "id": "a1bc59252ef59afa",
+      "name": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a1bc59252ef59afa",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.889,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wtop.com",
+      "url": "https://wtop.com/world/2026/08/israeli-strike-kills-7-in-lebanon-2-tankers-attacked-in-hormuz-and-other-news-from-the-middle-east/",
+      "published_at": "2026-08-16T07:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "2995e79bc8543257",
+      "name": "Hormuz Strait Deal , होर्मुज स्ट्रेट में मिलकर टोल वसूलेंगे ईरान - ओमान ? दोनों देशों में शिपिंग डील का ऐलान , डोनाल्ड ट्रंप पर नजर - iran oman agreement hormuz strait shipping route eyes on donald trump us blockade - As",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2995e79bc8543257",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.828,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "navbharattimes.indiatimes.com",
+      "url": "https://navbharattimes.indiatimes.com/world/asian-countries/iran-oman-agreement-hormuz-strait-shipping-route-eyes-on-donald-trump-us-blockade/articleshow/133270982.cms",
+      "published_at": "2026-08-16T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "f5afb2671a4eb5d3",
+      "name": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f5afb2671a4eb5d3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.539,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tribuneindia.com",
+      "url": "https://www.tribuneindia.com/news/world/iran-claims-qatar-is-holding-pilots-israeli-strikes-kill-11-in-lebanon/",
+      "published_at": "2026-08-16T05:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
     },
     {
       "id": "7d4fef449d706b3e",
@@ -115,7 +238,7 @@
       "dependency_group": "7d4fef449d706b3e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.436,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +254,10 @@
       "published_at": "2026-08-16T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
+      }
     },
     {
       "id": "bb5b23f7495ecf14",
@@ -147,7 +269,7 @@
       "dependency_group": "bb5b23f7495ecf14",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.436,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +285,10 @@
       "published_at": "2026-08-16T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
+      }
     },
     {
       "id": "b538431aa1d59007",
@@ -179,7 +300,7 @@
       "dependency_group": "b538431aa1d59007",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.406,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,107 +316,10 @@
       "published_at": "2026-08-16T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "af170d126f5db3ec",
-      "name": "Misleading statement : Qatar rejects Iran claim it captured 3 pilots after March strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "af170d126f5db3ec",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.327,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/misleading-statements-qatar-rejects-iran-s-claim-it-captured-3-pilots-after-march-strikes-article-14006526.html",
-      "published_at": "2026-08-16T03:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
         "short": 1.9,
         "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "eb057c16c0c61e9f",
-      "name": "Qatar calls Iran claim  misleading , denies capturing 3 pilots after March strike",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "eb057c16c0c61e9f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.327,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/qatar-calls-irans-claim-misleading-denies-capturing-3-pilots-after-march-strike/articleshow/133268959.cms",
-      "published_at": "2026-08-16T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b899517428c29780",
-      "name": "Gross violations of international law : Iran condemns Israeli strikes on southern Lebanon",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b899517428c29780",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.185,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "russiaherald.com",
-      "url": "http://www.russiaherald.com/news/279244189/gross-violations-of-international-law-iran-condemns-israeli-strikes-on-southern-lebanon",
-      "published_at": "2026-08-16T01:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
-      },
-      "carried_forward": true
+      }
     }
   ],
   "history": [
@@ -2734,17 +2758,23 @@
       "immediate": 17,
       "short": 18,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-16T07:39:42.221376Z",
+      "immediate": 16,
+      "short": 23,
+      "extended": 27
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-16T04:10:45.403734Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-16T07:39:42.221376Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "ok": true,
+        "items": 150,
+        "relevant": 8
       },
       "manual": {
         "ok": true,
