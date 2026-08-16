@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-16T16:36:41.267593Z",
+  "generated_at": "2026-08-16T17:01:29.130901Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@ window.MAGEN_STATE = {
       "score": 3,
       "low": 0,
       "high": 19,
-      "confidence": 50,
+      "confidence": 48,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 10,
       "low": 0,
-      "high": 27,
-      "confidence": 50,
+      "high": 26,
+      "confidence": 48,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 50,
+      "score": 16,
+      "low": 0,
+      "high": 32,
+      "confidence": 48,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "18:30",
       "text": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "floridastatesman.com",
       "signal_id": "804061d08f9505fd"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "17:15",
       "text": "Hamas , Hezbollah coordinate attacks with Iran , IDF warns of rebuilt axis of evil",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "ffb222682152a239"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "16:15",
       "text": "Iran working continuously to counter cyber attacks : Minister",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "prokerala.com",
       "signal_id": "d37aee6fccd318ca"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:45",
       "text": "Iran says Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "mizonews.net",
       "signal_id": "79a27da92c3b3a56"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "804061d08f9505fd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.728,
+      "freshness": 0.647,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.1
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ffb222682152a239",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.509,
+      "freshness": 0.453,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d37aee6fccd318ca",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.383,
+      "freshness": 0.34,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T13:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "79a27da92c3b3a56",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.332,
+      "freshness": 0.295,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4fa13fa9c1bb2f6e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.268,
+      "freshness": 0.238,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T12:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.6
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.3
       },
       "carried_forward": true
     }
@@ -2784,6 +2784,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 11,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-16T17:01:29.130901Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 16
     }
   ],
   "health": {
