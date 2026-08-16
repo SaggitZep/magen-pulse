@@ -1,37 +1,37 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-16T19:28:58.478067Z",
+  "mode": "live",
+  "generated_at": "2026-08-16T19:49:10.379761Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 32,
+      "score": 30,
       "low": 17,
-      "high": 47,
-      "confidence": 53,
+      "high": 43,
+      "confidence": 66,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 30,
+      "score": 28,
       "low": 15,
-      "high": 45,
-      "confidence": 53,
+      "high": 41,
+      "confidence": 66,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 23,
-      "low": 7,
-      "high": 39,
-      "confidence": 52,
-      "status": "מוגבר"
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 65,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:00",
       "text": "Israel surprised by speed of Iran missile recovery despite strikes : Report",
-      "impact": "השפעה מיידית מחושבת: +18.7",
+      "impact": "השפעה מיידית מחושבת: +17.0",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "b5d138d49ea8bf88"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:45",
       "text": "From India to Israel to US : How a Fake Iran Nuclear Quote Went Viral and Misled Global Media",
-      "impact": "השפעה מיידית מחושבת: +15.0",
+      "impact": "השפעה מיידית מחושבת: +13.7",
       "direction": "up",
       "source": "gulfnews.com",
       "signal_id": "1c099ad70469f28b"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:45",
       "text": "US - Iran Standoff Impact on UAE : Strait of Hormuz , Flight Disruptions , Shipping Routes and What Residents Should Know Today",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "gulfnews.com",
       "signal_id": "35f9c9d5fa21ddb9"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b5d138d49ea8bf88",
       "strength": 0.58,
       "reliability": 0.56,
-      "freshness": 0.655,
+      "freshness": 0.595,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,11 +99,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 18.7,
-        "short": 14.6,
-        "extended": 6.2
-      },
-      "carried_forward": true
+        "immediate": 17.0,
+        "short": 13.3,
+        "extended": 5.6
+      }
     },
     {
       "id": "1c099ad70469f28b",
@@ -115,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1c099ad70469f28b",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.609,
+      "freshness": 0.554,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -131,11 +130,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 15.0,
-        "short": 11.7,
-        "extended": 5.0
-      },
-      "carried_forward": true
+        "immediate": 13.7,
+        "short": 10.6,
+        "extended": 4.5
+      }
     },
     {
       "id": "35f9c9d5fa21ddb9",
@@ -147,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "35f9c9d5fa21ddb9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.609,
+      "freshness": 0.554,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +161,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
     },
     {
       "id": "804061d08f9505fd",
@@ -179,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "804061d08f9505fd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.492,
+      "freshness": 0.447,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -196,42 +193,9 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "bcb196bd93951757",
-      "name": "בלי מטוסים וטילים : כך יכול טראמפ להדק את טבעת החנק סביב איראן",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bcb196bd93951757",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.458,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "globes.co.il",
-      "url": "https://www.globes.co.il/news/article.aspx?did=1001552432",
-      "published_at": "2026-08-16T16:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
+        "short": 2.9,
+        "extended": 5.0
+      }
     },
     {
       "id": "c51d189ea24deaaf",
@@ -243,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c51d189ea24deaaf",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.492,
+      "freshness": 0.447,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -260,10 +224,40 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
+        "short": 2.9,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "bcb196bd93951757",
+      "name": "בלי מטוסים וטילים : כך יכול טראמפ להדק את טבעת החנק סביב איראן",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bcb196bd93951757",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.416,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "globes.co.il",
+      "url": "https://www.globes.co.il/news/article.aspx?did=1001552432",
+      "published_at": "2026-08-16T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      }
     }
   ],
   "history": [
@@ -2852,17 +2846,23 @@ window.MAGEN_STATE = {
       "immediate": 32,
       "short": 30,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-08-16T19:49:10.379761Z",
+      "immediate": 30,
+      "short": 28,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-16T18:56:31.673258Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-16T19:49:10.379761Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 6
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
