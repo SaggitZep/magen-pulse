@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-16T04:52:28.706303Z",
+  "generated_at": "2026-08-16T05:25:48.336530Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 30,
-      "low": 15,
-      "high": 45,
-      "confidence": 57,
+      "score": 26,
+      "low": 11,
+      "high": 41,
+      "confidence": 54,
       "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 31,
-      "low": 16,
-      "high": 46,
-      "confidence": 56,
+      "score": 27,
+      "low": 12,
+      "high": 42,
+      "confidence": 54,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 28,
-      "low": 13,
-      "high": 43,
-      "confidence": 55,
+      "score": 24,
+      "low": 9,
+      "high": 39,
+      "confidence": 53,
       "status": "מוגבר"
     }
   },
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "06:45",
       "text": "Israel cannot wait forever for a deal as Iran rapidly rearms its missile program",
-      "impact": "השפעה מיידית מחושבת: +27.4",
+      "impact": "השפעה מיידית מחושבת: +23.4",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "b5d8e8386e7355e9"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:00",
       "text": "Another tanker attacked in Hormuz ; Iran says Qatar is holding 3 missing pilots",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "businesstoday.in",
       "signal_id": "7d4fef449d706b3e"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:00",
       "text": "Israeli Strikes Kill 11 in Lebanon ; Iran Condemns Attacks",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "deccanchronicle.com",
       "signal_id": "bb5b23f7495ecf14"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "06:45",
       "text": "Qatar denies Iran claim it detained 3 fighter pilots after March attack",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "dunyanews.tv",
       "signal_id": "b538431aa1d59007"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b5d8e8386e7355e9",
       "strength": 0.58,
       "reliability": 0.74,
-      "freshness": 0.725,
+      "freshness": 0.619,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 27.4,
-        "short": 21.4,
-        "extended": 9.1
+        "immediate": 23.4,
+        "short": 18.2,
+        "extended": 7.7
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7d4fef449d706b3e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.779,
+      "freshness": 0.665,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.6
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bb5b23f7495ecf14",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.779,
+      "freshness": 0.665,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.6
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b538431aa1d59007",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.725,
+      "freshness": 0.619,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "af170d126f5db3ec",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.585,
+      "freshness": 0.499,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "eb057c16c0c61e9f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.585,
+      "freshness": 0.499,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b899517428c29780",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.331,
+      "freshness": 0.282,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T01:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     }
@@ -2716,6 +2716,12 @@ window.MAGEN_STATE = {
       "immediate": 30,
       "short": 31,
       "extended": 28
+    },
+    {
+      "timestamp": "2026-08-16T05:25:48.336530Z",
+      "immediate": 26,
+      "short": 27,
+      "extended": 24
     }
   ],
   "health": {
