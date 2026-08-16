@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-16T15:36:18.751585Z",
+  "generated_at": "2026-08-16T15:57:54.852387Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,24 +9,24 @@ window.MAGEN_STATE = {
       "score": 4,
       "low": 0,
       "high": 17,
-      "confidence": 65,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
-      "low": 1,
-      "high": 27,
-      "confidence": 65,
+      "score": 13,
+      "low": 0,
+      "high": 26,
+      "confidence": 66,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 23,
-      "low": 10,
-      "high": 36,
-      "confidence": 65,
-      "status": "מוגבר"
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 66,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -36,29 +36,29 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": 0
   },
   "changes": [
     {
+      "time": "18:30",
+      "text": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "floridastatesman.com",
+      "signal_id": "804061d08f9505fd"
+    },
+    {
       "time": "17:15",
       "text": "Hamas , Hezbollah coordinate attacks with Iran , IDF warns of rebuilt axis of evil",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "ffb222682152a239"
     },
     {
-      "time": "18:15",
-      "text": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
-      "impact": "השפעה מיידית מחושבת: +1.7",
-      "direction": "up",
-      "source": "russiaherald.com",
-      "signal_id": "804061d08f9505fd"
-    },
-    {
       "time": "16:15",
       "text": "Iran working continuously to counter cyber attacks : Minister",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "prokerala.com",
       "signal_id": "d37aee6fccd318ca"
@@ -66,13 +66,44 @@ window.MAGEN_STATE = {
     {
       "time": "15:45",
       "text": "Iran says Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "mizonews.net",
       "signal_id": "79a27da92c3b3a56"
     }
   ],
   "signals": [
+    {
+      "id": "804061d08f9505fd",
+      "name": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "804061d08f9505fd",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.876,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "floridastatesman.com",
+      "url": "http://www.floridastatesman.com/news/279245198/iranian-parliament-to-debate-hormuz-strait-oversight-bills-as-top-lawmaker-mocks-trump-threats",
+      "published_at": "2026-08-16T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.7
+      }
+    },
     {
       "id": "ffb222682152a239",
       "name": "Hamas , Hezbollah coordinate attacks with Iran , IDF warns of rebuilt axis of evil",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ffb222682152a239",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.679,
+      "freshness": 0.613,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,40 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.8,
-        "extended": 9.9
-      }
-    },
-    {
-      "id": "804061d08f9505fd",
-      "name": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "804061d08f9505fd",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.903,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "russiaherald.com",
-      "url": "http://www.russiaherald.com/news/279245198/iranian-parliament-to-debate-hormuz-strait-oversight-bills-as-top-lawmaker-mocks-trump-threats",
-      "published_at": "2026-08-16T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.7,
-        "short": 5.9,
-        "extended": 10.0
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.0
       }
     },
     {
@@ -145,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d37aee6fccd318ca",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.51,
+      "freshness": 0.46,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T13:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
       }
     },
     {
@@ -176,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "79a27da92c3b3a56",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.442,
+      "freshness": 0.399,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,71 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "4a7733fb9029891b",
-      "name": "Iran unveils Downed US Drones with  Elon Musk Starlink Gear  in dramatic display",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4a7733fb9029891b",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.332,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "en.dailypakistan.com.pk",
-      "url": "https://en.dailypakistan.com.pk/16-Aug-2026/iran-unveils-downed-us-drones-with-elon-musks-starlink-gear-in-dramatic-display",
-      "published_at": "2026-08-16T11:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
         "short": 2.3,
         "extended": 3.9
-      }
-    },
-    {
-      "id": "c8e29e02a2237a15",
-      "name": "Is Iran - Oman New Shipping Deal Set to Change Strait of Hormuz ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c8e29e02a2237a15",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.332,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "en.dailypakistan.com.pk",
-      "url": "https://en.dailypakistan.com.pk/16-Aug-2026/is-iran-omans-new-shipping-deal-set-to-change-strait-of-hormuz",
-      "published_at": "2026-08-16T11:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
       }
     },
     {
@@ -269,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4fa13fa9c1bb2f6e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.357,
+      "freshness": 0.322,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T12:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       }
     }
   ],
@@ -2829,17 +2767,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 14,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-08-16T15:57:54.852387Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 22
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-16T15:36:18.751585Z",
+    "last_success": "2026-08-16T15:57:54.852387Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 7
+        "relevant": 5
       },
       "manual": {
         "ok": true,
