@@ -1,78 +1,233 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-16T11:53:28.463158Z",
+  "mode": "live",
+  "generated_at": "2026-08-16T12:37:36.752277Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 51,
+      "high": 17,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
-      "low": 0,
+      "score": 14,
+      "low": 1,
       "high": 27,
-      "confidence": 51,
+      "confidence": 68,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 51,
-      "status": "נמוך"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 1
   },
   "changes": [
     {
-      "time": "13:15",
-      "text": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "time": "14:45",
+      "text": "Iran unveils Downed US Drones with  Elon Musk Starlink Gear  in dramatic display",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "economictimes.indiatimes.com",
-      "signal_id": "804061d08f9505fd"
+      "source": "en.dailypakistan.com.pk",
+      "signal_id": "4a7733fb9029891b"
     },
     {
-      "time": "13:30",
-      "text": "Trump Says US Could Claim Strait of Hormuz as Iran Keeps Shipping Route Nearly Shut",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "15:00",
+      "text": "Iran , Oman home in on Hormuz Strait deal as ship attacks mount",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "wgow.com",
+      "source": "westhawaiitoday.com",
+      "signal_id": "4fa13fa9c1bb2f6e"
+    },
+    {
+      "time": "15:00",
+      "text": "Trump Says US Could Claim Strait of Hormuz as Iran Keeps Shipping Route Nearly Shut",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "1290wlby.com",
       "signal_id": "4778c282991c01d7"
     },
     {
-      "time": "12:45",
-      "text": "Iran , Oman agree on new shipping route through Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "14:45",
+      "text": "Is Iran - Oman New Shipping Deal Set to Change Strait of Hormuz ?",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "azernews.az",
-      "signal_id": "acf819bce06cb80e"
-    },
-    {
-      "time": "12:00",
-      "text": "UAE says Iran attacked ADNOC vessel in Hormuz , urges waterway reopening",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "asiaone.com",
-      "signal_id": "0d2961a8311375d2"
+      "source": "en.dailypakistan.com.pk",
+      "signal_id": "c8e29e02a2237a15"
     }
   ],
   "signals": [
+    {
+      "id": "4a7733fb9029891b",
+      "name": "Iran unveils Downed US Drones with  Elon Musk Starlink Gear  in dramatic display",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4a7733fb9029891b",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.778,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "en.dailypakistan.com.pk",
+      "url": "https://en.dailypakistan.com.pk/16-Aug-2026/iran-unveils-downed-us-drones-with-elon-musks-starlink-gear-in-dramatic-display",
+      "published_at": "2026-08-16T11:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
+    {
+      "id": "4fa13fa9c1bb2f6e",
+      "name": "Iran , Oman home in on Hormuz Strait deal as ship attacks mount",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4fa13fa9c1bb2f6e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.836,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "westhawaiitoday.com",
+      "url": "https://www.westhawaiitoday.com/2026/08/16/nation-world-news/iran-oman-home-in-on-hormuz-strait-deal-as-ship-attacks-mount/",
+      "published_at": "2026-08-16T12:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "4778c282991c01d7",
+      "name": "Trump Says US Could Claim Strait of Hormuz as Iran Keeps Shipping Route Nearly Shut",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4778c282991c01d7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.836,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "1290wlby.com",
+      "url": "https://www.1290wlby.com/2026/08/16/trump-says-us-could-claim-strait-of-hormuz-as-iran-keeps-shipping-route-nearly-shut/",
+      "published_at": "2026-08-16T12:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "c8e29e02a2237a15",
+      "name": "Is Iran - Oman New Shipping Deal Set to Change Strait of Hormuz ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c8e29e02a2237a15",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.778,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "en.dailypakistan.com.pk",
+      "url": "https://en.dailypakistan.com.pk/16-Aug-2026/is-iran-omans-new-shipping-deal-set-to-change-strait-of-hormuz",
+      "published_at": "2026-08-16T11:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "17d454fbdf9e7765",
+      "name": "Qatar rejects Iran claim it detained 3 fighter pilots after March attack – Middle East Monitor",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "17d454fbdf9e7765",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.725,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeastmonitor.com",
+      "url": "https://www.middleeastmonitor.com/20260816-qatar-rejects-irans-claim-it-detained-3-fighter-pilots-after-march-attack/",
+      "published_at": "2026-08-16T11:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      }
+    },
     {
       "id": "804061d08f9505fd",
       "name": "Iranian Parliament to debate Hormuz Strait oversight bills as top lawmaker mocks Trump threats",
@@ -83,7 +238,7 @@
       "dependency_group": "804061d08f9505fd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.626,
+      "freshness": 0.507,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,75 +254,10 @@
       "published_at": "2026-08-16T10:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4778c282991c01d7",
-      "name": "Trump Says US Could Claim Strait of Hormuz as Iran Keeps Shipping Route Nearly Shut",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4778c282991c01d7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.672,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wgow.com",
-      "url": "https://www.wgow.com/2026/08/16/trump-says-us-could-claim-strait-of-hormuz-as-iran-keeps-shipping-route-nearly-shut/",
-      "published_at": "2026-08-16T10:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "acf819bce06cb80e",
-      "name": "Iran , Oman agree on new shipping route through Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "acf819bce06cb80e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.542,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "azernews.az",
-      "url": "https://www.azernews.az/region/262441.html",
-      "published_at": "2026-08-16T09:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
     },
     {
       "id": "0d2961a8311375d2",
@@ -179,7 +269,7 @@
       "dependency_group": "0d2961a8311375d2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.438,
+      "freshness": 0.355,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +285,10 @@
       "published_at": "2026-08-16T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      }
     },
     {
       "id": "fb6d90adb1042908",
@@ -211,7 +300,7 @@
       "dependency_group": "fb6d90adb1042908",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.408,
+      "freshness": 0.33,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,43 +316,10 @@
       "published_at": "2026-08-16T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b5b5bd9b005c743a",
-      "name": "Iran says reached deal with Oman on Hormuz shipping routes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b5b5bd9b005c743a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.379,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arynews.tv",
-      "url": "https://arynews.tv/iran-reached-deal-oman-hormuz-shipping-routes",
-      "published_at": "2026-08-16T08:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
+        "short": 1.9,
+        "extended": 3.3
+      }
     }
   ],
   "history": [
@@ -2762,17 +2818,23 @@
       "immediate": 3,
       "short": 11,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-16T12:37:36.752277Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 24
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-16T11:31:09.285286Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-16T12:37:36.752277Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 6
+        "ok": true,
+        "items": 150,
+        "relevant": 8
       },
       "manual": {
         "ok": true,
