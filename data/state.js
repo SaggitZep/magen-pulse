@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-16T12:37:36.752277Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-16T13:19:42.981235Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 4,
       "low": 0,
-      "high": 17,
-      "confidence": 68,
+      "high": 20,
+      "confidence": 51,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
-      "low": 1,
-      "high": 27,
-      "confidence": 68,
+      "score": 12,
+      "low": 0,
+      "high": 28,
+      "confidence": 51,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 20,
+      "low": 4,
+      "high": 36,
+      "confidence": 51,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "14:45",
       "text": "Iran unveils Downed US Drones with  Elon Musk Starlink Gear  in dramatic display",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "en.dailypakistan.com.pk",
       "signal_id": "4a7733fb9029891b"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:00",
       "text": "Iran , Oman home in on Hormuz Strait deal as ship attacks mount",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "westhawaiitoday.com",
       "signal_id": "4fa13fa9c1bb2f6e"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:00",
       "text": "Trump Says US Could Claim Strait of Hormuz as Iran Keeps Shipping Route Nearly Shut",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "1290wlby.com",
       "signal_id": "4778c282991c01d7"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "14:45",
       "text": "Is Iran - Oman New Shipping Deal Set to Change Strait of Hormuz ?",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "en.dailypakistan.com.pk",
       "signal_id": "c8e29e02a2237a15"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4a7733fb9029891b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.778,
+      "freshness": 0.637,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T11:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.2
-      }
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      },
+      "carried_forward": true
     },
     {
       "id": "4fa13fa9c1bb2f6e",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4fa13fa9c1bb2f6e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.836,
+      "freshness": 0.684,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T12:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
-      }
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "4778c282991c01d7",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4778c282991c01d7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.836,
+      "freshness": 0.684,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T12:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
-      }
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "c8e29e02a2237a15",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c8e29e02a2237a15",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.778,
+      "freshness": 0.637,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T11:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      },
+      "carried_forward": true
     },
     {
       "id": "17d454fbdf9e7765",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "17d454fbdf9e7765",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.725,
+      "freshness": 0.593,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      },
+      "carried_forward": true
     },
     {
       "id": "804061d08f9505fd",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "804061d08f9505fd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.507,
+      "freshness": 0.415,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T10:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      },
+      "carried_forward": true
     },
     {
       "id": "0d2961a8311375d2",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0d2961a8311375d2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.355,
+      "freshness": 0.29,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
+      },
+      "carried_forward": true
     },
     {
       "id": "fb6d90adb1042908",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fb6d90adb1042908",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.33,
+      "freshness": 0.27,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      }
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2824,17 +2832,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 14,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-16T13:19:42.981235Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-16T12:37:36.752277Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 8
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 8
       },
       "manual": {
         "ok": true,
