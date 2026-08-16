@@ -1,121 +1,89 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-16T08:44:18.671921Z",
+  "mode": "live",
+  "generated_at": "2026-08-16T09:14:54.052834Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 12,
+      "score": 4,
       "low": 0,
-      "high": 28,
-      "confidence": 49,
-      "status": "נמוך"
+      "high": 17,
+      "confidence": 67,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 50,
+      "score": 13,
+      "low": 0,
+      "high": 26,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 4,
-      "high": 36,
-      "confidence": 50,
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 67,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -3
+    "points_60m": -8
   },
   "changes": [
     {
-      "time": "06:45",
-      "text": "Israel cannot wait forever for a deal as Iran rapidly rearms its missile program",
-      "impact": "השפעה מיידית מחושבת: +9.1",
+      "time": "11:45",
+      "text": "Iran steps up pressure on Qatar , Kuwait over missing military personnel",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "b5d8e8386e7355e9"
+      "source": "middle-east-online.com",
+      "signal_id": "fb6d90adb1042908"
     },
     {
-      "time": "10:00",
-      "text": "Iran says full security in Hormuz depends on end to US blockade , threats",
+      "time": "11:30",
+      "text": "Iran says reached deal with Oman on Hormuz shipping routes",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "arynews.tv",
+      "signal_id": "b5b5bd9b005c743a"
+    },
+    {
+      "time": "11:00",
+      "text": "UAE says Iran attacked ADNOC vessel in Hormuz , urges waterway reopening",
       "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "tribune.com.pk",
-      "signal_id": "db72958c65377a98"
+      "source": "asiaone.com:443",
+      "signal_id": "0d2961a8311375d2"
     },
     {
       "time": "10:15",
       "text": "Iran claims Qatar is holding pilots , Israeli strikes kill 11 in Lebanon , and other Middle East news",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "wtop.com",
       "signal_id": "a1bc59252ef59afa"
-    },
-    {
-      "time": "10:00",
-      "text": "Hormuz Strait Deal , होर्मुज स्ट्रेट में मिलकर टोल वसूलेंगे ईरान - ओमान ? दोनों देशों में शिपिंग डील का ऐलान , डोनाल्ड ट्रंप पर नजर - iran oman agreement hormuz strait shipping route eyes on donald trump us blockade - As",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "navbharattimes.indiatimes.com",
-      "signal_id": "2995e79bc8543257"
     }
   ],
   "signals": [
     {
-      "id": "b5d8e8386e7355e9",
-      "name": "Israel cannot wait forever for a deal as Iran rapidly rearms its missile program",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b5d8e8386e7355e9",
-      "strength": 0.58,
-      "reliability": 0.74,
-      "freshness": 0.24,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/opinion/article-905596",
-      "published_at": "2026-08-16T03:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 9.1,
-        "short": 7.1,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "db72958c65377a98",
-      "name": "Iran says full security in Hormuz depends on end to US blockade , threats",
+      "id": "fb6d90adb1042908",
+      "name": "Iran steps up pressure on Qatar , Kuwait over missing military personnel",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "db72958c65377a98",
-      "strength": 0.45,
+      "dependency_group": "fb6d90adb1042908",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.609,
+      "freshness": 0.867,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,16 +94,77 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "tribune.com.pk",
-      "url": "https://tribune.com.pk/story/2624167/iran-says-full-security-in-hormuz-depends-on-end-to-us-blockade-threats",
-      "published_at": "2026-08-16T07:00:00Z",
+      "source": "middle-east-online.com",
+      "url": "https://www.middle-east-online.com/en/iran-steps-pressure-qatar-kuwait-over-missing-military-personnel",
+      "published_at": "2026-08-16T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
+    },
+    {
+      "id": "b5b5bd9b005c743a",
+      "name": "Iran says reached deal with Oman on Hormuz shipping routes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b5b5bd9b005c743a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.807,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arynews.tv",
+      "url": "https://arynews.tv/iran-reached-deal-oman-hormuz-shipping-routes",
+      "published_at": "2026-08-16T08:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "0d2961a8311375d2",
+      "name": "UAE says Iran attacked ADNOC vessel in Hormuz , urges waterway reopening",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0d2961a8311375d2",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.7,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "asiaone.com:443",
+      "url": "https://www.asiaone.com:443/asia/uae-says-iran-attacked-adnoc-vessel-hormuz-urges-waterways-reopening",
+      "published_at": "2026-08-16T08:00:00Z",
       "active": true,
       "computed": {
         "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      },
-      "carried_forward": true
+        "short": 4.1,
+        "extended": 6.9
+      }
     },
     {
       "id": "a1bc59252ef59afa",
@@ -147,7 +176,7 @@
       "dependency_group": "a1bc59252ef59afa",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.654,
+      "freshness": 0.565,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +192,41 @@
       "published_at": "2026-08-16T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
+    {
+      "id": "db72958c65377a98",
+      "name": "Iran says full security in Hormuz depends on end to US blockade , threats",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "db72958c65377a98",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.526,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tribune.com.pk",
+      "url": "https://tribune.com.pk/story/2624167/iran-says-full-security-in-hormuz-depends-on-end-to-us-blockade-threats",
+      "published_at": "2026-08-16T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
     },
     {
       "id": "2995e79bc8543257",
@@ -179,7 +238,7 @@
       "dependency_group": "2995e79bc8543257",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.609,
+      "freshness": 0.526,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +254,10 @@
       "published_at": "2026-08-16T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.2
+      }
     },
     {
       "id": "f5afb2671a4eb5d3",
@@ -211,7 +269,7 @@
       "dependency_group": "f5afb2671a4eb5d3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.396,
+      "freshness": 0.343,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,107 +285,10 @@
       "published_at": "2026-08-16T05:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7d4fef449d706b3e",
-      "name": "Another tanker attacked in Hormuz ; Iran says Qatar is holding 3 missing pilots",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7d4fef449d706b3e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.258,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "businesstoday.in",
-      "url": "https://www.businesstoday.in/world/story/another-tanker-attacked-in-hormuz-iran-says-qatar-is-holding-3-missing-pilots-549440-2026-08-16",
-      "published_at": "2026-08-16T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "bb5b23f7495ecf14",
-      "name": "Israeli Strikes Kill 11 in Lebanon ; Iran Condemns Attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bb5b23f7495ecf14",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.258,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "deccanchronicle.com",
-      "url": "https://www.deccanchronicle.com/west-asia/israeli-strikes-kill-11-in-lebanon-iran-condemns-attacks-1979534",
-      "published_at": "2026-08-16T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b538431aa1d59007",
-      "name": "Qatar denies Iran claim it detained 3 fighter pilots after March attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b538431aa1d59007",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.24,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dunyanews.tv",
-      "url": "https://dunyanews.tv/en/World/968133-qatar-denies-irans-claim-it-detained-3-fighter-pilots-after-march-att",
-      "published_at": "2026-08-16T03:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
     }
   ],
   "history": [
@@ -2784,17 +2745,23 @@
       "immediate": 12,
       "short": 17,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-16T09:14:54.052834Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 22
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-16T07:39:42.221376Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-16T09:14:54.052834Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
