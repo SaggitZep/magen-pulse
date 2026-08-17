@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-17T17:05:32.103742Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-17T17:45:49.107447Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 68,
+      "high": 19,
+      "confidence": 51,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 10,
       "low": 0,
-      "high": 25,
-      "confidence": 68,
+      "high": 26,
+      "confidence": 51,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 7,
+      "score": 17,
+      "low": 1,
       "high": 33,
-      "confidence": 68,
+      "confidence": 51,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "18:30",
       "text": "Trump threatens Oman : latest developments in US - Iran war",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "al-monitor.com",
       "signal_id": "80e375c2a915ed4e"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:30",
       "text": "Trump threatens to bomb Oman if it  gets in the way  of US - Iran deal",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "al-monitor.com",
       "signal_id": "c6ebc799f80d3712"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:30",
       "text": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "al-monitor.com",
       "signal_id": "faeff705a5b777f4"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "19:30",
       "text": "Trump says Iran should surrender , threatens to bomb Oman",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "businesstimes.com.sg",
       "signal_id": "25d07d8f2c515e1f"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "80e375c2a915ed4e",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.634,
+      "freshness": 0.524,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.3
-      }
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      },
+      "carried_forward": true
     },
     {
       "id": "c6ebc799f80d3712",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c6ebc799f80d3712",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.634,
+      "freshness": 0.524,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.3
-      }
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      },
+      "carried_forward": true
     },
     {
       "id": "faeff705a5b777f4",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "faeff705a5b777f4",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.634,
+      "freshness": 0.524,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.3
-      }
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      },
+      "carried_forward": true
     },
     {
       "id": "25d07d8f2c515e1f",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "25d07d8f2c515e1f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.844,
+      "freshness": 0.697,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.4
-      }
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      },
+      "carried_forward": true
     },
     {
       "id": "1d7679a84e2e5028",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1d7679a84e2e5028",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.786,
+      "freshness": 0.649,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      }
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      },
+      "carried_forward": true
     },
     {
       "id": "25ffb2b5c414a80a",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "25ffb2b5c414a80a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.681,
+      "freshness": 0.563,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,41 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.6
-      }
-    },
-    {
-      "id": "093452a0066c9e8d",
-      "name": "Iran live updates : Trump threatens to bomb Oman over Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "093452a0066c9e8d",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.444,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.2
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aol.com",
-      "url": "https://www.aol.com/articles/iran-live-updates-tehran-adopt-074458000.html",
-      "published_at": "2026-08-17T14:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 4.9
-      }
+      "carried_forward": true
     },
     {
       "id": "4dca02a4ed3a261b",
@@ -300,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4dca02a4ed3a261b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.477,
+      "freshness": 0.394,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +291,43 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "093452a0066c9e8d",
+      "name": "Iran live updates : Trump threatens to bomb Oman over Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "093452a0066c9e8d",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.366,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aol.com",
+      "url": "https://www.aol.com/articles/iran-live-updates-tehran-adopt-074458000.html",
+      "published_at": "2026-08-17T14:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "12ecbbf1a2c82ebf",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "12ecbbf1a2c82ebf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.385,
+      "freshness": 0.318,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T13:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     },
     {
       "id": "ed7d4afc467af471",
@@ -362,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ed7d4afc467af471",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.358,
+      "freshness": 0.296,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -3174,17 +3184,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-17T17:45:49.107447Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-17T17:05:32.103742Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 10
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 10
       },
       "manual": {
         "ok": true,
