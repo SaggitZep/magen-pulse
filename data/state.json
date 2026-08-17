@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-17T03:31:44.312719Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-17T04:23:42.426115Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 20,
-      "low": 7,
-      "high": 33,
-      "confidence": 68,
+      "score": 16,
+      "low": 0,
+      "high": 32,
+      "confidence": 50,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 27,
-      "low": 14,
-      "high": 40,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 21,
+      "low": 5,
+      "high": 37,
+      "confidence": 51,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 27,
-      "low": 14,
-      "high": 40,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 22,
+      "low": 6,
+      "high": 38,
+      "confidence": 51,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 19
+    "level": "ירידה",
+    "points_60m": -4
   },
   "changes": [
     {
       "time": "03:45",
       "text": "Israeli soldier arrested for placing Polymarket bets on attacks in Iran , Yemen",
-      "impact": "השפעה מיידית מחושבת: +14.7",
+      "impact": "השפעה מיידית מחושבת: +11.5",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "e4adf052e9321099"
@@ -50,7 +50,7 @@
     {
       "time": "03:45",
       "text": "Trump orders Pentagon to reduce military exercises with South Korea after Iran snub",
-      "impact": "השפעה מיידית מחושבת: +2.3",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
       "source": "ynetnews.com",
       "signal_id": "d421ff01afb3cdd2"
@@ -58,7 +58,7 @@
     {
       "time": "06:00",
       "text": "Washington discussing nuclear strike on Iran former congresswoman",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "iraqsun.com",
       "signal_id": "baf65aadbd5e1ac1"
@@ -66,7 +66,7 @@
     {
       "time": "06:00",
       "text": "Oil treads water as US - Iran peace talks stall , Hormuz shipping slows",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "economictimes.indiatimes.com",
       "signal_id": "6105149b0e7ae6ab"
@@ -83,7 +83,7 @@
       "dependency_group": "e4adf052e9321099",
       "strength": 0.5,
       "reliability": 0.74,
-      "freshness": 0.452,
+      "freshness": 0.353,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-17T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 14.7,
-        "short": 11.5,
-        "extended": 4.9
-      }
+        "immediate": 11.5,
+        "short": 9.0,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "d421ff01afb3cdd2",
@@ -114,7 +115,7 @@
       "dependency_group": "d421ff01afb3cdd2",
       "strength": 0.46,
       "reliability": 0.56,
-      "freshness": 0.452,
+      "freshness": 0.353,
       "max_effect": {
         "immediate": 34,
         "short": 48,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-17T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 2.3,
-        "short": 5.6,
-        "extended": 4.1
-      }
+        "immediate": 1.8,
+        "short": 4.4,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "baf65aadbd5e1ac1",
@@ -145,7 +147,7 @@
       "dependency_group": "baf65aadbd5e1ac1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.86,
+      "freshness": 0.671,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-17T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      }
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      },
+      "carried_forward": true
     },
     {
       "id": "6105149b0e7ae6ab",
@@ -176,7 +179,7 @@
       "dependency_group": "6105149b0e7ae6ab",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.86,
+      "freshness": 0.671,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-17T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      }
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      },
+      "carried_forward": true
     },
     {
       "id": "6d383be40e0f9515",
@@ -207,7 +211,7 @@
       "dependency_group": "6d383be40e0f9515",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.452,
+      "freshness": 0.353,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-17T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2899,17 +2904,23 @@
       "immediate": 20,
       "short": 27,
       "extended": 27
+    },
+    {
+      "timestamp": "2026-08-17T04:23:42.426115Z",
+      "immediate": 16,
+      "short": 21,
+      "extended": 22
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-17T03:31:44.312719Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 5
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
