@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-17T16:39:44.575477Z",
+  "mode": "live",
+  "generated_at": "2026-08-17T17:05:32.103742Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 52,
+      "high": 17,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 12,
       "low": 0,
       "high": 25,
-      "confidence": 52,
+      "confidence": 68,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
-      "low": 0,
-      "high": 31,
-      "confidence": 52,
+      "score": 20,
+      "low": 7,
+      "high": 33,
+      "confidence": 68,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": 1
   },
   "changes": [
     {
       "time": "18:30",
       "text": "Trump threatens Oman : latest developments in US - Iran war",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
       "source": "al-monitor.com",
       "signal_id": "80e375c2a915ed4e"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:30",
       "text": "Trump threatens to bomb Oman if it  gets in the way  of US - Iran deal",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
       "source": "al-monitor.com",
       "signal_id": "c6ebc799f80d3712"
@@ -58,18 +58,18 @@ window.MAGEN_STATE = {
     {
       "time": "18:30",
       "text": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
       "source": "al-monitor.com",
       "signal_id": "faeff705a5b777f4"
     },
     {
-      "time": "18:30",
-      "text": "Deadline for Iran peace deal expires as Trump threatens to bomb Oman if it interferes",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "time": "19:30",
+      "text": "Trump says Iran should surrender , threatens to bomb Oman",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "news3lv.com",
-      "signal_id": "1d7679a84e2e5028"
+      "source": "businesstimes.com.sg",
+      "signal_id": "25d07d8f2c515e1f"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "80e375c2a915ed4e",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.717,
+      "freshness": 0.634,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +99,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.2,
-        "extended": 10.5
-      },
-      "carried_forward": true
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.3
+      }
     },
     {
       "id": "c6ebc799f80d3712",
@@ -115,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c6ebc799f80d3712",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.717,
+      "freshness": 0.634,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +130,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.2,
-        "extended": 10.5
-      },
-      "carried_forward": true
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.3
+      }
     },
     {
       "id": "faeff705a5b777f4",
@@ -147,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "faeff705a5b777f4",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.717,
+      "freshness": 0.634,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +161,41 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.2,
-        "extended": 10.5
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.3
+      }
+    },
+    {
+      "id": "25d07d8f2c515e1f",
+      "name": "Trump says Iran should surrender , threatens to bomb Oman",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "25d07d8f2c515e1f",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.844,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "businesstimes.com.sg",
+      "url": "https://www.businesstimes.com.sg/international/trump-says-iran-should-surrender-threatens-bomb-oman",
+      "published_at": "2026-08-17T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
     },
     {
       "id": "1d7679a84e2e5028",
@@ -179,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1d7679a84e2e5028",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.717,
+      "freshness": 0.786,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -190,16 +218,46 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "news3lv.com",
-      "url": "https://news3lv.com/news/nation-world/deadline-for-iran-peace-deal-expires-as-trump-threatens-to-bomb-oman-if-it-interferes-60-day-negotiations-memorandum-understanding-strait-of-hormuz-shipping-houthis-lebanon-israel-politics-surrender",
-      "published_at": "2026-08-17T15:30:00Z",
+      "source": "wlos.com",
+      "url": "https://wlos.com/news/nation-world/deadline-for-iran-peace-deal-expires-as-trump-threatens-to-bomb-oman-if-it-interferes-60-day-negotiations-memorandum-understanding-strait-of-hormuz-shipping-houthis-lebanon-israel-politics-surrender",
+      "published_at": "2026-08-17T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "25ffb2b5c414a80a",
+      "name": "Trump Threatens to Bomb Oman as Iran - Oman Hormuz Deal Emerges , Escalating Strait of Hormuz Crisis",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "25ffb2b5c414a80a",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.681,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "openthemagazine.com",
+      "url": "https://openthemagazine.com/world/well-bomb-the-s-out-of-them-trump-turns-on-oman-as-hormuz-deal-takes-shape",
+      "published_at": "2026-08-17T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.6
+      }
     },
     {
       "id": "093452a0066c9e8d",
@@ -211,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "093452a0066c9e8d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.502,
+      "freshness": 0.444,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,11 +285,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      }
     },
     {
       "id": "4dca02a4ed3a261b",
@@ -243,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4dca02a4ed3a261b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.539,
+      "freshness": 0.477,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,11 +316,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
     },
     {
       "id": "12ecbbf1a2c82ebf",
@@ -275,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "12ecbbf1a2c82ebf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.435,
+      "freshness": 0.385,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -292,42 +348,9 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f5d7d535c0b7f7fa",
-      "name": "Iranian Drones Target Kurdistan PM Office , Intelligence Chief Home",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f5d7d535c0b7f7fa",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.327,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "deccanchronicle.com",
-      "url": "https://www.deccanchronicle.com/world/iranian-drones-target-kurdistan-pms-office-intelligence-chiefs-home-1979863",
-      "published_at": "2026-08-17T12:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
+        "short": 2.2,
+        "extended": 3.8
+      }
     },
     {
       "id": "ed7d4afc467af471",
@@ -339,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ed7d4afc467af471",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.405,
+      "freshness": 0.358,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,107 +378,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0ee20adda009be0c",
-      "name": "Trump Threatens Oman With Bombing , Demands Iran  Surrender",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0ee20adda009be0c",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.327,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "deccanchronicle.com",
-      "url": "https://www.deccanchronicle.com/world/trump-threatens-oman-with-bombing-demands-iran-surrender-1979866",
-      "published_at": "2026-08-17T12:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
         "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4fb5c85bf0c0e15a",
-      "name": "Iran 60 - Day Deadline Expires : What Will Trump Do Next on Sanctions , Hormuz and Nuclear Talks ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4fb5c85bf0c0e15a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.351,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gulfnews.com",
-      "url": "https://gulfnews.com/world/americas/iran-deadline-is-over-what-does-trump-do-now-1.500643632",
-      "published_at": "2026-08-17T13:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
         "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3f349a9a423368a0",
-      "name": "Trump planning to use nuclear weapons on Iran , claims ex - US Congresswoman",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3f349a9a423368a0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.304,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279246620/trump-planning-to-use-nuclear-weapons-on-iran-claims-ex-us-congresswoman",
-      "published_at": "2026-08-17T12:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
-      },
-      "carried_forward": true
+      }
     }
   ],
   "history": [
@@ -3242,17 +3168,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 9,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-08-17T17:05:32.103742Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-17T16:00:08.035167Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-17T17:05:32.103742Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 12
+        "ok": true,
+        "items": 150,
+        "relevant": 10
       },
       "manual": {
         "ok": true,
