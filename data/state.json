@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-17T05:51:42.305498Z",
+  "generated_at": "2026-08-17T06:42:31.945767Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 4,
       "low": 0,
       "high": 20,
-      "confidence": 53,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
+      "score": 11,
       "low": 0,
-      "high": 29,
-      "confidence": 53,
+      "high": 27,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 3,
-      "high": 33,
-      "confidence": 53,
+      "score": 14,
+      "low": 0,
+      "high": 30,
+      "confidence": 50,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@
     {
       "time": "06:15",
       "text": "Trump orders Pentagon to cut back military exercises with South Korea , cites Seoul Iran war stance",
-      "impact": "השפעה מיידית מחושבת: +2.4",
+      "impact": "השפעה מיידית מחושבת: +1.9",
       "direction": "up",
       "source": "businesstimes.com.sg",
       "signal_id": "5532fa99287fedf9"
@@ -50,7 +50,7 @@
     {
       "time": "07:30",
       "text": "May become offensive : IRGC deputy signals shift in Iran military doctrine",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "kenyastar.com",
       "signal_id": "f76ca43f571252f1"
@@ -58,7 +58,7 @@
     {
       "time": "07:30",
       "text": "Washington discussing nuclear strike on Iran former congresswoman",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "kenyastar.com",
       "signal_id": "baf65aadbd5e1ac1"
@@ -66,7 +66,7 @@
     {
       "time": "07:30",
       "text": "How false nuclear claim about Iran ricocheted from India to Washington",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "7b0bcb8e2fac64fe"
@@ -83,7 +83,7 @@
       "dependency_group": "5532fa99287fedf9",
       "strength": 0.46,
       "reliability": 0.56,
-      "freshness": 0.474,
+      "freshness": 0.372,
       "max_effect": {
         "immediate": 34,
         "short": 48,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-17T03:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 2.4,
-        "short": 5.9,
-        "extended": 4.3
+        "immediate": 1.9,
+        "short": 4.6,
+        "extended": 3.4
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "f76ca43f571252f1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.678,
+      "freshness": 0.532,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-17T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "baf65aadbd5e1ac1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.678,
+      "freshness": 0.532,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-17T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "7b0bcb8e2fac64fe",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.678,
+      "freshness": 0.532,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-17T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "f2af0688a37538c8",
       "strength": 0.54,
       "reliability": 0.56,
-      "freshness": 0.474,
+      "freshness": 0.372,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-17T03:15:00Z",
       "active": true,
       "computed": {
-        "immediate": -1.1,
-        "short": -3.7,
-        "extended": -6.3
+        "immediate": -0.9,
+        "short": -2.9,
+        "extended": -4.9
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "8fe58045c17edf33",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.587,
+      "freshness": 0.461,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-08-17T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "ccd4c7baa0fe5f09",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.547,
+      "freshness": 0.429,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@
       "published_at": "2026-08-17T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       },
       "carried_forward": true
     }
@@ -2986,6 +2986,12 @@
       "immediate": 5,
       "short": 14,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-17T06:42:31.945767Z",
+      "immediate": 4,
+      "short": 11,
+      "extended": 14
     }
   ],
   "health": {
