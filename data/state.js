@@ -1,121 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-17T04:23:42.426115Z",
+  "mode": "live",
+  "generated_at": "2026-08-17T05:08:41.571955Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 16,
+      "score": 6,
       "low": 0,
-      "high": 32,
-      "confidence": 50,
-      "status": "נמוך"
+      "high": 18,
+      "confidence": 70,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 21,
+      "score": 17,
       "low": 5,
-      "high": 37,
-      "confidence": 51,
+      "high": 29,
+      "confidence": 70,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 6,
-      "high": 38,
-      "confidence": 51,
+      "score": 21,
+      "low": 9,
+      "high": 33,
+      "confidence": 70,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -4
+    "points_60m": -10
   },
   "changes": [
     {
-      "time": "03:45",
-      "text": "Israeli soldier arrested for placing Polymarket bets on attacks in Iran , Yemen",
-      "impact": "השפעה מיידית מחושבת: +11.5",
+      "time": "06:15",
+      "text": "Trump orders Pentagon to cut back military exercises with South Korea , cites Seoul Iran war stance",
+      "impact": "השפעה מיידית מחושבת: +3.0",
       "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "e4adf052e9321099"
+      "source": "businesstimes.com.sg",
+      "signal_id": "5532fa99287fedf9"
     },
     {
-      "time": "03:45",
-      "text": "Trump orders Pentagon to reduce military exercises with South Korea after Iran snub",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "time": "07:30",
+      "text": "May become offensive : IRGC deputy signals shift in Iran military doctrine",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "ynetnews.com",
-      "signal_id": "d421ff01afb3cdd2"
+      "source": "kenyastar.com",
+      "signal_id": "f76ca43f571252f1"
     },
     {
-      "time": "06:00",
+      "time": "07:30",
       "text": "Washington discussing nuclear strike on Iran former congresswoman",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "iraqsun.com",
+      "source": "kenyastar.com",
       "signal_id": "baf65aadbd5e1ac1"
     },
     {
-      "time": "06:00",
-      "text": "Oil treads water as US - Iran peace talks stall , Hormuz shipping slows",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "07:30",
+      "text": "How false nuclear claim about Iran ricocheted from India to Washington",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "economictimes.indiatimes.com",
-      "signal_id": "6105149b0e7ae6ab"
+      "source": "business-standard.com",
+      "signal_id": "7b0bcb8e2fac64fe"
     }
   ],
   "signals": [
     {
-      "id": "e4adf052e9321099",
-      "name": "Israeli soldier arrested for placing Polymarket bets on attacks in Iran , Yemen",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e4adf052e9321099",
-      "strength": 0.5,
-      "reliability": 0.74,
-      "freshness": 0.353,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "jpost.com",
-      "url": "http://www.jpost.com/israel-news/article-905717",
-      "published_at": "2026-08-17T00:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 11.5,
-        "short": 9.0,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d421ff01afb3cdd2",
-      "name": "Trump orders Pentagon to reduce military exercises with South Korea after Iran snub",
+      "id": "5532fa99287fedf9",
+      "name": "Trump orders Pentagon to cut back military exercises with South Korea , cites Seoul Iran war stance",
       "finding": "דיווח על יכולת, פריסה או היערכות צבאית איראנית.",
       "category": "capability",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "d421ff01afb3cdd2",
+      "dependency_group": "5532fa99287fedf9",
       "strength": 0.46,
       "reliability": 0.56,
-      "freshness": 0.353,
+      "freshness": 0.582,
       "max_effect": {
         "immediate": 34,
         "short": 48,
@@ -126,16 +94,46 @@ window.MAGEN_STATE = {
         "short": 1.0,
         "extended": 0.84
       },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/s1bllaywzl",
-      "published_at": "2026-08-17T00:45:00Z",
+      "source": "businesstimes.com.sg",
+      "url": "https://www.businesstimes.com.sg/international/global/trump-orders-pentagon-cut-back-military-exercises-south-korea-cites-seouls-iran-war-stance",
+      "published_at": "2026-08-17T03:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 4.4,
-        "extended": 3.2
+        "immediate": 3.0,
+        "short": 7.2,
+        "extended": 5.3
+      }
+    },
+    {
+      "id": "f76ca43f571252f1",
+      "name": "May become offensive : IRGC deputy signals shift in Iran military doctrine",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f76ca43f571252f1",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.832,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kenyastar.com",
+      "url": "http://www.kenyastar.com/news/279246149/may-become-offensive-irgc-deputy-signals-shift-in-iran-military-doctrine",
+      "published_at": "2026-08-17T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
     },
     {
       "id": "baf65aadbd5e1ac1",
@@ -147,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "baf65aadbd5e1ac1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.671,
+      "freshness": 0.832,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,25 +156,117 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "iraqsun.com",
-      "url": "http://www.iraqsun.com/news/279245957/washington-discussing-nuclear-strike-on-iran-former-congresswoman",
-      "published_at": "2026-08-17T03:00:00Z",
+      "source": "kenyastar.com",
+      "url": "http://www.kenyastar.com/news/279245957/washington-discussing-nuclear-strike-on-iran-former-congresswoman",
+      "published_at": "2026-08-17T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      },
-      "carried_forward": true
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
     },
     {
-      "id": "6105149b0e7ae6ab",
-      "name": "Oil treads water as US - Iran peace talks stall , Hormuz shipping slows",
+      "id": "7b0bcb8e2fac64fe",
+      "name": "How false nuclear claim about Iran ricocheted from India to Washington",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "6105149b0e7ae6ab",
+      "dependency_group": "7b0bcb8e2fac64fe",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.832,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "business-standard.com",
+      "url": "https://www.business-standard.com/world-news/how-false-nuclear-claim-about-iran-ricocheted-from-india-to-washington-126081700061_1.html",
+      "published_at": "2026-08-17T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "f2af0688a37538c8",
+      "name": "Iran general warns of  offensive  military posture , strategic surprises as US - Iran 60 ‑ day ceasefire framework hangs in balance",
+      "finding": "דיווח המצביע על רגיעה, הכחשה או הפחתת הסלמה.",
+      "category": "regional_escalation",
+      "direction": "down",
+      "evidence_type": "deescalation",
+      "dependency_group": "f2af0688a37538c8",
+      "strength": 0.54,
+      "reliability": 0.56,
+      "freshness": 0.582,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gulfnews.com",
+      "url": "https://gulfnews.com/world/mena/iran-general-warns-of-offensive-military-posture-strategic-surprises-as-us-iran-60day-ceasefire-framework-hangs-in-balance-1.500643060",
+      "published_at": "2026-08-17T03:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": -1.3,
+        "short": -4.5,
+        "extended": -7.7
+      }
+    },
+    {
+      "id": "8fe58045c17edf33",
+      "name": "Oil rises as US - Iran peace talks stall , Hormuz shipping slows",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8fe58045c17edf33",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.721,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dunyanews.tv",
+      "url": "https://dunyanews.tv/en/Business/968290-oil-rises-as-usiran-peace-talks-stall-hormuz-shipping-slows",
+      "published_at": "2026-08-17T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      }
+    },
+    {
+      "id": "ccd4c7baa0fe5f09",
+      "name": "Anticipate strategic surprise : Iran signals possible shift from defensive to offensive military posture",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ccd4c7baa0fe5f09",
       "strength": 0.4,
       "reliability": 0.56,
       "freshness": 0.671,
@@ -190,48 +280,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-treads-water-as-us-iran-peace-talks-stall-hormuz-shipping-slows/articleshow/133284760.cms",
-      "published_at": "2026-08-17T03:00:00Z",
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/anticipate-strategic-surprises-iran-signals-possible-shift-from-defensive-to-offensive-military-posture/articleshow/133285440.cms",
+      "published_at": "2026-08-17T03:45:00Z",
       "active": true,
       "computed": {
         "immediate": 1.1,
         "short": 3.9,
         "extended": 6.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6d383be40e0f9515",
-      "name": "Former US lawmaker claims high - level talks underway on potential nuclear weapons use against Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6d383be40e0f9515",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.353,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/americas/former-us-lawmaker-claims-high-level-talks-underway-on-potential-nuclear-weapons-use-against-iran/4028994",
-      "published_at": "2026-08-17T00:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
-      },
-      "carried_forward": true
+      }
     }
   ],
   "history": [
@@ -2910,17 +2967,23 @@ window.MAGEN_STATE = {
       "immediate": 16,
       "short": 21,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-17T05:08:41.571955Z",
+      "immediate": 6,
+      "short": 17,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-17T03:31:44.312719Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-17T05:08:41.571955Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "ok": true,
+        "items": 150,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
