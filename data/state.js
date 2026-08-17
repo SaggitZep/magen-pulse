@@ -1,78 +1,109 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-17T19:43:06.945135Z",
+  "mode": "live",
+  "generated_at": "2026-08-17T20:03:48.112506Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 5,
       "low": 0,
-      "high": 20,
-      "confidence": 52,
+      "high": 18,
+      "confidence": 69,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
-      "low": 0,
-      "high": 31,
-      "confidence": 52,
+      "score": 17,
+      "low": 4,
+      "high": 30,
+      "confidence": 69,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 8,
+      "score": 27,
+      "low": 14,
       "high": 40,
-      "confidence": 52,
+      "confidence": 69,
       "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 1
   },
   "changes": [
     {
+      "time": "22:15",
+      "text": "Iran threatens to go on offensive if diplomacy with US fails",
+      "impact": "השפעה מיידית מחושבת: +2.0",
+      "direction": "up",
+      "source": "jpost.com",
+      "signal_id": "c5f0424c5928d230"
+    },
+    {
       "time": "21:15",
       "text": "Trump Threatens to  Bomb the Shit Out of Oman  if It Hampers Iran War",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
       "source": "haaretz.com",
       "signal_id": "b6dae8bfa6de9223"
     },
     {
-      "time": "21:30",
-      "text": "Deadline for Iran peace deal expires as Trump threatens to bomb Oman if it interferes",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "time": "22:15",
+      "text": "Trump threatens Oman as it works on Strait of Hormuz deal with Iran",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "foxbaltimore.com",
-      "signal_id": "1d7679a84e2e5028"
+      "source": "wsbradio.com",
+      "signal_id": "9f22a8239e963792"
     },
     {
-      "time": "21:15",
-      "text": "Masrour Barzani : Iran drones target Kurdish leaders after Trump used them as backchannel to IRGC ; US condemns attack",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "time": "22:15",
+      "text": "Iran Threatens to Go on Offensive in Strait of Hormuz if Diplomacy With US Fails",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "timesofindia.indiatimes.com",
-      "signal_id": "af503823854f2273"
-    },
-    {
-      "time": "21:15",
-      "text": "Trump Threatens to Bomb US Ally Oman as Iran Deadline Expires While Kushner Presses Netanyahu on Gaza Plan",
-      "impact": "השפעה מיידית מחושבת: +1.3",
-      "direction": "up",
-      "source": "ibtimes.com.au",
-      "signal_id": "7785729255e69ac4"
+      "source": "algemeiner.com",
+      "signal_id": "faeff705a5b777f4"
     }
   ],
   "signals": [
+    {
+      "id": "c5f0424c5928d230",
+      "name": "Iran threatens to go on offensive if diplomacy with US fails",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c5f0424c5928d230",
+      "strength": 0.45,
+      "reliability": 0.74,
+      "freshness": 0.793,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jpost.com",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-905793",
+      "published_at": "2026-08-17T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.0,
+        "short": 6.8,
+        "extended": 11.6
+      }
+    },
     {
       "id": "b6dae8bfa6de9223",
       "name": "Trump Threatens to  Bomb the Shit Out of Oman  if It Hampers Iran War",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b6dae8bfa6de9223",
       "strength": 0.45,
       "reliability": 0.8,
-      "freshness": 0.657,
+      "freshness": 0.596,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +130,134 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.1,
-        "extended": 10.4
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
+    },
+    {
+      "id": "9f22a8239e963792",
+      "name": "Trump threatens Oman as it works on Strait of Hormuz deal with Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9f22a8239e963792",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.793,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wsbradio.com",
+      "url": "https://www.wsbradio.com/news/world/iran-working/RY6CZCPRXM4L5ERJPVGZWFFCYM/",
+      "published_at": "2026-08-17T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "faeff705a5b777f4",
+      "name": "Iran Threatens to Go on Offensive in Strait of Hormuz if Diplomacy With US Fails",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "faeff705a5b777f4",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.793,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "algemeiner.com",
+      "url": "https://www.algemeiner.com/2026/08/17/iran-threatens-go-offensive-strait-hormuz-diplomacy-us-fails/",
+      "published_at": "2026-08-17T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "2064e92dc6e7d3b6",
+      "name": "Reuters : Iran threatens with escalation , strikes if US does not honor deal within weeks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2064e92dc6e7d3b6",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.738,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.am",
+      "url": "https://news.am/en/news/1055944",
+      "published_at": "2026-08-17T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "526fdb9ccdfa1ca6",
+      "name": "Trump threatens to bomb Oman if it gets in way of Iran deal - report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "526fdb9ccdfa1ca6",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.738,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "rnz.co.nz",
+      "url": "https://www.rnz.co.nz/news/world/1042235/trump-threatens-to-bomb-oman-if-it-gets-in-way-of-iran-deal-report",
+      "published_at": "2026-08-17T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
     },
     {
       "id": "1d7679a84e2e5028",
@@ -115,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1d7679a84e2e5028",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.706,
+      "freshness": 0.738,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,16 +280,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "foxbaltimore.com",
-      "url": "https://foxbaltimore.com/news/nation-world/deadline-for-iran-peace-deal-expires-as-trump-threatens-to-bomb-oman-if-it-interferes-60-day-negotiations-memorandum-understanding-strait-of-hormuz-shipping-houthis-lebanon-israel-politics-surrender",
-      "published_at": "2026-08-17T18:30:00Z",
+      "source": "abc6onyourside.com",
+      "url": "https://abc6onyourside.com/news/nation-world/deadline-for-iran-peace-deal-expires-as-trump-threatens-to-bomb-oman-if-it-interferes-60-day-negotiations-memorandum-understanding-strait-of-hormuz-shipping-houthis-lebanon-israel-politics-surrender",
+      "published_at": "2026-08-17T19:00:00Z",
       "active": true,
       "computed": {
         "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.8
-      },
-      "carried_forward": true
+        "short": 4.8,
+        "extended": 8.2
+      }
     },
     {
       "id": "af503823854f2273",
@@ -147,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "af503823854f2273",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.657,
+      "freshness": 0.596,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +316,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.6,
-        "extended": 7.8
-      },
-      "carried_forward": true
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
     },
     {
       "id": "7785729255e69ac4",
@@ -179,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7785729255e69ac4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.657,
+      "freshness": 0.596,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +347,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
-      },
-      "carried_forward": true
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
     },
     {
       "id": "9fdea5e16abeafcf",
@@ -211,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9fdea5e16abeafcf",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.657,
+      "freshness": 0.596,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,43 +378,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c186b51502bc9614",
-      "name": "Iran threatens to go on offensive in Hormuz if diplomacy with US fails",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c186b51502bc9614",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.57,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "business-standard.com",
-      "url": "https://www.business-standard.com/world-news/iran-threatens-to-go-on-offensive-in-hormuz-if-diplomacy-with-us-fails-126081701577_1.html",
-      "published_at": "2026-08-17T17:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      },
-      "carried_forward": true
+        "short": 3.9,
+        "extended": 6.6
+      }
     },
     {
       "id": "39a1fbf533ceb70f",
@@ -275,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "39a1fbf533ceb70f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.494,
+      "freshness": 0.448,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -292,106 +410,9 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "024db673603fe637",
-      "name": "Iran War Day 171 : Trump Again Threatens to Bomb Oman if It  Gets in the Way  of Iran Deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "024db673603fe637",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.46,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theamericanconservative.com",
-      "url": "https://www.theamericanconservative.com/iran-war-day-171-trump-again-threatens-to-bomb-oman-if-it-gets-in-the-way-of-iran-deal/",
-      "published_at": "2026-08-17T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3ebb2bc7ef294013",
-      "name": "Trump threatens to bomb Oman over Strait of Hormuz talks with Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3ebb2bc7ef294013",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.428,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/08/17/774545/Trump-threatens-bomb-Oman-Strait-of-Hormuz-talks-",
-      "published_at": "2026-08-17T16:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "80e375c2a915ed4e",
-      "name": "Trump threatens Oman : latest developments in US - Iran war",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "80e375c2a915ed4e",
-      "strength": 0.45,
-      "reliability": 0.74,
-      "freshness": 0.3,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "al-monitor.com",
-      "url": "https://www.al-monitor.com/originals/2026/08/trump-threatens-oman-latest-developments-us-iran-war",
-      "published_at": "2026-08-17T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      },
-      "carried_forward": true
+        "short": 2.9,
+        "extended": 5.0
+      }
     },
     {
       "id": "990bb61ea95eda1d",
@@ -403,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "990bb61ea95eda1d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.46,
+      "freshness": 0.417,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -419,75 +440,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "25d07d8f2c515e1f",
-      "name": "Trump says Iran should surrender , threatens to bomb Oman",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "25d07d8f2c515e1f",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.399,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "businesstimes.com.sg",
-      "url": "https://www.businesstimes.com.sg/international/trump-says-iran-should-surrender-threatens-bomb-oman",
-      "published_at": "2026-08-17T16:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "25ffb2b5c414a80a",
-      "name": "Trump Threatens to Bomb Oman as Iran - Oman Hormuz Deal Emerges , Escalating Strait of Hormuz Crisis",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "25ffb2b5c414a80a",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.322,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "openthemagazine.com",
-      "url": "https://openthemagazine.com/world/well-bomb-the-s-out-of-them-trump-turns-on-oman-as-hormuz-deal-takes-shape",
-      "published_at": "2026-08-17T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     }
   ],
   "history": [
@@ -3304,17 +3260,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 15,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-17T20:03:48.112506Z",
+      "immediate": 5,
+      "short": 17,
+      "extended": 27
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-17T19:04:48.151805Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-17T20:03:48.112506Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 13
+        "ok": true,
+        "items": 150,
+        "relevant": 12
       },
       "manual": {
         "ok": true,
