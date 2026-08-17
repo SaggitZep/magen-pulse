@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-17T13:55:47.725480Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-17T14:37:52.135882Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 4,
       "low": 0,
-      "high": 17,
-      "confidence": 71,
+      "high": 19,
+      "confidence": 54,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
-      "low": 3,
+      "score": 12,
+      "low": 0,
       "high": 27,
-      "confidence": 71,
+      "confidence": 54,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 13,
-      "high": 37,
-      "confidence": 71,
-      "status": "מוגבר"
+      "score": 20,
+      "low": 5,
+      "high": 35,
+      "confidence": 54,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 3
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "16:30",
       "text": "Trump threatens to bomb Oman if it gets in way of Iran deal : Report",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "channelnewsasia.com",
       "signal_id": "526fdb9ccdfa1ca6"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:45",
       "text": "Iranian Drones Target Kurdistan PM Office , Intelligence Chief Home",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "deccanchronicle.com",
       "signal_id": "f5d7d535c0b7f7fa"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "16:30",
       "text": "Iran near finalising Strait of Hormuz shipping deal with Oman",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "siasat.com",
       "signal_id": "ed7d4afc467af471"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:45",
       "text": "Trump Threatens Oman With Bombing , Demands Iran  Surrender",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "deccanchronicle.com",
       "signal_id": "0ee20adda009be0c"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "526fdb9ccdfa1ca6",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.884,
+      "freshness": 0.724,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.8,
-        "extended": 9.8
-      }
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      },
+      "carried_forward": true
     },
     {
       "id": "f5d7d535c0b7f7fa",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f5d7d535c0b7f7fa",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.714,
+      "freshness": 0.584,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.4
-      }
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 6.9
+      },
+      "carried_forward": true
     },
     {
       "id": "ed7d4afc467af471",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ed7d4afc467af471",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.884,
+      "freshness": 0.724,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      }
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      },
+      "carried_forward": true
     },
     {
       "id": "0ee20adda009be0c",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0ee20adda009be0c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.714,
+      "freshness": 0.584,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.9
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      },
+      "carried_forward": true
     },
     {
       "id": "4fb5c85bf0c0e15a",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4fb5c85bf0c0e15a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.767,
+      "freshness": 0.627,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.6
-      }
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
+      },
+      "carried_forward": true
     },
     {
       "id": "3f349a9a423368a0",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3f349a9a423368a0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.665,
+      "freshness": 0.544,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.6
-      }
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.4
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -3014,17 +3020,23 @@ window.MAGEN_STATE = {
       "immediate": 5,
       "short": 15,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-08-17T14:37:52.135882Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-17T13:55:47.725480Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 6
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 6
       },
       "manual": {
         "ok": true,
