@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-17T01:02:59.442242Z",
+  "generated_at": "2026-08-17T02:33:52.353092Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 1,
       "low": 0,
-      "high": 19,
-      "confidence": 47,
+      "high": 20,
+      "confidence": 34,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 5,
       "low": 0,
       "high": 24,
-      "confidence": 47,
+      "confidence": 34,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 12,
+      "score": 8,
       "low": 0,
-      "high": 29,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 27,
+      "confidence": 34,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "01:30",
       "text": "IRANIAN CYBER THREAT : Shin Bet Warns Journalists Of Targeted Phishing Campaign",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "theyeshivaworld.com",
       "signal_id": "ef12d9d40f930320"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "01:45",
       "text": "White House  discussing using nuclear weapons on Iran , claims former Congresswoman | World | News",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "express.co.uk",
       "signal_id": "c5660f477eeca86a"
@@ -58,18 +58,10 @@ window.MAGEN_STATE = {
     {
       "time": "01:30",
       "text": "BETTING SCANDAL : IAF Major Faces Charges Over Polymarket Wagers On Iran , Yemen Strikes",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "theyeshivaworld.com",
       "signal_id": "59435f63e601317d"
-    },
-    {
-      "time": "23:30",
-      "text": "Israel strikes Lebanon again , 11 dead ; Iran still defiant on Hormuz control",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "business-standard.com",
-      "signal_id": "7de9d0572f5155fe"
     }
   ],
   "signals": [
@@ -83,7 +75,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ef12d9d40f930320",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.483,
+      "freshness": 0.313,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +91,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.4
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
       },
       "carried_forward": true
     },
@@ -115,7 +107,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c5660f477eeca86a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.518,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +123,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
       },
       "carried_forward": true
     },
@@ -147,7 +139,7 @@ window.MAGEN_STATE = {
       "dependency_group": "59435f63e601317d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.483,
+      "freshness": 0.313,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,105 +155,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-16T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7de9d0572f5155fe",
-      "name": "Israel strikes Lebanon again , 11 dead ; Iran still defiant on Hormuz control",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7de9d0572f5155fe",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.273,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "business-standard.com",
-      "url": "https://www.business-standard.com/world-news/israel-strikes-lebanon-again-11-dead-iran-still-defiant-on-hormuz-control-126081700004_1.html",
-      "published_at": "2026-08-16T20:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "84c4208def760102",
-      "name": "iran us war culf allies frustrated with trump questions on american bases",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "84c4208def760102",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.273,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "express.pk",
-      "url": "https://www.express.pk/story/2827625/iran-us-war-culf-allies-frustrated-with-trump-questions-on-american-bases-2827625",
-      "published_at": "2026-08-16T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9a92860781bfd168",
-      "name": "Israel strikes Lebanon as US preps fresh Iran sanctions package",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9a92860781bfd168",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.22,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "stripes.com",
-      "url": "https://www.stripes.com/theaters/middle_east/2026-08-16/israel-lebanon-iran-sanctions-package-22571168.html",
-      "published_at": "2026-08-16T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     }
@@ -2924,6 +2820,12 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 7,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-08-17T02:33:52.353092Z",
+      "immediate": 1,
+      "short": 5,
+      "extended": 8
     }
   ],
   "health": {
@@ -2934,7 +2836,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 6
+        "carried_forward": 3
       },
       "manual": {
         "ok": true,
