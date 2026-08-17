@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-17T10:04:52.483400Z",
+  "generated_at": "2026-08-17T10:48:53.125109Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 11,
+      "score": 2,
       "low": 0,
-      "high": 25,
-      "confidence": 63,
-      "status": "נמוך"
+      "high": 16,
+      "confidence": 59,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 16,
-      "low": 3,
-      "high": 29,
-      "confidence": 64,
+      "score": 8,
+      "low": 0,
+      "high": 22,
+      "confidence": 59,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 6,
-      "high": 32,
-      "confidence": 64,
+      "score": 13,
+      "low": 0,
+      "high": 27,
+      "confidence": 59,
       "status": "נמוך"
     }
   },
@@ -35,22 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "ירידה",
+    "points_60m": -9
   },
   "changes": [
     {
-      "time": "09:15",
-      "text": "Fake Iran nuclear post : How a fabricated X claim by Indian account created panic in Israel , US",
-      "impact": "השפעה מיידית מחושבת: +8.3",
-      "direction": "up",
-      "source": "timesofindia.indiatimes.com",
-      "signal_id": "a1693cae33078e46"
-    },
-    {
       "time": "12:15",
       "text": "Marjorie Taylor Greene Claims Nuclear Options on Iran Are Real and Compares Them to Hiroshima and Nagasaki",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "ibtimes.co.uk",
       "signal_id": "631ca945ed540ee0"
@@ -58,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:30",
       "text": "May become offensive : IRGC deputy signals shift in Iran military doctrine",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "iranherald.com",
       "signal_id": "f76ca43f571252f1"
@@ -66,44 +58,21 @@ window.MAGEN_STATE = {
     {
       "time": "10:00",
       "text": "Drones iraníes podrían haber ayudado a localizar al F - 15E estadounidense derribado sobre Irán",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "infodefensa.com",
       "signal_id": "195a80f648af3c65"
+    },
+    {
+      "time": "10:30",
+      "text": "Trump planning to use nuclear weapons on Iran , claims ex - US Congresswoman",
+      "impact": "השפעה מיידית מחושבת: +0.7",
+      "direction": "up",
+      "source": "aninews.in",
+      "signal_id": "3f349a9a423368a0"
     }
   ],
   "signals": [
-    {
-      "id": "a1693cae33078e46",
-      "name": "Fake Iran nuclear post : How a fabricated X claim by Indian account created panic in Israel , US",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a1693cae33078e46",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.335,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/us/fake-iran-nuclear-post-how-a-fabricated-x-claim-by-indian-account-created-panic-in-israel-us/articleshow/133287465.cms",
-      "published_at": "2026-08-17T06:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 8.3,
-        "short": 6.4,
-        "extended": 2.7
-      }
-    },
     {
       "id": "631ca945ed540ee0",
       "name": "Marjorie Taylor Greene Claims Nuclear Options on Iran Are Real and Compares Them to Hiroshima and Nagasaki",
@@ -114,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "631ca945ed540ee0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.789,
+      "freshness": 0.639,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.6,
-        "extended": 7.8
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
       }
     },
     {
@@ -145,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f76ca43f571252f1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.478,
+      "freshness": 0.388,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       }
     },
     {
@@ -176,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "195a80f648af3c65",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.415,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
       }
     },
     {
@@ -207,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3f349a9a423368a0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.478,
+      "freshness": 0.388,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,40 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "00ec93d6203607b7",
-      "name": "How a fake Iran nuclear claim from Indian account reached Netanyahu , Trump allies",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "00ec93d6203607b7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.335,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/how-a-fake-iran-nuclear-claim-from-india-reached-netanyahu-trump-allies-article-14007243.html",
-      "published_at": "2026-08-17T06:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       }
     }
   ],
@@ -2978,17 +2916,23 @@ window.MAGEN_STATE = {
       "immediate": 11,
       "short": 16,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-17T10:48:53.125109Z",
+      "immediate": 2,
+      "short": 8,
+      "extended": 13
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-17T10:04:52.483400Z",
+    "last_success": "2026-08-17T10:48:53.125109Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 6
+        "relevant": 4
       },
       "manual": {
         "ok": true,
