@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-17T11:14:18.797492Z",
+  "generated_at": "2026-08-17T11:46:44.981414Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 1,
       "low": 0,
       "high": 17,
-      "confidence": 54,
+      "confidence": 51,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 3,
       "low": 0,
-      "high": 22,
-      "confidence": 54,
+      "high": 19,
+      "confidence": 51,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 12,
+      "score": 5,
       "low": 0,
-      "high": 27,
-      "confidence": 54,
-      "status": "נמוך"
+      "high": 21,
+      "confidence": 51,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -36,32 +36,24 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "12:15",
       "text": "Marjorie Taylor Greene Claims Nuclear Options on Iran Are Real and Compares Them to Hiroshima and Nagasaki",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "ibtimes.co.uk",
       "signal_id": "631ca945ed540ee0"
     },
     {
-      "time": "10:30",
-      "text": "May become offensive : IRGC deputy signals shift in Iran military doctrine",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "iranherald.com",
-      "signal_id": "f76ca43f571252f1"
-    },
-    {
-      "time": "10:30",
-      "text": "Trump planning to use nuclear weapons on Iran , claims ex - US Congresswoman",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "aninews.in",
-      "signal_id": "3f349a9a423368a0"
+      "time": "11:15",
+      "text": "Strait of Hormuz shipping slows as U . S .- Iran ceasefire nears end",
+      "impact": "השפעה מיידית מחושבת: -0.8",
+      "direction": "down",
+      "source": "cnbc.com",
+      "signal_id": "0228b3bc987aa4b8"
     }
   ],
   "signals": [
@@ -75,7 +67,7 @@
       "dependency_group": "631ca945ed540ee0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.567,
+      "freshness": 0.485,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -91,22 +83,22 @@
       "published_at": "2026-08-17T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     },
     {
-      "id": "f76ca43f571252f1",
-      "name": "May become offensive : IRGC deputy signals shift in Iran military doctrine",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "id": "0228b3bc987aa4b8",
+      "name": "Strait of Hormuz shipping slows as U . S .- Iran ceasefire nears end",
+      "finding": "דיווח המצביע על רגיעה, הכחשה או הפחתת הסלמה.",
       "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f76ca43f571252f1",
-      "strength": 0.4,
+      "direction": "down",
+      "evidence_type": "deescalation",
+      "dependency_group": "0228b3bc987aa4b8",
+      "strength": 0.54,
       "reliability": 0.56,
-      "freshness": 0.344,
+      "freshness": 0.365,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -117,45 +109,14 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279246149/may-become-offensive-irgc-deputy-signals-shift-in-iran-military-doctrine",
-      "published_at": "2026-08-17T07:30:00Z",
+      "source": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/08/17/us-iran-war-trump-hormuz.html",
+      "published_at": "2026-08-17T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
-    },
-    {
-      "id": "3f349a9a423368a0",
-      "name": "Trump planning to use nuclear weapons on Iran , claims ex - US Congresswoman",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3f349a9a423368a0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.344,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aninews.in",
-      "url": "https://aninews.in/news/world/us/trump-planning-to-use-nuclear-weapons-on-iran-claims-ex-us-congresswoman20260817114639/",
-      "published_at": "2026-08-17T07:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": -0.8,
+        "short": -2.9,
+        "extended": -4.9
       }
     }
   ],
@@ -2889,17 +2850,23 @@
       "immediate": 2,
       "short": 7,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-08-17T11:46:44.981414Z",
+      "immediate": 1,
+      "short": 3,
+      "extended": 5
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-17T11:14:18.797492Z",
+    "last_success": "2026-08-17T11:46:44.981414Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 3
+        "relevant": 2
       },
       "manual": {
         "ok": true,
