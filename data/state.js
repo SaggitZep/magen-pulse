@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-17T05:08:41.571955Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-17T05:51:42.305498Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 6,
+      "score": 5,
       "low": 0,
-      "high": 18,
-      "confidence": 70,
+      "high": 20,
+      "confidence": 53,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 17,
-      "low": 5,
+      "score": 14,
+      "low": 0,
       "high": 29,
-      "confidence": 70,
+      "confidence": 53,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 9,
+      "score": 18,
+      "low": 3,
       "high": 33,
-      "confidence": 70,
+      "confidence": 53,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -10
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "06:15",
       "text": "Trump orders Pentagon to cut back military exercises with South Korea , cites Seoul Iran war stance",
-      "impact": "השפעה מיידית מחושבת: +3.0",
+      "impact": "השפעה מיידית מחושבת: +2.4",
       "direction": "up",
       "source": "businesstimes.com.sg",
       "signal_id": "5532fa99287fedf9"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:30",
       "text": "May become offensive : IRGC deputy signals shift in Iran military doctrine",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "kenyastar.com",
       "signal_id": "f76ca43f571252f1"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:30",
       "text": "Washington discussing nuclear strike on Iran former congresswoman",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "kenyastar.com",
       "signal_id": "baf65aadbd5e1ac1"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:30",
       "text": "How false nuclear claim about Iran ricocheted from India to Washington",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "7b0bcb8e2fac64fe"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5532fa99287fedf9",
       "strength": 0.46,
       "reliability": 0.56,
-      "freshness": 0.582,
+      "freshness": 0.474,
       "max_effect": {
         "immediate": 34,
         "short": 48,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T03:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 3.0,
-        "short": 7.2,
-        "extended": 5.3
-      }
+        "immediate": 2.4,
+        "short": 5.9,
+        "extended": 4.3
+      },
+      "carried_forward": true
     },
     {
       "id": "f76ca43f571252f1",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f76ca43f571252f1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.832,
+      "freshness": 0.678,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
-      }
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "baf65aadbd5e1ac1",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "baf65aadbd5e1ac1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.832,
+      "freshness": 0.678,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
-      }
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "7b0bcb8e2fac64fe",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7b0bcb8e2fac64fe",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.832,
+      "freshness": 0.678,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
-      }
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "f2af0688a37538c8",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f2af0688a37538c8",
       "strength": 0.54,
       "reliability": 0.56,
-      "freshness": 0.582,
+      "freshness": 0.474,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T03:15:00Z",
       "active": true,
       "computed": {
-        "immediate": -1.3,
-        "short": -4.5,
-        "extended": -7.7
-      }
+        "immediate": -1.1,
+        "short": -3.7,
+        "extended": -6.3
+      },
+      "carried_forward": true
     },
     {
       "id": "8fe58045c17edf33",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8fe58045c17edf33",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.721,
+      "freshness": 0.587,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      },
+      "carried_forward": true
     },
     {
       "id": "ccd4c7baa0fe5f09",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ccd4c7baa0fe5f09",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.671,
+      "freshness": 0.547,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      }
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -2973,17 +2980,23 @@ window.MAGEN_STATE = {
       "immediate": 6,
       "short": 17,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-17T05:51:42.305498Z",
+      "immediate": 5,
+      "short": 14,
+      "extended": 18
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-17T05:08:41.571955Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 7
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
