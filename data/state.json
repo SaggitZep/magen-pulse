@@ -1,72 +1,72 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-17T19:04:48.151805Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-17T19:43:06.945135Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 4,
       "low": 0,
-      "high": 18,
-      "confidence": 68,
+      "high": 20,
+      "confidence": 52,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 17,
-      "low": 4,
-      "high": 30,
-      "confidence": 68,
+      "score": 15,
+      "low": 0,
+      "high": 31,
+      "confidence": 52,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 28,
-      "low": 15,
-      "high": 41,
-      "confidence": 68,
+      "score": 24,
+      "low": 8,
+      "high": 40,
+      "confidence": 52,
       "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "21:15",
       "text": "Trump Threatens to  Bomb the Shit Out of Oman  if It Hampers Iran War",
-      "impact": "השפעה מיידית מחושבת: +2.2",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
       "source": "haaretz.com",
       "signal_id": "b6dae8bfa6de9223"
     },
     {
-      "time": "21:15",
-      "text": "Masrour Barzani : Iran drones target Kurdish leaders after Trump used them as backchannel to IRGC ; US condemns attack",
-      "impact": "השפעה מיידית מחושבת: +1.6",
-      "direction": "up",
-      "source": "timesofindia.indiatimes.com",
-      "signal_id": "af503823854f2273"
-    },
-    {
       "time": "21:30",
       "text": "Deadline for Iran peace deal expires as Trump threatens to bomb Oman if it interferes",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "foxbaltimore.com",
       "signal_id": "1d7679a84e2e5028"
     },
     {
       "time": "21:15",
+      "text": "Masrour Barzani : Iran drones target Kurdish leaders after Trump used them as backchannel to IRGC ; US condemns attack",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "timesofindia.indiatimes.com",
+      "signal_id": "af503823854f2273"
+    },
+    {
+      "time": "21:15",
       "text": "Trump Threatens to Bomb US Ally Oman as Iran Deadline Expires While Kushner Presses Netanyahu on Gaza Plan",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "ibtimes.com.au",
       "signal_id": "7785729255e69ac4"
@@ -83,7 +83,7 @@
       "dependency_group": "b6dae8bfa6de9223",
       "strength": 0.45,
       "reliability": 0.8,
-      "freshness": 0.789,
+      "freshness": 0.657,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,41 +99,11 @@
       "published_at": "2026-08-17T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 2.2,
-        "short": 7.3,
-        "extended": 12.5
-      }
-    },
-    {
-      "id": "af503823854f2273",
-      "name": "Masrour Barzani : Iran drones target Kurdish leaders after Trump used them as backchannel to IRGC ; US condemns attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "af503823854f2273",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.789,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 1.8,
+        "short": 6.1,
+        "extended": 10.4
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-drones-target-kurdish-leaders-after-trump-used-them-as-backchannel-to-irgc-us-condemns-attack/articleshow/133302540.cms",
-      "published_at": "2026-08-17T18:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.3
-      }
+      "carried_forward": true
     },
     {
       "id": "1d7679a84e2e5028",
@@ -145,7 +115,7 @@
       "dependency_group": "1d7679a84e2e5028",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.847,
+      "freshness": 0.706,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +131,43 @@
       "published_at": "2026-08-17T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.4
-      }
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.8
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "af503823854f2273",
+      "name": "Masrour Barzani : Iran drones target Kurdish leaders after Trump used them as backchannel to IRGC ; US condemns attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "af503823854f2273",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.657,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-drones-target-kurdish-leaders-after-trump-used-them-as-backchannel-to-irgc-us-condemns-attack/articleshow/133302540.cms",
+      "published_at": "2026-08-17T18:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.6,
+        "extended": 7.8
+      },
+      "carried_forward": true
     },
     {
       "id": "7785729255e69ac4",
@@ -176,7 +179,7 @@
       "dependency_group": "7785729255e69ac4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.789,
+      "freshness": 0.657,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-17T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      }
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      },
+      "carried_forward": true
     },
     {
       "id": "9fdea5e16abeafcf",
@@ -207,7 +211,7 @@
       "dependency_group": "9fdea5e16abeafcf",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.789,
+      "freshness": 0.657,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-17T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      }
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      },
+      "carried_forward": true
     },
     {
       "id": "c186b51502bc9614",
@@ -238,7 +243,7 @@
       "dependency_group": "c186b51502bc9614",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.684,
+      "freshness": 0.57,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@
       "published_at": "2026-08-17T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
-      }
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      },
+      "carried_forward": true
     },
     {
       "id": "39a1fbf533ceb70f",
@@ -269,7 +275,7 @@
       "dependency_group": "39a1fbf533ceb70f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.593,
+      "freshness": 0.494,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@
       "published_at": "2026-08-17T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      }
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      },
+      "carried_forward": true
     },
     {
       "id": "024db673603fe637",
@@ -300,7 +307,7 @@
       "dependency_group": "024db673603fe637",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.552,
+      "freshness": 0.46,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@
       "published_at": "2026-08-17T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      },
+      "carried_forward": true
     },
     {
       "id": "3ebb2bc7ef294013",
@@ -331,7 +339,7 @@
       "dependency_group": "3ebb2bc7ef294013",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.514,
+      "freshness": 0.428,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@
       "published_at": "2026-08-17T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.7
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
+      },
+      "carried_forward": true
     },
     {
       "id": "80e375c2a915ed4e",
@@ -362,7 +371,7 @@
       "dependency_group": "80e375c2a915ed4e",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.36,
+      "freshness": 0.3,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@
       "published_at": "2026-08-17T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      },
+      "carried_forward": true
     },
     {
       "id": "990bb61ea95eda1d",
@@ -393,7 +403,7 @@
       "dependency_group": "990bb61ea95eda1d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.552,
+      "freshness": 0.46,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@
       "published_at": "2026-08-17T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      },
+      "carried_forward": true
     },
     {
       "id": "25d07d8f2c515e1f",
@@ -424,7 +435,7 @@
       "dependency_group": "25d07d8f2c515e1f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.478,
+      "freshness": 0.399,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,10 +451,11 @@
       "published_at": "2026-08-17T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      },
+      "carried_forward": true
     },
     {
       "id": "25ffb2b5c414a80a",
@@ -455,7 +467,7 @@
       "dependency_group": "25ffb2b5c414a80a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.386,
+      "freshness": 0.322,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,10 +483,11 @@
       "published_at": "2026-08-17T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -3285,17 +3298,23 @@
       "immediate": 5,
       "short": 17,
       "extended": 28
+    },
+    {
+      "timestamp": "2026-08-17T19:43:06.945135Z",
+      "immediate": 4,
+      "short": 15,
+      "extended": 24
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-17T19:04:48.151805Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 13
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 13
       },
       "manual": {
         "ok": true,
