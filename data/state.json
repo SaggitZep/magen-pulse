@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-17T11:46:44.981414Z",
+  "generated_at": "2026-08-17T12:16:39.735760Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 2,
       "low": 0,
       "high": 17,
-      "confidence": 51,
+      "confidence": 54,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 3,
+      "score": 7,
       "low": 0,
-      "high": 19,
-      "confidence": 51,
+      "high": 22,
+      "confidence": 54,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 5,
+      "score": 12,
       "low": 0,
-      "high": 21,
-      "confidence": 51,
-      "status": "לא זוהה אות חריג"
+      "high": 27,
+      "confidence": 54,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -36,27 +36,58 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 1
   },
   "changes": [
     {
+      "time": "14:30",
+      "text": "Tehran calls out US hypocrisy as Trump prioritizes military over social spending",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "globalsecurity.org",
+      "signal_id": "009d0f9feda91efb"
+    },
+    {
       "time": "12:15",
       "text": "Marjorie Taylor Greene Claims Nuclear Options on Iran Are Real and Compares Them to Hiroshima and Nagasaki",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "ibtimes.co.uk",
       "signal_id": "631ca945ed540ee0"
-    },
-    {
-      "time": "11:15",
-      "text": "Strait of Hormuz shipping slows as U . S .- Iran ceasefire nears end",
-      "impact": "השפעה מיידית מחושבת: -0.8",
-      "direction": "down",
-      "source": "cnbc.com",
-      "signal_id": "0228b3bc987aa4b8"
     }
   ],
   "signals": [
+    {
+      "id": "009d0f9feda91efb",
+      "name": "Tehran calls out US hypocrisy as Trump prioritizes military over social spending",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "009d0f9feda91efb",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.801,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/08/iran-260816-irna06.htm",
+      "published_at": "2026-08-17T11:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.9
+      }
+    },
     {
       "id": "631ca945ed540ee0",
       "name": "Marjorie Taylor Greene Claims Nuclear Options on Iran Are Real and Compares Them to Hiroshima and Nagasaki",
@@ -67,7 +98,7 @@
       "dependency_group": "631ca945ed540ee0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.485,
+      "freshness": 0.421,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -83,40 +114,9 @@
       "published_at": "2026-08-17T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
-    },
-    {
-      "id": "0228b3bc987aa4b8",
-      "name": "Strait of Hormuz shipping slows as U . S .- Iran ceasefire nears end",
-      "finding": "דיווח המצביע על רגיעה, הכחשה או הפחתת הסלמה.",
-      "category": "regional_escalation",
-      "direction": "down",
-      "evidence_type": "deescalation",
-      "dependency_group": "0228b3bc987aa4b8",
-      "strength": 0.54,
-      "reliability": 0.56,
-      "freshness": 0.365,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cnbc.com",
-      "url": "https://www.cnbc.com/2026/08/17/us-iran-war-trump-hormuz.html",
-      "published_at": "2026-08-17T08:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": -0.8,
-        "short": -2.9,
-        "extended": -4.9
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     }
   ],
@@ -2856,12 +2856,18 @@
       "immediate": 1,
       "short": 3,
       "extended": 5
+    },
+    {
+      "timestamp": "2026-08-17T12:16:39.735760Z",
+      "immediate": 2,
+      "short": 7,
+      "extended": 12
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-17T11:46:44.981414Z",
+    "last_success": "2026-08-17T12:16:39.735760Z",
     "sources": {
       "gdelt": {
         "ok": true,
