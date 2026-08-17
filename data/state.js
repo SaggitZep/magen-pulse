@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-17T10:48:53.125109Z",
+  "generated_at": "2026-08-17T11:14:18.797492Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 2,
       "low": 0,
-      "high": 16,
-      "confidence": 59,
+      "high": 17,
+      "confidence": 54,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 7,
       "low": 0,
       "high": 22,
-      "confidence": 59,
-      "status": "נמוך"
+      "confidence": 54,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
+      "score": 12,
       "low": 0,
       "high": 27,
-      "confidence": 59,
+      "confidence": 54,
       "status": "נמוך"
     }
   },
@@ -35,14 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -9
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "12:15",
       "text": "Marjorie Taylor Greene Claims Nuclear Options on Iran Are Real and Compares Them to Hiroshima and Nagasaki",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "ibtimes.co.uk",
       "signal_id": "631ca945ed540ee0"
@@ -50,23 +50,15 @@ window.MAGEN_STATE = {
     {
       "time": "10:30",
       "text": "May become offensive : IRGC deputy signals shift in Iran military doctrine",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "iranherald.com",
       "signal_id": "f76ca43f571252f1"
     },
     {
-      "time": "10:00",
-      "text": "Drones iraníes podrían haber ayudado a localizar al F - 15E estadounidense derribado sobre Irán",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "infodefensa.com",
-      "signal_id": "195a80f648af3c65"
-    },
-    {
       "time": "10:30",
       "text": "Trump planning to use nuclear weapons on Iran , claims ex - US Congresswoman",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "aninews.in",
       "signal_id": "3f349a9a423368a0"
@@ -83,7 +75,7 @@ window.MAGEN_STATE = {
       "dependency_group": "631ca945ed540ee0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.639,
+      "freshness": 0.567,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +91,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       }
     },
     {
@@ -114,7 +106,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f76ca43f571252f1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.388,
+      "freshness": 0.344,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,40 +122,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
-    },
-    {
-      "id": "195a80f648af3c65",
-      "name": "Drones iraníes podrían haber ayudado a localizar al F - 15E estadounidense derribado sobre Irán",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "195a80f648af3c65",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.336,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "infodefensa.com",
-      "url": "https://www.infodefensa.com/texto-diario/mostrar/5984815/drones-iranies-podrian-haber-ayudado-localizar-f-15e-estadounidense-derribado-sobre-iran",
-      "published_at": "2026-08-17T07:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       }
     },
     {
@@ -176,7 +137,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3f349a9a423368a0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.388,
+      "freshness": 0.344,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +153,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       }
     }
   ],
@@ -2922,17 +2883,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 8,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-08-17T11:14:18.797492Z",
+      "immediate": 2,
+      "short": 7,
+      "extended": 12
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-17T10:48:53.125109Z",
+    "last_success": "2026-08-17T11:14:18.797492Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 4
+        "relevant": 3
       },
       "manual": {
         "ok": true,
