@@ -1,109 +1,139 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-17T06:42:31.945767Z",
+  "mode": "live",
+  "generated_at": "2026-08-17T07:40:40.033918Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
-      "low": 0,
-      "high": 20,
-      "confidence": 50,
-      "status": "לא זוהה אות חריג"
+      "score": 20,
+      "low": 7,
+      "high": 33,
+      "confidence": 67,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
-      "low": 0,
-      "high": 27,
-      "confidence": 50,
-      "status": "נמוך"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 67,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
-      "low": 0,
-      "high": 30,
-      "confidence": 50,
-      "status": "נמוך"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "זינוק חריג",
+    "points_60m": 16
   },
   "changes": [
     {
-      "time": "06:15",
-      "text": "Trump orders Pentagon to cut back military exercises with South Korea , cites Seoul Iran war stance",
-      "impact": "השפעה מיידית מחושבת: +1.9",
+      "time": "09:15",
+      "text": "Fake Iran nuclear post : How a fabricated X claim by Indian account created panic in Israel , US",
+      "impact": "השפעה מיידית מחושבת: +16.4",
       "direction": "up",
-      "source": "businesstimes.com.sg",
-      "signal_id": "5532fa99287fedf9"
+      "source": "timesofindia.indiatimes.com",
+      "signal_id": "a1693cae33078e46"
     },
     {
-      "time": "07:30",
-      "text": "May become offensive : IRGC deputy signals shift in Iran military doctrine",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "10:00",
+      "text": "Drones iraníes podrían haber ayudado a localizar al F - 15E estadounidense derribado sobre Irán",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "kenyastar.com",
+      "source": "infodefensa.com",
+      "signal_id": "195a80f648af3c65"
+    },
+    {
+      "time": "09:00",
+      "text": "May become offensive : IRGC deputy signals shift in Iran military doctrine",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "middleeaststar.com",
       "signal_id": "f76ca43f571252f1"
     },
     {
-      "time": "07:30",
-      "text": "Washington discussing nuclear strike on Iran former congresswoman",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "09:15",
+      "text": "How a fake Iran nuclear claim from Indian account reached Netanyahu , Trump allies",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
-      "source": "kenyastar.com",
-      "signal_id": "baf65aadbd5e1ac1"
-    },
-    {
-      "time": "07:30",
-      "text": "How false nuclear claim about Iran ricocheted from India to Washington",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "business-standard.com",
-      "signal_id": "7b0bcb8e2fac64fe"
+      "source": "moneycontrol.com",
+      "signal_id": "00ec93d6203607b7"
     }
   ],
   "signals": [
     {
-      "id": "5532fa99287fedf9",
-      "name": "Trump orders Pentagon to cut back military exercises with South Korea , cites Seoul Iran war stance",
-      "finding": "דיווח על יכולת, פריסה או היערכות צבאית איראנית.",
-      "category": "capability",
+      "id": "a1693cae33078e46",
+      "name": "Fake Iran nuclear post : How a fabricated X claim by Indian account created panic in Israel , US",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "5532fa99287fedf9",
-      "strength": 0.46,
+      "dependency_group": "a1693cae33078e46",
+      "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.372,
+      "freshness": 0.665,
       "max_effect": {
-        "immediate": 34,
-        "short": 48,
-        "extended": 42
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
       },
       "relevance": {
-        "immediate": 0.58,
-        "short": 1.0,
-        "extended": 0.84
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
       },
-      "source": "businesstimes.com.sg",
-      "url": "https://www.businesstimes.com.sg/international/global/trump-orders-pentagon-cut-back-military-exercises-south-korea-cites-seouls-iran-war-stance",
-      "published_at": "2026-08-17T03:15:00Z",
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/us/fake-iran-nuclear-post-how-a-fabricated-x-claim-by-indian-account-created-panic-in-israel-us/articleshow/133287465.cms",
+      "published_at": "2026-08-17T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.9,
-        "short": 4.6,
-        "extended": 3.4
+        "immediate": 16.4,
+        "short": 12.8,
+        "extended": 5.4
+      }
+    },
+    {
+      "id": "195a80f648af3c65",
+      "name": "Drones iraníes podrían haber ayudado a localizar al F - 15E estadounidense derribado sobre Irán",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "195a80f648af3c65",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.824,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "infodefensa.com",
+      "url": "https://www.infodefensa.com/texto-diario/mostrar/5984815/drones-iranies-podrian-haber-ayudado-localizar-f-15e-estadounidense-derribado-sobre-iran",
+      "published_at": "2026-08-17T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.7
+      }
     },
     {
       "id": "f76ca43f571252f1",
@@ -115,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f76ca43f571252f1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.532,
+      "freshness": 0.619,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,16 +156,46 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "kenyastar.com",
-      "url": "http://www.kenyastar.com/news/279246149/may-become-offensive-irgc-deputy-signals-shift-in-iran-military-doctrine",
-      "published_at": "2026-08-17T04:30:00Z",
+      "source": "middleeaststar.com",
+      "url": "http://www.middleeaststar.com/news/279246149/may-become-offensive-irgc-deputy-signals-shift-in-iran-military-doctrine",
+      "published_at": "2026-08-17T06:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "00ec93d6203607b7",
+      "name": "How a fake Iran nuclear claim from Indian account reached Netanyahu , Trump allies",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "00ec93d6203607b7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.665,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/how-a-fake-iran-nuclear-claim-from-india-reached-netanyahu-trump-allies-article-14007243.html",
+      "published_at": "2026-08-17T06:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.6
+      }
     },
     {
       "id": "baf65aadbd5e1ac1",
@@ -147,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "baf65aadbd5e1ac1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.532,
+      "freshness": 0.5,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,28 +218,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "kenyastar.com",
-      "url": "http://www.kenyastar.com/news/279245957/washington-discussing-nuclear-strike-on-iran-former-congresswoman",
-      "published_at": "2026-08-17T04:30:00Z",
+      "source": "middleeaststar.com",
+      "url": "http://www.middleeaststar.com/news/279245957/washington-discussing-nuclear-strike-on-iran-former-congresswoman",
+      "published_at": "2026-08-17T05:15:00Z",
       "active": true,
       "computed": {
         "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      },
-      "carried_forward": true
+        "short": 2.9,
+        "extended": 4.9
+      }
     },
     {
-      "id": "7b0bcb8e2fac64fe",
-      "name": "How false nuclear claim about Iran ricocheted from India to Washington",
+      "id": "78474f7246d697be",
+      "name": "Iran Military Announces Bounty For US Soldiers ; Amir Hatami Statement",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "7b0bcb8e2fac64fe",
+      "dependency_group": "78474f7246d697be",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.532,
+      "freshness": 0.465,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -190,80 +249,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "business-standard.com",
-      "url": "https://www.business-standard.com/world-news/how-false-nuclear-claim-about-iran-ricocheted-from-india-to-washington-126081700061_1.html",
-      "published_at": "2026-08-17T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f2af0688a37538c8",
-      "name": "Iran general warns of  offensive  military posture , strategic surprises as US - Iran 60 ‑ day ceasefire framework hangs in balance",
-      "finding": "דיווח המצביע על רגיעה, הכחשה או הפחתת הסלמה.",
-      "category": "regional_escalation",
-      "direction": "down",
-      "evidence_type": "deescalation",
-      "dependency_group": "f2af0688a37538c8",
-      "strength": 0.54,
-      "reliability": 0.56,
-      "freshness": 0.372,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gulfnews.com",
-      "url": "https://gulfnews.com/world/mena/iran-general-warns-of-offensive-military-posture-strategic-surprises-as-us-iran-60day-ceasefire-framework-hangs-in-balance-1.500643060",
-      "published_at": "2026-08-17T03:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": -0.9,
-        "short": -2.9,
-        "extended": -4.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8fe58045c17edf33",
-      "name": "Oil rises as US - Iran peace talks stall , Hormuz shipping slows",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8fe58045c17edf33",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.461,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dunyanews.tv",
-      "url": "https://dunyanews.tv/en/Business/968290-oil-rises-as-usiran-peace-talks-stall-hormuz-shipping-slows",
-      "published_at": "2026-08-17T04:00:00Z",
+      "source": "divyamarathi.bhaskar.com",
+      "url": "https://divyamarathi.bhaskar.com/international/news/iran-military-announces-bounty-us-soldiers-amir-hatami-statement-138749689.html",
+      "published_at": "2026-08-17T05:00:00Z",
       "active": true,
       "computed": {
         "immediate": 0.8,
         "short": 2.7,
-        "extended": 4.5
-      },
-      "carried_forward": true
+        "extended": 4.6
+      }
     },
     {
       "id": "ccd4c7baa0fe5f09",
@@ -275,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ccd4c7baa0fe5f09",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.429,
+      "freshness": 0.326,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,11 +285,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      }
     }
   ],
   "history": [
@@ -2992,17 +2985,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 11,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-08-17T07:40:40.033918Z",
+      "immediate": 20,
+      "short": 24,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-17T05:08:41.571955Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-17T07:40:40.033918Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "ok": true,
+        "items": 150,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
