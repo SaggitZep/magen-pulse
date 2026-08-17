@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-17T14:37:52.135882Z",
+  "generated_at": "2026-08-17T15:02:22.687892Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
       "high": 19,
-      "confidence": 54,
+      "confidence": 52,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 11,
       "low": 0,
       "high": 27,
-      "confidence": 54,
+      "confidence": 52,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 5,
-      "high": 35,
-      "confidence": 54,
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 52,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@
     {
       "time": "16:30",
       "text": "Trump threatens to bomb Oman if it gets in way of Iran deal : Report",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "channelnewsasia.com",
       "signal_id": "526fdb9ccdfa1ca6"
@@ -50,7 +50,7 @@
     {
       "time": "15:45",
       "text": "Iranian Drones Target Kurdistan PM Office , Intelligence Chief Home",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "deccanchronicle.com",
       "signal_id": "f5d7d535c0b7f7fa"
@@ -58,7 +58,7 @@
     {
       "time": "16:30",
       "text": "Iran near finalising Strait of Hormuz shipping deal with Oman",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "siasat.com",
       "signal_id": "ed7d4afc467af471"
@@ -66,7 +66,7 @@
     {
       "time": "15:45",
       "text": "Trump Threatens Oman With Bombing , Demands Iran  Surrender",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "deccanchronicle.com",
       "signal_id": "0ee20adda009be0c"
@@ -83,7 +83,7 @@
       "dependency_group": "526fdb9ccdfa1ca6",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.724,
+      "freshness": 0.644,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-17T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "f5d7d535c0b7f7fa",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.584,
+      "freshness": 0.52,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-17T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "ed7d4afc467af471",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.724,
+      "freshness": 0.644,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-17T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "0ee20adda009be0c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.584,
+      "freshness": 0.52,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-17T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "4fb5c85bf0c0e15a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.627,
+      "freshness": 0.558,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-17T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "3f349a9a423368a0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.544,
+      "freshness": 0.484,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-08-17T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.4
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       },
       "carried_forward": true
     }
@@ -3026,6 +3026,12 @@
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-17T15:02:22.687892Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
