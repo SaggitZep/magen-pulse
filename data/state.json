@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-18T21:34:08.553052Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-18T21:58:55.762050Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 4,
       "low": 0,
-      "high": 18,
-      "confidence": 67,
+      "high": 20,
+      "confidence": 52,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
-      "low": 2,
-      "high": 28,
-      "confidence": 67,
+      "score": 14,
+      "low": 0,
+      "high": 30,
+      "confidence": 52,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 67,
+      "score": 23,
+      "low": 7,
+      "high": 39,
+      "confidence": 52,
       "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "00:00",
       "text": "Exclusive : Reports of Iranian missile attack on UAE unfounded ; Zionist false flag imprint evident",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "798a2c136b6f7d49"
@@ -50,7 +50,7 @@
     {
       "time": "00:00",
       "text": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "rock102.com",
       "signal_id": "356305502d8c4cf4"
@@ -58,7 +58,7 @@
     {
       "time": "00:00",
       "text": "Pentagon weighing smaller U . S . military presence in Gulf once Iran war ends",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "spokesman.com",
       "signal_id": "163ee8fb7f77c993"
@@ -66,7 +66,7 @@
     {
       "time": "00:00",
       "text": "Iranian strikes expose US military vulnerability as Pentagon weighs Persian Gulf pullback : Report",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "92861c83305dd47a"
@@ -83,7 +83,7 @@
       "dependency_group": "798a2c136b6f7d49",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.85,
+      "freshness": 0.755,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-18T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.9,
-        "extended": 10.1
-      }
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.9
+      },
+      "carried_forward": true
     },
     {
       "id": "356305502d8c4cf4",
@@ -114,7 +115,7 @@
       "dependency_group": "356305502d8c4cf4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.85,
+      "freshness": 0.755,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-18T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.4
-      }
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.4
+      },
+      "carried_forward": true
     },
     {
       "id": "163ee8fb7f77c993",
@@ -145,7 +147,7 @@
       "dependency_group": "163ee8fb7f77c993",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.85,
+      "freshness": 0.755,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-18T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.4
-      }
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.4
+      },
+      "carried_forward": true
     },
     {
       "id": "92861c83305dd47a",
@@ -176,7 +179,7 @@
       "dependency_group": "92861c83305dd47a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.85,
+      "freshness": 0.755,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-18T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.4
-      }
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.4
+      },
+      "carried_forward": true
     },
     {
       "id": "27089f2b260bd907",
@@ -207,7 +211,7 @@
       "dependency_group": "27089f2b260bd907",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.639,
+      "freshness": 0.568,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-18T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.6
-      }
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "a99d839a3e4427ea",
@@ -238,7 +243,7 @@
       "dependency_group": "a99d839a3e4427ea",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.686,
+      "freshness": 0.61,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,41 +259,11 @@
       "published_at": "2026-08-18T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
-      }
-    },
-    {
-      "id": "3b5ffbdb0ccefde0",
-      "name": "Russia shipping drones , explosives to rebuild Iran supply : report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3b5ffbdb0ccefde0",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.516,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nypost.com",
-      "url": "https://nypost.com/2026/08/18/world-news/russia-shipping-drones-explosives-to-rebuild-irans-supply-report/",
-      "published_at": "2026-08-18T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+      "carried_forward": true
     },
     {
       "id": "dfc3891ce220ee89",
@@ -300,7 +275,7 @@
       "dependency_group": "dfc3891ce220ee89",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.595,
+      "freshness": 0.528,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +291,11 @@
       "published_at": "2026-08-18T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.9
+      },
+      "carried_forward": true
     },
     {
       "id": "e68a963210afd2ba",
@@ -331,7 +307,7 @@
       "dependency_group": "e68a963210afd2ba",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.595,
+      "freshness": 0.528,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +323,11 @@
       "published_at": "2026-08-18T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.9
+      },
+      "carried_forward": true
     },
     {
       "id": "d371579c6175b2d8",
@@ -362,7 +339,7 @@
       "dependency_group": "d371579c6175b2d8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.639,
+      "freshness": 0.568,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +355,43 @@
       "published_at": "2026-08-18T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "3b5ffbdb0ccefde0",
+      "name": "Russia shipping drones , explosives to rebuild Iran supply : report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3b5ffbdb0ccefde0",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.458,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nypost.com",
+      "url": "https://nypost.com/2026/08/18/world-news/russia-shipping-drones-explosives-to-rebuild-irans-supply-report/",
+      "published_at": "2026-08-18T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      },
+      "carried_forward": true
     },
     {
       "id": "83e0fd760e2ee4fd",
@@ -393,7 +403,7 @@
       "dependency_group": "83e0fd760e2ee4fd",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.516,
+      "freshness": 0.458,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@
       "published_at": "2026-08-18T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      },
+      "carried_forward": true
     },
     {
       "id": "e34367fa40923774",
@@ -424,7 +435,7 @@
       "dependency_group": "e34367fa40923774",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.595,
+      "freshness": 0.528,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,10 +451,11 @@
       "published_at": "2026-08-18T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.9
-      }
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      },
+      "carried_forward": true
     },
     {
       "id": "f160c7eb19b92ab8",
@@ -455,7 +467,7 @@
       "dependency_group": "f160c7eb19b92ab8",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.48,
+      "freshness": 0.427,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,10 +483,11 @@
       "published_at": "2026-08-18T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
+      },
+      "carried_forward": true
     },
     {
       "id": "743d7aaa67c78944",
@@ -486,7 +499,7 @@
       "dependency_group": "743d7aaa67c78944",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.336,
+      "freshness": 0.298,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,72 +515,11 @@
       "published_at": "2026-08-18T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "bd2c69ea0358e54d",
-      "name": "Russia Secret Arms Supply To Iran | Missile Drone Parts Shipment Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bd2c69ea0358e54d",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.336,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bhaskar.com",
-      "url": "https://www.bhaskar.com/international/news/russia-secret-arms-supply-iran-missile-drone-parts-shipment-138765913.html",
-      "published_at": "2026-08-18T17:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
         "short": 2.3,
-        "extended": 4.0
-      }
-    },
-    {
-      "id": "8185d04ac9854579",
-      "name": "Les Emirats arabes unis affirment que lIran a tiré deux missiles vers leur territoire",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8185d04ac9854579",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.336,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "extended": 3.9
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "defimedia.info",
-      "url": "https://defimedia.info/les-emirats-arabes-unis-affirment-que-liran-tire-deux-missiles-vers-leur-territoire",
-      "published_at": "2026-08-18T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      }
+      "carried_forward": true
     },
     {
       "id": "5f1efa288b249c5f",
@@ -579,7 +531,7 @@
       "dependency_group": "5f1efa288b249c5f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.387,
+      "freshness": 0.344,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -596,9 +548,74 @@
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "bd2c69ea0358e54d",
+      "name": "Russia Secret Arms Supply To Iran | Missile Drone Parts Shipment Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bd2c69ea0358e54d",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.298,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bhaskar.com",
+      "url": "https://www.bhaskar.com/international/news/russia-secret-arms-supply-iran-missile-drone-parts-shipment-138765913.html",
+      "published_at": "2026-08-18T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "8185d04ac9854579",
+      "name": "Les Emirats arabes unis affirment que lIran a tiré deux missiles vers leur territoire",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8185d04ac9854579",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.298,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "defimedia.info",
+      "url": "https://defimedia.info/les-emirats-arabes-unis-affirment-que-liran-tire-deux-missiles-vers-leur-territoire",
+      "published_at": "2026-08-18T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -3655,17 +3672,23 @@
       "immediate": 5,
       "short": 15,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-08-18T21:58:55.762050Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 23
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-18T21:34:08.553052Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 17
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 17
       },
       "manual": {
         "ok": true,
