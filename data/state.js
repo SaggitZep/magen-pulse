@@ -1,78 +1,171 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-18T16:42:30.748473Z",
+  "mode": "live",
+  "generated_at": "2026-08-18T17:12:11.907912Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 5,
       "low": 0,
-      "high": 20,
-      "confidence": 52,
+      "high": 18,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
-      "low": 0,
-      "high": 29,
-      "confidence": 52,
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 68,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 6,
+      "score": 25,
+      "low": 12,
       "high": 38,
-      "confidence": 52,
-      "status": "נמוך"
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 1
   },
   "changes": [
     {
-      "time": "18:30",
-      "text": "Iraq Kurdistan leader accuses Iran of drone attacks ; Tehran denies the allegation",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "time": "19:45",
+      "text": "Trump Threatened to Bomb Oman Because He Unhappy With Country Deal With Iran , Officials Say",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "egyptindependent.com",
-      "signal_id": "6bcc2c7ec2d703de"
-    },
-    {
-      "time": "18:30",
-      "text": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "clickorlando.com",
+      "source": "military.com",
       "signal_id": "356305502d8c4cf4"
     },
     {
-      "time": "18:30",
+      "time": "19:45",
       "text": "Trump threatened to bomb Oman because he unhappy over Iran deal",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "dailypress.com",
+      "source": "citizensvoice.com",
       "signal_id": "a99d839a3e4427ea"
     },
     {
-      "time": "17:15",
-      "text": "Iran drone strike on Barzani may be warning over US backchannel , analyst says",
+      "time": "18:45",
+      "text": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails",
       "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "9cf2a4809347eac8"
+      "source": "kaieteurnewsonline.com",
+      "signal_id": "faeff705a5b777f4"
+    },
+    {
+      "time": "18:30",
+      "text": "Iraq Kurdistan leader accuses Iran of drone attacks ; Tehran denies the allegation",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "egyptindependent.com",
+      "signal_id": "6bcc2c7ec2d703de"
     }
   ],
   "signals": [
+    {
+      "id": "356305502d8c4cf4",
+      "name": "Trump Threatened to Bomb Oman Because He Unhappy With Country Deal With Iran , Officials Say",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "356305502d8c4cf4",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.879,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "military.com",
+      "url": "https://www.military.com/trump-threatened-to-bomb-oman-because-hes-unhappy-with-countrys-deal-with-iran-officials-say",
+      "published_at": "2026-08-18T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.7
+      }
+    },
+    {
+      "id": "a99d839a3e4427ea",
+      "name": "Trump threatened to bomb Oman because he unhappy over Iran deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a99d839a3e4427ea",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.879,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "citizensvoice.com",
+      "url": "https://www.citizensvoice.com/2026/08/18/trump-threatened-bomb-oman-iran/",
+      "published_at": "2026-08-18T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.7
+      }
+    },
+    {
+      "id": "faeff705a5b777f4",
+      "name": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "faeff705a5b777f4",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.66,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kaieteurnewsonline.com",
+      "url": "https://kaieteurnewsonline.com/2026/08/18/iran-threatens-to-go-on-offensive-in-strait-of-hormuz-if-diplomacy-with-us-fails/",
+      "published_at": "2026-08-18T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
     {
       "id": "6bcc2c7ec2d703de",
       "name": "Iraq Kurdistan leader accuses Iran of drone attacks ; Tehran denies the allegation",
@@ -83,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6bcc2c7ec2d703de",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.708,
+      "freshness": 0.615,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,75 +192,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "356305502d8c4cf4",
-      "name": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "356305502d8c4cf4",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.708,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "clickorlando.com",
-      "url": "https://www.clickorlando.com/news/world/2026/08/18/trump-threatened-to-bomb-oman-because-hes-unhappy-with-countrys-deal-with-iran-officials-say/",
-      "published_at": "2026-08-18T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a99d839a3e4427ea",
-      "name": "Trump threatened to bomb Oman because he unhappy over Iran deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a99d839a3e4427ea",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.708,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailypress.com",
-      "url": "https://www.dailypress.com/2026/08/18/trump-threatened-bomb-oman-iran/",
-      "published_at": "2026-08-18T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.9
-      },
-      "carried_forward": true
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
     },
     {
       "id": "9cf2a4809347eac8",
@@ -179,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9cf2a4809347eac8",
       "strength": 0.48,
       "reliability": 0.74,
-      "freshness": 0.495,
+      "freshness": 0.43,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      },
-      "carried_forward": true
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      }
     },
     {
       "id": "d34c4277c0bacd02",
@@ -211,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d34c4277c0bacd02",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.614,
+      "freshness": 0.533,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,11 +254,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      }
     },
     {
       "id": "c453086536295ae7",
@@ -243,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c453086536295ae7",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.495,
+      "freshness": 0.43,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,107 +285,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5301792600e9b49e",
-      "name": "Iran threatens new offensive while US rules out extending ceasefire deal",
-      "finding": "דיווח המצביע על רגיעה, הכחשה או הפחתת הסלמה.",
-      "category": "regional_escalation",
-      "direction": "down",
-      "evidence_type": "deescalation",
-      "dependency_group": "5301792600e9b49e",
-      "strength": 0.54,
-      "reliability": 0.56,
-      "freshness": 0.323,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofearth.com",
-      "url": "https://www.timesofearth.com/2026/08/18/iran-threatens-new-offensive-while-us-rules-out-extending-ceasefire-deal/",
-      "published_at": "2026-08-18T12:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": -0.7,
-        "short": -2.5,
-        "extended": -4.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c6b26422a1b79a61",
-      "name": "The Source |Trump Threatens to  Bomb the Sh ** Out of Oman  as His War Against Iran Threatens U . S . Ally",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c6b26422a1b79a61",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.323,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thesource.com",
-      "url": "https://thesource.com/2026/08/18/trump-threatens-to-bomb-the-sh-out-of-oman-as-his-war-against-iran-threatens-u-s-ally/",
-      "published_at": "2026-08-18T12:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "340a1dd65c0feacf",
-      "name": "Iran misses nuclear deal deadline as Strait of Hormuz stays blocked",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "340a1dd65c0feacf",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.323,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "foxnews.com",
-      "url": "https://www.foxnews.com/politics/iran-fails-strike-deal-us-deadline-passes-trump-calls-white-flag-surrender",
-      "published_at": "2026-08-18T12:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
     }
   ],
   "history": [
@@ -3362,17 +3291,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-18T17:12:11.907912Z",
+      "immediate": 5,
+      "short": 15,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-18T15:54:41.179284Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-18T17:12:11.907912Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 9
+        "ok": true,
+        "items": 150,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
