@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-18T14:44:38.373979Z",
+  "generated_at": "2026-08-18T15:19:38.014997Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
       "high": 19,
-      "confidence": 48,
+      "confidence": 43,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 7,
       "low": 0,
-      "high": 25,
-      "confidence": 48,
-      "status": "נמוך"
+      "high": 24,
+      "confidence": 43,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
+      "score": 12,
       "low": 0,
-      "high": 30,
-      "confidence": 48,
+      "high": 29,
+      "confidence": 43,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "15:00",
       "text": "Iran drone strike on Barzani may be warning over US backchannel , analyst says",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "9cf2a4809347eac8"
@@ -50,7 +50,7 @@
     {
       "time": "14:15",
       "text": "Iran condemns  suspiciou drone attack on Iraqi Kurdistan PM office",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "naharnet.com",
       "signal_id": "89f0b2d5e0a9a3d8"
@@ -58,7 +58,7 @@
     {
       "time": "14:30",
       "text": "Ship attacked in Hormuz strait as Iran throttles traffic through key waterway",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "wgauradio.com",
       "signal_id": "d9d91077cc6faa21"
@@ -83,7 +83,7 @@
       "dependency_group": "9cf2a4809347eac8",
       "strength": 0.48,
       "reliability": 0.74,
-      "freshness": 0.457,
+      "freshness": 0.386,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-18T12:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "89f0b2d5e0a9a3d8",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.369,
+      "freshness": 0.312,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-18T11:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "d9d91077cc6faa21",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.396,
+      "freshness": 0.335,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-18T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "8fc2799d4eaf2b39",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.319,
+      "freshness": 0.27,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -196,40 +196,8 @@
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "73b0eeb32ae4e4a2",
-      "name": "Trump rejects Iran ceasefire extension and threatens to bomb Oman",
-      "finding": "דיווח המצביע על רגיעה, הכחשה או הפחתת הסלמה.",
-      "category": "regional_escalation",
-      "direction": "down",
-      "evidence_type": "deescalation",
-      "dependency_group": "73b0eeb32ae4e4a2",
-      "strength": 0.54,
-      "reliability": 0.56,
-      "freshness": 0.208,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "helsinkitimes.fi",
-      "url": "https://www.helsinkitimes.fi/world-int/29169-trump-rejects-iran-ceasefire-extension-and-threatens-to-bomb-oman.html",
-      "published_at": "2026-08-18T09:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": -0.5,
-        "short": -1.6,
-        "extended": -2.8
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     }
@@ -3216,6 +3184,12 @@
       "immediate": 3,
       "short": 9,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-08-18T15:19:38.014997Z",
+      "immediate": 2,
+      "short": 7,
+      "extended": 12
     }
   ],
   "health": {
@@ -3226,7 +3200,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "carried_forward": 4
       },
       "manual": {
         "ok": true,
