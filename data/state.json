@@ -1,78 +1,264 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-18T21:00:58.761946Z",
+  "mode": "live",
+  "generated_at": "2026-08-18T21:34:08.553052Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 5,
       "low": 0,
-      "high": 20,
-      "confidence": 49,
+      "high": 18,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
-      "low": 0,
+      "score": 15,
+      "low": 2,
       "high": 28,
-      "confidence": 49,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 3,
-      "high": 35,
-      "confidence": 49,
-      "status": "נמוך"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": 1
   },
   "changes": [
     {
-      "time": "22:15",
-      "text": "Russia shipping drones , explosives to rebuild Iran supply : report",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "time": "00:00",
+      "text": "Exclusive : Reports of Iranian missile attack on UAE unfounded ; Zionist false flag imprint evident",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "nypost.com",
-      "signal_id": "3b5ffbdb0ccefde0"
+      "source": "presstv.co.uk",
+      "signal_id": "798a2c136b6f7d49"
     },
     {
-      "time": "22:15",
-      "text": "Guerre au Moyen - Orient - Les Émirats arabes unis accusent lIran davoir tiré deux missiles vers leur territoire",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "dhnet.be",
-      "signal_id": "83e0fd760e2ee4fd"
-    },
-    {
-      "time": "22:00",
+      "time": "00:00",
       "text": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "thegazette.com",
+      "source": "rock102.com",
       "signal_id": "356305502d8c4cf4"
     },
     {
-      "time": "22:00",
-      "text": "Trump threatens Oman as it works with Iran on a Strait of Hormuz deal",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "00:00",
+      "text": "Pentagon weighing smaller U . S . military presence in Gulf once Iran war ends",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "turnto23.com",
-      "signal_id": "f160c7eb19b92ab8"
+      "source": "spokesman.com",
+      "signal_id": "163ee8fb7f77c993"
+    },
+    {
+      "time": "00:00",
+      "text": "Iranian strikes expose US military vulnerability as Pentagon weighs Persian Gulf pullback : Report",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "presstv.co.uk",
+      "signal_id": "92861c83305dd47a"
     }
   ],
   "signals": [
+    {
+      "id": "798a2c136b6f7d49",
+      "name": "Exclusive : Reports of Iranian missile attack on UAE unfounded ; Zionist false flag imprint evident",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "798a2c136b6f7d49",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.85,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/08/18/774638/probe-rejects-claim-Iran-attack-UAE",
+      "published_at": "2026-08-18T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.9,
+        "extended": 10.1
+      }
+    },
+    {
+      "id": "356305502d8c4cf4",
+      "name": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "356305502d8c4cf4",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.85,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "rock102.com",
+      "url": "https://rock102.com/news/030030-trump-threatened-to-bomb-oman-because-hes-unhappy-with-countrys-deal-with-iran-officials-say/",
+      "published_at": "2026-08-18T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
+    },
+    {
+      "id": "163ee8fb7f77c993",
+      "name": "Pentagon weighing smaller U . S . military presence in Gulf once Iran war ends",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "163ee8fb7f77c993",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.85,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "spokesman.com",
+      "url": "https://www.spokesman.com/stories/2026/aug/18/pentagon-weighing-smaller-us-military-presence-in-/",
+      "published_at": "2026-08-18T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "92861c83305dd47a",
+      "name": "Iranian strikes expose US military vulnerability as Pentagon weighs Persian Gulf pullback : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "92861c83305dd47a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.85,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/08/18/774621/Pentagon-weighs-Persian-Gulf-pullback-as-US-bases-battered-by-Iran-Washington-Post",
+      "published_at": "2026-08-18T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "27089f2b260bd907",
+      "name": "UAE detects two ballistic missiles launched from Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "27089f2b260bd907",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.639,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "albawaba.com",
+      "url": "http://www.albawaba.com/news/uae-detects-two-ballistic-missiles-1635308",
+      "published_at": "2026-08-18T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "a99d839a3e4427ea",
+      "name": "Trump threatened to bomb Oman because he unhappy over Iran deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a99d839a3e4427ea",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.686,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sandiegouniontribune.com",
+      "url": "https://www.sandiegouniontribune.com/2026/08/18/trump-threatened-bomb-oman-iran/",
+      "published_at": "2026-08-18T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      }
+    },
     {
       "id": "3b5ffbdb0ccefde0",
       "name": "Russia shipping drones , explosives to rebuild Iran supply : report",
@@ -83,7 +269,7 @@
       "dependency_group": "3b5ffbdb0ccefde0",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.604,
+      "freshness": 0.516,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +285,103 @@
       "published_at": "2026-08-18T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "dfc3891ce220ee89",
+      "name": "Iran threatens military attacks while US rules out extending temporary cease - fire",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dfc3891ce220ee89",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.595,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nypost.com",
+      "url": "https://nypost.com/2026/08/18/world-news/iran-threatens-military-attacks-while-us-rules-out-extending-temporary-cease-fire/",
+      "published_at": "2026-08-18T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
+    },
+    {
+      "id": "e68a963210afd2ba",
+      "name": "Trump news : U . S . president threatens to bomb Oman over Iran deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e68a963210afd2ba",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.595,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "cp24.com",
+      "url": "https://www.cp24.com/news/world/2026/08/18/trump-threatened-to-bomb-oman-because-hes-unhappy-with-countrys-deal-with-iran-officials-say/",
+      "published_at": "2026-08-18T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
+    },
+    {
+      "id": "d371579c6175b2d8",
+      "name": "Trump denies talks with Iran amid continued attacks near Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d371579c6175b2d8",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.639,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "stripes.com",
+      "url": "https://www.stripes.com/theaters/us/2026-08-18/iran-trump-nuclear-oman-war-attack-hormuz-22588945.html",
+      "published_at": "2026-08-18T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
     },
     {
       "id": "83e0fd760e2ee4fd",
@@ -115,7 +393,7 @@
       "dependency_group": "83e0fd760e2ee4fd",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.604,
+      "freshness": 0.516,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,23 +409,22 @@
       "published_at": "2026-08-18T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      },
-      "carried_forward": true
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
     },
     {
-      "id": "356305502d8c4cf4",
-      "name": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
+      "id": "e34367fa40923774",
+      "name": "US mulls shrinking military footprint in Gulf as a result of war on Iran : Report",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "356305502d8c4cf4",
-      "strength": 0.45,
+      "dependency_group": "e34367fa40923774",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.562,
+      "freshness": 0.595,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,16 +435,15 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "thegazette.com",
-      "url": "http://www.thegazette.com/news/world/trump-threatened-to-bomb-oman-because-hes-unhappy-with-countrys-deal-with-iran-officials-say/article_f7eb3e67-b687-5d27-bc51-b35477d46f94.html",
-      "published_at": "2026-08-18T19:00:00Z",
+      "source": "middleeasteye.net",
+      "url": "https://www.middleeasteye.net/news/us-mulls-shrinking-military-footprint-gulf-result-war-iran",
+      "published_at": "2026-08-18T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.9
+      }
     },
     {
       "id": "f160c7eb19b92ab8",
@@ -179,7 +455,7 @@
       "dependency_group": "f160c7eb19b92ab8",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.562,
+      "freshness": 0.48,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +471,10 @@
       "published_at": "2026-08-18T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
     },
     {
       "id": "743d7aaa67c78944",
@@ -211,7 +486,7 @@
       "dependency_group": "743d7aaa67c78944",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,11 +502,10 @@
       "published_at": "2026-08-18T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
     },
     {
       "id": "bd2c69ea0358e54d",
@@ -243,7 +517,7 @@
       "dependency_group": "bd2c69ea0358e54d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,11 +533,10 @@
       "published_at": "2026-08-18T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      }
     },
     {
       "id": "8185d04ac9854579",
@@ -275,7 +548,7 @@
       "dependency_group": "8185d04ac9854579",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,23 +564,22 @@
       "published_at": "2026-08-18T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      }
     },
     {
-      "id": "2aa8a7359e050f0a",
-      "name": "Guerre au Moyen - Orient . Les Émirats affirment que lIran a tiré deux missiles vers leur territoire",
+      "id": "5f1efa288b249c5f",
+      "name": "Why Trump Is Threatening to Bomb Oman Again : Inside the Iran - Oman Strait of Hormuz Deal and US Fears Over Iranian Control",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "2aa8a7359e050f0a",
-      "strength": 0.48,
+      "dependency_group": "5f1efa288b249c5f",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.366,
+      "freshness": 0.387,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -318,208 +590,15 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "bienpublic.com",
-      "url": "https://www.bienpublic.com/defense-guerre-conflit/2026/08/18/les-emirats-arabes-unis-sous-la-menace-de-bombardements-un-confinement-demande",
-      "published_at": "2026-08-18T17:30:00Z",
+      "source": "gulfnews.com",
+      "url": "https://gulfnews.com/world/gulf/oman/why-has-trump-threatened-to-bomb-oman-for-a-second-time-1.500644995",
+      "published_at": "2026-08-18T18:15:00Z",
       "active": true,
       "computed": {
         "immediate": 0.7,
         "short": 2.5,
         "extended": 4.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a48e8942b8abb847",
-      "name": "Iranian - made Fateh - 110 missiles used by Houthis in Mokha strikes , Yemeni military says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a48e8942b8abb847",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.341,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabnews.com",
-      "url": "https://www.arabnews.com/node/2655120/middle-east",
-      "published_at": "2026-08-18T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ef2a6dda3e8d9063",
-      "name": "Iran prepares to keep economy alive as US threatens further sanctions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ef2a6dda3e8d9063",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.341,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/news/2026/8/18/iran-prepares-to-keep-economy-alive-as-us-threatens-further-sanctions",
-      "published_at": "2026-08-18T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0ae22424349fb818",
-      "name": "Officials : Trump threatened to bomb Oman because he unhappy with country deal with Iran | Politics and Government",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0ae22424349fb818",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.341,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "reviewjournal.com",
-      "url": "https://www.reviewjournal.com/news/politics-and-government/trump-threatened-to-bomb-oman-because-hes-unhappy-with-countrys-deal-with-iran-officials-say-3865565/",
-      "published_at": "2026-08-18T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1badc49c23865faf",
-      "name": "Fewer US troops in Gulf ? Iran war forces Pentagon to rethink military footprint",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1badc49c23865faf",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.366,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/fewer-us-troops-in-gulf-iran-war-forces-pentagon-to-rethink-military-footprint-article-14009726.html",
-      "published_at": "2026-08-18T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f88f941593c844b9",
-      "name": "Pentagon weighing a smaller US military presence in the Gulf once the Iran war ends",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f88f941593c844b9",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.341,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "investinglive.com",
-      "url": "https://investinglive.com/news/pentagon-weighing-a-smaller-us-military-presence-in-the-gulf-once-the-iran-war-ends-wapo/",
-      "published_at": "2026-08-18T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a99d839a3e4427ea",
-      "name": "Trump threatened to bomb Oman because he unhappy over Iran deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a99d839a3e4427ea",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.296,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "citizensvoice.com",
-      "url": "https://www.citizensvoice.com/2026/08/18/trump-threatened-bomb-oman-iran/",
-      "published_at": "2026-08-18T16:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
+      }
     }
   ],
   "history": [
@@ -3570,17 +3649,23 @@
       "immediate": 4,
       "short": 12,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-18T21:34:08.553052Z",
+      "immediate": 5,
+      "short": 15,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-18T20:00:38.367297Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-18T21:34:08.553052Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 14
+        "ok": true,
+        "items": 150,
+        "relevant": 17
       },
       "manual": {
         "ok": true,
