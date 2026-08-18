@@ -1,78 +1,512 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-18T23:32:53.088487Z",
+  "mode": "live",
+  "generated_at": "2026-08-18T23:55:19.915620Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 5,
       "low": 0,
-      "high": 20,
-      "confidence": 47,
+      "high": 18,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
-      "low": 0,
-      "high": 26,
-      "confidence": 47,
+      "score": 17,
+      "low": 4,
+      "high": 30,
+      "confidence": 68,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
-      "low": 0,
-      "high": 32,
-      "confidence": 47,
-      "status": "נמוך"
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "00:00",
-      "text": "Exclusive : Reports of Iranian missile attack on UAE unfounded ; Zionist false flag imprint evident",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "02:15",
+      "text": "Mike Huckabee condemns settler violence , says Iran could face renewed strikes",
+      "impact": "השפעה מיידית מחושבת: +1.9",
       "direction": "up",
-      "source": "presstv.co.uk",
-      "signal_id": "798a2c136b6f7d49"
+      "source": "jpost.com",
+      "signal_id": "30f053f1673f3e95"
     },
     {
-      "time": "00:00",
-      "text": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "02:30",
+      "text": "UAE accuses Iran of firing ballistic missiles at shipping",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "rock102.com",
-      "signal_id": "356305502d8c4cf4"
+      "source": "channelnewsasia.com",
+      "signal_id": "ab4a31c869543332"
     },
     {
-      "time": "00:00",
-      "text": "Pentagon weighing smaller U . S . military presence in Gulf once Iran war ends",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "02:30",
+      "text": "Dubai residents sent missile alert after Iran launches fresh strikes on UAE",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "spokesman.com",
-      "signal_id": "163ee8fb7f77c993"
+      "source": "mirror.co.uk",
+      "signal_id": "c6fd3842fc6bf85f"
     },
     {
-      "time": "00:00",
-      "text": "Iranian strikes expose US military vulnerability as Pentagon weighs Persian Gulf pullback : Report",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "02:15",
+      "text": "Iran fires ballistic missiles at UAE",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "presstv.co.uk",
-      "signal_id": "92861c83305dd47a"
+      "source": "clevelandjewishnews.com",
+      "signal_id": "aefae7c5f13603d8"
     }
   ],
   "signals": [
+    {
+      "id": "30f053f1673f3e95",
+      "name": "Mike Huckabee condemns settler violence , says Iran could face renewed strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "30f053f1673f3e95",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.825,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jpost.com",
+      "url": "http://www.jpost.com/israel-news/article-905932",
+      "published_at": "2026-08-18T23:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.9,
+        "short": 6.3,
+        "extended": 10.7
+      }
+    },
+    {
+      "id": "ab4a31c869543332",
+      "name": "UAE accuses Iran of firing ballistic missiles at shipping",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ab4a31c869543332",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.886,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "channelnewsasia.com",
+      "url": "https://www.channelnewsasia.com/world/uae-iran-two-missiles-shipping-6326876",
+      "published_at": "2026-08-18T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.2,
+        "extended": 10.5
+      }
+    },
+    {
+      "id": "c6fd3842fc6bf85f",
+      "name": "Dubai residents sent missile alert after Iran launches fresh strikes on UAE",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c6fd3842fc6bf85f",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.886,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "mirror.co.uk",
+      "url": "https://www.mirror.co.uk/news/world-news/iran-uae-dubai-missiles-war-37566837",
+      "published_at": "2026-08-18T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.2,
+        "extended": 10.5
+      }
+    },
+    {
+      "id": "aefae7c5f13603d8",
+      "name": "Iran fires ballistic missiles at UAE",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "aefae7c5f13603d8",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.825,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "clevelandjewishnews.com",
+      "url": "https://www.clevelandjewishnews.com/jns/iran-fires-ballistic-missiles-at-uae/article_a4bf97a7-7d07-526b-b7ed-e15a8e05b9a0.html",
+      "published_at": "2026-08-18T23:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.8
+      }
+    },
+    {
+      "id": "356305502d8c4cf4",
+      "name": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "356305502d8c4cf4",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.886,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "1061thecorner.com",
+      "url": "https://1061thecorner.com/news/030030-trump-threatened-to-bomb-oman-because-hes-unhappy-with-countrys-deal-with-iran-officials-say/",
+      "published_at": "2026-08-18T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.8
+      }
+    },
+    {
+      "id": "e17a86a16c6cc096",
+      "name": "Iranian Ballistic Missiles trigger major Security Alert across UAE",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e17a86a16c6cc096",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.825,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "pakobserver.net",
+      "url": "https://pakobserver.net/iranian-ballistic-missiles-trigger-major-security-alert-across-uae/",
+      "published_at": "2026-08-18T23:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.8
+      }
+    },
+    {
+      "id": "4310db8fbc6c4295",
+      "name": "Oil nears $92 on UAE missile alert as Trump claims Iran talks stuck",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4310db8fbc6c4295",
+      "strength": 0.48,
+      "reliability": 0.74,
+      "freshness": 0.538,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/08/oil-nears-92-uae-missile-alert-trump-claims-iran-talks-stuck",
+      "published_at": "2026-08-18T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "0ffb2c7a873b7da6",
+      "name": "UAE halts all trade ties with Iran after missile attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0ffb2c7a873b7da6",
+      "strength": 0.48,
+      "reliability": 0.74,
+      "freshness": 0.538,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/08/uae-halts-all-trade-ties-iran-after-missile-attack",
+      "published_at": "2026-08-18T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "34cb244470a57e79",
+      "name": "UAE claims Iran fired two ballistic missiles at maritime navigation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "34cb244470a57e79",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.666,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "heraldglobe.com",
+      "url": "http://www.heraldglobe.com/news/279249991/uae-claims-iran-fired-two-ballistic-missiles-at-maritime-navigation",
+      "published_at": "2026-08-18T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.9
+      }
+    },
+    {
+      "id": "e34367fa40923774",
+      "name": "US mulls shrinking military footprint in Gulf as a result of war on Iran : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e34367fa40923774",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.715,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeasteye.net",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-mulls-shrinking-military-footprint-gulf-result-war-iran-report",
+      "published_at": "2026-08-18T22:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
+    },
+    {
+      "id": "006b7b58279c1ba4",
+      "name": "Iran rejects UAE missile accusation , warns against unfounded claims",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "006b7b58279c1ba4",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.538,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "investinglive.com",
+      "url": "https://investinglive.com/commodities/iran-rejects-uae-missile-accusation-warns-against-unfounded-claims/",
+      "published_at": "2026-08-18T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
+    },
+    {
+      "id": "6af6c7ec5abfbeec",
+      "name": "UAE cuts off trade with Iran after ballistic missile attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6af6c7ec5abfbeec",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.538,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jns.org",
+      "url": "https://www.jns.org/news/world/iran-fires-ballistic-missiles-at-uae",
+      "published_at": "2026-08-18T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "2eb0242279552828",
+      "name": "Oil catch up - prices hit three - week high as Iran vows offensive stance , denies UAE missile claim",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2eb0242279552828",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.538,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "investinglive.com",
+      "url": "https://investinglive.com/commodities/oil-catch-up-prices-hit-three-week-high-as-iran-vows-offensive-stance-denies-uae-missile-claim/",
+      "published_at": "2026-08-18T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "af811b250dae1050",
+      "name": "UAE Says Iran Fired Two Missiles at Country as War Drags On",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "af811b250dae1050",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.466,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "livemint.com",
+      "url": "https://www.livemint.com/news/world/uae-says-iran-fired-two-missiles-at-country-as-war-drags-on-11787081323283.html",
+      "published_at": "2026-08-18T21:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.2,
+        "extended": 5.5
+      }
+    },
     {
       "id": "798a2c136b6f7d49",
       "name": "Exclusive : Reports of Iranian missile attack on UAE unfounded ; Zionist false flag imprint evident",
@@ -83,7 +517,7 @@ window.MAGEN_STATE = {
       "dependency_group": "798a2c136b6f7d49",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.483,
+      "freshness": 0.434,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,23 +533,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
     },
     {
-      "id": "356305502d8c4cf4",
-      "name": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
+      "id": "67c14b61e57807e9",
+      "name": "Trump threatens to bomb Oman over Iran Strait deal - Indianapolis News | Indiana Weather | Indiana Traffic | WISH - TV",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "356305502d8c4cf4",
+      "dependency_group": "67c14b61e57807e9",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.483,
+      "freshness": 0.466,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,80 +559,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "rock102.com",
-      "url": "https://rock102.com/news/030030-trump-threatened-to-bomb-oman-because-hes-unhappy-with-countrys-deal-with-iran-officials-say/",
-      "published_at": "2026-08-18T21:00:00Z",
+      "source": "wishtv.com",
+      "url": "https://www.wishtv.com/news/international/iran-oman-strait-hormuz-deal/",
+      "published_at": "2026-08-18T21:15:00Z",
       "active": true,
       "computed": {
         "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "163ee8fb7f77c993",
-      "name": "Pentagon weighing smaller U . S . military presence in Gulf once Iran war ends",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "163ee8fb7f77c993",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.483,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "spokesman.com",
-      "url": "https://www.spokesman.com/stories/2026/aug/18/pentagon-weighing-smaller-us-military-presence-in-/",
-      "published_at": "2026-08-18T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "92861c83305dd47a",
-      "name": "Iranian strikes expose US military vulnerability as Pentagon weighs Persian Gulf pullback : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "92861c83305dd47a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.483,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/08/18/774621/Pentagon-weighs-Persian-Gulf-pullback-as-US-bases-battered-by-Iran-Washington-Post",
-      "published_at": "2026-08-18T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      },
-      "carried_forward": true
+        "short": 3.0,
+        "extended": 5.2
+      }
     },
     {
       "id": "27089f2b260bd907",
@@ -211,7 +579,7 @@ window.MAGEN_STATE = {
       "dependency_group": "27089f2b260bd907",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.363,
+      "freshness": 0.326,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -228,10 +596,40 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "163ee8fb7f77c993",
+      "name": "Pentagon weighing smaller U . S . military presence in Gulf once Iran war ends",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "163ee8fb7f77c993",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.434,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "spokesman.com",
+      "url": "https://www.spokesman.com/stories/2026/aug/18/pentagon-weighing-smaller-us-military-presence-in-/",
+      "published_at": "2026-08-18T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
         "short": 2.5,
         "extended": 4.3
-      },
-      "carried_forward": true
+      }
     },
     {
       "id": "a99d839a3e4427ea",
@@ -243,7 +641,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a99d839a3e4427ea",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.39,
+      "freshness": 0.35,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -260,74 +658,40 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "92861c83305dd47a",
+      "name": "Iranian strikes expose US military vulnerability as Pentagon weighs Persian Gulf pullback : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "92861c83305dd47a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.434,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/08/18/774621/Pentagon-weighs-Persian-Gulf-pullback-as-US-bases-battered-by-Iran-Washington-Post",
+      "published_at": "2026-08-18T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
         "short": 2.5,
         "extended": 4.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "dfc3891ce220ee89",
-      "name": "Iran threatens military attacks while US rules out extending temporary cease - fire",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "dfc3891ce220ee89",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.338,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nypost.com",
-      "url": "https://nypost.com/2026/08/18/world-news/iran-threatens-military-attacks-while-us-rules-out-extending-temporary-cease-fire/",
-      "published_at": "2026-08-18T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e68a963210afd2ba",
-      "name": "Trump news : U . S . president threatens to bomb Oman over Iran deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e68a963210afd2ba",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.338,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cp24.com",
-      "url": "https://www.cp24.com/news/world/2026/08/18/trump-threatened-to-bomb-oman-because-hes-unhappy-with-countrys-deal-with-iran-officials-say/",
-      "published_at": "2026-08-18T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
+      }
     },
     {
       "id": "d371579c6175b2d8",
@@ -339,7 +703,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d371579c6175b2d8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.363,
+      "freshness": 0.326,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -356,266 +720,9 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3b5ffbdb0ccefde0",
-      "name": "Russia shipping drones , explosives to rebuild Iran supply : report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3b5ffbdb0ccefde0",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.293,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nypost.com",
-      "url": "https://nypost.com/2026/08/18/world-news/russia-shipping-drones-explosives-to-rebuild-irans-supply-report/",
-      "published_at": "2026-08-18T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "83e0fd760e2ee4fd",
-      "name": "Guerre au Moyen - Orient - Les Émirats arabes unis accusent lIran davoir tiré deux missiles vers leur territoire",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "83e0fd760e2ee4fd",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.293,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dhnet.be",
-      "url": "https://www.dhnet.be/dernieres-depeches/2026/08/18/guerre-au-moyen-orient-les-emirats-arabes-unis-accusent-liran-davoir-tire-deux-missiles-vers-leur-territoire-6QWNNWQLT5AAHFWBV6VG5UMXEI/",
-      "published_at": "2026-08-18T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e34367fa40923774",
-      "name": "US mulls shrinking military footprint in Gulf as a result of war on Iran : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e34367fa40923774",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.338,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/news/us-mulls-shrinking-military-footprint-gulf-result-war-iran",
-      "published_at": "2026-08-18T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f160c7eb19b92ab8",
-      "name": "Trump threatens Oman as it works with Iran on a Strait of Hormuz deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f160c7eb19b92ab8",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.273,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "turnto23.com",
-      "url": "https://www.turnto23.com/us-news/iran-war/trump-threatens-oman-as-it-works-with-iran-on-a-strait-of-hormuz-deal",
-      "published_at": "2026-08-18T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "743d7aaa67c78944",
-      "name": "Ready to deal with any threat : UAE vows response after Iran fires two missiles",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "743d7aaa67c78944",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.191,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/ready-to-deal-with-any-threats-uae-vows-response-after-iran-fires-two-missiles/articleshow/133328252.cms",
-      "published_at": "2026-08-18T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5f1efa288b249c5f",
-      "name": "Why Trump Is Threatening to Bomb Oman Again : Inside the Iran - Oman Strait of Hormuz Deal and US Fears Over Iranian Control",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5f1efa288b249c5f",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.22,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gulfnews.com",
-      "url": "https://gulfnews.com/world/gulf/oman/why-has-trump-threatened-to-bomb-oman-for-a-second-time-1.500644995",
-      "published_at": "2026-08-18T18:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "bd2c69ea0358e54d",
-      "name": "Russia Secret Arms Supply To Iran | Missile Drone Parts Shipment Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bd2c69ea0358e54d",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.191,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bhaskar.com",
-      "url": "https://www.bhaskar.com/international/news/russia-secret-arms-supply-iran-missile-drone-parts-shipment-138765913.html",
-      "published_at": "2026-08-18T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8185d04ac9854579",
-      "name": "Les Emirats arabes unis affirment que lIran a tiré deux missiles vers leur territoire",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8185d04ac9854579",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.191,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "defimedia.info",
-      "url": "https://defimedia.info/les-emirats-arabes-unis-affirment-que-liran-tire-deux-missiles-vers-leur-territoire",
-      "published_at": "2026-08-18T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
-      },
-      "carried_forward": true
+        "short": 1.9,
+        "extended": 3.2
+      }
     }
   ],
   "history": [
@@ -3696,17 +3803,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 9,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-08-18T23:55:19.915620Z",
+      "immediate": 5,
+      "short": 17,
+      "extended": 28
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-18T21:34:08.553052Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-18T23:55:19.915620Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 17
+        "ok": true,
+        "items": 150,
+        "relevant": 21
       },
       "manual": {
         "ok": true,
