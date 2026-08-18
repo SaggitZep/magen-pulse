@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-18T20:00:38.367297Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-18T20:36:12.009287Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 4,
       "low": 0,
-      "high": 18,
-      "confidence": 67,
+      "high": 20,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
-      "low": 2,
-      "high": 28,
-      "confidence": 67,
+      "score": 13,
+      "low": 0,
+      "high": 29,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 21,
+      "low": 5,
+      "high": 37,
+      "confidence": 50,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "22:15",
       "text": "Russia shipping drones , explosives to rebuild Iran supply : report",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "nypost.com",
       "signal_id": "3b5ffbdb0ccefde0"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:15",
       "text": "Guerre au Moyen - Orient - Les Émirats arabes unis accusent lIran davoir tiré deux missiles vers leur territoire",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "dhnet.be",
       "signal_id": "83e0fd760e2ee4fd"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:00",
       "text": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "thegazette.com",
       "signal_id": "356305502d8c4cf4"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:00",
       "text": "Trump threatens Oman as it works with Iran on a Strait of Hormuz deal",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "turnto23.com",
       "signal_id": "f160c7eb19b92ab8"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3b5ffbdb0ccefde0",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.805,
+      "freshness": 0.679,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.6,
-        "extended": 9.5
-      }
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      },
+      "carried_forward": true
     },
     {
       "id": "83e0fd760e2ee4fd",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "83e0fd760e2ee4fd",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.805,
+      "freshness": 0.679,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.6,
-        "extended": 9.5
-      }
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      },
+      "carried_forward": true
     },
     {
       "id": "356305502d8c4cf4",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "356305502d8c4cf4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.749,
+      "freshness": 0.632,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.3
-      }
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      },
+      "carried_forward": true
     },
     {
       "id": "f160c7eb19b92ab8",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f160c7eb19b92ab8",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.749,
+      "freshness": 0.632,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.3
-      }
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      },
+      "carried_forward": true
     },
     {
       "id": "743d7aaa67c78944",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "743d7aaa67c78944",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.524,
+      "freshness": 0.443,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      },
+      "carried_forward": true
     },
     {
       "id": "bd2c69ea0358e54d",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bd2c69ea0358e54d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.524,
+      "freshness": 0.443,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      }
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      },
+      "carried_forward": true
     },
     {
       "id": "8185d04ac9854579",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8185d04ac9854579",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.524,
+      "freshness": 0.443,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      }
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      },
+      "carried_forward": true
     },
     {
       "id": "2aa8a7359e050f0a",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2aa8a7359e050f0a",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.488,
+      "freshness": 0.412,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,41 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      }
-    },
-    {
-      "id": "ef2a6dda3e8d9063",
-      "name": "Iran prepares to keep economy alive as US threatens further sanctions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ef2a6dda3e8d9063",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.454,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/news/2026/8/18/iran-prepares-to-keep-economy-alive-as-us-threatens-further-sanctions",
-      "published_at": "2026-08-18T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
-      }
+      "carried_forward": true
     },
     {
       "id": "a48e8942b8abb847",
@@ -362,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a48e8942b8abb847",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.454,
+      "freshness": 0.384,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +355,43 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "ef2a6dda3e8d9063",
+      "name": "Iran prepares to keep economy alive as US threatens further sanctions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ef2a6dda3e8d9063",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.384,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/8/18/iran-prepares-to-keep-economy-alive-as-us-threatens-further-sanctions",
+      "published_at": "2026-08-18T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      },
+      "carried_forward": true
     },
     {
       "id": "0ae22424349fb818",
@@ -393,7 +403,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0ae22424349fb818",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.454,
+      "freshness": 0.384,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
-      }
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      },
+      "carried_forward": true
     },
     {
       "id": "1badc49c23865faf",
@@ -424,7 +435,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1badc49c23865faf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.488,
+      "freshness": 0.412,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,41 +451,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
-    },
-    {
-      "id": "a99d839a3e4427ea",
-      "name": "Trump threatened to bomb Oman because he unhappy over Iran deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a99d839a3e4427ea",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.394,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "citizensvoice.com",
-      "url": "https://www.citizensvoice.com/2026/08/18/trump-threatened-bomb-oman-iran/",
-      "published_at": "2026-08-18T16:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
+      "carried_forward": true
     },
     {
       "id": "f88f941593c844b9",
@@ -486,7 +467,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f88f941593c844b9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.454,
+      "freshness": 0.384,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,10 +483,43 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "a99d839a3e4427ea",
+      "name": "Trump threatened to bomb Oman because he unhappy over Iran deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a99d839a3e4427ea",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.333,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "citizensvoice.com",
+      "url": "https://www.citizensvoice.com/2026/08/18/trump-threatened-bomb-oman-iran/",
+      "published_at": "2026-08-18T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -3544,17 +3558,23 @@ window.MAGEN_STATE = {
       "immediate": 5,
       "short": 15,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-08-18T20:36:12.009287Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-18T20:00:38.367297Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 14
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 14
       },
       "manual": {
         "ok": true,
