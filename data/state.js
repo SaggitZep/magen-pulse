@@ -1,89 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-18T19:41:43.720039Z",
+  "mode": "live",
+  "generated_at": "2026-08-18T20:00:38.367297Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 5,
       "low": 0,
-      "high": 19,
-      "confidence": 48,
+      "high": 18,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
-      "low": 0,
-      "high": 26,
-      "confidence": 48,
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
-      "low": 0,
-      "high": 32,
-      "confidence": 48,
-      "status": "נמוך"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "20:15",
-      "text": "Iranian - made Fateh - 110 missiles used by Houthis in Mokha strikes , Yemeni military says",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "22:15",
+      "text": "Russia shipping drones , explosives to rebuild Iran supply : report",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "arabnews.com",
-      "signal_id": "a48e8942b8abb847"
+      "source": "nypost.com",
+      "signal_id": "3b5ffbdb0ccefde0"
     },
     {
-      "time": "20:15",
-      "text": "Iran prepares to keep economy alive as US threatens further sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "22:15",
+      "text": "Guerre au Moyen - Orient - Les Émirats arabes unis accusent lIran davoir tiré deux missiles vers leur territoire",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "aljazeera.com",
-      "signal_id": "ef2a6dda3e8d9063"
+      "source": "dhnet.be",
+      "signal_id": "83e0fd760e2ee4fd"
     },
     {
-      "time": "20:15",
-      "text": "Officials : Trump threatened to bomb Oman because he unhappy with country deal with Iran | Politics and Government",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "22:00",
+      "text": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "reviewjournal.com",
-      "signal_id": "0ae22424349fb818"
+      "source": "thegazette.com",
+      "signal_id": "356305502d8c4cf4"
     },
     {
-      "time": "20:15",
-      "text": "Pentagon weighing a smaller US military presence in the Gulf once the Iran war ends",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "22:00",
+      "text": "Trump threatens Oman as it works with Iran on a Strait of Hormuz deal",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "investinglive.com",
-      "signal_id": "f88f941593c844b9"
+      "source": "turnto23.com",
+      "signal_id": "f160c7eb19b92ab8"
     }
   ],
   "signals": [
     {
-      "id": "a48e8942b8abb847",
-      "name": "Iranian - made Fateh - 110 missiles used by Houthis in Mokha strikes , Yemeni military says",
+      "id": "3b5ffbdb0ccefde0",
+      "name": "Russia shipping drones , explosives to rebuild Iran supply : report",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a48e8942b8abb847",
+      "dependency_group": "3b5ffbdb0ccefde0",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.497,
+      "freshness": 0.805,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,16 +94,232 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "arabnews.com",
-      "url": "https://www.arabnews.com/node/2655120/middle-east",
-      "published_at": "2026-08-18T17:15:00Z",
+      "source": "nypost.com",
+      "url": "https://nypost.com/2026/08/18/world-news/russia-shipping-drones-explosives-to-rebuild-irans-supply-report/",
+      "published_at": "2026-08-18T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.6,
+        "extended": 9.5
+      }
+    },
+    {
+      "id": "83e0fd760e2ee4fd",
+      "name": "Guerre au Moyen - Orient - Les Émirats arabes unis accusent lIran davoir tiré deux missiles vers leur territoire",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "83e0fd760e2ee4fd",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.805,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dhnet.be",
+      "url": "https://www.dhnet.be/dernieres-depeches/2026/08/18/guerre-au-moyen-orient-les-emirats-arabes-unis-accusent-liran-davoir-tire-deux-missiles-vers-leur-territoire-6QWNNWQLT5AAHFWBV6VG5UMXEI/",
+      "published_at": "2026-08-18T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.6,
+        "extended": 9.5
+      }
+    },
+    {
+      "id": "356305502d8c4cf4",
+      "name": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "356305502d8c4cf4",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.749,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thegazette.com",
+      "url": "http://www.thegazette.com/news/world/trump-threatened-to-bomb-oman-because-hes-unhappy-with-countrys-deal-with-iran-officials-say/article_f7eb3e67-b687-5d27-bc51-b35477d46f94.html",
+      "published_at": "2026-08-18T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.3
+      }
+    },
+    {
+      "id": "f160c7eb19b92ab8",
+      "name": "Trump threatens Oman as it works with Iran on a Strait of Hormuz deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f160c7eb19b92ab8",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.749,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "turnto23.com",
+      "url": "https://www.turnto23.com/us-news/iran-war/trump-threatens-oman-as-it-works-with-iran-on-a-strait-of-hormuz-deal",
+      "published_at": "2026-08-18T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.3
+      }
+    },
+    {
+      "id": "743d7aaa67c78944",
+      "name": "Ready to deal with any threat : UAE vows response after Iran fires two missiles",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "743d7aaa67c78944",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.524,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/ready-to-deal-with-any-threats-uae-vows-response-after-iran-fires-two-missiles/articleshow/133328252.cms",
+      "published_at": "2026-08-18T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "bd2c69ea0358e54d",
+      "name": "Russia Secret Arms Supply To Iran | Missile Drone Parts Shipment Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bd2c69ea0358e54d",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.524,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bhaskar.com",
+      "url": "https://www.bhaskar.com/international/news/russia-secret-arms-supply-iran-missile-drone-parts-shipment-138765913.html",
+      "published_at": "2026-08-18T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "8185d04ac9854579",
+      "name": "Les Emirats arabes unis affirment que lIran a tiré deux missiles vers leur territoire",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8185d04ac9854579",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.524,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "defimedia.info",
+      "url": "https://defimedia.info/les-emirats-arabes-unis-affirment-que-liran-tire-deux-missiles-vers-leur-territoire",
+      "published_at": "2026-08-18T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "2aa8a7359e050f0a",
+      "name": "Guerre au Moyen - Orient . Les Émirats affirment que lIran a tiré deux missiles vers leur territoire",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2aa8a7359e050f0a",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.488,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bienpublic.com",
+      "url": "https://www.bienpublic.com/defense-guerre-conflit/2026/08/18/les-emirats-arabes-unis-sous-la-menace-de-bombardements-un-confinement-demande",
+      "published_at": "2026-08-18T17:30:00Z",
       "active": true,
       "computed": {
         "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      },
-      "carried_forward": true
+        "short": 3.4,
+        "extended": 5.8
+      }
     },
     {
       "id": "ef2a6dda3e8d9063",
@@ -115,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ef2a6dda3e8d9063",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.497,
+      "freshness": 0.454,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +347,41 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "a48e8942b8abb847",
+      "name": "Iranian - made Fateh - 110 missiles used by Houthis in Mokha strikes , Yemeni military says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a48e8942b8abb847",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.454,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arabnews.com",
+      "url": "https://www.arabnews.com/node/2655120/middle-east",
+      "published_at": "2026-08-18T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
     },
     {
       "id": "0ae22424349fb818",
@@ -147,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0ae22424349fb818",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.497,
+      "freshness": 0.454,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,23 +409,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.0
+      }
     },
     {
-      "id": "f88f941593c844b9",
-      "name": "Pentagon weighing a smaller US military presence in the Gulf once the Iran war ends",
+      "id": "1badc49c23865faf",
+      "name": "Fewer US troops in Gulf ? Iran war forces Pentagon to rethink military footprint",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "f88f941593c844b9",
+      "dependency_group": "1badc49c23865faf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.497,
+      "freshness": 0.488,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -190,48 +435,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "investinglive.com",
-      "url": "https://investinglive.com/news/pentagon-weighing-a-smaller-us-military-presence-in-the-gulf-once-the-iran-war-ends-wapo/",
-      "published_at": "2026-08-18T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "356305502d8c4cf4",
-      "name": "Trump Threatened to Bomb Oman Because He Unhappy With Country Deal With Iran , Officials Say",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "356305502d8c4cf4",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.431,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "military.com",
-      "url": "https://www.military.com/trump-threatened-to-bomb-oman-because-hes-unhappy-with-countrys-deal-with-iran-officials-say",
-      "published_at": "2026-08-18T16:45:00Z",
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/fewer-us-troops-in-gulf-iran-war-forces-pentagon-to-rethink-military-footprint-article-14009726.html",
+      "published_at": "2026-08-18T17:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.8,
         "short": 2.8,
         "extended": 4.8
-      },
-      "carried_forward": true
+      }
     },
     {
       "id": "a99d839a3e4427ea",
@@ -243,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a99d839a3e4427ea",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.431,
+      "freshness": 0.394,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -260,22 +472,21 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      },
-      "carried_forward": true
+        "short": 2.6,
+        "extended": 4.4
+      }
     },
     {
-      "id": "faeff705a5b777f4",
-      "name": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails",
+      "id": "f88f941593c844b9",
+      "name": "Pentagon weighing a smaller US military presence in the Gulf once the Iran war ends",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "faeff705a5b777f4",
-      "strength": 0.45,
+      "dependency_group": "f88f941593c844b9",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.324,
+      "freshness": 0.454,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -286,144 +497,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "kaieteurnewsonline.com",
-      "url": "https://kaieteurnewsonline.com/2026/08/18/iran-threatens-to-go-on-offensive-in-strait-of-hormuz-if-diplomacy-with-us-fails/",
-      "published_at": "2026-08-18T15:45:00Z",
+      "source": "investinglive.com",
+      "url": "https://investinglive.com/news/pentagon-weighing-a-smaller-us-military-presence-in-the-gulf-once-the-iran-war-ends-wapo/",
+      "published_at": "2026-08-18T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6bcc2c7ec2d703de",
-      "name": "Iraq Kurdistan leader accuses Iran of drone attacks ; Tehran denies the allegation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6bcc2c7ec2d703de",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.302,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "egyptindependent.com",
-      "url": "https://www.egyptindependent.com/iraqs-kurdistan-leader-accuses-iran-of-drone-attacks-tehran-denies-the-allegation/",
-      "published_at": "2026-08-18T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9cf2a4809347eac8",
-      "name": "Iran drone strike on Barzani may be warning over US backchannel , analyst says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9cf2a4809347eac8",
-      "strength": 0.48,
-      "reliability": 0.74,
-      "freshness": 0.211,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-905882",
-      "published_at": "2026-08-18T14:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d34c4277c0bacd02",
-      "name": "Iran - Backed Houthis Threaten Coast Along Red Sea Chokepoint",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d34c4277c0bacd02",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.261,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/iranbacked-houthis-threaten-coast-along-red-sea-chokepoint-101787039756689.html",
-      "published_at": "2026-08-18T15:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c453086536295ae7",
-      "name": "Trump threatens to bomb Oman as it works with Iran on Hormuz deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c453086536295ae7",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.211,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hayspost.com",
-      "url": "https://hayspost.com/posts/5133c5a5-bb51-4189-8346-6d537d11a185",
-      "published_at": "2026-08-18T14:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
     }
   ],
   "history": [
@@ -3456,17 +3538,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-18T20:00:38.367297Z",
+      "immediate": 5,
+      "short": 15,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-18T17:46:59.126654Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-18T20:00:38.367297Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 11
+        "ok": true,
+        "items": 150,
+        "relevant": 14
       },
       "manual": {
         "ok": true,
