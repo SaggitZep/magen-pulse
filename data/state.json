@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-18T04:20:54.923167Z",
+  "generated_at": "2026-08-18T05:01:24.902817Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@
       "score": 2,
       "low": 0,
       "high": 19,
-      "confidence": 47,
+      "confidence": 46,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 6,
       "low": 0,
-      "high": 25,
-      "confidence": 47,
+      "high": 23,
+      "confidence": 46,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
+      "score": 10,
       "low": 0,
-      "high": 30,
-      "confidence": 47,
+      "high": 27,
+      "confidence": 46,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "04:15",
       "text": "Trump threatens Oman as it works with Iran on a Strait of Hormuz deal , and other Middle East news",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "butlereagle.com",
       "signal_id": "58b95be623ab5c33"
@@ -50,7 +50,7 @@
     {
       "time": "04:00",
       "text": "Iraq : Kurdistan govt accuses Iran of drone strikes on PM office , Parastin chief residence ; Tehran refutes",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "iraqsun.com",
       "signal_id": "99ac3a1eaeca1dd7"
@@ -58,7 +58,7 @@
     {
       "time": "04:15",
       "text": "Trump Says Iran Should Surrender as Nuclear Deal Talks Stall",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "econotimes.com",
       "signal_id": "cde18b2dc9c67b5b"
@@ -66,7 +66,7 @@
     {
       "time": "04:00",
       "text": "Russia Is Shipping Explosives to Iran",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "politicalwire.com",
       "signal_id": "b754b8c4ec5382af"
@@ -83,7 +83,7 @@
       "dependency_group": "58b95be623ab5c33",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.413,
+      "freshness": 0.34,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-18T01:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "99ac3a1eaeca1dd7",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.384,
+      "freshness": 0.317,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-18T01:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "cde18b2dc9c67b5b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.413,
+      "freshness": 0.34,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-18T01:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "b754b8c4ec5382af",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.384,
+      "freshness": 0.317,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-18T01:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "145b72fea9c01d02",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.333,
+      "freshness": 0.275,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-18T00:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "9dcb4601c949e9a2",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.289,
+      "freshness": 0.238,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,73 +259,9 @@
       "published_at": "2026-08-18T00:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0307d45c5f887fa6",
-      "name": "Iran Threatens Offensive Action in Strait of Hormuz As Interim Deal Expires",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0307d45c5f887fa6",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.202,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "redstate.com",
-      "url": "https://redstate.com/rc-maxwell/2026/08/17/iran-threatens-offensive-action-in-strait-of-hormuz-as-interim-deal-expires-n2205718",
-      "published_at": "2026-08-17T22:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9be653a141e1525f",
-      "name": "Delusional : Iran fires back at Trump  Make Hormuz Strait a territory of the U ambitions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9be653a141e1525f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.202,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "sott.net",
-      "url": "https://www.sott.net/article/507961-Delusional-Iran-fires-back-at-Trumps-Make-Hormuz-Strait-a-territory-of-the-US-ambitions",
-      "published_at": "2026-08-17T22:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
+        "immediate": 0.5,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     }
@@ -3222,6 +3158,12 @@
       "immediate": 2,
       "short": 8,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-08-18T05:01:24.902817Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 10
     }
   ],
   "health": {
@@ -3232,7 +3174,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "carried_forward": 6
       },
       "manual": {
         "ok": true,
