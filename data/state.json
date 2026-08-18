@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-18T07:54:50.375757Z",
+  "generated_at": "2026-08-18T08:49:24.945394Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 9,
+      "score": 7,
       "low": 0,
-      "high": 26,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 24,
+      "confidence": 45,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 9,
       "low": 0,
-      "high": 28,
-      "confidence": 47,
+      "high": 26,
+      "confidence": 45,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
+      "score": 10,
       "low": 0,
-      "high": 30,
-      "confidence": 47,
+      "high": 27,
+      "confidence": 45,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@
     {
       "time": "06:00",
       "text": "The Iranians Threaten To Go On The  Offensive  Against The United States And Israel If Their Demands Are Not Met In 3 To 4 Weeks",
-      "impact": "השפעה מיידית מחושבת: +6.7",
+      "impact": "השפעה מיידית מחושבת: +5.1",
       "direction": "up",
       "source": "investmentwatchblog.com",
       "signal_id": "91a7a5758688e61c"
@@ -50,7 +50,7 @@
     {
       "time": "08:30",
       "text": "Iran threatens new offensive while US rules out extending ceasefire deal",
-      "impact": "השפעה מיידית מחושבת: -1.2",
+      "impact": "השפעה מיידית מחושבת: -0.9",
       "direction": "down",
       "source": "bworldonline.com",
       "signal_id": "5301792600e9b49e"
@@ -58,7 +58,7 @@
     {
       "time": "08:15",
       "text": "Trump threatens Oman as it works with Iran on Strait of Hormuz deal",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "f2eab9f74ff5742d"
@@ -66,7 +66,7 @@
     {
       "time": "07:30",
       "text": "Iran Warns Damascus Against Military Intervention in Lebanon , Report Says – NaturalNews . com",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "naturalnews.com",
       "signal_id": "9a5f3d716e8f5d2b"
@@ -83,7 +83,7 @@
       "dependency_group": "91a7a5758688e61c",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.246,
+      "freshness": 0.189,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-18T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 6.7,
-        "short": 5.2,
-        "extended": 2.2
+        "immediate": 5.1,
+        "short": 4.0,
+        "extended": 1.7
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "5301792600e9b49e",
       "strength": 0.54,
       "reliability": 0.56,
-      "freshness": 0.502,
+      "freshness": 0.387,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-18T05:30:00Z",
       "active": true,
       "computed": {
-        "immediate": -1.2,
-        "short": -3.9,
-        "extended": -6.7
+        "immediate": -0.9,
+        "short": -3.0,
+        "extended": -5.1
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "f2eab9f74ff5742d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.467,
+      "freshness": 0.36,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-18T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "9a5f3d716e8f5d2b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.377,
+      "freshness": 0.291,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,41 +195,9 @@
       "published_at": "2026-08-18T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b6a947ede4c86d54",
-      "name": "Iran threatens attack on US blockade as Washington rules out extending ceasefire",
-      "finding": "דיווח המצביע על רגיעה, הכחשה או הפחתת הסלמה.",
-      "category": "regional_escalation",
-      "direction": "down",
-      "evidence_type": "deescalation",
-      "dependency_group": "b6a947ede4c86d54",
-      "strength": 0.54,
-      "reliability": 0.56,
-      "freshness": 0.229,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "geo.tv",
-      "url": "https://www.geo.tv/latest/678021-iran-threatens-attack-on-us-blockade-as-washington-rules-out-extending-ceasefire",
-      "published_at": "2026-08-18T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": -0.5,
-        "short": -1.8,
-        "extended": -3.0
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -243,7 +211,7 @@
       "dependency_group": "ce43d0b61450de66",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.264,
+      "freshness": 0.203,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +227,9 @@
       "published_at": "2026-08-18T03:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.3
       },
       "carried_forward": true
     },
@@ -275,7 +243,7 @@
       "dependency_group": "e444de9c52bf130d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.246,
+      "freshness": 0.189,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +259,9 @@
       "published_at": "2026-08-18T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -307,7 +275,7 @@
       "dependency_group": "99ac3a1eaeca1dd7",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.246,
+      "freshness": 0.189,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +291,9 @@
       "published_at": "2026-08-18T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -339,7 +307,7 @@
       "dependency_group": "9f3847ff10232047",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.264,
+      "freshness": 0.203,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +323,9 @@
       "published_at": "2026-08-18T03:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -3284,6 +3252,12 @@
       "immediate": 9,
       "short": 11,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-08-18T08:49:24.945394Z",
+      "immediate": 7,
+      "short": 9,
+      "extended": 10
     }
   ],
   "health": {
@@ -3294,7 +3268,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 9
+        "carried_forward": 8
       },
       "manual": {
         "ok": true,
