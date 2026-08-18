@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-18T11:36:25.070333Z",
+  "generated_at": "2026-08-18T12:02:05.489418Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,24 +9,24 @@ window.MAGEN_STATE = {
       "score": 15,
       "low": 2,
       "high": 28,
-      "confidence": 65,
+      "confidence": 66,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 18,
-      "low": 5,
-      "high": 31,
+      "score": 20,
+      "low": 7,
+      "high": 33,
       "confidence": 66,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 5,
-      "high": 31,
-      "confidence": 66,
-      "status": "נמוך"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
@@ -36,40 +36,40 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "11:45",
       "text": "Iran Rebuilds Its Missile Force as the US and Israel Replenish Defenses",
-      "impact": "השפעה מיידית מחושבת: +12.6",
+      "impact": "השפעה מיידית מחושבת: +11.2",
       "direction": "up",
       "source": "themedialine.org",
       "signal_id": "c627a63dfa508ba6"
     },
     {
+      "time": "14:15",
+      "text": "Iran condemns  suspiciou drone attack on Iraqi Kurdistan PM office",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "naharnet.com",
+      "signal_id": "89f0b2d5e0a9a3d8"
+    },
+    {
+      "time": "14:30",
+      "text": "Ship attacked in Hormuz strait as Iran throttles traffic through key waterway",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "wgauradio.com",
+      "signal_id": "d9d91077cc6faa21"
+    },
+    {
       "time": "13:45",
       "text": "Global Oil Prices near $91 as US - Iran Tensions choke Hormuz shipping",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "en.dailypakistan.com.pk",
       "signal_id": "8fc2799d4eaf2b39"
-    },
-    {
-      "time": "12:15",
-      "text": "Trump rejects Iran ceasefire extension and threatens to bomb Oman",
-      "impact": "השפעה מיידית מחושבת: -1.2",
-      "direction": "down",
-      "source": "helsinkitimes.fi",
-      "signal_id": "73b0eeb32ae4e4a2"
-    },
-    {
-      "time": "12:00",
-      "text": "Iran threatens new offensive while US rules out extending ceasefire deal",
-      "impact": "השפעה מיידית מחושבת: -1.1",
-      "direction": "down",
-      "source": "tribune.com.pk",
-      "signal_id": "5301792600e9b49e"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c627a63dfa508ba6",
       "strength": 0.58,
       "reliability": 0.56,
-      "freshness": 0.442,
+      "freshness": 0.391,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,71 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 12.6,
-        "short": 9.9,
-        "extended": 4.2
+        "immediate": 11.2,
+        "short": 8.7,
+        "extended": 3.7
+      }
+    },
+    {
+      "id": "89f0b2d5e0a9a3d8",
+      "name": "Iran condemns  suspiciou drone attack on Iraqi Kurdistan PM office",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "89f0b2d5e0a9a3d8",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.799,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "naharnet.com",
+      "url": "https://www.naharnet.com/stories/en/321898-iran-condemns-suspicious-drone-attack-on-iraqi-kurdistan-pm-s-office",
+      "published_at": "2026-08-18T11:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
+    },
+    {
+      "id": "d9d91077cc6faa21",
+      "name": "Ship attacked in Hormuz strait as Iran throttles traffic through key waterway",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d9d91077cc6faa21",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.858,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wgauradio.com",
+      "url": "https://www.wgauradio.com/news/world/ship-attacked-during/54FRMWBKTM3KRDJ4BAFAJXOQT4/",
+      "published_at": "2026-08-18T11:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
       }
     },
     {
@@ -114,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8fc2799d4eaf2b39",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.783,
+      "freshness": 0.693,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,40 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T10:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
-    },
-    {
-      "id": "73b0eeb32ae4e4a2",
-      "name": "Trump rejects Iran ceasefire extension and threatens to bomb Oman",
-      "finding": "דיווח המצביע על רגיעה, הכחשה או הפחתת הסלמה.",
-      "category": "regional_escalation",
-      "direction": "down",
-      "evidence_type": "deescalation",
-      "dependency_group": "73b0eeb32ae4e4a2",
-      "strength": 0.54,
-      "reliability": 0.56,
-      "freshness": 0.51,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "helsinkitimes.fi",
-      "url": "https://www.helsinkitimes.fi/world-int/29169-trump-rejects-iran-ceasefire-extension-and-threatens-to-bomb-oman.html",
-      "published_at": "2026-08-18T09:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": -1.2,
-        "short": -4.0,
-        "extended": -6.8
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5301792600e9b49e",
       "strength": 0.54,
       "reliability": 0.56,
-      "freshness": 0.475,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +223,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": -1.1,
-        "short": -3.7,
-        "extended": -6.3
+        "immediate": -1.0,
+        "short": -3.3,
+        "extended": -5.6
+      }
+    },
+    {
+      "id": "73b0eeb32ae4e4a2",
+      "name": "Trump rejects Iran ceasefire extension and threatens to bomb Oman",
+      "finding": "דיווח המצביע על רגיעה, הכחשה או הפחתת הסלמה.",
+      "category": "regional_escalation",
+      "direction": "down",
+      "evidence_type": "deescalation",
+      "dependency_group": "73b0eeb32ae4e4a2",
+      "strength": 0.54,
+      "reliability": 0.56,
+      "freshness": 0.451,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "helsinkitimes.fi",
+      "url": "https://www.helsinkitimes.fi/world-int/29169-trump-rejects-iran-ceasefire-extension-and-threatens-to-bomb-oman.html",
+      "published_at": "2026-08-18T09:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": -1.0,
+        "short": -3.5,
+        "extended": -6.0
       }
     },
     {
@@ -207,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "be6c942e9f7b6b1a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.412,
+      "freshness": 0.364,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
       }
     },
     {
@@ -238,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0b340776a0b5f4d2",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.412,
+      "freshness": 0.364,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
       }
     }
   ],
@@ -3218,17 +3280,23 @@ window.MAGEN_STATE = {
       "immediate": 15,
       "short": 18,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-18T12:02:05.489418Z",
+      "immediate": 15,
+      "short": 20,
+      "extended": 24
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-18T11:36:25.070333Z",
+    "last_success": "2026-08-18T12:02:05.489418Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 6
+        "relevant": 8
       },
       "manual": {
         "ok": true,
