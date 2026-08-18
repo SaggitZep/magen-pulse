@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-18T07:05:01.188347Z",
+  "generated_at": "2026-08-18T07:54:50.375757Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 11,
+      "score": 9,
       "low": 0,
-      "high": 27,
-      "confidence": 49,
+      "high": 26,
+      "confidence": 47,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
+      "score": 11,
       "low": 0,
-      "high": 30,
-      "confidence": 49,
+      "high": 28,
+      "confidence": 47,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
+      "score": 13,
       "low": 0,
-      "high": 32,
-      "confidence": 49,
+      "high": 30,
+      "confidence": 47,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -3
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "06:00",
       "text": "The Iranians Threaten To Go On The  Offensive  Against The United States And Israel If Their Demands Are Not Met In 3 To 4 Weeks",
-      "impact": "השפעה מיידית מחושבת: +8.4",
+      "impact": "השפעה מיידית מחושבת: +6.7",
       "direction": "up",
       "source": "investmentwatchblog.com",
       "signal_id": "91a7a5758688e61c"
@@ -50,7 +50,7 @@
     {
       "time": "08:30",
       "text": "Iran threatens new offensive while US rules out extending ceasefire deal",
-      "impact": "השפעה מיידית מחושבת: -1.5",
+      "impact": "השפעה מיידית מחושבת: -1.2",
       "direction": "down",
       "source": "bworldonline.com",
       "signal_id": "5301792600e9b49e"
@@ -58,7 +58,7 @@
     {
       "time": "08:15",
       "text": "Trump threatens Oman as it works with Iran on Strait of Hormuz deal",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "f2eab9f74ff5742d"
@@ -66,7 +66,7 @@
     {
       "time": "07:30",
       "text": "Iran Warns Damascus Against Military Intervention in Lebanon , Report Says – NaturalNews . com",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "naturalnews.com",
       "signal_id": "9a5f3d716e8f5d2b"
@@ -83,7 +83,7 @@
       "dependency_group": "91a7a5758688e61c",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.311,
+      "freshness": 0.246,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-18T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 8.4,
-        "short": 6.6,
-        "extended": 2.8
+        "immediate": 6.7,
+        "short": 5.2,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "5301792600e9b49e",
       "strength": 0.54,
       "reliability": 0.56,
-      "freshness": 0.636,
+      "freshness": 0.502,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-18T05:30:00Z",
       "active": true,
       "computed": {
-        "immediate": -1.5,
-        "short": -5.0,
-        "extended": -8.5
+        "immediate": -1.2,
+        "short": -3.9,
+        "extended": -6.7
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "f2eab9f74ff5742d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.592,
+      "freshness": 0.467,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-18T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.2
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "9a5f3d716e8f5d2b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.478,
+      "freshness": 0.377,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-18T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "b6a947ede4c86d54",
       "strength": 0.54,
       "reliability": 0.56,
-      "freshness": 0.29,
+      "freshness": 0.229,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-18T02:45:00Z",
       "active": true,
       "computed": {
-        "immediate": -0.7,
-        "short": -2.3,
-        "extended": -3.9
+        "immediate": -0.5,
+        "short": -1.8,
+        "extended": -3.0
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "ce43d0b61450de66",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.334,
+      "freshness": 0.264,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-08-18T03:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "e444de9c52bf130d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.311,
+      "freshness": 0.246,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,41 +291,9 @@
       "published_at": "2026-08-18T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9f3847ff10232047",
-      "name": "Iran Nuclear Capabilities Fast Facts",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9f3847ff10232047",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.334,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kesq.com",
-      "url": "https://kesq.com/news/national-world/cnn-world/2026/08/17/irans-nuclear-capabilities-fast-facts-6/",
-      "published_at": "2026-08-18T03:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -339,7 +307,7 @@
       "dependency_group": "99ac3a1eaeca1dd7",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.311,
+      "freshness": 0.246,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +323,41 @@
       "published_at": "2026-08-18T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "9f3847ff10232047",
+      "name": "Iran Nuclear Capabilities Fast Facts",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9f3847ff10232047",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.264,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kesq.com",
+      "url": "https://kesq.com/news/national-world/cnn-world/2026/08/17/irans-nuclear-capabilities-fast-facts-6/",
+      "published_at": "2026-08-18T03:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     }
@@ -3278,6 +3278,12 @@
       "immediate": 11,
       "short": 14,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-18T07:54:50.375757Z",
+      "immediate": 9,
+      "short": 11,
+      "extended": 13
     }
   ],
   "health": {
@@ -3287,7 +3293,7 @@
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "error": "HTTP Error 429: Too Many Requests",
         "carried_forward": 9
       },
       "manual": {
