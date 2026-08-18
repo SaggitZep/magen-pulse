@@ -1,30 +1,30 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-18T03:34:26.768229Z",
+  "generated_at": "2026-08-18T04:20:54.923167Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
-      "high": 20,
+      "high": 19,
       "confidence": 47,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 8,
       "low": 0,
-      "high": 26,
+      "high": 25,
       "confidence": 47,
-      "status": "נמוך"
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
+      "score": 13,
       "low": 0,
-      "high": 33,
+      "high": 30,
       "confidence": 47,
       "status": "נמוך"
     }
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "04:15",
       "text": "Trump threatens Oman as it works with Iran on a Strait of Hormuz deal , and other Middle East news",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "butlereagle.com",
       "signal_id": "58b95be623ab5c33"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "04:00",
       "text": "Iraq : Kurdistan govt accuses Iran of drone strikes on PM office , Parastin chief residence ; Tehran refutes",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "iraqsun.com",
       "signal_id": "99ac3a1eaeca1dd7"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "04:15",
       "text": "Trump Says Iran Should Surrender as Nuclear Deal Talks Stall",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "econotimes.com",
       "signal_id": "cde18b2dc9c67b5b"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "04:00",
       "text": "Russia Is Shipping Explosives to Iran",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "politicalwire.com",
       "signal_id": "b754b8c4ec5382af"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "58b95be623ab5c33",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.515,
+      "freshness": 0.413,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T01:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "99ac3a1eaeca1dd7",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.479,
+      "freshness": 0.384,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T01:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.7
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cde18b2dc9c67b5b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.515,
+      "freshness": 0.413,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T01:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b754b8c4ec5382af",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.479,
+      "freshness": 0.384,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T01:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "145b72fea9c01d02",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.415,
+      "freshness": 0.333,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T00:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9dcb4601c949e9a2",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.36,
+      "freshness": 0.289,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T00:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0307d45c5f887fa6",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.252,
+      "freshness": 0.202,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,73 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-17T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b5d296bdf6dc0e7a",
-      "name": "Droneangrep mot kurdiske ledere i Nord - Irak – anklager Iran - Teknisk Ukeblad",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b5d296bdf6dc0e7a",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.218,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "tu.no",
-      "url": "https://www.tu.no/nyhetsstudio/droneangrep-mot-kurdiske-ledere-i-nord-irak-anklager-iran/128498",
-      "published_at": "2026-08-17T22:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "faeff705a5b777f4",
-      "name": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "faeff705a5b777f4",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.203,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "freemalaysiatoday.com",
-      "url": "https://www.freemalaysiatoday.com/category/highlight/2026/08/18/iran-threatens-to-go-on-offensive-in-strait-of-hormuz-if-diplomacy-with-us-fails",
-      "published_at": "2026-08-17T22:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.4,
         "short": 1.3,
-        "extended": 2.3
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -371,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9be653a141e1525f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.252,
+      "freshness": 0.202,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -385,38 +321,6 @@ window.MAGEN_STATE = {
       "source": "sott.net",
       "url": "https://www.sott.net/article/507961-Delusional-Iran-fires-back-at-Trumps-Make-Hormuz-Strait-a-territory-of-the-US-ambitions",
       "published_at": "2026-08-17T22:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "155ab6979abe7711",
-      "name": "Oil prices tick higher after strong week as Iran jitters persist | Hellenic Shipping News Worldwide",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "155ab6979abe7711",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.203,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hellenicshippingnews.com",
-      "url": "https://www.hellenicshippingnews.com/oil-prices-tick-higher-after-strong-week-as-iran-jitters-persist/",
-      "published_at": "2026-08-17T22:00:00Z",
       "active": true,
       "computed": {
         "immediate": 0.3,
@@ -3312,6 +3216,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 9,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-18T04:20:54.923167Z",
+      "immediate": 2,
+      "short": 8,
+      "extended": 13
     }
   ],
   "health": {
@@ -3322,7 +3232,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 11
+        "carried_forward": 8
       },
       "manual": {
         "ok": true,
