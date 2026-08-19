@@ -1,75 +1,75 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-19T18:51:16.071358Z",
+  "mode": "live",
+  "generated_at": "2026-08-19T19:20:10.001471Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 11,
+      "score": 13,
       "low": 0,
-      "high": 27,
-      "confidence": 48,
+      "high": 26,
+      "confidence": 65,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
-      "low": 0,
-      "high": 30,
-      "confidence": 48,
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
-      "low": 0,
-      "high": 30,
-      "confidence": 48,
-      "status": "נמוך"
+      "score": 27,
+      "low": 14,
+      "high": 40,
+      "confidence": 66,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -3
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
       "time": "18:30",
       "text": "32 - year - old Iranian scientist who was identified by DNA 10 days after martyrdom in US - Israeli attack",
-      "impact": "השפעה מיידית מחושבת: +9.4",
+      "impact": "השפעה מיידית מחושבת: +8.2",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "493905bfa9c82c04"
     },
     {
-      "time": "19:15",
-      "text": "Exclusive : Claims of Iranian Missile Strike on UAE Dismissed as Baseless ; Evidence Suggests Possible False Flag Operation",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "21:30",
+      "text": "Les Emirats suspendent leurs échanges commerciaux avec lIran après le tir de deux missiles",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "islamicinvitationturkey.com",
-      "signal_id": "41f656e152823c59"
+      "source": "defimedia.info",
+      "signal_id": "7577b24964097c7a"
     },
     {
-      "time": "18:45",
-      "text": "United Arab Emirates Suspends Trade With Iran After Coming Under Renewed Missile Fire – 710am KURV",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "21:30",
+      "text": "United Arab Emirates suspends trade with Iran after coming under renewed missile fire",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "kurv.com",
-      "signal_id": "042ed37c633fd21d"
+      "source": "ksl.com:443",
+      "signal_id": "1cd8837b39c1e2c9"
     },
     {
-      "time": "18:45",
-      "text": "Iran Again Warns Gulf States Against Assisting US Military",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "22:00",
+      "text": "Irans nya plan : Attacker mot mål i Europa om united states går för långt",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "southeastasiapost.com",
-      "signal_id": "e761a92fc96641b6"
+      "source": "expressen.se",
+      "signal_id": "60728789241d418f"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "493905bfa9c82c04",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.383,
+      "freshness": 0.334,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,11 +99,196 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 9.4,
-        "short": 7.4,
-        "extended": 3.1
+        "immediate": 8.2,
+        "short": 6.4,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "7577b24964097c7a",
+      "name": "Les Emirats suspendent leurs échanges commerciaux avec lIran après le tir de deux missiles",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7577b24964097c7a",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.788,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "defimedia.info",
+      "url": "https://defimedia.info/les-emirats-suspendent-leurs-echanges-commerciaux-avec-liran-apres-le-tir-de-deux-missiles",
+      "published_at": "2026-08-19T18:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.3
+      }
+    },
+    {
+      "id": "1cd8837b39c1e2c9",
+      "name": "United Arab Emirates suspends trade with Iran after coming under renewed missile fire",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1cd8837b39c1e2c9",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.788,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ksl.com:443",
+      "url": "https://www.ksl.com:443/article/51611615/united-arab-emirates-suspends-trade-with-iran-after-coming-under-renewed-missile-fire",
+      "published_at": "2026-08-19T18:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.3
+      }
+    },
+    {
+      "id": "60728789241d418f",
+      "name": "Irans nya plan : Attacker mot mål i Europa om united states går för långt",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "60728789241d418f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.908,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "expressen.se",
+      "url": "https://www.expressen.se/nyheter/varlden/irans-nya-plan-attacker--mot-mal-i-europa/",
+      "published_at": "2026-08-19T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.3,
+        "extended": 8.9
+      }
+    },
+    {
+      "id": "8b6ffb9d61c6d456",
+      "name": "Iran weighs strikes on US military targets in Europe if war escalates : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8b6ffb9d61c6d456",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.683,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeastmonitor.com",
+      "url": "https://www.middleeastmonitor.com/20260819-iran-weighs-strikes-on-us-military-targets-in-europe-if-war-escalates-report/",
+      "published_at": "2026-08-19T18:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "356305502d8c4cf4",
+      "name": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "356305502d8c4cf4",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.551,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "eldoradonews.com",
+      "url": "https://www.eldoradonews.com/news/2026/aug/19/trump-threatened-to-bomb-oman-because-hes-unhappy/",
+      "published_at": "2026-08-19T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "fbf223bbf5e7b97d",
+      "name": "Bulgaria largest opposition party calls for Iranian ambassador to be summoned over reported threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fbf223bbf5e7b97d",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.478,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bgnes.com",
+      "url": "http://www.bgnes.com/politics/bulgaria-s-largest-opposition-party-calls-for-iranian-ambassador-to-be-summoned-over-reported-threat",
+      "published_at": "2026-08-19T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
     },
     {
       "id": "41f656e152823c59",
@@ -115,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "41f656e152823c59",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.475,
+      "freshness": 0.414,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,43 +316,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "042ed37c633fd21d",
-      "name": "United Arab Emirates Suspends Trade With Iran After Coming Under Renewed Missile Fire – 710am KURV",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "042ed37c633fd21d",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.412,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kurv.com",
-      "url": "https://www.kurv.com/united-arab-emirates-suspends-trade-with-iran-after-coming-under-renewed-missile-fire/",
-      "published_at": "2026-08-19T15:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.8,
         "short": 2.9,
         "extended": 4.9
-      },
-      "carried_forward": true
+      }
     },
     {
       "id": "e761a92fc96641b6",
@@ -179,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e761a92fc96641b6",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.412,
+      "freshness": 0.359,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,43 +347,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c71eeeabb13ba45c",
-      "name": "UAE suspends trade with Iran after renewed missile fire",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c71eeeabb13ba45c",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.383,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "crookwellgazette.com.au",
-      "url": "https://www.crookwellgazette.com.au/story/9333770/uae-suspends-trade-with-iran-after-renewed-missile-fire/",
-      "published_at": "2026-08-19T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      }
     },
     {
       "id": "8fa6881db61fe13b",
@@ -243,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8fa6881db61fe13b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.475,
+      "freshness": 0.414,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,11 +378,41 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "c71eeeabb13ba45c",
+      "name": "UAE suspends trade with Iran after renewed missile fire",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c71eeeabb13ba45c",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.334,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "crookwellgazette.com.au",
+      "url": "https://www.crookwellgazette.com.au/story/9333770/uae-suspends-trade-with-iran-after-renewed-missile-fire/",
+      "published_at": "2026-08-19T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      }
     },
     {
       "id": "ce75f91b21294fbc",
@@ -275,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ce75f91b21294fbc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.383,
+      "freshness": 0.334,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,75 +440,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "356305502d8c4cf4",
-      "name": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "356305502d8c4cf4",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.25,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "fox10tv.com",
-      "url": "https://www.fox10tv.com/2026/08/18/trump-threatened-bomb-oman-because-hes-unhappy-with-countrys-deal-with-iran-officials-say/",
-      "published_at": "2026-08-19T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6c07feb0ae71044a",
-      "name": "Flydubai and Air Arabia flights begin operating through Iranian airspace",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6c07feb0ae71044a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.25,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "en.apa.az",
-      "url": "https://en.apa.az/asia/flydubai-and-air-arabia-flights-begin-operating-through-iranian-airspace-520902",
-      "published_at": "2026-08-19T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.5
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
+      }
     }
   ],
   "history": [
@@ -3602,17 +3686,23 @@ window.MAGEN_STATE = {
       "immediate": 11,
       "short": 14,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-08-19T19:20:10.001471Z",
+      "immediate": 13,
+      "short": 21,
+      "extended": 27
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-19T16:41:20.449649Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-19T19:20:10.001471Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 9
+        "ok": true,
+        "items": 150,
+        "relevant": 12
       },
       "manual": {
         "ok": true,
