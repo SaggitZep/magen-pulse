@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-19T18:02:57.870821Z",
+  "generated_at": "2026-08-19T18:51:16.071358Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 14,
+      "score": 11,
       "low": 0,
-      "high": 30,
-      "confidence": 49,
+      "high": 27,
+      "confidence": 48,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 49,
+      "score": 14,
+      "low": 0,
+      "high": 30,
+      "confidence": 48,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 49,
+      "score": 14,
+      "low": 0,
+      "high": 30,
+      "confidence": 48,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -2
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "18:30",
       "text": "32 - year - old Iranian scientist who was identified by DNA 10 days after martyrdom in US - Israeli attack",
-      "impact": "השפעה מיידית מחושבת: +11.9",
+      "impact": "השפעה מיידית מחושבת: +9.4",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "493905bfa9c82c04"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "19:15",
       "text": "Exclusive : Claims of Iranian Missile Strike on UAE Dismissed as Baseless ; Evidence Suggests Possible False Flag Operation",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "islamicinvitationturkey.com",
       "signal_id": "41f656e152823c59"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:45",
       "text": "United Arab Emirates Suspends Trade With Iran After Coming Under Renewed Missile Fire – 710am KURV",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "kurv.com",
       "signal_id": "042ed37c633fd21d"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:45",
       "text": "Iran Again Warns Gulf States Against Assisting US Military",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "southeastasiapost.com",
       "signal_id": "e761a92fc96641b6"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "493905bfa9c82c04",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.483,
+      "freshness": 0.383,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.9,
-        "short": 9.3,
-        "extended": 3.9
+        "immediate": 9.4,
+        "short": 7.4,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "41f656e152823c59",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.598,
+      "freshness": 0.475,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "042ed37c633fd21d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.518,
+      "freshness": 0.412,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e761a92fc96641b6",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.518,
+      "freshness": 0.412,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c71eeeabb13ba45c",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.483,
+      "freshness": 0.383,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8fa6881db61fe13b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.598,
+      "freshness": 0.475,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ce75f91b21294fbc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.483,
+      "freshness": 0.383,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "356305502d8c4cf4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.314,
+      "freshness": 0.25,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -339,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6c07feb0ae71044a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.314,
+      "freshness": 0.25,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,73 +355,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8b6ffb9d61c6d456",
-      "name": "Iran weighs strikes on US military targets in Europe if war escalates : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8b6ffb9d61c6d456",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.22,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/europe/iran-weighs-strikes-on-us-military-targets-in-europe-if-war-escalates-report/4031378",
-      "published_at": "2026-08-19T12:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "345ad07bc49d5760",
-      "name": "Pentagon mulls reducing US military presence in Gulf after Iran war ends : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "345ad07bc49d5760",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.22,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofoman.com",
-      "url": "https://timesofoman.com/article/175814-pentagon-mulls-reducing-us-military-presence-in-gulf-after-iran-war-ends-report",
-      "published_at": "2026-08-19T12:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
+        "short": 1.4,
+        "extended": 2.5
       },
       "carried_forward": true
     }
@@ -3660,6 +3596,12 @@ window.MAGEN_STATE = {
       "immediate": 14,
       "short": 17,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-19T18:51:16.071358Z",
+      "immediate": 11,
+      "short": 14,
+      "extended": 14
     }
   ],
   "health": {
@@ -3670,7 +3612,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 11
+        "carried_forward": 9
       },
       "manual": {
         "ok": true,
