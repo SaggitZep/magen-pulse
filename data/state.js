@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-19T23:11:46.668467Z",
+  "generated_at": "2026-08-19T23:41:13.116236Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 17,
-      "low": 4,
-      "high": 30,
-      "confidence": 66,
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 65,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 66,
-      "status": "מוגבר"
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 65,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
       "score": 25,
       "low": 12,
       "high": 38,
-      "confidence": 66,
+      "confidence": 65,
       "status": "מוגבר"
     }
   },
@@ -35,22 +35,30 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "ירידה",
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "00:00",
       "text": "NATO  prepared  to defend allies amid report of Iranian strike plans | US - Israel war on Iran News",
-      "impact": "השפעה מיידית מחושבת: +13.2",
+      "impact": "השפעה מיידית מחושבת: +11.4",
       "direction": "up",
       "source": "aljazeera.com",
       "signal_id": "d37db1598fbb7eeb"
     },
     {
+      "time": "02:15",
+      "text": "Iranian leaders threaten to bomb British base on Cyprus if the U . S . steps up the war",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "dailymail.com",
+      "signal_id": "a8d64758eee46320"
+    },
+    {
       "time": "01:45",
       "text": "NATO  prepared  to defend allies amid report of Iranian strike plans - Grenada Chronicle – Daily Grenada And Caribbean News",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "grenadachronicle.com",
       "signal_id": "9d6b7b2b6ba00b57"
@@ -58,18 +66,10 @@ window.MAGEN_STATE = {
     {
       "time": "00:15",
       "text": "Tehran missile threat refocuses spotlight on fraught UAE - Iran ties",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "middle-east-online.com",
       "signal_id": "6d4e82feda451e78"
-    },
-    {
-      "time": "01:15",
-      "text": "A Fatal Strike and the First Seizure Since June as Iran Transit Rules Take Effect",
-      "impact": "השפעה מיידית מחושבת: +1.3",
-      "direction": "up",
-      "source": "hellenicshippingnews.com",
-      "signal_id": "bd6598a6be3f5116"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d37db1598fbb7eeb",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.534,
+      "freshness": 0.464,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 13.2,
-        "short": 10.3,
-        "extended": 4.4
+        "immediate": 11.4,
+        "short": 8.9,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "a8d64758eee46320",
+      "name": "Iranian leaders threaten to bomb British base on Cyprus if the U . S . steps up the war",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a8d64758eee46320",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.883,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailymail.com",
+      "url": "https://www.dailymail.com/news/article-16065171/Iranian-bomb-British-Cyprus-war.html",
+      "published_at": "2026-08-19T23:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.8
       }
     },
     {
@@ -114,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9d6b7b2b6ba00b57",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.88,
+      "freshness": 0.765,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6d4e82feda451e78",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.573,
+      "freshness": 0.498,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bd6598a6be3f5116",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.763,
+      "freshness": 0.663,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T22:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       }
     },
     {
@@ -207,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0a3d39d29db55389",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.573,
+      "freshness": 0.498,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,71 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
-      }
-    },
-    {
-      "id": "080161cb2f5826a5",
-      "name": "UAE financial embargo on Iran after missile threat puts rivalry back in spotlight – Ya Libnan",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "080161cb2f5826a5",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.431,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yalibnan.com",
-      "url": "https://yalibnan.com/2026/08/19/uaes-financial-embargo-on-iran-after-missile-threat-puts-rivalry-back-in-spotlight/",
-      "published_at": "2026-08-19T20:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
-    },
-    {
-      "id": "5a84a0d5fda90b00",
-      "name": "New Report : Iran Considering Striking US Military Targets in Europe",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5a84a0d5fda90b00",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.573,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "redstate.com",
-      "url": "https://redstate.com/wardclark/2026/08/19/new-report-iran-considering-striking-us-military-targets-in-europe-n2205815",
-      "published_at": "2026-08-19T21:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "short": 3.2,
+        "extended": 5.5
       }
     },
     {
@@ -300,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9a6639387cea4fbf",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.497,
+      "freshness": 0.432,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
       }
     },
     {
@@ -331,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0e4c6d5c54b55a92",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.616,
+      "freshness": 0.535,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,40 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.6,
-        "extended": 6.1
-      }
-    },
-    {
-      "id": "cb97322667a40e74",
-      "name": "Why does the U . S . military seem stymied in the war with Iran ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cb97322667a40e74",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.573,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kedm.org",
-      "url": "https://www.kedm.org/npr-news/2026-08-19/why-does-the-u-s-military-seem-stymied-in-the-war-with-iran",
-      "published_at": "2026-08-19T21:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       }
     },
     {
@@ -393,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2f03b582e55c99e2",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.463,
+      "freshness": 0.402,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,9 +347,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
+    },
+    {
+      "id": "080161cb2f5826a5",
+      "name": "UAE financial embargo on Iran after missile threat puts rivalry back in spotlight – Ya Libnan",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "080161cb2f5826a5",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.375,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yalibnan.com",
+      "url": "https://yalibnan.com/2026/08/19/uaes-financial-embargo-on-iran-after-missile-threat-puts-rivalry-back-in-spotlight/",
+      "published_at": "2026-08-19T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       }
     },
     {
@@ -424,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6075da70440cc96d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.463,
+      "freshness": 0.402,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,9 +409,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
+    },
+    {
+      "id": "5a84a0d5fda90b00",
+      "name": "New Report : Iran Considering Striking US Military Targets in Europe",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5a84a0d5fda90b00",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.498,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "redstate.com",
+      "url": "https://redstate.com/wardclark/2026/08/19/new-report-iran-considering-striking-us-military-targets-in-europe-n2205815",
+      "published_at": "2026-08-19T21:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       }
     },
     {
@@ -455,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "caffd5bcf3ea3fb7",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.431,
+      "freshness": 0.375,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,9 +471,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       }
     },
     {
@@ -486,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "18c902c6e2e12068",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.463,
+      "freshness": 0.402,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,9 +502,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     },
     {
@@ -517,7 +517,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a31d9962912efc4b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.463,
+      "freshness": 0.402,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,9 +533,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     },
     {
@@ -548,7 +548,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0c5b677d04984f86",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.431,
+      "freshness": 0.375,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -564,9 +564,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       }
     },
     {
@@ -579,7 +579,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1cd8837b39c1e2c9",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.463,
+      "freshness": 0.402,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -595,9 +595,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
+    },
+    {
+      "id": "cb97322667a40e74",
+      "name": "Why does the U . S . military seem stymied in the war with Iran ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cb97322667a40e74",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.498,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kedm.org",
+      "url": "https://www.kedm.org/npr-news/2026-08-19/why-does-the-u-s-military-seem-stymied-in-the-war-with-iran",
+      "published_at": "2026-08-19T21:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       }
     },
     {
@@ -610,7 +641,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5a0303abafa1c6ab",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.463,
+      "freshness": 0.402,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -626,9 +657,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
       }
     },
     {
@@ -641,7 +672,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5d397e2b4f160788",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.463,
+      "freshness": 0.402,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -657,9 +688,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
       }
     }
   ],
@@ -3957,17 +3988,23 @@ window.MAGEN_STATE = {
       "immediate": 17,
       "short": 22,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-08-19T23:41:13.116236Z",
+      "immediate": 15,
+      "short": 21,
+      "extended": 25
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-19T23:11:46.668467Z",
+    "last_success": "2026-08-19T23:41:13.116236Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 19
+        "relevant": 20
       },
       "manual": {
         "ok": true,
