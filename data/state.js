@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-19T11:36:09.868332Z",
+  "generated_at": "2026-08-19T12:01:28.040949Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -14,17 +14,17 @@ window.MAGEN_STATE = {
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 11,
       "low": 0,
-      "high": 24,
+      "high": 25,
       "confidence": 63,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
-      "low": 2,
-      "high": 30,
+      "score": 18,
+      "low": 4,
+      "high": 32,
       "confidence": 63,
       "status": "נמוך"
     }
@@ -40,9 +40,17 @@ window.MAGEN_STATE = {
   },
   "changes": [
     {
+      "time": "14:30",
+      "text": "Iran armed forces warn Gulf countries against assisting US military – The Frontier Post",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "thefrontierpost.com",
+      "signal_id": "8252feb3915eb608"
+    },
+    {
       "time": "13:00",
       "text": "Iran Weighs Strikes on US Military Targets in Europe",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "slguardian.org",
       "signal_id": "420073cbbc7ebcdd"
@@ -50,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "12:30",
       "text": "Iran threatens US bases in Europe if war resumes",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "israelnationalnews.com",
       "signal_id": "7b0b81de0a53b025"
@@ -58,21 +66,44 @@ window.MAGEN_STATE = {
     {
       "time": "12:15",
       "text": "Iran weighs attacks on military targets in Europe – FT",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "en.apa.az",
       "signal_id": "0df30232c34fbe3c"
-    },
-    {
-      "time": "12:15",
-      "text": "Iran says Ukraine has yet to pay compensation for Caspian Sea ship attack",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "en.apa.az",
-      "signal_id": "db9276849950e23b"
     }
   ],
   "signals": [
+    {
+      "id": "8252feb3915eb608",
+      "name": "Iran armed forces warn Gulf countries against assisting US military – The Frontier Post",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8252feb3915eb608",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.861,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thefrontierpost.com",
+      "url": "https://thefrontierpost.com/irans-armed-forces-warn-gulf-countries-against-assisting-us-military/",
+      "published_at": "2026-08-19T11:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
+    },
     {
       "id": "420073cbbc7ebcdd",
       "name": "Iran Weighs Strikes on US Military Targets in Europe",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "420073cbbc7ebcdd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.633,
+      "freshness": 0.561,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T10:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
+        "immediate": 1.0,
+        "short": 3.2,
+        "extended": 5.5
       }
     },
     {
@@ -114,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7b0b81de0a53b025",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.548,
+      "freshness": 0.486,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.6,
-        "extended": 6.1
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0df30232c34fbe3c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.511,
+      "freshness": 0.453,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "db9276849950e23b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.511,
+      "freshness": 0.453,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
       }
     },
     {
@@ -207,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6f5eaa1aef91b7cb",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.384,
+      "freshness": 0.34,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,53 +254,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "03057e7ebe2dd0b0",
-      "name": "Iran armed forces warn Gulf countries against assisting US military",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "03057e7ebe2dd0b0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.384,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabnews.com",
-      "url": "https://www.arabnews.com/node/2655163/middle-east",
-      "published_at": "2026-08-19T08:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
+        "short": 2.4,
+        "extended": 4.0
       }
     },
     {
-      "id": "3677f68c580f2279",
-      "name": "UAE says two missiles detected earlier were launched from Iran",
+      "id": "ce69f94054a3bbae",
+      "name": "Moyen - Orient  : dialogue rompu entre Washington et Téhéran , les Émirats accusent lIran de nouveaux tirs de missiles",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "3677f68c580f2279",
+      "dependency_group": "ce69f94054a3bbae",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.357,
+      "freshness": 0.365,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -280,14 +280,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "tribune.com.pk",
-      "url": "https://tribune.com.pk/story/2624694/uae-says-two-missiles-detected-earlier-launched-from-iran",
-      "published_at": "2026-08-19T08:00:00Z",
+      "source": "sudouest.fr",
+      "url": "https://www.sudouest.fr/international/moyen-orient-dialogue-rompu-entre-washington-et-teheran-les-emirats-accusent-l-iran-de-nouveaux-tirs-de-missiles-30301307.php",
+      "published_at": "2026-08-19T08:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.7,
         "short": 2.5,
-        "extended": 4.2
+        "extended": 4.3
       }
     },
     {
@@ -300,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "79e2db8914eaae1a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.384,
+      "freshness": 0.34,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,40 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
-    },
-    {
-      "id": "654a8b2e9c8855da",
-      "name": "Les Émirats arabes unis suspendent leurs échanges avec lIran après le tir de deux missiles ; les tensions sintensifient",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "654a8b2e9c8855da",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.333,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bfmtv.com",
-      "url": "https://www.bfmtv.com/economie/international/les-emirats-arabes-unis-suspendent-leurs-echanges-avec-l-iran-apres-le-tir-de-deux-missiles-le-detroit-d-ormuz-toujours-ferme_AD-202608190086.html",
-      "published_at": "2026-08-19T07:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       }
     },
     {
@@ -362,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e6da666641b97b76",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.384,
+      "freshness": 0.34,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,9 +347,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       }
     },
     {
@@ -393,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "345ad07bc49d5760",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.384,
+      "freshness": 0.34,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,40 +378,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
-    },
-    {
-      "id": "48a4ec7e375c4e5d",
-      "name": "Iran threatens military targets in Europe if US President Donald Trump escalates war , insiders say",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "48a4ec7e375c4e5d",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.333,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "afr.com",
-      "url": "https://www.afr.com/world/middle-east/iran-eyes-military-targets-in-europe-if-trump-escalates-war-insiders-20260819-p60ps5",
-      "published_at": "2026-08-19T07:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "short": 2.0,
+        "extended": 3.4
       }
     }
   ],
@@ -3620,17 +3558,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-19T12:01:28.040949Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-19T11:36:09.868332Z",
+    "last_success": "2026-08-19T12:01:28.040949Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 12
+        "relevant": 10
       },
       "manual": {
         "ok": true,
