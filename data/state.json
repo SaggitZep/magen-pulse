@@ -1,48 +1,56 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-19T11:03:16.583847Z",
+  "mode": "live",
+  "generated_at": "2026-08-19T11:36:09.868332Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 3,
       "low": 0,
-      "high": 19,
-      "confidence": 48,
+      "high": 17,
+      "confidence": 63,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
       "score": 10,
       "low": 0,
-      "high": 26,
-      "confidence": 48,
+      "high": 24,
+      "confidence": 63,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 48,
+      "score": 16,
+      "low": 2,
+      "high": 30,
+      "confidence": 63,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
+      "time": "13:00",
+      "text": "Iran Weighs Strikes on US Military Targets in Europe",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "slguardian.org",
+      "signal_id": "420073cbbc7ebcdd"
+    },
+    {
       "time": "12:30",
       "text": "Iran threatens US bases in Europe if war resumes",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "israelnationalnews.com",
       "signal_id": "7b0b81de0a53b025"
@@ -50,29 +58,52 @@
     {
       "time": "12:15",
       "text": "Iran weighs attacks on military targets in Europe – FT",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "en.apa.az",
       "signal_id": "0df30232c34fbe3c"
     },
     {
-      "time": "11:15",
-      "text": "UAE Suspends Trade and Financial Transactions With Iran After Missile Incident",
+      "time": "12:15",
+      "text": "Iran says Ukraine has yet to pay compensation for Caspian Sea ship attack",
       "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
-      "source": "pakistantimes.com",
-      "signal_id": "6f5eaa1aef91b7cb"
-    },
-    {
-      "time": "11:00",
-      "text": "UAE says two missiles detected earlier were launched from Iran",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "tribune.com.pk",
-      "signal_id": "3677f68c580f2279"
+      "source": "en.apa.az",
+      "signal_id": "db9276849950e23b"
     }
   ],
   "signals": [
+    {
+      "id": "420073cbbc7ebcdd",
+      "name": "Iran Weighs Strikes on US Military Targets in Europe",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "420073cbbc7ebcdd",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.633,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "slguardian.org",
+      "url": "https://slguardian.org/iran-weighs-strikes-on-us-military-targets-in-europe/",
+      "published_at": "2026-08-19T10:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.2
+      }
+    },
     {
       "id": "7b0b81de0a53b025",
       "name": "Iran threatens US bases in Europe if war resumes",
@@ -83,7 +114,7 @@
       "dependency_group": "7b0b81de0a53b025",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.641,
+      "freshness": 0.548,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +130,10 @@
       "published_at": "2026-08-19T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.6,
+        "extended": 6.1
+      }
     },
     {
       "id": "0df30232c34fbe3c",
@@ -115,7 +145,7 @@
       "dependency_group": "0df30232c34fbe3c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.597,
+      "freshness": 0.511,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +161,41 @@
       "published_at": "2026-08-19T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "db9276849950e23b",
+      "name": "Iran says Ukraine has yet to pay compensation for Caspian Sea ship attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "db9276849950e23b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.511,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "en.apa.az",
+      "url": "https://en.apa.az/asia/iran-says-ukraine-has-yet-to-pay-compensation-for-caspian-sea-ship-attack-520856",
+      "published_at": "2026-08-19T09:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.0
+      }
     },
     {
       "id": "6f5eaa1aef91b7cb",
@@ -147,7 +207,7 @@
       "dependency_group": "6f5eaa1aef91b7cb",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.449,
+      "freshness": 0.384,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,75 +223,10 @@
       "published_at": "2026-08-19T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3677f68c580f2279",
-      "name": "UAE says two missiles detected earlier were launched from Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3677f68c580f2279",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.418,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "tribune.com.pk",
-      "url": "https://tribune.com.pk/story/2624694/uae-says-two-missiles-detected-earlier-launched-from-iran",
-      "published_at": "2026-08-19T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 4.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "654a8b2e9c8855da",
-      "name": "Les Émirats arabes unis suspendent leurs échanges avec lIran après le tir de deux missiles ; les tensions sintensifient",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "654a8b2e9c8855da",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.389,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bfmtv.com",
-      "url": "https://www.bfmtv.com/economie/international/les-emirats-arabes-unis-suspendent-leurs-echanges-avec-l-iran-apres-le-tir-de-deux-missiles-le-detroit-d-ormuz-toujours-ferme_AD-202608190086.html",
-      "published_at": "2026-08-19T07:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.8,
         "short": 2.7,
-        "extended": 4.6
-      },
-      "carried_forward": true
+        "extended": 4.5
+      }
     },
     {
       "id": "03057e7ebe2dd0b0",
@@ -243,7 +238,7 @@
       "dependency_group": "03057e7ebe2dd0b0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.449,
+      "freshness": 0.384,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,11 +254,41 @@
       "published_at": "2026-08-19T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "3677f68c580f2279",
+      "name": "UAE says two missiles detected earlier were launched from Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3677f68c580f2279",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.357,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tribune.com.pk",
+      "url": "https://tribune.com.pk/story/2624694/uae-says-two-missiles-detected-earlier-launched-from-iran",
+      "published_at": "2026-08-19T08:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
     },
     {
       "id": "79e2db8914eaae1a",
@@ -275,7 +300,7 @@
       "dependency_group": "79e2db8914eaae1a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.449,
+      "freshness": 0.384,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,11 +316,41 @@
       "published_at": "2026-08-19T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "654a8b2e9c8855da",
+      "name": "Les Émirats arabes unis suspendent leurs échanges avec lIran après le tir de deux missiles ; les tensions sintensifient",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "654a8b2e9c8855da",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.333,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bfmtv.com",
+      "url": "https://www.bfmtv.com/economie/international/les-emirats-arabes-unis-suspendent-leurs-echanges-avec-l-iran-apres-le-tir-de-deux-missiles-le-detroit-d-ormuz-toujours-ferme_AD-202608190086.html",
+      "published_at": "2026-08-19T07:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
     },
     {
       "id": "e6da666641b97b76",
@@ -307,7 +362,7 @@
       "dependency_group": "e6da666641b97b76",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.449,
+      "freshness": 0.384,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,23 +378,22 @@
       "published_at": "2026-08-19T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      }
     },
     {
-      "id": "561ef3feb5bd9f09",
-      "name": "UAE imposes indefinite trade embargo on Iran over alleged missile attacks",
+      "id": "345ad07bc49d5760",
+      "name": "Pentagon mulls reducing US military presence in Gulf after Iran war ends : Report",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "561ef3feb5bd9f09",
-      "strength": 0.48,
+      "dependency_group": "345ad07bc49d5760",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.314,
+      "freshness": 0.384,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -350,176 +404,46 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/news/2026/8/19/uae-imposes-indefinite-trade-embargo-on-iran-over-alleged-missile-attacks",
-      "published_at": "2026-08-19T07:00:00Z",
+      "source": "aninews.in",
+      "url": "https://aninews.in/news/world/us/pentagon-mulls-reducing-us-military-presence-in-gulf-after-iran-war-ends-report20260819120632/",
+      "published_at": "2026-08-19T08:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "48a4ec7e375c4e5d",
+      "name": "Iran threatens military targets in Europe if US President Donald Trump escalates war , insiders say",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "48a4ec7e375c4e5d",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.333,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "afr.com",
+      "url": "https://www.afr.com/world/middle-east/iran-eyes-military-targets-in-europe-if-trump-escalates-war-insiders-20260819-p60ps5",
+      "published_at": "2026-08-19T07:45:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
         "short": 2.2,
         "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "aea33626de850c15",
-      "name": "UAE suspends Iran trade after ballistic missiles detected",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "aea33626de850c15",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.272,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "rte.ie",
-      "url": "https://www.rte.ie/news/2026/0819/1588442-middle-east/",
-      "published_at": "2026-08-19T06:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "672f42155eaaaf7f",
-      "name": "Iranska källor hotar med attacker i Europa",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "672f42155eaaaf7f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.337,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "di.se",
-      "url": "https://www.di.se/nyheter/iranska-kallor-hotar-med-attacker-i-europa/",
-      "published_at": "2026-08-19T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "dc1fe4d3b5bbbfec",
-      "name": "UAE suspends all trade , financial transactions with Iran after missile attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "dc1fe4d3b5bbbfec",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.236,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "geo.tv",
-      "url": "https://www.geo.tv/latest/678248-uae-suspends-all-trade-financial-transactions-with-iran-after-missile-attack",
-      "published_at": "2026-08-19T06:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "11c3d6ca8533fc57",
-      "name": "UAE imposes indefinite trade embargo on Iran over alleged missile attacks - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "11c3d6ca8533fc57",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.236,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dominicanrepublicpost.com",
-      "url": "https://dominicanrepublicpost.com/uae-imposes-indefinite-trade-embargo-on-iran-over-alleged-missile-attacks/",
-      "published_at": "2026-08-19T06:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "003d5c3254a03e7a",
-      "name": "Guerre au Moyen - Orient  : tension entre lIran et les Émirats , une base militaire en Syrie",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "003d5c3254a03e7a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.272,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "draguignan.maville.com",
-      "url": "https://draguignan.maville.com/actu/actudet_-guerre-au-moyen-orient-tension-entre-l-iran-et-les-emirats-une-base-militaire-en-syrie-ciblee-les-dernieres-infos_fil-7444371_actu.Htm",
-      "published_at": "2026-08-19T06:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
+      }
     }
   ],
   "history": [
@@ -3690,17 +3614,23 @@
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-19T11:36:09.868332Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 16
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-19T09:58:41.780011Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-19T11:36:09.868332Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 14
+        "ok": true,
+        "items": 150,
+        "relevant": 12
       },
       "manual": {
         "ok": true,
