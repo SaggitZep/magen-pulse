@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-19T09:23:20.822099Z",
+  "generated_at": "2026-08-19T09:58:41.780011Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@
       "score": 4,
       "low": 0,
       "high": 17,
-      "confidence": 66,
+      "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
-      "low": 0,
-      "high": 26,
-      "confidence": 66,
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 66,
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 65,
       "status": "מוגבר"
     }
   },
@@ -36,13 +36,29 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
+      "time": "12:30",
+      "text": "Iran threatens US bases in Europe if war resumes",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "israelnationalnews.com",
+      "signal_id": "7b0b81de0a53b025"
+    },
+    {
+      "time": "12:15",
+      "text": "Iran weighs attacks on military targets in Europe – FT",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "en.apa.az",
+      "signal_id": "0df30232c34fbe3c"
+    },
+    {
       "time": "11:15",
       "text": "UAE Suspends Trade and Financial Transactions With Iran After Missile Incident",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "pakistantimes.com",
       "signal_id": "6f5eaa1aef91b7cb"
@@ -50,29 +66,75 @@
     {
       "time": "11:00",
       "text": "UAE says two missiles detected earlier were launched from Iran",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "tribune.com.pk",
       "signal_id": "3677f68c580f2279"
-    },
-    {
-      "time": "10:45",
-      "text": "Les Émirats arabes unis suspendent leurs échanges avec lIran après le tir de deux missiles ; les tensions sintensifient",
-      "impact": "השפעה מיידית מחושבת: +1.3",
-      "direction": "up",
-      "source": "bfmtv.com",
-      "signal_id": "654a8b2e9c8855da"
-    },
-    {
-      "time": "11:15",
-      "text": "Iran armed forces warn Gulf countries against assisting US military",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "arabnews.com",
-      "signal_id": "03057e7ebe2dd0b0"
     }
   ],
   "signals": [
+    {
+      "id": "7b0b81de0a53b025",
+      "name": "Iran threatens US bases in Europe if war resumes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7b0b81de0a53b025",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.872,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/news/431920",
+      "published_at": "2026-08-19T09:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.7
+      }
+    },
+    {
+      "id": "0df30232c34fbe3c",
+      "name": "Iran weighs attacks on military targets in Europe – FT",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0df30232c34fbe3c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.812,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "en.apa.az",
+      "url": "https://en.apa.az/asia/iran-weighs-attacks-on-military-targets-in-europe-ft-520866",
+      "published_at": "2026-08-19T09:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
     {
       "id": "6f5eaa1aef91b7cb",
       "name": "UAE Suspends Trade and Financial Transactions With Iran After Missile Incident",
@@ -83,7 +145,7 @@
       "dependency_group": "6f5eaa1aef91b7cb",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.722,
+      "freshness": 0.61,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +161,9 @@
       "published_at": "2026-08-19T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
       }
     },
     {
@@ -114,7 +176,7 @@
       "dependency_group": "3677f68c580f2279",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.672,
+      "freshness": 0.568,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +192,9 @@
       "published_at": "2026-08-19T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 7.9
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
       }
     },
     {
@@ -145,7 +207,7 @@
       "dependency_group": "654a8b2e9c8855da",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.626,
+      "freshness": 0.529,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +223,9 @@
       "published_at": "2026-08-19T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.4
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
       }
     },
     {
@@ -176,7 +238,7 @@
       "dependency_group": "03057e7ebe2dd0b0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.722,
+      "freshness": 0.61,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +254,9 @@
       "published_at": "2026-08-19T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
       }
     },
     {
@@ -207,7 +269,7 @@
       "dependency_group": "79e2db8914eaae1a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.722,
+      "freshness": 0.61,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +285,9 @@
       "published_at": "2026-08-19T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
       }
     },
     {
@@ -238,7 +300,7 @@
       "dependency_group": "e6da666641b97b76",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.722,
+      "freshness": 0.61,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +316,9 @@
       "published_at": "2026-08-19T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
       }
     },
     {
@@ -269,7 +331,7 @@
       "dependency_group": "561ef3feb5bd9f09",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.505,
+      "freshness": 0.427,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +347,9 @@
       "published_at": "2026-08-19T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
       }
     },
     {
@@ -300,7 +362,7 @@
       "dependency_group": "aea33626de850c15",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.438,
+      "freshness": 0.37,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,9 +378,9 @@
       "published_at": "2026-08-19T06:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       }
     },
     {
@@ -331,7 +393,7 @@
       "dependency_group": "672f42155eaaaf7f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.543,
+      "freshness": 0.459,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,9 +409,9 @@
       "published_at": "2026-08-19T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.4
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
       }
     },
     {
@@ -362,7 +424,7 @@
       "dependency_group": "dc1fe4d3b5bbbfec",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.38,
+      "freshness": 0.321,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,9 +440,9 @@
       "published_at": "2026-08-19T06:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       }
     },
     {
@@ -393,7 +455,7 @@
       "dependency_group": "11c3d6ca8533fc57",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.38,
+      "freshness": 0.321,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,9 +471,9 @@
       "published_at": "2026-08-19T06:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       }
     },
     {
@@ -424,7 +486,7 @@
       "dependency_group": "003d5c3254a03e7a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.438,
+      "freshness": 0.37,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,9 +502,9 @@
       "published_at": "2026-08-19T06:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       }
     }
   ],
@@ -3596,17 +3658,23 @@
       "immediate": 4,
       "short": 13,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-19T09:58:41.780011Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 23
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-19T09:23:20.822099Z",
+    "last_success": "2026-08-19T09:58:41.780011Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 12
+        "relevant": 14
       },
       "manual": {
         "ok": true,
