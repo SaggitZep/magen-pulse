@@ -1,89 +1,120 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-19T15:54:18.546602Z",
+  "mode": "live",
+  "generated_at": "2026-08-19T16:41:20.449649Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
-      "low": 0,
-      "high": 20,
-      "confidence": 50,
-      "status": "לא זוהה אות חריג"
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 68,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
-      "low": 0,
-      "high": 28,
-      "confidence": 50,
-      "status": "נמוך"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 4,
-      "high": 36,
-      "confidence": 50,
-      "status": "נמוך"
+      "score": 26,
+      "low": 13,
+      "high": 39,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "זינוק חריג",
+    "points_60m": 17
   },
   "changes": [
     {
-      "time": "17:45",
-      "text": "United Arab Emirates suspends trade with Iran after coming under renewed missile fire",
+      "time": "18:30",
+      "text": "32 - year - old Iranian scientist who was identified by DNA 10 days after martyrdom in US - Israeli attack",
+      "impact": "השפעה מיידית מחושבת: +17.5",
+      "direction": "up",
+      "source": "presstv.co.uk",
+      "signal_id": "493905bfa9c82c04"
+    },
+    {
+      "time": "19:15",
+      "text": "Exclusive : Claims of Iranian Missile Strike on UAE Dismissed as Baseless ; Evidence Suggests Possible False Flag Operation",
+      "impact": "השפעה מיידית מחושבת: +1.8",
+      "direction": "up",
+      "source": "islamicinvitationturkey.com",
+      "signal_id": "41f656e152823c59"
+    },
+    {
+      "time": "18:45",
+      "text": "United Arab Emirates Suspends Trade With Iran After Coming Under Renewed Missile Fire – 710am KURV",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "kurv.com",
+      "signal_id": "042ed37c633fd21d"
+    },
+    {
+      "time": "18:45",
+      "text": "Iran Again Warns Gulf States Against Assisting US Military",
       "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "wral.com",
-      "signal_id": "1cd8837b39c1e2c9"
-    },
-    {
-      "time": "17:00",
-      "text": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "fox10tv.com",
-      "signal_id": "356305502d8c4cf4"
-    },
-    {
-      "time": "16:45",
-      "text": "UAE suspends trade with Iran after renewed missile fire",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "bordermail.com.au",
-      "signal_id": "c71eeeabb13ba45c"
-    },
-    {
-      "time": "17:00",
-      "text": "Flydubai and Air Arabia flights begin operating through Iranian airspace",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "en.apa.az",
-      "signal_id": "6c07feb0ae71044a"
+      "source": "southeastasiapost.com",
+      "signal_id": "e761a92fc96641b6"
     }
   ],
   "signals": [
     {
-      "id": "1cd8837b39c1e2c9",
-      "name": "United Arab Emirates suspends trade with Iran after coming under renewed missile fire",
+      "id": "493905bfa9c82c04",
+      "name": "32 - year - old Iranian scientist who was identified by DNA 10 days after martyrdom in US - Israeli attack",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "493905bfa9c82c04",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.712,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/08/18/774610/32-year-old-iranian-scientist-identified-dna-10-days-after-martyrdom-us-israeli-attack",
+      "published_at": "2026-08-19T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 17.5,
+        "short": 13.7,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "41f656e152823c59",
+      "name": "Exclusive : Claims of Iranian Missile Strike on UAE Dismissed as Baseless ; Evidence Suggests Possible False Flag Operation",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "1cd8837b39c1e2c9",
+      "dependency_group": "41f656e152823c59",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.719,
+      "freshness": 0.882,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,16 +125,170 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "wral.com",
-      "url": "https://www.wral.com/news/ap/47c95-united-arab-emirates-suspends-trade-with-iran-after-coming-under-renewed-missile-fire/",
-      "published_at": "2026-08-19T14:45:00Z",
+      "source": "islamicinvitationturkey.com",
+      "url": "https://www.islamicinvitationturkey.com/exclusive-claims-of-iranian-missile-strike-on-uae-dismissed-as-baseless-evidence-suggests-possible-false-flag-operation/",
+      "published_at": "2026-08-19T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.1,
+        "extended": 10.4
+      }
+    },
+    {
+      "id": "042ed37c633fd21d",
+      "name": "United Arab Emirates Suspends Trade With Iran After Coming Under Renewed Missile Fire – 710am KURV",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "042ed37c633fd21d",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.765,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kurv.com",
+      "url": "https://www.kurv.com/united-arab-emirates-suspends-trade-with-iran-after-coming-under-renewed-missile-fire/",
+      "published_at": "2026-08-19T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.0
+      }
+    },
+    {
+      "id": "e761a92fc96641b6",
+      "name": "Iran Again Warns Gulf States Against Assisting US Military",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e761a92fc96641b6",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.765,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "southeastasiapost.com",
+      "url": "http://www.southeastasiapost.com/news/279251318/iran-again-warns-gulf-states-against-assisting-us-military",
+      "published_at": "2026-08-19T15:45:00Z",
       "active": true,
       "computed": {
         "immediate": 1.5,
         "short": 5.0,
         "extended": 8.5
+      }
+    },
+    {
+      "id": "c71eeeabb13ba45c",
+      "name": "UAE suspends trade with Iran after renewed missile fire",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c71eeeabb13ba45c",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.712,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "crookwellgazette.com.au",
+      "url": "https://www.crookwellgazette.com.au/story/9333770/uae-suspends-trade-with-iran-after-renewed-missile-fire/",
+      "published_at": "2026-08-19T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "8fa6881db61fe13b",
+      "name": "Iran Top Military Leader Issues Stern Warning to Gulf States Against Supporting Satanic US Forces",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8fa6881db61fe13b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.882,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "islamicinvitationturkey.com",
+      "url": "https://www.islamicinvitationturkey.com/irans-top-military-leader-issues-stern-warning-to-gulf-states-against-supporting-satanic-us-forces/",
+      "published_at": "2026-08-19T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "ce75f91b21294fbc",
+      "name": "Iran wants to hit American bases in Europe : Bulgaria , Cyprus and submarine cables in its sights",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ce75f91b21294fbc",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.712,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "irishdentist.ie",
+      "url": "https://www.irishdentist.ie/iran-wants-to-hit-american-bases-in-europe-bulgaria-cyprus-and-submarine-cables-in-its-sights/21146/",
+      "published_at": "2026-08-19T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
     },
     {
       "id": "356305502d8c4cf4",
@@ -115,7 +300,7 @@
       "dependency_group": "356305502d8c4cf4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.58,
+      "freshness": 0.464,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,43 +316,10 @@
       "published_at": "2026-08-19T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c71eeeabb13ba45c",
-      "name": "UAE suspends trade with Iran after renewed missile fire",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c71eeeabb13ba45c",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.54,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bordermail.com.au",
-      "url": "https://www.bordermail.com.au/story/9333770/uae-suspends-trade-with-iran-after-renewed-missile-fire/",
-      "published_at": "2026-08-19T13:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
     },
     {
       "id": "6c07feb0ae71044a",
@@ -179,7 +331,7 @@
       "dependency_group": "6c07feb0ae71044a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.58,
+      "freshness": 0.464,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,75 +347,10 @@
       "published_at": "2026-08-19T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e761a92fc96641b6",
-      "name": "Iran Again Warns Gulf States Against Assisting US Military",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e761a92fc96641b6",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.406,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iraqsun.com",
-      "url": "http://www.iraqsun.com/news/279251318/iran-again-warns-gulf-states-against-assisting-us-military",
-      "published_at": "2026-08-19T12:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c295aaf2c38f524e",
-      "name": "Message to Europe : it can receive missile : Iran warns of wider war if Trump attacks - report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c295aaf2c38f524e",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.328,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/message-to-europe-it-can-receive-missiles-iran-warns-of-wider-war-if-trump-attacks-report/articleshow/133344687.cms",
-      "published_at": "2026-08-19T12:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      },
-      "carried_forward": true
+        "short": 2.7,
+        "extended": 4.6
+      }
     },
     {
       "id": "8b6ffb9d61c6d456",
@@ -275,7 +362,7 @@
       "dependency_group": "8b6ffb9d61c6d456",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.406,
+      "freshness": 0.325,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,11 +378,10 @@
       "published_at": "2026-08-19T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      }
     },
     {
       "id": "345ad07bc49d5760",
@@ -307,7 +393,7 @@
       "dependency_group": "345ad07bc49d5760",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.406,
+      "freshness": 0.325,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,43 +409,10 @@
       "published_at": "2026-08-19T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8252feb3915eb608",
-      "name": "Iran armed forces warn Gulf countries against assisting US military – The Frontier Post",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8252feb3915eb608",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.284,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thefrontierpost.com",
-      "url": "https://thefrontierpost.com/irans-armed-forces-warn-gulf-countries-against-assisting-us-military/",
-      "published_at": "2026-08-19T11:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      }
     }
   ],
   "history": [
@@ -3572,17 +3625,23 @@
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-19T16:41:20.449649Z",
+      "immediate": 21,
+      "short": 25,
+      "extended": 26
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-19T15:19:10.050353Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-19T16:41:20.449649Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 9
+        "ok": true,
+        "items": 150,
+        "relevant": 11
       },
       "manual": {
         "ok": true,
