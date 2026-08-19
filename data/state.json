@@ -1,78 +1,574 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-19T21:14:41.805894Z",
+  "mode": "live",
+  "generated_at": "2026-08-19T21:46:31.767367Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
-      "low": 0,
-      "high": 20,
-      "confidence": 47,
-      "status": "לא זוהה אות חריג"
+      "score": 24,
+      "low": 12,
+      "high": 36,
+      "confidence": 70,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
-      "low": 0,
-      "high": 26,
-      "confidence": 47,
-      "status": "נמוך"
+      "score": 29,
+      "low": 16,
+      "high": 42,
+      "confidence": 69,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
-      "low": 0,
-      "high": 32,
-      "confidence": 47,
-      "status": "נמוך"
+      "score": 32,
+      "low": 19,
+      "high": 45,
+      "confidence": 69,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "זינוק חריג",
+    "points_60m": 21
   },
   "changes": [
     {
-      "time": "21:30",
-      "text": "Les Emirats suspendent leurs échanges commerciaux avec lIran après le tir de deux missiles",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "00:00",
+      "text": "NATO  prepared  to defend allies amid report of Iranian strike plans | US - Israel war on Iran News",
+      "impact": "השפעה מיידית מחושבת: +19.7",
       "direction": "up",
-      "source": "defimedia.info",
-      "signal_id": "7577b24964097c7a"
+      "source": "aljazeera.com",
+      "signal_id": "d37db1598fbb7eeb"
     },
     {
-      "time": "21:30",
-      "text": "United Arab Emirates suspends trade with Iran after coming under renewed missile fire",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "00:15",
+      "text": "Tehran missile threat refocuses spotlight on fraught UAE - Iran ties",
+      "impact": "השפעה מיידית מחושבת: +1.9",
       "direction": "up",
-      "source": "ksl.com:443",
-      "signal_id": "1cd8837b39c1e2c9"
+      "source": "middle-east-online.com",
+      "signal_id": "6d4e82feda451e78"
     },
     {
-      "time": "22:00",
-      "text": "Irans nya plan : Attacker mot mål i Europa om united states går för långt",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "00:15",
+      "text": "Is Iran Hiding Nuclear Weapons ? Fada Hossein Maleki threat to US sparks new concerns",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "expressen.se",
-      "signal_id": "60728789241d418f"
+      "source": "pakobserver.net",
+      "signal_id": "0a3d39d29db55389"
     },
     {
-      "time": "21:00",
-      "text": "Iran weighs strikes on US military targets in Europe if war escalates : Report",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "23:15",
+      "text": "UAE financial embargo on Iran after missile threat puts rivalry back in spotlight – Ya Libnan",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "middleeastmonitor.com",
-      "signal_id": "8b6ffb9d61c6d456"
+      "source": "yalibnan.com",
+      "signal_id": "080161cb2f5826a5"
     }
   ],
   "signals": [
+    {
+      "id": "d37db1598fbb7eeb",
+      "name": "NATO  prepared  to defend allies amid report of Iranian strike plans | US - Israel war on Iran News",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d37db1598fbb7eeb",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.801,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/8/19/nato-prepared-to-defend-allies-amid-report-of-iranian-strike-plans",
+      "published_at": "2026-08-19T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 19.7,
+        "short": 15.4,
+        "extended": 6.5
+      }
+    },
+    {
+      "id": "6d4e82feda451e78",
+      "name": "Tehran missile threat refocuses spotlight on fraught UAE - Iran ties",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6d4e82feda451e78",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.861,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middle-east-online.com",
+      "url": "https://www.middle-east-online.com/en/tehran%E2%80%99s-missile-threat-refocuses-spotlight-fraught-uae-iran-ties",
+      "published_at": "2026-08-19T21:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.9,
+        "short": 6.6,
+        "extended": 11.2
+      }
+    },
+    {
+      "id": "0a3d39d29db55389",
+      "name": "Is Iran Hiding Nuclear Weapons ? Fada Hossein Maleki threat to US sparks new concerns",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0a3d39d29db55389",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.861,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "pakobserver.net",
+      "url": "https://pakobserver.net/is-iran-hiding-nuclear-weapons-fada-hossein-malekis-threat-to-us-sparks-new-concerns/",
+      "published_at": "2026-08-19T21:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.6,
+        "extended": 9.5
+      }
+    },
+    {
+      "id": "080161cb2f5826a5",
+      "name": "UAE financial embargo on Iran after missile threat puts rivalry back in spotlight – Ya Libnan",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "080161cb2f5826a5",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.647,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yalibnan.com",
+      "url": "https://yalibnan.com/2026/08/19/uaes-financial-embargo-on-iran-after-missile-threat-puts-rivalry-back-in-spotlight/",
+      "published_at": "2026-08-19T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "5a84a0d5fda90b00",
+      "name": "New Report : Iran Considering Striking US Military Targets in Europe",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5a84a0d5fda90b00",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.861,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "redstate.com",
+      "url": "https://redstate.com/wardclark/2026/08/19/new-report-iran-considering-striking-us-military-targets-in-europe-n2205815",
+      "published_at": "2026-08-19T21:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
+    },
+    {
+      "id": "9a6639387cea4fbf",
+      "name": "After coming under renewed missile fire , United Arab Emirates suspends trade with Iran | Politics and Government",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9a6639387cea4fbf",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.746,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "reviewjournal.com",
+      "url": "https://www.reviewjournal.com/news/politics-and-government/uae-suspends-trade-with-iran-after-coming-under-renewed-missile-fire-3866185/",
+      "published_at": "2026-08-19T20:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "cb97322667a40e74",
+      "name": "Why does the U . S . military seem stymied in the war with Iran ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cb97322667a40e74",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.861,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kedm.org",
+      "url": "https://www.kedm.org/npr-news/2026-08-19/why-does-the-u-s-military-seem-stymied-in-the-war-with-iran",
+      "published_at": "2026-08-19T21:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
+    },
+    {
+      "id": "2f03b582e55c99e2",
+      "name": "Iran Targets Kurdistan PM Office in Drone Strike , Signaling Escalation Beyond Previous Limits",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2f03b582e55c99e2",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.695,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/272824/20260819/iran-targets-kurdistan-pms-office-drone-strike-signaling-escalation-beyond-previous-limits.htm",
+      "published_at": "2026-08-19T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "6075da70440cc96d",
+      "name": "Iran Fires Missiles Into UAE Territorial Waters as Gulf Conflict Enters Dangerous New Phase",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6075da70440cc96d",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.695,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/272820/20260819/iran-fires-missiles-uae-territorial-waters-gulf-conflict-enters-dangerous-new-phase.htm",
+      "published_at": "2026-08-19T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "18c902c6e2e12068",
+      "name": "Trump Calls Iran Missiles  Nuisance  as UAE Hit , Oman Deal Nears and Hormuz Standoff Deepens",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "18c902c6e2e12068",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.695,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/272815/20260819/trump-posts-map-declaring-hormuz-new-us-territory-says-no-iran-talks-oman-deal-nears.htm",
+      "published_at": "2026-08-19T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "a31d9962912efc4b",
+      "name": "UAE suspends trade with Iran after coming under renewed missile fire",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a31d9962912efc4b",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.695,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "manilatimes.net",
+      "url": "https://www.manilatimes.net/2026/08/20/world/uae-suspends-trade-with-iran-after-coming-under-renewed-missile-fire/2408753",
+      "published_at": "2026-08-19T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "1cd8837b39c1e2c9",
+      "name": "United Arab Emirates suspends trade with Iran after coming under renewed missile fire",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1cd8837b39c1e2c9",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.695,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "mankatofreepress.com",
+      "url": "https://www.mankatofreepress.com/news/business/united-arab-emirates-suspends-trade-with-iran-after-coming-under-renewed-missile-fire/article_d6aa4798-017c-52ee-a6ad-f5b47864557b.html",
+      "published_at": "2026-08-19T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "caffd5bcf3ea3fb7",
+      "name": "UAE Suspends Trade With Iran After Reported Missile Strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "caffd5bcf3ea3fb7",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.647,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "time.com",
+      "url": "https://time.com/article/2026/08/19/uae-suspends-trade-with-iran-after-reported-missile-strikes/",
+      "published_at": "2026-08-19T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "0c5b677d04984f86",
+      "name": "UAE cuts off trade with Iran in response to alleged missile attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0c5b677d04984f86",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.647,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "morningstaronline.co.uk",
+      "url": "https://morningstaronline.co.uk/article/uae-cuts-trade-iran-response-alleged-missile-attack",
+      "published_at": "2026-08-19T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "5a0303abafa1c6ab",
+      "name": "Iran demands compensation from Ukraine over  terrorist  attack on merchant ship",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5a0303abafa1c6ab",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.695,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/08/19/774678/Iran-envoy-Ukraine-compensate-attack-merchant-ship",
+      "published_at": "2026-08-19T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "5d397e2b4f160788",
+      "name": "A Baffling Case of Inept Iranian Strikes on Water Utilities",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5d397e2b4f160788",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.695,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bankinfosecurity.com",
+      "url": "https://www.bankinfosecurity.com/baffling-case-inept-iranian-strikes-on-water-utilities-a-32604",
+      "published_at": "2026-08-19T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
     {
       "id": "7577b24964097c7a",
       "name": "Les Emirats suspendent leurs échanges commerciaux avec lIran après le tir de deux missiles",
@@ -83,7 +579,7 @@
       "dependency_group": "7577b24964097c7a",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.456,
+      "freshness": 0.392,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,43 +595,10 @@
       "published_at": "2026-08-19T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1cd8837b39c1e2c9",
-      "name": "United Arab Emirates suspends trade with Iran after coming under renewed missile fire",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1cd8837b39c1e2c9",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.456,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ksl.com:443",
-      "url": "https://www.ksl.com:443/article/51611615/united-arab-emirates-suspends-trade-with-iran-after-coming-under-renewed-missile-fire",
-      "published_at": "2026-08-19T18:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
     },
     {
       "id": "60728789241d418f",
@@ -147,7 +610,7 @@
       "dependency_group": "60728789241d418f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.527,
+      "freshness": 0.452,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +626,10 @@
       "published_at": "2026-08-19T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
     },
     {
       "id": "8b6ffb9d61c6d456",
@@ -179,7 +641,7 @@
       "dependency_group": "8b6ffb9d61c6d456",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.396,
+      "freshness": 0.34,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,139 +657,10 @@
       "published_at": "2026-08-19T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "356305502d8c4cf4",
-      "name": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "356305502d8c4cf4",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.319,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "eldoradonews.com",
-      "url": "https://www.eldoradonews.com/news/2026/aug/19/trump-threatened-to-bomb-oman-because-hes-unhappy/",
-      "published_at": "2026-08-19T17:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "fbf223bbf5e7b97d",
-      "name": "Bulgaria largest opposition party calls for Iranian ambassador to be summoned over reported threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fbf223bbf5e7b97d",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.277,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bgnes.com",
-      "url": "http://www.bgnes.com/politics/bulgaria-s-largest-opposition-party-calls-for-iranian-ambassador-to-be-summoned-over-reported-threat",
-      "published_at": "2026-08-19T16:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "41f656e152823c59",
-      "name": "Exclusive : Claims of Iranian Missile Strike on UAE Dismissed as Baseless ; Evidence Suggests Possible False Flag Operation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "41f656e152823c59",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.24,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "islamicinvitationturkey.com",
-      "url": "https://www.islamicinvitationturkey.com/exclusive-claims-of-iranian-missile-strike-on-uae-dismissed-as-baseless-evidence-suggests-possible-false-flag-operation/",
-      "published_at": "2026-08-19T16:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8fa6881db61fe13b",
-      "name": "Iran Top Military Leader Issues Stern Warning to Gulf States Against Supporting Satanic US Forces",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8fa6881db61fe13b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.24,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "islamicinvitationturkey.com",
-      "url": "https://www.islamicinvitationturkey.com/irans-top-military-leader-issues-stern-warning-to-gulf-states-against-supporting-satanic-us-forces/",
-      "published_at": "2026-08-19T16:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
+        "short": 2.0,
+        "extended": 3.4
+      }
     }
   ],
   "history": [
@@ -3600,17 +3933,23 @@
       "immediate": 3,
       "short": 9,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-08-19T21:46:31.767367Z",
+      "immediate": 24,
+      "short": 29,
+      "extended": 32
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-19T19:47:46.283739Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-19T21:46:31.767367Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 19
       },
       "manual": {
         "ok": true,
