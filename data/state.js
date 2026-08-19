@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-19T16:41:20.449649Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-19T17:09:39.576734Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 21,
-      "low": 8,
+      "score": 18,
+      "low": 2,
       "high": 34,
-      "confidence": 68,
+      "confidence": 52,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 25,
-      "low": 12,
+      "score": 22,
+      "low": 6,
       "high": 38,
-      "confidence": 68,
-      "status": "מוגבר"
+      "confidence": 52,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 26,
-      "low": 13,
+      "score": 23,
+      "low": 7,
       "high": 39,
-      "confidence": 68,
+      "confidence": 52,
       "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 17
+    "level": "ירידה",
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "18:30",
       "text": "32 - year - old Iranian scientist who was identified by DNA 10 days after martyrdom in US - Israeli attack",
-      "impact": "השפעה מיידית מחושבת: +17.5",
+      "impact": "השפעה מיידית מחושבת: +15.3",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "493905bfa9c82c04"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "19:15",
       "text": "Exclusive : Claims of Iranian Missile Strike on UAE Dismissed as Baseless ; Evidence Suggests Possible False Flag Operation",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
       "source": "islamicinvitationturkey.com",
       "signal_id": "41f656e152823c59"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:45",
       "text": "United Arab Emirates Suspends Trade With Iran After Coming Under Renewed Missile Fire – 710am KURV",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "kurv.com",
       "signal_id": "042ed37c633fd21d"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:45",
       "text": "Iran Again Warns Gulf States Against Assisting US Military",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "southeastasiapost.com",
       "signal_id": "e761a92fc96641b6"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "493905bfa9c82c04",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.712,
+      "freshness": 0.622,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 17.5,
-        "short": 13.7,
-        "extended": 5.8
-      }
+        "immediate": 15.3,
+        "short": 12.0,
+        "extended": 5.1
+      },
+      "carried_forward": true
     },
     {
       "id": "41f656e152823c59",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "41f656e152823c59",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.882,
+      "freshness": 0.771,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.1,
-        "extended": 10.4
-      }
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.1
+      },
+      "carried_forward": true
     },
     {
       "id": "042ed37c633fd21d",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "042ed37c633fd21d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.765,
+      "freshness": 0.668,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.3,
-        "extended": 9.0
-      }
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.9
+      },
+      "carried_forward": true
     },
     {
       "id": "e761a92fc96641b6",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e761a92fc96641b6",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.765,
+      "freshness": 0.668,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      }
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      },
+      "carried_forward": true
     },
     {
       "id": "c71eeeabb13ba45c",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c71eeeabb13ba45c",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.712,
+      "freshness": 0.622,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
-      }
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      },
+      "carried_forward": true
     },
     {
       "id": "8fa6881db61fe13b",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8fa6881db61fe13b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.882,
+      "freshness": 0.771,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      }
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      },
+      "carried_forward": true
     },
     {
       "id": "ce75f91b21294fbc",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ce75f91b21294fbc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.712,
+      "freshness": 0.622,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
-      }
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      },
+      "carried_forward": true
     },
     {
       "id": "356305502d8c4cf4",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "356305502d8c4cf4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.464,
+      "freshness": 0.405,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      },
+      "carried_forward": true
     },
     {
       "id": "6c07feb0ae71044a",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6c07feb0ae71044a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.464,
+      "freshness": 0.405,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      },
+      "carried_forward": true
     },
     {
       "id": "8b6ffb9d61c6d456",
@@ -362,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8b6ffb9d61c6d456",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.325,
+      "freshness": 0.284,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      }
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
+      },
+      "carried_forward": true
     },
     {
       "id": "345ad07bc49d5760",
@@ -393,7 +403,7 @@ window.MAGEN_STATE = {
       "dependency_group": "345ad07bc49d5760",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.325,
+      "freshness": 0.284,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      }
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -3631,17 +3642,23 @@ window.MAGEN_STATE = {
       "immediate": 21,
       "short": 25,
       "extended": 26
+    },
+    {
+      "timestamp": "2026-08-19T17:09:39.576734Z",
+      "immediate": 18,
+      "short": 22,
+      "extended": 23
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-19T16:41:20.449649Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 11
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 11
       },
       "manual": {
         "ok": true,
