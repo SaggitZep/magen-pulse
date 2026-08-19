@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-19T20:12:36.667198Z",
+  "generated_at": "2026-08-19T20:48:46.669819Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 20,
-      "confidence": 50,
+      "high": 19,
+      "confidence": 48,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 10,
       "low": 0,
-      "high": 28,
-      "confidence": 50,
+      "high": 26,
+      "confidence": 48,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 4,
-      "high": 36,
-      "confidence": 50,
+      "score": 17,
+      "low": 1,
+      "high": 33,
+      "confidence": 48,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "21:30",
       "text": "Les Emirats suspendent leurs échanges commerciaux avec lIran après le tir de deux missiles",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "defimedia.info",
       "signal_id": "7577b24964097c7a"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:30",
       "text": "United Arab Emirates suspends trade with Iran after coming under renewed missile fire",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "ksl.com:443",
       "signal_id": "1cd8837b39c1e2c9"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:00",
       "text": "Irans nya plan : Attacker mot mål i Europa om united states går för långt",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "expressen.se",
       "signal_id": "60728789241d418f"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:00",
       "text": "Iran weighs strikes on US military targets in Europe if war escalates : Report",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "middleeastmonitor.com",
       "signal_id": "8b6ffb9d61c6d456"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7577b24964097c7a",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.613,
+      "freshness": 0.516,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1cd8837b39c1e2c9",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.613,
+      "freshness": 0.516,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "60728789241d418f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.708,
+      "freshness": 0.596,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.9
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8b6ffb9d61c6d456",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.532,
+      "freshness": 0.448,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "356305502d8c4cf4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.429,
+      "freshness": 0.361,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fbf223bbf5e7b97d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.372,
+      "freshness": 0.313,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "41f656e152823c59",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.323,
+      "freshness": 0.272,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8fa6881db61fe13b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.323,
+      "freshness": 0.272,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -324,8 +324,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     }
@@ -3588,6 +3588,12 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-19T20:48:46.669819Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
