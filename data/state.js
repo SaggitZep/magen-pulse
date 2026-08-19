@@ -1,64 +1,64 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-19T13:57:45.438538Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-19T14:45:05.762277Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 67,
+      "high": 19,
+      "confidence": 51,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 11,
       "low": 0,
-      "high": 26,
-      "confidence": 67,
+      "high": 27,
+      "confidence": 51,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 67,
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 51,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "15:45",
-      "text": "Iran Again Warns Gulf States Against Assisting US Military",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "iraqsun.com",
-      "signal_id": "e761a92fc96641b6"
-    },
-    {
-      "time": "15:45",
       "text": "UAE suspends trade with Iran after coming under renewed missile fire",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "greeleytribune.com",
       "signal_id": "a31d9962912efc4b"
     },
     {
+      "time": "15:45",
+      "text": "Iran Again Warns Gulf States Against Assisting US Military",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "iraqsun.com",
+      "signal_id": "e761a92fc96641b6"
+    },
+    {
       "time": "15:00",
       "text": "Message to Europe : it can receive missile : Iran warns of wider war if Trump attacks - report",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "c295aaf2c38f524e"
@@ -66,44 +66,13 @@ window.MAGEN_STATE = {
     {
       "time": "15:45",
       "text": "Iran weighs strikes on US military targets in Europe if war escalates : Report",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "8b6ffb9d61c6d456"
     }
   ],
   "signals": [
-    {
-      "id": "e761a92fc96641b6",
-      "name": "Iran Again Warns Gulf States Against Assisting US Military",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e761a92fc96641b6",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.707,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iraqsun.com",
-      "url": "http://www.iraqsun.com/news/279251318/iran-again-warns-gulf-states-against-assisting-us-military",
-      "published_at": "2026-08-19T12:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.8
-      }
-    },
     {
       "id": "a31d9962912efc4b",
       "name": "UAE suspends trade with Iran after coming under renewed missile fire",
@@ -114,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a31d9962912efc4b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.707,
+      "freshness": 0.564,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +99,43 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.4
-      }
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "e761a92fc96641b6",
+      "name": "Iran Again Warns Gulf States Against Assisting US Military",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e761a92fc96641b6",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.564,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iraqsun.com",
+      "url": "http://www.iraqsun.com/news/279251318/iran-again-warns-gulf-states-against-assisting-us-military",
+      "published_at": "2026-08-19T12:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      },
+      "carried_forward": true
     },
     {
       "id": "c295aaf2c38f524e",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c295aaf2c38f524e",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.571,
+      "freshness": 0.456,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T12:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      },
+      "carried_forward": true
     },
     {
       "id": "8b6ffb9d61c6d456",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8b6ffb9d61c6d456",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.707,
+      "freshness": 0.564,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      },
+      "carried_forward": true
     },
     {
       "id": "345ad07bc49d5760",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "345ad07bc49d5760",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.707,
+      "freshness": 0.564,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      },
+      "carried_forward": true
     },
     {
       "id": "8252feb3915eb608",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8252feb3915eb608",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.495,
+      "freshness": 0.395,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     },
     {
       "id": "420073cbbc7ebcdd",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "420073cbbc7ebcdd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.322,
+      "freshness": 0.257,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T10:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -3483,17 +3490,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-19T14:45:05.762277Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-19T13:57:45.438538Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 7
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
