@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-19T03:36:09.429358Z",
+  "generated_at": "2026-08-19T04:22:28.275896Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@ window.MAGEN_STATE = {
       "score": 2,
       "low": 0,
       "high": 19,
-      "confidence": 46,
+      "confidence": 44,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
+      "score": 5,
       "low": 0,
-      "high": 23,
-      "confidence": 46,
+      "high": 22,
+      "confidence": 44,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
+      "score": 9,
       "low": 0,
-      "high": 28,
-      "confidence": 46,
+      "high": 26,
+      "confidence": 44,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "02:15",
       "text": "Mike Huckabee condemns settler violence , says Iran could face renewed strikes",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "30f053f1673f3e95"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "02:30",
       "text": "UAE accuses Iran of firing ballistic missiles at shipping",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "channelnewsasia.com",
       "signal_id": "ab4a31c869543332"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "02:30",
       "text": "Dubai residents sent missile alert after Iran launches fresh strikes on UAE",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "mirror.co.uk",
       "signal_id": "c6fd3842fc6bf85f"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "02:15",
       "text": "Iran fires ballistic missiles at UAE",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "clevelandjewishnews.com",
       "signal_id": "aefae7c5f13603d8"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "30f053f1673f3e95",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.288,
+      "freshness": 0.231,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.8
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ab4a31c869543332",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.31,
+      "freshness": 0.248,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T23:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c6fd3842fc6bf85f",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.31,
+      "freshness": 0.248,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T23:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "aefae7c5f13603d8",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.288,
+      "freshness": 0.231,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "356305502d8c4cf4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.31,
+      "freshness": 0.248,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T23:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e17a86a16c6cc096",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.288,
+      "freshness": 0.231,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,73 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4310db8fbc6c4295",
-      "name": "Oil nears $92 on UAE missile alert as Trump claims Iran talks stuck",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4310db8fbc6c4295",
-      "strength": 0.48,
-      "reliability": 0.74,
-      "freshness": 0.188,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "al-monitor.com",
-      "url": "https://www.al-monitor.com/originals/2026/08/oil-nears-92-uae-missile-alert-trump-claims-iran-talks-stuck",
-      "published_at": "2026-08-18T21:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0ffb2c7a873b7da6",
-      "name": "UAE halts all trade ties with Iran after missile attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0ffb2c7a873b7da6",
-      "strength": 0.48,
-      "reliability": 0.74,
-      "freshness": 0.188,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "al-monitor.com",
-      "url": "https://www.al-monitor.com/originals/2026/08/uae-halts-all-trade-ties-iran-after-missile-attack",
-      "published_at": "2026-08-18T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -339,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "34cb244470a57e79",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.233,
+      "freshness": 0.187,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -371,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e34367fa40923774",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.25,
+      "freshness": 0.2,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -387,105 +323,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "006b7b58279c1ba4",
-      "name": "Iran rejects UAE missile accusation , warns against unfounded claims",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "006b7b58279c1ba4",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.188,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "investinglive.com",
-      "url": "https://investinglive.com/commodities/iran-rejects-uae-missile-accusation-warns-against-unfounded-claims/",
-      "published_at": "2026-08-18T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6af6c7ec5abfbeec",
-      "name": "UAE cuts off trade with Iran after ballistic missile attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6af6c7ec5abfbeec",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.188,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jns.org",
-      "url": "https://www.jns.org/news/world/iran-fires-ballistic-missiles-at-uae",
-      "published_at": "2026-08-18T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2eb0242279552828",
-      "name": "Oil catch up - prices hit three - week high as Iran vows offensive stance , denies UAE missile claim",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2eb0242279552828",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.188,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "investinglive.com",
-      "url": "https://investinglive.com/commodities/oil-catch-up-prices-hit-three-week-high-as-iran-vows-offensive-stance-denies-uae-missile-claim/",
-      "published_at": "2026-08-18T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -3592,6 +3432,12 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 6,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-19T04:22:28.275896Z",
+      "immediate": 2,
+      "short": 5,
+      "extended": 9
     }
   ],
   "health": {
@@ -3602,7 +3448,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 13
+        "carried_forward": 8
       },
       "manual": {
         "ok": true,
