@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-19T22:44:44.526629Z",
+  "generated_at": "2026-08-19T23:11:46.668467Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 18,
-      "low": 5,
-      "high": 31,
-      "confidence": 67,
+      "score": 17,
+      "low": 4,
+      "high": 30,
+      "confidence": 66,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 67,
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 66,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 26,
-      "low": 13,
-      "high": 39,
-      "confidence": 67,
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 66,
       "status": "מוגבר"
     }
   },
@@ -35,22 +35,30 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -3
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "00:00",
       "text": "NATO  prepared  to defend allies amid report of Iranian strike plans | US - Israel war on Iran News",
-      "impact": "השפעה מיידית מחושבת: +15.0",
+      "impact": "השפעה מיידית מחושבת: +13.2",
       "direction": "up",
       "source": "aljazeera.com",
       "signal_id": "d37db1598fbb7eeb"
     },
     {
+      "time": "01:45",
+      "text": "NATO  prepared  to defend allies amid report of Iranian strike plans - Grenada Chronicle – Daily Grenada And Caribbean News",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "grenadachronicle.com",
+      "signal_id": "9d6b7b2b6ba00b57"
+    },
+    {
       "time": "00:15",
       "text": "Tehran missile threat refocuses spotlight on fraught UAE - Iran ties",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "middle-east-online.com",
       "signal_id": "6d4e82feda451e78"
@@ -58,18 +66,10 @@ window.MAGEN_STATE = {
     {
       "time": "01:15",
       "text": "A Fatal Strike and the First Seizure Since June as Iran Transit Rules Take Effect",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "hellenicshippingnews.com",
       "signal_id": "bd6598a6be3f5116"
-    },
-    {
-      "time": "00:15",
-      "text": "Is Iran Hiding Nuclear Weapons ? Fada Hossein Maleki threat to US sparks new concerns",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "pakobserver.net",
-      "signal_id": "0a3d39d29db55389"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d37db1598fbb7eeb",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.607,
+      "freshness": 0.534,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 15.0,
-        "short": 11.7,
-        "extended": 4.9
+        "immediate": 13.2,
+        "short": 10.3,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "9d6b7b2b6ba00b57",
+      "name": "NATO  prepared  to defend allies amid report of Iranian strike plans - Grenada Chronicle – Daily Grenada And Caribbean News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9d6b7b2b6ba00b57",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.88,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "grenadachronicle.com",
+      "url": "https://grenadachronicle.com/nato-prepared-to-defend-allies-amid-report-of-iranian-strike-plans/",
+      "published_at": "2026-08-19T22:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
       }
     },
     {
@@ -114,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6d4e82feda451e78",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.652,
+      "freshness": 0.573,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bd6598a6be3f5116",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.868,
+      "freshness": 0.763,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T22:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.6
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0a3d39d29db55389",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.652,
+      "freshness": 0.573,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,102 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
-      }
-    },
-    {
-      "id": "9a6639387cea4fbf",
-      "name": "After coming under renewed missile fire , United Arab Emirates suspends trade with Iran | Politics and Government",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9a6639387cea4fbf",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.565,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "reviewjournal.com",
-      "url": "https://www.reviewjournal.com/news/politics-and-government/uae-suspends-trade-with-iran-after-coming-under-renewed-missile-fire-3866185/",
-      "published_at": "2026-08-19T20:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
-    },
-    {
-      "id": "0e4c6d5c54b55a92",
-      "name": "Enriched uranium stockpile undercuts Trump claim of Iran  essential denuclearization  – PolitiFact",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0e4c6d5c54b55a92",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.701,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "politifact.com",
-      "url": "https://politifact.com/article/2026/aug/19/iran-nuclear-weapons-essential-denuclearization/",
-      "published_at": "2026-08-19T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
-      }
-    },
-    {
-      "id": "2f03b582e55c99e2",
-      "name": "Iran Targets Kurdistan PM Office in Drone Strike , Signaling Escalation Beyond Previous Limits",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2f03b582e55c99e2",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.526,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hngn.com",
-      "url": "https://www.hngn.com/articles/272824/20260819/iran-targets-kurdistan-pms-office-drone-strike-signaling-escalation-beyond-previous-limits.htm",
-      "published_at": "2026-08-19T20:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 1.1,
         "short": 3.7,
-        "extended": 6.2
+        "extended": 6.4
       }
     },
     {
@@ -300,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "080161cb2f5826a5",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.49,
+      "freshness": 0.431,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,40 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
-      }
-    },
-    {
-      "id": "6075da70440cc96d",
-      "name": "Iran Fires Missiles Into UAE Territorial Waters as Gulf Conflict Enters Dangerous New Phase",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6075da70440cc96d",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.526,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hngn.com",
-      "url": "https://www.hngn.com/articles/272820/20260819/iran-fires-missiles-uae-territorial-waters-gulf-conflict-enters-dangerous-new-phase.htm",
-      "published_at": "2026-08-19T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       }
     },
     {
@@ -362,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5a84a0d5fda90b00",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.652,
+      "freshness": 0.573,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,22 +285,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       }
     },
     {
-      "id": "18c902c6e2e12068",
-      "name": "Trump Calls Iran Missiles  Nuisance  as UAE Hit , Oman Deal Nears and Hormuz Standoff Deepens",
+      "id": "9a6639387cea4fbf",
+      "name": "After coming under renewed missile fire , United Arab Emirates suspends trade with Iran | Politics and Government",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "18c902c6e2e12068",
+      "dependency_group": "9a6639387cea4fbf",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.526,
+      "freshness": 0.497,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -404,27 +311,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "hngn.com",
-      "url": "https://www.hngn.com/articles/272815/20260819/trump-posts-map-declaring-hormuz-new-us-territory-says-no-iran-talks-oman-deal-nears.htm",
-      "published_at": "2026-08-19T20:30:00Z",
+      "source": "reviewjournal.com",
+      "url": "https://www.reviewjournal.com/news/politics-and-government/uae-suspends-trade-with-iran-after-coming-under-renewed-missile-fire-3866185/",
+      "published_at": "2026-08-19T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
       }
     },
     {
-      "id": "a31d9962912efc4b",
-      "name": "UAE suspends trade with Iran after coming under renewed missile fire",
+      "id": "0e4c6d5c54b55a92",
+      "name": "Enriched uranium stockpile undercuts Trump claim of Iran  essential denuclearization  – PolitiFact",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a31d9962912efc4b",
-      "strength": 0.48,
+      "dependency_group": "0e4c6d5c54b55a92",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.526,
+      "freshness": 0.616,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -435,45 +342,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "manilatimes.net",
-      "url": "https://www.manilatimes.net/2026/08/20/world/uae-suspends-trade-with-iran-after-coming-under-renewed-missile-fire/2408753",
-      "published_at": "2026-08-19T20:30:00Z",
+      "source": "politifact.com",
+      "url": "https://politifact.com/article/2026/aug/19/iran-nuclear-weapons-essential-denuclearization/",
+      "published_at": "2026-08-19T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
-      }
-    },
-    {
-      "id": "1cd8837b39c1e2c9",
-      "name": "United Arab Emirates suspends trade with Iran after coming under renewed missile fire",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1cd8837b39c1e2c9",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.526,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "mankatofreepress.com",
-      "url": "https://www.mankatofreepress.com/news/business/united-arab-emirates-suspends-trade-with-iran-after-coming-under-renewed-missile-fire/article_d6aa4798-017c-52ee-a6ad-f5b47864557b.html",
-      "published_at": "2026-08-19T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
+        "immediate": 1.0,
+        "short": 3.6,
+        "extended": 6.1
       }
     },
     {
@@ -486,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cb97322667a40e74",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.652,
+      "freshness": 0.573,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,9 +378,71 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
+    {
+      "id": "2f03b582e55c99e2",
+      "name": "Iran Targets Kurdistan PM Office in Drone Strike , Signaling Escalation Beyond Previous Limits",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2f03b582e55c99e2",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.463,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/272824/20260819/iran-targets-kurdistan-pms-office-drone-strike-signaling-escalation-beyond-previous-limits.htm",
+      "published_at": "2026-08-19T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "6075da70440cc96d",
+      "name": "Iran Fires Missiles Into UAE Territorial Waters as Gulf Conflict Enters Dangerous New Phase",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6075da70440cc96d",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.463,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/272820/20260819/iran-fires-missiles-uae-territorial-waters-gulf-conflict-enters-dangerous-new-phase.htm",
+      "published_at": "2026-08-19T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
       }
     },
     {
@@ -517,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "caffd5bcf3ea3fb7",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.49,
+      "freshness": 0.431,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,9 +471,71 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "18c902c6e2e12068",
+      "name": "Trump Calls Iran Missiles  Nuisance  as UAE Hit , Oman Deal Nears and Hormuz Standoff Deepens",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "18c902c6e2e12068",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.463,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/272815/20260819/trump-posts-map-declaring-hormuz-new-us-territory-says-no-iran-talks-oman-deal-nears.htm",
+      "published_at": "2026-08-19T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "a31d9962912efc4b",
+      "name": "UAE suspends trade with Iran after coming under renewed missile fire",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a31d9962912efc4b",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.463,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "manilatimes.net",
+      "url": "https://www.manilatimes.net/2026/08/20/world/uae-suspends-trade-with-iran-after-coming-under-renewed-missile-fire/2408753",
+      "published_at": "2026-08-19T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
       }
     },
     {
@@ -548,7 +548,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0c5b677d04984f86",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.49,
+      "freshness": 0.431,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -564,9 +564,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "1cd8837b39c1e2c9",
+      "name": "United Arab Emirates suspends trade with Iran after coming under renewed missile fire",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1cd8837b39c1e2c9",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.463,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "mankatofreepress.com",
+      "url": "https://www.mankatofreepress.com/news/business/united-arab-emirates-suspends-trade-with-iran-after-coming-under-renewed-missile-fire/article_d6aa4798-017c-52ee-a6ad-f5b47864557b.html",
+      "published_at": "2026-08-19T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
       }
     },
     {
@@ -579,7 +610,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5a0303abafa1c6ab",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.526,
+      "freshness": 0.463,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -595,9 +626,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     },
     {
@@ -610,7 +641,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5d397e2b4f160788",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.526,
+      "freshness": 0.463,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -626,40 +657,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
-      }
-    },
-    {
-      "id": "60728789241d418f",
-      "name": "Irans nya plan : Attacker mot mål i Europa om united states går för långt",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "60728789241d418f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.343,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "expressen.se",
-      "url": "https://www.expressen.se/nyheter/varlden/irans-nya-plan-attacker--mot-mal-i-europa/",
-      "published_at": "2026-08-19T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     }
   ],
@@ -3951,12 +3951,18 @@ window.MAGEN_STATE = {
       "immediate": 18,
       "short": 24,
       "extended": 26
+    },
+    {
+      "timestamp": "2026-08-19T23:11:46.668467Z",
+      "immediate": 17,
+      "short": 22,
+      "extended": 25
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-19T22:44:44.526629Z",
+    "last_success": "2026-08-19T23:11:46.668467Z",
     "sources": {
       "gdelt": {
         "ok": true,
