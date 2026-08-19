@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-19T05:02:10.973121Z",
+  "generated_at": "2026-08-19T05:43:10.234618Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -14,17 +14,17 @@ window.MAGEN_STATE = {
     },
     "short": {
       "label": "6 שעות",
-      "score": 17,
-      "low": 4,
-      "high": 30,
+      "score": 18,
+      "low": 5,
+      "high": 31,
       "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 27,
-      "low": 14,
-      "high": 40,
+      "score": 29,
+      "low": 16,
+      "high": 42,
       "confidence": 67,
       "status": "מוגבר"
     }
@@ -35,44 +35,230 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 3
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
-      "time": "07:15",
-      "text": "Iran rejects UAE missile accusation , warns against unfounded claims",
+      "time": "08:15",
+      "text": "UAE Halts All Trade And Financial Dealings With Iran After Missile Threat Alert",
+      "impact": "השפעה מיידית מחושבת: +2.0",
+      "direction": "up",
+      "source": "newsx.com",
+      "signal_id": "7939610540775b8c"
+    },
+    {
+      "time": "08:15",
+      "text": "UAE says Iran fired 2 missiles at country as war drags on",
       "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "dunyanews.tv",
-      "signal_id": "006b7b58279c1ba4"
+      "source": "thehindubusinessline.com",
+      "signal_id": "6515973716136e65"
     },
     {
-      "time": "07:30",
-      "text": "मिसाइल हमलों से भड़का UAE , ईरान के साथ सभी व्यापारिक और वित्तीय लेन - देन पर लगाई रोक - uae outraged by missile attacks halts all trade and financial transactions with iran",
+      "time": "08:15",
+      "text": "Iran rejects UAE statement on missiles  launched from Iran",
       "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "jagran.com",
-      "signal_id": "a0568964b871ead9"
+      "source": "china.org.cn",
+      "signal_id": "c1f73d68b2621331"
     },
     {
-      "time": "07:00",
-      "text": "US - Iran war LIVE : UAE pauses Iran trade after missiles fired ; report says Trump threatened to bomb Oman",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "time": "07:45",
+      "text": "UAE halts all trade with Iran after accusing Tehran of missile attack",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "hindustantimes.com",
-      "signal_id": "1d9806d1c242b43b"
-    },
-    {
-      "time": "07:15",
-      "text": "UAE Suspends Trade With Iran Following Antiship Missile Strike",
-      "impact": "השפעה מיידית מחושבת: +1.6",
-      "direction": "up",
-      "source": "maritime-executive.com",
-      "signal_id": "56314cf34d0ebfbe"
+      "source": "dailypioneer.com",
+      "signal_id": "7db5087c3315ffc7"
     }
   ],
   "signals": [
+    {
+      "id": "7939610540775b8c",
+      "name": "UAE Halts All Trade And Financial Dealings With Iran After Missile Threat Alert",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7939610540775b8c",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.874,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newsx.com",
+      "url": "https://www.newsx.com/world/uae-halts-all-trade-and-financial-dealings-with-iran-after-missile-threat-alert-261936/",
+      "published_at": "2026-08-19T05:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.0,
+        "short": 6.7,
+        "extended": 11.4
+      }
+    },
+    {
+      "id": "6515973716136e65",
+      "name": "UAE says Iran fired 2 missiles at country as war drags on",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6515973716136e65",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.874,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thehindubusinessline.com",
+      "url": "https://www.thehindubusinessline.com/news/world/uae-says-iran-fired-2-missiles-at-country-as-war-drags-on/article71363158.ece",
+      "published_at": "2026-08-19T05:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.1,
+        "extended": 10.3
+      }
+    },
+    {
+      "id": "c1f73d68b2621331",
+      "name": "Iran rejects UAE statement on missiles  launched from Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c1f73d68b2621331",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.874,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "china.org.cn",
+      "url": "http://www.china.org.cn/2026-08/19/content_118654230.shtml",
+      "published_at": "2026-08-19T05:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.1,
+        "extended": 10.3
+      }
+    },
+    {
+      "id": "7db5087c3315ffc7",
+      "name": "UAE halts all trade with Iran after accusing Tehran of missile attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7db5087c3315ffc7",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.758,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailypioneer.com",
+      "url": "https://dailypioneer.com/news/uae-halts-all-trade-with-iran-after-accusing-tehran-of-missile-attack",
+      "published_at": "2026-08-19T04:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.3,
+        "extended": 9.0
+      }
+    },
+    {
+      "id": "2ef6d8de008179f6",
+      "name": "Trump threatens to bomb **** out of Oman : Muscat balancing act between US and Iran is buckling under pressure",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2ef6d8de008179f6",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.758,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/ht-explainers/donald-trump-threatens-to-bomb-oman-west-asia-war-us-ally-caught-in-the-middle-iran-war-strait-of-hormuz-oil-brent-trade-101787061503843.html",
+      "published_at": "2026-08-19T04:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "183e1b6222e38ab7",
+      "name": "24 hours that shook UAE : Missile alert , Iran blame , trade halt",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "183e1b6222e38ab7",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.758,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/world-news/24-hours-that-shook-uae-missile-alert-iran-blame-trade-halt-donald-trump-war-latest-updates-101787109792812.html",
+      "published_at": "2026-08-19T04:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.3,
+        "extended": 9.0
+      }
+    },
     {
       "id": "006b7b58279c1ba4",
       "name": "Iran rejects UAE missile accusation , warns against unfounded claims",
@@ -83,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "006b7b58279c1ba4",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.799,
+      "freshness": 0.657,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,22 +285,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.1,
-        "extended": 10.4
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
       }
     },
     {
-      "id": "a0568964b871ead9",
-      "name": "मिसाइल हमलों से भड़का UAE , ईरान के साथ सभी व्यापारिक और वित्तीय लेन - देन पर लगाई रोक - uae outraged by missile attacks halts all trade and financial transactions with iran",
+      "id": "8d96fb08b5ff490b",
+      "name": "Why is Donald Trump threatening to bomb Oman amid Iran war ? – NBC Bay Area",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a0568964b871ead9",
-      "strength": 0.48,
+      "dependency_group": "8d96fb08b5ff490b",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.858,
+      "freshness": 0.758,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,14 +311,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "jagran.com",
-      "url": "https://www.jagran.com/world/middle-east-uae-outraged-by-missile-attacks-halts-all-trade-and-financial-transactions-with-iran-40345042.html",
-      "published_at": "2026-08-19T04:30:00Z",
+      "source": "nbcbayarea.com",
+      "url": "https://www.nbcbayarea.com/news/national-international/donald-trump-threatens-bomb-oman/4129940/",
+      "published_at": "2026-08-19T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.0,
-        "extended": 10.1
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
       }
     },
     {
@@ -145,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1d9806d1c242b43b",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.744,
+      "freshness": 0.612,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +347,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.7,
-        "extended": 9.7
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "a0568964b871ead9",
+      "name": "मिसाइल हमलों से भड़का UAE , ईरान के साथ सभी व्यापारिक और वित्तीय लेन - देन पर लगाई रोक - uae outraged by missile attacks halts all trade and financial transactions with iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a0568964b871ead9",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.706,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jagran.com",
+      "url": "https://www.jagran.com/world/middle-east-uae-outraged-by-missile-attacks-halts-all-trade-and-financial-transactions-with-iran-40345042.html",
+      "published_at": "2026-08-19T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.4
       }
     },
     {
@@ -176,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "56314cf34d0ebfbe",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.799,
+      "freshness": 0.657,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,71 +409,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.4
-      }
-    },
-    {
-      "id": "7d7d9bd7be579021",
-      "name": "Iran rejects UAE statement on missiles  launched from Iran ; UAE halts trade with Iran -- China Economic Net",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7d7d9bd7be579021",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.799,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "en.ce.cn",
-      "url": "http://en.ce.cn/main/latest/202608/t20260819_3156362.shtml",
-      "published_at": "2026-08-19T04:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.4
-      }
-    },
-    {
-      "id": "5561875bef06773c",
-      "name": "Iran strikes Kurdistan with new jet - powered drones , KRG says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5561875bef06773c",
-      "strength": 0.48,
-      "reliability": 0.74,
-      "freshness": 0.559,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/article-905943",
-      "published_at": "2026-08-19T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
+        "immediate": 1.3,
+        "short": 4.6,
+        "extended": 7.8
       }
     },
     {
@@ -269,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "92379f3e8f20e0ea",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.799,
+      "freshness": 0.657,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,22 +440,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.9
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
       }
     },
     {
-      "id": "2b7d4fe7ca5dad37",
-      "name": "Why is Donald Trump threatening to bomb Oman amid Iran war ? – NBC Chicago",
+      "id": "b6fda8ffb59d097c",
+      "name": "Former Rep . Greene Alleges U . S . Officials Discussing Nuclear Options Against Iran – NaturalNews . com",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "2b7d4fe7ca5dad37",
-      "strength": 0.45,
+      "dependency_group": "b6fda8ffb59d097c",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.744,
+      "freshness": 0.758,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -311,14 +466,76 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "nbcchicago.com",
-      "url": "https://www.nbcchicago.com/news/national-international/donald-trump-threatens-bomb-oman/3977232/",
-      "published_at": "2026-08-19T04:00:00Z",
+      "source": "naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-08-18-greene-us-officials-discussing-nukes-against-iran.html",
+      "published_at": "2026-08-19T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "7d7d9bd7be579021",
+      "name": "Iran rejects UAE statement on missiles  launched from Iran ; UAE halts trade with Iran -- China Economic Net",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7d7d9bd7be579021",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.657,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "en.ce.cn",
+      "url": "http://en.ce.cn/main/latest/202608/t20260819_3156362.shtml",
+      "published_at": "2026-08-19T04:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.6,
+        "extended": 7.8
+      }
+    },
+    {
+      "id": "5561875bef06773c",
+      "name": "Iran strikes Kurdistan with new jet - powered drones , KRG says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5561875bef06773c",
+      "strength": 0.48,
+      "reliability": 0.74,
+      "freshness": 0.46,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jpost.com",
+      "url": "https://www.jpost.com/middle-east/article-905943",
+      "published_at": "2026-08-19T03:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
       }
     },
     {
@@ -331,7 +548,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a1d828b913fa105f",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.645,
+      "freshness": 0.53,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,9 +564,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
       }
     },
     {
@@ -362,7 +579,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f282b5fbb2b11e4a",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.645,
+      "freshness": 0.53,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,9 +595,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
       }
     },
     {
@@ -393,7 +610,7 @@ window.MAGEN_STATE = {
       "dependency_group": "eb9ff9e09f784ffe",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.645,
+      "freshness": 0.53,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,9 +626,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
       }
     },
     {
@@ -424,7 +641,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6e5b09806a49eb3c",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.559,
+      "freshness": 0.46,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,9 +657,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
       }
     },
     {
@@ -455,7 +672,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1726710331395030",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.52,
+      "freshness": 0.428,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,9 +688,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T02:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
       }
     },
     {
@@ -486,7 +703,7 @@ window.MAGEN_STATE = {
       "dependency_group": "833cc8c906a597f5",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.52,
+      "freshness": 0.428,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,40 +719,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T02:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      }
-    },
-    {
-      "id": "c1f73d68b2621331",
-      "name": "Iran rejects UAE statement on missiles  launched from Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c1f73d68b2621331",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.52,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "usa.chinadaily.com.cn",
-      "url": "http://usa.chinadaily.com.cn/a/202608/19/WS6a84ef33a3106bc57421c30b.html",
-      "published_at": "2026-08-19T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
       }
     },
     {
@@ -548,7 +734,7 @@ window.MAGEN_STATE = {
       "dependency_group": "877c359f243bc3e6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.645,
+      "freshness": 0.53,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -564,71 +750,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
-      }
-    },
-    {
-      "id": "22e779a993071c88",
-      "name": "UAE Iran Missiles , ईरानी मिसाइल हमलों से भड़का UAE , तेहरान के साथ सभी व्यापार और कमर्शियल लेन - देन पर लगाई रोक , बढ़ा तनाव - uae suspends all financial dealing with iran after tehran launch ballistic missiles - Asian ",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "22e779a993071c88",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.484,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "navbharattimes.indiatimes.com",
-      "url": "https://navbharattimes.indiatimes.com/world/asian-countries/uae-suspends-all-financial-dealing-with-iran-after-tehran-launch-ballistic-missiles/articleshow/133334891.cms",
-      "published_at": "2026-08-19T02:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
-      }
-    },
-    {
-      "id": "9a7668124f7ba7e7",
-      "name": "ईरान का सैन्य भंडार भरेगा रूस : कैस्पियन सागर के रास्ते तेहरान को ड्रोन पार्ट्स और विस्फोटक भेज रहा मॉस्को - russia sends military supplies to iran via caspian sea",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9a7668124f7ba7e7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.52,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jagran.com",
-      "url": "https://www.jagran.com/world/russia-russia-sends-military-supplies-to-iran-via-caspian-sea-40344988.html",
-      "published_at": "2026-08-19T02:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "short": 3.1,
+        "extended": 5.2
       }
     },
     {
@@ -641,7 +765,7 @@ window.MAGEN_STATE = {
       "dependency_group": "378a02449320051c",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.42,
+      "freshness": 0.346,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -657,22 +781,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T02:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
       }
     },
     {
-      "id": "d0b4acbf143062ed",
-      "name": "Why is Donald Trump threatening to bomb Oman amid Iran war ? – NBC 5 Dallas - Fort Worth",
+      "id": "22e779a993071c88",
+      "name": "UAE Iran Missiles , ईरानी मिसाइल हमलों से भड़का UAE , तेहरान के साथ सभी व्यापार और कमर्शियल लेन - देन पर लगाई रोक , बढ़ा तनाव - uae suspends all financial dealing with iran after tehran launch ballistic missiles - Asian ",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "d0b4acbf143062ed",
-      "strength": 0.45,
+      "dependency_group": "22e779a993071c88",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.451,
+      "freshness": 0.399,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -683,14 +807,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "nbcdfw.com",
-      "url": "https://www.nbcdfw.com/news/national-international/donald-trump-threatens-bomb-oman/4064514/",
-      "published_at": "2026-08-19T02:15:00Z",
+      "source": "navbharattimes.indiatimes.com",
+      "url": "https://navbharattimes.indiatimes.com/world/asian-countries/uae-suspends-all-financial-dealing-with-iran-after-tehran-launch-ballistic-missiles/articleshow/133334891.cms",
+      "published_at": "2026-08-19T02:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
       }
     },
     {
@@ -703,7 +827,7 @@ window.MAGEN_STATE = {
       "dependency_group": "66e6cf22083928ad",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.451,
+      "freshness": 0.371,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -719,9 +843,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T02:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       }
     },
     {
@@ -734,7 +858,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a9d9eee605991d93",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.451,
+      "freshness": 0.371,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -750,9 +874,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T02:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "9a7668124f7ba7e7",
+      "name": "ईरान का सैन्य भंडार भरेगा रूस : कैस्पियन सागर के रास्ते तेहरान को ड्रोन पार्ट्स और विस्फोटक भेज रहा मॉस्को - russia sends military supplies to iran via caspian sea",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9a7668124f7ba7e7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.428,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jagran.com",
+      "url": "https://www.jagran.com/world/russia-russia-sends-military-supplies-to-iran-via-caspian-sea-40344988.html",
+      "published_at": "2026-08-19T02:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     },
     {
@@ -765,7 +920,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ab4a31c869543332",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.391,
+      "freshness": 0.322,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -781,9 +936,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "d0b4acbf143062ed",
+      "name": "Why is Donald Trump threatening to bomb Oman amid Iran war ? – NBC 5 Dallas - Fort Worth",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d0b4acbf143062ed",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.371,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nbcdfw.com",
+      "url": "https://www.nbcdfw.com/news/national-international/donald-trump-threatens-bomb-oman/4064514/",
+      "published_at": "2026-08-19T02:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
@@ -796,7 +982,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fef72eee4ac1d663",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.451,
+      "freshness": 0.371,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -812,9 +998,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T02:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.7
       }
     },
     {
@@ -827,7 +1013,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9c6e77e91dc99756",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.451,
+      "freshness": 0.371,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -843,9 +1029,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T02:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.7
       }
     },
     {
@@ -858,7 +1044,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a23d22e3b02e5988",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.391,
+      "freshness": 0.322,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -874,71 +1060,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "356305502d8c4cf4",
-      "name": "Trump threatened to bomb Oman because he unhappy with country deal with Iran , officials say",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "356305502d8c4cf4",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.364,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "981theriver.com",
-      "url": "https://981theriver.com/news/030030-trump-threatened-to-bomb-oman-because-hes-unhappy-with-countrys-deal-with-iran-officials-say/",
-      "published_at": "2026-08-19T01:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      }
-    },
-    {
-      "id": "136763614da456f8",
-      "name": "Iran Calls MOU  Irrelevant  as Oman Stays Silent on Trump Bomb Threat and Egypt Backs Hormuz Deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "136763614da456f8",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.339,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hngn.com",
-      "url": "https://www.hngn.com/articles/272667/20260818/iran-parliament-panel-advances-bill-control-hormuz-us-presses-arms-makers-war-footing.htm",
-      "published_at": "2026-08-19T01:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.8
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       }
     }
   ],
@@ -4056,17 +4180,23 @@ window.MAGEN_STATE = {
       "immediate": 5,
       "short": 17,
       "extended": 27
+    },
+    {
+      "timestamp": "2026-08-19T05:43:10.234618Z",
+      "immediate": 5,
+      "short": 18,
+      "extended": 29
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-19T05:02:10.973121Z",
+    "last_success": "2026-08-19T05:43:10.234618Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 28
+        "relevant": 32
       },
       "manual": {
         "ok": true,
