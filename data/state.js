@@ -1,30 +1,30 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-19T19:20:10.001471Z",
+  "generated_at": "2026-08-19T19:47:46.283739Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 13,
+      "score": 4,
       "low": 0,
-      "high": 26,
-      "confidence": 65,
-      "status": "נמוך"
+      "high": 17,
+      "confidence": 66,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 65,
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 66,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 27,
-      "low": 14,
-      "high": 40,
+      "score": 22,
+      "low": 9,
+      "high": 35,
       "confidence": 66,
       "status": "מוגבר"
     }
@@ -35,22 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "ירידה",
+    "points_60m": -9
   },
   "changes": [
     {
-      "time": "18:30",
-      "text": "32 - year - old Iranian scientist who was identified by DNA 10 days after martyrdom in US - Israeli attack",
-      "impact": "השפעה מיידית מחושבת: +8.2",
-      "direction": "up",
-      "source": "presstv.co.uk",
-      "signal_id": "493905bfa9c82c04"
-    },
-    {
       "time": "21:30",
       "text": "Les Emirats suspendent leurs échanges commerciaux avec lIran après le tir de deux missiles",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "defimedia.info",
       "signal_id": "7577b24964097c7a"
@@ -58,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:30",
       "text": "United Arab Emirates suspends trade with Iran after coming under renewed missile fire",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "ksl.com:443",
       "signal_id": "1cd8837b39c1e2c9"
@@ -66,44 +58,21 @@ window.MAGEN_STATE = {
     {
       "time": "22:00",
       "text": "Irans nya plan : Attacker mot mål i Europa om united states går för långt",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "expressen.se",
       "signal_id": "60728789241d418f"
+    },
+    {
+      "time": "21:00",
+      "text": "Iran weighs strikes on US military targets in Europe if war escalates : Report",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "middleeastmonitor.com",
+      "signal_id": "8b6ffb9d61c6d456"
     }
   ],
   "signals": [
-    {
-      "id": "493905bfa9c82c04",
-      "name": "32 - year - old Iranian scientist who was identified by DNA 10 days after martyrdom in US - Israeli attack",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "493905bfa9c82c04",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.334,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/08/18/774610/32-year-old-iranian-scientist-identified-dna-10-days-after-martyrdom-us-israeli-attack",
-      "published_at": "2026-08-19T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 8.2,
-        "short": 6.4,
-        "extended": 2.7
-      }
-    },
     {
       "id": "7577b24964097c7a",
       "name": "Les Emirats suspendent leurs échanges commerciaux avec lIran après le tir de deux missiles",
@@ -114,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7577b24964097c7a",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.788,
+      "freshness": 0.691,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.3
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
       }
     },
     {
@@ -145,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1cd8837b39c1e2c9",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.788,
+      "freshness": 0.691,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.3
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
       }
     },
     {
@@ -176,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "60728789241d418f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.908,
+      "freshness": 0.797,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.3,
-        "extended": 8.9
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.9
       }
     },
     {
@@ -207,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8b6ffb9d61c6d456",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.683,
+      "freshness": 0.599,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.7
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
       }
     },
     {
@@ -238,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "356305502d8c4cf4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.551,
+      "freshness": 0.483,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.4
       }
     },
     {
@@ -269,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fbf223bbf5e7b97d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.478,
+      "freshness": 0.419,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     },
     {
@@ -300,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "41f656e152823c59",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.414,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,40 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      }
-    },
-    {
-      "id": "e761a92fc96641b6",
-      "name": "Iran Again Warns Gulf States Against Assisting US Military",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e761a92fc96641b6",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.359,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "southeastasiapost.com",
-      "url": "http://www.southeastasiapost.com/news/279251318/iran-again-warns-gulf-states-against-assisting-us-military",
-      "published_at": "2026-08-19T15:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
+        "short": 2.5,
+        "extended": 4.3
       }
     },
     {
@@ -362,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8fa6881db61fe13b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.414,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,71 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "c71eeeabb13ba45c",
-      "name": "UAE suspends trade with Iran after renewed missile fire",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c71eeeabb13ba45c",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.334,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "crookwellgazette.com.au",
-      "url": "https://www.crookwellgazette.com.au/story/9333770/uae-suspends-trade-with-iran-after-renewed-missile-fire/",
-      "published_at": "2026-08-19T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      }
-    },
-    {
-      "id": "ce75f91b21294fbc",
-      "name": "Iran wants to hit American bases in Europe : Bulgaria , Cyprus and submarine cables in its sights",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ce75f91b21294fbc",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.334,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "irishdentist.ie",
-      "url": "https://www.irishdentist.ie/iran-wants-to-hit-american-bases-in-europe-bulgaria-cyprus-and-submarine-cables-in-its-sights/21146/",
-      "published_at": "2026-08-19T15:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
+        "short": 2.1,
+        "extended": 3.6
       }
     }
   ],
@@ -3692,17 +3568,23 @@ window.MAGEN_STATE = {
       "immediate": 13,
       "short": 21,
       "extended": 27
+    },
+    {
+      "timestamp": "2026-08-19T19:47:46.283739Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 22
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-19T19:20:10.001471Z",
+    "last_success": "2026-08-19T19:47:46.283739Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 12
+        "relevant": 8
       },
       "manual": {
         "ok": true,
