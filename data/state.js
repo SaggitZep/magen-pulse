@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-18T23:55:19.915620Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-19T01:47:46.058360Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 3,
       "low": 0,
-      "high": 18,
-      "confidence": 68,
+      "high": 19,
+      "confidence": 48,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 17,
-      "low": 4,
-      "high": 30,
-      "confidence": 68,
+      "score": 11,
+      "low": 0,
+      "high": 27,
+      "confidence": 48,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 28,
-      "low": 15,
-      "high": 41,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 17,
+      "low": 1,
+      "high": 33,
+      "confidence": 48,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "ירידה",
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "02:15",
       "text": "Mike Huckabee condemns settler violence , says Iran could face renewed strikes",
-      "impact": "השפעה מיידית מחושבת: +1.9",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "30f053f1673f3e95"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "02:30",
       "text": "UAE accuses Iran of firing ballistic missiles at shipping",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "channelnewsasia.com",
       "signal_id": "ab4a31c869543332"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "02:30",
       "text": "Dubai residents sent missile alert after Iran launches fresh strikes on UAE",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "mirror.co.uk",
       "signal_id": "c6fd3842fc6bf85f"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "02:15",
       "text": "Iran fires ballistic missiles at UAE",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "clevelandjewishnews.com",
       "signal_id": "aefae7c5f13603d8"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "30f053f1673f3e95",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.825,
+      "freshness": 0.483,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.9,
-        "short": 6.3,
-        "extended": 10.7
-      }
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      },
+      "carried_forward": true
     },
     {
       "id": "ab4a31c869543332",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ab4a31c869543332",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.886,
+      "freshness": 0.519,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T23:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.2,
-        "extended": 10.5
-      }
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      },
+      "carried_forward": true
     },
     {
       "id": "c6fd3842fc6bf85f",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c6fd3842fc6bf85f",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.886,
+      "freshness": 0.519,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T23:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.2,
-        "extended": 10.5
-      }
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      },
+      "carried_forward": true
     },
     {
       "id": "aefae7c5f13603d8",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "aefae7c5f13603d8",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.825,
+      "freshness": 0.483,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.7,
-        "extended": 9.8
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      },
+      "carried_forward": true
     },
     {
       "id": "356305502d8c4cf4",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "356305502d8c4cf4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.886,
+      "freshness": 0.519,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T23:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.8,
-        "extended": 9.8
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      },
+      "carried_forward": true
     },
     {
       "id": "e17a86a16c6cc096",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e17a86a16c6cc096",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.825,
+      "freshness": 0.483,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.7,
-        "extended": 9.8
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      },
+      "carried_forward": true
     },
     {
       "id": "4310db8fbc6c4295",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4310db8fbc6c4295",
       "strength": 0.48,
       "reliability": 0.74,
-      "freshness": 0.538,
+      "freshness": 0.315,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
-      }
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      },
+      "carried_forward": true
     },
     {
       "id": "0ffb2c7a873b7da6",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0ffb2c7a873b7da6",
       "strength": 0.48,
       "reliability": 0.74,
-      "freshness": 0.538,
+      "freshness": 0.315,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
-      }
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      },
+      "carried_forward": true
     },
     {
       "id": "34cb244470a57e79",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "34cb244470a57e79",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.666,
+      "freshness": 0.39,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.9
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      },
+      "carried_forward": true
     },
     {
       "id": "e34367fa40923774",
@@ -362,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e34367fa40923774",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.715,
+      "freshness": 0.419,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "006b7b58279c1ba4",
@@ -393,7 +403,7 @@ window.MAGEN_STATE = {
       "dependency_group": "006b7b58279c1ba4",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.538,
+      "freshness": 0.315,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "6af6c7ec5abfbeec",
@@ -424,7 +435,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6af6c7ec5abfbeec",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.538,
+      "freshness": 0.315,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,10 +451,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "2eb0242279552828",
@@ -455,7 +467,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2eb0242279552828",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.538,
+      "freshness": 0.315,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,10 +483,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "af811b250dae1050",
@@ -486,7 +499,7 @@ window.MAGEN_STATE = {
       "dependency_group": "af811b250dae1050",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.466,
+      "freshness": 0.273,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,10 +515,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.2,
-        "extended": 5.5
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     },
     {
       "id": "798a2c136b6f7d49",
@@ -517,7 +531,7 @@ window.MAGEN_STATE = {
       "dependency_group": "798a2c136b6f7d49",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.434,
+      "freshness": 0.254,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,10 +547,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
+      },
+      "carried_forward": true
     },
     {
       "id": "67c14b61e57807e9",
@@ -548,7 +563,7 @@ window.MAGEN_STATE = {
       "dependency_group": "67c14b61e57807e9",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.466,
+      "freshness": 0.273,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -564,10 +579,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
+      },
+      "carried_forward": true
     },
     {
       "id": "27089f2b260bd907",
@@ -579,7 +595,7 @@ window.MAGEN_STATE = {
       "dependency_group": "27089f2b260bd907",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.326,
+      "freshness": 0.191,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -595,10 +611,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.3
+      },
+      "carried_forward": true
     },
     {
       "id": "163ee8fb7f77c993",
@@ -610,7 +627,7 @@ window.MAGEN_STATE = {
       "dependency_group": "163ee8fb7f77c993",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.434,
+      "freshness": 0.254,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -626,10 +643,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
     },
     {
       "id": "a99d839a3e4427ea",
@@ -641,7 +659,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a99d839a3e4427ea",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.35,
+      "freshness": 0.205,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -657,10 +675,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.3
+      },
+      "carried_forward": true
     },
     {
       "id": "92861c83305dd47a",
@@ -672,7 +691,7 @@ window.MAGEN_STATE = {
       "dependency_group": "92861c83305dd47a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.434,
+      "freshness": 0.254,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -688,10 +707,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
     },
     {
       "id": "d371579c6175b2d8",
@@ -703,7 +723,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d371579c6175b2d8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.326,
+      "freshness": 0.191,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -719,10 +739,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-18T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      }
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -3809,17 +3830,23 @@ window.MAGEN_STATE = {
       "immediate": 5,
       "short": 17,
       "extended": 28
+    },
+    {
+      "timestamp": "2026-08-19T01:47:46.058360Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-18T23:55:19.915620Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 21
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 21
       },
       "manual": {
         "ok": true,
