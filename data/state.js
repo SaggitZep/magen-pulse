@@ -1,78 +1,264 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-19T07:12:39.298148Z",
+  "mode": "live",
+  "generated_at": "2026-08-19T07:56:26.939990Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 4,
       "low": 0,
-      "high": 20,
-      "confidence": 49,
+      "high": 17,
+      "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
-      "low": 0,
-      "high": 28,
-      "confidence": 49,
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 4,
+      "score": 23,
+      "low": 10,
       "high": 36,
-      "confidence": 49,
-      "status": "נמוך"
+      "confidence": 65,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
-      "time": "08:15",
-      "text": "UAE Halts All Trade And Financial Dealings With Iran After Missile Threat Alert",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "time": "10:00",
+      "text": "UAE imposes indefinite trade embargo on Iran over alleged missile attacks",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "newsx.com",
-      "signal_id": "7939610540775b8c"
+      "source": "aljazeera.com",
+      "signal_id": "561ef3feb5bd9f09"
     },
     {
-      "time": "08:15",
-      "text": "UAE says Iran fired 2 missiles at country as war drags on",
+      "time": "09:30",
+      "text": "UAE suspends Iran trade after ballistic missiles detected",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "rte.ie",
+      "signal_id": "aea33626de850c15"
+    },
+    {
+      "time": "10:15",
+      "text": "Iranska källor hotar med attacker i Europa",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "di.se",
+      "signal_id": "672f42155eaaaf7f"
+    },
+    {
+      "time": "09:00",
+      "text": "UAE suspends all trade , financial transactions with Iran after missile attack",
       "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "thehindubusinessline.com",
-      "signal_id": "6515973716136e65"
-    },
-    {
-      "time": "08:15",
-      "text": "Iran rejects UAE statement on missiles  launched from Iran",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "china.org.cn",
-      "signal_id": "c1f73d68b2621331"
-    },
-    {
-      "time": "07:45",
-      "text": "UAE halts all trade with Iran after accusing Tehran of missile attack",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "dailypioneer.com",
-      "signal_id": "7db5087c3315ffc7"
+      "source": "geo.tv",
+      "signal_id": "dc1fe4d3b5bbbfec"
     }
   ],
   "signals": [
+    {
+      "id": "561ef3feb5bd9f09",
+      "name": "UAE imposes indefinite trade embargo on Iran over alleged missile attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "561ef3feb5bd9f09",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.764,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/8/19/uae-imposes-indefinite-trade-embargo-on-iran-over-alleged-missile-attacks",
+      "published_at": "2026-08-19T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.0
+      }
+    },
+    {
+      "id": "aea33626de850c15",
+      "name": "UAE suspends Iran trade after ballistic missiles detected",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "aea33626de850c15",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.663,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "rte.ie",
+      "url": "https://www.rte.ie/news/2026/0819/1588442-middle-east/",
+      "published_at": "2026-08-19T06:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.8
+      }
+    },
+    {
+      "id": "672f42155eaaaf7f",
+      "name": "Iranska källor hotar med attacker i Europa",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "672f42155eaaaf7f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.821,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "di.se",
+      "url": "https://www.di.se/nyheter/iranska-kallor-hotar-med-attacker-i-europa/",
+      "published_at": "2026-08-19T07:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "dc1fe4d3b5bbbfec",
+      "name": "UAE suspends all trade , financial transactions with Iran after missile attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dc1fe4d3b5bbbfec",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.574,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "geo.tv",
+      "url": "https://www.geo.tv/latest/678248-uae-suspends-all-trade-financial-transactions-with-iran-after-missile-attack",
+      "published_at": "2026-08-19T06:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "11c3d6ca8533fc57",
+      "name": "UAE imposes indefinite trade embargo on Iran over alleged missile attacks - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "11c3d6ca8533fc57",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.574,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dominicanrepublicpost.com",
+      "url": "https://dominicanrepublicpost.com/uae-imposes-indefinite-trade-embargo-on-iran-over-alleged-missile-attacks/",
+      "published_at": "2026-08-19T06:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "003d5c3254a03e7a",
+      "name": "Guerre au Moyen - Orient  : tension entre lIran et les Émirats , une base militaire en Syrie",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "003d5c3254a03e7a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.663,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "draguignan.maville.com",
+      "url": "https://draguignan.maville.com/actu/actudet_-guerre-au-moyen-orient-tension-entre-l-iran-et-les-emirats-une-base-militaire-en-syrie-ciblee-les-dernieres-infos_fil-7444371_actu.Htm",
+      "published_at": "2026-08-19T06:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      }
+    },
     {
       "id": "7939610540775b8c",
       "name": "UAE Halts All Trade And Financial Dealings With Iran After Missile Threat Alert",
@@ -83,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7939610540775b8c",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.571,
+      "freshness": 0.464,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +285,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.6,
+        "extended": 6.1
+      }
     },
     {
       "id": "6515973716136e65",
@@ -115,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6515973716136e65",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.571,
+      "freshness": 0.464,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +316,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
     },
     {
       "id": "c1f73d68b2621331",
@@ -147,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c1f73d68b2621331",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.571,
+      "freshness": 0.464,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +347,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
     },
     {
       "id": "7db5087c3315ffc7",
@@ -179,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7db5087c3315ffc7",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.495,
+      "freshness": 0.402,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,75 +378,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "183e1b6222e38ab7",
-      "name": "24 hours that shook UAE : Missile alert , Iran blame , trade halt",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "183e1b6222e38ab7",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.495,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/24-hours-that-shook-uae-missile-alert-iran-blame-trade-halt-donald-trump-war-latest-updates-101787109792812.html",
-      "published_at": "2026-08-19T04:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "006b7b58279c1ba4",
-      "name": "Iran rejects UAE missile accusation , warns against unfounded claims",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "006b7b58279c1ba4",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.429,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dunyanews.tv",
-      "url": "https://dunyanews.tv/en/World/968600-iran-rejects-uae-missile-accusation-warns-against-unfounded-claims",
-      "published_at": "2026-08-19T04:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
     },
     {
       "id": "2ef6d8de008179f6",
@@ -275,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2ef6d8de008179f6",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.495,
+      "freshness": 0.402,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,23 +409,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
     },
     {
-      "id": "1d9806d1c242b43b",
-      "name": "US - Iran war LIVE : UAE pauses Iran trade after missiles fired ; report says Trump threatened to bomb Oman",
+      "id": "183e1b6222e38ab7",
+      "name": "24 hours that shook UAE : Missile alert , Iran blame , trade halt",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "1d9806d1c242b43b",
-      "strength": 0.53,
+      "dependency_group": "183e1b6222e38ab7",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.4,
+      "freshness": 0.402,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -319,15 +436,45 @@ window.MAGEN_STATE = {
         "extended": 1.0
       },
       "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/us-iran-war-live-updates-uae-dubai-abu-dhabi-news-missile-alert-threat-donald-trump-oman-strait-of-hormuz-deal-101787104323572.html",
-      "published_at": "2026-08-19T04:00:00Z",
+      "url": "https://www.hindustantimes.com/world-news/24-hours-that-shook-uae-missile-alert-iran-blame-trade-halt-donald-trump-war-latest-updates-101787109792812.html",
+      "published_at": "2026-08-19T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
+    },
+    {
+      "id": "006b7b58279c1ba4",
+      "name": "Iran rejects UAE missile accusation , warns against unfounded claims",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "006b7b58279c1ba4",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.348,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dunyanews.tv",
+      "url": "https://dunyanews.tv/en/World/968600-iran-rejects-uae-missile-accusation-warns-against-unfounded-claims",
+      "published_at": "2026-08-19T04:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      }
     },
     {
       "id": "8d96fb08b5ff490b",
@@ -339,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8d96fb08b5ff490b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.495,
+      "freshness": 0.402,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,11 +502,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
     },
     {
       "id": "a0568964b871ead9",
@@ -371,7 +517,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a0568964b871ead9",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.461,
+      "freshness": 0.374,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -387,11 +533,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
     },
     {
       "id": "56314cf34d0ebfbe",
@@ -403,7 +548,7 @@ window.MAGEN_STATE = {
       "dependency_group": "56314cf34d0ebfbe",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.429,
+      "freshness": 0.348,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -419,75 +564,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7d7d9bd7be579021",
-      "name": "Iran rejects UAE statement on missiles  launched from Iran ; UAE halts trade with Iran -- China Economic Net",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7d7d9bd7be579021",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.429,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "en.ce.cn",
-      "url": "http://en.ce.cn/main/latest/202608/t20260819_3156362.shtml",
-      "published_at": "2026-08-19T04:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5561875bef06773c",
-      "name": "Iran strikes Kurdistan with new jet - powered drones , KRG says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5561875bef06773c",
-      "strength": 0.48,
-      "reliability": 0.74,
-      "freshness": 0.3,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/article-905943",
-      "published_at": "2026-08-19T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     },
     {
       "id": "92379f3e8f20e0ea",
@@ -499,7 +579,7 @@ window.MAGEN_STATE = {
       "dependency_group": "92379f3e8f20e0ea",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.429,
+      "freshness": 0.348,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -515,11 +595,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
     },
     {
       "id": "b6fda8ffb59d097c",
@@ -531,7 +610,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b6fda8ffb59d097c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.495,
+      "freshness": 0.402,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -547,23 +626,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      }
     },
     {
-      "id": "a1d828b913fa105f",
-      "name": "Iran rejects UAE claim of missile launch , calls accusations",
+      "id": "1d9806d1c242b43b",
+      "name": "US - Iran war LIVE : UAE pauses Iran trade after missiles fired ; report says Trump threatened to bomb Oman",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a1d828b913fa105f",
-      "strength": 0.48,
+      "dependency_group": "1d9806d1c242b43b",
+      "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.346,
+      "freshness": 0.324,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -574,272 +652,46 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "arabherald.com",
-      "url": "http://www.arabherald.com/news/279250144/iran-rejects-uae-claim-of-missile-launch-calls-accusations-baseless",
-      "published_at": "2026-08-19T03:30:00Z",
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/world-news/us-iran-war-live-updates-uae-dubai-abu-dhabi-news-missile-alert-threat-donald-trump-oman-strait-of-hormuz-deal-101787104323572.html",
+      "published_at": "2026-08-19T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
+    },
+    {
+      "id": "7d7d9bd7be579021",
+      "name": "Iran rejects UAE statement on missiles  launched from Iran ; UAE halts trade with Iran -- China Economic Net",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7d7d9bd7be579021",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.348,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "en.ce.cn",
+      "url": "http://en.ce.cn/main/latest/202608/t20260819_3156362.shtml",
+      "published_at": "2026-08-19T04:15:00Z",
       "active": true,
       "computed": {
         "immediate": 0.7,
         "short": 2.4,
         "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f282b5fbb2b11e4a",
-      "name": "UAE claims intercepting  two missiles from Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f282b5fbb2b11e4a",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.346,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "tribune.com.pk",
-      "url": "https://tribune.com.pk/story/2624688/uae-claims-intercepting-two-missiles-from-iran",
-      "published_at": "2026-08-19T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "eb9ff9e09f784ffe",
-      "name": "Iran rejects UAE statement on missiles",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "eb9ff9e09f784ffe",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.346,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabherald.com",
-      "url": "http://www.arabherald.com/news/279250128/iran-rejects-uae-statement-on-missiles-launched-from-iran-uae-halts-trade-with-iran",
-      "published_at": "2026-08-19T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6e5b09806a49eb3c",
-      "name": "All trade , commercial exchanges halted : How UAE responded to Iran latest ballistic missile attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6e5b09806a49eb3c",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.3,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/ballistic-missiles-target-uae-trade-ties-snap-how-abu-dhabi-responded-to-irans-latest-escalation/articleshow/133335044.cms",
-      "published_at": "2026-08-19T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "877c359f243bc3e6",
-      "name": "Pentagon weighs reducing US military presence in Persian Gulf after Iran war : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "877c359f243bc3e6",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.346,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "prokerala.com",
-      "url": "https://www.prokerala.com/news/articles/a1802019.html",
-      "published_at": "2026-08-19T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1726710331395030",
-      "name": "UAE Halts All Iranian Trade After 2 Missiles Launched From Iranian Territory",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1726710331395030",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.28,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theepochtimes.com",
-      "url": "https://www.theepochtimes.com/world/uae-halts-all-iranian-trade-after-2-missiles-launched-from-iranian-territory-6076703",
-      "published_at": "2026-08-19T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "833cc8c906a597f5",
-      "name": "UAE suspends all trade , financial ties with Iran after missile attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "833cc8c906a597f5",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.28,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theweek.in",
-      "url": "https://www.theweek.in/news/middle-east/2026/08/19/uae-suspends-trade-iran-gulf-security-situation.html",
-      "published_at": "2026-08-19T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "22e779a993071c88",
-      "name": "UAE Iran Missiles , ईरानी मिसाइल हमलों से भड़का UAE , तेहरान के साथ सभी व्यापार और कमर्शियल लेन - देन पर लगाई रोक , बढ़ा तनाव - uae suspends all financial dealing with iran after tehran launch ballistic missiles - Asian ",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "22e779a993071c88",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.26,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "navbharattimes.indiatimes.com",
-      "url": "https://navbharattimes.indiatimes.com/world/asian-countries/uae-suspends-all-financial-dealing-with-iran-after-tehran-launch-ballistic-missiles/articleshow/133334891.cms",
-      "published_at": "2026-08-19T02:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9a7668124f7ba7e7",
-      "name": "ईरान का सैन्य भंडार भरेगा रूस : कैस्पियन सागर के रास्ते तेहरान को ड्रोन पार्ट्स और विस्फोटक भेज रहा मॉस्को - russia sends military supplies to iran via caspian sea",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9a7668124f7ba7e7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.28,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jagran.com",
-      "url": "https://www.jagran.com/world/russia-russia-sends-military-supplies-to-iran-via-caspian-sea-40344988.html",
-      "published_at": "2026-08-19T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
+      }
     }
   ],
   "history": [
@@ -3974,17 +3826,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-19T07:56:26.939990Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 23
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-19T06:18:05.942692Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-19T07:56:26.939990Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 24
+        "ok": true,
+        "items": 150,
+        "relevant": 20
       },
       "manual": {
         "ok": true,
