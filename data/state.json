@@ -1,89 +1,244 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-19T04:22:28.275896Z",
+  "mode": "live",
+  "generated_at": "2026-08-19T05:02:10.973121Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 5,
       "low": 0,
-      "high": 19,
-      "confidence": 44,
+      "high": 18,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 5,
-      "low": 0,
-      "high": 22,
-      "confidence": 44,
-      "status": "לא זוהה אות חריג"
+      "score": 17,
+      "low": 4,
+      "high": 30,
+      "confidence": 67,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 9,
-      "low": 0,
-      "high": 26,
-      "confidence": 44,
-      "status": "נמוך"
+      "score": 27,
+      "low": 14,
+      "high": 40,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 3
   },
   "changes": [
     {
-      "time": "02:15",
-      "text": "Mike Huckabee condemns settler violence , says Iran could face renewed strikes",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "07:15",
+      "text": "Iran rejects UAE missile accusation , warns against unfounded claims",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "30f053f1673f3e95"
+      "source": "dunyanews.tv",
+      "signal_id": "006b7b58279c1ba4"
     },
     {
-      "time": "02:30",
-      "text": "UAE accuses Iran of firing ballistic missiles at shipping",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "07:30",
+      "text": "मिसाइल हमलों से भड़का UAE , ईरान के साथ सभी व्यापारिक और वित्तीय लेन - देन पर लगाई रोक - uae outraged by missile attacks halts all trade and financial transactions with iran",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "channelnewsasia.com",
-      "signal_id": "ab4a31c869543332"
+      "source": "jagran.com",
+      "signal_id": "a0568964b871ead9"
     },
     {
-      "time": "02:30",
-      "text": "Dubai residents sent missile alert after Iran launches fresh strikes on UAE",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "07:00",
+      "text": "US - Iran war LIVE : UAE pauses Iran trade after missiles fired ; report says Trump threatened to bomb Oman",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "mirror.co.uk",
-      "signal_id": "c6fd3842fc6bf85f"
+      "source": "hindustantimes.com",
+      "signal_id": "1d9806d1c242b43b"
     },
     {
-      "time": "02:15",
-      "text": "Iran fires ballistic missiles at UAE",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "07:15",
+      "text": "UAE Suspends Trade With Iran Following Antiship Missile Strike",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "clevelandjewishnews.com",
-      "signal_id": "aefae7c5f13603d8"
+      "source": "maritime-executive.com",
+      "signal_id": "56314cf34d0ebfbe"
     }
   ],
   "signals": [
     {
-      "id": "30f053f1673f3e95",
-      "name": "Mike Huckabee condemns settler violence , says Iran could face renewed strikes",
+      "id": "006b7b58279c1ba4",
+      "name": "Iran rejects UAE missile accusation , warns against unfounded claims",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "30f053f1673f3e95",
-      "strength": 0.4,
+      "dependency_group": "006b7b58279c1ba4",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.799,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dunyanews.tv",
+      "url": "https://dunyanews.tv/en/World/968600-iran-rejects-uae-missile-accusation-warns-against-unfounded-claims",
+      "published_at": "2026-08-19T04:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.1,
+        "extended": 10.4
+      }
+    },
+    {
+      "id": "a0568964b871ead9",
+      "name": "मिसाइल हमलों से भड़का UAE , ईरान के साथ सभी व्यापारिक और वित्तीय लेन - देन पर लगाई रोक - uae outraged by missile attacks halts all trade and financial transactions with iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a0568964b871ead9",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.858,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jagran.com",
+      "url": "https://www.jagran.com/world/middle-east-uae-outraged-by-missile-attacks-halts-all-trade-and-financial-transactions-with-iran-40345042.html",
+      "published_at": "2026-08-19T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.0,
+        "extended": 10.1
+      }
+    },
+    {
+      "id": "1d9806d1c242b43b",
+      "name": "US - Iran war LIVE : UAE pauses Iran trade after missiles fired ; report says Trump threatened to bomb Oman",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1d9806d1c242b43b",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.744,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/world-news/us-iran-war-live-updates-uae-dubai-abu-dhabi-news-missile-alert-threat-donald-trump-oman-strait-of-hormuz-deal-101787104323572.html",
+      "published_at": "2026-08-19T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.7
+      }
+    },
+    {
+      "id": "56314cf34d0ebfbe",
+      "name": "UAE Suspends Trade With Iran Following Antiship Missile Strike",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "56314cf34d0ebfbe",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.799,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "maritime-executive.com",
+      "url": "https://maritime-executive.com/article/uae-suspends-trade-with-iran-following-antiship-missile-strike",
+      "published_at": "2026-08-19T04:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
+    },
+    {
+      "id": "7d7d9bd7be579021",
+      "name": "Iran rejects UAE statement on missiles  launched from Iran ; UAE halts trade with Iran -- China Economic Net",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7d7d9bd7be579021",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.799,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "en.ce.cn",
+      "url": "http://en.ce.cn/main/latest/202608/t20260819_3156362.shtml",
+      "published_at": "2026-08-19T04:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
+    },
+    {
+      "id": "5561875bef06773c",
+      "name": "Iran strikes Kurdistan with new jet - powered drones , KRG says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5561875bef06773c",
+      "strength": 0.48,
       "reliability": 0.74,
-      "freshness": 0.231,
+      "freshness": 0.559,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -95,15 +250,510 @@
         "extended": 1.0
       },
       "source": "jpost.com",
-      "url": "http://www.jpost.com/israel-news/article-905932",
-      "published_at": "2026-08-18T23:15:00Z",
+      "url": "https://www.jpost.com/middle-east/article-905943",
+      "published_at": "2026-08-19T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "92379f3e8f20e0ea",
+      "name": "Dubai Iran Money Pipeline Under Threat After UAE Cracks Down on Financial Network",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "92379f3e8f20e0ea",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.799,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ibtimes.co.uk",
+      "url": "https://www.ibtimes.co.uk/uae-suspends-trade-iran-amid-tensions-1815012",
+      "published_at": "2026-08-19T04:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.9
+      }
+    },
+    {
+      "id": "2b7d4fe7ca5dad37",
+      "name": "Why is Donald Trump threatening to bomb Oman amid Iran war ? – NBC Chicago",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2b7d4fe7ca5dad37",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.744,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nbcchicago.com",
+      "url": "https://www.nbcchicago.com/news/national-international/donald-trump-threatens-bomb-oman/3977232/",
+      "published_at": "2026-08-19T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "a1d828b913fa105f",
+      "name": "Iran rejects UAE claim of missile launch , calls accusations",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a1d828b913fa105f",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.645,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arabherald.com",
+      "url": "http://www.arabherald.com/news/279250144/iran-rejects-uae-claim-of-missile-launch-calls-accusations-baseless",
+      "published_at": "2026-08-19T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "f282b5fbb2b11e4a",
+      "name": "UAE claims intercepting  two missiles from Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f282b5fbb2b11e4a",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.645,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tribune.com.pk",
+      "url": "https://tribune.com.pk/story/2624688/uae-claims-intercepting-two-missiles-from-iran",
+      "published_at": "2026-08-19T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "eb9ff9e09f784ffe",
+      "name": "Iran rejects UAE statement on missiles",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "eb9ff9e09f784ffe",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.645,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arabherald.com",
+      "url": "http://www.arabherald.com/news/279250128/iran-rejects-uae-statement-on-missiles-launched-from-iran-uae-halts-trade-with-iran",
+      "published_at": "2026-08-19T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "6e5b09806a49eb3c",
+      "name": "All trade , commercial exchanges halted : How UAE responded to Iran latest ballistic missile attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6e5b09806a49eb3c",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.559,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/ballistic-missiles-target-uae-trade-ties-snap-how-abu-dhabi-responded-to-irans-latest-escalation/articleshow/133335044.cms",
+      "published_at": "2026-08-19T03:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
+    },
+    {
+      "id": "1726710331395030",
+      "name": "UAE Halts All Iranian Trade After 2 Missiles Launched From Iranian Territory",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1726710331395030",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.52,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theepochtimes.com",
+      "url": "https://www.theepochtimes.com/world/uae-halts-all-iranian-trade-after-2-missiles-launched-from-iranian-territory-6076703",
+      "published_at": "2026-08-19T02:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "833cc8c906a597f5",
+      "name": "UAE suspends all trade , financial ties with Iran after missile attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "833cc8c906a597f5",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.52,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theweek.in",
+      "url": "https://www.theweek.in/news/middle-east/2026/08/19/uae-suspends-trade-iran-gulf-security-situation.html",
+      "published_at": "2026-08-19T02:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "c1f73d68b2621331",
+      "name": "Iran rejects UAE statement on missiles  launched from Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c1f73d68b2621331",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.52,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "usa.chinadaily.com.cn",
+      "url": "http://usa.chinadaily.com.cn/a/202608/19/WS6a84ef33a3106bc57421c30b.html",
+      "published_at": "2026-08-19T02:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "877c359f243bc3e6",
+      "name": "Pentagon weighs reducing US military presence in Persian Gulf after Iran war : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "877c359f243bc3e6",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.645,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "prokerala.com",
+      "url": "https://www.prokerala.com/news/articles/a1802019.html",
+      "published_at": "2026-08-19T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "22e779a993071c88",
+      "name": "UAE Iran Missiles , ईरानी मिसाइल हमलों से भड़का UAE , तेहरान के साथ सभी व्यापार और कमर्शियल लेन - देन पर लगाई रोक , बढ़ा तनाव - uae suspends all financial dealing with iran after tehran launch ballistic missiles - Asian ",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "22e779a993071c88",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.484,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "navbharattimes.indiatimes.com",
+      "url": "https://navbharattimes.indiatimes.com/world/asian-countries/uae-suspends-all-financial-dealing-with-iran-after-tehran-launch-ballistic-missiles/articleshow/133334891.cms",
+      "published_at": "2026-08-19T02:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      }
+    },
+    {
+      "id": "9a7668124f7ba7e7",
+      "name": "ईरान का सैन्य भंडार भरेगा रूस : कैस्पियन सागर के रास्ते तेहरान को ड्रोन पार्ट्स और विस्फोटक भेज रहा मॉस्को - russia sends military supplies to iran via caspian sea",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9a7668124f7ba7e7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.52,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jagran.com",
+      "url": "https://www.jagran.com/world/russia-russia-sends-military-supplies-to-iran-via-caspian-sea-40344988.html",
+      "published_at": "2026-08-19T02:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "378a02449320051c",
+      "name": "Iran rejects UAE missile claim , warns of  false - flag operations",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "378a02449320051c",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.42,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/08/18/774641/Iran-UAE-missile-rejection-warning-false-flag",
+      "published_at": "2026-08-19T02:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "d0b4acbf143062ed",
+      "name": "Why is Donald Trump threatening to bomb Oman amid Iran war ? – NBC 5 Dallas - Fort Worth",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d0b4acbf143062ed",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.451,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nbcdfw.com",
+      "url": "https://www.nbcdfw.com/news/national-international/donald-trump-threatens-bomb-oman/4064514/",
+      "published_at": "2026-08-19T02:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "66e6cf22083928ad",
+      "name": "Masrour Barzani Kurdistan office hit by two drones from Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "66e6cf22083928ad",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.451,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "el-balad.com",
+      "url": "https://www.el-balad.com/17043209",
+      "published_at": "2026-08-19T02:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
+    },
+    {
+      "id": "a9d9eee605991d93",
+      "name": "LIran rejette une déclaration des EAU sur des missiles  lancés depuis lIran  - Xinhua",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a9d9eee605991d93",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.451,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "french.xinhuanet.com",
+      "url": "http://french.xinhuanet.com/20260819/0725503508374bb7919306641154bffe/c.html",
+      "published_at": "2026-08-19T02:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
     },
     {
       "id": "ab4a31c869543332",
@@ -115,7 +765,7 @@
       "dependency_group": "ab4a31c869543332",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.248,
+      "freshness": 0.391,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,28 +776,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "channelnewsasia.com",
-      "url": "https://www.channelnewsasia.com/world/uae-iran-two-missiles-shipping-6326876",
-      "published_at": "2026-08-18T23:30:00Z",
+      "source": "freemalaysiatoday.com",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/08/19/uae-accuses-iran-of-firing-ballistic-missiles-at-shipping",
+      "published_at": "2026-08-19T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
     },
     {
-      "id": "c6fd3842fc6bf85f",
-      "name": "Dubai residents sent missile alert after Iran launches fresh strikes on UAE",
+      "id": "fef72eee4ac1d663",
+      "name": "DIPLOMATIC RETALIATION : France Expels Two Iranian Diplomats After Attack On French Officials In Tehran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "c6fd3842fc6bf85f",
-      "strength": 0.48,
+      "dependency_group": "fef72eee4ac1d663",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.248,
+      "freshness": 0.451,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,28 +807,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "mirror.co.uk",
-      "url": "https://www.mirror.co.uk/news/world-news/iran-uae-dubai-missiles-war-37566837",
-      "published_at": "2026-08-18T23:30:00Z",
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2587231/diplomatic-retaliation-france-expels-two-iranian-diplomats-after-attack-on-french-officials-in-tehran.html",
+      "published_at": "2026-08-19T02:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
     },
     {
-      "id": "aefae7c5f13603d8",
-      "name": "Iran fires ballistic missiles at UAE",
+      "id": "9c6e77e91dc99756",
+      "name": "PENTAGON REVIEW : U . S . Weighs Moving Forces To Israel After Iranian Strikes Batter Gulf Bases",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "aefae7c5f13603d8",
-      "strength": 0.48,
+      "dependency_group": "9c6e77e91dc99756",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.231,
+      "freshness": 0.451,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -190,16 +838,46 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "clevelandjewishnews.com",
-      "url": "https://www.clevelandjewishnews.com/jns/iran-fires-ballistic-missiles-at-uae/article_a4bf97a7-7d07-526b-b7ed-e15a8e05b9a0.html",
-      "published_at": "2026-08-18T23:15:00Z",
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2587091/pentagon-review-u-s-weighs-moving-forces-to-israel-after-iranian-strikes-batter-gulf-bases.html",
+      "published_at": "2026-08-19T02:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "a23d22e3b02e5988",
+      "name": "France to expel 2 Iranian diplomats in retaliation for Tehran arrests",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a23d22e3b02e5988",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.391,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "upi.com",
+      "url": "https://www.upi.com/Top_News/World-News/2026/08/18/France-expel-Iranian-diplomats-retaliation-Tehran-arrests/4391787096647/",
+      "published_at": "2026-08-19T01:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
     },
     {
       "id": "356305502d8c4cf4",
@@ -211,7 +889,7 @@
       "dependency_group": "356305502d8c4cf4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.248,
+      "freshness": 0.364,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -222,28 +900,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "1061thecorner.com",
-      "url": "https://1061thecorner.com/news/030030-trump-threatened-to-bomb-oman-because-hes-unhappy-with-countrys-deal-with-iran-officials-say/",
-      "published_at": "2026-08-18T23:30:00Z",
+      "source": "981theriver.com",
+      "url": "https://981theriver.com/news/030030-trump-threatened-to-bomb-oman-because-hes-unhappy-with-countrys-deal-with-iran-officials-say/",
+      "published_at": "2026-08-19T01:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      }
     },
     {
-      "id": "e17a86a16c6cc096",
-      "name": "Iranian Ballistic Missiles trigger major Security Alert across UAE",
+      "id": "136763614da456f8",
+      "name": "Iran Calls MOU  Irrelevant  as Oman Stays Silent on Trump Bomb Threat and Egypt Backs Hormuz Deal",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e17a86a16c6cc096",
-      "strength": 0.48,
+      "dependency_group": "136763614da456f8",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.231,
+      "freshness": 0.339,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,80 +931,15 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "pakobserver.net",
-      "url": "https://pakobserver.net/iranian-ballistic-missiles-trigger-major-security-alert-across-uae/",
-      "published_at": "2026-08-18T23:15:00Z",
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/272667/20260818/iran-parliament-panel-advances-bill-control-hormuz-us-presses-arms-makers-war-footing.htm",
+      "published_at": "2026-08-19T01:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "34cb244470a57e79",
-      "name": "UAE claims Iran fired two ballistic missiles at maritime navigation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "34cb244470a57e79",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.187,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "heraldglobe.com",
-      "url": "http://www.heraldglobe.com/news/279249991/uae-claims-iran-fired-two-ballistic-missiles-at-maritime-navigation",
-      "published_at": "2026-08-18T22:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e34367fa40923774",
-      "name": "US mulls shrinking military footprint in Gulf as a result of war on Iran : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e34367fa40923774",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.2,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-mulls-shrinking-military-footprint-gulf-result-war-iran-report",
-      "published_at": "2026-08-18T22:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.8
+      }
     }
   ],
   "history": [
@@ -3438,17 +4050,23 @@
       "immediate": 2,
       "short": 5,
       "extended": 9
+    },
+    {
+      "timestamp": "2026-08-19T05:02:10.973121Z",
+      "immediate": 5,
+      "short": 17,
+      "extended": 27
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-18T23:55:19.915620Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-19T05:02:10.973121Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 28
       },
       "manual": {
         "ok": true,
