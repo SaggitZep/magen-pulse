@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-19T17:09:39.576734Z",
+  "generated_at": "2026-08-19T17:42:18.945460Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 52,
+      "score": 16,
+      "low": 0,
+      "high": 32,
+      "confidence": 50,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 22,
-      "low": 6,
-      "high": 38,
-      "confidence": 52,
+      "score": 19,
+      "low": 3,
+      "high": 35,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 23,
-      "low": 7,
-      "high": 39,
-      "confidence": 52,
-      "status": "מוגבר"
+      "score": 20,
+      "low": 4,
+      "high": 36,
+      "confidence": 50,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -3
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "18:30",
       "text": "32 - year - old Iranian scientist who was identified by DNA 10 days after martyrdom in US - Israeli attack",
-      "impact": "השפעה מיידית מחושבת: +15.3",
+      "impact": "השפעה מיידית מחושבת: +13.1",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "493905bfa9c82c04"
@@ -50,7 +50,7 @@
     {
       "time": "19:15",
       "text": "Exclusive : Claims of Iranian Missile Strike on UAE Dismissed as Baseless ; Evidence Suggests Possible False Flag Operation",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "islamicinvitationturkey.com",
       "signal_id": "41f656e152823c59"
@@ -58,7 +58,7 @@
     {
       "time": "18:45",
       "text": "United Arab Emirates Suspends Trade With Iran After Coming Under Renewed Missile Fire – 710am KURV",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "kurv.com",
       "signal_id": "042ed37c633fd21d"
@@ -66,7 +66,7 @@
     {
       "time": "18:45",
       "text": "Iran Again Warns Gulf States Against Assisting US Military",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "southeastasiapost.com",
       "signal_id": "e761a92fc96641b6"
@@ -83,7 +83,7 @@
       "dependency_group": "493905bfa9c82c04",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.622,
+      "freshness": 0.533,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-19T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 15.3,
-        "short": 12.0,
-        "extended": 5.1
+        "immediate": 13.1,
+        "short": 10.2,
+        "extended": 4.3
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "41f656e152823c59",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.771,
+      "freshness": 0.66,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-19T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.1
+        "immediate": 1.3,
+        "short": 4.6,
+        "extended": 7.8
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "042ed37c633fd21d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.668,
+      "freshness": 0.572,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-19T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.9
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "e761a92fc96641b6",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.668,
+      "freshness": 0.572,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-19T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.4
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "c71eeeabb13ba45c",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.622,
+      "freshness": 0.533,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-19T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.4
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "8fa6881db61fe13b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.771,
+      "freshness": 0.66,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-08-19T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "ce75f91b21294fbc",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.622,
+      "freshness": 0.533,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@
       "published_at": "2026-08-19T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@
       "dependency_group": "356305502d8c4cf4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.405,
+      "freshness": 0.347,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@
       "published_at": "2026-08-19T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
       },
       "carried_forward": true
     },
@@ -339,7 +339,7 @@
       "dependency_group": "6c07feb0ae71044a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.405,
+      "freshness": 0.347,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +355,9 @@
       "published_at": "2026-08-19T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       },
       "carried_forward": true
     },
@@ -371,7 +371,7 @@
       "dependency_group": "8b6ffb9d61c6d456",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.284,
+      "freshness": 0.243,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -387,9 +387,9 @@
       "published_at": "2026-08-19T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -403,7 +403,7 @@
       "dependency_group": "345ad07bc49d5760",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.284,
+      "freshness": 0.243,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -419,9 +419,9 @@
       "published_at": "2026-08-19T12:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     }
@@ -3648,6 +3648,12 @@
       "immediate": 18,
       "short": 22,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-08-19T17:42:18.945460Z",
+      "immediate": 16,
+      "short": 19,
+      "extended": 20
     }
   ],
   "health": {
