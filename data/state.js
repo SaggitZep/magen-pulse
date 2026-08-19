@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-19T08:49:44.139909Z",
+  "generated_at": "2026-08-19T09:23:20.822099Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 4,
       "low": 0,
-      "high": 18,
-      "confidence": 68,
+      "high": 17,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 16,
-      "low": 3,
-      "high": 29,
-      "confidence": 68,
+      "score": 13,
+      "low": 0,
+      "high": 26,
+      "confidence": 66,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 26,
-      "low": 13,
-      "high": 39,
-      "confidence": 68,
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 66,
       "status": "מוגבר"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "11:15",
       "text": "UAE Suspends Trade and Financial Transactions With Iran After Missile Incident",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
       "source": "pakistantimes.com",
       "signal_id": "6f5eaa1aef91b7cb"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:00",
       "text": "UAE says two missiles detected earlier were launched from Iran",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "tribune.com.pk",
       "signal_id": "3677f68c580f2279"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:45",
       "text": "Les Émirats arabes unis suspendent leurs échanges avec lIran après le tir de deux missiles ; les tensions sintensifient",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "bfmtv.com",
       "signal_id": "654a8b2e9c8855da"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:15",
       "text": "Iran armed forces warn Gulf countries against assisting US military",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "arabnews.com",
       "signal_id": "03057e7ebe2dd0b0"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6f5eaa1aef91b7cb",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.848,
+      "freshness": 0.722,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.9,
-        "extended": 10.0
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
       }
     },
     {
@@ -114,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3677f68c580f2279",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.789,
+      "freshness": 0.672,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.3
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 7.9
       }
     },
     {
@@ -145,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "654a8b2e9c8855da",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.735,
+      "freshness": 0.626,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
       }
     },
     {
@@ -176,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "03057e7ebe2dd0b0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.848,
+      "freshness": 0.722,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.4
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
       }
     },
     {
@@ -207,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "79e2db8914eaae1a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.848,
+      "freshness": 0.722,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.4
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
       }
     },
     {
@@ -238,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e6da666641b97b76",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.848,
+      "freshness": 0.722,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.4
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
       }
     },
     {
@@ -269,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "561ef3feb5bd9f09",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.593,
+      "freshness": 0.505,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
       }
     },
     {
@@ -300,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "aea33626de850c15",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.514,
+      "freshness": 0.438,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,9 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T06:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.2
       }
     },
     {
@@ -331,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "672f42155eaaaf7f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.637,
+      "freshness": 0.543,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,9 +347,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.4
       }
     },
     {
@@ -362,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "dc1fe4d3b5bbbfec",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.446,
+      "freshness": 0.38,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,40 +378,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T06:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
-    },
-    {
-      "id": "003d5c3254a03e7a",
-      "name": "Guerre au Moyen - Orient  : tension entre lIran et les Émirats , une base militaire en Syrie",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "003d5c3254a03e7a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.514,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "draguignan.maville.com",
-      "url": "https://draguignan.maville.com/actu/actudet_-guerre-au-moyen-orient-tension-entre-l-iran-et-les-emirats-une-base-militaire-en-syrie-ciblee-les-dernieres-infos_fil-7444371_actu.Htm",
-      "published_at": "2026-08-19T06:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
       }
     },
     {
@@ -424,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "11c3d6ca8533fc57",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.446,
+      "freshness": 0.38,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,53 +409,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-19T06:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
-    },
-    {
-      "id": "7939610540775b8c",
-      "name": "UAE Halts All Trade And Financial Dealings With Iran After Missile Threat Alert",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7939610540775b8c",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.36,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newsx.com",
-      "url": "https://www.newsx.com/world/uae-halts-all-trade-and-financial-dealings-with-iran-after-missile-threat-alert-261936/",
-      "published_at": "2026-08-19T05:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "short": 2.6,
+        "extended": 4.5
       }
     },
     {
-      "id": "6515973716136e65",
-      "name": "UAE says Iran fired 2 missiles at country as war drags on",
+      "id": "003d5c3254a03e7a",
+      "name": "Guerre au Moyen - Orient  : tension entre lIran et les Émirats , une base militaire en Syrie",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "6515973716136e65",
-      "strength": 0.48,
+      "dependency_group": "003d5c3254a03e7a",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.36,
+      "freshness": 0.438,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -497,40 +435,9 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "thehindubusinessline.com",
-      "url": "https://www.thehindubusinessline.com/news/world/uae-says-iran-fired-2-missiles-at-country-as-war-drags-on/article71363158.ece",
-      "published_at": "2026-08-19T05:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
-    },
-    {
-      "id": "c1f73d68b2621331",
-      "name": "Iran rejects UAE statement on missiles  launched from Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c1f73d68b2621331",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.36,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "china.org.cn",
-      "url": "http://www.china.org.cn/2026-08/19/content_118654230.shtml",
-      "published_at": "2026-08-19T05:15:00Z",
+      "source": "draguignan.maville.com",
+      "url": "https://draguignan.maville.com/actu/actudet_-guerre-au-moyen-orient-tension-entre-l-iran-et-les-emirats-une-base-militaire-en-syrie-ciblee-les-dernieres-infos_fil-7444371_actu.Htm",
+      "published_at": "2026-08-19T06:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.7,
@@ -3683,17 +3590,23 @@ window.MAGEN_STATE = {
       "immediate": 5,
       "short": 16,
       "extended": 26
+    },
+    {
+      "timestamp": "2026-08-19T09:23:20.822099Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 22
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-19T08:49:44.139909Z",
+    "last_success": "2026-08-19T09:23:20.822099Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 15
+        "relevant": 12
       },
       "manual": {
         "ok": true,
