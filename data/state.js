@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-20T17:17:22.629521Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-20T17:53:10.952455Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 66,
+      "high": 19,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 10,
       "low": 0,
-      "high": 25,
-      "confidence": 66,
+      "high": 26,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 7,
+      "score": 17,
+      "low": 1,
       "high": 33,
-      "confidence": 66,
+      "confidence": 50,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "19:00",
       "text": "Iran FM Blasts Trump Economic D - Day Threat  Diversion  Which Will Fail , As New Carrier Arrives In Mideast Waters",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "zerohedge.com",
       "signal_id": "de2f242e8b918f4a"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "19:00",
       "text": "Iran Fires Back at Trump  Economic D - Day , Calling It Cover for US Debt Crisis",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "jp.ibtimes.com",
       "signal_id": "ac2056dffd10d243"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "19:00",
       "text": "Iran says Cyprus safe if British bases stay out of conflict",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "cyprus-mail.com",
       "signal_id": "11a9b9d8482ac1fd"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:15",
       "text": "Trump threatens Iran With  Economic D - Day",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "legalinsurrection.com",
       "signal_id": "3f1b2ed4166de055"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "de2f242e8b918f4a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.692,
+      "freshness": 0.583,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      },
+      "carried_forward": true
     },
     {
       "id": "ac2056dffd10d243",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ac2056dffd10d243",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.692,
+      "freshness": 0.583,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      },
+      "carried_forward": true
     },
     {
       "id": "11a9b9d8482ac1fd",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "11a9b9d8482ac1fd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.692,
+      "freshness": 0.583,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      },
+      "carried_forward": true
     },
     {
       "id": "3f1b2ed4166de055",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3f1b2ed4166de055",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.558,
+      "freshness": 0.471,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,41 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      }
-    },
-    {
-      "id": "c07173ff59b0c035",
-      "name": "UAE Cuts Trade Ties With Iran as NATO Warns It  Prepared to Address Any Threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c07173ff59b0c035",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.451,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "latintimes.com",
-      "url": "https://www.latintimes.com/uae-cuts-trade-ties-iran-nato-warns-its-prepared-address-any-threat-598684",
-      "published_at": "2026-08-20T14:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      }
+        "short": 3.1,
+        "extended": 5.2
+      },
+      "carried_forward": true
     },
     {
       "id": "b1aefe5080bfc986",
@@ -238,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b1aefe5080bfc986",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.484,
+      "freshness": 0.408,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +227,43 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "c07173ff59b0c035",
+      "name": "UAE Cuts Trade Ties With Iran as NATO Warns It  Prepared to Address Any Threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c07173ff59b0c035",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.38,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "latintimes.com",
+      "url": "https://www.latintimes.com/uae-cuts-trade-ties-iran-nato-warns-its-prepared-address-any-threat-598684",
+      "published_at": "2026-08-20T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      },
+      "carried_forward": true
     },
     {
       "id": "8ca1669dadcff8ea",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8ca1669dadcff8ea",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.42,
+      "freshness": 0.354,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -3729,17 +3736,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-20T17:53:10.952455Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-20T17:17:22.629521Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 7
+        "ok": false,
+        "error": "The read operation timed out",
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
