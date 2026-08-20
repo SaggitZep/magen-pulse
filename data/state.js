@@ -1,78 +1,202 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-20T20:59:33.519264Z",
+  "mode": "live",
+  "generated_at": "2026-08-20T21:37:04.306022Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 46,
+      "high": 17,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
-      "low": 0,
-      "high": 24,
-      "confidence": 46,
-      "status": "לא זוהה אות חריג"
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 12,
-      "low": 0,
-      "high": 29,
-      "confidence": 46,
-      "status": "נמוך"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 66,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "20:45",
-      "text": "Middle East developments : Iran dismisses US economic threats | Politics and Government",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "00:00",
+      "text": "President Trump threats economic warfare in latest shift in strategy with Iran",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "reviewjournal.com",
-      "signal_id": "6854fc2de954e27c"
+      "source": "wsbt.com",
+      "signal_id": "3359d7690cd5ef3c"
     },
     {
-      "time": "20:30",
-      "text": "Iran Hits Back at Trump Threat of a  Crushing  Economic  D - Day  Campaign",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "23:45",
+      "text": "Trump threatens to isolate Iran : Who are its trading partners ?",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "time.com",
-      "signal_id": "e066a17afcca8a0b"
+      "source": "tribune.com.pk",
+      "signal_id": "38591518b4dbdce0"
     },
     {
-      "time": "20:45",
-      "text": "BOOM ! US military is sneaking 10 million barrels of oil past the Iranians every day … – The Right Scoop",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "23:30",
+      "text": "Iran dismisses Trump economic threats and warns of public resentment",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "therightscoop.com",
-      "signal_id": "192d143bf4741218"
+      "source": "wgauradio.com",
+      "signal_id": "5840aee2ba947bce"
     },
     {
-      "time": "19:00",
-      "text": "Iran FM Blasts Trump Economic D - Day Threat  Diversion  Which Will Fail , As New Carrier Arrives In Mideast Waters",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "22:30",
+      "text": "Iran dismisses US economic threats , and other developments in the Middle East",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
-      "source": "zerohedge.com",
-      "signal_id": "de2f242e8b918f4a"
+      "source": "isp.netscape.com:443",
+      "signal_id": "960177107c7af764"
     }
   ],
   "signals": [
+    {
+      "id": "3359d7690cd5ef3c",
+      "name": "President Trump threats economic warfare in latest shift in strategy with Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3359d7690cd5ef3c",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.838,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wsbt.com",
+      "url": "https://wsbt.com/news/nation-world/president-trump-threats-economic-warfare-in-latest-shift-in-strategy-with-iran-strait-hormuz-europe-us-debt-economic",
+      "published_at": "2026-08-20T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.3
+      }
+    },
+    {
+      "id": "38591518b4dbdce0",
+      "name": "Trump threatens to isolate Iran : Who are its trading partners ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "38591518b4dbdce0",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.78,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tribune.com.pk",
+      "url": "https://tribune.com.pk/story/2624957/trump-threatens-to-isolate-iran-who-are-its-trading-partners",
+      "published_at": "2026-08-20T20:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "5840aee2ba947bce",
+      "name": "Iran dismisses Trump economic threats and warns of public resentment",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5840aee2ba947bce",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.727,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wgauradio.com",
+      "url": "https://www.wgauradio.com/news/world/iran-dismisses-us/OQOPM57ZT4Y33C6DPOKW6M5XVQ/",
+      "published_at": "2026-08-20T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "960177107c7af764",
+      "name": "Iran dismisses US economic threats , and other developments in the Middle East",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "960177107c7af764",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.546,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "isp.netscape.com:443",
+      "url": "https://isp.netscape.com:443/pf/story/0001/20260820/bbc5df71e56f000515edef0817468c9d",
+      "published_at": "2026-08-20T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
     {
       "id": "6854fc2de954e27c",
       "name": "Middle East developments : Iran dismisses US economic threats | Politics and Government",
@@ -83,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6854fc2de954e27c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.396,
+      "freshness": 0.331,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,43 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e066a17afcca8a0b",
-      "name": "Iran Hits Back at Trump Threat of a  Crushing  Economic  D - Day  Campaign",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e066a17afcca8a0b",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.369,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "time.com",
-      "url": "https://time.com/article/2026/08/20/iran-hits-back-at-trump-s-threat-of-a-crushing-economic-d-day-campaign/",
-      "published_at": "2026-08-20T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      }
     },
     {
       "id": "192d143bf4741218",
@@ -147,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "192d143bf4741218",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.396,
+      "freshness": 0.331,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,107 +254,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "de2f242e8b918f4a",
-      "name": "Iran FM Blasts Trump Economic D - Day Threat  Diversion  Which Will Fail , As New Carrier Arrives In Mideast Waters",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "de2f242e8b918f4a",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.24,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "zerohedge.com",
-      "url": "https://www.zerohedge.com/geopolitical/iran-fm-says-trumps-economic-d-day-threat-diversion-which-will-fail-new-carrier",
-      "published_at": "2026-08-20T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ac2056dffd10d243",
-      "name": "Iran Fires Back at Trump  Economic D - Day , Calling It Cover for US Debt Crisis",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ac2056dffd10d243",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.24,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jp.ibtimes.com",
-      "url": "https://jp.ibtimes.com/iran-fires-back-trumps-economic-d-day-calling-it-cover-us-debt-crisis-103818",
-      "published_at": "2026-08-20T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "11a9b9d8482ac1fd",
-      "name": "Iran says Cyprus safe if British bases stay out of conflict",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "11a9b9d8482ac1fd",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.24,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cyprus-mail.com",
-      "url": "https://cyprus-mail.com/2026/08/20/iran-says-cyprus-safe-if-british-bases-stay-out-of-conflict",
-      "published_at": "2026-08-20T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
+      }
     }
   ],
   "history": [
@@ -3740,17 +3734,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 7,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-08-20T21:37:04.306022Z",
+      "immediate": 4,
+      "short": 15,
+      "extended": 24
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-20T19:19:08.676192Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-20T21:37:04.306022Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 6
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
