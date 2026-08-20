@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-20T23:04:38.376339Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-20T23:41:22.399990Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 67,
+      "high": 19,
+      "confidence": 51,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 11,
       "low": 0,
-      "high": 26,
-      "confidence": 67,
+      "high": 27,
+      "confidence": 51,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 9,
+      "score": 19,
+      "low": 3,
       "high": 35,
-      "confidence": 67,
-      "status": "מוגבר"
+      "confidence": 51,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "01:30",
       "text": "President Trump threats economic warfare in latest shift in strategy with Iran",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "wcyb.com",
       "signal_id": "3359d7690cd5ef3c"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "00:45",
       "text": "Donald Trump Apocalyptic Threats Fall Flat with Iran",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "newsweek.com",
       "signal_id": "1cc4361dc186faa5"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "00:30",
       "text": "Iran dismisses US economic threats , and other developments in the Middle East",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "hngnews.com",
       "signal_id": "960177107c7af764"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "23:45",
       "text": "Trump threatens to isolate Iran : Who are its trading partners ?",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "tribune.com.pk",
       "signal_id": "38591518b4dbdce0"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3359d7690cd5ef3c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.848,
+      "freshness": 0.712,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.4
-      }
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.9
+      },
+      "carried_forward": true
     },
     {
       "id": "1cc4361dc186faa5",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1cc4361dc186faa5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.684,
+      "freshness": 0.575,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
-      }
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.4
+      },
+      "carried_forward": true
     },
     {
       "id": "960177107c7af764",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "960177107c7af764",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.637,
+      "freshness": 0.535,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.1
-      }
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      },
+      "carried_forward": true
     },
     {
       "id": "38591518b4dbdce0",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "38591518b4dbdce0",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.514,
+      "freshness": 0.432,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.7
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      },
+      "carried_forward": true
     },
     {
       "id": "5840aee2ba947bce",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5840aee2ba947bce",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.479,
+      "freshness": 0.402,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -3727,17 +3732,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-20T23:41:22.399990Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 19
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-20T23:04:38.376339Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 5
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
