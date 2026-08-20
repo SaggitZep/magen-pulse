@@ -1,37 +1,37 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-20T04:22:14.082789Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-20T05:04:07.322029Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 3,
       "low": 0,
-      "high": 16,
-      "confidence": 64,
+      "high": 19,
+      "confidence": 48,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 9,
       "low": 0,
-      "high": 24,
-      "confidence": 64,
+      "high": 25,
+      "confidence": 48,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 6,
+      "score": 16,
+      "low": 0,
       "high": 32,
-      "confidence": 64,
+      "confidence": 48,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "06:00",
       "text": "Trump threatens economic punishment on countries aiding Iran",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "straitstimes.com",
       "signal_id": "9dfad694a3e3cb7d"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "05:45",
       "text": "Trump Says He Launching the  Most Crushing Economic Operation Ever  Against Iran",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "news.antiwar.com",
       "signal_id": "6fc59fcacbf0606a"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "05:30",
       "text": "Trump threatens economic punishment on  any country  helping Iran",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "thehindu.com",
       "signal_id": "a1e573b9100f23a2"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "04:45",
       "text": "United Arab Emirates suspends trade with Iran after coming under renewed missile fire",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "japantoday.com",
       "signal_id": "1cd8837b39c1e2c9"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9dfad694a3e3cb7d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.676,
+      "freshness": 0.554,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      },
+      "carried_forward": true
     },
     {
       "id": "6fc59fcacbf0606a",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6fc59fcacbf0606a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.629,
+      "freshness": 0.516,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T02:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      },
+      "carried_forward": true
     },
     {
       "id": "a1e573b9100f23a2",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a1e573b9100f23a2",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.586,
+      "freshness": 0.48,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T02:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      }
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      },
+      "carried_forward": true
     },
     {
       "id": "1cd8837b39c1e2c9",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1cd8837b39c1e2c9",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.473,
+      "freshness": 0.387,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      },
+      "carried_forward": true
     },
     {
       "id": "9575da60cf375e83",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9575da60cf375e83",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.473,
+      "freshness": 0.387,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,41 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      }
-    },
-    {
-      "id": "568c016930bf6bd0",
-      "name": "UAE severs trade with Iran after reported missile strike – Ya Libnan",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "568c016930bf6bd0",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.382,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yalibnan.com",
-      "url": "https://yalibnan.com/2026/08/20/uae-severs-trade-with-iran-after-reported-missile-strike/",
-      "published_at": "2026-08-20T01:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
+      "carried_forward": true
     },
     {
       "id": "643c2f689ea6e374",
@@ -269,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "643c2f689ea6e374",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.473,
+      "freshness": 0.387,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,41 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "582f00162362af9a",
-      "name": "Trump threatens  tremendous economic consequence on any country helping Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "582f00162362af9a",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.41,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yahoo.com",
-      "url": "https://www.yahoo.com/news/politics/articles/trump-threatens-tremendous-economic-consequences-002545163.html",
-      "published_at": "2026-08-20T01:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
+      "carried_forward": true
     },
     {
       "id": "b46108e78815992e",
@@ -331,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b46108e78815992e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.473,
+      "freshness": 0.387,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "92bca9de87534498",
@@ -362,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "92bca9de87534498",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.473,
+      "freshness": 0.387,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +323,75 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "568c016930bf6bd0",
+      "name": "UAE severs trade with Iran after reported missile strike – Ya Libnan",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "568c016930bf6bd0",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.313,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yalibnan.com",
+      "url": "https://yalibnan.com/2026/08/20/uae-severs-trade-with-iran-after-reported-missile-strike/",
+      "published_at": "2026-08-20T01:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "582f00162362af9a",
+      "name": "Trump threatens  tremendous economic consequence on any country helping Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "582f00162362af9a",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.336,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yahoo.com",
+      "url": "https://www.yahoo.com/news/politics/articles/trump-threatens-tremendous-economic-consequences-002545163.html",
+      "published_at": "2026-08-20T01:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "8c5eac2b45c1cc90",
@@ -393,7 +403,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8c5eac2b45c1cc90",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.41,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T01:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "d36f52c6bf1155dc",
@@ -424,7 +435,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d36f52c6bf1155dc",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.41,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,10 +451,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T01:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "6c3a2fdc5906a819",
@@ -455,7 +467,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6c3a2fdc5906a819",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.355,
+      "freshness": 0.291,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,10 +483,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "34990ac9561dd631",
@@ -486,7 +499,7 @@ window.MAGEN_STATE = {
       "dependency_group": "34990ac9561dd631",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.41,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,10 +515,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T01:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
+      },
+      "carried_forward": true
     },
     {
       "id": "ad6ee54e87ba8e89",
@@ -517,7 +531,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ad6ee54e87ba8e89",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.382,
+      "freshness": 0.313,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,10 +547,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T01:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -3869,17 +3884,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 11,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-20T05:04:07.322029Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 16
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-20T04:22:14.082789Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 15
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 15
       },
       "manual": {
         "ok": true,
