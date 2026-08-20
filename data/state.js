@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-20T18:36:20.262985Z",
+  "generated_at": "2026-08-20T19:19:08.676192Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 65,
+      "high": 16,
+      "confidence": 64,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
-      "low": 1,
-      "high": 27,
-      "confidence": 65,
+      "score": 11,
+      "low": 0,
+      "high": 24,
+      "confidence": 64,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 23,
-      "low": 10,
-      "high": 36,
-      "confidence": 65,
-      "status": "מוגבר"
+      "score": 19,
+      "low": 6,
+      "high": 32,
+      "confidence": 64,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -36,40 +36,40 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "20:45",
       "text": "Middle East developments : Iran dismisses US economic threats | Politics and Government",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "reviewjournal.com",
       "signal_id": "6854fc2de954e27c"
     },
     {
-      "time": "20:30",
-      "text": "Iran Hits Back at Trump Threat of a  Crushing  Economic  D - Day  Campaign",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "time.com",
-      "signal_id": "e066a17afcca8a0b"
-    },
-    {
       "time": "20:45",
       "text": "BOOM ! US military is sneaking 10 million barrels of oil past the Iranians every day … – The Right Scoop",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "therightscoop.com",
       "signal_id": "192d143bf4741218"
     },
     {
-      "time": "19:00",
-      "text": "Iran FM Blasts Trump Economic D - Day Threat  Diversion  Which Will Fail , As New Carrier Arrives In Mideast Waters",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "20:30",
+      "text": "Iran Hits Back at Trump Threat of a  Crushing  Economic  D - Day  Campaign",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
-      "source": "zerohedge.com",
-      "signal_id": "de2f242e8b918f4a"
+      "source": "time.com",
+      "signal_id": "e066a17afcca8a0b"
+    },
+    {
+      "time": "19:00",
+      "text": "Iran Fires Back at Trump  Economic D - Day , Calling It Cover for US Debt Crisis",
+      "impact": "השפעה מיידית מחושבת: +0.7",
+      "direction": "up",
+      "source": "jp.ibtimes.com",
+      "signal_id": "ac2056dffd10d243"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6854fc2de954e27c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.783,
+      "freshness": 0.639,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,40 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      }
-    },
-    {
-      "id": "e066a17afcca8a0b",
-      "name": "Iran Hits Back at Trump Threat of a  Crushing  Economic  D - Day  Campaign",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e066a17afcca8a0b",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.729,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "time.com",
-      "url": "https://time.com/article/2026/08/20/iran-hits-back-at-trump-s-threat-of-a-crushing-economic-d-day-campaign/",
-      "published_at": "2026-08-20T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.1
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
       }
     },
     {
@@ -145,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "192d143bf4741218",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.783,
+      "freshness": 0.639,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,22 +130,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
       }
     },
     {
-      "id": "de2f242e8b918f4a",
-      "name": "Iran FM Blasts Trump Economic D - Day Threat  Diversion  Which Will Fail , As New Carrier Arrives In Mideast Waters",
+      "id": "e066a17afcca8a0b",
+      "name": "Iran Hits Back at Trump Threat of a  Crushing  Economic  D - Day  Campaign",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "de2f242e8b918f4a",
+      "dependency_group": "e066a17afcca8a0b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.475,
+      "freshness": 0.595,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -187,14 +156,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "zerohedge.com",
-      "url": "https://www.zerohedge.com/geopolitical/iran-fm-says-trumps-economic-d-day-threat-diversion-which-will-fail-new-carrier",
-      "published_at": "2026-08-20T16:00:00Z",
+      "source": "time.com",
+      "url": "https://time.com/article/2026/08/20/iran-hits-back-at-trump-s-threat-of-a-crushing-economic-d-day-campaign/",
+      "published_at": "2026-08-20T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
       }
     },
     {
@@ -207,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ac2056dffd10d243",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.475,
+      "freshness": 0.387,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +192,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "de2f242e8b918f4a",
+      "name": "Iran FM Blasts Trump Economic D - Day Threat  Diversion  Which Will Fail , As New Carrier Arrives In Mideast Waters",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "de2f242e8b918f4a",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.387,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "zerohedge.com",
+      "url": "https://www.zerohedge.com/geopolitical/iran-fm-says-trumps-economic-d-day-threat-diversion-which-will-fail-new-carrier",
+      "published_at": "2026-08-20T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     },
     {
@@ -238,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "11a9b9d8482ac1fd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.475,
+      "freshness": 0.387,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,102 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "3f1b2ed4166de055",
-      "name": "Trump threatens Iran With  Economic D - Day",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3f1b2ed4166de055",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.383,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "legalinsurrection.com",
-      "url": "https://legalinsurrection.com/2026/08/trump-threatens-iran-with-economic-d-day/",
-      "published_at": "2026-08-20T15:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
-    },
-    {
-      "id": "6bdf8a2a94233790",
-      "name": "Trump Threatens Iran with  Economic D - Day . Are Energy Stocks Still Worth Chasing ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6bdf8a2a94233790",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.383,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "finance.yahoo.com",
-      "url": "https://finance.yahoo.com/energy/articles/trump-threatens-iran-economic-d-143629327.html",
-      "published_at": "2026-08-20T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
-    },
-    {
-      "id": "b1aefe5080bfc986",
-      "name": "Iran dismisses US economic threats , other developments in Middle East",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b1aefe5080bfc986",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.332,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "courant.com",
-      "url": "https://www.courant.com/2026/08/20/iran-trump-economic-threats-middle-east-news/",
-      "published_at": "2026-08-20T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
         "short": 2.2,
-        "extended": 3.7
+        "extended": 3.8
       }
     }
   ],
@@ -3803,17 +3710,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 14,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-08-20T19:19:08.676192Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 19
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-20T18:36:20.262985Z",
+    "last_success": "2026-08-20T19:19:08.676192Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 9
+        "relevant": 6
       },
       "manual": {
         "ok": true,
