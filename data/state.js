@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-20T14:49:32.679368Z",
+  "generated_at": "2026-08-20T15:23:56.515996Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,24 +9,24 @@ window.MAGEN_STATE = {
       "score": 4,
       "low": 0,
       "high": 17,
-      "confidence": 65,
+      "confidence": 64,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
-      "low": 0,
-      "high": 26,
-      "confidence": 65,
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 64,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 65,
-      "status": "נמוך"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 64,
+      "status": "מוגבר"
     }
   },
   "coverage": {
@@ -36,43 +36,105 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": 0
   },
   "changes": [
     {
+      "time": "17:45",
+      "text": "Iran dismisses US economic threats , other developments in Middle East",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "courant.com",
+      "signal_id": "b1aefe5080bfc986"
+    },
+    {
+      "time": "17:30",
+      "text": "UAE Cuts Trade Ties With Iran as NATO Warns It  Prepared to Address Any Threat",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "latintimes.com",
+      "signal_id": "c07173ff59b0c035"
+    },
+    {
       "time": "17:15",
       "text": "Iran war news : U . S . economic threats and Houthi attacks",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "cp24.com",
       "signal_id": "8ca1669dadcff8ea"
     },
     {
-      "time": "16:45",
-      "text": "Iran dismisses US economic threats , and other developments in the Middle East",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "ksat.com",
-      "signal_id": "960177107c7af764"
-    },
-    {
       "time": "15:30",
       "text": "Trump Threatens  Tremendou Punishment For Countries Doing Business With Iran",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "leadership.ng",
       "signal_id": "f28bccfe87c584fa"
-    },
-    {
-      "time": "15:15",
-      "text": "Iran Consul General slams Trump  Tremendous Economic Consequences  threat to Tehran partners , calls it  sign of weakness  for US",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "aninews.in",
-      "signal_id": "697e9e7cbbe1c002"
     }
   ],
   "signals": [
+    {
+      "id": "b1aefe5080bfc986",
+      "name": "Iran dismisses US economic threats , other developments in Middle East",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b1aefe5080bfc986",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.831,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "courant.com",
+      "url": "https://www.courant.com/2026/08/20/iran-trump-economic-threats-middle-east-news/",
+      "published_at": "2026-08-20T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
+    {
+      "id": "c07173ff59b0c035",
+      "name": "UAE Cuts Trade Ties With Iran as NATO Warns It  Prepared to Address Any Threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c07173ff59b0c035",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.773,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "latintimes.com",
+      "url": "https://www.latintimes.com/uae-cuts-trade-ties-iran-nato-warns-its-prepared-address-any-threat-598684",
+      "published_at": "2026-08-20T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
     {
       "id": "8ca1669dadcff8ea",
       "name": "Iran war news : U . S . economic threats and Houthi attacks",
@@ -83,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8ca1669dadcff8ea",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.848,
+      "freshness": 0.72,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,40 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.4
-      }
-    },
-    {
-      "id": "960177107c7af764",
-      "name": "Iran dismisses US economic threats , and other developments in the Middle East",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "960177107c7af764",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.735,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ksat.com",
-      "url": "https://www.ksat.com/news/world/2026/08/20/iran-dismisses-us-economic-threats-and-other-developments-in-the-middle-east/",
-      "published_at": "2026-08-20T13:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.1
+        "short": 4.7,
+        "extended": 8.0
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f28bccfe87c584fa",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.515,
+      "freshness": 0.437,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "697e9e7cbbe1c002",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.479,
+      "freshness": 0.407,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
       }
     },
     {
@@ -207,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f165d4d1f85354b5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.479,
+      "freshness": 0.407,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,71 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "2e726e30af2f3584",
-      "name": "Ukraine must compensate for attack on Iranian ship : Envoy",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2e726e30af2f3584",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.446,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/08/ukraine-260819-irna01.htm",
-      "published_at": "2026-08-20T12:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "043c15076a2b0922",
-      "name": "US Military Strategy Shift in Gulf Amid Iran Tensions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "043c15076a2b0922",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.446,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "divyamarathi.bhaskar.com",
-      "url": "https://divyamarathi.bhaskar.com/international/news/us-military-strategy-shift-in-gulf-amid-iran-tensions-deployment-update-138781769.html",
-      "published_at": "2026-08-20T12:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
       }
     },
     {
@@ -300,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "11d2724b92ce7af0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.387,
+      "freshness": 0.328,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
       }
     },
     {
@@ -331,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "189750b15b739dc0",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.387,
+      "freshness": 0.328,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,9 +316,71 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T11:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
+    },
+    {
+      "id": "2e726e30af2f3584",
+      "name": "Ukraine must compensate for attack on Iranian ship : Envoy",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2e726e30af2f3584",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.379,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/08/ukraine-260819-irna01.htm",
+      "published_at": "2026-08-20T12:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      }
+    },
+    {
+      "id": "043c15076a2b0922",
+      "name": "US Military Strategy Shift in Gulf Amid Iran Tensions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "043c15076a2b0922",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.379,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "divyamarathi.bhaskar.com",
+      "url": "https://divyamarathi.bhaskar.com/international/news/us-military-strategy-shift-in-gulf-amid-iran-tensions-deployment-update-138781769.html",
+      "published_at": "2026-08-20T12:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       }
     }
   ],
@@ -3767,17 +3798,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-20T15:23:56.515996Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 24
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-20T14:49:32.679368Z",
+    "last_success": "2026-08-20T15:23:56.515996Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 9
+        "relevant": 10
       },
       "manual": {
         "ok": true,
