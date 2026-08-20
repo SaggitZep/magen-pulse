@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-20T19:52:51.695397Z",
+  "generated_at": "2026-08-20T20:25:48.481879Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
       "high": 19,
-      "confidence": 49,
+      "confidence": 47,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 8,
       "low": 0,
-      "high": 26,
-      "confidence": 49,
+      "high": 25,
+      "confidence": 47,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
+      "score": 14,
       "low": 0,
-      "high": 32,
-      "confidence": 49,
+      "high": 31,
+      "confidence": 47,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "20:45",
       "text": "Middle East developments : Iran dismisses US economic threats | Politics and Government",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "reviewjournal.com",
       "signal_id": "6854fc2de954e27c"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:30",
       "text": "Iran Hits Back at Trump Threat of a  Crushing  Economic  D - Day  Campaign",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "time.com",
       "signal_id": "e066a17afcca8a0b"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:45",
       "text": "BOOM ! US military is sneaking 10 million barrels of oil past the Iranians every day … – The Right Scoop",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "therightscoop.com",
       "signal_id": "192d143bf4741218"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "19:00",
       "text": "Iran Fires Back at Trump  Economic D - Day , Calling It Cover for US Debt Crisis",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "jp.ibtimes.com",
       "signal_id": "ac2056dffd10d243"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6854fc2de954e27c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.544,
+      "freshness": 0.465,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.2
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e066a17afcca8a0b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.506,
+      "freshness": 0.433,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "192d143bf4741218",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.544,
+      "freshness": 0.465,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.4
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ac2056dffd10d243",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.33,
+      "freshness": 0.282,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "de2f242e8b918f4a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.33,
+      "freshness": 0.282,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.7
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "11a9b9d8482ac1fd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.33,
+      "freshness": 0.282,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     }
@@ -3728,6 +3728,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-20T20:25:48.481879Z",
+      "immediate": 2,
+      "short": 8,
+      "extended": 14
     }
   ],
   "health": {
