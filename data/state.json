@@ -1,78 +1,140 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-20T22:40:44.810977Z",
+  "mode": "live",
+  "generated_at": "2026-08-20T23:04:38.376339Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 54,
+      "high": 17,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
       "score": 13,
       "low": 0,
-      "high": 28,
-      "confidence": 54,
+      "high": 26,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 6,
-      "high": 36,
-      "confidence": 54,
-      "status": "נמוך"
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
+      "time": "01:30",
+      "text": "President Trump threats economic warfare in latest shift in strategy with Iran",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "wcyb.com",
+      "signal_id": "3359d7690cd5ef3c"
+    },
+    {
+      "time": "00:45",
+      "text": "Donald Trump Apocalyptic Threats Fall Flat with Iran",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "newsweek.com",
+      "signal_id": "1cc4361dc186faa5"
+    },
+    {
       "time": "00:30",
       "text": "Iran dismisses US economic threats , and other developments in the Middle East",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "hngnews.com",
       "signal_id": "960177107c7af764"
     },
     {
-      "time": "00:30",
-      "text": "President Trump threats economic warfare in latest shift in strategy with Iran",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "foxbaltimore.com",
-      "signal_id": "3359d7690cd5ef3c"
-    },
-    {
-      "time": "00:15",
-      "text": "Donald Trump Effectively Just Told Iran to Get a Nuclear Weapon",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "theatlantic.com",
-      "signal_id": "ee9973a32cdafa02"
-    },
-    {
       "time": "23:45",
       "text": "Trump threatens to isolate Iran : Who are its trading partners ?",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "tribune.com.pk",
       "signal_id": "38591518b4dbdce0"
     }
   ],
   "signals": [
+    {
+      "id": "3359d7690cd5ef3c",
+      "name": "President Trump threats economic warfare in latest shift in strategy with Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3359d7690cd5ef3c",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.848,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wcyb.com",
+      "url": "https://wcyb.com/news/nation-world/president-trump-threats-economic-warfare-in-latest-shift-in-strategy-with-iran-strait-hormuz-europe-us-debt-economic",
+      "published_at": "2026-08-20T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
+    },
+    {
+      "id": "1cc4361dc186faa5",
+      "name": "Donald Trump Apocalyptic Threats Fall Flat with Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1cc4361dc186faa5",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.684,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newsweek.com",
+      "url": "https://www.newsweek.com/donald-trumps-apocalyptic-threats-fall-flat-with-iran-12346940",
+      "published_at": "2026-08-20T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      }
+    },
     {
       "id": "960177107c7af764",
       "name": "Iran dismisses US economic threats , and other developments in the Middle East",
@@ -83,7 +145,7 @@
       "dependency_group": "960177107c7af764",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.714,
+      "freshness": 0.637,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,75 +161,10 @@
       "published_at": "2026-08-20T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3359d7690cd5ef3c",
-      "name": "President Trump threats economic warfare in latest shift in strategy with Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3359d7690cd5ef3c",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.714,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "foxbaltimore.com",
-      "url": "https://foxbaltimore.com/news/nation-world/president-trump-threats-economic-warfare-in-latest-shift-in-strategy-with-iran-strait-hormuz-europe-us-debt-economic",
-      "published_at": "2026-08-20T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ee9973a32cdafa02",
-      "name": "Donald Trump Effectively Just Told Iran to Get a Nuclear Weapon",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ee9973a32cdafa02",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.665,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theatlantic.com",
-      "url": "https://www.theatlantic.com/ideas/2026/08/trump-north-korean-iran-nuclear-weapons/688339/",
-      "published_at": "2026-08-20T21:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.6
-      },
-      "carried_forward": true
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.1
+      }
     },
     {
       "id": "38591518b4dbdce0",
@@ -179,7 +176,7 @@
       "dependency_group": "38591518b4dbdce0",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.576,
+      "freshness": 0.514,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +192,10 @@
       "published_at": "2026-08-20T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
+      }
     },
     {
       "id": "5840aee2ba947bce",
@@ -211,7 +207,7 @@
       "dependency_group": "5840aee2ba947bce",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.537,
+      "freshness": 0.479,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,11 +223,10 @@
       "published_at": "2026-08-20T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
     }
   ],
   "history": [
@@ -3726,17 +3721,23 @@
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-20T23:04:38.376339Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 22
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-20T22:02:16.103614Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-20T23:04:38.376339Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "ok": true,
+        "items": 150,
+        "relevant": 5
       },
       "manual": {
         "ok": true,
