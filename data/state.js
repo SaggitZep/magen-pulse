@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-20T12:03:23.720582Z",
+  "generated_at": "2026-08-20T13:08:49.705063Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
-      "high": 20,
-      "confidence": 47,
+      "high": 19,
+      "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 6,
       "low": 0,
-      "high": 25,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 45,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
+      "score": 10,
       "low": 0,
-      "high": 31,
-      "confidence": 47,
+      "high": 27,
+      "confidence": 45,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "13:30",
       "text": "Trump threatens Iran with  crushing  economic warfare",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "samaa.tv",
       "signal_id": "73ce51d276f58887"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "12:00",
       "text": "Report : Trump suggests intense attacks on Iran if economic pressure fails",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "israelnationalnews.com",
       "signal_id": "8eee1fb17319952a"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:30",
       "text": "Uppgifter : Iran överväger attackera mål i Europa",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "tv4.se",
       "signal_id": "7c876b501e141c5e"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:15",
       "text": "US opens secret oil shipping corridor , exporting about 10 million barrels a day amid Iran stalemate : Report",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "bignewsnetwork.com",
       "signal_id": "f165d4d1f85354b5"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "73ce51d276f58887",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.641,
+      "freshness": 0.469,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8eee1fb17319952a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.418,
+      "freshness": 0.306,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7c876b501e141c5e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.362,
+      "freshness": 0.265,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.5,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f165d4d1f85354b5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.337,
+      "freshness": 0.247,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4fdbb548c302753b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.314,
+      "freshness": 0.23,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "65b6342067c7e81b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.314,
+      "freshness": 0.23,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "043c15076a2b0922",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.292,
+      "freshness": 0.214,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "73983ef78ae2e476",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.253,
+      "freshness": 0.185,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     }
@@ -3726,6 +3726,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 8,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-08-20T13:08:49.705063Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 10
     }
   ],
   "health": {
@@ -3735,7 +3741,7 @@ window.MAGEN_STATE = {
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "error": "HTTP Error 429: Too Many Requests",
         "carried_forward": 8
       },
       "manual": {
