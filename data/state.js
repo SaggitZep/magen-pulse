@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-20T15:23:56.515996Z",
+  "generated_at": "2026-08-20T16:02:49.651983Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,24 +9,24 @@ window.MAGEN_STATE = {
       "score": 4,
       "low": 0,
       "high": 17,
-      "confidence": 64,
+      "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
-      "low": 1,
-      "high": 27,
-      "confidence": 64,
+      "score": 13,
+      "low": 0,
+      "high": 26,
+      "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 64,
-      "status": "מוגבר"
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 65,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -40,9 +40,17 @@ window.MAGEN_STATE = {
   },
   "changes": [
     {
+      "time": "18:15",
+      "text": "Trump threatens Iran With  Economic D - Day",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "legalinsurrection.com",
+      "signal_id": "3f1b2ed4166de055"
+    },
+    {
       "time": "17:45",
       "text": "Iran dismisses US economic threats , other developments in Middle East",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "courant.com",
       "signal_id": "b1aefe5080bfc986"
@@ -50,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "17:30",
       "text": "UAE Cuts Trade Ties With Iran as NATO Warns It  Prepared to Address Any Threat",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "latintimes.com",
       "signal_id": "c07173ff59b0c035"
@@ -58,21 +66,44 @@ window.MAGEN_STATE = {
     {
       "time": "17:15",
       "text": "Iran war news : U . S . economic threats and Houthi attacks",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "cp24.com",
       "signal_id": "8ca1669dadcff8ea"
-    },
-    {
-      "time": "15:30",
-      "text": "Trump Threatens  Tremendou Punishment For Countries Doing Business With Iran",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "leadership.ng",
-      "signal_id": "f28bccfe87c584fa"
     }
   ],
   "signals": [
+    {
+      "id": "3f1b2ed4166de055",
+      "name": "Trump threatens Iran With  Economic D - Day",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3f1b2ed4166de055",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.796,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "legalinsurrection.com",
+      "url": "https://legalinsurrection.com/2026/08/trump-threatens-iran-with-economic-d-day/",
+      "published_at": "2026-08-20T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
     {
       "id": "b1aefe5080bfc986",
       "name": "Iran dismisses US economic threats , other developments in Middle East",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b1aefe5080bfc986",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.831,
+      "freshness": 0.69,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.2
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
       }
     },
     {
@@ -114,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c07173ff59b0c035",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.773,
+      "freshness": 0.643,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.6
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8ca1669dadcff8ea",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.72,
+      "freshness": 0.598,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f28bccfe87c584fa",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.437,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,22 +223,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
       }
     },
     {
-      "id": "697e9e7cbbe1c002",
-      "name": "Iran Consul General slams Trump  Tremendous Economic Consequences  threat to Tehran partners , calls it  sign of weakness  for US",
+      "id": "1df7ad7916b02ee5",
+      "name": "Greece Ready to Deploy Patriot Missiles to Protect Bulgaria From Iran - Novinite . com",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "697e9e7cbbe1c002",
-      "strength": 0.45,
+      "dependency_group": "1df7ad7916b02ee5",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.407,
+      "freshness": 0.338,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -218,14 +249,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "aninews.in",
-      "url": "https://aninews.in/news/world/asia/iran-consul-general-slams-trumps-tremendous-economic-consequences-threat-to-tehrans-partners-calls-it-sign-of-weakness-for-us20260820170739/",
+      "source": "novinite.com",
+      "url": "https://www.novinite.com/articles/240210/Greece+Ready+to+Deploy+Patriot+Missiles+to+Protect+Bulgaria+From+Iran",
       "published_at": "2026-08-20T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
       }
     },
     {
@@ -238,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f165d4d1f85354b5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.407,
+      "freshness": 0.338,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,53 +285,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      }
-    },
-    {
-      "id": "11d2724b92ce7af0",
-      "name": "Athens on alert over  possible Iranian strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "11d2724b92ce7af0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.328,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "neoskosmos.com",
-      "url": "https://neoskosmos.com/en/2026/08/20/news/greece/athens-on-alert-over-possible-iranian-strikes/",
-      "published_at": "2026-08-20T11:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "short": 2.0,
+        "extended": 3.3
       }
     },
     {
-      "id": "189750b15b739dc0",
-      "name": "Trump threatened to bomb Oman because he  unhappy  with country deal with Iran",
+      "id": "697e9e7cbbe1c002",
+      "name": "Iran Consul General slams Trump  Tremendous Economic Consequences  threat to Tehran partners , calls it  sign of weakness  for US",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "189750b15b739dc0",
+      "dependency_group": "697e9e7cbbe1c002",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.328,
+      "freshness": 0.338,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -311,71 +311,9 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "naharnet.com",
-      "url": "https://naharnet.com/stories/en/321939-trump-threatened-to-bomb-oman-because-he-s-unhappy-with-country-s-deal-with-iran",
-      "published_at": "2026-08-20T11:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
-    },
-    {
-      "id": "2e726e30af2f3584",
-      "name": "Ukraine must compensate for attack on Iranian ship : Envoy",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2e726e30af2f3584",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.379,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/08/ukraine-260819-irna01.htm",
-      "published_at": "2026-08-20T12:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    },
-    {
-      "id": "043c15076a2b0922",
-      "name": "US Military Strategy Shift in Gulf Amid Iran Tensions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "043c15076a2b0922",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.379,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "divyamarathi.bhaskar.com",
-      "url": "https://divyamarathi.bhaskar.com/international/news/us-military-strategy-shift-in-gulf-amid-iran-tensions-deployment-update-138781769.html",
-      "published_at": "2026-08-20T12:00:00Z",
+      "source": "aninews.in",
+      "url": "https://aninews.in/news/world/asia/iran-consul-general-slams-trumps-tremendous-economic-consequences-threat-to-tehrans-partners-calls-it-sign-of-weakness-for-us20260820170739/",
+      "published_at": "2026-08-20T12:15:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
@@ -3804,17 +3742,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 14,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-20T16:02:49.651983Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 22
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-20T15:23:56.515996Z",
+    "last_success": "2026-08-20T16:02:49.651983Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 10
+        "relevant": 8
       },
       "manual": {
         "ok": true,
