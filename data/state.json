@@ -1,109 +1,170 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-20T07:23:38.682401Z",
+  "mode": "live",
+  "generated_at": "2026-08-20T08:04:57.457208Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 19,
-      "low": 3,
-      "high": 35,
-      "confidence": 51,
-      "status": "נמוך"
+      "score": 4,
+      "low": 0,
+      "high": 17,
+      "confidence": 65,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 22,
-      "low": 6,
-      "high": 38,
-      "confidence": 51,
+      "score": 13,
+      "low": 0,
+      "high": 26,
+      "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 5,
-      "high": 37,
-      "confidence": 50,
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 65,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -7
+    "points_60m": -15
   },
   "changes": [
     {
-      "time": "08:45",
-      "text": "Trump threatens Iran trade partners , as military strikes make way for economic pressure | US - Israel war on Iran",
-      "impact": "השפעה מיידית מחושבת: +16.9",
+      "time": "10:15",
+      "text": "NATO Prepared to Address Iranian Threats Extending to Europe",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "theguardian.com",
-      "signal_id": "c985f34a0c7c2d4b"
+      "source": "english.aawsat.com",
+      "signal_id": "73983ef78ae2e476"
+    },
+    {
+      "time": "10:30",
+      "text": "US opens secret oil shipping corridor , exporting about 10 million barrels a day amid Iran stalemate : Report",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "aninews.in",
+      "signal_id": "f165d4d1f85354b5"
+    },
+    {
+      "time": "09:15",
+      "text": "Trump threatens Iran trade partners , as military strikes make way for economic pressure",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "aol.co.uk",
+      "signal_id": "e054ad36124b53c5"
     },
     {
       "time": "08:15",
       "text": "Trump threatens countries doing business with Iran in new economic crackdown",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "thenews.com.pk",
       "signal_id": "fc0b1e635f041e39"
-    },
-    {
-      "time": "08:00",
-      "text": "Trump declares  economic D - Day  against Iran , threatens countries aiding Tehran",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "moneycontrol.com",
-      "signal_id": "ef67d345a5fc8573"
-    },
-    {
-      "time": "08:15",
-      "text": "Trump Declares  Economic D - Day  on Iran as UAE Cuts All Trade Ties and Hormuz Attacks Continue",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "hngn.com",
-      "signal_id": "0b93eb7993d649a6"
     }
   ],
   "signals": [
     {
-      "id": "c985f34a0c7c2d4b",
-      "name": "Trump threatens Iran trade partners , as military strikes make way for economic pressure | US - Israel war on Iran",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "73983ef78ae2e476",
+      "name": "NATO Prepared to Address Iranian Threats Extending to Europe",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "c985f34a0c7c2d4b",
-      "strength": 0.55,
+      "dependency_group": "73983ef78ae2e476",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.625,
+      "freshness": 0.788,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "theguardian.com",
-      "url": "https://www.theguardian.com/world/2026/aug/20/trump-threatens-crush-iran-economy-war-hormuz",
-      "published_at": "2026-08-20T05:45:00Z",
+      "source": "english.aawsat.com",
+      "url": "https://english.aawsat.com/world/5309049-nato-prepared-address-iranian-threats-extending-europe",
+      "published_at": "2026-08-20T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 16.9,
-        "short": 13.2,
-        "extended": 5.6
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "f165d4d1f85354b5",
+      "name": "US opens secret oil shipping corridor , exporting about 10 million barrels a day amid Iran stalemate : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f165d4d1f85354b5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.847,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aninews.in",
+      "url": "https://aninews.in/news/world/us/us-opens-secret-oil-shipping-corridor-exporting-about-10-million-barrels-a-day-amid-iran-stalemate-report20260820113628/",
+      "published_at": "2026-08-20T07:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.3
+      }
+    },
+    {
+      "id": "e054ad36124b53c5",
+      "name": "Trump threatens Iran trade partners , as military strikes make way for economic pressure",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e054ad36124b53c5",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.592,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aol.co.uk",
+      "url": "https://www.aol.co.uk/articles/trump-threatens-iran-trade-partners-045344000.html",
+      "published_at": "2026-08-20T06:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
     },
     {
       "id": "fc0b1e635f041e39",
@@ -115,7 +176,7 @@
       "dependency_group": "fc0b1e635f041e39",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.542,
+      "freshness": 0.445,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,43 +192,10 @@
       "published_at": "2026-08-20T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ef67d345a5fc8573",
-      "name": "Trump declares  economic D - Day  against Iran , threatens countries aiding Tehran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ef67d345a5fc8573",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.505,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/trump-declares-economic-d-day-against-iran-threatens-countries-aiding-tehran-article-14010789.html",
-      "published_at": "2026-08-20T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      }
     },
     {
       "id": "0b93eb7993d649a6",
@@ -179,7 +207,7 @@
       "dependency_group": "0b93eb7993d649a6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.542,
+      "freshness": 0.445,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +223,41 @@
       "published_at": "2026-08-20T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "ef67d345a5fc8573",
+      "name": "Trump declares  economic D - Day  against Iran , threatens countries aiding Tehran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ef67d345a5fc8573",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.414,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/trump-declares-economic-d-day-against-iran-threatens-countries-aiding-tehran-article-14010789.html",
+      "published_at": "2026-08-20T05:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
     },
     {
       "id": "b66857d61ed44b19",
@@ -211,7 +269,7 @@
       "dependency_group": "b66857d61ed44b19",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.47,
+      "freshness": 0.386,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,11 +285,10 @@
       "published_at": "2026-08-20T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
     },
     {
       "id": "04fbe71a420e8fdd",
@@ -243,7 +300,7 @@
       "dependency_group": "04fbe71a420e8fdd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.505,
+      "freshness": 0.414,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,75 +316,10 @@
       "published_at": "2026-08-20T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9dfad694a3e3cb7d",
-      "name": "Trump threatens economic punishment on countries aiding Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9dfad694a3e3cb7d",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.285,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "straitstimes.com",
-      "url": "https://www.straitstimes.com/world/united-states/trump-threatens-economic-punishment-on-any-country-helping-iran",
-      "published_at": "2026-08-20T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6fc59fcacbf0606a",
-      "name": "Trump Says He Launching the  Most Crushing Economic Operation Ever  Against Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6fc59fcacbf0606a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.265,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.antiwar.com",
-      "url": "https://news.antiwar.com/2026/08/19/trump-says-hes-launching-the-most-crushing-economic-operation-ever-against-iran/",
-      "published_at": "2026-08-20T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     }
   ],
   "history": [
@@ -3684,17 +3676,23 @@
       "immediate": 19,
       "short": 22,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-20T08:04:57.457208Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 22
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-20T06:21:56.660904Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-20T08:04:57.457208Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 8
       },
       "manual": {
         "ok": true,
