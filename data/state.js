@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-20T10:17:07.534504Z",
+  "generated_at": "2026-08-20T10:54:03.386806Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 4,
       "low": 0,
-      "high": 16,
-      "confidence": 65,
+      "high": 17,
+      "confidence": 64,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 12,
       "low": 0,
-      "high": 23,
-      "confidence": 65,
+      "high": 25,
+      "confidence": 64,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 4,
-      "high": 30,
-      "confidence": 65,
+      "score": 19,
+      "low": 6,
+      "high": 32,
+      "confidence": 64,
       "status": "נמוך"
     }
   },
@@ -36,43 +36,74 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": 1
   },
   "changes": [
     {
+      "time": "13:30",
+      "text": "Trump threatens Iran with  crushing  economic warfare",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "samaa.tv",
+      "signal_id": "73ce51d276f58887"
+    },
+    {
       "time": "12:00",
       "text": "Report : Trump suggests intense attacks on Iran if economic pressure fails",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "israelnationalnews.com",
       "signal_id": "8eee1fb17319952a"
     },
     {
-      "time": "11:15",
-      "text": "US opens secret oil shipping corridor , exporting about 10 million barrels a day amid Iran stalemate : Report",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "bignewsnetwork.com",
-      "signal_id": "f165d4d1f85354b5"
-    },
-    {
       "time": "11:30",
       "text": "Uppgifter : Iran överväger attackera mål i Europa",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "tv4.se",
       "signal_id": "7c876b501e141c5e"
     },
     {
-      "time": "11:00",
-      "text": "Trump threatens to  punish  countries doing business with Iran",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "11:15",
+      "text": "US opens secret oil shipping corridor , exporting about 10 million barrels a day amid Iran stalemate : Report",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
-      "source": "tradearabia.com:443",
-      "signal_id": "4fdbb548c302753b"
+      "source": "bignewsnetwork.com",
+      "signal_id": "f165d4d1f85354b5"
     }
   ],
   "signals": [
+    {
+      "id": "73ce51d276f58887",
+      "name": "Trump threatens Iran with  crushing  economic warfare",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "73ce51d276f58887",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.892,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "samaa.tv",
+      "url": "https://www.samaa.tv/2087355486-trump-threatens-iran-with-unprecedented-economic-warfare",
+      "published_at": "2026-08-20T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.9
+      }
+    },
     {
       "id": "8eee1fb17319952a",
       "name": "Report : Trump suggests intense attacks on Iran if economic pressure fails",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8eee1fb17319952a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.693,
+      "freshness": 0.581,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,40 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
-    },
-    {
-      "id": "f165d4d1f85354b5",
-      "name": "US opens secret oil shipping corridor , exporting about 10 million barrels a day amid Iran stalemate : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f165d4d1f85354b5",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.559,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bignewsnetwork.com",
-      "url": "http://www.bignewsnetwork.com/news/279253380/us-opens-secret-oil-shipping-corridor-exporting-about-10-million-barrels-a-day-amid-iran-stalemate-report",
-      "published_at": "2026-08-20T08:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 1.0,
-        "short": 3.2,
-        "extended": 5.5
+        "short": 3.4,
+        "extended": 5.7
       }
     },
     {
@@ -145,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7c876b501e141c5e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.6,
+      "freshness": 0.504,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +161,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "f165d4d1f85354b5",
+      "name": "US opens secret oil shipping corridor , exporting about 10 million barrels a day amid Iran stalemate : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f165d4d1f85354b5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.469,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bignewsnetwork.com",
+      "url": "http://www.bignewsnetwork.com/news/279253380/us-opens-secret-oil-shipping-corridor-exporting-about-10-million-barrels-a-day-amid-iran-stalemate-report",
+      "published_at": "2026-08-20T08:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4fdbb548c302753b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.52,
+      "freshness": 0.437,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     },
     {
@@ -207,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "65b6342067c7e81b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.52,
+      "freshness": 0.437,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     },
     {
@@ -238,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "73983ef78ae2e476",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.42,
+      "freshness": 0.352,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     },
     {
@@ -269,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "043c15076a2b0922",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.485,
+      "freshness": 0.406,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
       }
     }
   ],
@@ -3669,17 +3700,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-20T10:54:03.386806Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 19
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-20T10:17:07.534504Z",
+    "last_success": "2026-08-20T10:54:03.386806Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 7
+        "relevant": 8
       },
       "manual": {
         "ok": true,
