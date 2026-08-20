@@ -1,78 +1,326 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-20T13:08:49.705063Z",
+  "mode": "live",
+  "generated_at": "2026-08-20T14:00:47.558755Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 3,
       "low": 0,
-      "high": 19,
-      "confidence": 45,
+      "high": 16,
+      "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
+      "score": 11,
       "low": 0,
-      "high": 23,
-      "confidence": 45,
-      "status": "לא זוהה אות חריג"
+      "high": 24,
+      "confidence": 65,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 10,
-      "low": 0,
-      "high": 27,
-      "confidence": 45,
+      "score": 19,
+      "low": 6,
+      "high": 32,
+      "confidence": 65,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 1
   },
   "changes": [
     {
-      "time": "13:30",
-      "text": "Trump threatens Iran with  crushing  economic warfare",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "15:30",
+      "text": "Trump Threatens  Tremendou Punishment For Countries Doing Business With Iran",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "samaa.tv",
-      "signal_id": "73ce51d276f58887"
+      "source": "leadership.ng",
+      "signal_id": "f28bccfe87c584fa"
     },
     {
-      "time": "12:00",
-      "text": "Report : Trump suggests intense attacks on Iran if economic pressure fails",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "15:15",
+      "text": "Iran Consul General slams Trump  Tremendous Economic Consequences  threat to Tehran partners , calls it  sign of weakness  for US",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "israelnationalnews.com",
-      "signal_id": "8eee1fb17319952a"
+      "source": "aninews.in",
+      "signal_id": "697e9e7cbbe1c002"
     },
     {
-      "time": "11:30",
-      "text": "Uppgifter : Iran överväger attackera mål i Europa",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "15:00",
+      "text": "Iran dismisses US economic threats and other developments in the Middle East",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
-      "source": "tv4.se",
-      "signal_id": "7c876b501e141c5e"
+      "source": "clickondetroit.com",
+      "signal_id": "960177107c7af764"
     },
     {
-      "time": "11:15",
+      "time": "15:15",
       "text": "US opens secret oil shipping corridor , exporting about 10 million barrels a day amid Iran stalemate : Report",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
-      "source": "bignewsnetwork.com",
+      "source": "iranherald.com",
       "signal_id": "f165d4d1f85354b5"
     }
   ],
   "signals": [
+    {
+      "id": "f28bccfe87c584fa",
+      "name": "Trump Threatens  Tremendou Punishment For Countries Doing Business With Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f28bccfe87c584fa",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.649,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "leadership.ng",
+      "url": "https://leadership.ng/trump-threatens-tremendous-punishment-for-countries-doing-business-with-iran/",
+      "published_at": "2026-08-20T12:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      }
+    },
+    {
+      "id": "697e9e7cbbe1c002",
+      "name": "Iran Consul General slams Trump  Tremendous Economic Consequences  threat to Tehran partners , calls it  sign of weakness  for US",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "697e9e7cbbe1c002",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.604,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aninews.in",
+      "url": "https://aninews.in/news/world/asia/iran-consul-general-slams-trumps-tremendous-economic-consequences-threat-to-tehrans-partners-calls-it-sign-of-weakness-for-us20260820170739/",
+      "published_at": "2026-08-20T12:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "960177107c7af764",
+      "name": "Iran dismisses US economic threats and other developments in the Middle East",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "960177107c7af764",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.563,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "clickondetroit.com",
+      "url": "https://www.clickondetroit.com/news/world/2026/08/20/iran-dismisses-us-economic-threats-and-other-developments-in-the-middle-east/",
+      "published_at": "2026-08-20T12:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "f165d4d1f85354b5",
+      "name": "US opens secret oil shipping corridor , exporting about 10 million barrels a day amid Iran stalemate : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f165d4d1f85354b5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.604,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iranherald.com",
+      "url": "http://www.iranherald.com/news/279253380/us-opens-secret-oil-shipping-corridor-exporting-about-10-million-barrels-a-day-amid-iran-stalemate-report",
+      "published_at": "2026-08-20T12:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "2e726e30af2f3584",
+      "name": "Ukraine must compensate for attack on Iranian ship : Envoy",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2e726e30af2f3584",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.563,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/08/ukraine-260819-irna01.htm",
+      "published_at": "2026-08-20T12:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "043c15076a2b0922",
+      "name": "US Military Strategy Shift in Gulf Amid Iran Tensions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "043c15076a2b0922",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.563,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "divyamarathi.bhaskar.com",
+      "url": "https://divyamarathi.bhaskar.com/international/news/us-military-strategy-shift-in-gulf-amid-iran-tensions-deployment-update-138781769.html",
+      "published_at": "2026-08-20T12:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "189750b15b739dc0",
+      "name": "Trump threatened to bomb Oman because he  unhappy  with country deal with Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "189750b15b739dc0",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.488,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "naharnet.com",
+      "url": "https://naharnet.com/stories/en/321939-trump-threatened-to-bomb-oman-because-he-s-unhappy-with-country-s-deal-with-iran",
+      "published_at": "2026-08-20T11:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
+    },
+    {
+      "id": "11d2724b92ce7af0",
+      "name": "Athens on alert over  possible Iranian strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "11d2724b92ce7af0",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.488,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "neoskosmos.com",
+      "url": "https://neoskosmos.com/en/2026/08/20/news/greece/athens-on-alert-over-possible-iranian-strikes/",
+      "published_at": "2026-08-20T11:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
+    },
     {
       "id": "73ce51d276f58887",
       "name": "Trump threatens Iran with  crushing  economic warfare",
@@ -83,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "73ce51d276f58887",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.469,
+      "freshness": 0.366,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,235 +347,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8eee1fb17319952a",
-      "name": "Report : Trump suggests intense attacks on Iran if economic pressure fails",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8eee1fb17319952a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.306,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "israelnationalnews.com",
-      "url": "https://www.israelnationalnews.com/news/431982",
-      "published_at": "2026-08-20T09:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7c876b501e141c5e",
-      "name": "Uppgifter : Iran överväger attackera mål i Europa",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7c876b501e141c5e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.265,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "tv4.se",
-      "url": "https://www.tv4.se/artikel/5LdeXlJpbvDYYmscsFgUwp/uppgifter-iran-oevervaeger-attackera-mal-i-europa",
-      "published_at": "2026-08-20T08:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f165d4d1f85354b5",
-      "name": "US opens secret oil shipping corridor , exporting about 10 million barrels a day amid Iran stalemate : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f165d4d1f85354b5",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.247,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bignewsnetwork.com",
-      "url": "http://www.bignewsnetwork.com/news/279253380/us-opens-secret-oil-shipping-corridor-exporting-about-10-million-barrels-a-day-amid-iran-stalemate-report",
-      "published_at": "2026-08-20T08:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4fdbb548c302753b",
-      "name": "Trump threatens to  punish  countries doing business with Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4fdbb548c302753b",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.23,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "tradearabia.com:443",
-      "url": "https://tradearabia.com:443/News/466749/Trump-threatens-to-punish-countries-doing-business-with-Iran",
-      "published_at": "2026-08-20T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "65b6342067c7e81b",
-      "name": "Live updates : Trump says cutting off talks , while threatening Iran with  economic warfare",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "65b6342067c7e81b",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.23,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "us.cnn.com",
-      "url": "https://us.cnn.com/2026/08/20/world/live-news/iran-war-trump",
-      "published_at": "2026-08-20T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "043c15076a2b0922",
-      "name": "US Military Strategy Shift in Gulf Amid Iran Tensions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "043c15076a2b0922",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.214,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bhaskar.com",
-      "url": "https://www.bhaskar.com/g/international/news/us-military-gulf-deployment-iran-tensions-strategy-update-138780921.html",
-      "published_at": "2026-08-20T07:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "73983ef78ae2e476",
-      "name": "NATO Prepared to Address Iranian Threats Extending to Europe",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "73983ef78ae2e476",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.185,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "english.aawsat.com",
-      "url": "https://english.aawsat.com/world/5309049-nato-prepared-address-iranian-threats-extending-europe",
-      "published_at": "2026-08-20T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     }
   ],
   "history": [
@@ -3732,17 +3755,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 6,
       "extended": 10
+    },
+    {
+      "timestamp": "2026-08-20T14:00:47.558755Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 19
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-20T10:54:03.386806Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-20T14:00:47.558755Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 9
       },
       "manual": {
         "ok": true,
