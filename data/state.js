@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-20T08:56:48.926454Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-20T09:45:06.663941Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 67,
+      "high": 19,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
-      "low": 1,
+      "score": 11,
+      "low": 0,
       "high": 27,
-      "confidence": 67,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 23,
-      "low": 10,
-      "high": 36,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 19,
+      "low": 3,
+      "high": 35,
+      "confidence": 50,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "11:30",
       "text": "Uppgifter : Iran överväger attackera mål i Europa",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "tv4.se",
       "signal_id": "7c876b501e141c5e"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:00",
       "text": "Trump threatens to  punish  countries doing business with Iran",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "tradearabia.com:443",
       "signal_id": "4fdbb548c302753b"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:00",
       "text": "Live updates : Trump says cutting off talks , while threatening Iran with  economic warfare",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "us.cnn.com",
       "signal_id": "65b6342067c7e81b"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:15",
       "text": "US opens secret oil shipping corridor , exporting about 10 million barrels a day amid Iran stalemate : Report",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "austinglobe.com",
       "signal_id": "f165d4d1f85354b5"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7c876b501e141c5e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.88,
+      "freshness": 0.699,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      }
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.9
+      },
+      "carried_forward": true
     },
     {
       "id": "4fdbb548c302753b",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4fdbb548c302753b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.763,
+      "freshness": 0.606,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      }
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "65b6342067c7e81b",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "65b6342067c7e81b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.763,
+      "freshness": 0.606,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      }
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "f165d4d1f85354b5",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f165d4d1f85354b5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.819,
+      "freshness": 0.651,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,41 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.1
-      }
-    },
-    {
-      "id": "73983ef78ae2e476",
-      "name": "NATO Prepared to Address Iranian Threats Extending to Europe",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "73983ef78ae2e476",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.616,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "english.aawsat.com",
-      "url": "https://english.aawsat.com/world/5309049-nato-prepared-address-iranian-threats-extending-europe",
-      "published_at": "2026-08-20T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
+      "carried_forward": true
     },
     {
       "id": "043c15076a2b0922",
@@ -238,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "043c15076a2b0922",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.71,
+      "freshness": 0.564,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +227,43 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "73983ef78ae2e476",
+      "name": "NATO Prepared to Address Iranian Threats Extending to Europe",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "73983ef78ae2e476",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.489,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "english.aawsat.com",
+      "url": "https://english.aawsat.com/world/5309049-nato-prepared-address-iranian-threats-extending-europe",
+      "published_at": "2026-08-20T07:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      },
+      "carried_forward": true
     },
     {
       "id": "e054ad36124b53c5",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e054ad36124b53c5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.463,
+      "freshness": 0.368,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "fc0b1e635f041e39",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fc0b1e635f041e39",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.348,
+      "freshness": 0.276,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     },
     {
       "id": "0b93eb7993d649a6",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0b93eb7993d649a6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.348,
+      "freshness": 0.276,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
+      },
+      "carried_forward": true
     },
     {
       "id": "04fbe71a420e8fdd",
@@ -362,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "04fbe71a420e8fdd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.324,
+      "freshness": 0.257,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -3750,17 +3760,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 14,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-08-20T09:45:06.663941Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 19
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-20T08:56:48.926454Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 10
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 10
       },
       "manual": {
         "ok": true,
