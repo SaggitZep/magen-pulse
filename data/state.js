@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-21T08:54:36.523558Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-21T09:48:02.397491Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 59,
+      "high": 20,
+      "confidence": 42,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 9,
       "low": 0,
-      "high": 25,
-      "confidence": 59,
+      "high": 26,
+      "confidence": 42,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 4,
-      "high": 32,
-      "confidence": 59,
+      "score": 14,
+      "low": 0,
+      "high": 31,
+      "confidence": 42,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "11:00",
       "text": "Essentially controlling the strait , Trump reiterates military destruction of Iran",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "kenyastar.com",
       "signal_id": "4730f2fc9efb2c44"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "09:45",
       "text": "Iran dismisses US economic threats , and other developments in the Middle East",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "yankton.net",
       "signal_id": "960177107c7af764"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "09:45",
       "text": "Iran unfazed by US threats of  economic D - Day",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "examiner.com.au",
       "signal_id": "27df28308e872678"
@@ -75,7 +75,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4730f2fc9efb2c44",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.771,
+      "freshness": 0.598,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -91,10 +91,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
-      }
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      },
+      "carried_forward": true
     },
     {
       "id": "960177107c7af764",
@@ -106,7 +107,7 @@ window.MAGEN_STATE = {
       "dependency_group": "960177107c7af764",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.539,
+      "freshness": 0.418,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -122,10 +123,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      },
+      "carried_forward": true
     },
     {
       "id": "27df28308e872678",
@@ -137,7 +139,7 @@ window.MAGEN_STATE = {
       "dependency_group": "27df28308e872678",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.539,
+      "freshness": 0.418,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -153,10 +155,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -3723,17 +3726,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 11,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-21T09:48:02.397491Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 14
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-21T08:54:36.523558Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 3
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 3
       },
       "manual": {
         "ok": true,
