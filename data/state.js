@@ -1,70 +1,171 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-21T10:17:51.265949Z",
+  "mode": "live",
+  "generated_at": "2026-08-21T10:54:08.443525Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 5,
       "low": 0,
-      "high": 20,
-      "confidence": 40,
+      "high": 18,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
-      "low": 0,
-      "high": 26,
-      "confidence": 40,
-      "status": "לא זוהה אות חריג"
+      "score": 16,
+      "low": 3,
+      "high": 29,
+      "confidence": 67,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
-      "low": 0,
-      "high": 31,
-      "confidence": 40,
-      "status": "נמוך"
+      "score": 26,
+      "low": 13,
+      "high": 39,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 3
   },
   "changes": [
     {
-      "time": "11:00",
+      "time": "13:30",
+      "text": "Iran vows  devastating  response as U . S . threatens toughest ever economic hit",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "nbcnews.com",
+      "signal_id": "c8dc3021178760ad"
+    },
+    {
+      "time": "13:30",
+      "text": "Iran vows  devastating  response to US economic threat",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "centralwesterndaily.com.au",
+      "signal_id": "c3b1cb5eee319c24"
+    },
+    {
+      "time": "13:15",
+      "text": "Iran vows  devastating  response as U . S . threatens to topple regime with tougher sanctions",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "theglobeandmail.com",
+      "signal_id": "d443cbc9652fbc6a"
+    },
+    {
+      "time": "12:00",
       "text": "Essentially controlling the strait , Trump reiterates military destruction of Iran",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
-      "source": "kenyastar.com",
+      "source": "batonrougepost.com",
       "signal_id": "4730f2fc9efb2c44"
-    },
-    {
-      "time": "09:45",
-      "text": "Iran dismisses US economic threats , and other developments in the Middle East",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "yankton.net",
-      "signal_id": "960177107c7af764"
-    },
-    {
-      "time": "09:45",
-      "text": "Iran unfazed by US threats of  economic D - Day",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "examiner.com.au",
-      "signal_id": "27df28308e872678"
     }
   ],
   "signals": [
+    {
+      "id": "c8dc3021178760ad",
+      "name": "Iran vows  devastating  response as U . S . threatens toughest ever economic hit",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c8dc3021178760ad",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.891,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nbcnews.com",
+      "url": "https://www.nbcnews.com/world/iran/iran-war-devastating-response-us-threat-toughest-economic-hit-rcna593697",
+      "published_at": "2026-08-21T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.9
+      }
+    },
+    {
+      "id": "c3b1cb5eee319c24",
+      "name": "Iran vows  devastating  response to US economic threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c3b1cb5eee319c24",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.891,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "centralwesterndaily.com.au",
+      "url": "https://www.centralwesterndaily.com.au/story/9334529/iran-vows-devastating-response-to-us-economic-threat/",
+      "published_at": "2026-08-21T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.9
+      }
+    },
+    {
+      "id": "d443cbc9652fbc6a",
+      "name": "Iran vows  devastating  response as U . S . threatens to topple regime with tougher sanctions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d443cbc9652fbc6a",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.83,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theglobeandmail.com",
+      "url": "https://www.theglobeandmail.com/world/article-iran-us-war-sanctions/",
+      "published_at": "2026-08-21T10:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
     {
       "id": "4730f2fc9efb2c44",
       "name": "Essentially controlling the strait , Trump reiterates military destruction of Iran",
@@ -75,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4730f2fc9efb2c44",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.519,
+      "freshness": 0.581,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -86,80 +187,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "kenyastar.com",
-      "url": "http://www.kenyastar.com/news/279255348/essentially-controlling-the-straits-trump-reiterates-military-destruction-of-iran",
-      "published_at": "2026-08-21T08:00:00Z",
+      "source": "batonrougepost.com",
+      "url": "http://www.batonrougepost.com/news/279255348/essentially-controlling-the-straits-trump-reiterates-military-destruction-of-iran",
+      "published_at": "2026-08-21T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "960177107c7af764",
-      "name": "Iran dismisses US economic threats , and other developments in the Middle East",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "960177107c7af764",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.363,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yankton.net",
-      "url": "https://www.yankton.net/news/national_ap/article_a61b0d2e-58e6-55fc-b777-73e751e84a5a.html",
-      "published_at": "2026-08-21T06:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "27df28308e872678",
-      "name": "Iran unfazed by US threats of  economic D - Day",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "27df28308e872678",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.363,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "examiner.com.au",
-      "url": "https://www.examiner.com.au/story/9334529/iran-unfazed-by-us-threats-of-economic-d-day/",
-      "published_at": "2026-08-21T06:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      }
     }
   ],
   "history": [
@@ -3738,17 +3774,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 8,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-08-21T10:54:08.443525Z",
+      "immediate": 5,
+      "short": 16,
+      "extended": 26
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-21T08:54:36.523558Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-21T10:54:08.443525Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 3
+        "ok": true,
+        "items": 150,
+        "relevant": 4
       },
       "manual": {
         "ok": true,
