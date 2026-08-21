@@ -1,89 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-21T03:12:06.376879Z",
+  "mode": "live",
+  "generated_at": "2026-08-21T04:04:48.205634Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 5,
       "low": 0,
-      "high": 19,
-      "confidence": 48,
+      "high": 18,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
-      "low": 0,
-      "high": 24,
-      "confidence": 48,
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
-      "low": 0,
-      "high": 30,
-      "confidence": 48,
-      "status": "נמוך"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "03:30",
-      "text": "अमेरिका फिर हारेगा , तेहरान की दो टूक ; ट्रंप ने ईरान को आर्थिक नाकेबंदी की दी धमकी - trump threatens iran with economic blockade tehran says america will lose again",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "06:30",
+      "text": "Oil rises over 2 %, nears $94 as Trump threatens countries supporting Iran",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "jagran.com",
-      "signal_id": "d8bcc56f2c7062af"
+      "source": "business-standard.com",
+      "signal_id": "e2f4535f78ece322"
     },
     {
-      "time": "03:00",
-      "text": "UAE Suspends Trade and Financial Ties With Iran After Alleged Missile Attack – NaturalNews . com",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "06:30",
+      "text": "US threatens Iran with blockade ,  toughest ever sanction as China pushes diplomacy",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "naturalnews.com",
-      "signal_id": "1c704f3d9b7582ee"
+      "source": "geo.tv",
+      "signal_id": "b76508baa8a1e323"
     },
     {
-      "time": "03:00",
-      "text": "No One Needs a Missile : What Iran Could Actually Do to Bulgaria - Novinite . com",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "novinite.com",
-      "signal_id": "f8217796945e3819"
-    },
-    {
-      "time": "03:15",
+      "time": "06:15",
       "text": "Iran dismisses US economic threats , and other developments in the Middle East",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "mesabitribune.com",
+      "source": "wpxi.com",
       "signal_id": "960177107c7af764"
+    },
+    {
+      "time": "05:00",
+      "text": "Iran dismisses President Donald Trump economic threats",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "chicagotribune.com",
+      "signal_id": "091e4bb4e465597f"
     }
   ],
   "signals": [
     {
-      "id": "d8bcc56f2c7062af",
-      "name": "अमेरिका फिर हारेगा , तेहरान की दो टूक ; ट्रंप ने ईरान को आर्थिक नाकेबंदी की दी धमकी - trump threatens iran with economic blockade tehran says america will lose again",
+      "id": "e2f4535f78ece322",
+      "name": "Oil rises over 2 %, nears $94 as Trump threatens countries supporting Iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "d8bcc56f2c7062af",
+      "dependency_group": "e2f4535f78ece322",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.462,
+      "freshness": 0.847,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,28 +94,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "jagran.com",
-      "url": "https://www.jagran.com/world/middle-east-trump-threatens-iran-with-economic-blockade-tehran-says-america-will-lose-again-40347269.html",
-      "published_at": "2026-08-21T00:30:00Z",
+      "source": "business-standard.com",
+      "url": "https://www.business-standard.com/markets/commodities/oil-prices-up-more-than-2-after-trump-threatens-countries-supporting-iran-126082100033_1.html",
+      "published_at": "2026-08-21T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      },
-      "carried_forward": true
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
     },
     {
-      "id": "1c704f3d9b7582ee",
-      "name": "UAE Suspends Trade and Financial Ties With Iran After Alleged Missile Attack – NaturalNews . com",
+      "id": "b76508baa8a1e323",
+      "name": "US threatens Iran with blockade ,  toughest ever sanction as China pushes diplomacy",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "1c704f3d9b7582ee",
-      "strength": 0.48,
+      "dependency_group": "b76508baa8a1e323",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.401,
+      "freshness": 0.847,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,48 +125,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-08-20-uae-suspends-trade-financial-ties-with-iran.html",
-      "published_at": "2026-08-21T00:00:00Z",
+      "source": "geo.tv",
+      "url": "https://www.geo.tv/latest/678557-us-doubles-down-on-iran-pressure-as-china-says-sanctions-will-not-solve-crisis",
+      "published_at": "2026-08-21T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f8217796945e3819",
-      "name": "No One Needs a Missile : What Iran Could Actually Do to Bulgaria - Novinite . com",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f8217796945e3819",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.401,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "novinite.com",
-      "url": "https://www.novinite.com/view_news.php?id=240216",
-      "published_at": "2026-08-21T00:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      },
-      "carried_forward": true
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
     },
     {
       "id": "960177107c7af764",
@@ -179,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "960177107c7af764",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.43,
+      "freshness": 0.789,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -190,16 +156,46 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "mesabitribune.com",
-      "url": "https://www.mesabitribune.com/ap/business/iran-dismisses-us-economic-threats-and-other-developments-in-the-middle-east/article_7b6935d7-44f7-561f-ac87-0d6aab6462c9.html",
-      "published_at": "2026-08-21T00:15:00Z",
+      "source": "wpxi.com",
+      "url": "https://www.wpxi.com/news/local/iran-dismisses-us-economic-threats-other-developments-middle-east/S2QQE6UY4NASTDEAGMIW4GBRBM/",
+      "published_at": "2026-08-21T03:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "091e4bb4e465597f",
+      "name": "Iran dismisses President Donald Trump economic threats",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "091e4bb4e465597f",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.552,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "chicagotribune.com",
+      "url": "https://www.chicagotribune.com/2026/08/20/iran-us-economic-threats/",
+      "published_at": "2026-08-21T02:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
     },
     {
       "id": "55d6f05fadbe76ee",
@@ -211,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "55d6f05fadbe76ee",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.496,
+      "freshness": 0.386,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,23 +223,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      }
     },
     {
-      "id": "3359d7690cd5ef3c",
-      "name": "President Trump threats economic warfare in latest shift in strategy with Iran",
+      "id": "d8bcc56f2c7062af",
+      "name": "अमेरिका फिर हारेगा , तेहरान की दो टूक ; ट्रंप ने ईरान को आर्थिक नाकेबंदी की दी धमकी - trump threatens iran with economic blockade tehran says america will lose again",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "3359d7690cd5ef3c",
+      "dependency_group": "d8bcc56f2c7062af",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.347,
+      "freshness": 0.36,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,80 +249,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "news3lv.com",
-      "url": "https://news3lv.com/news/nation-world/president-trump-threats-economic-warfare-in-latest-shift-in-strategy-with-iran-strait-hormuz-europe-us-debt-economic",
-      "published_at": "2026-08-20T23:30:00Z",
+      "source": "jagran.com",
+      "url": "https://www.jagran.com/world/middle-east-trump-threatens-iran-with-economic-blockade-tehran-says-america-will-lose-again-40347269.html",
+      "published_at": "2026-08-21T00:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.7,
         "short": 2.3,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8485145ec3243c77",
-      "name": "Trump Iran  D - Day  Threatens Key Trade Partners",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8485145ec3243c77",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.323,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "athens-times.com",
-      "url": "https://athens-times.com/reuters-countries-at-risk-from-trumps-iran-economic-d-day-threats/",
-      "published_at": "2026-08-20T23:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f869386c535872d2",
-      "name": "Iran to Cyprus : No Strike Risk If united kingdom Bases Not Used",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f869386c535872d2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.323,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "athens-times.com",
-      "url": "https://athens-times.com/iran-to-cyprus-no-risk-as-long-as-uk-bases-arent-used-against-tehran/",
-      "published_at": "2026-08-20T23:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
+        "extended": 4.0
+      }
     }
   ],
   "history": [
@@ -3852,17 +3782,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 8,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-08-21T04:04:48.205634Z",
+      "immediate": 5,
+      "short": 15,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-21T01:54:34.679683Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-21T04:04:48.205634Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
