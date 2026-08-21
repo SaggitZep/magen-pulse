@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-21T04:04:48.205634Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-21T04:55:08.877512Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 4,
       "low": 0,
-      "high": 18,
-      "confidence": 67,
+      "high": 20,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
-      "low": 2,
+      "score": 12,
+      "low": 0,
       "high": 28,
-      "confidence": 67,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 20,
+      "low": 4,
+      "high": 36,
+      "confidence": 50,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "06:30",
       "text": "Oil rises over 2 %, nears $94 as Trump threatens countries supporting Iran",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "e2f4535f78ece322"
@@ -50,7 +50,7 @@
     {
       "time": "06:30",
       "text": "US threatens Iran with blockade ,  toughest ever sanction as China pushes diplomacy",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "geo.tv",
       "signal_id": "b76508baa8a1e323"
@@ -58,7 +58,7 @@
     {
       "time": "06:15",
       "text": "Iran dismisses US economic threats , and other developments in the Middle East",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "wpxi.com",
       "signal_id": "960177107c7af764"
@@ -66,7 +66,7 @@
     {
       "time": "05:00",
       "text": "Iran dismisses President Donald Trump economic threats",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "chicagotribune.com",
       "signal_id": "091e4bb4e465597f"
@@ -83,7 +83,7 @@
       "dependency_group": "e2f4535f78ece322",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.847,
+      "freshness": 0.667,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-21T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.4
-      }
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      },
+      "carried_forward": true
     },
     {
       "id": "b76508baa8a1e323",
@@ -114,7 +115,7 @@
       "dependency_group": "b76508baa8a1e323",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.847,
+      "freshness": 0.667,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-21T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.5,
-        "extended": 9.4
-      }
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      },
+      "carried_forward": true
     },
     {
       "id": "960177107c7af764",
@@ -145,7 +147,7 @@
       "dependency_group": "960177107c7af764",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.789,
+      "freshness": 0.621,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-21T03:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      }
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.9
+      },
+      "carried_forward": true
     },
     {
       "id": "091e4bb4e465597f",
@@ -176,7 +179,7 @@
       "dependency_group": "091e4bb4e465597f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.552,
+      "freshness": 0.434,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-21T02:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      },
+      "carried_forward": true
     },
     {
       "id": "55d6f05fadbe76ee",
@@ -207,7 +211,7 @@
       "dependency_group": "55d6f05fadbe76ee",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.386,
+      "freshness": 0.304,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-08-21T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
+      },
+      "carried_forward": true
     },
     {
       "id": "d8bcc56f2c7062af",
@@ -238,7 +243,7 @@
       "dependency_group": "d8bcc56f2c7062af",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.36,
+      "freshness": 0.283,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@
       "published_at": "2026-08-21T00:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -3788,17 +3794,23 @@
       "immediate": 5,
       "short": 15,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-08-21T04:55:08.877512Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-21T04:04:48.205634Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 6
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 6
       },
       "manual": {
         "ok": true,
