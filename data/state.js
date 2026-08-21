@@ -1,78 +1,202 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-21T17:17:56.012432Z",
+  "mode": "live",
+  "generated_at": "2026-08-21T17:52:33.139232Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 5,
       "low": 0,
-      "high": 19,
-      "confidence": 50,
+      "high": 18,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
-      "low": 0,
-      "high": 27,
-      "confidence": 50,
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 50,
-      "status": "נמוך"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "19:15",
-      "text": "Iran vows  devastating  response to US economic threats",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "time": "20:00",
+      "text": "The week that was in international affairs : Trump declares economic war on Iran , Russia threatens united kingdom for supplying drones to Ukraine",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "rte.ie",
-      "signal_id": "dfe77d61b4bd4725"
+      "source": "timesofindia.indiatimes.com",
+      "signal_id": "f5fd6f813852aea2"
     },
     {
-      "time": "18:00",
-      "text": "Trump Threatens  Economic D - Day  for Iran as Sanctions Push Extends Six - Month - Old Conflict Further",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "20:00",
+      "text": "Iran vows  devastating  response as US threatens crushing sanctions designed to  collapse  regime",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "ibtimes.com.au",
-      "signal_id": "0f86e7f394201c4d"
+      "source": "nypost.com",
+      "signal_id": "d17acfa84cb38efb"
     },
     {
-      "time": "17:45",
-      "text": "Iran promises to resist interference by foreign  enemie as Trump threatens new sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "20:00",
+      "text": "Iran vows  devastating  response as U . S . threatens toughest ever economic hit",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "middleeasteye.net",
-      "signal_id": "a9e4577e7550c247"
+      "source": "thehindu.com",
+      "signal_id": "c8dc3021178760ad"
     },
     {
-      "time": "17:30",
-      "text": "Ghalibaf pushes for trade in local currency to bypass  cruel sanctions  as US threatens  toughest  economic action on Iran",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "19:30",
+      "text": "Iran vows  devastating  response as Trump threatens  economic D - Day",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "news.webindia123.com",
-      "signal_id": "8862564d9b689dda"
+      "source": "lbc.co.uk",
+      "signal_id": "01b9a196d1941a27"
     }
   ],
   "signals": [
+    {
+      "id": "f5fd6f813852aea2",
+      "name": "The week that was in international affairs : Trump declares economic war on Iran , Russia threatens united kingdom for supplying drones to Ukraine",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f5fd6f813852aea2",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.779,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/toi-blogs/planet-watch/the-week-that-was-in-international-affairs-trump-declares-economic-war-on-iran-russia-threatens-uk-for-supplying-drones-to-ukraine/articleshow/133408816.cms",
+      "published_at": "2026-08-21T17:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.0,
+        "extended": 10.2
+      }
+    },
+    {
+      "id": "d17acfa84cb38efb",
+      "name": "Iran vows  devastating  response as US threatens crushing sanctions designed to  collapse  regime",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d17acfa84cb38efb",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.779,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nypost.com",
+      "url": "https://nypost.com/2026/08/21/world-news/iran-vows-devastating-response-as-us-threatens-crushing-sanctions-designed-to-collapse-regime/",
+      "published_at": "2026-08-21T17:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "c8dc3021178760ad",
+      "name": "Iran vows  devastating  response as U . S . threatens toughest ever economic hit",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c8dc3021178760ad",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.779,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thehindu.com",
+      "url": "https://www.thehindu.com/news/international/iran-vows-devastating-response-as-us-threatens-toughest-ever-economic-hit/article71374981.ece",
+      "published_at": "2026-08-21T17:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "01b9a196d1941a27",
+      "name": "Iran vows  devastating  response as Trump threatens  economic D - Day",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "01b9a196d1941a27",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.675,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "lbc.co.uk",
+      "url": "https://www.lbc.co.uk/article/iran-vows-devastating-response-as-trump-threatens-economic-d-day-5HjdgMm_2/",
+      "published_at": "2026-08-21T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
     {
       "id": "dfe77d61b4bd4725",
       "name": "Iran vows  devastating  response to US economic threats",
@@ -83,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "dfe77d61b4bd4725",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.741,
+      "freshness": 0.628,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
-      },
-      "carried_forward": true
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
     },
     {
       "id": "0f86e7f394201c4d",
@@ -115,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0f86e7f394201c4d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.518,
+      "freshness": 0.44,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +254,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      }
     },
     {
       "id": "a9e4577e7550c247",
@@ -147,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a9e4577e7550c247",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.483,
+      "freshness": 0.409,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +285,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.4
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.5
+      }
     },
     {
       "id": "8862564d9b689dda",
@@ -179,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8862564d9b689dda",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.449,
+      "freshness": 0.381,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +316,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
     },
     {
       "id": "eb310214597cbc81",
@@ -211,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "eb310214597cbc81",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.449,
+      "freshness": 0.381,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,11 +347,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
     },
     {
       "id": "029afb0bc70df4b8",
@@ -243,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "029afb0bc70df4b8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.518,
+      "freshness": 0.44,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,43 +378,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b5708e9556e99511",
-      "name": "Iran vows  devastating  response as US threatens toughest ever economic hit",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b5708e9556e99511",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.39,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "business-standard.com",
-      "url": "https://www.business-standard.com/world-news/iran-vows-devastating-response-as-us-threatens-toughest-ever-economic-hit-126082101122_1.html",
-      "published_at": "2026-08-21T14:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
         "short": 2.5,
         "extended": 4.3
-      },
-      "carried_forward": true
+      }
     }
   ],
   "history": [
@@ -3934,17 +4020,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 11,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-21T17:52:33.139232Z",
+      "immediate": 5,
+      "short": 15,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-21T16:45:33.455835Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-21T17:52:33.139232Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "ok": true,
+        "items": 150,
+        "relevant": 10
       },
       "manual": {
         "ok": true,
