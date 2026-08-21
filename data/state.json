@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-21T21:01:46.133338Z",
+  "generated_at": "2026-08-21T21:35:45.821460Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@
       "score": 3,
       "low": 0,
       "high": 19,
-      "confidence": 50,
+      "confidence": 48,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 9,
       "low": 0,
-      "high": 27,
-      "confidence": 50,
+      "high": 25,
+      "confidence": 48,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 50,
+      "score": 15,
+      "low": 0,
+      "high": 31,
+      "confidence": 48,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "22:15",
       "text": "Why Iran is threatening Europe  strategically important  southeast - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "dominicanrepublicpost.com",
       "signal_id": "a5183bdfd8dd2618"
@@ -50,7 +50,7 @@
     {
       "time": "22:30",
       "text": "Gulf states hosting US bases  supported  attack : Iran official",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "siasat.com",
       "signal_id": "be8f67459f1b191e"
@@ -58,7 +58,7 @@
     {
       "time": "21:45",
       "text": "Iran Vows  Devastating  Response to US Threat to Cut Off Its Economic Lifelines",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "gcaptain.com",
       "signal_id": "eb310214597cbc81"
@@ -66,7 +66,7 @@
     {
       "time": "20:00",
       "text": "The week that was in international affairs : Trump declares economic war on Iran , Russia threatens united kingdom for supplying drones to Ukraine",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "f5fd6f813852aea2"
@@ -83,7 +83,7 @@
       "dependency_group": "a5183bdfd8dd2618",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.601,
+      "freshness": 0.512,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-21T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "be8f67459f1b191e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.646,
+      "freshness": 0.549,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-21T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "eb310214597cbc81",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.521,
+      "freshness": 0.443,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-21T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "f5fd6f813852aea2",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.316,
+      "freshness": 0.269,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-21T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "d17acfa84cb38efb",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.316,
+      "freshness": 0.269,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-21T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "c8dc3021178760ad",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.316,
+      "freshness": 0.269,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-08-21T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     }
@@ -3944,6 +3944,12 @@
       "immediate": 3,
       "short": 11,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-21T21:35:45.821460Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 15
     }
   ],
   "health": {
@@ -3953,7 +3959,7 @@
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "error": "HTTP Error 429: Too Many Requests",
         "carried_forward": 6
       },
       "manual": {
