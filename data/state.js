@@ -1,48 +1,56 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-21T18:32:44.585287Z",
+  "mode": "live",
+  "generated_at": "2026-08-21T19:09:55.652255Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 4,
       "low": 0,
-      "high": 20,
-      "confidence": 50,
+      "high": 17,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
       "score": 13,
       "low": 0,
-      "high": 29,
-      "confidence": 50,
+      "high": 26,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
       "score": 21,
-      "low": 5,
-      "high": 37,
-      "confidence": 50,
+      "low": 8,
+      "high": 34,
+      "confidence": 67,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
+      "time": "21:45",
+      "text": "Iran Vows  Devastating  Response to US Threat to Cut Off Its Economic Lifelines",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "gcaptain.com",
+      "signal_id": "eb310214597cbc81"
+    },
+    {
       "time": "20:00",
       "text": "The week that was in international affairs : Trump declares economic war on Iran , Russia threatens united kingdom for supplying drones to Ukraine",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "f5fd6f813852aea2"
@@ -50,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:00",
       "text": "Iran vows  devastating  response as US threatens crushing sanctions designed to  collapse  regime",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "nypost.com",
       "signal_id": "d17acfa84cb38efb"
@@ -58,21 +66,44 @@ window.MAGEN_STATE = {
     {
       "time": "20:00",
       "text": "Iran vows  devastating  response as U . S . threatens toughest ever economic hit",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "thehindu.com",
       "signal_id": "c8dc3021178760ad"
-    },
-    {
-      "time": "19:30",
-      "text": "Iran vows  devastating  response as Trump threatens  economic D - Day",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "lbc.co.uk",
-      "signal_id": "01b9a196d1941a27"
     }
   ],
   "signals": [
+    {
+      "id": "eb310214597cbc81",
+      "name": "Iran Vows  Devastating  Response to US Threat to Cut Off Its Economic Lifelines",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "eb310214597cbc81",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.888,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gcaptain.com",
+      "url": "https://gcaptain.com/iran-vows-devastating-response-to-us-threat-to-cut-off-its-economic-lifelines/",
+      "published_at": "2026-08-21T18:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.8
+      }
+    },
     {
       "id": "f5fd6f813852aea2",
       "name": "The week that was in international affairs : Trump declares economic war on Iran , Russia threatens united kingdom for supplying drones to Ukraine",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f5fd6f813852aea2",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.643,
+      "freshness": 0.539,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +130,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
-      },
-      "carried_forward": true
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
     },
     {
       "id": "d17acfa84cb38efb",
@@ -115,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d17acfa84cb38efb",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.643,
+      "freshness": 0.539,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +161,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
     },
     {
       "id": "c8dc3021178760ad",
@@ -147,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c8dc3021178760ad",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.643,
+      "freshness": 0.539,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +192,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
     },
     {
       "id": "01b9a196d1941a27",
@@ -179,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "01b9a196d1941a27",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.557,
+      "freshness": 0.467,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.2
+      }
     },
     {
       "id": "dfe77d61b4bd4725",
@@ -211,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "dfe77d61b4bd4725",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.519,
+      "freshness": 0.435,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,171 +254,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0f86e7f394201c4d",
-      "name": "Trump Threatens  Economic D - Day  for Iran as Sanctions Push Extends Six - Month - Old Conflict Further",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0f86e7f394201c4d",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.363,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ibtimes.com.au",
-      "url": "https://www.ibtimes.com.au/trump-intensifies-economic-pressure-iran-1874360",
-      "published_at": "2026-08-21T15:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a9e4577e7550c247",
-      "name": "Iran promises to resist interference by foreign  enemie as Trump threatens new sanctions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a9e4577e7550c247",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.338,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/news/parliament-speaker-promises-resist-interference-foreign-enemies-iran-and-neighbouring-iraq",
-      "published_at": "2026-08-21T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8862564d9b689dda",
-      "name": "Ghalibaf pushes for trade in local currency to bypass  cruel sanctions  as US threatens  toughest  economic action on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8862564d9b689dda",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.315,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260821/4489377.html",
-      "published_at": "2026-08-21T14:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "eb310214597cbc81",
-      "name": "Iran vows  devastating  response to US threat to cut off its economic lifelines",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "eb310214597cbc81",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.315,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "businesstimes.com.sg",
-      "url": "https://www.businesstimes.com.sg/international/iran-vows-devastating-response-us-threat-cut-its-economic-lifelines",
-      "published_at": "2026-08-21T14:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "029afb0bc70df4b8",
-      "name": "Top Iranian Official Appears To Acknowledge The Impact Of U . S . Economic Pressure :  No Matter How Much Military Power We Have",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "029afb0bc70df4b8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.363,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ibtimes.com",
-      "url": "https://www.ibtimes.com/top-iranian-official-appears-acknowledge-impact-us-economic-pressure-no-matter-how-much-3806649",
-      "published_at": "2026-08-21T15:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
     }
   ],
   "history": [
@@ -4042,17 +3908,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-21T19:09:55.652255Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-21T17:52:33.139232Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-21T19:09:55.652255Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 10
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
