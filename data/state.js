@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-21T19:38:45.835959Z",
+  "generated_at": "2026-08-21T19:58:15.900495Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -42,15 +42,23 @@ window.MAGEN_STATE = {
     {
       "time": "22:15",
       "text": "Why Iran is threatening Europe  strategically important  southeast - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
       "source": "dominicanrepublicpost.com",
       "signal_id": "a5183bdfd8dd2618"
     },
     {
+      "time": "22:30",
+      "text": "Gulf states hosting US bases  supported  attack : Iran official",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "siasat.com",
+      "signal_id": "be8f67459f1b191e"
+    },
+    {
       "time": "21:45",
       "text": "Iran Vows  Devastating  Response to US Threat to Cut Off Its Economic Lifelines",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "gcaptain.com",
       "signal_id": "eb310214597cbc81"
@@ -58,18 +66,10 @@ window.MAGEN_STATE = {
     {
       "time": "20:00",
       "text": "The week that was in international affairs : Trump declares economic war on Iran , Russia threatens united kingdom for supplying drones to Ukraine",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "f5fd6f813852aea2"
-    },
-    {
-      "time": "20:00",
-      "text": "Iran vows  devastating  response as US threatens crushing sanctions designed to  collapse  regime",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "nypost.com",
-      "signal_id": "d17acfa84cb38efb"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a5183bdfd8dd2618",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.893,
+      "freshness": 0.814,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.8,
-        "extended": 9.9
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.0
+      }
+    },
+    {
+      "id": "be8f67459f1b191e",
+      "name": "Gulf states hosting US bases  supported  attack : Iran official",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "be8f67459f1b191e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.874,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "siasat.com",
+      "url": "https://www.siasat.com/gulf-states-hosting-us-bases-supported-attack-iran-official-3528763/",
+      "published_at": "2026-08-21T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
       }
     },
     {
@@ -114,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "eb310214597cbc81",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.774,
+      "freshness": 0.705,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.6
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.8
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f5fd6f813852aea2",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.47,
+      "freshness": 0.428,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d17acfa84cb38efb",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.47,
+      "freshness": 0.428,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
       }
     },
     {
@@ -207,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c8dc3021178760ad",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.47,
+      "freshness": 0.428,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,40 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      }
-    },
-    {
-      "id": "01b9a196d1941a27",
-      "name": "Iran vows  devastating  response as Trump threatens  economic D - Day",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "01b9a196d1941a27",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.407,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "lbc.co.uk",
-      "url": "https://www.lbc.co.uk/article/iran-vows-devastating-response-as-trump-threatens-economic-d-day-5HjdgMm_2/",
-      "published_at": "2026-08-21T16:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "short": 2.8,
+        "extended": 4.7
       }
     },
     {
@@ -269,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "dfe77d61b4bd4725",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.379,
+      "freshness": 0.345,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -286,8 +286,39 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "short": 2.2,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "01b9a196d1941a27",
+      "name": "Iran vows  devastating  response as Trump threatens  economic D - Day",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "01b9a196d1941a27",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.371,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "lbc.co.uk",
+      "url": "https://www.lbc.co.uk/article/iran-vows-devastating-response-as-trump-threatens-economic-d-day-5HjdgMm_2/",
+      "published_at": "2026-08-21T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     }
   ],
@@ -3951,17 +3982,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 14,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-08-21T19:58:15.900495Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 23
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-21T19:38:45.835959Z",
+    "last_success": "2026-08-21T19:58:15.900495Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 7
+        "relevant": 8
       },
       "manual": {
         "ok": true,
