@@ -1,89 +1,89 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-21T14:47:35.042655Z",
+  "mode": "live",
+  "generated_at": "2026-08-21T15:21:18.253051Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 5,
       "low": 0,
-      "high": 19,
-      "confidence": 48,
+      "high": 17,
+      "confidence": 71,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
-      "low": 0,
-      "high": 25,
-      "confidence": 48,
+      "score": 16,
+      "low": 4,
+      "high": 28,
+      "confidence": 71,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
-      "low": 0,
-      "high": 30,
-      "confidence": 48,
-      "status": "נמוך"
+      "score": 26,
+      "low": 14,
+      "high": 38,
+      "confidence": 71,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "15:15",
-      "text": "Iran vows  devastating  response as US threatens toughest ever economic hit",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "18:00",
+      "text": "Trump Threatens  Economic D - Day  for Iran as Sanctions Push Extends Six - Month - Old Conflict Further",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "economictimes.indiatimes.com",
-      "signal_id": "b5708e9556e99511"
+      "source": "ibtimes.com.au",
+      "signal_id": "0f86e7f394201c4d"
     },
     {
-      "time": "15:15",
-      "text": "Iran vows  devastating  response to US economic threat",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "17:45",
+      "text": "Iran promises to resist interference by foreign  enemie as Trump threatens new sanctions",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "queanbeyanage.com.au",
+      "source": "middleeasteye.net",
+      "signal_id": "a9e4577e7550c247"
+    },
+    {
+      "time": "17:30",
+      "text": "Iran vows  devastating  response to US economic threat",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "maitlandmercury.com.au",
       "signal_id": "c3b1cb5eee319c24"
     },
     {
-      "time": "14:00",
-      "text": "Iran IRGC warns of more  devastating  missiles in any new war , rejects US backchannel talks",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "17:30",
+      "text": "Ghalibaf pushes for trade in local currency to bypass  cruel sanctions  as US threatens  toughest  economic action on Iran",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "sentinelassam.com",
-      "signal_id": "15585d6c44e61476"
-    },
-    {
-      "time": "14:15",
-      "text": "Iran - Backed Houthis Claim Drone Hits On Saudi Airport , Oil Facility",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "globalsecurity.org",
-      "signal_id": "00bc25ca3d1e518a"
+      "source": "news.webindia123.com",
+      "signal_id": "8862564d9b689dda"
     }
   ],
   "signals": [
     {
-      "id": "b5708e9556e99511",
-      "name": "Iran vows  devastating  response as US threatens toughest ever economic hit",
+      "id": "0f86e7f394201c4d",
+      "name": "Trump Threatens  Economic D - Day  for Iran as Sanctions Push Extends Six - Month - Old Conflict Further",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "b5708e9556e99511",
+      "dependency_group": "0f86e7f394201c4d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.484,
+      "freshness": 0.904,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,16 +94,46 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/defence/iran-vows-devastating-response-as-us-threatens-toughest-ever-economic-hit/articleshow/133403286.cms",
-      "published_at": "2026-08-21T12:15:00Z",
+      "source": "ibtimes.com.au",
+      "url": "https://www.ibtimes.com.au/trump-intensifies-economic-pressure-iran-1874360",
+      "published_at": "2026-08-21T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
+        "immediate": 1.7,
+        "short": 5.9,
+        "extended": 10.0
+      }
+    },
+    {
+      "id": "a9e4577e7550c247",
+      "name": "Iran promises to resist interference by foreign  enemie as Trump threatens new sanctions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a9e4577e7550c247",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.841,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeasteye.net",
+      "url": "https://www.middleeasteye.net/news/parliament-speaker-promises-resist-interference-foreign-enemies-iran-and-neighbouring-iraq",
+      "published_at": "2026-08-21T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.3
+      }
     },
     {
       "id": "c3b1cb5eee319c24",
@@ -115,7 +145,7 @@
       "dependency_group": "c3b1cb5eee319c24",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.484,
+      "freshness": 0.783,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,92 +156,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "queanbeyanage.com.au",
-      "url": "https://www.queanbeyanage.com.au/story/9334529/iran-vows-devastating-response-to-us-economic-threat/",
-      "published_at": "2026-08-21T12:15:00Z",
+      "source": "maitlandmercury.com.au",
+      "url": "https://www.maitlandmercury.com.au/story/9334529/iran-vows-devastating-response-to-us-economic-threat/",
+      "published_at": "2026-08-21T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
     },
     {
-      "id": "15585d6c44e61476",
-      "name": "Iran IRGC warns of more  devastating  missiles in any new war , rejects US backchannel talks",
+      "id": "8862564d9b689dda",
+      "name": "Ghalibaf pushes for trade in local currency to bypass  cruel sanctions  as US threatens  toughest  economic action on Iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "15585d6c44e61476",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.338,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "sentinelassam.com",
-      "url": "https://www.sentinelassam.com/more-news/international/irans-irgc-warns-of-more-devastating-missiles-in-any-new-war-rejects-us-backchannel-talks",
-      "published_at": "2026-08-21T11:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "00bc25ca3d1e518a",
-      "name": "Iran - Backed Houthis Claim Drone Hits On Saudi Airport , Oil Facility",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "00bc25ca3d1e518a",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.363,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "globalsecurity.org",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/08/mil-260820-rferl01.htm",
-      "published_at": "2026-08-21T11:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5826302f64639d08",
-      "name": "Iran dismisses US economic threats , and other developments in the Middle East – KTBB News , Weather , Talk",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5826302f64639d08",
+      "dependency_group": "8862564d9b689dda",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.363,
+      "freshness": 0.783,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -222,28 +187,58 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "ktbb.com",
-      "url": "https://ktbb.com/post/?p=1534470",
-      "published_at": "2026-08-21T11:15:00Z",
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260821/4489377.html",
+      "published_at": "2026-08-21T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      },
-      "carried_forward": true
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
     },
     {
-      "id": "af9f80115d31b00f",
-      "name": "Iran strikes tankers in Hormuz escalation as Trump vows repeated military action",
+      "id": "eb310214597cbc81",
+      "name": "Iran vows  devastating  response to US threat to cut off its economic lifelines",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "af9f80115d31b00f",
+      "dependency_group": "eb310214597cbc81",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.783,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "businesstimes.com.sg",
+      "url": "https://www.businesstimes.com.sg/international/iran-vows-devastating-response-us-threat-cut-its-economic-lifelines",
+      "published_at": "2026-08-21T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "029afb0bc70df4b8",
+      "name": "Top Iranian Official Appears To Acknowledge The Impact Of U . S . Economic Pressure :  No Matter How Much Military Power We Have",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "029afb0bc70df4b8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.338,
+      "freshness": 0.904,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,28 +249,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "bankingnews.gr",
-      "url": "https://www.bankingnews.gr/diethni/articles/894885/iran-strikes-tankers-in-hormuz-escalation-as-trump-vows-repeated-military-action",
-      "published_at": "2026-08-21T11:00:00Z",
+      "source": "ibtimes.com",
+      "url": "https://www.ibtimes.com/top-iranian-official-appears-acknowledge-impact-us-economic-pressure-no-matter-how-much-3806649",
+      "published_at": "2026-08-21T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
-      },
-      "carried_forward": true
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.9
+      }
     },
     {
-      "id": "d443cbc9652fbc6a",
-      "name": "Iran vows  devastating  response as U . S . threatens to topple regime with tougher sanctions",
+      "id": "b5708e9556e99511",
+      "name": "Iran vows  devastating  response as US threatens toughest ever economic hit",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "d443cbc9652fbc6a",
+      "dependency_group": "b5708e9556e99511",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.273,
+      "freshness": 0.679,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -286,16 +280,46 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "theglobeandmail.com",
-      "url": "https://www.theglobeandmail.com/world/article-iran-us-war-sanctions/",
-      "published_at": "2026-08-21T10:15:00Z",
+      "source": "business-standard.com",
+      "url": "https://www.business-standard.com/world-news/iran-vows-devastating-response-as-us-threatens-toughest-ever-economic-hit-126082101122_1.html",
+      "published_at": "2026-08-21T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "42efd0777de3e433",
+      "name": "Walt Zlotow – 21ST century David v . Goliath : Iran $8 billion military whups America $1 trillion military « nuclear - news",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "42efd0777de3e433",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.783,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nuclear-news.net",
+      "url": "https://nuclear-news.net/2026/08/21/3-b1-walt-zlotow-21st-century-david-v-goliath-irans-8-billion-military-whups-americas-1-trillion-military/",
+      "published_at": "2026-08-21T14:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
     }
   ],
   "history": [
@@ -3910,17 +3934,23 @@
       "immediate": 3,
       "short": 9,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-08-21T15:21:18.253051Z",
+      "immediate": 5,
+      "short": 16,
+      "extended": 26
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-21T13:59:16.087400Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-21T15:21:18.253051Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "ok": true,
+        "items": 150,
+        "relevant": 8
       },
       "manual": {
         "ok": true,
