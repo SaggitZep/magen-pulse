@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-21T05:41:17.651686Z",
+  "generated_at": "2026-08-21T06:18:19.350081Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,24 +9,24 @@ window.MAGEN_STATE = {
       "score": 4,
       "low": 0,
       "high": 17,
-      "confidence": 65,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
-      "low": 0,
-      "high": 25,
-      "confidence": 65,
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 66,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 6,
-      "high": 32,
-      "confidence": 65,
-      "status": "נמוך"
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 66,
+      "status": "מוגבר"
     }
   },
   "coverage": {
@@ -40,39 +40,101 @@ window.MAGEN_STATE = {
   },
   "changes": [
     {
+      "time": "08:45",
+      "text": "Iran unfazed by US threats of  economic D - Day",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "bendigoadvertiser.com.au",
+      "signal_id": "27df28308e872678"
+    },
+    {
+      "time": "08:30",
+      "text": "Essentially controlling the strait , Trump reiterates military destruction of Iran",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "economictimes.indiatimes.com",
+      "signal_id": "4730f2fc9efb2c44"
+    },
+    {
       "time": "07:45",
       "text": "Iran dismisses Trump threats - The Shillong Times",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "theshillongtimes.com",
       "signal_id": "5f3341567aa17ba9"
     },
     {
-      "time": "06:45",
-      "text": "Trump threatens to isolate Iran . Who are its trading partners ?",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "asiaone.com",
-      "signal_id": "38591518b4dbdce0"
-    },
-    {
       "time": "06:30",
       "text": "Oil rises over 2 %, nears $94 as Trump threatens countries supporting Iran",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "e2f4535f78ece322"
-    },
-    {
-      "time": "06:15",
-      "text": "Iran dismisses US economic threats , and other developments in the Middle East",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "wpxi.com",
-      "signal_id": "960177107c7af764"
     }
   ],
   "signals": [
+    {
+      "id": "27df28308e872678",
+      "name": "Iran unfazed by US threats of  economic D - Day",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "27df28308e872678",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.853,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bendigoadvertiser.com.au",
+      "url": "https://www.bendigoadvertiser.com.au/story/9334529/iran-unfazed-by-us-threats-of-economic-d-day/",
+      "published_at": "2026-08-21T05:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.6,
+        "extended": 9.5
+      }
+    },
+    {
+      "id": "4730f2fc9efb2c44",
+      "name": "Essentially controlling the strait , Trump reiterates military destruction of Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4730f2fc9efb2c44",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.794,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/defence/essentially-controlling-the-straits-trump-reiterates-military-destruction-of-iran/articleshow/133393271.cms",
+      "published_at": "2026-08-21T05:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.8
+      }
+    },
     {
       "id": "5f3341567aa17ba9",
       "name": "Iran dismisses Trump threats - The Shillong Times",
@@ -83,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5f3341567aa17ba9",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.765,
+      "freshness": 0.641,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,40 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      }
-    },
-    {
-      "id": "38591518b4dbdce0",
-      "name": "Trump threatens to isolate Iran . Who are its trading partners ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "38591518b4dbdce0",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.575,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "asiaone.com",
-      "url": "https://www.asiaone.com/world/trump-threatens-isolate-iran-who-are-its-trading-partners",
-      "published_at": "2026-08-21T03:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e2f4535f78ece322",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.535,
+      "freshness": 0.449,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,40 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      }
-    },
-    {
-      "id": "960177107c7af764",
-      "name": "Iran dismisses US economic threats , and other developments in the Middle East",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "960177107c7af764",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.498,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wpxi.com",
-      "url": "https://www.wpxi.com/news/local/iran-dismisses-us-economic-threats-other-developments-middle-east/S2QQE6UY4NASTDEAGMIW4GBRBM/",
-      "published_at": "2026-08-21T03:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
       }
     },
     {
@@ -207,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b76508baa8a1e323",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.535,
+      "freshness": 0.449,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,22 +223,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
       }
     },
     {
-      "id": "091e4bb4e465597f",
-      "name": "Iran dismisses President Donald Trump economic threats",
+      "id": "38591518b4dbdce0",
+      "name": "Trump threatens to isolate Iran . Who are its trading partners ?",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "091e4bb4e465597f",
+      "dependency_group": "38591518b4dbdce0",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.349,
+      "freshness": 0.482,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -249,14 +249,45 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "chicagotribune.com",
-      "url": "https://www.chicagotribune.com/2026/08/20/iran-us-economic-threats/",
-      "published_at": "2026-08-21T02:00:00Z",
+      "source": "asiaone.com",
+      "url": "https://www.asiaone.com/world/trump-threatens-isolate-iran-who-are-its-trading-partners",
+      "published_at": "2026-08-21T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
+    },
+    {
+      "id": "960177107c7af764",
+      "name": "Iran dismisses US economic threats , and other developments in the Middle East",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "960177107c7af764",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.418,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wpxi.com",
+      "url": "https://www.wpxi.com/news/local/iran-dismisses-us-economic-threats-other-developments-middle-east/S2QQE6UY4NASTDEAGMIW4GBRBM/",
+      "published_at": "2026-08-21T03:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     }
   ],
@@ -3800,17 +3831,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-21T06:18:19.350081Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 22
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-21T05:41:17.651686Z",
+    "last_success": "2026-08-21T06:18:19.350081Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 6
+        "relevant": 7
       },
       "manual": {
         "ok": true,
