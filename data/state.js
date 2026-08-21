@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-21T09:48:02.397491Z",
+  "generated_at": "2026-08-21T10:17:51.265949Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
       "high": 20,
-      "confidence": 42,
+      "confidence": 40,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 8,
       "low": 0,
       "high": 26,
-      "confidence": 42,
-      "status": "נמוך"
+      "confidence": 40,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
+      "score": 13,
       "low": 0,
       "high": 31,
-      "confidence": 42,
+      "confidence": 40,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "11:00",
       "text": "Essentially controlling the strait , Trump reiterates military destruction of Iran",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "kenyastar.com",
       "signal_id": "4730f2fc9efb2c44"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "09:45",
       "text": "Iran dismisses US economic threats , and other developments in the Middle East",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "yankton.net",
       "signal_id": "960177107c7af764"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "09:45",
       "text": "Iran unfazed by US threats of  economic D - Day",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "examiner.com.au",
       "signal_id": "27df28308e872678"
@@ -75,7 +75,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4730f2fc9efb2c44",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.598,
+      "freshness": 0.519,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -91,9 +91,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
       },
       "carried_forward": true
     },
@@ -107,7 +107,7 @@ window.MAGEN_STATE = {
       "dependency_group": "960177107c7af764",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.418,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -123,9 +123,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
       },
       "carried_forward": true
     },
@@ -139,7 +139,7 @@ window.MAGEN_STATE = {
       "dependency_group": "27df28308e872678",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.418,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -155,9 +155,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
       },
       "carried_forward": true
     }
@@ -3732,6 +3732,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 9,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-08-21T10:17:51.265949Z",
+      "immediate": 2,
+      "short": 8,
+      "extended": 13
     }
   ],
   "health": {
