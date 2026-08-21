@@ -1,89 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-20T23:41:22.399990Z",
+  "mode": "live",
+  "generated_at": "2026-08-21T00:02:36.678072Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 5,
       "low": 0,
-      "high": 19,
-      "confidence": 51,
+      "high": 18,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
-      "low": 0,
-      "high": 27,
-      "confidence": 51,
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 68,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 3,
-      "high": 35,
-      "confidence": 51,
-      "status": "נמוך"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "01:30",
-      "text": "President Trump threats economic warfare in latest shift in strategy with Iran",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "wcyb.com",
-      "signal_id": "3359d7690cd5ef3c"
-    },
-    {
-      "time": "00:45",
-      "text": "Donald Trump Apocalyptic Threats Fall Flat with Iran",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "newsweek.com",
-      "signal_id": "1cc4361dc186faa5"
-    },
-    {
-      "time": "00:30",
+      "time": "02:30",
       "text": "Iran dismisses US economic threats , and other developments in the Middle East",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "hngnews.com",
+      "source": "idahostatejournal.com",
       "signal_id": "960177107c7af764"
     },
     {
-      "time": "23:45",
-      "text": "Trump threatens to isolate Iran : Who are its trading partners ?",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "02:30",
+      "text": "President Trump threats economic warfare in latest shift in strategy with Iran",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "tribune.com.pk",
-      "signal_id": "38591518b4dbdce0"
+      "source": "news3lv.com",
+      "signal_id": "3359d7690cd5ef3c"
+    },
+    {
+      "time": "02:15",
+      "text": "Trump Iran  D - Day  Threatens Key Trade Partners",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "athens-times.com",
+      "signal_id": "8485145ec3243c77"
+    },
+    {
+      "time": "02:15",
+      "text": "Iran to Cyprus : No Strike Risk If united kingdom Bases Not Used",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "athens-times.com",
+      "signal_id": "f869386c535872d2"
     }
   ],
   "signals": [
     {
-      "id": "3359d7690cd5ef3c",
-      "name": "President Trump threats economic warfare in latest shift in strategy with Iran",
+      "id": "960177107c7af764",
+      "name": "Iran dismisses US economic threats , and other developments in the Middle East",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "3359d7690cd5ef3c",
+      "dependency_group": "960177107c7af764",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.712,
+      "freshness": 0.856,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,16 +94,108 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "wcyb.com",
-      "url": "https://wcyb.com/news/nation-world/president-trump-threats-economic-warfare-in-latest-shift-in-strategy-with-iran-strait-hormuz-europe-us-debt-economic",
-      "published_at": "2026-08-20T22:30:00Z",
+      "source": "idahostatejournal.com",
+      "url": "http://www.idahostatejournal.com/news/national/iran-dismisses-us-economic-threats-and-other-developments-in-the-middle-east/article_0f732ded-a1f3-5b3d-af7e-326bdf9eb637.html",
+      "published_at": "2026-08-20T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.6,
+        "extended": 9.5
+      }
+    },
+    {
+      "id": "3359d7690cd5ef3c",
+      "name": "President Trump threats economic warfare in latest shift in strategy with Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3359d7690cd5ef3c",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.856,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news3lv.com",
+      "url": "https://news3lv.com/news/nation-world/president-trump-threats-economic-warfare-in-latest-shift-in-strategy-with-iran-strait-hormuz-europe-us-debt-economic",
+      "published_at": "2026-08-20T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.6,
+        "extended": 9.5
+      }
+    },
+    {
+      "id": "8485145ec3243c77",
+      "name": "Trump Iran  D - Day  Threatens Key Trade Partners",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8485145ec3243c77",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.797,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "athens-times.com",
+      "url": "https://athens-times.com/reuters-countries-at-risk-from-trumps-iran-economic-d-day-threats/",
+      "published_at": "2026-08-20T23:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "f869386c535872d2",
+      "name": "Iran to Cyprus : No Strike Risk If united kingdom Bases Not Used",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f869386c535872d2",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.797,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "athens-times.com",
+      "url": "https://athens-times.com/iran-to-cyprus-no-risk-as-long-as-uk-bases-arent-used-against-tehran/",
+      "published_at": "2026-08-20T23:15:00Z",
       "active": true,
       "computed": {
         "immediate": 1.4,
         "short": 4.6,
         "extended": 7.9
-      },
-      "carried_forward": true
+      }
     },
     {
       "id": "1cc4361dc186faa5",
@@ -115,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1cc4361dc186faa5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.575,
+      "freshness": 0.519,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,75 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "960177107c7af764",
-      "name": "Iran dismisses US economic threats , and other developments in the Middle East",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "960177107c7af764",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.535,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hngnews.com",
-      "url": "http://www.hngnews.com/nation_world/iran-dismisses-us-economic-threats-and-other-developments-in-the-middle-east/article_dbe2b5c4-3bd0-5641-a027-44dab3ebea5f.html",
-      "published_at": "2026-08-20T21:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "38591518b4dbdce0",
-      "name": "Trump threatens to isolate Iran : Who are its trading partners ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "38591518b4dbdce0",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.432,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "tribune.com.pk",
-      "url": "https://tribune.com.pk/story/2624957/trump-threatens-to-isolate-iran-who-are-its-trading-partners",
-      "published_at": "2026-08-20T20:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      },
-      "carried_forward": true
+        "short": 3.4,
+        "extended": 5.8
+      }
     },
     {
       "id": "5840aee2ba947bce",
@@ -211,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5840aee2ba947bce",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.402,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,11 +254,41 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-20T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      }
+    },
+    {
+      "id": "38591518b4dbdce0",
+      "name": "Trump threatens to isolate Iran : Who are its trading partners ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "38591518b4dbdce0",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.39,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tribune.com.pk",
+      "url": "https://tribune.com.pk/story/2624957/trump-threatens-to-isolate-iran-who-are-its-trading-partners",
+      "published_at": "2026-08-20T20:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
     }
   ],
   "history": [
@@ -3738,17 +3795,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 11,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-21T00:02:36.678072Z",
+      "immediate": 5,
+      "short": 15,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-20T23:04:38.376339Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-21T00:02:36.678072Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "ok": true,
+        "items": 150,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
