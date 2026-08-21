@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-21T13:07:47.878229Z",
+  "generated_at": "2026-08-21T13:59:16.087400Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 68,
+      "high": 16,
+      "confidence": 64,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
-      "low": 1,
-      "high": 27,
-      "confidence": 68,
+      "score": 11,
+      "low": 0,
+      "high": 24,
+      "confidence": 64,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 18,
+      "low": 5,
+      "high": 31,
+      "confidence": 64,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "15:15",
       "text": "Iran vows  devastating  response as US threatens toughest ever economic hit",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "economictimes.indiatimes.com",
       "signal_id": "b5708e9556e99511"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:15",
       "text": "Iran vows  devastating  response to US economic threat",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "queanbeyanage.com.au",
       "signal_id": "c3b1cb5eee319c24"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "14:00",
       "text": "Iran IRGC warns of more  devastating  missiles in any new war , rejects US backchannel talks",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "sentinelassam.com",
       "signal_id": "15585d6c44e61476"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "14:15",
       "text": "Iran - Backed Houthis Claim Drone Hits On Saudi Airport , Oil Facility",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "globalsecurity.org",
       "signal_id": "00bc25ca3d1e518a"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b5708e9556e99511",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.778,
+      "freshness": 0.609,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
       }
     },
     {
@@ -114,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c3b1cb5eee319c24",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.778,
+      "freshness": 0.609,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
       }
     },
     {
@@ -145,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "15585d6c44e61476",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.544,
+      "freshness": 0.426,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T11:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       }
     },
     {
@@ -176,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "00bc25ca3d1e518a",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.584,
+      "freshness": 0.457,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T11:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
       }
     },
     {
@@ -207,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5826302f64639d08",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.584,
+      "freshness": 0.457,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T11:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
       }
     },
     {
@@ -238,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "af9f80115d31b00f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.544,
+      "freshness": 0.426,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T11:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.4
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     },
     {
@@ -269,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d443cbc9652fbc6a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.439,
+      "freshness": 0.344,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T10:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       }
     }
   ],
@@ -3891,12 +3891,18 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 14,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-21T13:59:16.087400Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-21T13:07:47.878229Z",
+    "last_success": "2026-08-21T13:59:16.087400Z",
     "sources": {
       "gdelt": {
         "ok": true,
