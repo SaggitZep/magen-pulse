@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-21T11:35:12.012754Z",
+  "generated_at": "2026-08-21T12:03:20.487287Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@ window.MAGEN_STATE = {
       "score": 4,
       "low": 0,
       "high": 20,
-      "confidence": 50,
+      "confidence": 48,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 12,
       "low": 0,
-      "high": 29,
-      "confidence": 50,
+      "high": 28,
+      "confidence": 48,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 6,
-      "high": 38,
-      "confidence": 50,
+      "score": 19,
+      "low": 3,
+      "high": 35,
+      "confidence": 48,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "13:30",
       "text": "Iran vows  devastating  response as U . S . threatens toughest ever economic hit",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "nbcnews.com",
       "signal_id": "c8dc3021178760ad"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "13:30",
       "text": "Iran vows  devastating  response to US economic threat",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "centralwesterndaily.com.au",
       "signal_id": "c3b1cb5eee319c24"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "13:15",
       "text": "Iran vows  devastating  response as U . S . threatens to topple regime with tougher sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "theglobeandmail.com",
       "signal_id": "d443cbc9652fbc6a"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "12:00",
       "text": "Essentially controlling the strait , Trump reiterates military destruction of Iran",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "batonrougepost.com",
       "signal_id": "4730f2fc9efb2c44"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c8dc3021178760ad",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.733,
+      "freshness": 0.641,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.1
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c3b1cb5eee319c24",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.733,
+      "freshness": 0.641,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.1
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d443cbc9652fbc6a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.683,
+      "freshness": 0.597,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T10:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.6
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4730f2fc9efb2c44",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.478,
+      "freshness": 0.418,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       },
       "carried_forward": true
     }
@@ -3790,6 +3790,12 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-21T12:03:20.487287Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 19
     }
   ],
   "health": {
