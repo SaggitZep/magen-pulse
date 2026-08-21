@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-21T16:45:33.455835Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-21T17:17:56.012432Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 66,
+      "high": 19,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 11,
       "low": 0,
-      "high": 26,
-      "confidence": 66,
+      "high": 27,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 8,
+      "score": 18,
+      "low": 2,
       "high": 34,
-      "confidence": 66,
+      "confidence": 50,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "19:15",
       "text": "Iran vows  devastating  response to US economic threats",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "rte.ie",
       "signal_id": "dfe77d61b4bd4725"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:00",
       "text": "Trump Threatens  Economic D - Day  for Iran as Sanctions Push Extends Six - Month - Old Conflict Further",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "ibtimes.com.au",
       "signal_id": "0f86e7f394201c4d"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "17:45",
       "text": "Iran promises to resist interference by foreign  enemie as Trump threatens new sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "middleeasteye.net",
       "signal_id": "a9e4577e7550c247"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "17:30",
       "text": "Ghalibaf pushes for trade in local currency to bypass  cruel sanctions  as US threatens  toughest  economic action on Iran",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "news.webindia123.com",
       "signal_id": "8862564d9b689dda"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "dfe77d61b4bd4725",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.865,
+      "freshness": 0.741,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.6,
-        "extended": 9.6
-      }
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      },
+      "carried_forward": true
     },
     {
       "id": "0f86e7f394201c4d",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0f86e7f394201c4d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.605,
+      "freshness": 0.518,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      },
+      "carried_forward": true
     },
     {
       "id": "a9e4577e7550c247",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a9e4577e7550c247",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.563,
+      "freshness": 0.483,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
-      }
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.4
+      },
+      "carried_forward": true
     },
     {
       "id": "8862564d9b689dda",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8862564d9b689dda",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.524,
+      "freshness": 0.449,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      }
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      },
+      "carried_forward": true
     },
     {
       "id": "eb310214597cbc81",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "eb310214597cbc81",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.524,
+      "freshness": 0.449,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      }
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      },
+      "carried_forward": true
     },
     {
       "id": "029afb0bc70df4b8",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "029afb0bc70df4b8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.605,
+      "freshness": 0.518,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T15:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      },
+      "carried_forward": true
     },
     {
       "id": "b5708e9556e99511",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b5708e9556e99511",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.455,
+      "freshness": 0.39,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
-      }
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -3921,17 +3928,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-21T17:17:56.012432Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-21T16:45:33.455835Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 7
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
