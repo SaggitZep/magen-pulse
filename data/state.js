@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-21T22:36:13.391777Z",
+  "generated_at": "2026-08-21T23:00:56.615128Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 3,
       "low": 0,
       "high": 17,
-      "confidence": 58,
+      "confidence": 61,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 10,
       "low": 0,
-      "high": 23,
-      "confidence": 58,
-      "status": "לא זוהה אות חריג"
+      "high": 24,
+      "confidence": 61,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
-      "low": 0,
-      "high": 28,
-      "confidence": 58,
+      "score": 17,
+      "low": 3,
+      "high": 31,
+      "confidence": 61,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,21 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": 1
   },
   "changes": [
     {
+      "time": "01:30",
+      "text": "Iran Vows  Devastating  Retaliation Against New U . S . Sanctions Threats",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "foreignpolicy.com",
+      "signal_id": "a8641fda7fa1ba69"
+    },
+    {
       "time": "23:30",
       "text": "Oman , Iran seek deal to safeguard shipping through Hormuz Strait",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "dailysabah.com",
       "signal_id": "9b0a20ff1a91e576"
@@ -58,21 +66,44 @@ window.MAGEN_STATE = {
     {
       "time": "22:30",
       "text": "Gulf states hosting US bases  supported  attack : Iran official",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "siasat.com",
       "signal_id": "be8f67459f1b191e"
-    },
-    {
-      "time": "21:45",
-      "text": "Iran Vows  Devastating  Response to US Threat to Cut Off Its Economic Lifelines",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "gcaptain.com",
-      "signal_id": "eb310214597cbc81"
     }
   ],
   "signals": [
+    {
+      "id": "a8641fda7fa1ba69",
+      "name": "Iran Vows  Devastating  Retaliation Against New U . S . Sanctions Threats",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a8641fda7fa1ba69",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.863,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "foreignpolicy.com",
+      "url": "https://foreignpolicy.com/2026/08/21/us-sanctions-iran-war-trump-bessent-china/?tpcc=recirc_trending062921",
+      "published_at": "2026-08-21T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.6,
+        "extended": 9.6
+      }
+    },
     {
       "id": "9b0a20ff1a91e576",
       "name": "Oman , Iran seek deal to safeguard shipping through Hormuz Strait",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9b0a20ff1a91e576",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.548,
+      "freshness": 0.487,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     },
     {
@@ -114,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a5183bdfd8dd2618",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.384,
+      "freshness": 0.341,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,8 +162,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
+        "short": 2.2,
+        "extended": 3.8
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "be8f67459f1b191e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.412,
+      "freshness": 0.366,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,40 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-21T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "eb310214597cbc81",
-      "name": "Iran Vows  Devastating  Response to US Threat to Cut Off Its Economic Lifelines",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "eb310214597cbc81",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.333,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gcaptain.com",
-      "url": "https://gcaptain.com/iran-vows-devastating-response-to-us-threat-to-cut-off-its-economic-lifelines/",
-      "published_at": "2026-08-21T18:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "short": 2.1,
+        "extended": 3.6
       }
     }
   ],
@@ -3894,12 +3894,18 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 8,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-08-21T23:00:56.615128Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-21T22:36:13.391777Z",
+    "last_success": "2026-08-21T23:00:56.615128Z",
     "sources": {
       "gdelt": {
         "ok": true,
