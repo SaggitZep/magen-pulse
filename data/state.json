@@ -1,48 +1,56 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-21T22:00:53.634736Z",
+  "mode": "live",
+  "generated_at": "2026-08-21T22:36:13.391777Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 2,
       "low": 0,
-      "high": 19,
-      "confidence": 47,
+      "high": 17,
+      "confidence": 58,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
       "score": 8,
       "low": 0,
-      "high": 25,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 58,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
+      "score": 13,
       "low": 0,
-      "high": 31,
-      "confidence": 47,
+      "high": 28,
+      "confidence": 58,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
+      "time": "23:30",
+      "text": "Oman , Iran seek deal to safeguard shipping through Hormuz Strait",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "dailysabah.com",
+      "signal_id": "9b0a20ff1a91e576"
+    },
+    {
       "time": "22:15",
       "text": "Why Iran is threatening Europe  strategically important  southeast - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "dominicanrepublicpost.com",
       "signal_id": "a5183bdfd8dd2618"
@@ -50,7 +58,7 @@
     {
       "time": "22:30",
       "text": "Gulf states hosting US bases  supported  attack : Iran official",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "siasat.com",
       "signal_id": "be8f67459f1b191e"
@@ -58,21 +66,44 @@
     {
       "time": "21:45",
       "text": "Iran Vows  Devastating  Response to US Threat to Cut Off Its Economic Lifelines",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "gcaptain.com",
       "signal_id": "eb310214597cbc81"
-    },
-    {
-      "time": "20:00",
-      "text": "The week that was in international affairs : Trump declares economic war on Iran , Russia threatens united kingdom for supplying drones to Ukraine",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "timesofindia.indiatimes.com",
-      "signal_id": "f5fd6f813852aea2"
     }
   ],
   "signals": [
+    {
+      "id": "9b0a20ff1a91e576",
+      "name": "Oman , Iran seek deal to safeguard shipping through Hormuz Strait",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9b0a20ff1a91e576",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.548,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailysabah.com",
+      "url": "https://www.dailysabah.com/world/mid-east/oman-iran-seek-deal-to-safeguard-shipping-through-hormuz-strait",
+      "published_at": "2026-08-21T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
+    },
     {
       "id": "a5183bdfd8dd2618",
       "name": "Why Iran is threatening Europe  strategically important  southeast - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
@@ -83,7 +114,7 @@
       "dependency_group": "a5183bdfd8dd2618",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.454,
+      "freshness": 0.384,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +130,10 @@
       "published_at": "2026-08-21T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
     },
     {
       "id": "be8f67459f1b191e",
@@ -115,7 +145,7 @@
       "dependency_group": "be8f67459f1b191e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.487,
+      "freshness": 0.412,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +161,10 @@
       "published_at": "2026-08-21T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     },
     {
       "id": "eb310214597cbc81",
@@ -147,7 +176,7 @@
       "dependency_group": "eb310214597cbc81",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.333,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,107 +192,10 @@
       "published_at": "2026-08-21T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f5fd6f813852aea2",
-      "name": "The week that was in international affairs : Trump declares economic war on Iran , Russia threatens united kingdom for supplying drones to Ukraine",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f5fd6f813852aea2",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.239,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/toi-blogs/planet-watch/the-week-that-was-in-international-affairs-trump-declares-economic-war-on-iran-russia-threatens-uk-for-supplying-drones-to-ukraine/articleshow/133408816.cms",
-      "published_at": "2026-08-21T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d17acfa84cb38efb",
-      "name": "Iran vows  devastating  response as US threatens crushing sanctions designed to  collapse  regime",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d17acfa84cb38efb",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.239,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nypost.com",
-      "url": "https://nypost.com/2026/08/21/world-news/iran-vows-devastating-response-as-us-threatens-crushing-sanctions-designed-to-collapse-regime/",
-      "published_at": "2026-08-21T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c8dc3021178760ad",
-      "name": "Iran vows  devastating  response as U . S . threatens toughest ever economic hit",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c8dc3021178760ad",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.239,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thehindu.com",
-      "url": "https://www.thehindu.com/news/international/iran-vows-devastating-response-as-us-threatens-toughest-ever-economic-hit/article71374981.ece",
-      "published_at": "2026-08-21T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      }
     }
   ],
   "history": [
@@ -3956,17 +3888,23 @@
       "immediate": 2,
       "short": 8,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-08-21T22:36:13.391777Z",
+      "immediate": 2,
+      "short": 8,
+      "extended": 13
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-21T20:35:11.522452Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-21T22:36:13.391777Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 6
+        "ok": true,
+        "items": 150,
+        "relevant": 4
       },
       "manual": {
         "ok": true,
