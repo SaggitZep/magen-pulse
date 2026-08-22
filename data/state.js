@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-22T10:43:21.575837Z",
+  "generated_at": "2026-08-22T11:02:46.018780Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
-      "high": 20,
-      "confidence": 45,
+      "high": 19,
+      "confidence": 44,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 8,
       "low": 0,
-      "high": 26,
-      "confidence": 45,
-      "status": "נמוך"
+      "high": 25,
+      "confidence": 44,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
+      "score": 13,
       "low": 0,
-      "high": 31,
-      "confidence": 45,
+      "high": 30,
+      "confidence": 44,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "12:15",
       "text": "UAE Business : Iran , China reject Trump threat of tougher sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "gdnonline.com:443",
       "signal_id": "8b0c0608cababcd3"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:45",
       "text": "Iran threatens military response to US sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "dunyanews.tv",
       "signal_id": "c460c30c7f720d2a"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8b0c0608cababcd3",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.657,
+      "freshness": 0.599,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c460c30c7f720d2a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.428,
+      "freshness": 0.39,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "addf28297191b657",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.299,
+      "freshness": 0.273,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -164,8 +164,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7f0c74a5eb2e6dc1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.321,
+      "freshness": 0.293,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -196,8 +196,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     }
@@ -4006,6 +4006,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 9,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-08-22T11:02:46.018780Z",
+      "immediate": 2,
+      "short": 8,
+      "extended": 13
     }
   ],
   "health": {
