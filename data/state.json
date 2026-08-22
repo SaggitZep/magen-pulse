@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-22T00:00:29.032983Z",
+  "generated_at": "2026-08-22T01:46:39.297794Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
       "high": 20,
-      "confidence": 44,
+      "confidence": 39,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 6,
       "low": 0,
-      "high": 28,
-      "confidence": 44,
-      "status": "נמוך"
+      "high": 24,
+      "confidence": 39,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
+      "score": 11,
       "low": 0,
-      "high": 34,
-      "confidence": 44,
+      "high": 29,
+      "confidence": 39,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@
     {
       "time": "01:45",
       "text": "Iran threatens military response to US sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "perthnow.com.au",
       "signal_id": "c460c30c7f720d2a"
@@ -50,7 +50,7 @@
     {
       "time": "01:30",
       "text": "Iran Vows  Devastating  Retaliation Against New U . S . Sanctions Threats",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "foreignpolicy.com",
       "signal_id": "a8641fda7fa1ba69"
@@ -58,7 +58,7 @@
     {
       "time": "23:30",
       "text": "Oman , Iran seek deal to safeguard shipping through Hormuz Strait",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "dailysabah.com",
       "signal_id": "9b0a20ff1a91e576"
@@ -75,7 +75,7 @@
       "dependency_group": "c460c30c7f720d2a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.698,
+      "freshness": 0.421,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -91,9 +91,9 @@
       "published_at": "2026-08-21T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
       },
       "carried_forward": true
     },
@@ -107,7 +107,7 @@
       "dependency_group": "a8641fda7fa1ba69",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.65,
+      "freshness": 0.392,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -123,9 +123,9 @@
       "published_at": "2026-08-21T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.3
       },
       "carried_forward": true
     },
@@ -139,7 +139,7 @@
       "dependency_group": "9b0a20ff1a91e576",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.367,
+      "freshness": 0.221,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -155,9 +155,9 @@
       "published_at": "2026-08-21T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     }
@@ -3876,6 +3876,12 @@
       "immediate": 3,
       "short": 11,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-22T01:46:39.297794Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 11
     }
   ],
   "health": {
