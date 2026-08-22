@@ -1,75 +1,75 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-22T18:43:24.726801Z",
+  "mode": "live",
+  "generated_at": "2026-08-22T19:10:06.059609Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 15,
-      "low": 0,
-      "high": 31,
-      "confidence": 49,
+      "low": 2,
+      "high": 28,
+      "confidence": 66,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 49,
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 66,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 3,
-      "high": 35,
-      "confidence": 48,
-      "status": "נמוך"
+      "score": 26,
+      "low": 13,
+      "high": 39,
+      "confidence": 66,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -4
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "19:30",
       "text": "Restoration of Iran South Pars Phase 14 refinery 70 % complete after Israeli strike – Middle East Monitor",
-      "impact": "השפעה מיידית מחושבת: +13.1",
+      "impact": "השפעה מיידית מחושבת: +11.5",
       "direction": "up",
       "source": "middleeastmonitor.com",
       "signal_id": "22becf840f4cc600"
     },
     {
-      "time": "20:15",
-      "text": "Turchia , mandato darresto per Netanyahu . Trump :  Iran non avrà nucleare , Hormuz territorio united states",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "21:30",
+      "text": "Iran warns of crushing response to US threats",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "sardegnalive.net",
-      "signal_id": "3c21245de3ac7a7d"
+      "source": "calcuttanews.net",
+      "signal_id": "6ea4ff11c18c71c5"
     },
     {
-      "time": "19:00",
-      "text": "Iran threatens military response to U . S . sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "21:30",
+      "text": "Iran claims receiving  numerous message from neighbors about new security arrangements despite US threat",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "kaieteurnewsonline.com",
-      "signal_id": "377c2d0e573ebbe7"
+      "source": "aa.com.tr",
+      "signal_id": "a2e41d05b2e8aa39"
     },
     {
-      "time": "18:30",
-      "text": "Iran Pledges  Devastating  Retaliation to U . S . Economic Pressure Threats - Jowhar News Leader",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "21:00",
+      "text": "Tehran at  center  of global power : Iran Basij chief , says US action shows weakness in its military",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "jowhar.com",
-      "signal_id": "53de3f9b0fe40c62"
+      "source": "aninews.in",
+      "signal_id": "d7236c48fa9ddfd8"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "22becf840f4cc600",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.53,
+      "freshness": 0.467,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,11 +99,134 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 13.1,
-        "short": 10.2,
-        "extended": 4.3
+        "immediate": 11.5,
+        "short": 9.0,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "6ea4ff11c18c71c5",
+      "name": "Iran warns of crushing response to US threats",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6ea4ff11c18c71c5",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.826,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "calcuttanews.net",
+      "url": "http://www.calcuttanews.net/news/279256711/iran-warns-us-over-toughest-ever-sanctions",
+      "published_at": "2026-08-22T18:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
+    {
+      "id": "a2e41d05b2e8aa39",
+      "name": "Iran claims receiving  numerous message from neighbors about new security arrangements despite US threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a2e41d05b2e8aa39",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.826,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/middle-east/iran-claims-receiving-numerous-messages-from-neighbors-about-new-security-arrangements-despite-us-threat/4034771",
+      "published_at": "2026-08-22T18:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
+    {
+      "id": "d7236c48fa9ddfd8",
+      "name": "Tehran at  center  of global power : Iran Basij chief , says US action shows weakness in its military",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d7236c48fa9ddfd8",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.716,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aninews.in",
+      "url": "https://aninews.in/news/world/middle-east/tehran-at-center-of-global-power-irans-basij-chief-says-us-action-shows-weakness-in-its-military20260822225139/",
+      "published_at": "2026-08-22T18:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.1
+      }
+    },
+    {
+      "id": "4e318fe3d83c8865",
+      "name": "Trump Economic Isolation Plan Risks More Iran Strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4e318fe3d83c8865",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.621,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "politicalwire.com",
+      "url": "https://politicalwire.com/2026/08/22/trumps-economic-isolation-plan-risks-more-iran-strikes/",
+      "published_at": "2026-08-22T17:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
     },
     {
       "id": "3c21245de3ac7a7d",
@@ -115,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3c21245de3ac7a7d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.656,
+      "freshness": 0.578,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +254,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
+      }
     },
     {
       "id": "377c2d0e573ebbe7",
@@ -147,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "377c2d0e573ebbe7",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.459,
+      "freshness": 0.404,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +285,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
     },
     {
       "id": "53de3f9b0fe40c62",
@@ -179,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "53de3f9b0fe40c62",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.398,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +316,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
     },
     {
       "id": "047ed21124d2a469",
@@ -211,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "047ed21124d2a469",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.398,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,11 +347,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
     },
     {
       "id": "3b5cffe871e0988a",
@@ -243,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3b5cffe871e0988a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.398,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,107 +378,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ef866df387adbe6c",
-      "name": "Trump threatens sanctions on Iran partners as oil prices rise again during the weekend",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ef866df387adbe6c",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.279,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thestar.com.my",
-      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/22/trump-threatens-sanctions-on-iran-partners-as-oil-prices-rise-again-during-the-weekend",
-      "published_at": "2026-08-22T14:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "59a05041c79bd0a5",
-      "name": "US military casualties rise to over 770 as Iran conflict enters sixth month",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "59a05041c79bd0a5",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.279,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260822/4489813.html",
-      "published_at": "2026-08-22T14:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "62d9ba6cb85b512b",
-      "name": "Trump economic isolation plan risks Iran strikes across Gulf",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "62d9ba6cb85b512b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.259,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/defence/trumps-economic-isolation-plan-risks-iran-strikes-across-gulf/articleshow/133425259.cms",
-      "published_at": "2026-08-22T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
     }
   ],
   "history": [
@@ -4256,17 +4278,23 @@ window.MAGEN_STATE = {
       "immediate": 15,
       "short": 18,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-22T19:10:06.059609Z",
+      "immediate": 15,
+      "short": 22,
+      "extended": 26
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-22T17:53:22.514363Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-22T19:10:06.059609Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 9
+        "ok": true,
+        "items": 150,
+        "relevant": 10
       },
       "manual": {
         "ok": true,
