@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-22T10:10:33.358111Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-22T10:43:21.575837Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 60,
+      "high": 20,
+      "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 9,
       "low": 0,
-      "high": 24,
-      "confidence": 60,
+      "high": 26,
+      "confidence": 45,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 3,
+      "score": 14,
+      "low": 0,
       "high": 31,
-      "confidence": 60,
+      "confidence": 45,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -7
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "12:15",
       "text": "UAE Business : Iran , China reject Trump threat of tougher sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "gdnonline.com:443",
       "signal_id": "8b0c0608cababcd3"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:45",
       "text": "Iran threatens military response to US sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "dunyanews.tv",
       "signal_id": "c460c30c7f720d2a"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "09:30",
       "text": "US military moves 15 millionbarrels through Hormuz amid Iran tensions",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "indiagazette.com",
       "signal_id": "addf28297191b657"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "09:45",
       "text": "Shifting to economic warfare against Iran does not limit US military options : Trump",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "dailyexcelsior.com",
       "signal_id": "7f0c74a5eb2e6dc1"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8b0c0608cababcd3",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.768,
+      "freshness": 0.657,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      }
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      },
+      "carried_forward": true
     },
     {
       "id": "c460c30c7f720d2a",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c460c30c7f720d2a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.5,
+      "freshness": 0.428,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.5
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
+      },
+      "carried_forward": true
     },
     {
       "id": "addf28297191b657",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "addf28297191b657",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.35,
+      "freshness": 0.299,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T06:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
+      },
+      "carried_forward": true
     },
     {
       "id": "7f0c74a5eb2e6dc1",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7f0c74a5eb2e6dc1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.376,
+      "freshness": 0.321,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -3996,17 +4000,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-22T10:43:21.575837Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 14
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-22T10:10:33.358111Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 4
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 4
       },
       "manual": {
         "ok": true,
