@@ -1,109 +1,108 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-22T09:46:14.376984Z",
+  "mode": "live",
+  "generated_at": "2026-08-22T10:10:33.358111Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 10,
+      "score": 3,
       "low": 0,
-      "high": 27,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 17,
+      "confidence": 60,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
+      "score": 10,
       "low": 0,
-      "high": 31,
-      "confidence": 47,
+      "high": 24,
+      "confidence": 60,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
-      "low": 0,
-      "high": 33,
-      "confidence": 47,
+      "score": 17,
+      "low": 3,
+      "high": 31,
+      "confidence": 60,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -2
+    "points_60m": -7
   },
   "changes": [
     {
-      "time": "08:45",
-      "text": "Iran Weapons Production Doubled in Past Year Despite US , Israeli Strikes",
-      "impact": "השפעה מיידית מחושבת: +7.8",
+      "time": "12:15",
+      "text": "UAE Business : Iran , China reject Trump threat of tougher sanctions",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "sputnikglobe.com",
-      "signal_id": "4e8a63d4e48a3736"
+      "source": "gdnonline.com:443",
+      "signal_id": "8b0c0608cababcd3"
     },
     {
       "time": "10:45",
       "text": "Iran threatens military response to US sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "dunyanews.tv",
       "signal_id": "c460c30c7f720d2a"
     },
     {
-      "time": "09:45",
-      "text": "Shifting to economic warfare against Iran does not limit US military options : Trump",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "dailyexcelsior.com",
-      "signal_id": "7f0c74a5eb2e6dc1"
-    },
-    {
       "time": "09:30",
       "text": "US military moves 15 millionbarrels through Hormuz amid Iran tensions",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "indiagazette.com",
       "signal_id": "addf28297191b657"
+    },
+    {
+      "time": "09:45",
+      "text": "Shifting to economic warfare against Iran does not limit US military options : Trump",
+      "impact": "השפעה מיידית מחושבת: +0.6",
+      "direction": "up",
+      "source": "dailyexcelsior.com",
+      "signal_id": "7f0c74a5eb2e6dc1"
     }
   ],
   "signals": [
     {
-      "id": "4e8a63d4e48a3736",
-      "name": "Iran Weapons Production Doubled in Past Year Despite US , Israeli Strikes",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "8b0c0608cababcd3",
+      "name": "UAE Business : Iran , China reject Trump threat of tougher sanctions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "4e8a63d4e48a3736",
-      "strength": 0.5,
+      "dependency_group": "8b0c0608cababcd3",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.317,
+      "freshness": 0.768,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "sputnikglobe.com",
-      "url": "https://sputnikglobe.com/20260822/irans-weapons-production-doubled-in-past-year-despite-us-israeli-strikes-1124613530.html",
-      "published_at": "2026-08-22T05:45:00Z",
+      "source": "gdnonline.com:443",
+      "url": "https://www.gdnonline.com:443/Details/1404148/Iran,-China-reject-Trump%E2%80%99s-threat-of-tougher-sanctions",
+      "published_at": "2026-08-22T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 7.8,
-        "short": 6.1,
-        "extended": 2.6
-      },
-      "carried_forward": true
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
     },
     {
       "id": "c460c30c7f720d2a",
@@ -115,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c460c30c7f720d2a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.561,
+      "freshness": 0.5,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,43 +130,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7f0c74a5eb2e6dc1",
-      "name": "Shifting to economic warfare against Iran does not limit US military options : Trump",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7f0c74a5eb2e6dc1",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.422,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailyexcelsior.com",
-      "url": "https://www.dailyexcelsior.com/shifting-to-economic-warfare-against-iran-does-not-limit-us-military-options-trump/",
-      "published_at": "2026-08-22T06:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.2
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.5
+      }
     },
     {
       "id": "addf28297191b657",
@@ -179,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "addf28297191b657",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.393,
+      "freshness": 0.35,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,55 +161,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T06:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
     },
     {
-      "id": "cf62c49d3dca3c57",
-      "name": "Oil rises as Trump threatens sanctions on Iran partners",
+      "id": "7f0c74a5eb2e6dc1",
+      "name": "Shifting to economic warfare against Iran does not limit US military options : Trump",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "cf62c49d3dca3c57",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.275,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "asiaone.com",
-      "url": "https://www.asiaone.com/money/oil-rises-trump-threatens-sanctions-iran-partners",
-      "published_at": "2026-08-22T05:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "33907ad4415608f2",
-      "name": "Complete erosion of sovereignty as foundation of US - based inter - State system : Iran on US sanctions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "33907ad4415608f2",
+      "dependency_group": "7f0c74a5eb2e6dc1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.275,
+      "freshness": 0.376,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,48 +187,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "ianslive.in",
-      "url": "https://ianslive.in/complete-erosion-of-sovereignty-as-foundation-of-us-based-inter-state-system-iran-on-us-sanctions--20260822090934",
-      "published_at": "2026-08-22T05:15:00Z",
+      "source": "dailyexcelsior.com",
+      "url": "https://www.dailyexcelsior.com/shifting-to-economic-warfare-against-iran-does-not-limit-us-military-options-trump/",
+      "published_at": "2026-08-22T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "400fa011f65908bb",
-      "name": "US military moves 15 million barrels through Hormuz amid standoff with Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "400fa011f65908bb",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.238,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/us-military-moves-15-million-barrels-through-hormuz-amid-standoff-with-iran/articleshow/133417233.cms",
-      "published_at": "2026-08-22T04:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      }
     }
   ],
   "history": [
@@ -4090,17 +3990,23 @@ window.MAGEN_STATE = {
       "immediate": 10,
       "short": 14,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-22T10:10:33.358111Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-22T08:43:17.201170Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-22T10:10:33.358111Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "ok": true,
+        "items": 150,
+        "relevant": 4
       },
       "manual": {
         "ok": true,
