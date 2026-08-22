@@ -1,23 +1,23 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-22T17:29:53.630680Z",
+  "generated_at": "2026-08-22T17:53:22.514363Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 67,
+      "score": 19,
+      "low": 6,
+      "high": 32,
+      "confidence": 66,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 66,
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 65,
       "status": "מוגבר"
     },
     "extended": {
@@ -25,7 +25,7 @@ window.MAGEN_STATE = {
       "score": 23,
       "low": 10,
       "high": 36,
-      "confidence": 66,
+      "confidence": 65,
       "status": "מוגבר"
     }
   },
@@ -35,22 +35,30 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 19
+    "level": "ירידה",
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "19:30",
       "text": "Restoration of Iran South Pars Phase 14 refinery 70 % complete after Israeli strike – Middle East Monitor",
-      "impact": "השפעה מיידית מחושבת: +18.5",
+      "impact": "השפעה מיידית מחושבת: +16.6",
       "direction": "up",
       "source": "middleeastmonitor.com",
       "signal_id": "22becf840f4cc600"
     },
     {
+      "time": "20:15",
+      "text": "Turchia , mandato darresto per Netanyahu . Trump :  Iran non avrà nucleare , Hormuz territorio united states",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "sardegnalive.net",
+      "signal_id": "3c21245de3ac7a7d"
+    },
+    {
       "time": "19:00",
       "text": "Iran threatens military response to U . S . sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "kaieteurnewsonline.com",
       "signal_id": "377c2d0e573ebbe7"
@@ -58,18 +66,10 @@ window.MAGEN_STATE = {
     {
       "time": "18:30",
       "text": "Iran Pledges  Devastating  Retaliation to U . S . Economic Pressure Threats - Jowhar News Leader",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "jowhar.com",
       "signal_id": "53de3f9b0fe40c62"
-    },
-    {
-      "time": "18:30",
-      "text": "US , Iran trade threats as Washington prepares new sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "dailysabah.com",
-      "signal_id": "047ed21124d2a469"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "22becf840f4cc600",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.752,
+      "freshness": 0.672,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 18.5,
-        "short": 14.5,
-        "extended": 6.1
+        "immediate": 16.6,
+        "short": 12.9,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "3c21245de3ac7a7d",
+      "name": "Turchia , mandato darresto per Netanyahu . Trump :  Iran non avrà nucleare , Hormuz territorio united states",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3c21245de3ac7a7d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.833,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sardegnalive.net",
+      "url": "https://www.sardegnalive.net/nel-mondo/turchia-mandato-darresto-per-netanyahu-trump-iran-non-avra-nucleare-hormuz-territorio-usa-resopoas",
+      "published_at": "2026-08-22T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
       }
     },
     {
@@ -114,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "377c2d0e573ebbe7",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.652,
+      "freshness": 0.583,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "53de3f9b0fe40c62",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.565,
+      "freshness": 0.505,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "047ed21124d2a469",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.565,
+      "freshness": 0.505,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       }
     },
     {
@@ -207,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3b5cffe871e0988a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.565,
+      "freshness": 0.505,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       }
     },
     {
@@ -238,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ef866df387adbe6c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.395,
+      "freshness": 0.353,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T14:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     },
     {
@@ -269,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "62d9ba6cb85b512b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.368,
+      "freshness": 0.329,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -286,8 +317,39 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "short": 1.9,
+        "extended": 3.2
+      }
+    },
+    {
+      "id": "59a05041c79bd0a5",
+      "name": "US military casualties rise to over 770 as Iran conflict enters sixth month",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "59a05041c79bd0a5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.353,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260822/4489813.html",
+      "published_at": "2026-08-22T14:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
       }
     }
   ],
@@ -4173,17 +4235,23 @@ window.MAGEN_STATE = {
       "immediate": 21,
       "short": 24,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-08-22T17:53:22.514363Z",
+      "immediate": 19,
+      "short": 23,
+      "extended": 23
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-22T17:29:53.630680Z",
+    "last_success": "2026-08-22T17:53:22.514363Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 7
+        "relevant": 9
       },
       "manual": {
         "ok": true,
