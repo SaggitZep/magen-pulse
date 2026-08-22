@@ -1,70 +1,140 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-22T01:46:39.297794Z",
+  "mode": "live",
+  "generated_at": "2026-08-22T02:44:31.388320Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 3,
       "low": 0,
-      "high": 20,
-      "confidence": 39,
+      "high": 16,
+      "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
+      "score": 12,
       "low": 0,
-      "high": 24,
-      "confidence": 39,
-      "status": "לא זוהה אות חריג"
+      "high": 25,
+      "confidence": 65,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
-      "low": 0,
-      "high": 29,
-      "confidence": 39,
+      "score": 19,
+      "low": 6,
+      "high": 32,
+      "confidence": 65,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 1
   },
   "changes": [
     {
-      "time": "01:45",
-      "text": "Iran threatens military response to US sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "05:00",
+      "text": "US , Iran trade threats as Washington readies  toughest sanctions",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "perthnow.com.au",
+      "source": "economictimes.indiatimes.com",
+      "signal_id": "c9e81ffd87d77dd2"
+    },
+    {
+      "time": "03:45",
+      "text": "Trump says Tehran not ready for  right deal  as Iran military threatens  devastating  response",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "arabnews.com",
+      "signal_id": "10bfef62a964aca3"
+    },
+    {
+      "time": "03:00",
+      "text": "Iran threatens military response to US sanctions",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "illawarramercury.com.au",
       "signal_id": "c460c30c7f720d2a"
     },
     {
-      "time": "01:30",
-      "text": "Iran Vows  Devastating  Retaliation Against New U . S . Sanctions Threats",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "03:30",
+      "text": "Iran vows  devastating  military response to tough new U . S . sanctions",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
-      "source": "foreignpolicy.com",
-      "signal_id": "a8641fda7fa1ba69"
-    },
-    {
-      "time": "23:30",
-      "text": "Oman , Iran seek deal to safeguard shipping through Hormuz Strait",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "dailysabah.com",
-      "signal_id": "9b0a20ff1a91e576"
+      "source": "staradvertiser.com",
+      "signal_id": "8e00baffa9e06c88"
     }
   ],
   "signals": [
+    {
+      "id": "c9e81ffd87d77dd2",
+      "name": "US , Iran trade threats as Washington readies  toughest sanctions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c9e81ffd87d77dd2",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.809,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/defence/us-iran-trade-threats-as-washington-readies-toughest-sanctions/articleshow/133415785.cms",
+      "published_at": "2026-08-22T02:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.3,
+        "extended": 9.0
+      }
+    },
+    {
+      "id": "10bfef62a964aca3",
+      "name": "Trump says Tehran not ready for  right deal  as Iran military threatens  devastating  response",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "10bfef62a964aca3",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.566,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arabnews.com",
+      "url": "https://www.arabnews.com/node/2655474/middle-east",
+      "published_at": "2026-08-22T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
     {
       "id": "c460c30c7f720d2a",
       "name": "Iran threatens military response to US sanctions",
@@ -75,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c460c30c7f720d2a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.421,
+      "freshness": 0.457,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -86,28 +156,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "perthnow.com.au",
-      "url": "https://www.perthnow.com.au/news/conflict/iran-threatens-military-response-to-us-sanctions-c-22762209",
-      "published_at": "2026-08-21T22:45:00Z",
+      "source": "illawarramercury.com.au",
+      "url": "https://www.illawarramercury.com.au/story/9335195/iran-threatens-military-response-to-us-sanctions/",
+      "published_at": "2026-08-22T00:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
     },
     {
-      "id": "a8641fda7fa1ba69",
-      "name": "Iran Vows  Devastating  Retaliation Against New U . S . Sanctions Threats",
+      "id": "8e00baffa9e06c88",
+      "name": "Iran vows  devastating  military response to tough new U . S . sanctions",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a8641fda7fa1ba69",
-      "strength": 0.45,
+      "dependency_group": "8e00baffa9e06c88",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.392,
+      "freshness": 0.527,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -118,28 +187,58 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "foreignpolicy.com",
-      "url": "https://foreignpolicy.com/2026/08/21/us-sanctions-iran-war-trump-bessent-china/?tpcc=recirc_trending062921",
-      "published_at": "2026-08-21T22:30:00Z",
+      "source": "staradvertiser.com",
+      "url": "https://www.staradvertiser.com/2026/08/21/breaking-news/iran-vows-devastating-military-response-to-tough-new-u-s-sanctions/",
+      "published_at": "2026-08-22T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      }
+    },
+    {
+      "id": "e324045fa13879ca",
+      "name": "Israel Strikes Syria , Trump Escalates the Economic War on Iran , the US Seems to Move Toward Diplomacy With North Korea",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e324045fa13879ca",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.457,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thenation.com",
+      "url": "https://www.thenation.com/podcast/politics/amprest-082126/",
+      "published_at": "2026-08-22T00:00:00Z",
       "active": true,
       "computed": {
         "immediate": 0.8,
         "short": 2.6,
-        "extended": 4.3
-      },
-      "carried_forward": true
+        "extended": 4.5
+      }
     },
     {
-      "id": "9b0a20ff1a91e576",
-      "name": "Oman , Iran seek deal to safeguard shipping through Hormuz Strait",
+      "id": "f3f3492eeffd040e",
+      "name": "NATO on Guard as Iran Reportedly Eyes US Bases in Europe",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "9b0a20ff1a91e576",
+      "dependency_group": "f3f3492eeffd040e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.221,
+      "freshness": 0.369,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -150,16 +249,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "dailysabah.com",
-      "url": "https://www.dailysabah.com/world/mid-east/oman-iran-seek-deal-to-safeguard-shipping-through-hormuz-strait",
-      "published_at": "2026-08-21T20:30:00Z",
+      "source": "voiceofvienna.org",
+      "url": "https://voiceofvienna.org/nato-on-guard-as-iran-reportedly-eyes-us-bases-in-europe/",
+      "published_at": "2026-08-21T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
     }
   ],
   "history": [
@@ -3882,17 +3980,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 6,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-22T02:44:31.388320Z",
+      "immediate": 3,
+      "short": 12,
+      "extended": 19
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-21T23:34:27.706550Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-22T02:44:31.388320Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 3
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
