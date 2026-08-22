@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-22T11:02:46.018780Z",
+  "generated_at": "2026-08-22T11:32:22.036077Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@
       "score": 2,
       "low": 0,
       "high": 19,
-      "confidence": 44,
+      "confidence": 42,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 7,
       "low": 0,
-      "high": 25,
-      "confidence": 44,
+      "high": 24,
+      "confidence": 42,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
+      "score": 12,
       "low": 0,
-      "high": 30,
-      "confidence": 44,
+      "high": 29,
+      "confidence": 42,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "12:15",
       "text": "UAE Business : Iran , China reject Trump threat of tougher sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "gdnonline.com:443",
       "signal_id": "8b0c0608cababcd3"
@@ -50,7 +50,7 @@
     {
       "time": "10:45",
       "text": "Iran threatens military response to US sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "dunyanews.tv",
       "signal_id": "c460c30c7f720d2a"
@@ -58,7 +58,7 @@
     {
       "time": "09:30",
       "text": "US military moves 15 millionbarrels through Hormuz amid Iran tensions",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "indiagazette.com",
       "signal_id": "addf28297191b657"
@@ -66,7 +66,7 @@
     {
       "time": "09:45",
       "text": "Shifting to economic warfare against Iran does not limit US military options : Trump",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "dailyexcelsior.com",
       "signal_id": "7f0c74a5eb2e6dc1"
@@ -83,7 +83,7 @@
       "dependency_group": "8b0c0608cababcd3",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.599,
+      "freshness": 0.52,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-22T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "c460c30c7f720d2a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.39,
+      "freshness": 0.339,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-22T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.8
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "addf28297191b657",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.273,
+      "freshness": 0.237,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-22T06:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.3
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "7f0c74a5eb2e6dc1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.293,
+      "freshness": 0.255,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-22T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     }
@@ -4012,6 +4012,12 @@
       "immediate": 2,
       "short": 8,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-08-22T11:32:22.036077Z",
+      "immediate": 2,
+      "short": 7,
+      "extended": 12
     }
   ],
   "health": {
