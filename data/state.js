@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-22T13:39:26.758394Z",
+  "generated_at": "2026-08-22T13:59:42.253828Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 20,
-      "confidence": 51,
+      "high": 19,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 11,
       "low": 0,
-      "high": 28,
-      "confidence": 51,
+      "high": 27,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 4,
-      "high": 36,
-      "confidence": 51,
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 50,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "15:30",
       "text": "Iran - US war latest : Trump says Tehran not ready to make  right deal  after threatening  Economic D - Day",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "independent.co.uk",
       "signal_id": "9fe7402a4aafaba2"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "14:45",
       "text": "Iran , China reject Trump threat of tougher sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "tradearabia.com:443",
       "signal_id": "cdc9c3789ca2e1e1"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:15",
       "text": "Iran Shifts to Offensive Military Doctrine , Puts Bounty on US Troops",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "en.tempo.co",
       "signal_id": "101327fb1a6b645d"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "14:15",
       "text": "From defence to offence : Iran warns of pre - emptive strikes as Trump ramps up threats",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "timesofindia.indiatimes.com",
       "signal_id": "29c4d4012d5a4e06"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9fe7402a4aafaba2",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.718,
+      "freshness": 0.652,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cdc9c3789ca2e1e1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.58,
+      "freshness": 0.527,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T11:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "101327fb1a6b645d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.669,
+      "freshness": 0.607,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "29c4d4012d5a4e06",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.503,
+      "freshness": 0.456,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T11:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6fd412454e6be6cf",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.468,
+      "freshness": 0.425,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T11:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8d6c8747275f136a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.503,
+      "freshness": 0.456,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T11:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a9ad92c827d30154",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.468,
+      "freshness": 0.425,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T11:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4e9cdb0b7eab7eab",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.352,
+      "freshness": 0.319,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T10:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
       },
       "carried_forward": true
     }
@@ -4164,6 +4164,12 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-22T13:59:42.253828Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
