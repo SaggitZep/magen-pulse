@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-22T23:30:20.895256Z",
+  "generated_at": "2026-08-22T23:52:32.212560Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
       "high": 19,
-      "confidence": 53,
+      "confidence": 51,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 11,
       "low": 0,
       "high": 27,
-      "confidence": 53,
+      "confidence": 51,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 5,
-      "high": 35,
-      "confidence": 53,
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 51,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "00:30",
       "text": "Bulgaria removes US tankers after Iran threat as Tehran shows off underground missile",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "ynetnews.com",
       "signal_id": "ede0b278694bcf83"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "01:00",
       "text": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "reflector.com",
       "signal_id": "a8d0db6467807bc5"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "01:00",
       "text": "Iran warns of crushing response to US threats",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "mainemirror.com",
       "signal_id": "6ea4ff11c18c71c5"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "01:00",
       "text": "US military casualties rise to over 770 as Iran conflict enters sixth month",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "kenyastar.com",
       "signal_id": "59a05041c79bd0a5"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ede0b278694bcf83",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.564,
+      "freshness": 0.507,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.4
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a8d0db6467807bc5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.65,
+      "freshness": 0.585,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6ea4ff11c18c71c5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.65,
+      "freshness": 0.585,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "59a05041c79bd0a5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.65,
+      "freshness": 0.585,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d7236c48fa9ddfd8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.318,
+      "freshness": 0.286,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -228,8 +228,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "short": 1.7,
+        "extended": 2.8
       },
       "carried_forward": true
     }
@@ -4188,6 +4188,12 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-22T23:52:32.212560Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
