@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-22T20:34:51.311292Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-22T21:00:30.820560Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 66,
+      "high": 19,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 11,
       "low": 0,
-      "high": 25,
-      "confidence": 66,
+      "high": 27,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 7,
-      "high": 33,
-      "confidence": 66,
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 50,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -9
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "22:30",
       "text": "Iran warns of crushing response to US threats",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "bangladeshsun.com",
       "signal_id": "6ea4ff11c18c71c5"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:30",
       "text": "Tehran at  center  of global power : Iran Basij chief , says US action shows weakness in its military",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "news.webindia123.com",
       "signal_id": "d7236c48fa9ddfd8"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:30",
       "text": "Iran claims receiving  numerous message from neighbors about new security arrangements despite US threat",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "a2e41d05b2e8aa39"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:30",
       "text": "Iran : No military goal can justify killing of children",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "azernews.az",
       "signal_id": "1387bfb449100a10"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6ea4ff11c18c71c5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.734,
+      "freshness": 0.65,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.1
-      }
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      },
+      "carried_forward": true
     },
     {
       "id": "d7236c48fa9ddfd8",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d7236c48fa9ddfd8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.734,
+      "freshness": 0.65,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
+      },
+      "carried_forward": true
     },
     {
       "id": "a2e41d05b2e8aa39",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a2e41d05b2e8aa39",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.552,
+      "freshness": 0.488,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      },
+      "carried_forward": true
     },
     {
       "id": "1387bfb449100a10",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1387bfb449100a10",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.552,
+      "freshness": 0.488,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      },
+      "carried_forward": true
     },
     {
       "id": "3c21245de3ac7a7d",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3c21245de3ac7a7d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.386,
+      "freshness": 0.342,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "4e318fe3d83c8865",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4e318fe3d83c8865",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.415,
+      "freshness": 0.367,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -4178,17 +4184,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-22T21:00:30.820560Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-22T20:34:51.311292Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 6
+        "ok": false,
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "carried_forward": 6
       },
       "manual": {
         "ok": true,
