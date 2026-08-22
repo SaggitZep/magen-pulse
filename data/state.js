@@ -1,78 +1,264 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-22T16:54:50.127726Z",
+  "mode": "live",
+  "generated_at": "2026-08-22T17:29:53.630680Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
-      "low": 0,
-      "high": 19,
-      "confidence": 44,
-      "status": "לא זוהה אות חריג"
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 67,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
-      "low": 0,
-      "high": 23,
-      "confidence": 44,
-      "status": "לא זוהה אות חריג"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 66,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 10,
-      "low": 0,
-      "high": 27,
-      "confidence": 44,
-      "status": "נמוך"
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 66,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "זינוק חריג",
+    "points_60m": 19
   },
   "changes": [
     {
-      "time": "17:00",
-      "text": "Trump economic isolation plan risks Iran strikes across Gulf",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "19:30",
+      "text": "Restoration of Iran South Pars Phase 14 refinery 70 % complete after Israeli strike – Middle East Monitor",
+      "impact": "השפעה מיידית מחושבת: +18.5",
       "direction": "up",
-      "source": "economictimes.indiatimes.com",
-      "signal_id": "62d9ba6cb85b512b"
+      "source": "middleeastmonitor.com",
+      "signal_id": "22becf840f4cc600"
     },
     {
-      "time": "15:30",
-      "text": "Iran - US war latest : Trump says Tehran not ready to make  right deal  after threatening  Economic D - Day",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "19:00",
+      "text": "Iran threatens military response to U . S . sanctions",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "independent.co.uk",
-      "signal_id": "9fe7402a4aafaba2"
+      "source": "kaieteurnewsonline.com",
+      "signal_id": "377c2d0e573ebbe7"
     },
     {
-      "time": "15:15",
-      "text": "Iran Shifts to Offensive Military Doctrine , Puts Bounty on US Troops",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "18:30",
+      "text": "Iran Pledges  Devastating  Retaliation to U . S . Economic Pressure Threats - Jowhar News Leader",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
-      "source": "en.tempo.co",
-      "signal_id": "101327fb1a6b645d"
+      "source": "jowhar.com",
+      "signal_id": "53de3f9b0fe40c62"
     },
     {
-      "time": "14:45",
-      "text": "Iran , China reject Trump threat of tougher sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "18:30",
+      "text": "US , Iran trade threats as Washington prepares new sanctions",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
-      "source": "tradearabia.com:443",
-      "signal_id": "cdc9c3789ca2e1e1"
+      "source": "dailysabah.com",
+      "signal_id": "047ed21124d2a469"
     }
   ],
   "signals": [
+    {
+      "id": "22becf840f4cc600",
+      "name": "Restoration of Iran South Pars Phase 14 refinery 70 % complete after Israeli strike – Middle East Monitor",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "22becf840f4cc600",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.752,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "middleeastmonitor.com",
+      "url": "https://www.middleeastmonitor.com/20260822-restoration-of-irans-south-pars-phase-14-refinery-70-complete-after-israeli-strike/",
+      "published_at": "2026-08-22T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 18.5,
+        "short": 14.5,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "377c2d0e573ebbe7",
+      "name": "Iran threatens military response to U . S . sanctions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "377c2d0e573ebbe7",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.652,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kaieteurnewsonline.com",
+      "url": "https://kaieteurnewsonline.com/2026/08/22/iran-threatens-military-response-to-u-s-sanctions/",
+      "published_at": "2026-08-22T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      }
+    },
+    {
+      "id": "53de3f9b0fe40c62",
+      "name": "Iran Pledges  Devastating  Retaliation to U . S . Economic Pressure Threats - Jowhar News Leader",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "53de3f9b0fe40c62",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.565,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jowhar.com",
+      "url": "https://jowhar.com/iran-pledges-devastating-retaliation-to-u-s-economic-pressure-threats/",
+      "published_at": "2026-08-22T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "047ed21124d2a469",
+      "name": "US , Iran trade threats as Washington prepares new sanctions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "047ed21124d2a469",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.565,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailysabah.com",
+      "url": "https://www.dailysabah.com/world/mid-east/us-iran-trade-threats-as-washington-prepares-new-sanctions",
+      "published_at": "2026-08-22T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "3b5cffe871e0988a",
+      "name": "US Sanctions Threat : Behind Iran Fresh Rallying Cry Against  Same Bull",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3b5cffe871e0988a",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.565,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ibtimes.com",
+      "url": "https://www.ibtimes.com/us-sanctions-threat-behind-irans-fresh-rallying-cry-against-same-bull-3806678",
+      "published_at": "2026-08-22T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "ef866df387adbe6c",
+      "name": "Trump threatens sanctions on Iran partners as oil prices rise again during the weekend",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ef866df387adbe6c",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.395,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thestar.com.my",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/22/trump-threatens-sanctions-on-iran-partners-as-oil-prices-rise-again-during-the-weekend",
+      "published_at": "2026-08-22T14:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
     {
       "id": "62d9ba6cb85b512b",
       "name": "Trump economic isolation plan risks Iran strikes across Gulf",
@@ -83,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "62d9ba6cb85b512b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.435,
+      "freshness": 0.368,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,235 +285,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9fe7402a4aafaba2",
-      "name": "Iran - US war latest : Trump says Tehran not ready to make  right deal  after threatening  Economic D - Day",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9fe7402a4aafaba2",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.283,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "independent.co.uk",
-      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-threat-sanctions-hormuz-update-b3037440.html",
-      "published_at": "2026-08-22T12:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "101327fb1a6b645d",
-      "name": "Iran Shifts to Offensive Military Doctrine , Puts Bounty on US Troops",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "101327fb1a6b645d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.264,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "en.tempo.co",
-      "url": "https://en.tempo.co/read/2118091/iran-shifts-to-offensive-military-doctrine-puts-bounty-on-us-troops",
-      "published_at": "2026-08-22T12:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "cdc9c3789ca2e1e1",
-      "name": "Iran , China reject Trump threat of tougher sanctions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cdc9c3789ca2e1e1",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.229,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "tradearabia.com:443",
-      "url": "https://tradearabia.com:443/News/466797/Iran-China-reject-Trump%E2%80%99s-threat-of-tougher-sanctions",
-      "published_at": "2026-08-22T11:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "29c4d4012d5a4e06",
-      "name": "From defence to offence : Iran warns of pre - emptive strikes as Trump ramps up threats",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "29c4d4012d5a4e06",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.198,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/from-defence-to-offence-iran-warns-of-pre-emptive-strikes-as-trump-ramps-up-threats/articleshow/133421851.cms",
-      "published_at": "2026-08-22T11:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6fd412454e6be6cf",
-      "name": "Without a binding  no aggression , no threat  US guarantee , no war - ending deal with Iran can make headway",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6fd412454e6be6cf",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.185,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/08/22/774836/without-binding-no-aggression-no-threat-us-guarantee-no-deal-make-make-headway",
-      "published_at": "2026-08-22T11:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8d6c8747275f136a",
-      "name": "Iran halts public weapons displays to preserve military surprise : Defence Ministry",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8d6c8747275f136a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.198,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailyexcelsior.com",
-      "url": "https://www.dailyexcelsior.com/iran-halts-public-weapons-displays-to-preserve-military-surprise-defence-ministry/",
-      "published_at": "2026-08-22T11:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a9ad92c827d30154",
-      "name": "Iran military and strategic options to thwart – and break – the illegal US naval blockade",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a9ad92c827d30154",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.185,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/08/19/774667/irans-military-and-strategic-options-to-thwart-the-us-naval-blockade",
-      "published_at": "2026-08-22T11:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
     }
   ],
   "history": [
@@ -4206,17 +4167,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 6,
       "extended": 10
+    },
+    {
+      "timestamp": "2026-08-22T17:29:53.630680Z",
+      "immediate": 21,
+      "short": 24,
+      "extended": 23
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-22T14:32:34.384108Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-22T17:29:53.630680Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
