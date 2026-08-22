@@ -1,70 +1,109 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-22T08:01:57.789992Z",
+  "mode": "live",
+  "generated_at": "2026-08-22T08:43:17.201170Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 13,
       "low": 0,
-      "high": 19,
-      "confidence": 37,
-      "status": "לא זוהה אות חריג"
+      "high": 26,
+      "confidence": 64,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 5,
-      "low": 0,
-      "high": 23,
-      "confidence": 37,
-      "status": "לא זוהה אות חריג"
+      "score": 18,
+      "low": 5,
+      "high": 31,
+      "confidence": 64,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 8,
-      "low": 0,
-      "high": 26,
-      "confidence": 37,
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 64,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מהירה",
+    "points_60m": 12
   },
   "changes": [
     {
-      "time": "06:30",
-      "text": "Iran threatens military response to US sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "08:45",
+      "text": "Iran Weapons Production Doubled in Past Year Despite US , Israeli Strikes",
+      "impact": "השפעה מיידית מחושבת: +10.5",
       "direction": "up",
-      "source": "asiaone.com:443",
+      "source": "sputnikglobe.com",
+      "signal_id": "4e8a63d4e48a3736"
+    },
+    {
+      "time": "10:45",
+      "text": "Iran threatens military response to US sanctions",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "dunyanews.tv",
       "signal_id": "c460c30c7f720d2a"
     },
     {
-      "time": "06:15",
-      "text": "Trump calls Strait of Hormuz  American territory , warns Iran over nuclear arms",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "09:45",
+      "text": "Shifting to economic warfare against Iran does not limit US military options : Trump",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
-      "source": "economictimes.indiatimes.com",
-      "signal_id": "620e1cfa99aa7abc"
+      "source": "dailyexcelsior.com",
+      "signal_id": "7f0c74a5eb2e6dc1"
     },
     {
-      "time": "06:00",
-      "text": "IRGC chief says Iran has built  solid defensive shield  against enemy threats",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "09:30",
+      "text": "US military moves 15 millionbarrels through Hormuz amid Iran tensions",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
-      "source": "news.webindia123.com",
-      "signal_id": "1c0797923c6619ec"
+      "source": "indiagazette.com",
+      "signal_id": "addf28297191b657"
     }
   ],
   "signals": [
+    {
+      "id": "4e8a63d4e48a3736",
+      "name": "Iran Weapons Production Doubled in Past Year Despite US , Israeli Strikes",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4e8a63d4e48a3736",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.428,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "sputnikglobe.com",
+      "url": "https://sputnikglobe.com/20260822/irans-weapons-production-doubled-in-past-year-despite-us-israeli-strikes-1124613530.html",
+      "published_at": "2026-08-22T05:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 10.5,
+        "short": 8.2,
+        "extended": 3.5
+      }
+    },
     {
       "id": "c460c30c7f720d2a",
       "name": "Iran threatens military response to US sanctions",
@@ -75,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c460c30c7f720d2a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.274,
+      "freshness": 0.758,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -86,28 +125,151 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "asiaone.com:443",
-      "url": "https://www.asiaone.com:443/world/iran-threatens-military-response-us-sanctions",
-      "published_at": "2026-08-22T03:30:00Z",
+      "source": "dunyanews.tv",
+      "url": "https://dunyanews.tv/en/World/969137-iran-threatens-military-response-to-us-sanctions",
+      "published_at": "2026-08-22T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
-      },
-      "carried_forward": true
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
     },
     {
-      "id": "620e1cfa99aa7abc",
-      "name": "Trump calls Strait of Hormuz  American territory , warns Iran over nuclear arms",
+      "id": "7f0c74a5eb2e6dc1",
+      "name": "Shifting to economic warfare against Iran does not limit US military options : Trump",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "620e1cfa99aa7abc",
+      "dependency_group": "7f0c74a5eb2e6dc1",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.569,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailyexcelsior.com",
+      "url": "https://www.dailyexcelsior.com/shifting-to-economic-warfare-against-iran-does-not-limit-us-military-options-trump/",
+      "published_at": "2026-08-22T06:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
+    {
+      "id": "addf28297191b657",
+      "name": "US military moves 15 millionbarrels through Hormuz amid Iran tensions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "addf28297191b657",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.53,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "indiagazette.com",
+      "url": "http://www.indiagazette.com/news/279257587/us-military-moves-15-millionbarrels-through-hormuz-amid-iran-tensions",
+      "published_at": "2026-08-22T06:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      }
+    },
+    {
+      "id": "cf62c49d3dca3c57",
+      "name": "Oil rises as Trump threatens sanctions on Iran partners",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cf62c49d3dca3c57",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.255,
+      "freshness": 0.371,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "asiaone.com",
+      "url": "https://www.asiaone.com/money/oil-rises-trump-threatens-sanctions-iran-partners",
+      "published_at": "2026-08-22T05:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "33907ad4415608f2",
+      "name": "Complete erosion of sovereignty as foundation of US - based inter - State system : Iran on US sanctions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "33907ad4415608f2",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.371,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ianslive.in",
+      "url": "https://ianslive.in/complete-erosion-of-sovereignty-as-foundation-of-us-based-inter-state-system-iran-on-us-sanctions--20260822090934",
+      "published_at": "2026-08-22T05:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.7
+      }
+    },
+    {
+      "id": "400fa011f65908bb",
+      "name": "US military moves 15 million barrels through Hormuz amid standoff with Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "400fa011f65908bb",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.322,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -119,47 +281,14 @@ window.MAGEN_STATE = {
         "extended": 1.0
       },
       "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/international/global-trends/trump-calls-strait-of-hormuz-american-territory-warns-iran-over-nuclear-arms/articleshow/133415911.cms",
-      "published_at": "2026-08-22T03:15:00Z",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/us-military-moves-15-million-barrels-through-hormuz-amid-standoff-with-iran/articleshow/133417233.cms",
+      "published_at": "2026-08-22T04:45:00Z",
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1c0797923c6619ec",
-      "name": "IRGC chief says Iran has built  solid defensive shield  against enemy threats",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1c0797923c6619ec",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.237,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260822/4489557.html",
-      "published_at": "2026-08-22T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
+        "short": 1.9,
+        "extended": 3.2
+      }
     }
   ],
   "history": [
@@ -3936,17 +4065,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 5,
       "extended": 8
+    },
+    {
+      "timestamp": "2026-08-22T08:43:17.201170Z",
+      "immediate": 13,
+      "short": 18,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-22T04:16:40.760734Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-22T08:43:17.201170Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 3
+        "ok": true,
+        "items": 150,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
