@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-22T06:56:28.313274Z",
+  "generated_at": "2026-08-22T07:39:25.590566Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@ window.MAGEN_STATE = {
       "score": 2,
       "low": 0,
       "high": 20,
-      "confidence": 38,
+      "confidence": 37,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 5,
       "low": 0,
-      "high": 25,
-      "confidence": 38,
+      "high": 23,
+      "confidence": 37,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
+      "score": 9,
       "low": 0,
-      "high": 29,
-      "confidence": 38,
+      "high": 27,
+      "confidence": 37,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "06:30",
       "text": "Iran threatens military response to US sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "asiaone.com:443",
       "signal_id": "c460c30c7f720d2a"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "06:15",
       "text": "Trump calls Strait of Hormuz  American territory , warns Iran over nuclear arms",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "economictimes.indiatimes.com",
       "signal_id": "620e1cfa99aa7abc"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "06:00",
       "text": "IRGC chief says Iran has built  solid defensive shield  against enemy threats",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "news.webindia123.com",
       "signal_id": "1c0797923c6619ec"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "05:00",
       "text": "US , Iran trade threats as Washington readies  toughest sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "economictimes.indiatimes.com",
       "signal_id": "c9e81ffd87d77dd2"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c460c30c7f720d2a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.374,
+      "freshness": 0.305,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "620e1cfa99aa7abc",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.348,
+      "freshness": 0.284,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T03:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1c0797923c6619ec",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.324,
+      "freshness": 0.264,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c9e81ffd87d77dd2",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.244,
+      "freshness": 0.199,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T02:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     }
@@ -3964,6 +3964,12 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 7,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-22T07:39:25.590566Z",
+      "immediate": 2,
+      "short": 5,
+      "extended": 9
     }
   ],
   "health": {
