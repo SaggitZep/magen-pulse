@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-22T05:36:37.152095Z",
+  "generated_at": "2026-08-22T06:01:55.581564Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 3,
       "low": 0,
-      "high": 19,
-      "confidence": 48,
+      "high": 20,
+      "confidence": 47,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 9,
       "low": 0,
       "high": 26,
-      "confidence": 48,
+      "confidence": 47,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
+      "score": 14,
       "low": 0,
-      "high": 32,
-      "confidence": 48,
+      "high": 31,
+      "confidence": 47,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "06:30",
       "text": "Iran threatens military response to US sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "asiaone.com:443",
       "signal_id": "c460c30c7f720d2a"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "06:15",
       "text": "Trump calls Strait of Hormuz  American territory , warns Iran over nuclear arms",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "economictimes.indiatimes.com",
       "signal_id": "620e1cfa99aa7abc"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "06:00",
       "text": "IRGC chief says Iran has built  solid defensive shield  against enemy threats",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "news.webindia123.com",
       "signal_id": "1c0797923c6619ec"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "05:00",
       "text": "US , Iran trade threats as Washington readies  toughest sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "economictimes.indiatimes.com",
       "signal_id": "c9e81ffd87d77dd2"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c460c30c7f720d2a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.547,
+      "freshness": 0.485,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.6,
-        "extended": 6.1
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "620e1cfa99aa7abc",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.509,
+      "freshness": 0.452,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T03:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1c0797923c6619ec",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.474,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c9e81ffd87d77dd2",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.356,
+      "freshness": 0.316,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T02:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "10bfef62a964aca3",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.249,
+      "freshness": 0.221,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8e00baffa9e06c88",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.232,
+      "freshness": 0.206,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -260,8 +260,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -4016,6 +4016,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-22T06:01:55.581564Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 14
     }
   ],
   "health": {
