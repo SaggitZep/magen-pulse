@@ -1,37 +1,37 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-22T14:32:34.384108Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-22T14:55:33.789342Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 3,
       "low": 0,
-      "high": 16,
-      "confidence": 64,
+      "high": 19,
+      "confidence": 49,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 10,
       "low": 0,
-      "high": 24,
-      "confidence": 64,
+      "high": 26,
+      "confidence": 49,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 5,
-      "high": 31,
-      "confidence": 64,
+      "score": 17,
+      "low": 1,
+      "high": 33,
+      "confidence": 49,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "17:00",
       "text": "Trump economic isolation plan risks Iran strikes across Gulf",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "economictimes.indiatimes.com",
       "signal_id": "62d9ba6cb85b512b"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:30",
       "text": "Iran - US war latest : Trump says Tehran not ready to make  right deal  after threatening  Economic D - Day",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "independent.co.uk",
       "signal_id": "9fe7402a4aafaba2"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:15",
       "text": "Iran Shifts to Offensive Military Doctrine , Puts Bounty on US Troops",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "en.tempo.co",
       "signal_id": "101327fb1a6b645d"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "14:45",
       "text": "Iran , China reject Trump threat of tougher sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "tradearabia.com:443",
       "signal_id": "cdc9c3789ca2e1e1"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "62d9ba6cb85b512b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.856,
+      "freshness": 0.768,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T14:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.4
-      }
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.6
+      },
+      "carried_forward": true
     },
     {
       "id": "9fe7402a4aafaba2",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9fe7402a4aafaba2",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.558,
+      "freshness": 0.5,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T12:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.5
+      },
+      "carried_forward": true
     },
     {
       "id": "101327fb1a6b645d",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "101327fb1a6b645d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.519,
+      "freshness": 0.466,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      },
+      "carried_forward": true
     },
     {
       "id": "cdc9c3789ca2e1e1",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cdc9c3789ca2e1e1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.45,
+      "freshness": 0.404,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T11:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      },
+      "carried_forward": true
     },
     {
       "id": "29c4d4012d5a4e06",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "29c4d4012d5a4e06",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.39,
+      "freshness": 0.35,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -224,9 +228,10 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     },
     {
       "id": "6fd412454e6be6cf",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6fd412454e6be6cf",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.363,
+      "freshness": 0.326,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T11:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      },
+      "carried_forward": true
     },
     {
       "id": "8d6c8747275f136a",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8d6c8747275f136a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.39,
+      "freshness": 0.35,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T11:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.8
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "a9ad92c827d30154",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a9ad92c827d30154",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.363,
+      "freshness": 0.326,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -317,9 +324,10 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+        "short": 1.9,
+        "extended": 3.2
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -4168,17 +4176,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 11,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-22T14:55:33.789342Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-22T14:32:34.384108Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 8
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 8
       },
       "manual": {
         "ok": true,
