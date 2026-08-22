@@ -1,14 +1,14 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-22T07:39:25.590566Z",
+  "generated_at": "2026-08-22T08:01:57.789992Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 1,
       "low": 0,
-      "high": 20,
+      "high": 19,
       "confidence": 37,
       "status": "לא זוהה אות חריג"
     },
@@ -22,9 +22,9 @@
     },
     "extended": {
       "label": "24 שעות",
-      "score": 9,
+      "score": 8,
       "low": 0,
-      "high": 27,
+      "high": 26,
       "confidence": 37,
       "status": "נמוך"
     }
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "06:30",
       "text": "Iran threatens military response to US sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "asiaone.com:443",
       "signal_id": "c460c30c7f720d2a"
@@ -62,14 +62,6 @@
       "direction": "up",
       "source": "news.webindia123.com",
       "signal_id": "1c0797923c6619ec"
-    },
-    {
-      "time": "05:00",
-      "text": "US , Iran trade threats as Washington readies  toughest sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "economictimes.indiatimes.com",
-      "signal_id": "c9e81ffd87d77dd2"
     }
   ],
   "signals": [
@@ -83,7 +75,7 @@
       "dependency_group": "c460c30c7f720d2a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.305,
+      "freshness": 0.274,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +91,9 @@
       "published_at": "2026-08-22T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -115,7 +107,7 @@
       "dependency_group": "620e1cfa99aa7abc",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.284,
+      "freshness": 0.255,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -132,8 +124,8 @@
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "short": 1.7,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -147,7 +139,7 @@
       "dependency_group": "1c0797923c6619ec",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.264,
+      "freshness": 0.237,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -164,40 +156,8 @@
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c9e81ffd87d77dd2",
-      "name": "US , Iran trade threats as Washington readies  toughest sanctions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c9e81ffd87d77dd2",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.199,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/defence/us-iran-trade-threats-as-washington-readies-toughest-sanctions/articleshow/133415785.cms",
-      "published_at": "2026-08-22T02:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     }
@@ -3970,6 +3930,12 @@
       "immediate": 2,
       "short": 5,
       "extended": 9
+    },
+    {
+      "timestamp": "2026-08-22T08:01:57.789992Z",
+      "immediate": 1,
+      "short": 5,
+      "extended": 8
     }
   ],
   "health": {
@@ -3979,8 +3945,8 @@
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 4
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "carried_forward": 3
       },
       "manual": {
         "ok": true,
