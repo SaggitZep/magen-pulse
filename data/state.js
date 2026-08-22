@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-22T21:53:52.415708Z",
+  "generated_at": "2026-08-22T22:32:53.481288Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 5,
       "low": 0,
-      "high": 18,
-      "confidence": 68,
+      "high": 17,
+      "confidence": 71,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
       "score": 16,
-      "low": 3,
-      "high": 29,
-      "confidence": 68,
+      "low": 4,
+      "high": 28,
+      "confidence": 71,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
       "score": 26,
-      "low": 13,
-      "high": 39,
-      "confidence": 68,
+      "low": 14,
+      "high": 38,
+      "confidence": 71,
       "status": "מוגבר"
     }
   },
@@ -35,41 +35,41 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "00:30",
       "text": "Bulgaria removes US tankers after Iran threat as Tehran shows off underground missile",
-      "impact": "השפעה מיידית מחושבת: +2.0",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
       "source": "ynetnews.com",
       "signal_id": "ede0b278694bcf83"
     },
     {
-      "time": "00:30",
-      "text": "Iran warns of crushing response to US threats",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "time": "01:00",
+      "text": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "stlouisstar.com",
+      "source": "reflector.com",
+      "signal_id": "a8d0db6467807bc5"
+    },
+    {
+      "time": "01:00",
+      "text": "Iran warns of crushing response to US threats",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "mainemirror.com",
       "signal_id": "6ea4ff11c18c71c5"
     },
     {
-      "time": "23:45",
+      "time": "01:00",
       "text": "US military casualties rise to over 770 as Iran conflict enters sixth month",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "iranherald.com",
+      "source": "kenyastar.com",
       "signal_id": "59a05041c79bd0a5"
-    },
-    {
-      "time": "22:30",
-      "text": "Tehran at  center  of global power : Iran Basij chief , says US action shows weakness in its military",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "news.webindia123.com",
-      "signal_id": "d7236c48fa9ddfd8"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ede0b278694bcf83",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.893,
+      "freshness": 0.741,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 2.0,
-        "short": 6.8,
-        "extended": 11.7
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.7
+      }
+    },
+    {
+      "id": "a8d0db6467807bc5",
+      "name": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a8d0db6467807bc5",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.855,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "reflector.com",
+      "url": "http://www.reflector.com/news/national/iran-security-chief-threatens-neighbors-against-economic-measures-and-other-mideast-developments/article_c0b7bcc9-27be-5e1a-af62-961da794747f.html",
+      "published_at": "2026-08-22T22:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.6,
+        "extended": 9.5
       }
     },
     {
@@ -114,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6ea4ff11c18c71c5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.893,
+      "freshness": 0.855,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,14 +156,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "stlouisstar.com",
-      "url": "http://www.stlouisstar.com/news/279256711/iran-threatens-tough-response-to-new-us-sanctions",
-      "published_at": "2026-08-22T21:30:00Z",
+      "source": "mainemirror.com",
+      "url": "http://www.mainemirror.com/news/279256711/iran-threatens-tough-response-to-new-us-sanctions",
+      "published_at": "2026-08-22T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.8,
-        "extended": 9.9
+        "immediate": 1.6,
+        "short": 5.6,
+        "extended": 9.5
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "59a05041c79bd0a5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.72,
+      "freshness": 0.855,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -156,14 +187,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279258600/us-military-casualties-rise-to-over-770-as-iran-conflict-enters-sixth-month",
-      "published_at": "2026-08-22T20:45:00Z",
+      "source": "kenyastar.com",
+      "url": "http://www.kenyastar.com/news/279258600/us-military-casualties-rise-to-over-770-as-iran-conflict-enters-sixth-month",
+      "published_at": "2026-08-22T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d7236c48fa9ddfd8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.504,
+      "freshness": 0.419,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,71 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      }
-    },
-    {
-      "id": "a2e41d05b2e8aa39",
-      "name": "Iran claims receiving  numerous message from neighbors about new security arrangements despite US threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a2e41d05b2e8aa39",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.379,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/middle-east/iran-claims-receiving-numerous-messages-from-neighbors-about-new-security-arrangements-despite-us-threat/4034771",
-      "published_at": "2026-08-22T18:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
-    },
-    {
-      "id": "1387bfb449100a10",
-      "name": "Iran : No military goal can justify killing of children",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1387bfb449100a10",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.379,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "azernews.az",
-      "url": "https://www.azernews.az/region/262718.html",
-      "published_at": "2026-08-22T18:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "short": 2.4,
+        "extended": 4.1
       }
     }
   ],
@@ -4196,17 +4165,23 @@ window.MAGEN_STATE = {
       "immediate": 5,
       "short": 16,
       "extended": 26
+    },
+    {
+      "timestamp": "2026-08-22T22:32:53.481288Z",
+      "immediate": 5,
+      "short": 16,
+      "extended": 26
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-22T21:53:52.415708Z",
+    "last_success": "2026-08-22T22:32:53.481288Z",
     "sources": {
       "gdelt": {
         "ok": true,
-        "items": 150,
-        "relevant": 6
+        "items": 147,
+        "relevant": 5
       },
       "manual": {
         "ok": true,
