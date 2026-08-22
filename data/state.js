@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-22T09:12:48.097842Z",
+  "generated_at": "2026-08-22T09:46:14.376984Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 12,
+      "score": 10,
       "low": 0,
-      "high": 28,
-      "confidence": 49,
+      "high": 27,
+      "confidence": 47,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 16,
+      "score": 14,
       "low": 0,
-      "high": 32,
-      "confidence": 49,
+      "high": 31,
+      "confidence": 47,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 49,
+      "score": 16,
+      "low": 0,
+      "high": 33,
+      "confidence": 47,
       "status": "נמוך"
     }
   },
@@ -35,14 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "ירידה",
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "08:45",
       "text": "Iran Weapons Production Doubled in Past Year Despite US , Israeli Strikes",
-      "impact": "השפעה מיידית מחושבת: +9.2",
+      "impact": "השפעה מיידית מחושבת: +7.8",
       "direction": "up",
       "source": "sputnikglobe.com",
       "signal_id": "4e8a63d4e48a3736"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "10:45",
       "text": "Iran threatens military response to US sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "dunyanews.tv",
       "signal_id": "c460c30c7f720d2a"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "09:45",
       "text": "Shifting to economic warfare against Iran does not limit US military options : Trump",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "dailyexcelsior.com",
       "signal_id": "7f0c74a5eb2e6dc1"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "09:30",
       "text": "US military moves 15 millionbarrels through Hormuz amid Iran tensions",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "indiagazette.com",
       "signal_id": "addf28297191b657"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4e8a63d4e48a3736",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.372,
+      "freshness": 0.317,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T05:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 9.2,
-        "short": 7.1,
-        "extended": 3.0
+        "immediate": 7.8,
+        "short": 6.1,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c460c30c7f720d2a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.658,
+      "freshness": 0.561,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T07:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.2
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7f0c74a5eb2e6dc1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.495,
+      "freshness": 0.422,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T06:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.2
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "addf28297191b657",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.461,
+      "freshness": 0.393,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T06:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cf62c49d3dca3c57",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.322,
+      "freshness": 0.275,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "33907ad4415608f2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.322,
+      "freshness": 0.275,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -260,8 +260,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "400fa011f65908bb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.279,
+      "freshness": 0.238,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.3
       },
       "carried_forward": true
     }
@@ -4084,6 +4084,12 @@ window.MAGEN_STATE = {
       "immediate": 12,
       "short": 16,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-22T09:46:14.376984Z",
+      "immediate": 10,
+      "short": 14,
+      "extended": 16
     }
   ],
   "health": {
