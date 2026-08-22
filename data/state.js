@@ -1,15 +1,15 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-22T19:10:06.059609Z",
+  "generated_at": "2026-08-22T19:37:41.160557Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 15,
-      "low": 2,
-      "high": 28,
-      "confidence": 66,
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 67,
       "status": "נמוך"
     },
     "short": {
@@ -17,15 +17,15 @@ window.MAGEN_STATE = {
       "score": 22,
       "low": 9,
       "high": 35,
-      "confidence": 66,
-      "status": "נמוך"
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 26,
-      "low": 13,
-      "high": 39,
-      "confidence": 66,
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 68,
       "status": "מוגבר"
     }
   },
@@ -36,40 +36,40 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "19:30",
       "text": "Restoration of Iran South Pars Phase 14 refinery 70 % complete after Israeli strike – Middle East Monitor",
-      "impact": "השפעה מיידית מחושבת: +11.5",
+      "impact": "השפעה מיידית מחושבת: +10.1",
       "direction": "up",
       "source": "middleeastmonitor.com",
       "signal_id": "22becf840f4cc600"
     },
     {
-      "time": "21:30",
+      "time": "22:30",
       "text": "Iran warns of crushing response to US threats",
+      "impact": "השפעה מיידית מחושבת: +1.8",
+      "direction": "up",
+      "source": "bangladeshsun.com",
+      "signal_id": "6ea4ff11c18c71c5"
+    },
+    {
+      "time": "22:30",
+      "text": "Tehran at  center  of global power : Iran Basij chief , says US action shows weakness in its military",
       "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "calcuttanews.net",
-      "signal_id": "6ea4ff11c18c71c5"
+      "source": "news.webindia123.com",
+      "signal_id": "d7236c48fa9ddfd8"
     },
     {
       "time": "21:30",
       "text": "Iran claims receiving  numerous message from neighbors about new security arrangements despite US threat",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "a2e41d05b2e8aa39"
-    },
-    {
-      "time": "21:00",
-      "text": "Tehran at  center  of global power : Iran Basij chief , says US action shows weakness in its military",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "aninews.in",
-      "signal_id": "d7236c48fa9ddfd8"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "22becf840f4cc600",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.467,
+      "freshness": 0.409,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.5,
-        "short": 9.0,
-        "extended": 3.8
+        "immediate": 10.1,
+        "short": 7.9,
+        "extended": 3.3
       }
     },
     {
@@ -114,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6ea4ff11c18c71c5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.826,
+      "freshness": 0.964,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,14 +125,45 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "calcuttanews.net",
-      "url": "http://www.calcuttanews.net/news/279256711/iran-warns-us-over-toughest-ever-sanctions",
-      "published_at": "2026-08-22T18:30:00Z",
+      "source": "bangladeshsun.com",
+      "url": "http://www.bangladeshsun.com/news/279256711/iran-threatens-tough-response-to-new-us-sanctions",
+      "published_at": "2026-08-22T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.3,
+        "extended": 10.7
+      }
+    },
+    {
+      "id": "d7236c48fa9ddfd8",
+      "name": "Tehran at  center  of global power : Iran Basij chief , says US action shows weakness in its military",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d7236c48fa9ddfd8",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.964,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260822/4489906.html",
+      "published_at": "2026-08-22T19:30:00Z",
       "active": true,
       "computed": {
         "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.2
+        "short": 5.6,
+        "extended": 9.5
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a2e41d05b2e8aa39",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.826,
+      "freshness": 0.724,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,71 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.2
-      }
-    },
-    {
-      "id": "d7236c48fa9ddfd8",
-      "name": "Tehran at  center  of global power : Iran Basij chief , says US action shows weakness in its military",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d7236c48fa9ddfd8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.716,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aninews.in",
-      "url": "https://aninews.in/news/world/middle-east/tehran-at-center-of-global-power-irans-basij-chief-says-us-action-shows-weakness-in-its-military20260822225139/",
-      "published_at": "2026-08-22T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.1
-      }
-    },
-    {
-      "id": "4e318fe3d83c8865",
-      "name": "Trump Economic Isolation Plan Risks More Iran Strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4e318fe3d83c8865",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.621,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "politicalwire.com",
-      "url": "https://politicalwire.com/2026/08/22/trumps-economic-isolation-plan-risks-more-iran-strikes/",
-      "published_at": "2026-08-22T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
       }
     },
     {
@@ -238,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3c21245de3ac7a7d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.578,
+      "freshness": 0.507,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +223,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.7
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "4e318fe3d83c8865",
+      "name": "Trump Economic Isolation Plan Risks More Iran Strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4e318fe3d83c8865",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.544,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "politicalwire.com",
+      "url": "https://politicalwire.com/2026/08/22/trumps-economic-isolation-plan-risks-more-iran-strikes/",
+      "published_at": "2026-08-22T17:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.4
       }
     },
     {
@@ -269,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "377c2d0e573ebbe7",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.404,
+      "freshness": 0.355,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -283,99 +283,6 @@ window.MAGEN_STATE = {
       "source": "kaieteurnewsonline.com",
       "url": "https://kaieteurnewsonline.com/2026/08/22/iran-threatens-military-response-to-u-s-sanctions/",
       "published_at": "2026-08-22T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "53de3f9b0fe40c62",
-      "name": "Iran Pledges  Devastating  Retaliation to U . S . Economic Pressure Threats - Jowhar News Leader",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "53de3f9b0fe40c62",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.351,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jowhar.com",
-      "url": "https://jowhar.com/iran-pledges-devastating-retaliation-to-u-s-economic-pressure-threats/",
-      "published_at": "2026-08-22T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "047ed21124d2a469",
-      "name": "US , Iran trade threats as Washington prepares new sanctions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "047ed21124d2a469",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.351,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailysabah.com",
-      "url": "https://www.dailysabah.com/world/mid-east/us-iran-trade-threats-as-washington-prepares-new-sanctions",
-      "published_at": "2026-08-22T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "3b5cffe871e0988a",
-      "name": "US Sanctions Threat : Behind Iran Fresh Rallying Cry Against  Same Bull",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3b5cffe871e0988a",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.351,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ibtimes.com",
-      "url": "https://www.ibtimes.com/us-sanctions-threat-behind-irans-fresh-rallying-cry-against-same-bull-3806678",
-      "published_at": "2026-08-22T15:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.7,
@@ -4284,17 +4191,23 @@ window.MAGEN_STATE = {
       "immediate": 15,
       "short": 22,
       "extended": 26
+    },
+    {
+      "timestamp": "2026-08-22T19:37:41.160557Z",
+      "immediate": 14,
+      "short": 22,
+      "extended": 28
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-22T19:10:06.059609Z",
+    "last_success": "2026-08-22T19:37:41.160557Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 10
+        "relevant": 7
       },
       "manual": {
         "ok": true,
