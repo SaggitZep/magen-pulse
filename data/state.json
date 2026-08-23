@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-23T20:45:22.715021Z",
+  "generated_at": "2026-08-23T21:10:25.099293Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@
       "score": 3,
       "low": 0,
       "high": 19,
-      "confidence": 49,
+      "confidence": 48,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 9,
       "low": 0,
-      "high": 26,
-      "confidence": 49,
+      "high": 25,
+      "confidence": 48,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 49,
+      "score": 15,
+      "low": 0,
+      "high": 31,
+      "confidence": 48,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@
     {
       "time": "21:45",
       "text": "Iran says new sanctions threatened by  desperate  US will fail – The Frontier Post",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "thefrontierpost.com",
       "signal_id": "57843960eb956e21"
@@ -50,7 +50,7 @@
     {
       "time": "22:00",
       "text": "Iran is fully engaged in an economic , military , and security war : President Pezeshkian",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "khaskhabar.com",
       "signal_id": "e1404e9d78c6b8f8"
@@ -58,7 +58,7 @@
     {
       "time": "21:15",
       "text": "Defiant Iran says new sanctions threatened by  desperate  US will fail",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "d6a366f51e0a33dc"
@@ -66,7 +66,7 @@
     {
       "time": "20:15",
       "text": "Iran says sanction threats by  desperate  US will fail",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "dailyliberal.com.au",
       "signal_id": "996ceaeb22334721"
@@ -83,7 +83,7 @@
       "dependency_group": "57843960eb956e21",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.564,
+      "freshness": 0.5,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-23T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.5
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "e1404e9d78c6b8f8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.605,
+      "freshness": 0.537,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-23T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "d6a366f51e0a33dc",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.489,
+      "freshness": 0.434,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-23T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "996ceaeb22334721",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.367,
+      "freshness": 0.326,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-23T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "2aada8a7e84c5cf4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.424,
+      "freshness": 0.376,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-23T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "8bf43af3eac84449",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.394,
+      "freshness": 0.35,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-08-23T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "cf2ab6b9b9111fb4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.318,
+      "freshness": 0.283,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@
       "published_at": "2026-08-23T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     }
@@ -4468,6 +4468,12 @@
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-23T21:10:25.099293Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 15
     }
   ],
   "health": {
