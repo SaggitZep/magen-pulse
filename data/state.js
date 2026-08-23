@@ -1,81 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-23T17:53:33.776468Z",
+  "mode": "live",
+  "generated_at": "2026-08-23T18:28:40.608797Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 4,
       "low": 0,
-      "high": 20,
-      "confidence": 41,
+      "high": 17,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 13,
       "low": 0,
       "high": 26,
-      "confidence": 41,
+      "confidence": 68,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
-      "low": 0,
-      "high": 32,
-      "confidence": 41,
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 68,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "19:00",
-      "text": "Iran says sanction threats by  desperate  US will fail",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "20:30",
+      "text": "Iran says new sanctions threatened by  desperate  US will fail",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "examiner.com.au",
-      "signal_id": "996ceaeb22334721"
+      "source": "hindustantimes.com",
+      "signal_id": "c894d344f471c94d"
     },
     {
-      "time": "18:30",
-      "text": "Sought to turn Iran into another Venezuela ...: Pezeshkian lauds Iranian resistance against US attacks",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "20:45",
+      "text": "Iran in  all - out  economic , military , security war : President Pezeshkian",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "venezuelastar.com",
-      "signal_id": "c33d65c2418a6456"
+      "source": "morungexpress.com",
+      "signal_id": "2aada8a7e84c5cf4"
     },
     {
-      "time": "16:15",
-      "text": "A closer look at the Strait of Hormuz after Iran issues new threat",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "20:30",
+      "text": "Iran - Linked Attack Knocks Out British Power Plant : Could They Do That Here ?",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "egyptindependent.com",
-      "signal_id": "5c03791a27300830"
+      "source": "redstate.com",
+      "signal_id": "8bf43af3eac84449"
+    },
+    {
+      "time": "19:45",
+      "text": "Iran Warns U . S .  Economic War  Allies Are  Enemies , Threatens Retaliation",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "breitbart.com",
+      "signal_id": "cf2ab6b9b9111fb4"
     }
   ],
   "signals": [
     {
-      "id": "996ceaeb22334721",
-      "name": "Iran says sanction threats by  desperate  US will fail",
+      "id": "c894d344f471c94d",
+      "name": "Iran says new sanctions threatened by  desperate  US will fail",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "996ceaeb22334721",
+      "dependency_group": "c894d344f471c94d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.582,
+      "freshness": 0.756,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -86,16 +94,108 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "examiner.com.au",
-      "url": "https://www.examiner.com.au/story/9335377/iran-says-sanction-threats-by-desperate-us-will-fail/",
-      "published_at": "2026-08-23T16:00:00Z",
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/world-news/iran-says-new-sanctions-threatened-by-desperate-us-will-fail-west-asia-conflict-treasury-secretary-scott-bessent-101787503537762.html",
+      "published_at": "2026-08-23T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "2aada8a7e84c5cf4",
+      "name": "Iran in  all - out  economic , military , security war : President Pezeshkian",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2aada8a7e84c5cf4",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.812,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "morungexpress.com",
+      "url": "https://morungexpress.com/iran-in-all-out-economic-military-security-war-president-pezeshkian",
+      "published_at": "2026-08-23T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "8bf43af3eac84449",
+      "name": "Iran - Linked Attack Knocks Out British Power Plant : Could They Do That Here ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8bf43af3eac84449",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.756,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "redstate.com",
+      "url": "https://redstate.com/wardclark/2026/08/23/iran-linked-attack-knocks-out-british-power-plant-could-they-do-that-here-n2205961",
+      "published_at": "2026-08-23T17:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "cf2ab6b9b9111fb4",
+      "name": "Iran Warns U . S .  Economic War  Allies Are  Enemies , Threatens Retaliation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cf2ab6b9b9111fb4",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.61,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "breitbart.com",
+      "url": "https://www.breitbart.com/politics/2026/08/23/iran-warns-neighbors-joining-u-s-economic-war-will-be-enemies-threatens-earthquake-like-retaliation/",
+      "published_at": "2026-08-23T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
     },
     {
       "id": "c33d65c2418a6456",
@@ -107,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c33d65c2418a6456",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.505,
+      "freshness": 0.427,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -123,43 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5c03791a27300830",
-      "name": "A closer look at the Strait of Hormuz after Iran issues new threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5c03791a27300830",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.265,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "egyptindependent.com",
-      "url": "https://www.egyptindependent.com/a-closer-look-at-the-strait-of-hormuz-after-iran-issues-new-threat/",
-      "published_at": "2026-08-23T13:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
     }
   ],
   "history": [
@@ -4296,17 +4363,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 8,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-08-23T18:28:40.608797Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 22
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-23T17:02:04.897426Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-23T18:28:40.608797Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 3
+        "ok": true,
+        "items": 150,
+        "relevant": 5
       },
       "manual": {
         "ok": true,
