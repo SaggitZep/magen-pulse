@@ -1,37 +1,37 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-23T05:02:30.573963Z",
+  "mode": "live",
+  "generated_at": "2026-08-23T05:39:58.924348Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 4,
       "low": 0,
-      "high": 20,
-      "confidence": 52,
+      "high": 17,
+      "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
       "score": 12,
       "low": 0,
-      "high": 28,
-      "confidence": 52,
+      "high": 25,
+      "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 4,
-      "high": 36,
-      "confidence": 52,
+      "score": 19,
+      "low": 6,
+      "high": 32,
+      "confidence": 65,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
@@ -40,9 +40,25 @@ window.MAGEN_STATE = {
   },
   "changes": [
     {
+      "time": "07:45",
+      "text": "British Power Plants Shut Down For Four Days In Iranian Cyber - attack - Report | LIVE BLOG",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "i24news.tv",
+      "signal_id": "4bc544ad371d6b4f"
+    },
+    {
+      "time": "07:30",
+      "text": "UK power plant  shut down for four day after cyber attack by Iran - linked hackers",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "manchestereveningnews.co.uk",
+      "signal_id": "d1c8b68af4f2d639"
+    },
+    {
       "time": "07:00",
       "text": "Pezeshkian Urges End to War , Iran Military Vows Retaliation as Bessent Prepares Sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "hngn.com",
       "signal_id": "71daca957b07abf8"
@@ -50,29 +66,75 @@ window.MAGEN_STATE = {
     {
       "time": "06:30",
       "text": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "newsminer.com",
       "signal_id": "a8d0db6467807bc5"
-    },
-    {
-      "time": "06:30",
-      "text": "Stricter US sanctions threaten severe economic strain as Iran keeps Hormuz traffic in check",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "geo.tv",
-      "signal_id": "82b8892cf68c24cd"
-    },
-    {
-      "time": "04:45",
-      "text": "Trump has created nuclear insecurity instead of nuclear security : Iran security council chief Mohsen Rezaei",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "iranherald.com",
-      "signal_id": "f0f33e12a6573b78"
     }
   ],
   "signals": [
+    {
+      "id": "4bc544ad371d6b4f",
+      "name": "British Power Plants Shut Down For Four Days In Iranian Cyber - attack - Report | LIVE BLOG",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4bc544ad371d6b4f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.77,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "i24news.tv",
+      "url": "https://www.i24news.tv/en/news/international/artc-british-power-plants-shut-down-for-four-days-in-iranian-cyber-attack-report-live-blog",
+      "published_at": "2026-08-23T04:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "d1c8b68af4f2d639",
+      "name": "UK power plant  shut down for four day after cyber attack by Iran - linked hackers",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d1c8b68af4f2d639",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.717,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "manchestereveningnews.co.uk",
+      "url": "https://www.manchestereveningnews.co.uk/news/uk-news/uk-power-plant-shut-down-34503049",
+      "published_at": "2026-08-23T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      }
+    },
     {
       "id": "71daca957b07abf8",
       "name": "Pezeshkian Urges End to War , Iran Military Vows Retaliation as Bessent Prepares Sanctions",
@@ -83,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "71daca957b07abf8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.743,
+      "freshness": 0.621,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +161,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
-      },
-      "carried_forward": true
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
     },
     {
       "id": "a8d0db6467807bc5",
@@ -115,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a8d0db6467807bc5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.644,
+      "freshness": 0.539,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +192,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
     },
     {
       "id": "82b8892cf68c24cd",
@@ -147,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "82b8892cf68c24cd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.644,
+      "freshness": 0.539,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
     },
     {
       "id": "f0f33e12a6573b78",
@@ -179,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f0f33e12a6573b78",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.39,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +254,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.8
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      }
     },
     {
       "id": "c82c9f668dd32a64",
@@ -211,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c82c9f668dd32a64",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.39,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,11 +285,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.8
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      }
     }
   ],
   "history": [
@@ -4224,17 +4281,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-23T05:39:58.924348Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 19
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-23T04:23:26.791455Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-23T05:39:58.924348Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "ok": true,
+        "items": 150,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
