@@ -1,48 +1,64 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-23T06:03:48.690868Z",
+  "mode": "live",
+  "generated_at": "2026-08-23T06:57:58.199001Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 50,
+      "high": 17,
+      "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 12,
       "low": 0,
-      "high": 27,
-      "confidence": 50,
+      "high": 25,
+      "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 1,
+      "score": 20,
+      "low": 7,
       "high": 33,
-      "confidence": 50,
+      "confidence": 65,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 1
   },
   "changes": [
     {
+      "time": "09:15",
+      "text": "Iran - linked hackers shut down united kingdom power plant for four days in cyber attack",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "nzherald.co.nz",
+      "signal_id": "3d79dfcaaa71a785"
+    },
+    {
+      "time": "09:15",
+      "text": "מתקפה חסרת תקדים : איראן הצליחה להשבית תחנת כוח בבריטניה",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "srugim.co.il",
+      "signal_id": "8af79bf81d3bc73c"
+    },
+    {
       "time": "07:45",
       "text": "British Power Plants Shut Down For Four Days In Iranian Cyber - attack - Report | LIVE BLOG",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "i24news.tv",
       "signal_id": "4bc544ad371d6b4f"
@@ -50,29 +66,75 @@
     {
       "time": "07:30",
       "text": "UK power plant  shut down for four day after cyber attack by Iran - linked hackers",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "manchestereveningnews.co.uk",
       "signal_id": "d1c8b68af4f2d639"
-    },
-    {
-      "time": "07:00",
-      "text": "Pezeshkian Urges End to War , Iran Military Vows Retaliation as Bessent Prepares Sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "hngn.com",
-      "signal_id": "71daca957b07abf8"
-    },
-    {
-      "time": "06:30",
-      "text": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "newsminer.com",
-      "signal_id": "a8d0db6467807bc5"
     }
   ],
   "signals": [
+    {
+      "id": "3d79dfcaaa71a785",
+      "name": "Iran - linked hackers shut down united kingdom power plant for four days in cyber attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3d79dfcaaa71a785",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.815,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nzherald.co.nz",
+      "url": "https://www.nzherald.co.nz/world/iran-linked-hackers-shut-down-uk-power-plant-for-four-days-in-cyber-attack/D3GHGZGAEVATXBIEMRMQXGBZCA/",
+      "published_at": "2026-08-23T06:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "8af79bf81d3bc73c",
+      "name": "מתקפה חסרת תקדים : איראן הצליחה להשבית תחנת כוח בבריטניה",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8af79bf81d3bc73c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.815,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "srugim.co.il",
+      "url": "http://www.srugim.co.il/101009198-%D7%9E%D7%AA%D7%A7%D7%A4%D7%94-%D7%97%D7%A1%D7%A8%D7%AA-%D7%AA%D7%A7%D7%93%D7%99%D7%9D-%D7%90%D7%99%D7%A8%D7%90%D7%9F-%D7%94%D7%A6%D7%9C%D7%99%D7%97%D7%94-%D7%9C%D7%94%D7%A9%D7%91%D7%99%D7%AA",
+      "published_at": "2026-08-23T06:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
     {
       "id": "4bc544ad371d6b4f",
       "name": "British Power Plants Shut Down For Four Days In Iranian Cyber - attack - Report | LIVE BLOG",
@@ -83,7 +145,7 @@
       "dependency_group": "4bc544ad371d6b4f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.687,
+      "freshness": 0.531,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +161,10 @@
       "published_at": "2026-08-23T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      }
     },
     {
       "id": "d1c8b68af4f2d639",
@@ -115,7 +176,7 @@
       "dependency_group": "d1c8b68af4f2d639",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.64,
+      "freshness": 0.494,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,43 +192,10 @@
       "published_at": "2026-08-23T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "71daca957b07abf8",
-      "name": "Pezeshkian Urges End to War , Iran Military Vows Retaliation as Bessent Prepares Sanctions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "71daca957b07abf8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.555,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hngn.com",
-      "url": "https://www.hngn.com/articles/272831/20260822/trump-declares-economic-d-day-iran-uae-cuts-all-trade-ties-hormuz-attacks-continue.htm",
-      "published_at": "2026-08-23T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      }
     },
     {
       "id": "a8d0db6467807bc5",
@@ -179,7 +207,7 @@
       "dependency_group": "a8d0db6467807bc5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.481,
+      "freshness": 0.371,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +223,10 @@
       "published_at": "2026-08-23T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     },
     {
       "id": "82b8892cf68c24cd",
@@ -211,7 +238,7 @@
       "dependency_group": "82b8892cf68c24cd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.481,
+      "freshness": 0.371,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,23 +254,22 @@
       "published_at": "2026-08-23T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     },
     {
-      "id": "f0f33e12a6573b78",
-      "name": "Trump has created nuclear insecurity instead of nuclear security : Iran security council chief Mohsen Rezaei",
+      "id": "71daca957b07abf8",
+      "name": "Pezeshkian Urges End to War , Iran Military Vows Retaliation as Bessent Prepares Sanctions",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "f0f33e12a6573b78",
+      "dependency_group": "71daca957b07abf8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.292,
+      "freshness": 0.428,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,48 +280,15 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279258918/trump-has-created-nuclear-insecurity-instead-of-nuclear-security-iran-security-council-chief-mohsen-rezaei",
-      "published_at": "2026-08-23T01:45:00Z",
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/272831/20260822/trump-declares-economic-d-day-iran-uae-cuts-all-trade-ties-hormuz-attacks-continue.htm",
+      "published_at": "2026-08-23T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c82c9f668dd32a64",
-      "name": "UK power plant  shut down for four day after major Iran - linked cyber attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c82c9f668dd32a64",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.292,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "mirror.co.uk",
-      "url": "https://www.mirror.co.uk/news/uk-news/uk-power-plant-iran-attack-37582786",
-      "published_at": "2026-08-23T01:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
     }
   ],
   "history": [
@@ -4300,17 +4293,23 @@
       "immediate": 3,
       "short": 11,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-23T06:57:58.199001Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-23T05:39:58.924348Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-23T06:57:58.199001Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "ok": true,
+        "items": 150,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
