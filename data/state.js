@@ -1,37 +1,37 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-23T15:54:30.728342Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-23T16:37:04.533971Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 3,
       "low": 0,
-      "high": 16,
-      "confidence": 65,
+      "high": 19,
+      "confidence": 49,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 9,
       "low": 0,
-      "high": 24,
-      "confidence": 65,
+      "high": 25,
+      "confidence": 49,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 6,
+      "score": 16,
+      "low": 0,
       "high": 32,
-      "confidence": 65,
+      "confidence": 49,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:30",
       "text": "Sought to turn Iran into another Venezuela ...: Pezeshkian lauds Iranian resistance against US attacks",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "venezuelastar.com",
       "signal_id": "c33d65c2418a6456"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "17:45",
       "text": "Iran says new sanctions threatened by  desperate  US will fail",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "internazionale.it",
       "signal_id": "c894d344f471c94d"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:00",
       "text": "Ukraine and Iran Wars Expose the Flaws in Nuclear Deterrence | Opinion",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "newsweek.com",
       "signal_id": "d008b74550b10b8c"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:00",
       "text": "Small united kingdom power plant shut down after Iran - linked cyberattack : report",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "cnbc.com",
       "signal_id": "c757417821097a71"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c33d65c2418a6456",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.89,
+      "freshness": 0.727,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
-      }
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      },
+      "carried_forward": true
     },
     {
       "id": "c894d344f471c94d",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c894d344f471c94d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.718,
+      "freshness": 0.586,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      },
+      "carried_forward": true
     },
     {
       "id": "d008b74550b10b8c",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d008b74550b10b8c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.327,
+      "freshness": 0.267,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T12:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      }
+        "immediate": 0.5,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     },
     {
       "id": "c757417821097a71",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c757417821097a71",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.327,
+      "freshness": 0.267,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T12:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      }
+        "immediate": 0.5,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     },
     {
       "id": "8e79a7f145b5763c",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8e79a7f145b5763c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.352,
+      "freshness": 0.287,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.8
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -4339,17 +4344,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 11,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-23T16:37:04.533971Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 16
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-23T15:54:30.728342Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 5
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
