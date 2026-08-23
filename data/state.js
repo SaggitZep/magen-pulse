@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-23T07:41:31.553323Z",
+  "generated_at": "2026-08-23T08:03:58.554484Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@ window.MAGEN_STATE = {
       "score": 3,
       "low": 0,
       "high": 19,
-      "confidence": 49,
+      "confidence": 48,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 9,
       "low": 0,
-      "high": 26,
-      "confidence": 49,
+      "high": 25,
+      "confidence": 48,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
+      "score": 15,
       "low": 0,
-      "high": 32,
-      "confidence": 49,
+      "high": 31,
+      "confidence": 48,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "09:15",
       "text": "Iran - linked hackers shut down united kingdom power plant for four days in cyber attack",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "nzherald.co.nz",
       "signal_id": "3d79dfcaaa71a785"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "09:15",
       "text": "מתקפה חסרת תקדים : איראן הצליחה להשבית תחנת כוח בבריטניה",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "srugim.co.il",
       "signal_id": "8af79bf81d3bc73c"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:30",
       "text": "UK power plant  shut down for four day after cyber attack by Iran - linked hackers",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "manchestereveningnews.co.uk",
       "signal_id": "d1c8b68af4f2d639"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3d79dfcaaa71a785",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.662,
+      "freshness": 0.595,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.9
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8af79bf81d3bc73c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.662,
+      "freshness": 0.595,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.9
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4bc544ad371d6b4f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.431,
+      "freshness": 0.388,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -164,8 +164,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "short": 2.2,
+        "extended": 3.8
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d1c8b68af4f2d639",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.402,
+      "freshness": 0.361,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a8d0db6467807bc5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.302,
+      "freshness": 0.271,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "82b8892cf68c24cd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.302,
+      "freshness": 0.271,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "71daca957b07abf8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.348,
+      "freshness": 0.313,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     }
@@ -4312,6 +4312,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-23T08:03:58.554484Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 15
     }
   ],
   "health": {
