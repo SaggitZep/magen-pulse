@@ -1,78 +1,233 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-23T11:58:03.977838Z",
+  "mode": "live",
+  "generated_at": "2026-08-23T12:57:23.676909Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 49,
+      "high": 17,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 13,
       "low": 0,
       "high": 26,
-      "confidence": 49,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
-      "low": 0,
-      "high": 32,
-      "confidence": 49,
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 67,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": 1
   },
   "changes": [
     {
-      "time": "13:30",
-      "text": "Iran - linked hackers blamed for cyber - attack that shut down united kingdom power plant",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "15:15",
+      "text": "Pezeshkian : Iran is in  full - economic , military and security war",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "theguardian.com",
-      "signal_id": "0dcca0672fa7c3f3"
+      "source": "albawaba.com",
+      "signal_id": "8e79a7f145b5763c"
     },
     {
-      "time": "12:30",
-      "text": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "15:15",
+      "text": "Sought to turn Iran into another Venezuela ...: Pezeshkian lauds Iranian resistance against US attacks",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "theintelligencer.net",
-      "signal_id": "a8d0db6467807bc5"
+      "source": "kenyastar.com",
+      "signal_id": "c33d65c2418a6456"
     },
     {
-      "time": "12:30",
-      "text": "Why did US refuelling aircraft abruptly leave Bulgaria ?  Iranian threat or Russian plane ?",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "15:00",
+      "text": "Ukraine and Iran Wars Expose the Flaws in Nuclear Deterrence | Opinion",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "theweek.in",
-      "signal_id": "0c7048568111124e"
+      "source": "newsweek.com",
+      "signal_id": "d008b74550b10b8c"
     },
     {
-      "time": "11:30",
-      "text": "Iran - US war latest : Tehran warns of  earthquake - like  retaliation over Trump  economic D - Day  threats",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "15:00",
+      "text": "Small united kingdom power plant shut down after Iran - linked cyberattack : report",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "independent.co.uk",
-      "signal_id": "df6272ab0c543408"
+      "source": "cnbc.com",
+      "signal_id": "c757417821097a71"
     }
   ],
   "signals": [
+    {
+      "id": "8e79a7f145b5763c",
+      "name": "Pezeshkian : Iran is in  full - economic , military and security war",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8e79a7f145b5763c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.817,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "albawaba.com",
+      "url": "https://www.albawaba.com/news/pezeshkian-iran-full-economic-military-1635587",
+      "published_at": "2026-08-23T12:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "c33d65c2418a6456",
+      "name": "Sought to turn Iran into another Venezuela ...: Pezeshkian lauds Iranian resistance against US attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c33d65c2418a6456",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.817,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kenyastar.com",
+      "url": "http://www.kenyastar.com/news/279259556/sought-to-turn-iran-into-another-venezuela-pezeshkian-lauds-iranian-resistance-against-us-attacks",
+      "published_at": "2026-08-23T12:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "d008b74550b10b8c",
+      "name": "Ukraine and Iran Wars Expose the Flaws in Nuclear Deterrence | Opinion",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d008b74550b10b8c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.761,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newsweek.com",
+      "url": "https://www.newsweek.com/ukraine-and-iran-wars-expose-the-flaws-in-nuclear-deterrence-opinion-12341963",
+      "published_at": "2026-08-23T12:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "c757417821097a71",
+      "name": "Small united kingdom power plant shut down after Iran - linked cyberattack : report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c757417821097a71",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.761,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/08/23/small-uk-power-plant-shut-down-after-iran-linked-cyberattack-report.html",
+      "published_at": "2026-08-23T12:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "40f29e42a38566b1",
+      "name": "National Defense Industry Day : How Iran turned sanctions into strength and rose as a global military power",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "40f29e42a38566b1",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.572,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/08/22/774850/defense-industry-day-how-iran-turned-sanctions-strength-rose-global-military-power",
+      "published_at": "2026-08-23T11:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
     {
       "id": "0dcca0672fa7c3f3",
       "name": "Iran - linked hackers blamed for cyber - attack that shut down united kingdom power plant",
@@ -83,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0dcca0672fa7c3f3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.657,
+      "freshness": 0.496,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +254,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      }
     },
     {
       "id": "a8d0db6467807bc5",
@@ -115,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a8d0db6467807bc5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.494,
+      "freshness": 0.372,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +285,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
     },
     {
       "id": "0c7048568111124e",
@@ -147,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0c7048568111124e",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.494,
+      "freshness": 0.372,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,171 +316,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "df6272ab0c543408",
-      "name": "Iran - US war latest : Tehran warns of  earthquake - like  retaliation over Trump  economic D - Day  threats",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "df6272ab0c543408",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.371,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "independent.co.uk",
-      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-threats-hormuz-power-plant-update-b3037671.html",
-      "published_at": "2026-08-23T08:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
         "short": 2.4,
         "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3a5eefc76c71357a",
-      "name": "Iran threatens US Navy in Hormuz as Pakistan chief visits",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3a5eefc76c71357a",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.371,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bankingnews.gr",
-      "url": "https://www.bankingnews.gr/diethni/articles/895136/iran-threatens-us-navy-in-hormuz-as-pakistan-chief-visits%20title=",
-      "published_at": "2026-08-23T08:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b85ab46afdfb7018",
-      "name": "Why Trump economic pain could spark more Iranian attacks on Gulf nations",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b85ab46afdfb7018",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.399,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "scmp.com",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3364963/why-trumps-economic-pain-could-spark-more-iranian-attacks-gulf-nations",
-      "published_at": "2026-08-23T08:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5d727c6e15590a87",
-      "name": "Iranian cyberattack shut down united kingdom power station for several days",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5d727c6e15590a87",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.371,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "albawaba.com",
-      "url": "https://www.albawaba.com/news/iranian-cyberattack-shut-down-uk-power-1635562",
-      "published_at": "2026-08-23T08:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "82b8892cf68c24cd",
-      "name": "Stricter US sanctions threaten severe economic strain as Iran keeps Hormuz traffic in check",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "82b8892cf68c24cd",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.26,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dunyanews.tv",
-      "url": "https://dunyanews.tv/en/World/969293-stricter-us-sanctions-threaten-severe-economic-strain-as-iran-keeps-ho",
-      "published_at": "2026-08-23T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
+      }
     }
   ],
   "history": [
@@ -4398,17 +4390,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-23T12:57:23.676909Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 22
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-23T11:10:10.451918Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-23T12:57:23.676909Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 8
       },
       "manual": {
         "ok": true,
