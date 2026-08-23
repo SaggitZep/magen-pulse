@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-23T10:11:27.622463Z",
+  "generated_at": "2026-08-23T10:43:52.875885Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,24 +9,24 @@
       "score": 4,
       "low": 0,
       "high": 17,
-      "confidence": 67,
+      "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
-      "low": 1,
-      "high": 27,
-      "confidence": 67,
+      "score": 12,
+      "low": 0,
+      "high": 25,
+      "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 23,
-      "low": 10,
-      "high": 36,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 20,
+      "low": 7,
+      "high": 33,
+      "confidence": 65,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -42,7 +42,7 @@
     {
       "time": "12:30",
       "text": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "theintelligencer.net",
       "signal_id": "a8d0db6467807bc5"
@@ -50,7 +50,7 @@
     {
       "time": "12:30",
       "text": "Why did US refuelling aircraft abruptly leave Bulgaria ?  Iranian threat or Russian plane ?",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "theweek.in",
       "signal_id": "0c7048568111124e"
@@ -58,7 +58,7 @@
     {
       "time": "11:30",
       "text": "Iran - US war latest : Tehran warns of  earthquake - like  retaliation over Trump  economic D - Day  threats",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "independent.co.uk",
       "signal_id": "df6272ab0c543408"
@@ -66,7 +66,7 @@
     {
       "time": "11:30",
       "text": "Iran threatens US Navy in Hormuz as Pakistan chief visits",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "bankingnews.gr",
       "signal_id": "3a5eefc76c71357a"
@@ -83,7 +83,7 @@
       "dependency_group": "a8d0db6467807bc5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.821,
+      "freshness": 0.703,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-23T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.3,
-        "extended": 9.1
+        "immediate": 1.3,
+        "short": 4.6,
+        "extended": 7.8
       }
     },
     {
@@ -114,7 +114,7 @@
       "dependency_group": "0c7048568111124e",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.821,
+      "freshness": 0.703,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +130,9 @@
       "published_at": "2026-08-23T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.3,
-        "extended": 9.1
+        "immediate": 1.3,
+        "short": 4.6,
+        "extended": 7.8
       }
     },
     {
@@ -145,7 +145,7 @@
       "dependency_group": "df6272ab0c543408",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.617,
+      "freshness": 0.529,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +161,9 @@
       "published_at": "2026-08-23T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.9
       }
     },
     {
@@ -176,7 +176,7 @@
       "dependency_group": "3a5eefc76c71357a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.617,
+      "freshness": 0.529,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +192,9 @@
       "published_at": "2026-08-23T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.9
       }
     },
     {
@@ -207,7 +207,7 @@
       "dependency_group": "b85ab46afdfb7018",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.663,
+      "freshness": 0.568,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +223,40 @@
       "published_at": "2026-08-23T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
+    {
+      "id": "5d727c6e15590a87",
+      "name": "Iranian cyberattack shut down united kingdom power station for several days",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5d727c6e15590a87",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.529,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "albawaba.com",
+      "url": "https://www.albawaba.com/news/iranian-cyberattack-shut-down-uk-power-1635562",
+      "published_at": "2026-08-23T08:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
       }
     },
     {
@@ -238,7 +269,7 @@
       "dependency_group": "82b8892cf68c24cd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.432,
+      "freshness": 0.37,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,22 +285,22 @@
       "published_at": "2026-08-23T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
-      "id": "3d79dfcaaa71a785",
-      "name": "Iran - linked hackers shut down united kingdom power plant for four days in cyber attack",
+      "id": "fc3e4f53b20be8e1",
+      "name": "As US sanctions loom , Iran threatens to shut Strait of Hormuz",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "3d79dfcaaa71a785",
-      "strength": 0.4,
+      "dependency_group": "fc3e4f53b20be8e1",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.324,
+      "freshness": 0.321,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -280,14 +311,14 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "nzherald.co.nz",
-      "url": "https://www.nzherald.co.nz/world/iran-linked-hackers-shut-down-uk-power-plant-for-four-days-in-cyber-attack/D3GHGZGAEVATXBIEMRMQXGBZCA/",
-      "published_at": "2026-08-23T06:15:00Z",
+      "source": "tradearabia.com:443",
+      "url": "https://tradearabia.com:443/News/466807/As-US-sanctions-loom-Iran-threatens-to-shut-Strait-of-Hormuz",
+      "published_at": "2026-08-23T06:45:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "short": 2.1,
+        "extended": 3.6
       }
     }
   ],
@@ -4335,17 +4366,23 @@
       "immediate": 4,
       "short": 14,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-08-23T10:43:52.875885Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-23T10:11:27.622463Z",
+    "last_success": "2026-08-23T10:43:52.875885Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 7
+        "relevant": 8
       },
       "manual": {
         "ok": true,
