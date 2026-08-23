@@ -1,78 +1,233 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-22T23:52:32.212560Z",
+  "mode": "live",
+  "generated_at": "2026-08-23T01:08:39.014092Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 5,
       "low": 0,
-      "high": 19,
-      "confidence": 51,
+      "high": 18,
+      "confidence": 69,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
-      "low": 0,
-      "high": 27,
-      "confidence": 51,
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 69,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 51,
-      "status": "נמוך"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 69,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "00:30",
-      "text": "Bulgaria removes US tankers after Iran threat as Tehran shows off underground missile",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "ynetnews.com",
-      "signal_id": "ede0b278694bcf83"
-    },
-    {
-      "time": "01:00",
+      "time": "03:45",
       "text": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "reflector.com",
+      "source": "idahostatejournal.com",
       "signal_id": "a8d0db6467807bc5"
     },
     {
-      "time": "01:00",
-      "text": "Iran warns of crushing response to US threats",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "02:15",
+      "text": "Iran releases video of underground missile production facility",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "mainemirror.com",
-      "signal_id": "6ea4ff11c18c71c5"
+      "source": "jpost.com",
+      "signal_id": "8501e0c311bc66ba"
     },
     {
-      "time": "01:00",
-      "text": "US military casualties rise to over 770 as Iran conflict enters sixth month",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "03:45",
+      "text": "Trump has created nuclear insecurity instead of nuclear security : Iran security council chief Mohsen Rezaei",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "kenyastar.com",
-      "signal_id": "59a05041c79bd0a5"
+      "source": "middleeaststar.com",
+      "signal_id": "f0f33e12a6573b78"
+    },
+    {
+      "time": "03:45",
+      "text": "UK power plant  shut down for four day after major Iran - linked cyber attack",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "aol.co.uk",
+      "signal_id": "c82c9f668dd32a64"
     }
   ],
   "signals": [
+    {
+      "id": "a8d0db6467807bc5",
+      "name": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a8d0db6467807bc5",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.893,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "idahostatejournal.com",
+      "url": "http://www.idahostatejournal.com/news/national/iran-security-chief-threatens-neighbors-against-economic-measures-and-other-mideast-developments/article_43d687c1-00f1-5388-92e6-d4d472d55021.html",
+      "published_at": "2026-08-23T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.9
+      }
+    },
+    {
+      "id": "8501e0c311bc66ba",
+      "name": "Iran releases video of underground missile production facility",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8501e0c311bc66ba",
+      "strength": 0.48,
+      "reliability": 0.74,
+      "freshness": 0.582,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jpost.com",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-906266",
+      "published_at": "2026-08-22T23:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.1
+      }
+    },
+    {
+      "id": "f0f33e12a6573b78",
+      "name": "Trump has created nuclear insecurity instead of nuclear security : Iran security council chief Mohsen Rezaei",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f0f33e12a6573b78",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.893,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeaststar.com",
+      "url": "http://www.middleeaststar.com/news/279258918/trump-has-created-nuclear-insecurity-instead-of-nuclear-security-iran-security-council-chief-mohsen-rezaei",
+      "published_at": "2026-08-23T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "c82c9f668dd32a64",
+      "name": "UK power plant  shut down for four day after major Iran - linked cyber attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c82c9f668dd32a64",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.893,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aol.co.uk",
+      "url": "https://www.aol.co.uk/articles/uk-power-plant-shut-down-000646000.html",
+      "published_at": "2026-08-23T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "6ea4ff11c18c71c5",
+      "name": "Iran warns of crushing response to US threats",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6ea4ff11c18c71c5",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.542,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "japanherald.com",
+      "url": "http://www.japanherald.com/news/279256711/iran-threatens-tough-response-to-new-us-sanctions",
+      "published_at": "2026-08-22T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
     {
       "id": "ede0b278694bcf83",
       "name": "Bulgaria removes US tankers after Iran threat as Tehran shows off underground missile",
@@ -83,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ede0b278694bcf83",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.507,
+      "freshness": 0.353,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,75 +254,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a8d0db6467807bc5",
-      "name": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a8d0db6467807bc5",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.585,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "reflector.com",
-      "url": "http://www.reflector.com/news/national/iran-security-chief-threatens-neighbors-against-economic-measures-and-other-mideast-developments/article_c0b7bcc9-27be-5e1a-af62-961da794747f.html",
-      "published_at": "2026-08-22T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6ea4ff11c18c71c5",
-      "name": "Iran warns of crushing response to US threats",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6ea4ff11c18c71c5",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.585,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "mainemirror.com",
-      "url": "http://www.mainemirror.com/news/279256711/iran-threatens-tough-response-to-new-us-sanctions",
-      "published_at": "2026-08-22T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
     },
     {
       "id": "59a05041c79bd0a5",
@@ -179,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "59a05041c79bd0a5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.585,
+      "freshness": 0.407,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,43 +285,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d7236c48fa9ddfd8",
-      "name": "Tehran at  center  of global power : Iran Basij chief , says US action shows weakness in its military",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d7236c48fa9ddfd8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.286,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260822/4489906.html",
-      "published_at": "2026-08-22T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.8
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      }
     }
   ],
   "history": [
@@ -4194,17 +4251,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 11,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-23T01:08:39.014092Z",
+      "immediate": 5,
+      "short": 15,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-22T22:32:53.481288Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-23T01:08:39.014092Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "ok": true,
+        "items": 126,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
