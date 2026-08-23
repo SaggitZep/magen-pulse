@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-23T22:32:54.671858Z",
+  "generated_at": "2026-08-23T22:55:32.962508Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@ window.MAGEN_STATE = {
       "score": 2,
       "low": 0,
       "high": 19,
-      "confidence": 45,
+      "confidence": 44,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
+      "score": 5,
       "low": 0,
-      "high": 23,
-      "confidence": 45,
+      "high": 22,
+      "confidence": 44,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 10,
+      "score": 9,
       "low": 0,
-      "high": 27,
-      "confidence": 45,
+      "high": 26,
+      "confidence": 44,
       "status": "נמוך"
     }
   },
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:15",
       "text": "Defiant Iran says new sanctions threatened by  desperate  US will fail",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "d6a366f51e0a33dc"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "57843960eb956e21",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.338,
+      "freshness": 0.303,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -100,8 +100,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "short": 2.0,
+        "extended": 3.4
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e1404e9d78c6b8f8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.363,
+      "freshness": 0.326,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -132,8 +132,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d6a366f51e0a33dc",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.293,
+      "freshness": 0.263,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2aada8a7e84c5cf4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.254,
+      "freshness": 0.228,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -196,8 +196,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "996ceaeb22334721",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.22,
+      "freshness": 0.198,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -228,8 +228,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8bf43af3eac84449",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.236,
+      "freshness": 0.212,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -257,38 +257,6 @@ window.MAGEN_STATE = {
       "source": "redstate.com",
       "url": "https://redstate.com/wardclark/2026/08/23/iran-linked-attack-knocks-out-british-power-plant-could-they-do-that-here-n2205961",
       "published_at": "2026-08-23T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "cf2ab6b9b9111fb4",
-      "name": "Iran Warns U . S .  Economic War  Allies Are  Enemies , Threatens Retaliation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cf2ab6b9b9111fb4",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.191,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "breitbart.com",
-      "url": "https://www.breitbart.com/politics/2026/08/23/iran-warns-neighbors-joining-u-s-economic-war-will-be-enemies-threatens-earthquake-like-retaliation/",
-      "published_at": "2026-08-23T16:45:00Z",
       "active": true,
       "computed": {
         "immediate": 0.4,
@@ -4492,6 +4460,12 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 6,
       "extended": 10
+    },
+    {
+      "timestamp": "2026-08-23T22:55:32.962508Z",
+      "immediate": 2,
+      "short": 5,
+      "extended": 9
     }
   ],
   "health": {
@@ -4502,7 +4476,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "carried_forward": 6
       },
       "manual": {
         "ok": true,
