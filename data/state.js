@@ -1,78 +1,202 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-23T09:16:04.772563Z",
+  "mode": "live",
+  "generated_at": "2026-08-23T09:48:42.500380Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 45,
+      "high": 17,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
+      "score": 13,
       "low": 0,
-      "high": 23,
-      "confidence": 45,
-      "status": "לא זוהה אות חריג"
+      "high": 26,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
-      "low": 0,
-      "high": 28,
-      "confidence": 45,
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 66,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "09:15",
-      "text": "Iran - linked hackers shut down united kingdom power plant for four days in cyber attack",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "11:30",
+      "text": "Iran - US war latest : Tehran warns of  earthquake - like  retaliation over Trump  economic D - Day  threats",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "nzherald.co.nz",
-      "signal_id": "3d79dfcaaa71a785"
+      "source": "independent.co.uk",
+      "signal_id": "df6272ab0c543408"
     },
     {
-      "time": "09:15",
-      "text": "מתקפה חסרת תקדים : איראן הצליחה להשבית תחנת כוח בבריטניה",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "11:30",
+      "text": "Iran threatens US Navy in Hormuz as Pakistan chief visits",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "srugim.co.il",
-      "signal_id": "8af79bf81d3bc73c"
+      "source": "bankingnews.gr",
+      "signal_id": "3a5eefc76c71357a"
     },
     {
-      "time": "07:45",
-      "text": "British Power Plants Shut Down For Four Days In Iranian Cyber - attack - Report | LIVE BLOG",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "11:45",
+      "text": "Why Trump economic pain could spark more Iranian attacks on Gulf nations",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "i24news.tv",
-      "signal_id": "4bc544ad371d6b4f"
+      "source": "scmp.com",
+      "signal_id": "b85ab46afdfb7018"
     },
     {
-      "time": "07:30",
-      "text": "UK power plant  shut down for four day after cyber attack by Iran - linked hackers",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "10:15",
+      "text": "Stricter US sanctions threaten severe economic strain as Iran keeps Hormuz traffic in check",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
-      "source": "manchestereveningnews.co.uk",
-      "signal_id": "d1c8b68af4f2d639"
+      "source": "dunyanews.tv",
+      "signal_id": "82b8892cf68c24cd"
     }
   ],
   "signals": [
+    {
+      "id": "df6272ab0c543408",
+      "name": "Iran - US war latest : Tehran warns of  earthquake - like  retaliation over Trump  economic D - Day  threats",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "df6272ab0c543408",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.687,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "independent.co.uk",
+      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-threats-hormuz-power-plant-update-b3037671.html",
+      "published_at": "2026-08-23T08:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "3a5eefc76c71357a",
+      "name": "Iran threatens US Navy in Hormuz as Pakistan chief visits",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3a5eefc76c71357a",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.687,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bankingnews.gr",
+      "url": "https://www.bankingnews.gr/diethni/articles/895136/iran-threatens-us-navy-in-hormuz-as-pakistan-chief-visits%20title=",
+      "published_at": "2026-08-23T08:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "b85ab46afdfb7018",
+      "name": "Why Trump economic pain could spark more Iranian attacks on Gulf nations",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b85ab46afdfb7018",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.738,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "scmp.com",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3364963/why-trumps-economic-pain-could-spark-more-iranian-attacks-gulf-nations",
+      "published_at": "2026-08-23T08:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "82b8892cf68c24cd",
+      "name": "Stricter US sanctions threaten severe economic strain as Iran keeps Hormuz traffic in check",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "82b8892cf68c24cd",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.481,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dunyanews.tv",
+      "url": "https://dunyanews.tv/en/World/969293-stricter-us-sanctions-threaten-severe-economic-strain-as-iran-keeps-ho",
+      "published_at": "2026-08-23T07:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
+    },
     {
       "id": "3d79dfcaaa71a785",
       "name": "Iran - linked hackers shut down united kingdom power plant for four days in cyber attack",
@@ -83,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3d79dfcaaa71a785",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.422,
+      "freshness": 0.361,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,203 +223,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8af79bf81d3bc73c",
-      "name": "מתקפה חסרת תקדים : איראן הצליחה להשבית תחנת כוח בבריטניה",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8af79bf81d3bc73c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.422,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "srugim.co.il",
-      "url": "http://www.srugim.co.il/101009198-%D7%9E%D7%AA%D7%A7%D7%A4%D7%94-%D7%97%D7%A1%D7%A8%D7%AA-%D7%AA%D7%A7%D7%93%D7%99%D7%9D-%D7%90%D7%99%D7%A8%D7%90%D7%9F-%D7%94%D7%A6%D7%9C%D7%99%D7%97%D7%94-%D7%9C%D7%94%D7%A9%D7%91%D7%99%D7%AA",
-      "published_at": "2026-08-23T06:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4bc544ad371d6b4f",
-      "name": "British Power Plants Shut Down For Four Days In Iranian Cyber - attack - Report | LIVE BLOG",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4bc544ad371d6b4f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.275,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "i24news.tv",
-      "url": "https://www.i24news.tv/en/news/international/artc-british-power-plants-shut-down-for-four-days-in-iranian-cyber-attack-report-live-blog",
-      "published_at": "2026-08-23T04:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d1c8b68af4f2d639",
-      "name": "UK power plant  shut down for four day after cyber attack by Iran - linked hackers",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d1c8b68af4f2d639",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.256,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "manchestereveningnews.co.uk",
-      "url": "https://www.manchestereveningnews.co.uk/news/uk-news/uk-power-plant-shut-down-34503049",
-      "published_at": "2026-08-23T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a8d0db6467807bc5",
-      "name": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a8d0db6467807bc5",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.192,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newsminer.com",
-      "url": "https://www.newsminer.com/iran-security-chief-threatens-neighbors-against-economic-measures-and-other-mideast-developments/article_467c3346-67e9-45f9-9def-bc0564e6889e.html",
-      "published_at": "2026-08-23T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "82b8892cf68c24cd",
-      "name": "Stricter US sanctions threaten severe economic strain as Iran keeps Hormuz traffic in check",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "82b8892cf68c24cd",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.192,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "geo.tv",
-      "url": "https://www.geo.tv/latest/678822-new-us-sanctions-threaten-deeper-economic-strain-as-iran-keeps-hormuz-oil-traffic-in-check",
-      "published_at": "2026-08-23T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "71daca957b07abf8",
-      "name": "Pezeshkian Urges End to War , Iran Military Vows Retaliation as Bessent Prepares Sanctions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "71daca957b07abf8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.222,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hngn.com",
-      "url": "https://www.hngn.com/articles/272831/20260822/trump-declares-economic-d-day-iran-uae-cuts-all-trade-ties-hormuz-attacks-continue.htm",
-      "published_at": "2026-08-23T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
     }
   ],
   "history": [
@@ -4330,17 +4261,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 6,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-23T09:48:42.500380Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-23T06:57:58.199001Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-23T09:48:42.500380Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "ok": true,
+        "items": 150,
+        "relevant": 5
       },
       "manual": {
         "ok": true,
