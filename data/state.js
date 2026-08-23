@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-23T15:01:04.178125Z",
+  "generated_at": "2026-08-23T15:33:11.053209Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@ window.MAGEN_STATE = {
       "score": 3,
       "low": 0,
       "high": 19,
-      "confidence": 50,
+      "confidence": 48,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 9,
       "low": 0,
-      "high": 26,
-      "confidence": 50,
+      "high": 25,
+      "confidence": 48,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 50,
+      "score": 14,
+      "low": 0,
+      "high": 30,
+      "confidence": 48,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "16:15",
       "text": "Iran says new sanctions threatened by  desperate  US will fail",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "al-monitor.com",
       "signal_id": "c894d344f471c94d"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:15",
       "text": "Pezeshkian : Iran is in  full - economic , military and security war",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "albawaba.com",
       "signal_id": "8e79a7f145b5763c"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:00",
       "text": "Ukraine and Iran Wars Expose the Flaws in Nuclear Deterrence | Opinion",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "newsweek.com",
       "signal_id": "d008b74550b10b8c"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "15:00",
       "text": "Small united kingdom power plant shut down after Iran - linked cyberattack : report",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "cnbc.com",
       "signal_id": "c757417821097a71"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c894d344f471c94d",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.603,
+      "freshness": 0.518,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T13:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8e79a7f145b5763c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.453,
+      "freshness": 0.389,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d008b74550b10b8c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.422,
+      "freshness": 0.362,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T12:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.2
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c757417821097a71",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.422,
+      "freshness": 0.362,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T12:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.2
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "40f29e42a38566b1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.317,
+      "freshness": 0.272,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -228,8 +228,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     }
@@ -4332,6 +4332,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-23T15:33:11.053209Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 14
     }
   ],
   "health": {
