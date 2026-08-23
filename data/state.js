@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-23T18:28:40.608797Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-23T19:00:22.701106Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 68,
+      "high": 19,
+      "confidence": 52,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 12,
       "low": 0,
-      "high": 26,
-      "confidence": 68,
+      "high": 28,
+      "confidence": 52,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 9,
+      "score": 19,
+      "low": 3,
       "high": 35,
-      "confidence": 68,
+      "confidence": 52,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "20:30",
       "text": "Iran says new sanctions threatened by  desperate  US will fail",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "hindustantimes.com",
       "signal_id": "c894d344f471c94d"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:45",
       "text": "Iran in  all - out  economic , military , security war : President Pezeshkian",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "morungexpress.com",
       "signal_id": "2aada8a7e84c5cf4"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:30",
       "text": "Iran - Linked Attack Knocks Out British Power Plant : Could They Do That Here ?",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "redstate.com",
       "signal_id": "8bf43af3eac84449"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "19:45",
       "text": "Iran Warns U . S .  Economic War  Allies Are  Enemies , Threatens Retaliation",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "breitbart.com",
       "signal_id": "cf2ab6b9b9111fb4"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c894d344f471c94d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.756,
+      "freshness": 0.65,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.4
-      }
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      },
+      "carried_forward": true
     },
     {
       "id": "2aada8a7e84c5cf4",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2aada8a7e84c5cf4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.812,
+      "freshness": 0.698,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
-      }
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.9
+      },
+      "carried_forward": true
     },
     {
       "id": "8bf43af3eac84449",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8bf43af3eac84449",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.756,
+      "freshness": 0.65,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
+      },
+      "carried_forward": true
     },
     {
       "id": "cf2ab6b9b9111fb4",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cf2ab6b9b9111fb4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.61,
+      "freshness": 0.525,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      },
+      "carried_forward": true
     },
     {
       "id": "c33d65c2418a6456",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c33d65c2418a6456",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.427,
+      "freshness": 0.367,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -4369,17 +4374,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-23T19:00:22.701106Z",
+      "immediate": 3,
+      "short": 12,
+      "extended": 19
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-23T18:28:40.608797Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 5
+        "ok": false,
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
