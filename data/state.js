@@ -1,48 +1,56 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-23T04:23:26.791455Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-23T05:02:30.573963Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 4,
       "low": 0,
-      "high": 17,
-      "confidence": 68,
+      "high": 20,
+      "confidence": 52,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
-      "low": 2,
+      "score": 12,
+      "low": 0,
       "high": 28,
-      "confidence": 68,
+      "confidence": 52,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 20,
+      "low": 4,
+      "high": 36,
+      "confidence": 52,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
+      "time": "07:00",
+      "text": "Pezeshkian Urges End to War , Iran Military Vows Retaliation as Bessent Prepares Sanctions",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "hngn.com",
+      "signal_id": "71daca957b07abf8"
+    },
+    {
       "time": "06:30",
       "text": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "newsminer.com",
       "signal_id": "a8d0db6467807bc5"
@@ -50,91 +58,21 @@ window.MAGEN_STATE = {
     {
       "time": "06:30",
       "text": "Stricter US sanctions threaten severe economic strain as Iran keeps Hormuz traffic in check",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "geo.tv",
       "signal_id": "82b8892cf68c24cd"
     },
     {
-      "time": "07:00",
-      "text": "Pezeshkian Urges End to War , Iran Military Vows Retaliation as Bessent Prepares Sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.5",
-      "direction": "up",
-      "source": "hngn.com",
-      "signal_id": "71daca957b07abf8"
-    },
-    {
       "time": "04:45",
       "text": "Trump has created nuclear insecurity instead of nuclear security : Iran security council chief Mohsen Rezaei",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "iranherald.com",
       "signal_id": "f0f33e12a6573b78"
     }
   ],
   "signals": [
-    {
-      "id": "a8d0db6467807bc5",
-      "name": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a8d0db6467807bc5",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.775,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newsminer.com",
-      "url": "https://www.newsminer.com/iran-security-chief-threatens-neighbors-against-economic-measures-and-other-mideast-developments/article_467c3346-67e9-45f9-9def-bc0564e6889e.html",
-      "published_at": "2026-08-23T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.6
-      }
-    },
-    {
-      "id": "82b8892cf68c24cd",
-      "name": "Stricter US sanctions threaten severe economic strain as Iran keeps Hormuz traffic in check",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "82b8892cf68c24cd",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.775,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "geo.tv",
-      "url": "https://www.geo.tv/latest/678822-new-us-sanctions-threaten-deeper-economic-strain-as-iran-keeps-hormuz-oil-traffic-in-check",
-      "published_at": "2026-08-23T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.6
-      }
-    },
     {
       "id": "71daca957b07abf8",
       "name": "Pezeshkian Urges End to War , Iran Military Vows Retaliation as Bessent Prepares Sanctions",
@@ -145,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "71daca957b07abf8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.894,
+      "freshness": 0.743,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +99,75 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
-      }
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "a8d0db6467807bc5",
+      "name": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a8d0db6467807bc5",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.644,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newsminer.com",
+      "url": "https://www.newsminer.com/iran-security-chief-threatens-neighbors-against-economic-measures-and-other-mideast-developments/article_467c3346-67e9-45f9-9def-bc0564e6889e.html",
+      "published_at": "2026-08-23T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "82b8892cf68c24cd",
+      "name": "Stricter US sanctions threaten severe economic strain as Iran keeps Hormuz traffic in check",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "82b8892cf68c24cd",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.644,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "geo.tv",
+      "url": "https://www.geo.tv/latest/678822-new-us-sanctions-threaten-deeper-economic-strain-as-iran-keeps-hormuz-oil-traffic-in-check",
+      "published_at": "2026-08-23T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      },
+      "carried_forward": true
     },
     {
       "id": "f0f33e12a6573b78",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f0f33e12a6573b78",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.47,
+      "freshness": 0.39,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "c82c9f668dd32a64",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c82c9f668dd32a64",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.47,
+      "freshness": 0.39,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -4213,17 +4218,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 15,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-23T05:02:30.573963Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-23T04:23:26.791455Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 144,
-        "relevant": 5
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
