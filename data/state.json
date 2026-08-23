@@ -1,37 +1,37 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-23T17:02:04.897426Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-23T17:31:44.303009Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 3,
       "low": 0,
-      "high": 18,
-      "confidence": 58,
+      "high": 20,
+      "confidence": 42,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 9,
       "low": 0,
-      "high": 25,
-      "confidence": 58,
+      "high": 26,
+      "confidence": 42,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 2,
+      "score": 15,
+      "low": 0,
       "high": 32,
-      "confidence": 58,
+      "confidence": 42,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
@@ -42,7 +42,7 @@
     {
       "time": "19:00",
       "text": "Iran says sanction threats by  desperate  US will fail",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "examiner.com.au",
       "signal_id": "996ceaeb22334721"
@@ -50,7 +50,7 @@
     {
       "time": "18:30",
       "text": "Sought to turn Iran into another Venezuela ...: Pezeshkian lauds Iranian resistance against US attacks",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "venezuelastar.com",
       "signal_id": "c33d65c2418a6456"
@@ -75,7 +75,7 @@
       "dependency_group": "996ceaeb22334721",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.744,
+      "freshness": 0.646,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -91,10 +91,11 @@
       "published_at": "2026-08-23T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
-      }
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      },
+      "carried_forward": true
     },
     {
       "id": "c33d65c2418a6456",
@@ -106,7 +107,7 @@
       "dependency_group": "c33d65c2418a6456",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.645,
+      "freshness": 0.56,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -122,10 +123,11 @@
       "published_at": "2026-08-23T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
-      }
+        "immediate": 1.0,
+        "short": 3.2,
+        "extended": 5.5
+      },
+      "carried_forward": true
     },
     {
       "id": "5c03791a27300830",
@@ -137,7 +139,7 @@
       "dependency_group": "5c03791a27300830",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.339,
+      "freshness": 0.294,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -154,9 +156,10 @@
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.8
-      }
+        "short": 1.9,
+        "extended": 3.3
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -4281,17 +4284,23 @@
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-23T17:31:44.303009Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 15
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-23T17:02:04.897426Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 3
+        "ok": false,
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "carried_forward": 3
       },
       "manual": {
         "ok": true,
