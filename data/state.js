@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-23T01:08:39.014092Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-23T02:38:06.524290Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 3,
       "low": 0,
-      "high": 18,
-      "confidence": 69,
+      "high": 19,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
-      "low": 2,
-      "high": 28,
-      "confidence": 69,
+      "score": 10,
+      "low": 0,
+      "high": 26,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 69,
-      "status": "מוגבר"
+      "score": 17,
+      "low": 1,
+      "high": 33,
+      "confidence": 50,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "ירידה",
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "03:45",
       "text": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "idahostatejournal.com",
       "signal_id": "a8d0db6467807bc5"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "02:15",
       "text": "Iran releases video of underground missile production facility",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "8501e0c311bc66ba"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "03:45",
       "text": "Trump has created nuclear insecurity instead of nuclear security : Iran security council chief Mohsen Rezaei",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "middleeaststar.com",
       "signal_id": "f0f33e12a6573b78"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "03:45",
       "text": "UK power plant  shut down for four day after major Iran - linked cyber attack",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "aol.co.uk",
       "signal_id": "c82c9f668dd32a64"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a8d0db6467807bc5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.893,
+      "freshness": 0.584,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.8,
-        "extended": 9.9
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      },
+      "carried_forward": true
     },
     {
       "id": "8501e0c311bc66ba",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8501e0c311bc66ba",
       "strength": 0.48,
       "reliability": 0.74,
-      "freshness": 0.582,
+      "freshness": 0.38,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.3,
-        "extended": 9.1
-      }
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      },
+      "carried_forward": true
     },
     {
       "id": "f0f33e12a6573b78",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f0f33e12a6573b78",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.893,
+      "freshness": 0.584,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      },
+      "carried_forward": true
     },
     {
       "id": "c82c9f668dd32a64",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c82c9f668dd32a64",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.893,
+      "freshness": 0.584,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      },
+      "carried_forward": true
     },
     {
       "id": "6ea4ff11c18c71c5",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6ea4ff11c18c71c5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.542,
+      "freshness": 0.354,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     },
     {
       "id": "ede0b278694bcf83",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ede0b278694bcf83",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.353,
+      "freshness": 0.231,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
+      },
+      "carried_forward": true
     },
     {
       "id": "59a05041c79bd0a5",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "59a05041c79bd0a5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.407,
+      "freshness": 0.266,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-22T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      }
+        "immediate": 0.5,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -4257,17 +4264,23 @@ window.MAGEN_STATE = {
       "immediate": 5,
       "short": 15,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-08-23T02:38:06.524290Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-23T01:08:39.014092Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 126,
-        "relevant": 7
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
