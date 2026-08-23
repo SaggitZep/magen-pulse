@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-23T19:50:51.595419Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-23T20:15:23.151694Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 66,
+      "high": 19,
+      "confidence": 51,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 11,
       "low": 0,
-      "high": 26,
-      "confidence": 66,
+      "high": 27,
+      "confidence": 51,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 66,
+      "score": 19,
+      "low": 3,
+      "high": 35,
+      "confidence": 51,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "21:45",
       "text": "Iran says new sanctions threatened by  desperate  US will fail – The Frontier Post",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "thefrontierpost.com",
       "signal_id": "57843960eb956e21"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:00",
       "text": "Iran is fully engaged in an economic , military , and security war : President Pezeshkian",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "khaskhabar.com",
       "signal_id": "e1404e9d78c6b8f8"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:15",
       "text": "Defiant Iran says new sanctions threatened by  desperate  US will fail",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "d6a366f51e0a33dc"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:15",
       "text": "Iran says sanction threats by  desperate  US will fail",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "dailyliberal.com.au",
       "signal_id": "996ceaeb22334721"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "57843960eb956e21",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.731,
+      "freshness": 0.65,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.1
-      }
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      },
+      "carried_forward": true
     },
     {
       "id": "e1404e9d78c6b8f8",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e1404e9d78c6b8f8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.785,
+      "freshness": 0.698,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.9
+      },
+      "carried_forward": true
     },
     {
       "id": "d6a366f51e0a33dc",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d6a366f51e0a33dc",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.634,
+      "freshness": 0.564,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
-      }
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      },
+      "carried_forward": true
     },
     {
       "id": "996ceaeb22334721",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "996ceaeb22334721",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.476,
+      "freshness": 0.424,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
+      },
+      "carried_forward": true
     },
     {
       "id": "2aada8a7e84c5cf4",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2aada8a7e84c5cf4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.549,
+      "freshness": 0.489,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      },
+      "carried_forward": true
     },
     {
       "id": "8bf43af3eac84449",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8bf43af3eac84449",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.511,
+      "freshness": 0.455,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      },
+      "carried_forward": true
     },
     {
       "id": "cf2ab6b9b9111fb4",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cf2ab6b9b9111fb4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.413,
+      "freshness": 0.367,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -4449,17 +4456,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-23T20:15:23.151694Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 19
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-23T19:50:51.595419Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 7
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
