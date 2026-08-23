@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-23T09:48:42.500380Z",
+  "generated_at": "2026-08-23T10:11:27.622463Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,24 +9,24 @@ window.MAGEN_STATE = {
       "score": 4,
       "low": 0,
       "high": 17,
-      "confidence": 66,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
-      "low": 0,
-      "high": 26,
-      "confidence": 66,
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 66,
-      "status": "נמוך"
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
@@ -35,14 +35,30 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
+      "time": "12:30",
+      "text": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "theintelligencer.net",
+      "signal_id": "a8d0db6467807bc5"
+    },
+    {
+      "time": "12:30",
+      "text": "Why did US refuelling aircraft abruptly leave Bulgaria ?  Iranian threat or Russian plane ?",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "theweek.in",
+      "signal_id": "0c7048568111124e"
+    },
+    {
       "time": "11:30",
       "text": "Iran - US war latest : Tehran warns of  earthquake - like  retaliation over Trump  economic D - Day  threats",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "independent.co.uk",
       "signal_id": "df6272ab0c543408"
@@ -50,29 +66,75 @@ window.MAGEN_STATE = {
     {
       "time": "11:30",
       "text": "Iran threatens US Navy in Hormuz as Pakistan chief visits",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "bankingnews.gr",
       "signal_id": "3a5eefc76c71357a"
-    },
-    {
-      "time": "11:45",
-      "text": "Why Trump economic pain could spark more Iranian attacks on Gulf nations",
-      "impact": "השפעה מיידית מחושבת: +1.3",
-      "direction": "up",
-      "source": "scmp.com",
-      "signal_id": "b85ab46afdfb7018"
-    },
-    {
-      "time": "10:15",
-      "text": "Stricter US sanctions threaten severe economic strain as Iran keeps Hormuz traffic in check",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "dunyanews.tv",
-      "signal_id": "82b8892cf68c24cd"
     }
   ],
   "signals": [
+    {
+      "id": "a8d0db6467807bc5",
+      "name": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a8d0db6467807bc5",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.821,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theintelligencer.net",
+      "url": "https://www.theintelligencer.net/news/top-headlines/2026/08/iran-security-chief-threatens-neighbors-against-economic-measures-and-other-mideast-developments/",
+      "published_at": "2026-08-23T09:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.1
+      }
+    },
+    {
+      "id": "0c7048568111124e",
+      "name": "Why did US refuelling aircraft abruptly leave Bulgaria ?  Iranian threat or Russian plane ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0c7048568111124e",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.821,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theweek.in",
+      "url": "https://www.theweek.in/news/world/2026/08/23/why-did-us-refuelling-aircraft-abruptly-leave-bulgaria-iranian-threat-or-russian-plane.html",
+      "published_at": "2026-08-23T09:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.1
+      }
+    },
     {
       "id": "df6272ab0c543408",
       "name": "Iran - US war latest : Tehran warns of  earthquake - like  retaliation over Trump  economic D - Day  threats",
@@ -83,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "df6272ab0c543408",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.687,
+      "freshness": 0.617,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
       }
     },
     {
@@ -114,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3a5eefc76c71357a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.687,
+      "freshness": 0.617,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
       }
     },
     {
@@ -145,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b85ab46afdfb7018",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.738,
+      "freshness": 0.663,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       }
     },
     {
@@ -176,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "82b8892cf68c24cd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.481,
+      "freshness": 0.432,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     },
     {
@@ -207,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3d79dfcaaa71a785",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.361,
+      "freshness": 0.324,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -224,8 +286,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "short": 1.9,
+        "extended": 3.2
       }
     }
   ],
@@ -4267,17 +4329,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-23T10:11:27.622463Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 23
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-23T09:48:42.500380Z",
+    "last_success": "2026-08-23T10:11:27.622463Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 5
+        "relevant": 7
       },
       "manual": {
         "ok": true,
