@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-23T08:46:08.990046Z",
+  "generated_at": "2026-08-23T09:16:04.772563Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@
       "score": 2,
       "low": 0,
       "high": 19,
-      "confidence": 46,
+      "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 6,
       "low": 0,
-      "high": 24,
-      "confidence": 46,
+      "high": 23,
+      "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 12,
+      "score": 11,
       "low": 0,
-      "high": 29,
-      "confidence": 46,
+      "high": 28,
+      "confidence": 45,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "09:15",
       "text": "Iran - linked hackers shut down united kingdom power plant for four days in cyber attack",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "nzherald.co.nz",
       "signal_id": "3d79dfcaaa71a785"
@@ -50,7 +50,7 @@
     {
       "time": "09:15",
       "text": "מתקפה חסרת תקדים : איראן הצליחה להשבית תחנת כוח בבריטניה",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "srugim.co.il",
       "signal_id": "8af79bf81d3bc73c"
@@ -66,7 +66,7 @@
     {
       "time": "07:30",
       "text": "UK power plant  shut down for four day after cyber attack by Iran - linked hackers",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "manchestereveningnews.co.uk",
       "signal_id": "d1c8b68af4f2d639"
@@ -83,7 +83,7 @@
       "dependency_group": "3d79dfcaaa71a785",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.487,
+      "freshness": 0.422,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-23T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.2
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "8af79bf81d3bc73c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.487,
+      "freshness": 0.422,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-23T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.2
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "4bc544ad371d6b4f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.317,
+      "freshness": 0.275,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -164,8 +164,8 @@
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "d1c8b68af4f2d639",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.295,
+      "freshness": 0.256,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-23T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "a8d0db6467807bc5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.222,
+      "freshness": 0.192,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -228,8 +228,8 @@
       "active": true,
       "computed": {
         "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.5
+        "short": 1.3,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "82b8892cf68c24cd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.222,
+      "freshness": 0.192,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -260,8 +260,8 @@
       "active": true,
       "computed": {
         "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.5
+        "short": 1.3,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "71daca957b07abf8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.256,
+      "freshness": 0.222,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -292,8 +292,8 @@
       "active": true,
       "computed": {
         "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     }
@@ -4324,6 +4324,12 @@
       "immediate": 2,
       "short": 7,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-08-23T09:16:04.772563Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 11
     }
   ],
   "health": {
