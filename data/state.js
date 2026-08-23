@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-23T11:37:41.699174Z",
+  "generated_at": "2026-08-23T11:58:03.977838Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@ window.MAGEN_STATE = {
       "score": 3,
       "low": 0,
       "high": 19,
-      "confidence": 50,
+      "confidence": 49,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 10,
       "low": 0,
-      "high": 27,
-      "confidence": 50,
+      "high": 26,
+      "confidence": 49,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 50,
+      "score": 16,
+      "low": 0,
+      "high": 32,
+      "confidence": 49,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "13:30",
       "text": "Iran - linked hackers blamed for cyber - attack that shut down united kingdom power plant",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "theguardian.com",
       "signal_id": "0dcca0672fa7c3f3"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "12:30",
       "text": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "theintelligencer.net",
       "signal_id": "a8d0db6467807bc5"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "12:30",
       "text": "Why did US refuelling aircraft abruptly leave Bulgaria ?  Iranian threat or Russian plane ?",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "theweek.in",
       "signal_id": "0c7048568111124e"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:30",
       "text": "Iran - US war latest : Tehran warns of  earthquake - like  retaliation over Trump  economic D - Day  threats",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "independent.co.uk",
       "signal_id": "df6272ab0c543408"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0dcca0672fa7c3f3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.724,
+      "freshness": 0.657,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a8d0db6467807bc5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.544,
+      "freshness": 0.494,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0c7048568111124e",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.544,
+      "freshness": 0.494,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "df6272ab0c543408",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.409,
+      "freshness": 0.371,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3a5eefc76c71357a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.409,
+      "freshness": 0.371,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b85ab46afdfb7018",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.439,
+      "freshness": 0.399,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -260,8 +260,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
+        "short": 2.3,
+        "extended": 3.9
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5d727c6e15590a87",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.409,
+      "freshness": 0.371,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "82b8892cf68c24cd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.286,
+      "freshness": 0.26,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -324,8 +324,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     }
@@ -4392,6 +4392,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 11,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-23T11:58:03.977838Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 16
     }
   ],
   "health": {
