@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-23T10:43:52.875885Z",
+  "generated_at": "2026-08-23T11:10:10.451918Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -40,9 +40,17 @@ window.MAGEN_STATE = {
   },
   "changes": [
     {
+      "time": "13:30",
+      "text": "Iran - linked hackers blamed for cyber - attack that shut down united kingdom power plant",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "theguardian.com",
+      "signal_id": "0dcca0672fa7c3f3"
+    },
+    {
       "time": "12:30",
       "text": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "theintelligencer.net",
       "signal_id": "a8d0db6467807bc5"
@@ -50,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "12:30",
       "text": "Why did US refuelling aircraft abruptly leave Bulgaria ?  Iranian threat or Russian plane ?",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "theweek.in",
       "signal_id": "0c7048568111124e"
@@ -58,21 +66,44 @@ window.MAGEN_STATE = {
     {
       "time": "11:30",
       "text": "Iran - US war latest : Tehran warns of  earthquake - like  retaliation over Trump  economic D - Day  threats",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "independent.co.uk",
       "signal_id": "df6272ab0c543408"
-    },
-    {
-      "time": "11:30",
-      "text": "Iran threatens US Navy in Hormuz as Pakistan chief visits",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "bankingnews.gr",
-      "signal_id": "3a5eefc76c71357a"
     }
   ],
   "signals": [
+    {
+      "id": "0dcca0672fa7c3f3",
+      "name": "Iran - linked hackers blamed for cyber - attack that shut down united kingdom power plant",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0dcca0672fa7c3f3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.826,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theguardian.com",
+      "url": "https://www.theguardian.com/world/2026/aug/23/iran-linked-hackers-blamed-cyber-attack-british-power-plant",
+      "published_at": "2026-08-23T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.1
+      }
+    },
     {
       "id": "a8d0db6467807bc5",
       "name": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a8d0db6467807bc5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.703,
+      "freshness": 0.621,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.6,
-        "extended": 7.8
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.9
       }
     },
     {
@@ -114,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0c7048568111124e",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.703,
+      "freshness": 0.621,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +161,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.6,
-        "extended": 7.8
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.9
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "df6272ab0c543408",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.529,
+      "freshness": 0.466,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.9
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.2
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3a5eefc76c71357a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.529,
+      "freshness": 0.466,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.9
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.2
       }
     },
     {
@@ -207,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b85ab46afdfb7018",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.568,
+      "freshness": 0.501,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
       }
     },
     {
@@ -238,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5d727c6e15590a87",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.529,
+      "freshness": 0.466,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     },
     {
@@ -269,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "82b8892cf68c24cd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.37,
+      "freshness": 0.326,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -283,37 +314,6 @@ window.MAGEN_STATE = {
       "source": "dunyanews.tv",
       "url": "https://dunyanews.tv/en/World/969293-stricter-us-sanctions-threaten-severe-economic-strain-as-iran-keeps-ho",
       "published_at": "2026-08-23T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "fc3e4f53b20be8e1",
-      "name": "As US sanctions loom , Iran threatens to shut Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fc3e4f53b20be8e1",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.321,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "tradearabia.com:443",
-      "url": "https://tradearabia.com:443/News/466807/As-US-sanctions-loom-Iran-threatens-to-shut-Strait-of-Hormuz",
-      "published_at": "2026-08-23T06:45:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
@@ -4372,12 +4372,18 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-23T11:10:10.451918Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-23T10:43:52.875885Z",
+    "last_success": "2026-08-23T11:10:10.451918Z",
     "sources": {
       "gdelt": {
         "ok": true,
