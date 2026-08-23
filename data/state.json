@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-23T19:00:22.701106Z",
+  "generated_at": "2026-08-23T19:30:48.260699Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@
       "score": 3,
       "low": 0,
       "high": 19,
-      "confidence": 52,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 10,
       "low": 0,
-      "high": 28,
-      "confidence": 52,
+      "high": 26,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 3,
-      "high": 35,
-      "confidence": 52,
+      "score": 17,
+      "low": 1,
+      "high": 33,
+      "confidence": 50,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "20:30",
       "text": "Iran says new sanctions threatened by  desperate  US will fail",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "hindustantimes.com",
       "signal_id": "c894d344f471c94d"
@@ -50,7 +50,7 @@
     {
       "time": "20:45",
       "text": "Iran in  all - out  economic , military , security war : President Pezeshkian",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "morungexpress.com",
       "signal_id": "2aada8a7e84c5cf4"
@@ -58,7 +58,7 @@
     {
       "time": "20:30",
       "text": "Iran - Linked Attack Knocks Out British Power Plant : Could They Do That Here ?",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "redstate.com",
       "signal_id": "8bf43af3eac84449"
@@ -66,7 +66,7 @@
     {
       "time": "19:45",
       "text": "Iran Warns U . S .  Economic War  Allies Are  Enemies , Threatens Retaliation",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "breitbart.com",
       "signal_id": "cf2ab6b9b9111fb4"
@@ -83,7 +83,7 @@
       "dependency_group": "c894d344f471c94d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.65,
+      "freshness": 0.563,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-23T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.2
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "2aada8a7e84c5cf4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.698,
+      "freshness": 0.604,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-23T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.9
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "8bf43af3eac84449",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.65,
+      "freshness": 0.563,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-23T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.5
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "cf2ab6b9b9111fb4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.525,
+      "freshness": 0.454,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-23T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.0
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "c33d65c2418a6456",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.367,
+      "freshness": 0.318,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-23T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     }
@@ -4380,6 +4380,12 @@
       "immediate": 3,
       "short": 12,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-23T19:30:48.260699Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
@@ -4389,7 +4395,7 @@
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "error": "HTTP Error 429: Too Many Requests",
         "carried_forward": 5
       },
       "manual": {
