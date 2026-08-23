@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-23T17:31:44.303009Z",
+  "generated_at": "2026-08-23T17:53:33.776468Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
       "high": 20,
-      "confidence": 42,
+      "confidence": 41,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 8,
       "low": 0,
       "high": 26,
-      "confidence": 42,
+      "confidence": 41,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
+      "score": 14,
       "low": 0,
       "high": 32,
-      "confidence": 42,
+      "confidence": 41,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "19:00",
       "text": "Iran says sanction threats by  desperate  US will fail",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "examiner.com.au",
       "signal_id": "996ceaeb22334721"
@@ -50,7 +50,7 @@
     {
       "time": "18:30",
       "text": "Sought to turn Iran into another Venezuela ...: Pezeshkian lauds Iranian resistance against US attacks",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "venezuelastar.com",
       "signal_id": "c33d65c2418a6456"
@@ -58,7 +58,7 @@
     {
       "time": "16:15",
       "text": "A closer look at the Strait of Hormuz after Iran issues new threat",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "egyptindependent.com",
       "signal_id": "5c03791a27300830"
@@ -75,7 +75,7 @@
       "dependency_group": "996ceaeb22334721",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.646,
+      "freshness": 0.582,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -91,9 +91,9 @@
       "published_at": "2026-08-23T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       },
       "carried_forward": true
     },
@@ -107,7 +107,7 @@
       "dependency_group": "c33d65c2418a6456",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.56,
+      "freshness": 0.505,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -123,9 +123,9 @@
       "published_at": "2026-08-23T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
       },
       "carried_forward": true
     },
@@ -139,7 +139,7 @@
       "dependency_group": "5c03791a27300830",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.294,
+      "freshness": 0.265,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -155,9 +155,9 @@
       "published_at": "2026-08-23T13:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
       },
       "carried_forward": true
     }
@@ -4290,6 +4290,12 @@
       "immediate": 3,
       "short": 9,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-08-23T17:53:33.776468Z",
+      "immediate": 2,
+      "short": 8,
+      "extended": 14
     }
   ],
   "health": {
@@ -4299,7 +4305,7 @@
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "error": "HTTP Error 429: Too Many Requests",
         "carried_forward": 3
       },
       "manual": {
