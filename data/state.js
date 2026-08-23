@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-23T12:57:23.676909Z",
+  "generated_at": "2026-08-23T13:39:29.339422Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,24 +9,24 @@ window.MAGEN_STATE = {
       "score": 4,
       "low": 0,
       "high": 17,
-      "confidence": 67,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
-      "low": 0,
-      "high": 26,
-      "confidence": 67,
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 68,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 67,
-      "status": "נמוך"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
@@ -36,29 +36,21 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": 0
   },
   "changes": [
     {
-      "time": "15:15",
-      "text": "Pezeshkian : Iran is in  full - economic , military and security war",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "time": "16:15",
+      "text": "Iran says new sanctions threatened by  desperate  US will fail",
+      "impact": "השפעה מיידית מחושבת: +2.3",
       "direction": "up",
-      "source": "albawaba.com",
-      "signal_id": "8e79a7f145b5763c"
-    },
-    {
-      "time": "15:15",
-      "text": "Sought to turn Iran into another Venezuela ...: Pezeshkian lauds Iranian resistance against US attacks",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "kenyastar.com",
-      "signal_id": "c33d65c2418a6456"
+      "source": "al-monitor.com",
+      "signal_id": "c894d344f471c94d"
     },
     {
       "time": "15:00",
       "text": "Ukraine and Iran Wars Expose the Flaws in Nuclear Deterrence | Opinion",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "newsweek.com",
       "signal_id": "d008b74550b10b8c"
@@ -66,24 +58,32 @@ window.MAGEN_STATE = {
     {
       "time": "15:00",
       "text": "Small united kingdom power plant shut down after Iran - linked cyberattack : report",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "cnbc.com",
       "signal_id": "c757417821097a71"
+    },
+    {
+      "time": "15:15",
+      "text": "Pezeshkian : Iran is in  full - economic , military and security war",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "albawaba.com",
+      "signal_id": "8e79a7f145b5763c"
     }
   ],
   "signals": [
     {
-      "id": "8e79a7f145b5763c",
-      "name": "Pezeshkian : Iran is in  full - economic , military and security war",
+      "id": "c894d344f471c94d",
+      "name": "Iran says new sanctions threatened by  desperate  US will fail",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "8e79a7f145b5763c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.817,
+      "dependency_group": "c894d344f471c94d",
+      "strength": 0.45,
+      "reliability": 0.74,
+      "freshness": 0.89,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,45 +94,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "albawaba.com",
-      "url": "https://www.albawaba.com/news/pezeshkian-iran-full-economic-military-1635587",
-      "published_at": "2026-08-23T12:15:00Z",
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/08/iran-says-new-sanctions-threatened-desperate-us-will-fail",
+      "published_at": "2026-08-23T13:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.1
-      }
-    },
-    {
-      "id": "c33d65c2418a6456",
-      "name": "Sought to turn Iran into another Venezuela ...: Pezeshkian lauds Iranian resistance against US attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c33d65c2418a6456",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.817,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kenyastar.com",
-      "url": "http://www.kenyastar.com/news/279259556/sought-to-turn-iran-into-another-venezuela-pezeshkian-lauds-iranian-resistance-against-us-attacks",
-      "published_at": "2026-08-23T12:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.1
+        "immediate": 2.3,
+        "short": 7.7,
+        "extended": 13.0
       }
     },
     {
@@ -145,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d008b74550b10b8c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.761,
+      "freshness": 0.623,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +130,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T12:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
       }
     },
     {
@@ -176,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c757417821097a71",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.761,
+      "freshness": 0.623,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +161,71 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T12:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "8e79a7f145b5763c",
+      "name": "Pezeshkian : Iran is in  full - economic , military and security war",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8e79a7f145b5763c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.669,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "albawaba.com",
+      "url": "https://www.albawaba.com/news/pezeshkian-iran-full-economic-military-1635587",
+      "published_at": "2026-08-23T12:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
+    },
+    {
+      "id": "c33d65c2418a6456",
+      "name": "Sought to turn Iran into another Venezuela ...: Pezeshkian lauds Iranian resistance against US attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c33d65c2418a6456",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.669,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kenyastar.com",
+      "url": "http://www.kenyastar.com/news/279259556/sought-to-turn-iran-into-another-venezuela-pezeshkian-lauds-iranian-resistance-against-us-attacks",
+      "published_at": "2026-08-23T12:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
       }
     },
     {
@@ -207,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "40f29e42a38566b1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.572,
+      "freshness": 0.468,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T11:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     },
     {
@@ -238,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0dcca0672fa7c3f3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.496,
+      "freshness": 0.406,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,71 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      }
-    },
-    {
-      "id": "a8d0db6467807bc5",
-      "name": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a8d0db6467807bc5",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.372,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theintelligencer.net",
-      "url": "https://www.theintelligencer.net/news/top-headlines/2026/08/iran-security-chief-threatens-neighbors-against-economic-measures-and-other-mideast-developments/",
-      "published_at": "2026-08-23T09:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "0c7048568111124e",
-      "name": "Why did US refuelling aircraft abruptly leave Bulgaria ?  Iranian threat or Russian plane ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0c7048568111124e",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.372,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theweek.in",
-      "url": "https://www.theweek.in/news/world/2026/08/23/why-did-us-refuelling-aircraft-abruptly-leave-bulgaria-iranian-threat-or-russian-plane.html",
-      "published_at": "2026-08-23T09:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "short": 2.3,
+        "extended": 4.0
       }
     }
   ],
@@ -4396,17 +4365,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-23T13:39:29.339422Z",
+      "immediate": 4,
+      "short": 15,
+      "extended": 24
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-23T12:57:23.676909Z",
+    "last_success": "2026-08-23T13:39:29.339422Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 8
+        "relevant": 7
       },
       "manual": {
         "ok": true,
