@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-23T02:38:06.524290Z",
+  "generated_at": "2026-08-23T03:36:29.200885Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
       "high": 19,
-      "confidence": 50,
+      "confidence": 47,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 8,
       "low": 0,
-      "high": 26,
-      "confidence": 50,
-      "status": "נמוך"
+      "high": 25,
+      "confidence": 47,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 50,
+      "score": 13,
+      "low": 0,
+      "high": 30,
+      "confidence": 47,
       "status": "נמוך"
     }
   },
@@ -35,14 +35,14 @@
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "03:45",
       "text": "Iran security chief threatens neighbors against economic measures , and other Mideast developments",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "idahostatejournal.com",
       "signal_id": "a8d0db6467807bc5"
@@ -50,7 +50,7 @@
     {
       "time": "02:15",
       "text": "Iran releases video of underground missile production facility",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "8501e0c311bc66ba"
@@ -58,7 +58,7 @@
     {
       "time": "03:45",
       "text": "Trump has created nuclear insecurity instead of nuclear security : Iran security council chief Mohsen Rezaei",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "middleeaststar.com",
       "signal_id": "f0f33e12a6573b78"
@@ -66,7 +66,7 @@
     {
       "time": "03:45",
       "text": "UK power plant  shut down for four day after major Iran - linked cyber attack",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "aol.co.uk",
       "signal_id": "c82c9f668dd32a64"
@@ -83,7 +83,7 @@
       "dependency_group": "a8d0db6467807bc5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.584,
+      "freshness": 0.442,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-23T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "8501e0c311bc66ba",
       "strength": 0.48,
       "reliability": 0.74,
-      "freshness": 0.38,
+      "freshness": 0.288,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-22T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "f0f33e12a6573b78",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.584,
+      "freshness": 0.442,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-23T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "c82c9f668dd32a64",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.584,
+      "freshness": 0.442,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-23T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "6ea4ff11c18c71c5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.354,
+      "freshness": 0.268,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,40 +227,8 @@
       "published_at": "2026-08-22T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ede0b278694bcf83",
-      "name": "Bulgaria removes US tankers after Iran threat as Tehran shows off underground missile",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ede0b278694bcf83",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.231,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/byty08ddzg",
-      "published_at": "2026-08-22T21:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.5,
-        "short": 1.8,
+        "short": 1.7,
         "extended": 3.0
       },
       "carried_forward": true
@@ -275,7 +243,7 @@
       "dependency_group": "59a05041c79bd0a5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.266,
+      "freshness": 0.201,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +259,9 @@
       "published_at": "2026-08-22T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -4270,6 +4238,12 @@
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-23T03:36:29.200885Z",
+      "immediate": 2,
+      "short": 8,
+      "extended": 13
     }
   ],
   "health": {
@@ -4280,7 +4254,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "carried_forward": 6
       },
       "manual": {
         "ok": true,
