@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-23T21:10:25.099293Z",
+  "generated_at": "2026-08-23T21:37:36.557759Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
       "high": 19,
-      "confidence": 48,
+      "confidence": 47,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 8,
       "low": 0,
       "high": 25,
-      "confidence": 48,
-      "status": "נמוך"
+      "confidence": 47,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
+      "score": 13,
       "low": 0,
-      "high": 31,
-      "confidence": 48,
+      "high": 30,
+      "confidence": 47,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "21:45",
       "text": "Iran says new sanctions threatened by  desperate  US will fail – The Frontier Post",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "thefrontierpost.com",
       "signal_id": "57843960eb956e21"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:00",
       "text": "Iran is fully engaged in an economic , military , and security war : President Pezeshkian",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "khaskhabar.com",
       "signal_id": "e1404e9d78c6b8f8"
@@ -58,18 +58,18 @@ window.MAGEN_STATE = {
     {
       "time": "21:15",
       "text": "Defiant Iran says new sanctions threatened by  desperate  US will fail",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "d6a366f51e0a33dc"
     },
     {
-      "time": "20:15",
-      "text": "Iran says sanction threats by  desperate  US will fail",
+      "time": "20:45",
+      "text": "Iran in  all - out  economic , military , security war : President Pezeshkian",
       "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
-      "source": "dailyliberal.com.au",
-      "signal_id": "996ceaeb22334721"
+      "source": "morungexpress.com",
+      "signal_id": "2aada8a7e84c5cf4"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "57843960eb956e21",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.5,
+      "freshness": 0.44,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.5
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e1404e9d78c6b8f8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.537,
+      "freshness": 0.472,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d6a366f51e0a33dc",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.434,
+      "freshness": 0.381,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,41 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "996ceaeb22334721",
-      "name": "Iran says sanction threats by  desperate  US will fail",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "996ceaeb22334721",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.326,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailyliberal.com.au",
-      "url": "https://www.dailyliberal.com.au/story/9335377/iran-says-sanction-threats-by-desperate-us-will-fail/",
-      "published_at": "2026-08-23T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       },
       "carried_forward": true
     },
@@ -211,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2aada8a7e84c5cf4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.376,
+      "freshness": 0.33,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -228,8 +196,40 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "short": 1.9,
+        "extended": 3.3
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "996ceaeb22334721",
+      "name": "Iran says sanction threats by  desperate  US will fail",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "996ceaeb22334721",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.286,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailyliberal.com.au",
+      "url": "https://www.dailyliberal.com.au/story/9335377/iran-says-sanction-threats-by-desperate-us-will-fail/",
+      "published_at": "2026-08-23T17:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8bf43af3eac84449",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.35,
+      "freshness": 0.308,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cf2ab6b9b9111fb4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.283,
+      "freshness": 0.248,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -292,8 +292,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     }
@@ -4474,6 +4474,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 9,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-08-23T21:37:36.557759Z",
+      "immediate": 2,
+      "short": 8,
+      "extended": 13
     }
   ],
   "health": {
