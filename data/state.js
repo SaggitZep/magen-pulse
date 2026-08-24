@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-24T19:09:32.732727Z",
+  "generated_at": "2026-08-24T19:45:51.781908Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 3,
       "low": 0,
-      "high": 19,
-      "confidence": 49,
+      "high": 20,
+      "confidence": 47,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 9,
       "low": 0,
       "high": 26,
-      "confidence": 49,
+      "confidence": 47,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 1,
-      "high": 33,
-      "confidence": 49,
+      "score": 14,
+      "low": 0,
+      "high": 31,
+      "confidence": 47,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "19:45",
       "text": "Explainer - What are Iran options to escalate further in face of US economic threats ?",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "al-monitor.com",
       "signal_id": "a2b5d129bd1d09cd"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "19:45",
       "text": "U . S . Threatens With  Single Greatest Financial Offensive Ever  Against Iran . Tehran Takes Aim At Oil Traffic .",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "ibtimes.com",
       "signal_id": "955bbccc248cb2bc"
@@ -58,18 +58,18 @@ window.MAGEN_STATE = {
     {
       "time": "19:30",
       "text": "Iran blacklists 45 tankers in Strait of Hormuz , threatens fines and confiscated cargo",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "nypost.com",
       "signal_id": "7786fc84255e55d7"
     },
     {
-      "time": "19:45",
-      "text": "IRGC says Iran will target  US energy chokepoint if attacked",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "19:30",
+      "text": "Iran Threatens to Fine , Confiscate Tankers in Strait of Hormuz Clampdown",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
-      "source": "middleeasteye.net",
-      "signal_id": "40ae8ca1dbbda742"
+      "source": "theepochtimes.com",
+      "signal_id": "571c08566cb77b26"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a2b5d129bd1d09cd",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.502,
+      "freshness": 0.423,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.4
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "955bbccc248cb2bc",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.502,
+      "freshness": 0.423,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7786fc84255e55d7",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.468,
+      "freshness": 0.393,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,41 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "40ae8ca1dbbda742",
-      "name": "IRGC says Iran will target  US energy chokepoint if attacked",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "40ae8ca1dbbda742",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.502,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-iran-will-target-us-energy-chokepoints-if-attacked",
-      "published_at": "2026-08-24T16:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       },
       "carried_forward": true
     },
@@ -211,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "571c08566cb77b26",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.468,
+      "freshness": 0.393,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       },
       "carried_forward": true
     },
@@ -243,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "15120a6778969be6",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.468,
+      "freshness": 0.393,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       },
       "carried_forward": true
     },
@@ -275,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "99f07cfcd28e027a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.468,
+      "freshness": 0.393,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +259,41 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "40ae8ca1dbbda742",
+      "name": "IRGC says Iran will target  US energy chokepoint if attacked",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "40ae8ca1dbbda742",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.423,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeasteye.net",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-iran-will-target-us-energy-chokepoints-if-attacked",
+      "published_at": "2026-08-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.2
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "987db7e4de1efc79",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.436,
+      "freshness": 0.366,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       },
       "carried_forward": true
     },
@@ -339,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2258d85527f6bd29",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.284,
+      "freshness": 0.239,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -356,8 +356,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -371,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d4c1df370f5c6fad",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.264,
+      "freshness": 0.222,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -388,8 +388,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     }
@@ -4738,6 +4738,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-24T19:45:51.781908Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 14
     }
   ],
   "health": {
