@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-24T06:03:44.380937Z",
+  "generated_at": "2026-08-24T07:17:14.999402Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 15,
+      "score": 11,
       "low": 0,
-      "high": 31,
-      "confidence": 52,
+      "high": 27,
+      "confidence": 48,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 21,
-      "low": 6,
-      "high": 36,
-      "confidence": 53,
+      "score": 15,
+      "low": 0,
+      "high": 31,
+      "confidence": 49,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 9,
-      "high": 39,
-      "confidence": 53,
-      "status": "מוגבר"
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 49,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -3
+    "points_60m": -4
   },
   "changes": [
     {
       "time": "06:30",
       "text": "Iran decades - long war planning helped it withstand US - Israel strikes",
-      "impact": "השפעה מיידית מחושבת: +11.9",
+      "impact": "השפעה מיידית מחושבת: +8.4",
       "direction": "up",
       "source": "idrw.org",
       "signal_id": "d5e38b9963f99365"
@@ -50,7 +50,7 @@
     {
       "time": "07:45",
       "text": "US vows  economic D - Day  as Iran threatens to halt all oil exports",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "rnz.co.nz",
       "signal_id": "02aef040461d7efe"
@@ -58,7 +58,7 @@
     {
       "time": "07:45",
       "text": "Not a single drop : Iran threatens to halt Gulf oil exports over US  economic war",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "moneycontrol.com",
       "signal_id": "779b679a2f68ad43"
@@ -66,7 +66,7 @@
     {
       "time": "07:45",
       "text": "Iran Boomerang : How Trump Sanctions War and the Strait of Hormuz Showdown Threaten Global Oil and Shipping",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "openthemagazine.com",
       "signal_id": "cf3d14c4275e5b82"
@@ -83,7 +83,7 @@
       "dependency_group": "d5e38b9963f99365",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.481,
+      "freshness": 0.339,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-24T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.9,
-        "short": 9.2,
-        "extended": 3.9
+        "immediate": 8.4,
+        "short": 6.5,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "02aef040461d7efe",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.687,
+      "freshness": 0.484,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-24T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "779b679a2f68ad43",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.687,
+      "freshness": 0.484,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-24T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "cf3d14c4275e5b82",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.687,
+      "freshness": 0.484,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-24T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "f2e9443c128254c8",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.64,
+      "freshness": 0.451,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-24T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "134ada82341cf11c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.64,
+      "freshness": 0.451,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-08-24T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "bd4787e2786f5f16",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.481,
+      "freshness": 0.339,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@
       "published_at": "2026-08-24T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.3
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@
       "dependency_group": "dc4b8c91b21ed5c0",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.361,
+      "freshness": 0.255,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@
       "published_at": "2026-08-24T02:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     }
@@ -4578,6 +4578,12 @@
       "immediate": 15,
       "short": 21,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-24T07:17:14.999402Z",
+      "immediate": 11,
+      "short": 15,
+      "extended": 18
     }
   ],
   "health": {
