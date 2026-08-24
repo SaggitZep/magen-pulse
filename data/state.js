@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-24T15:51:52.310268Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-24T16:32:08.672269Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 65,
+      "high": 19,
+      "confidence": 49,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 10,
       "low": 0,
-      "high": 25,
-      "confidence": 65,
+      "high": 26,
+      "confidence": 49,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 6,
+      "score": 16,
+      "low": 0,
       "high": 32,
-      "confidence": 65,
+      "confidence": 49,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "17:45",
       "text": "Barron Trump , Wait For U : Iranian State TV Reportedly Broadcasts Chilling Assassination Threat",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "ibtimes.co.uk",
       "signal_id": "2258d85527f6bd29"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "17:30",
       "text": "US set to launch  largest financial attack in history  as Iran mocks sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "bankingnews.gr",
       "signal_id": "d4c1df370f5c6fad"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "16:30",
       "text": "How Florida start - up Powerus is taking on Iran drones with a USD 5 , 000 interceptor",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "moneycontrol.com",
       "signal_id": "e8f98f44139ec46d"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "16:30",
       "text": "Iran Is Using Foreign Criminals to Attack Its Critics Overseas",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "newyorker.com",
       "signal_id": "a25e413338eb9409"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2258d85527f6bd29",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.727,
+      "freshness": 0.6,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.1
-      }
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "d4c1df370f5c6fad",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d4c1df370f5c6fad",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.677,
+      "freshness": 0.559,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
+        "immediate": 1.0,
+        "short": 3.2,
+        "extended": 5.5
+      },
+      "carried_forward": true
     },
     {
       "id": "e8f98f44139ec46d",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e8f98f44139ec46d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.509,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      }
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      },
+      "carried_forward": true
     },
     {
       "id": "a25e413338eb9409",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a25e413338eb9409",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.509,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      },
+      "carried_forward": true
     },
     {
       "id": "134ada82341cf11c",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "134ada82341cf11c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.509,
+      "freshness": 0.42,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,41 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      }
-    },
-    {
-      "id": "2a7fa8c3c7be6b5a",
-      "name": "IRGC Declares Trump Economic Tactics Against Iran as Acknowledgment of Military Setback",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2a7fa8c3c7be6b5a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.441,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "islamicinvitationturkey.com",
-      "url": "https://www.islamicinvitationturkey.com/irgc-declares-trumps-economic-tactics-against-iran-as-acknowledgment-of-military-setback/",
-      "published_at": "2026-08-24T13:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.3
-      }
+      "carried_forward": true
     },
     {
       "id": "885da73c40c77312",
@@ -269,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "885da73c40c77312",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.441,
+      "freshness": 0.364,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      },
+      "carried_forward": true
     },
     {
       "id": "2aad2048069bde7b",
@@ -300,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2aad2048069bde7b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.441,
+      "freshness": 0.364,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +291,43 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "2a7fa8c3c7be6b5a",
+      "name": "IRGC Declares Trump Economic Tactics Against Iran as Acknowledgment of Military Setback",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2a7fa8c3c7be6b5a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.364,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "islamicinvitationturkey.com",
+      "url": "https://www.islamicinvitationturkey.com/irgc-declares-trumps-economic-tactics-against-iran-as-acknowledgment-of-military-setback/",
+      "published_at": "2026-08-24T13:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -4636,17 +4644,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 12,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-08-24T16:32:08.672269Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 16
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-24T15:51:52.310268Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 8
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 8
       },
       "manual": {
         "ok": true,
