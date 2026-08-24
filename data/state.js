@@ -1,121 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-24T14:04:46.162444Z",
+  "mode": "live",
+  "generated_at": "2026-08-24T15:01:29.944201Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 46,
+      "high": 17,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 13,
       "low": 0,
-      "high": 24,
-      "confidence": 46,
-      "status": "לא זוהה אות חריג"
+      "high": 26,
+      "confidence": 68,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
-      "low": 0,
-      "high": 28,
-      "confidence": 46,
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 68,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "13:45",
-      "text": "Iran says new sanctions threatened by  desperate  US will fail",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "17:30",
+      "text": "US set to launch  largest financial attack in history  as Iran mocks sanctions",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "hawaiitribune-herald.com",
-      "signal_id": "c894d344f471c94d"
+      "source": "bankingnews.gr",
+      "signal_id": "d4c1df370f5c6fad"
     },
     {
-      "time": "13:45",
-      "text": "Oil falls as Iran allows Iraqi tankers through Hormuz , easing supply concerns | Hellenic Shipping News Worldwide",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "16:30",
+      "text": "How Florida start - up Powerus is taking on Iran drones with a USD 5 , 000 interceptor",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "hellenicshippingnews.com",
-      "signal_id": "fcf27f0558b7dae2"
+      "source": "moneycontrol.com",
+      "signal_id": "e8f98f44139ec46d"
     },
     {
-      "time": "13:15",
-      "text": "Iran threatens Countries supporting US Economic War amid Hormuz escalation",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "16:00",
+      "text": "US threatens economic  D - Day ; Iran vows to completely stop oil exports",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
-      "source": "en.dailypakistan.com.pk",
-      "signal_id": "1842a33aa4b61abc"
+      "source": "bnn-news.com",
+      "signal_id": "885da73c40c77312"
     },
     {
-      "time": "13:15",
-      "text": "US threatens Iran with  economic D - Day  as markets await sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "16:30",
+      "text": "Iran Is Using Foreign Criminals to Attack Its Critics Overseas",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
-      "source": "euronews.com",
-      "signal_id": "03be0736f39532aa"
+      "source": "newyorker.com",
+      "signal_id": "a25e413338eb9409"
     }
   ],
   "signals": [
     {
-      "id": "c894d344f471c94d",
-      "name": "Iran says new sanctions threatened by  desperate  US will fail",
+      "id": "d4c1df370f5c6fad",
+      "name": "US set to launch  largest financial attack in history  as Iran mocks sanctions",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "c894d344f471c94d",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.386,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hawaiitribune-herald.com",
-      "url": "https://www.hawaiitribune-herald.com/2026/08/24/nation-world-news/iran-says-new-sanctions-threatened-by-desperate-us-will-fail/",
-      "published_at": "2026-08-24T10:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "fcf27f0558b7dae2",
-      "name": "Oil falls as Iran allows Iraqi tankers through Hormuz , easing supply concerns | Hellenic Shipping News Worldwide",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fcf27f0558b7dae2",
+      "dependency_group": "d4c1df370f5c6fad",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.386,
+      "freshness": 0.861,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,92 +94,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "hellenicshippingnews.com",
-      "url": "https://www.hellenicshippingnews.com/oil-falls-as-iran-allows-iraqi-tankers-through-hormuz-easing-supply-concerns/",
-      "published_at": "2026-08-24T10:45:00Z",
+      "source": "bankingnews.gr",
+      "url": "https://www.bankingnews.gr/diethni/articles/895367/us-set-to-launch-largest-financial-attack-in-history-as-iran-mocks-sanctions",
+      "published_at": "2026-08-24T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
     },
     {
-      "id": "1842a33aa4b61abc",
-      "name": "Iran threatens Countries supporting US Economic War amid Hormuz escalation",
+      "id": "e8f98f44139ec46d",
+      "name": "How Florida start - up Powerus is taking on Iran drones with a USD 5 , 000 interceptor",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "1842a33aa4b61abc",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.335,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "en.dailypakistan.com.pk",
-      "url": "https://en.dailypakistan.com.pk/24-Aug-2026/iran-threatens-countries-supporting-us-economic-war-amid-hormuz-escalation",
-      "published_at": "2026-08-24T10:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "03be0736f39532aa",
-      "name": "US threatens Iran with  economic D - Day  as markets await sanctions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "03be0736f39532aa",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.335,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "euronews.com",
-      "url": "https://www.euronews.com/business/2026/08/24/us-threatens-iran-with-economic-d-day-as-markets-await-sanctions-announcement",
-      "published_at": "2026-08-24T10:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d9406b5ccaf1823e",
-      "name": "Missiles Patriot redéployés en Crète face aux menaces iraniennes contre lOTAN",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d9406b5ccaf1823e",
+      "dependency_group": "e8f98f44139ec46d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.252,
+      "freshness": 0.647,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -222,28 +125,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "lessentiel.lu",
-      "url": "https://www.lessentiel.lu/fr/story/guerre-iran-israel-usa-l-iran-menace-l-europe-des-missiles-patriot-redeployes-en-crete-103484349",
-      "published_at": "2026-08-24T09:15:00Z",
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/how-florida-start-up-powerus-is-taking-on-iran-s-drones-with-a-usd-5-000-interceptor-article-14014244.html",
+      "published_at": "2026-08-24T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
-      },
-      "carried_forward": true
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
     },
     {
-      "id": "d7979a3b8fdb4747",
-      "name": "איראן באיום חדש : נתקוף מדינות באירופה שעוזרות לארה  ב",
+      "id": "885da73c40c77312",
+      "name": "US threatens economic  D - Day ; Iran vows to completely stop oil exports",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "d7979a3b8fdb4747",
+      "dependency_group": "885da73c40c77312",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.252,
+      "freshness": 0.561,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,28 +156,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "srugim.co.il",
-      "url": "http://www.srugim.co.il/101009306-%D7%90%D7%99%D7%A8%D7%90%D7%9F-%D7%91%D7%90%D7%99%D7%95%D7%9D-%D7%97%D7%93%D7%A9-%D7%A0%D7%AA%D7%A7%D7%95%D7%A3-%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA-%D7%91%D7%90%D7%99%D7%A8%D7%95%D7%A4%D7%94",
-      "published_at": "2026-08-24T09:15:00Z",
+      "source": "bnn-news.com",
+      "url": "https://bnn-news.com/us-threatens-economic-d-day-iran-vows-to-completely-stop-oil-exports-283092",
+      "published_at": "2026-08-24T13:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.2
+      }
     },
     {
-      "id": "e06b6080236313a5",
-      "name": "Un atac surpriză al Iranului a distrus un radar de 500 de milioane de dolari al SUA folosit pentru a detecta rachetele balistice , inclusiv cele cu focos nuclear . Măsurile luate de americani",
+      "id": "a25e413338eb9409",
+      "name": "Iran Is Using Foreign Criminals to Attack Its Critics Overseas",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e06b6080236313a5",
+      "dependency_group": "a25e413338eb9409",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.203,
+      "freshness": 0.647,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -286,16 +187,108 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "hotnews.ro",
-      "url": "https://hotnews.ro/un-atac-surpriza-al-iranului-a-distrus-un-radar-de-500-de-milioane-de-dolari-al-sua-folosit-pentru-a-detecta-rachetele-balistice-inclusiv-cele-cu-focos-nuclear-masurile-luate-de-americani-2331478",
-      "published_at": "2026-08-24T08:30:00Z",
+      "source": "newyorker.com",
+      "url": "https://www.newyorker.com/news/letter-from-the-uk/iran-is-using-foreign-criminals-to-attack-its-critics-overseas",
+      "published_at": "2026-08-24T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "2aad2048069bde7b",
+      "name": "China Rejects Trump  Economic D - Day  Threat on Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2aad2048069bde7b",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.561,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "voiceofvienna.org",
+      "url": "https://voiceofvienna.org/china-rejects-trumps-economic-d-day-threat-on-iran/",
+      "published_at": "2026-08-24T13:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "134ada82341cf11c",
+      "name": "Iran in  all - out  economic , military , security war : president",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "134ada82341cf11c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.647,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/08/iran-260824-pdo01.htm",
+      "published_at": "2026-08-24T13:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "2a7fa8c3c7be6b5a",
+      "name": "IRGC Declares Trump Economic Tactics Against Iran as Acknowledgment of Military Setback",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2a7fa8c3c7be6b5a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.561,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "islamicinvitationturkey.com",
+      "url": "https://www.islamicinvitationturkey.com/irgc-declares-trumps-economic-tactics-against-iran-as-acknowledgment-of-military-setback/",
+      "published_at": "2026-08-24T13:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.2,
+        "extended": 5.5
+      }
     }
   ],
   "history": [
@@ -4600,17 +4593,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 7,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-24T15:01:29.944201Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-24T11:37:32.946901Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-24T15:01:29.944201Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 7
+        "ok": true,
+        "items": 150,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
