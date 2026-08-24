@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-24T01:08:57.257979Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-24T02:38:29.811922Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
-      "high": 17,
-      "confidence": 61,
+      "high": 19,
+      "confidence": 42,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 7,
       "low": 0,
       "high": 24,
-      "confidence": 61,
-      "status": "נמוך"
+      "confidence": 42,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 3,
-      "high": 31,
-      "confidence": 61,
+      "score": 11,
+      "low": 0,
+      "high": 28,
+      "confidence": 42,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 1
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "02:15",
       "text": "Iran faces triple threat as control over Hormuz , economy wavers",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "nypost.com",
       "signal_id": "5301b64d882fc4eb"
@@ -50,7 +50,7 @@
     {
       "time": "02:15",
       "text": "World News : Tehran - linked hackers behind cyber attack on power plant",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "gdnonline.com:443",
       "signal_id": "8d46e8bc0bb69265"
@@ -58,7 +58,7 @@
     {
       "time": "02:00",
       "text": "As Trump readies economic warfare against Iran , top official vows retaliation  in a seismic manner",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "fortune.com",
       "signal_id": "cac1e7dc77b30ba0"
@@ -66,7 +66,7 @@
     {
       "time": "00:30",
       "text": "Iran Dismisses Fresh US Sanctions Threat as  Desperate  Move",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "pakobserver.net",
       "signal_id": "53d1ea52c1890d32"
@@ -83,7 +83,7 @@
       "dependency_group": "5301b64d882fc4eb",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.581,
+      "freshness": 0.379,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@
       "published_at": "2026-08-23T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
-      }
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      },
+      "carried_forward": true
     },
     {
       "id": "8d46e8bc0bb69265",
@@ -114,7 +115,7 @@
       "dependency_group": "8d46e8bc0bb69265",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.581,
+      "freshness": 0.379,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-08-23T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "cac1e7dc77b30ba0",
@@ -145,7 +147,7 @@
       "dependency_group": "cac1e7dc77b30ba0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.541,
+      "freshness": 0.353,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-08-23T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
+      },
+      "carried_forward": true
     },
     {
       "id": "53d1ea52c1890d32",
@@ -176,7 +179,7 @@
       "dependency_group": "53d1ea52c1890d32",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.353,
+      "freshness": 0.23,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-08-23T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -4416,17 +4420,23 @@
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-08-24T02:38:29.811922Z",
+      "immediate": 2,
+      "short": 7,
+      "extended": 11
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-24T01:08:57.257979Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 4
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 4
       },
       "manual": {
         "ok": true,
