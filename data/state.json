@@ -1,89 +1,89 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-24T20:16:01.824265Z",
+  "mode": "live",
+  "generated_at": "2026-08-24T20:54:20.305685Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 5,
       "low": 0,
-      "high": 19,
-      "confidence": 46,
+      "high": 18,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
-      "low": 0,
-      "high": 25,
-      "confidence": 46,
-      "status": "לא זוהה אות חריג"
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 68,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
-      "low": 0,
-      "high": 30,
-      "confidence": 46,
-      "status": "נמוך"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 3
   },
   "changes": [
     {
-      "time": "19:45",
-      "text": "Explainer - What are Iran options to escalate further in face of US economic threats ?",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "23:15",
+      "text": "EXPLAINER | What are Iran options in the face of US economic threats ?",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "al-monitor.com",
-      "signal_id": "a2b5d129bd1d09cd"
+      "source": "businessday.co.za",
+      "signal_id": "35821e5214eb2f02"
     },
     {
-      "time": "19:45",
-      "text": "U . S . Threatens With  Single Greatest Financial Offensive Ever  Against Iran . Tehran Takes Aim At Oil Traffic .",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "23:15",
+      "text": "US threatens countries doing business with Iran",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "ibtimes.com",
-      "signal_id": "955bbccc248cb2bc"
+      "source": "northerndailyleader.com.au",
+      "signal_id": "3472a9f2e639a283"
     },
     {
-      "time": "19:30",
-      "text": "Iran blacklists 45 tankers in Strait of Hormuz , threatens fines and confiscated cargo",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "23:15",
+      "text": "Bessent threatens new Iran secondary sanctions – NBC Los Angeles",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "nypost.com",
-      "signal_id": "7786fc84255e55d7"
+      "source": "nbclosangeles.com",
+      "signal_id": "1c83817534926b10"
     },
     {
-      "time": "19:30",
-      "text": "Iran Threatens to Fine , Confiscate Tankers in Strait of Hormuz Clampdown",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "23:00",
+      "text": "US threatens severe sanctions against countries with economic ties to Iran",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "theepochtimes.com",
-      "signal_id": "571c08566cb77b26"
+      "source": "aol.co.uk",
+      "signal_id": "f26a30fbd27b346b"
     }
   ],
   "signals": [
     {
-      "id": "a2b5d129bd1d09cd",
-      "name": "Explainer - What are Iran options to escalate further in face of US economic threats ?",
+      "id": "35821e5214eb2f02",
+      "name": "EXPLAINER | What are Iran options in the face of US economic threats ?",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a2b5d129bd1d09cd",
+      "dependency_group": "35821e5214eb2f02",
       "strength": 0.45,
-      "reliability": 0.74,
-      "freshness": 0.366,
+      "reliability": 0.56,
+      "freshness": 0.829,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,28 +94,368 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "al-monitor.com",
-      "url": "https://www.al-monitor.com/originals/2026/08/explainer-what-are-irans-options-escalate-further-face-us-economic-threats",
-      "published_at": "2026-08-24T16:45:00Z",
+      "source": "businessday.co.za",
+      "url": "https://www.businessday.co.za/world/middle-east/2026-08-24-explainer-what-are-irans-options-in-the-face-of-us-economic-threats/",
+      "published_at": "2026-08-24T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
+    {
+      "id": "3472a9f2e639a283",
+      "name": "US threatens countries doing business with Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3472a9f2e639a283",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.829,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "northerndailyleader.com.au",
+      "url": "https://www.northerndailyleader.com.au/story/9336610/us-threatens-countries-doing-business-with-iran/",
+      "published_at": "2026-08-24T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
+    {
+      "id": "1c83817534926b10",
+      "name": "Bessent threatens new Iran secondary sanctions – NBC Los Angeles",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1c83817534926b10",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.829,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nbclosangeles.com",
+      "url": "https://www.nbclosangeles.com/news/national-international/bessent-iran-sanctions-d-day-trump/3933052/",
+      "published_at": "2026-08-24T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
+    {
+      "id": "f26a30fbd27b346b",
+      "name": "US threatens severe sanctions against countries with economic ties to Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f26a30fbd27b346b",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.772,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aol.co.uk",
+      "url": "https://www.aol.co.uk/articles/us-threatens-severe-sanctions-against-185757000.html",
+      "published_at": "2026-08-24T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "7bcd2830fcdd2755",
+      "name": "Trump Administration Launches  Economic D - Day  Sanctions on Iran : Key Actions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7bcd2830fcdd2755",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.829,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newsweek.com",
+      "url": "https://www.newsweek.com/trump-economic-d-day-iran-sanctions-oil-shipping-12359297",
+      "published_at": "2026-08-24T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "a4b32ae3c62e01d2",
+      "name": "Bessent threatens new Iran secondary sanctions – NBC 5 Dallas - Fort Worth",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a4b32ae3c62e01d2",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.719,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nbcdfw.com",
+      "url": "https://www.nbcdfw.com/news/national-international/bessent-iran-sanctions-d-day-trump/4066891/",
+      "published_at": "2026-08-24T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "5caa1fd103666c6e",
+      "name": "US launches  economic onslaught  against Iran , warns countries to cut business ties with Tehran or face sanctions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5caa1fd103666c6e",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.719,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theweek.in",
+      "url": "https://www.theweek.in/news/middle-east/2026/08/24/us-sanctions-iran-financial-network.html",
+      "published_at": "2026-08-24T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "46904994dca24c33",
+      "name": "Bessent launches  Operation Economic Outcast  targeting Iran global lifelines",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "46904994dca24c33",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.719,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wwmt.com",
+      "url": "https://wwmt.com/news/nation-world/treasury-secretary-scott-bessent-to-detail-economic-d-day-sanctions-push-against-iran-tehran-war-revenue-streams-finances-oil-trade-president-trump-strait-of-hormuz",
+      "published_at": "2026-08-24T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      }
+    },
+    {
+      "id": "de4b6a50400f9f66",
+      "name": "US Launches  Economic Onslaught  Against Iran Financial Connections",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "de4b6a50400f9f66",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.719,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "english.aawsat.com",
+      "url": "https://english.aawsat.com/world/5310663-us-launches-%E2%80%98economic-onslaught%E2%80%99-against-iran%E2%80%99s-financial-connections",
+      "published_at": "2026-08-24T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      }
+    },
+    {
+      "id": "762b64222516ede6",
+      "name": "US launches  Operation Economic Outcast  against Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "762b64222516ede6",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.623,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aol.com",
+      "url": "https://www.aol.com/articles/us-launches-operation-economic-outcast-173547000.html",
+      "published_at": "2026-08-24T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "822f7cfc2018a1b3",
+      "name": "US launches  economic D - Day  against Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "822f7cfc2018a1b3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.58,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "prokerala.com",
+      "url": "https://www.prokerala.com/news/articles/a1804291.html",
+      "published_at": "2026-08-24T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      }
+    },
+    {
+      "id": "4af0ca497fbecf55",
+      "name": "Oil Pulls Back As Washington Launches  Economic Asphyxiation  Of Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4af0ca497fbecf55",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.503,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "shipandbunker.com",
+      "url": "https://shipandbunker.com/news/world/783037-oil-pulls-back-as-washington-launches-economic-asphyxiation-of-iran",
+      "published_at": "2026-08-24T18:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.4
-      },
-      "carried_forward": true
+        "short": 2.9,
+        "extended": 5.0
+      }
     },
     {
-      "id": "955bbccc248cb2bc",
-      "name": "U . S . Threatens With  Single Greatest Financial Offensive Ever  Against Iran . Tehran Takes Aim At Oil Traffic .",
+      "id": "22762f10e038c9fd",
+      "name": "Iran warns of retaliation against countries backing new US sanctions",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "955bbccc248cb2bc",
+      "dependency_group": "22762f10e038c9fd",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.366,
+      "freshness": 0.406,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,156 +466,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "ibtimes.com",
-      "url": "https://www.ibtimes.com/us-threatens-single-greatest-financial-offensive-ever-against-iran-tehran-takes-aim-oil-3806703",
-      "published_at": "2026-08-24T16:45:00Z",
+      "source": "helsinkitimes.fi",
+      "url": "https://www.helsinkitimes.fi/world-int/29191-iran-warns-of-retaliation-against-countries-backing-new-us-sanctions.html",
+      "published_at": "2026-08-24T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
     },
     {
-      "id": "7786fc84255e55d7",
-      "name": "Iran blacklists 45 tankers in Strait of Hormuz , threatens fines and confiscated cargo",
+      "id": "abcce30e9ed3fe31",
+      "name": "U . S . Launches  Operation Economic Outcast  Against Iran , Targets Five Financial Lifelines",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "7786fc84255e55d7",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.341,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nypost.com",
-      "url": "https://nypost.com/2026/08/24/us-news/iran-blacklists-45-tankers-in-strait-of-hormuz-threatens-fines-and-confiscated-cargo/",
-      "published_at": "2026-08-24T16:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "571c08566cb77b26",
-      "name": "Iran Threatens to Fine , Confiscate Tankers in Strait of Hormuz Clampdown",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "571c08566cb77b26",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.341,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theepochtimes.com",
-      "url": "https://www.theepochtimes.com/world/iran-threatens-to-fine-confiscate-tankers-in-strait-of-hormuz-clampdown-6078826",
-      "published_at": "2026-08-24T16:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "15120a6778969be6",
-      "name": "Bangkok Post - Trump claims Iran  collapsing  as US threatens  economic D - Day",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "15120a6778969be6",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.341,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bangkokpost.com",
-      "url": "https://www.bangkokpost.com/world/3307123/trump-claims-iran-collapsing-as-us-threatens-economic-dday",
-      "published_at": "2026-08-24T16:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "99f07cfcd28e027a",
-      "name": "Iran threatens 45 tankers with fines , confiscation in Hormuz escalation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "99f07cfcd28e027a",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.341,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "tribune.com.pk",
-      "url": "https://tribune.com.pk/story/2625605/iran-threatens-45-tankers-with-fines-confiscation-in-hormuz-escalation",
-      "published_at": "2026-08-24T16:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "40ae8ca1dbbda742",
-      "name": "IRGC says Iran will target  US energy chokepoint if attacked",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "40ae8ca1dbbda742",
+      "dependency_group": "abcce30e9ed3fe31",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.366,
+      "freshness": 0.468,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -286,92 +497,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-iran-will-target-us-energy-chokepoints-if-attacked",
-      "published_at": "2026-08-24T16:45:00Z",
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/272831/20260824/trump-declares-economic-d-day-iran-uae-cuts-all-trade-ties-hormuz-attacks-continue.htm",
+      "published_at": "2026-08-24T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
     },
     {
-      "id": "987db7e4de1efc79",
-      "name": "Tehran dismisses US economic threat",
+      "id": "40f483f652247baf",
+      "name": "Billboard campaign in military cities connects Iran war to high prices",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "987db7e4de1efc79",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.317,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "taipeitimes.com",
-      "url": "https://www.taipeitimes.com/News/world/archives/2026/08/25/2003863103",
-      "published_at": "2026-08-24T16:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2258d85527f6bd29",
-      "name": "Barron Trump , Wait For U : Iranian State TV Reportedly Broadcasts Chilling Assassination Threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2258d85527f6bd29",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.207,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ibtimes.co.uk",
-      "url": "https://www.ibtimes.co.uk/barron-trump-wait-us-iranian-state-tv-reportedly-broadcasts-chilling-assassination-threat-1815897",
-      "published_at": "2026-08-24T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d4c1df370f5c6fad",
-      "name": "US set to launch  largest financial attack in history  as Iran mocks sanctions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d4c1df370f5c6fad",
+      "dependency_group": "40f483f652247baf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.192,
+      "freshness": 0.468,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -382,16 +528,15 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "bankingnews.gr",
-      "url": "https://www.bankingnews.gr/diethni/articles/895367/us-set-to-launch-largest-financial-attack-in-history-as-iran-mocks-sanctions",
-      "published_at": "2026-08-24T14:30:00Z",
+      "source": "marinecorpstimes.com",
+      "url": "https://www.marinecorpstimes.com/news/pentagon-congress/2026/08/24/billboard-campaign-in-military-cities-connects-iran-war-to-high-prices/",
+      "published_at": "2026-08-24T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
     }
   ],
   "history": [
@@ -4750,17 +4895,23 @@
       "immediate": 2,
       "short": 8,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-08-24T20:54:20.305685Z",
+      "immediate": 5,
+      "short": 15,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-24T17:47:39.297797Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-24T20:54:20.305685Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 10
+        "ok": true,
+        "items": 150,
+        "relevant": 15
       },
       "manual": {
         "ok": true,
