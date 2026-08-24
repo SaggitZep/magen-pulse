@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-24T02:38:29.811922Z",
+  "generated_at": "2026-08-24T03:39:48.494604Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 1,
       "low": 0,
       "high": 19,
-      "confidence": 42,
+      "confidence": 37,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 5,
       "low": 0,
-      "high": 24,
-      "confidence": 42,
+      "high": 23,
+      "confidence": 37,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
+      "score": 8,
       "low": 0,
-      "high": 28,
-      "confidence": 42,
+      "high": 26,
+      "confidence": 37,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "02:15",
       "text": "Iran faces triple threat as control over Hormuz , economy wavers",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "nypost.com",
       "signal_id": "5301b64d882fc4eb"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "02:15",
       "text": "World News : Tehran - linked hackers behind cyber attack on power plant",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "gdnonline.com:443",
       "signal_id": "8d46e8bc0bb69265"
@@ -58,18 +58,10 @@ window.MAGEN_STATE = {
     {
       "time": "02:00",
       "text": "As Trump readies economic warfare against Iran , top official vows retaliation  in a seismic manner",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "fortune.com",
       "signal_id": "cac1e7dc77b30ba0"
-    },
-    {
-      "time": "00:30",
-      "text": "Iran Dismisses Fresh US Sanctions Threat as  Desperate  Move",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "pakobserver.net",
-      "signal_id": "53d1ea52c1890d32"
     }
   ],
   "signals": [
@@ -83,7 +75,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5301b64d882fc4eb",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.379,
+      "freshness": 0.283,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +91,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -115,7 +107,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8d46e8bc0bb69265",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.379,
+      "freshness": 0.283,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +123,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -147,7 +139,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cac1e7dc77b30ba0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.353,
+      "freshness": 0.264,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,38 +153,6 @@ window.MAGEN_STATE = {
       "source": "fortune.com",
       "url": "https://fortune.com/2026/08/23/trump-economic-warfare-iran-sanctions-military-retaliation/",
       "published_at": "2026-08-23T23:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "53d1ea52c1890d32",
-      "name": "Iran Dismisses Fresh US Sanctions Threat as  Desperate  Move",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "53d1ea52c1890d32",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.23,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "pakobserver.net",
-      "url": "https://pakobserver.net/iran-dismisses-fresh-us-sanctions-threat-as-desperate-move/",
-      "published_at": "2026-08-23T21:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.4,
@@ -4426,6 +4386,12 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 7,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-24T03:39:48.494604Z",
+      "immediate": 1,
+      "short": 5,
+      "extended": 8
     }
   ],
   "health": {
@@ -4436,7 +4402,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 4
+        "carried_forward": 3
       },
       "manual": {
         "ok": true,
