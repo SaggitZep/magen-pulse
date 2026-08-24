@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-24T09:06:14.431815Z",
+  "generated_at": "2026-08-24T10:04:50.872158Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 3,
       "low": 0,
-      "high": 19,
-      "confidence": 48,
+      "high": 20,
+      "confidence": 46,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 8,
       "low": 0,
-      "high": 27,
-      "confidence": 48,
+      "high": 25,
+      "confidence": 46,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 48,
+      "score": 14,
+      "low": 0,
+      "high": 31,
+      "confidence": 46,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "10:15",
       "text": "US vows  economic D - Day  as Iran threatens oil exports",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "rte.ie",
       "signal_id": "75322c5840421584"
@@ -50,7 +50,7 @@
     {
       "time": "10:15",
       "text": "CDF Munir heads to Tehran today as Iran threatens to halt Gulf oil trade over US sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "geo.tv",
       "signal_id": "dcbdeb8d7a5cab63"
@@ -58,7 +58,7 @@
     {
       "time": "10:15",
       "text": "US threatens Iran with  economic D - Day",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "samaa.tv",
       "signal_id": "4cbefde1c698b88c"
@@ -66,7 +66,7 @@
     {
       "time": "09:15",
       "text": "US vows  economic D - Day  as Iran threatens to halt all oil exports | WSAU News / Talk 550 AM · 99 . 9 FM",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "wsau.com",
       "signal_id": "11eeee2fd6cf3b28"
@@ -83,7 +83,7 @@
       "dependency_group": "75322c5840421584",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.589,
+      "freshness": 0.445,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-24T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "dcbdeb8d7a5cab63",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.589,
+      "freshness": 0.445,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-24T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "4cbefde1c698b88c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.589,
+      "freshness": 0.445,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-24T07:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "11eeee2fd6cf3b28",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.442,
+      "freshness": 0.335,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-24T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "f2c3004405a819f3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.475,
+      "freshness": 0.359,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-24T06:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "019018dd4f123b14",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.357,
+      "freshness": 0.27,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-08-24T05:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "779b679a2f68ad43",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.288,
+      "freshness": 0.218,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@
       "published_at": "2026-08-24T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@
       "dependency_group": "cf3d14c4275e5b82",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.288,
+      "freshness": 0.218,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@
       "published_at": "2026-08-24T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -339,7 +339,7 @@
       "dependency_group": "f2e9443c128254c8",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.268,
+      "freshness": 0.203,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +355,9 @@
       "published_at": "2026-08-24T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 3.0
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.3
       },
       "carried_forward": true
     },
@@ -371,7 +371,7 @@
       "dependency_group": "b9759433b2865473",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.25,
+      "freshness": 0.189,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -387,9 +387,9 @@
       "published_at": "2026-08-24T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -403,7 +403,7 @@
       "dependency_group": "134ada82341cf11c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.268,
+      "freshness": 0.203,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -419,9 +419,9 @@
       "published_at": "2026-08-24T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.6
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -4692,6 +4692,12 @@
       "immediate": 3,
       "short": 11,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-24T10:04:50.872158Z",
+      "immediate": 3,
+      "short": 8,
+      "extended": 14
     }
   ],
   "health": {
