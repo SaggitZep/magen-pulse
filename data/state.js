@@ -1,78 +1,295 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-24T16:32:08.672269Z",
+  "mode": "live",
+  "generated_at": "2026-08-24T17:09:05.960913Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 5,
       "low": 0,
-      "high": 19,
-      "confidence": 49,
+      "high": 17,
+      "confidence": 70,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
-      "low": 0,
-      "high": 26,
-      "confidence": 49,
+      "score": 18,
+      "low": 6,
+      "high": 30,
+      "confidence": 70,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
-      "low": 0,
-      "high": 32,
-      "confidence": 49,
-      "status": "נמוך"
+      "score": 29,
+      "low": 17,
+      "high": 41,
+      "confidence": 70,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "17:45",
-      "text": "Barron Trump , Wait For U : Iranian State TV Reportedly Broadcasts Chilling Assassination Threat",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "19:45",
+      "text": "Explainer - What are Iran options to escalate further in face of US economic threats ?",
+      "impact": "השפעה מיידית מחושבת: +2.3",
       "direction": "up",
-      "source": "ibtimes.co.uk",
-      "signal_id": "2258d85527f6bd29"
+      "source": "al-monitor.com",
+      "signal_id": "a2b5d129bd1d09cd"
     },
     {
-      "time": "17:30",
-      "text": "US set to launch  largest financial attack in history  as Iran mocks sanctions",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "19:45",
+      "text": "U . S . Threatens With  Single Greatest Financial Offensive Ever  Against Iran . Tehran Takes Aim At Oil Traffic .",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "bankingnews.gr",
-      "signal_id": "d4c1df370f5c6fad"
+      "source": "ibtimes.com",
+      "signal_id": "955bbccc248cb2bc"
     },
     {
-      "time": "16:30",
-      "text": "How Florida start - up Powerus is taking on Iran drones with a USD 5 , 000 interceptor",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "19:30",
+      "text": "Iran blacklists 45 tankers in Strait of Hormuz , threatens fines and confiscated cargo",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "moneycontrol.com",
-      "signal_id": "e8f98f44139ec46d"
+      "source": "nypost.com",
+      "signal_id": "7786fc84255e55d7"
     },
     {
-      "time": "16:30",
-      "text": "Iran Is Using Foreign Criminals to Attack Its Critics Overseas",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "19:30",
+      "text": "Iran Threatens to Fine , Confiscate Tankers in Strait of Hormuz Clampdown",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "newyorker.com",
-      "signal_id": "a25e413338eb9409"
+      "source": "theepochtimes.com",
+      "signal_id": "571c08566cb77b26"
     }
   ],
   "signals": [
+    {
+      "id": "a2b5d129bd1d09cd",
+      "name": "Explainer - What are Iran options to escalate further in face of US economic threats ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a2b5d129bd1d09cd",
+      "strength": 0.45,
+      "reliability": 0.74,
+      "freshness": 0.892,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/08/explainer-what-are-irans-options-escalate-further-face-us-economic-threats",
+      "published_at": "2026-08-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 2.3,
+        "short": 7.7,
+        "extended": 13.1
+      }
+    },
+    {
+      "id": "955bbccc248cb2bc",
+      "name": "U . S . Threatens With  Single Greatest Financial Offensive Ever  Against Iran . Tehran Takes Aim At Oil Traffic .",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "955bbccc248cb2bc",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.892,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ibtimes.com",
+      "url": "https://www.ibtimes.com/us-threatens-single-greatest-financial-offensive-ever-against-iran-tehran-takes-aim-oil-3806703",
+      "published_at": "2026-08-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.9
+      }
+    },
+    {
+      "id": "7786fc84255e55d7",
+      "name": "Iran blacklists 45 tankers in Strait of Hormuz , threatens fines and confiscated cargo",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7786fc84255e55d7",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.83,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nypost.com",
+      "url": "https://nypost.com/2026/08/24/us-news/iran-blacklists-45-tankers-in-strait-of-hormuz-threatens-fines-and-confiscated-cargo/",
+      "published_at": "2026-08-24T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
+    {
+      "id": "571c08566cb77b26",
+      "name": "Iran Threatens to Fine , Confiscate Tankers in Strait of Hormuz Clampdown",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "571c08566cb77b26",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.83,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theepochtimes.com",
+      "url": "https://www.theepochtimes.com/world/iran-threatens-to-fine-confiscate-tankers-in-strait-of-hormuz-clampdown-6078826",
+      "published_at": "2026-08-24T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
+    {
+      "id": "15120a6778969be6",
+      "name": "Bangkok Post - Trump claims Iran  collapsing  as US threatens  economic D - Day",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "15120a6778969be6",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.83,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bangkokpost.com",
+      "url": "https://www.bangkokpost.com/world/3307123/trump-claims-iran-collapsing-as-us-threatens-economic-dday",
+      "published_at": "2026-08-24T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
+    {
+      "id": "987db7e4de1efc79",
+      "name": "Tehran dismisses US economic threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "987db7e4de1efc79",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.773,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "taipeitimes.com",
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/08/25/2003863103",
+      "published_at": "2026-08-24T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "40ae8ca1dbbda742",
+      "name": "IRGC says Iran will target  US energy chokepoint if attacked",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "40ae8ca1dbbda742",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.892,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeasteye.net",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-iran-will-target-us-energy-chokepoints-if-attacked",
+      "published_at": "2026-08-24T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
     {
       "id": "2258d85527f6bd29",
       "name": "Barron Trump , Wait For U : Iranian State TV Reportedly Broadcasts Chilling Assassination Threat",
@@ -83,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2258d85527f6bd29",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.6,
+      "freshness": 0.503,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +316,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.7
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
     },
     {
       "id": "d4c1df370f5c6fad",
@@ -115,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d4c1df370f5c6fad",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.559,
+      "freshness": 0.469,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +347,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.2,
-        "extended": 5.5
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
     },
     {
       "id": "e8f98f44139ec46d",
@@ -147,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e8f98f44139ec46d",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.42,
+      "freshness": 0.352,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +378,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.2
+      }
     },
     {
       "id": "a25e413338eb9409",
@@ -179,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a25e413338eb9409",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.42,
+      "freshness": 0.352,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,139 +409,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "134ada82341cf11c",
-      "name": "Iran in  all - out  economic , military , security war : president",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "134ada82341cf11c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.42,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/08/iran-260824-pdo01.htm",
-      "published_at": "2026-08-24T13:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "885da73c40c77312",
-      "name": "US threatens economic  D - Day ; Iran vows to completely stop oil exports",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "885da73c40c77312",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.364,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bnn-news.com",
-      "url": "https://bnn-news.com/us-threatens-economic-d-day-iran-vows-to-completely-stop-oil-exports-283092",
-      "published_at": "2026-08-24T13:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2aad2048069bde7b",
-      "name": "China Rejects Trump  Economic D - Day  Threat on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2aad2048069bde7b",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.364,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "voiceofvienna.org",
-      "url": "https://voiceofvienna.org/china-rejects-trumps-economic-d-day-threat-on-iran/",
-      "published_at": "2026-08-24T13:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2a7fa8c3c7be6b5a",
-      "name": "IRGC Declares Trump Economic Tactics Against Iran as Acknowledgment of Military Setback",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2a7fa8c3c7be6b5a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.364,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "islamicinvitationturkey.com",
-      "url": "https://www.islamicinvitationturkey.com/irgc-declares-trumps-economic-tactics-against-iran-as-acknowledgment-of-military-setback/",
-      "published_at": "2026-08-24T13:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
+        "short": 2.0,
+        "extended": 3.5
+      }
     }
   ],
   "history": [
@@ -4650,17 +4735,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-08-24T17:09:05.960913Z",
+      "immediate": 5,
+      "short": 18,
+      "extended": 29
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-24T15:51:52.310268Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-24T17:09:05.960913Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 11
       },
       "manual": {
         "ok": true,
