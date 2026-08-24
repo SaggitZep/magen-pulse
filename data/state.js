@@ -1,89 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-24T10:54:29.036577Z",
+  "mode": "live",
+  "generated_at": "2026-08-24T11:37:32.946901Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 46,
+      "high": 17,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 13,
       "low": 0,
-      "high": 24,
-      "confidence": 46,
-      "status": "לא זוהה אות חריג"
+      "high": 26,
+      "confidence": 67,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
-      "low": 0,
-      "high": 28,
-      "confidence": 46,
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 67,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "10:15",
-      "text": "US vows  economic D - Day  as Iran threatens oil exports",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "13:45",
+      "text": "Iran says new sanctions threatened by  desperate  US will fail",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "rte.ie",
-      "signal_id": "75322c5840421584"
+      "source": "hawaiitribune-herald.com",
+      "signal_id": "c894d344f471c94d"
     },
     {
-      "time": "10:15",
-      "text": "CDF Munir heads to Tehran today as Iran threatens to halt Gulf oil trade over US sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "13:15",
+      "text": "Iran threatens Countries supporting US Economic War amid Hormuz escalation",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "geo.tv",
-      "signal_id": "dcbdeb8d7a5cab63"
+      "source": "en.dailypakistan.com.pk",
+      "signal_id": "1842a33aa4b61abc"
     },
     {
-      "time": "10:15",
-      "text": "US threatens Iran with  economic D - Day",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "13:15",
+      "text": "US threatens Iran with  economic D - Day  as markets await sanctions",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "samaa.tv",
-      "signal_id": "4cbefde1c698b88c"
+      "source": "euronews.com",
+      "signal_id": "03be0736f39532aa"
     },
     {
-      "time": "09:15",
-      "text": "US vows  economic D - Day  as Iran threatens to halt all oil exports | WSAU News / Talk 550 AM · 99 . 9 FM",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "13:45",
+      "text": "Oil falls as Iran allows Iraqi tankers through Hormuz , easing supply concerns | Hellenic Shipping News Worldwide",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "wsau.com",
-      "signal_id": "11eeee2fd6cf3b28"
+      "source": "hellenicshippingnews.com",
+      "signal_id": "fcf27f0558b7dae2"
     }
   ],
   "signals": [
     {
-      "id": "75322c5840421584",
-      "name": "US vows  economic D - Day  as Iran threatens oil exports",
+      "id": "c894d344f471c94d",
+      "name": "Iran says new sanctions threatened by  desperate  US will fail",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "75322c5840421584",
+      "dependency_group": "c894d344f471c94d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.352,
+      "freshness": 0.779,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,28 +94,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "rte.ie",
-      "url": "https://www.rte.ie/news/world/2026/0824/1588950-middle-east/",
-      "published_at": "2026-08-24T07:15:00Z",
+      "source": "hawaiitribune-herald.com",
+      "url": "https://www.hawaiitribune-herald.com/2026/08/24/nation-world-news/iran-says-new-sanctions-threatened-by-desperate-us-will-fail/",
+      "published_at": "2026-08-24T10:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
     },
     {
-      "id": "dcbdeb8d7a5cab63",
-      "name": "CDF Munir heads to Tehran today as Iran threatens to halt Gulf oil trade over US sanctions",
+      "id": "1842a33aa4b61abc",
+      "name": "Iran threatens Countries supporting US Economic War amid Hormuz escalation",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "dcbdeb8d7a5cab63",
+      "dependency_group": "1842a33aa4b61abc",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.352,
+      "freshness": 0.675,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,28 +125,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "geo.tv",
-      "url": "https://www.geo.tv/latest/678910-cdf-munir-heads-to-tehran-as-us-prepares-greatest-financial-offensive-against-iran",
-      "published_at": "2026-08-24T07:15:00Z",
+      "source": "en.dailypakistan.com.pk",
+      "url": "https://en.dailypakistan.com.pk/24-Aug-2026/iran-threatens-countries-supporting-us-economic-war-amid-hormuz-escalation",
+      "published_at": "2026-08-24T10:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
     },
     {
-      "id": "4cbefde1c698b88c",
-      "name": "US threatens Iran with  economic D - Day",
+      "id": "03be0736f39532aa",
+      "name": "US threatens Iran with  economic D - Day  as markets await sanctions",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "4cbefde1c698b88c",
+      "dependency_group": "03be0736f39532aa",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.352,
+      "freshness": 0.675,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,60 +156,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "samaa.tv",
-      "url": "https://www.samaa.tv/2087355679-us-threatens-iran-with-economic-d-day-warns-its-allies",
-      "published_at": "2026-08-24T07:15:00Z",
+      "source": "euronews.com",
+      "url": "https://www.euronews.com/business/2026/08/24/us-threatens-iran-with-economic-d-day-as-markets-await-sanctions-announcement",
+      "published_at": "2026-08-24T10:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
     },
     {
-      "id": "11eeee2fd6cf3b28",
-      "name": "US vows  economic D - Day  as Iran threatens to halt all oil exports | WSAU News / Talk 550 AM · 99 . 9 FM",
+      "id": "fcf27f0558b7dae2",
+      "name": "Oil falls as Iran allows Iraqi tankers through Hormuz , easing supply concerns | Hellenic Shipping News Worldwide",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "11eeee2fd6cf3b28",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.264,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wsau.com",
-      "url": "https://wsau.com/2026/08/23/us-vows-economic-d-day-as-iran-threatens-to-halt-all-oil-exports/",
-      "published_at": "2026-08-24T06:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f2c3004405a819f3",
-      "name": "Trump Treasury chief vows to launch massive financial warfare against Iran as US seeks to cripple  tyrannical  regime",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f2c3004405a819f3",
+      "dependency_group": "fcf27f0558b7dae2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.284,
+      "freshness": 0.779,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -222,28 +187,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "dailymail.com",
-      "url": "https://www.dailymail.com/news/article-16074949/Treasury-Scott-Bessent-financial-offensive-Iran.html",
-      "published_at": "2026-08-24T06:30:00Z",
+      "source": "hellenicshippingnews.com",
+      "url": "https://www.hellenicshippingnews.com/oil-falls-as-iran-allows-iraqi-tankers-through-hormuz-easing-supply-concerns/",
+      "published_at": "2026-08-24T10:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
     },
     {
-      "id": "019018dd4f123b14",
-      "name": "Not A Single Drop Of Oil : Iran Threatens To Halt All Persian Gulf Oil Exports , Warns US Economic War Could Trigger  Act Of War",
+      "id": "d7979a3b8fdb4747",
+      "name": "איראן באיום חדש : נתקוף מדינות באירופה שעוזרות לארה  ב",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "019018dd4f123b14",
+      "dependency_group": "d7979a3b8fdb4747",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.213,
+      "freshness": 0.507,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,16 +218,108 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "freepressjournal.in",
-      "url": "https://www.freepressjournal.in/world/not-a-single-drop-of-oil-iran-threatens-to-halt-all-persian-gulf-oil-exports-warns-us-economic-war-could-trigger-act-of-war",
-      "published_at": "2026-08-24T05:30:00Z",
+      "source": "srugim.co.il",
+      "url": "http://www.srugim.co.il/101009306-%D7%90%D7%99%D7%A8%D7%90%D7%9F-%D7%91%D7%90%D7%99%D7%95%D7%9D-%D7%97%D7%93%D7%A9-%D7%A0%D7%AA%D7%A7%D7%95%D7%A3-%D7%9E%D7%93%D7%99%D7%A0%D7%95%D7%AA-%D7%91%D7%90%D7%99%D7%A8%D7%95%D7%A4%D7%94",
+      "published_at": "2026-08-24T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
+    {
+      "id": "d9406b5ccaf1823e",
+      "name": "Missiles Patriot redéployés en Crète face aux menaces iraniennes contre lOTAN",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d9406b5ccaf1823e",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.507,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "lessentiel.lu",
+      "url": "https://www.lessentiel.lu/fr/story/guerre-iran-israel-usa-l-iran-menace-l-europe-des-missiles-patriot-redeployes-en-crete-103484349",
+      "published_at": "2026-08-24T09:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "e06b6080236313a5",
+      "name": "Un atac surpriză al Iranului a distrus un radar de 500 de milioane de dolari al SUA folosit pentru a detecta rachetele balistice , inclusiv cele cu focos nuclear . Măsurile luate de americani",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e06b6080236313a5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.409,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hotnews.ro",
+      "url": "https://hotnews.ro/un-atac-surpriza-al-iranului-a-distrus-un-radar-de-500-de-milioane-de-dolari-al-sua-folosit-pentru-a-detecta-rachetele-balistice-inclusiv-cele-cu-focos-nuclear-masurile-luate-de-americani-2331478",
+      "published_at": "2026-08-24T08:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      }
+    },
+    {
+      "id": "d776e513409758a6",
+      "name": "निर्णायक दिन आने वाला है , अमेरिका ने ईरान को दी आर्थिक प्रतिबंध लगाने की धमकी - entering endgame us warns iran while tehran double attack on america",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d776e513409758a6",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.355,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jagran.com",
+      "url": "https://www.jagran.com/world/america-entering-endgame-us-warns-iran-while-tehran-double-attack-on-america-40350473.html",
+      "published_at": "2026-08-24T08:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
     }
   ],
   "history": [
@@ -4544,17 +4600,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 7,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-24T11:37:32.946901Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 22
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-24T08:09:12.015691Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-24T11:37:32.946901Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 6
+        "ok": true,
+        "items": 150,
+        "relevant": 8
       },
       "manual": {
         "ok": true,
