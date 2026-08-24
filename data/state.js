@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-24T13:10:30.433580Z",
+  "generated_at": "2026-08-24T14:04:46.162444Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
       "high": 19,
-      "confidence": 48,
+      "confidence": 46,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 7,
       "low": 0,
-      "high": 25,
-      "confidence": 48,
-      "status": "נמוך"
+      "high": 24,
+      "confidence": 46,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
+      "score": 11,
       "low": 0,
-      "high": 31,
-      "confidence": 48,
+      "high": 28,
+      "confidence": 46,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "13:45",
       "text": "Iran says new sanctions threatened by  desperate  US will fail",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "hawaiitribune-herald.com",
       "signal_id": "c894d344f471c94d"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "13:45",
       "text": "Oil falls as Iran allows Iraqi tankers through Hormuz , easing supply concerns | Hellenic Shipping News Worldwide",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "hellenicshippingnews.com",
       "signal_id": "fcf27f0558b7dae2"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "13:15",
       "text": "Iran threatens Countries supporting US Economic War amid Hormuz escalation",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "en.dailypakistan.com.pk",
       "signal_id": "1842a33aa4b61abc"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "13:15",
       "text": "US threatens Iran with  economic D - Day  as markets await sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "euronews.com",
       "signal_id": "03be0736f39532aa"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c894d344f471c94d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.5,
+      "freshness": 0.386,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T10:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.5
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fcf27f0558b7dae2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.5,
+      "freshness": 0.386,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T10:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1842a33aa4b61abc",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.434,
+      "freshness": 0.335,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T10:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "03be0736f39532aa",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.434,
+      "freshness": 0.335,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T10:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d9406b5ccaf1823e",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.326,
+      "freshness": 0.252,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d7979a3b8fdb4747",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.326,
+      "freshness": 0.252,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e06b6080236313a5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.263,
+      "freshness": 0.203,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,41 +291,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d776e513409758a6",
-      "name": "निर्णायक दिन आने वाला है , अमेरिका ने ईरान को दी आर्थिक प्रतिबंध लगाने की धमकी - entering endgame us warns iran while tehran double attack on america",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d776e513409758a6",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.228,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jagran.com",
-      "url": "https://www.jagran.com/world/america-entering-endgame-us-warns-iran-while-tehran-double-attack-on-america-40350473.html",
-      "published_at": "2026-08-24T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -4626,6 +4594,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 9,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-08-24T14:04:46.162444Z",
+      "immediate": 2,
+      "short": 7,
+      "extended": 11
     }
   ],
   "health": {
@@ -4636,7 +4610,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
