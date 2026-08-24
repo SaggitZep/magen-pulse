@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-24T23:31:53.966506Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-24T23:54:37.966787Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 4,
       "low": 0,
-      "high": 18,
-      "confidence": 65,
+      "high": 20,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
-      "low": 2,
-      "high": 28,
-      "confidence": 65,
+      "score": 14,
+      "low": 0,
+      "high": 30,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
+      "score": 22,
+      "low": 6,
       "high": 38,
-      "confidence": 65,
+      "confidence": 50,
       "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "02:00",
       "text": "US threatens countries doing business with Iran",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
       "source": "standard.net.au",
       "signal_id": "3472a9f2e639a283"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "01:45",
       "text": "Trump  economic D - Day  threats become warnings for countries to sever financial ties with Iran",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
       "source": "union-bulletin.com",
       "signal_id": "8969e7515cde2d5f"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "02:00",
       "text": "Trump admin launches  economic D - Day  against Iran",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "kmbc.com",
       "signal_id": "00c20d4839adad72"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "01:30",
       "text": "U . S . threatens  economic D - Day  sanctions on Iran - Xinhua",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
       "source": "english.news.cn",
       "signal_id": "eeb5ca28ddc1d4e5"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3472a9f2e639a283",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.859,
+      "freshness": 0.771,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.6,
-        "extended": 9.5
-      }
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      },
+      "carried_forward": true
     },
     {
       "id": "8969e7515cde2d5f",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8969e7515cde2d5f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.8,
+      "freshness": 0.718,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.9
-      }
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      },
+      "carried_forward": true
     },
     {
       "id": "00c20d4839adad72",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "00c20d4839adad72",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.859,
+      "freshness": 0.771,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      }
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      },
+      "carried_forward": true
     },
     {
       "id": "eeb5ca28ddc1d4e5",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "eeb5ca28ddc1d4e5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.745,
+      "freshness": 0.668,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.3
-      }
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      },
+      "carried_forward": true
     },
     {
       "id": "39429a33ac13970b",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "39429a33ac13970b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.745,
+      "freshness": 0.668,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.3
-      }
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      },
+      "carried_forward": true
     },
     {
       "id": "91fc0d4bd439b069",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "91fc0d4bd439b069",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.601,
+      "freshness": 0.539,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      },
+      "carried_forward": true
     },
     {
       "id": "1c5497a9e2b0d267",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1c5497a9e2b0d267",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.56,
+      "freshness": 0.502,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      },
+      "carried_forward": true
     },
     {
       "id": "5bd20b3d4c891069",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5bd20b3d4c891069",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.56,
+      "freshness": 0.502,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.2,
-        "extended": 5.5
-      }
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      },
+      "carried_forward": true
     },
     {
       "id": "d2bdc90ab96a03df",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d2bdc90ab96a03df",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.452,
+      "freshness": 0.405,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T20:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      },
+      "carried_forward": true
     },
     {
       "id": "35821e5214eb2f02",
@@ -362,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "35821e5214eb2f02",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.392,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.3
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     },
     {
       "id": "da328dcdfa09df0f",
@@ -393,7 +403,7 @@ window.MAGEN_STATE = {
       "dependency_group": "da328dcdfa09df0f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.485,
+      "freshness": 0.435,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      },
+      "carried_forward": true
     },
     {
       "id": "1c83817534926b10",
@@ -424,7 +435,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1c83817534926b10",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.392,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,10 +451,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.3
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     },
     {
       "id": "f26a30fbd27b346b",
@@ -455,7 +467,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f26a30fbd27b346b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.365,
+      "freshness": 0.327,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,10 +483,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      },
+      "carried_forward": true
     },
     {
       "id": "7bcd2830fcdd2755",
@@ -486,7 +499,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7bcd2830fcdd2755",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.392,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,10 +515,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
+      },
+      "carried_forward": true
     },
     {
       "id": "a4b32ae3c62e01d2",
@@ -517,7 +531,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a4b32ae3c62e01d2",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.339,
+      "freshness": 0.305,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -534,40 +548,10 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.8
-      }
-    },
-    {
-      "id": "46904994dca24c33",
-      "name": "Bessent launches  Operation Economic Outcast  targeting Iran global lifelines",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "46904994dca24c33",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.339,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wwmt.com",
-      "url": "https://wwmt.com/news/nation-world/treasury-secretary-scott-bessent-to-detail-economic-d-day-sanctions-push-against-iran-tehran-war-revenue-streams-finances-oil-trade-president-trump-strait-of-hormuz",
-      "published_at": "2026-08-24T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
         "short": 2.0,
-        "extended": 3.3
-      }
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "5caa1fd103666c6e",
@@ -579,7 +563,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5caa1fd103666c6e",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.339,
+      "freshness": 0.305,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -596,9 +580,42 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.8
-      }
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "46904994dca24c33",
+      "name": "Bessent launches  Operation Economic Outcast  targeting Iran global lifelines",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "46904994dca24c33",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.305,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wwmt.com",
+      "url": "https://wwmt.com/news/nation-world/treasury-secretary-scott-bessent-to-detail-economic-d-day-sanctions-push-against-iran-tehran-war-revenue-streams-finances-oil-trade-president-trump-strait-of-hormuz",
+      "published_at": "2026-08-24T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -4993,17 +5010,23 @@ window.MAGEN_STATE = {
       "immediate": 5,
       "short": 15,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-08-24T23:54:37.966787Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 22
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-24T23:31:53.966506Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 17
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 17
       },
       "manual": {
         "ok": true,
