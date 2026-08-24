@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-24T17:47:39.297797Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-24T18:21:01.465473Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 4,
       "low": 0,
-      "high": 18,
-      "confidence": 68,
+      "high": 20,
+      "confidence": 52,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
-      "low": 2,
-      "high": 28,
-      "confidence": 68,
+      "score": 13,
+      "low": 0,
+      "high": 29,
+      "confidence": 52,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 11,
+      "score": 21,
+      "low": 5,
       "high": 37,
-      "confidence": 68,
-      "status": "מוגבר"
+      "confidence": 52,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "19:45",
       "text": "Explainer - What are Iran options to escalate further in face of US economic threats ?",
-      "impact": "השפעה מיידית מחושבת: +1.9",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
       "source": "al-monitor.com",
       "signal_id": "a2b5d129bd1d09cd"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "19:45",
       "text": "U . S . Threatens With  Single Greatest Financial Offensive Ever  Against Iran . Tehran Takes Aim At Oil Traffic .",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "ibtimes.com",
       "signal_id": "955bbccc248cb2bc"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "19:30",
       "text": "Iran blacklists 45 tankers in Strait of Hormuz , threatens fines and confiscated cargo",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "nypost.com",
       "signal_id": "7786fc84255e55d7"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "19:45",
       "text": "IRGC says Iran will target  US energy chokepoint if attacked",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "middleeasteye.net",
       "signal_id": "40ae8ca1dbbda742"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a2b5d129bd1d09cd",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.742,
+      "freshness": 0.633,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.9,
-        "short": 6.4,
-        "extended": 10.9
-      }
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.3
+      },
+      "carried_forward": true
     },
     {
       "id": "955bbccc248cb2bc",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "955bbccc248cb2bc",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.742,
+      "freshness": 0.633,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
-      }
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      },
+      "carried_forward": true
     },
     {
       "id": "7786fc84255e55d7",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7786fc84255e55d7",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.691,
+      "freshness": 0.589,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      },
+      "carried_forward": true
     },
     {
       "id": "40ae8ca1dbbda742",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "40ae8ca1dbbda742",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.742,
+      "freshness": 0.633,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
-      }
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.2
+      },
+      "carried_forward": true
     },
     {
       "id": "571c08566cb77b26",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "571c08566cb77b26",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.691,
+      "freshness": 0.589,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      },
+      "carried_forward": true
     },
     {
       "id": "15120a6778969be6",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "15120a6778969be6",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.691,
+      "freshness": 0.589,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      },
+      "carried_forward": true
     },
     {
       "id": "99f07cfcd28e027a",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "99f07cfcd28e027a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.691,
+      "freshness": 0.589,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T16:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      },
+      "carried_forward": true
     },
     {
       "id": "987db7e4de1efc79",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "987db7e4de1efc79",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.643,
+      "freshness": 0.549,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      }
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      },
+      "carried_forward": true
     },
     {
       "id": "2258d85527f6bd29",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2258d85527f6bd29",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.419,
+      "freshness": 0.357,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
+      },
+      "carried_forward": true
     },
     {
       "id": "d4c1df370f5c6fad",
@@ -362,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d4c1df370f5c6fad",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.39,
+      "freshness": 0.333,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.8
-      }
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -4716,17 +4726,23 @@ window.MAGEN_STATE = {
       "immediate": 5,
       "short": 15,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-08-24T18:21:01.465473Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-24T17:47:39.297797Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 10
+        "ok": false,
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "carried_forward": 10
       },
       "manual": {
         "ok": true,
