@@ -1,121 +1,89 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-24T07:17:14.999402Z",
+  "mode": "live",
+  "generated_at": "2026-08-24T08:09:12.015691Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 11,
+      "score": 4,
       "low": 0,
-      "high": 27,
-      "confidence": 48,
-      "status": "נמוך"
+      "high": 17,
+      "confidence": 65,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
-      "low": 0,
-      "high": 31,
-      "confidence": 49,
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 49,
-      "status": "נמוך"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 65,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -4
+    "points_60m": -7
   },
   "changes": [
     {
-      "time": "06:30",
-      "text": "Iran decades - long war planning helped it withstand US - Israel strikes",
-      "impact": "השפעה מיידית מחושבת: +8.4",
+      "time": "10:15",
+      "text": "US vows  economic D - Day  as Iran threatens oil exports",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "idrw.org",
-      "signal_id": "d5e38b9963f99365"
+      "source": "rte.ie",
+      "signal_id": "75322c5840421584"
     },
     {
-      "time": "07:45",
-      "text": "US vows  economic D - Day  as Iran threatens to halt all oil exports",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "10:15",
+      "text": "CDF Munir heads to Tehran today as Iran threatens to halt Gulf oil trade over US sanctions",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "rnz.co.nz",
-      "signal_id": "02aef040461d7efe"
+      "source": "geo.tv",
+      "signal_id": "dcbdeb8d7a5cab63"
     },
     {
-      "time": "07:45",
-      "text": "Not a single drop : Iran threatens to halt Gulf oil exports over US  economic war",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "10:15",
+      "text": "US threatens Iran with  economic D - Day",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "moneycontrol.com",
-      "signal_id": "779b679a2f68ad43"
+      "source": "samaa.tv",
+      "signal_id": "4cbefde1c698b88c"
     },
     {
-      "time": "07:45",
-      "text": "Iran Boomerang : How Trump Sanctions War and the Strait of Hormuz Showdown Threaten Global Oil and Shipping",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "09:15",
+      "text": "US vows  economic D - Day  as Iran threatens to halt all oil exports | WSAU News / Talk 550 AM · 99 . 9 FM",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
-      "source": "openthemagazine.com",
-      "signal_id": "cf3d14c4275e5b82"
+      "source": "wsau.com",
+      "signal_id": "11eeee2fd6cf3b28"
     }
   ],
   "signals": [
     {
-      "id": "d5e38b9963f99365",
-      "name": "Iran decades - long war planning helped it withstand US - Israel strikes",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d5e38b9963f99365",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.339,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "idrw.org",
-      "url": "https://idrw.org/irans-decades-long-war-planning-helped-it-withstand-us-israel-strikes/",
-      "published_at": "2026-08-24T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 8.4,
-        "short": 6.5,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "02aef040461d7efe",
-      "name": "US vows  economic D - Day  as Iran threatens to halt all oil exports",
+      "id": "75322c5840421584",
+      "name": "US vows  economic D - Day  as Iran threatens oil exports",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "02aef040461d7efe",
+      "dependency_group": "75322c5840421584",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.484,
+      "freshness": 0.773,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,16 +94,170 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "rnz.co.nz",
-      "url": "https://www.rnz.co.nz/news/world/1102908/us-vows-economic-d-day-as-iran-threatens-to-halt-all-oil-exports",
-      "published_at": "2026-08-24T04:45:00Z",
+      "source": "rte.ie",
+      "url": "https://www.rte.ie/news/world/2026/0824/1588950-middle-east/",
+      "published_at": "2026-08-24T07:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "dcbdeb8d7a5cab63",
+      "name": "CDF Munir heads to Tehran today as Iran threatens to halt Gulf oil trade over US sanctions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dcbdeb8d7a5cab63",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.773,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "geo.tv",
+      "url": "https://www.geo.tv/latest/678910-cdf-munir-heads-to-tehran-as-us-prepares-greatest-financial-offensive-against-iran",
+      "published_at": "2026-08-24T07:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "4cbefde1c698b88c",
+      "name": "US threatens Iran with  economic D - Day",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4cbefde1c698b88c",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.773,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "samaa.tv",
+      "url": "https://www.samaa.tv/2087355679-us-threatens-iran-with-economic-d-day-warns-its-allies",
+      "published_at": "2026-08-24T07:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "11eeee2fd6cf3b28",
+      "name": "US vows  economic D - Day  as Iran threatens to halt all oil exports | WSAU News / Talk 550 AM · 99 . 9 FM",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "11eeee2fd6cf3b28",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.581,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wsau.com",
+      "url": "https://wsau.com/2026/08/23/us-vows-economic-d-day-as-iran-threatens-to-halt-all-oil-exports/",
+      "published_at": "2026-08-24T06:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "f2c3004405a819f3",
+      "name": "Trump Treasury chief vows to launch massive financial warfare against Iran as US seeks to cripple  tyrannical  regime",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f2c3004405a819f3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.624,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailymail.com",
+      "url": "https://www.dailymail.com/news/article-16074949/Treasury-Scott-Bessent-financial-offensive-Iran.html",
+      "published_at": "2026-08-24T06:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.2
+      }
+    },
+    {
+      "id": "019018dd4f123b14",
+      "name": "Not A Single Drop Of Oil : Iran Threatens To Halt All Persian Gulf Oil Exports , Warns US Economic War Could Trigger  Act Of War",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "019018dd4f123b14",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.469,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "freepressjournal.in",
+      "url": "https://www.freepressjournal.in/world/not-a-single-drop-of-oil-iran-threatens-to-halt-all-persian-gulf-oil-exports-warns-us-economic-war-could-trigger-act-of-war",
+      "published_at": "2026-08-24T05:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
+        "short": 3.1,
+        "extended": 5.2
+      }
     },
     {
       "id": "779b679a2f68ad43",
@@ -147,7 +269,7 @@
       "dependency_group": "779b679a2f68ad43",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.484,
+      "freshness": 0.378,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,43 +285,10 @@
       "published_at": "2026-08-24T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "cf3d14c4275e5b82",
-      "name": "Iran Boomerang : How Trump Sanctions War and the Strait of Hormuz Showdown Threaten Global Oil and Shipping",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cf3d14c4275e5b82",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.484,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "openthemagazine.com",
-      "url": "https://openthemagazine.com/world/iran-boomerang-how-trumps-sanctions-could-swing-back-through-strait-of-hormuz",
-      "published_at": "2026-08-24T04:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
     },
     {
       "id": "f2e9443c128254c8",
@@ -211,7 +300,7 @@
       "dependency_group": "f2e9443c128254c8",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.451,
+      "freshness": 0.352,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,11 +316,72 @@
       "published_at": "2026-08-24T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "cf3d14c4275e5b82",
+      "name": "Iran Boomerang : How Trump Sanctions War and the Strait of Hormuz Showdown Threaten Global Oil and Shipping",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cf3d14c4275e5b82",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.378,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "openthemagazine.com",
+      "url": "https://openthemagazine.com/world/iran-boomerang-how-trumps-sanctions-could-swing-back-through-strait-of-hormuz",
+      "published_at": "2026-08-24T04:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
+    },
+    {
+      "id": "b9759433b2865473",
+      "name": "US vows  economic D - Day  as Iran threatens to halt all oil exports - Economy",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b9759433b2865473",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.328,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thejakartapost.com",
+      "url": "http://www.thejakartapost.com/business/2026/08/24/us-vows-economic-d-day-as-iran-threatens-to-halt-all-oil-exports",
+      "published_at": "2026-08-24T04:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
     },
     {
       "id": "134ada82341cf11c",
@@ -243,7 +393,7 @@
       "dependency_group": "134ada82341cf11c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.451,
+      "freshness": 0.352,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,75 +409,10 @@
       "published_at": "2026-08-24T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "bd4787e2786f5f16",
-      "name": "Iran in  all - out  economic , military , security war : president -- China Economic Net",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bd4787e2786f5f16",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.339,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "en.ce.cn",
-      "url": "http://en.ce.cn/main/latest/202608/t20260824_3166690.shtml",
-      "published_at": "2026-08-24T03:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
         "short": 2.0,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "dc4b8c91b21ed5c0",
-      "name": "Is it back ? Questions raised about Iran ballistic missile capacity being rebuilt * WorldNetDaily * by Behnam Ben Taleblue , Real Clear Wire",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "dc4b8c91b21ed5c0",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.255,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wnd.com",
-      "url": "https://www.wnd.com/2026/08/is-it-back-questions-raised-about-irans-ballistic/",
-      "published_at": "2026-08-24T02:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
-      },
-      "carried_forward": true
+        "extended": 3.5
+      }
     }
   ],
   "history": [
@@ -4584,17 +4669,23 @@
       "immediate": 11,
       "short": 15,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-24T08:09:12.015691Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 24
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-24T05:22:50.347972Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-24T08:09:12.015691Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 11
       },
       "manual": {
         "ok": true,
