@@ -1,81 +1,120 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-24T04:30:23.573660Z",
+  "mode": "live",
+  "generated_at": "2026-08-24T05:22:50.347972Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
-      "low": 0,
-      "high": 20,
-      "confidence": 36,
-      "status": "לא זוהה אות חריג"
+      "score": 18,
+      "low": 5,
+      "high": 31,
+      "confidence": 69,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
-      "low": 0,
-      "high": 23,
-      "confidence": 36,
-      "status": "לא זוהה אות חריג"
+      "score": 25,
+      "low": 13,
+      "high": 37,
+      "confidence": 70,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 7,
-      "low": 0,
-      "high": 26,
-      "confidence": 36,
-      "status": "לא זוהה אות חריג"
+      "score": 29,
+      "low": 17,
+      "high": 41,
+      "confidence": 70,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "זינוק חריג",
+    "points_60m": 17
   },
   "changes": [
     {
-      "time": "02:15",
-      "text": "Iran faces triple threat as control over Hormuz , economy wavers",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "06:30",
+      "text": "Iran decades - long war planning helped it withstand US - Israel strikes",
+      "impact": "השפעה מיידית מחושבת: +14.4",
       "direction": "up",
-      "source": "nypost.com",
-      "signal_id": "5301b64d882fc4eb"
+      "source": "idrw.org",
+      "signal_id": "d5e38b9963f99365"
     },
     {
-      "time": "02:15",
-      "text": "World News : Tehran - linked hackers behind cyber attack on power plant",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "07:45",
+      "text": "US vows  economic D - Day  as Iran threatens to halt all oil exports",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "gdnonline.com:443",
-      "signal_id": "8d46e8bc0bb69265"
+      "source": "rnz.co.nz",
+      "signal_id": "02aef040461d7efe"
     },
     {
-      "time": "02:00",
-      "text": "As Trump readies economic warfare against Iran , top official vows retaliation  in a seismic manner",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "07:45",
+      "text": "Not a single drop : Iran threatens to halt Gulf oil exports over US  economic war",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "fortune.com",
-      "signal_id": "cac1e7dc77b30ba0"
+      "source": "moneycontrol.com",
+      "signal_id": "779b679a2f68ad43"
+    },
+    {
+      "time": "07:45",
+      "text": "Iran Boomerang : How Trump Sanctions War and the Strait of Hormuz Showdown Threaten Global Oil and Shipping",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "openthemagazine.com",
+      "signal_id": "cf3d14c4275e5b82"
     }
   ],
   "signals": [
     {
-      "id": "5301b64d882fc4eb",
-      "name": "Iran faces triple threat as control over Hormuz , economy wavers",
+      "id": "d5e38b9963f99365",
+      "name": "Iran decades - long war planning helped it withstand US - Israel strikes",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d5e38b9963f99365",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.584,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "idrw.org",
+      "url": "https://idrw.org/irans-decades-long-war-planning-helped-it-withstand-us-israel-strikes/",
+      "published_at": "2026-08-24T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 14.4,
+        "short": 11.2,
+        "extended": 4.8
+      }
+    },
+    {
+      "id": "02aef040461d7efe",
+      "name": "US vows  economic D - Day  as Iran threatens to halt all oil exports",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "5301b64d882fc4eb",
+      "dependency_group": "02aef040461d7efe",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.223,
+      "freshness": 0.835,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -86,28 +125,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "nypost.com",
-      "url": "https://nypost.com/2026/08/23/world-news/iran-faces-triple-threat-as-control-over-hormuz-economy-wavers/",
-      "published_at": "2026-08-23T23:15:00Z",
+      "source": "rnz.co.nz",
+      "url": "https://www.rnz.co.nz/news/world/1102908/us-vows-economic-d-day-as-iran-threatens-to-halt-all-oil-exports",
+      "published_at": "2026-08-24T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.3
+      }
     },
     {
-      "id": "8d46e8bc0bb69265",
-      "name": "World News : Tehran - linked hackers behind cyber attack on power plant",
+      "id": "779b679a2f68ad43",
+      "name": "Not a single drop : Iran threatens to halt Gulf oil exports over US  economic war",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "8d46e8bc0bb69265",
-      "strength": 0.4,
+      "dependency_group": "779b679a2f68ad43",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.223,
+      "freshness": 0.835,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -118,28 +156,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "gdnonline.com:443",
-      "url": "https://www.gdnonline.com:443/Details/1404300/Tehran-linked-hackers-behind-cyber-attack-on-power-plant",
-      "published_at": "2026-08-23T23:15:00Z",
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/not-a-single-drop-iran-threatens-to-halt-gulf-oil-exports-over-us-economic-war-article-14013445.html",
+      "published_at": "2026-08-24T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.3
+      }
     },
     {
-      "id": "cac1e7dc77b30ba0",
-      "name": "As Trump readies economic warfare against Iran , top official vows retaliation  in a seismic manner",
+      "id": "cf3d14c4275e5b82",
+      "name": "Iran Boomerang : How Trump Sanctions War and the Strait of Hormuz Showdown Threaten Global Oil and Shipping",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "cac1e7dc77b30ba0",
-      "strength": 0.4,
+      "dependency_group": "cf3d14c4275e5b82",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.207,
+      "freshness": 0.835,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -150,16 +187,139 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "fortune.com",
-      "url": "https://fortune.com/2026/08/23/trump-economic-warfare-iran-sanctions-military-retaliation/",
-      "published_at": "2026-08-23T23:00:00Z",
+      "source": "openthemagazine.com",
+      "url": "https://openthemagazine.com/world/iran-boomerang-how-trumps-sanctions-could-swing-back-through-strait-of-hormuz",
+      "published_at": "2026-08-24T04:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.0
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.3
+      }
+    },
+    {
+      "id": "f2e9443c128254c8",
+      "name": "Economic D - Day At Dawn , US Treasury Sec . Threatens Iran Ahead Of Sanctions Announcement | LIVE BLOG",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f2e9443c128254c8",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.778,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "i24news.tv",
+      "url": "https://www.i24news.tv/en/news/international/artc-economic-d-day-at-dawn-us-treasury-sec-threatens-iran-ahead-of-sanctions-announcement-live-blog",
+      "published_at": "2026-08-24T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "134ada82341cf11c",
+      "name": "Iran in  all - out  economic , military , security war : president",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "134ada82341cf11c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.778,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "global.chinadaily.com.cn",
+      "url": "http://global.chinadaily.com.cn/a/202608/24/WS6a8b990045ce1d77cb5e1c25.html",
+      "published_at": "2026-08-24T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "bd4787e2786f5f16",
+      "name": "Iran in  all - out  economic , military , security war : president -- China Economic Net",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bd4787e2786f5f16",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.584,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "en.ce.cn",
+      "url": "http://en.ce.cn/main/latest/202608/t20260824_3166690.shtml",
+      "published_at": "2026-08-24T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "dc4b8c91b21ed5c0",
+      "name": "Is it back ? Questions raised about Iran ballistic missile capacity being rebuilt * WorldNetDaily * by Behnam Ben Taleblue , Real Clear Wire",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dc4b8c91b21ed5c0",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.439,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wnd.com",
+      "url": "https://www.wnd.com/2026/08/is-it-back-questions-raised-about-irans-ballistic/",
+      "published_at": "2026-08-24T02:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.2
+      }
     }
   ],
   "history": [
@@ -4398,17 +4558,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 7
+    },
+    {
+      "timestamp": "2026-08-24T05:22:50.347972Z",
+      "immediate": 18,
+      "short": 25,
+      "extended": 29
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-24T01:08:57.257979Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-24T05:22:50.347972Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 3
+        "ok": true,
+        "items": 150,
+        "relevant": 8
       },
       "manual": {
         "ok": true,
