@@ -1,48 +1,64 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-23T23:52:46.753223Z",
+  "mode": "live",
+  "generated_at": "2026-08-24T01:08:57.257979Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 3,
       "low": 0,
-      "high": 19,
-      "confidence": 42,
+      "high": 17,
+      "confidence": 61,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 10,
       "low": 0,
-      "high": 25,
-      "confidence": 42,
-      "status": "לא זוהה אות חריג"
+      "high": 24,
+      "confidence": 61,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
-      "low": 0,
-      "high": 30,
-      "confidence": 42,
+      "score": 17,
+      "low": 3,
+      "high": 31,
+      "confidence": 61,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 1
   },
   "changes": [
     {
+      "time": "02:15",
+      "text": "Iran faces triple threat as control over Hormuz , economy wavers",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "nypost.com",
+      "signal_id": "5301b64d882fc4eb"
+    },
+    {
+      "time": "02:15",
+      "text": "World News : Tehran - linked hackers behind cyber attack on power plant",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "gdnonline.com:443",
+      "signal_id": "8d46e8bc0bb69265"
+    },
+    {
       "time": "02:00",
       "text": "As Trump readies economic warfare against Iran , top official vows retaliation  in a seismic manner",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "fortune.com",
       "signal_id": "cac1e7dc77b30ba0"
@@ -50,13 +66,75 @@ window.MAGEN_STATE = {
     {
       "time": "00:30",
       "text": "Iran Dismisses Fresh US Sanctions Threat as  Desperate  Move",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "pakobserver.net",
       "signal_id": "53d1ea52c1890d32"
     }
   ],
   "signals": [
+    {
+      "id": "5301b64d882fc4eb",
+      "name": "Iran faces triple threat as control over Hormuz , economy wavers",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5301b64d882fc4eb",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.581,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nypost.com",
+      "url": "https://nypost.com/2026/08/23/world-news/iran-faces-triple-threat-as-control-over-hormuz-economy-wavers/",
+      "published_at": "2026-08-23T23:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "8d46e8bc0bb69265",
+      "name": "World News : Tehran - linked hackers behind cyber attack on power plant",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8d46e8bc0bb69265",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.581,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gdnonline.com:443",
+      "url": "https://www.gdnonline.com:443/Details/1404300/Tehran-linked-hackers-behind-cyber-attack-on-power-plant",
+      "published_at": "2026-08-23T23:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      }
+    },
     {
       "id": "cac1e7dc77b30ba0",
       "name": "As Trump readies economic warfare against Iran , top official vows retaliation  in a seismic manner",
@@ -67,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cac1e7dc77b30ba0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.778,
+      "freshness": 0.541,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -83,11 +161,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
     },
     {
       "id": "53d1ea52c1890d32",
@@ -99,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "53d1ea52c1890d32",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.507,
+      "freshness": 0.353,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -115,11 +192,10 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-23T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
     }
   ],
   "history": [
@@ -4334,17 +4410,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 8,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-08-24T01:08:57.257979Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-23T23:30:42.299917Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-24T01:08:57.257979Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 2
+        "ok": true,
+        "items": 150,
+        "relevant": 4
       },
       "manual": {
         "ok": true,
