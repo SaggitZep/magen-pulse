@@ -1,78 +1,388 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-25T10:28:43.731922Z",
+  "mode": "live",
+  "generated_at": "2026-08-25T11:02:47.384097Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 4,
       "low": 0,
-      "high": 19,
-      "confidence": 46,
+      "high": 17,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
-      "low": 0,
-      "high": 25,
-      "confidence": 46,
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
-      "low": 0,
-      "high": 31,
-      "confidence": 46,
-      "status": "נמוך"
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "10:30",
-      "text": "Trump  economic D - Day  threats become warnings for countries to sever financial ties with Iran",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "13:30",
+      "text": "US Launches Economic Offensive to Isolate Iran - Novinite . com",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "wdrb.com",
-      "signal_id": "8969e7515cde2d5f"
+      "source": "novinite.com",
+      "signal_id": "d5cb219edbb0be7a"
     },
     {
-      "time": "10:30",
-      "text": "Secret Service aware of Iranian state media video threatening life of Barron Trump",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "13:30",
+      "text": "US Not Ruling Out Military Force Amid Economic Pressure On Iran",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "edition.cnn.com",
-      "signal_id": "f7a77c41d175d1ac"
+      "source": "beijingbulletin.com",
+      "signal_id": "8f6b4a181d144baa"
     },
     {
-      "time": "10:30",
-      "text": "Trump treats threats as warnings for countries to sever ties with Iran",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "13:30",
+      "text": "Four India - based companies bear the brunt of U . S . Iran sanctions",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "tribtoday.com",
-      "signal_id": "d499434e8662053a"
+      "source": "thehindu.com",
+      "signal_id": "82f8959af2beea1c"
     },
     {
-      "time": "10:30",
-      "text": "US announces new sanctions on Iran , threatens to punish countries , entities trading with it",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "13:30",
+      "text": "Can Trump economic war against Iran do what airstrikes and negotiations couldnt ?",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "premiumtimesng.com",
-      "signal_id": "665c5857cb7e9e53"
+      "source": "wlrn.org",
+      "signal_id": "1a70d2c36ec0c1db"
     }
   ],
   "signals": [
+    {
+      "id": "d5cb219edbb0be7a",
+      "name": "US Launches Economic Offensive to Isolate Iran - Novinite . com",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d5cb219edbb0be7a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.855,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "novinite.com",
+      "url": "https://www.novinite.com/articles/240272/US+Launches+Economic+Offensive+to+Isolate+Iran",
+      "published_at": "2026-08-25T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "8f6b4a181d144baa",
+      "name": "US Not Ruling Out Military Force Amid Economic Pressure On Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8f6b4a181d144baa",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.855,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "beijingbulletin.com",
+      "url": "http://www.beijingbulletin.com/news/279263427/us-not-ruling-out-military-force-amid-economic-pressure-on-iran",
+      "published_at": "2026-08-25T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "82f8959af2beea1c",
+      "name": "Four India - based companies bear the brunt of U . S . Iran sanctions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "82f8959af2beea1c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.855,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thehindu.com",
+      "url": "https://www.thehindu.com/business/Economy/four-india-based-companies-bear-the-brunt-of-us-iran-sanctions/article71388216.ece",
+      "published_at": "2026-08-25T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "1a70d2c36ec0c1db",
+      "name": "Can Trump economic war against Iran do what airstrikes and negotiations couldnt ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1a70d2c36ec0c1db",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.855,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wlrn.org",
+      "url": "https://www.wlrn.org/national-politics/2026-08-25/can-trumps-economic-war-against-iran-do-what-airstrikes-and-negotiations-couldnt",
+      "published_at": "2026-08-25T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "7f533f0d9794860f",
+      "name": "Benjamin Netanyahu Iran Attack : मेरे एक बेटे को निशाना बनाया ! इजरायली PM ने ईरान को लेकर किया चौंकाने वाला खुलासा",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7f533f0d9794860f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.855,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "punjabkesari.com",
+      "url": "https://www.punjabkesari.com/world-news/benjamin-netanyahu-iran-attack-one-of-my-sons-was-targeted-israeli-pm-makes-a-shocking-revelation-regarding-iran/",
+      "published_at": "2026-08-25T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "11b5aca90e7fc114",
+      "name": "Stocks stagger and oil rises as traders eye Iran threat , Nvidia results",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "11b5aca90e7fc114",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.742,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "digitaljournal.com",
+      "url": "https://www.digitaljournal.com/article/stocks-stagger-and-oil-rises-as-traders-eye-iran-threat-nvidia-results/",
+      "published_at": "2026-08-25T10:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "3ba6e94202e91e26",
+      "name": "Iran - US war live : Trump unveils  economic D - Day  sanctions as Tehran vows to go on the attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3ba6e94202e91e26",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.742,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "independent.co.uk",
+      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-sanctions-bessent-hormuz-news-b3038608.html",
+      "published_at": "2026-08-25T10:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "15803cae7fcc6c72",
+      "name": "Iran Threatens US Interests After Washington Expands Sanctions and Targets Oil Trade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "15803cae7fcc6c72",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.599,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ibtimes.co.uk",
+      "url": "https://www.ibtimes.co.uk/us-iran-tensions-escalate-new-sanctions-oil-trade-1816099",
+      "published_at": "2026-08-25T09:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
+    },
+    {
+      "id": "cc9e9ce7e2c60b57",
+      "name": "Iran Threatens Retaliation as U . S . Widens Sanctions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cc9e9ce7e2c60b57",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.45,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "oilprice.com",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Threatens-Retaliation-as-US-Widens-Sanctions.html",
+      "published_at": "2026-08-25T08:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "5984f83934426f3c",
+      "name": "US Sanctions Dozens Of Entities , Individuals Over Iran Military And Oil Networks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5984f83934426f3c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.45,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "i24news.tv",
+      "url": "https://www.i24news.tv/en/news/international/americas/artc-us-sanctions-dozens-of-entities-individuals-over-iran-military-and-oil-networks",
+      "published_at": "2026-08-25T08:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
     {
       "id": "8969e7515cde2d5f",
       "name": "Trump  economic D - Day  threats become warnings for countries to sever financial ties with Iran",
@@ -83,7 +393,7 @@
       "dependency_group": "8969e7515cde2d5f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.427,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,11 +409,10 @@
       "published_at": "2026-08-25T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      }
     },
     {
       "id": "f7a77c41d175d1ac",
@@ -115,7 +424,7 @@
       "dependency_group": "f7a77c41d175d1ac",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.427,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,11 +440,10 @@
       "published_at": "2026-08-25T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      }
     },
     {
       "id": "d499434e8662053a",
@@ -147,7 +455,7 @@
       "dependency_group": "d499434e8662053a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.427,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,11 +471,10 @@
       "published_at": "2026-08-25T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      }
     },
     {
       "id": "665c5857cb7e9e53",
@@ -179,7 +486,7 @@
       "dependency_group": "665c5857cb7e9e53",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.427,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,11 +502,10 @@
       "published_at": "2026-08-25T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      }
     },
     {
       "id": "38962adc8303dca7",
@@ -211,7 +517,7 @@
       "dependency_group": "38962adc8303dca7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.427,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,363 +533,10 @@
       "published_at": "2026-08-25T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8f6b4a181d144baa",
-      "name": "US Not Ruling Out Military Force Amid Economic Pressure On Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8f6b4a181d144baa",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.427,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279263427/us-not-ruling-out-military-force-amid-economic-pressure-on-iran",
-      "published_at": "2026-08-25T07:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9cd9e19c9b3f6b97",
-      "name": "Les UAE installent dimmenses cages métalliques pour se protéger des missiles iraniens",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9cd9e19c9b3f6b97",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.321,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presse-citron.net",
-      "url": "https://www.presse-citron.net/uae-installent-immenses-cages-metalliques-pour-proteger-missiles-iraniens/",
-      "published_at": "2026-08-25T06:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3472a9f2e639a283",
-      "name": "US threatens countries doing business with Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3472a9f2e639a283",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.299,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arynews.tv",
-      "url": "https://arynews.tv/us-threatens-countries-doing-business-with-iran",
-      "published_at": "2026-08-25T06:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1a11391f8431dc4b",
-      "name": "US sanctions Iran over oil , military and cyber activity",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1a11391f8431dc4b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.321,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "samaa.tv",
-      "url": "https://www.samaa.tv/2087355735-us-sanctions-iran-over-oil-trade-military-cyber-activities",
-      "published_at": "2026-08-25T06:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d2b384316b6954e8",
-      "name": "Iran vows retaliation after US expands economic sanctions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d2b384316b6954e8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.299,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thehindubusinessline.com",
-      "url": "https://www.thehindubusinessline.com/news/world/iran-vows-retaliation-after-us-expands-economic-sanctions/article71387128.ece",
-      "published_at": "2026-08-25T06:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "26ec027765f21861",
-      "name": "US imposes sanctions on nearly 60 entities , individuals and vessels linked to Iran military activities , oil trade",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "26ec027765f21861",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.241,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "beijingbulletin.com",
-      "url": "http://www.beijingbulletin.com/news/279263207/us-imposes-sanctions-on-nearly-60-entities-individuals-and-vessels-linked-to-iran-military-activities-oil-trade",
-      "published_at": "2026-08-25T05:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c313e44f4e4edbf5",
-      "name": "Barron Trump Threat Signals Iran Escalating Focus on First Family After Targeting the President and Melania",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c313e44f4e4edbf5",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.209,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ibtimes.co.uk",
-      "url": "https://www.ibtimes.co.uk/iranian-tv-threatens-barron-trump-1816027",
-      "published_at": "2026-08-25T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "504ec47a633dae01",
-      "name": "US launches new  economic terrorism  campaign against Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "504ec47a633dae01",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.209,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/08/25/775025/US-launches-new-",
-      "published_at": "2026-08-25T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "005e8f0a7e7e7cb3",
-      "name": "Trump Iran Trap : Operation Economic Outcast , Escalating Sanctions and the Looming Threat of Military Strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "005e8f0a7e7e7cb3",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "openthemagazine.com",
-      "url": "https://openthemagazine.com/world/trumps-iran-trap-operation-economic-outcast-escalating-sanctions-and-the-looming-threat-of-military-strikes",
-      "published_at": "2026-08-25T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "75d375bd1c3dcd65",
-      "name": "China is the biggest buyer of Iran oil . Could US sanctions threaten those ties ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "75d375bd1c3dcd65",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aol.co.uk",
-      "url": "https://www.aol.co.uk/articles/china-biggest-buyer-iran-oil-024459000.html",
-      "published_at": "2026-08-25T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "11b5aca90e7fc114",
-      "name": "Stocks stagger and oil rises as traders eye Iran threat , Nvidia results",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "11b5aca90e7fc114",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "channelnewsasia.com",
-      "url": "https://www.channelnewsasia.com/business/stocks-stagger-and-oil-rises-traders-eye-iran-threat-nvidia-results-6339071",
-      "published_at": "2026-08-25T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
+        "short": 2.1,
+        "extended": 3.6
+      }
     }
   ],
   "history": [
@@ -5056,17 +5009,23 @@
       "immediate": 2,
       "short": 8,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-08-25T11:02:47.384097Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 23
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-25T08:20:45.447141Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-25T11:02:47.384097Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 16
+        "ok": true,
+        "items": 150,
+        "relevant": 15
       },
       "manual": {
         "ok": true,
