@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-25T04:24:24.727329Z",
+  "generated_at": "2026-08-25T05:08:29.682820Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 14,
+      "score": 12,
       "low": 0,
-      "high": 30,
-      "confidence": 51,
+      "high": 28,
+      "confidence": 49,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 51,
+      "score": 15,
+      "low": 0,
+      "high": 31,
+      "confidence": 49,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 4,
-      "high": 36,
-      "confidence": 51,
+      "score": 16,
+      "low": 0,
+      "high": 32,
+      "confidence": 49,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -4
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "04:45",
       "text": "240 US - Israeli attacks on Iranian medical facilities ! - Workers Revolutionary Party",
-      "impact": "השפעה מיידית מחושבת: +11.5",
+      "impact": "השפעה מיידית מחושבת: +9.3",
       "direction": "up",
       "source": "wrp.org.uk",
       "signal_id": "855b4a889f5b8eec"
@@ -50,7 +50,7 @@
     {
       "time": "05:45",
       "text": "US launches  economic D - Day  against Iran",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "siasat.com",
       "signal_id": "822f7cfc2018a1b3"
@@ -58,7 +58,7 @@
     {
       "time": "05:45",
       "text": "Trump admin launches  economic D - Day  against Iran",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "wgal.com",
       "signal_id": "00c20d4839adad72"
@@ -66,7 +66,7 @@
     {
       "time": "04:45",
       "text": "🎥US warns the world to cut financial ties to Iran or face retaliation",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "littleapplepost.com",
       "signal_id": "0c1c433588df4bee"
@@ -83,7 +83,7 @@
       "dependency_group": "855b4a889f5b8eec",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.468,
+      "freshness": 0.379,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-25T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.5,
-        "short": 9.0,
-        "extended": 3.8
+        "immediate": 9.3,
+        "short": 7.3,
+        "extended": 3.1
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "822f7cfc2018a1b3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.623,
+      "freshness": 0.505,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-25T02:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "00c20d4839adad72",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.623,
+      "freshness": 0.505,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-25T02:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "0c1c433588df4bee",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.468,
+      "freshness": 0.379,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-25T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "dacb23670eb77964",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.468,
+      "freshness": 0.379,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-25T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "5959d9392af1c7eb",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.468,
+      "freshness": 0.379,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-08-25T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "ca1a9edbb1fae9d1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.468,
+      "freshness": 0.379,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@
       "published_at": "2026-08-25T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       },
       "carried_forward": true
     }
@@ -4720,6 +4720,12 @@
       "immediate": 14,
       "short": 18,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-08-25T05:08:29.682820Z",
+      "immediate": 12,
+      "short": 15,
+      "extended": 16
     }
   ],
   "health": {
