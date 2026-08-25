@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-25T16:01:18.459704Z",
+  "generated_at": "2026-08-25T16:51:47.123821Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 0,
       "low": 0,
-      "high": 18,
-      "confidence": 43,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
+      "score": 0,
       "low": 0,
-      "high": 21,
-      "confidence": 43,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 6,
+      "score": 0,
       "low": 0,
-      "high": 23,
-      "confidence": 43,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     }
   },
@@ -36,204 +36,10 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
-  "changes": [
-    {
-      "time": "13:30",
-      "text": "US Launches Economic Offensive to Isolate Iran - Novinite . com",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "novinite.com",
-      "signal_id": "d5cb219edbb0be7a"
-    },
-    {
-      "time": "13:30",
-      "text": "US Not Ruling Out Military Force Amid Economic Pressure On Iran",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "beijingbulletin.com",
-      "signal_id": "8f6b4a181d144baa"
-    },
-    {
-      "time": "13:30",
-      "text": "Four India - based companies bear the brunt of U . S . Iran sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "thehindu.com",
-      "signal_id": "82f8959af2beea1c"
-    },
-    {
-      "time": "13:30",
-      "text": "Can Trump economic war against Iran do what airstrikes and negotiations couldnt ?",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "wlrn.org",
-      "signal_id": "1a70d2c36ec0c1db"
-    }
-  ],
-  "signals": [
-    {
-      "id": "d5cb219edbb0be7a",
-      "name": "US Launches Economic Offensive to Isolate Iran - Novinite . com",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d5cb219edbb0be7a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.206,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "novinite.com",
-      "url": "https://www.novinite.com/articles/240272/US+Launches+Economic+Offensive+to+Isolate+Iran",
-      "published_at": "2026-08-25T10:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8f6b4a181d144baa",
-      "name": "US Not Ruling Out Military Force Amid Economic Pressure On Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8f6b4a181d144baa",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.206,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "beijingbulletin.com",
-      "url": "http://www.beijingbulletin.com/news/279263427/us-not-ruling-out-military-force-amid-economic-pressure-on-iran",
-      "published_at": "2026-08-25T10:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "82f8959af2beea1c",
-      "name": "Four India - based companies bear the brunt of U . S . Iran sanctions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "82f8959af2beea1c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.206,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thehindu.com",
-      "url": "https://www.thehindu.com/business/Economy/four-india-based-companies-bear-the-brunt-of-us-iran-sanctions/article71388216.ece",
-      "published_at": "2026-08-25T10:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1a70d2c36ec0c1db",
-      "name": "Can Trump economic war against Iran do what airstrikes and negotiations couldnt ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1a70d2c36ec0c1db",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.206,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wlrn.org",
-      "url": "https://www.wlrn.org/national-politics/2026-08-25/can-trumps-economic-war-against-iran-do-what-airstrikes-and-negotiations-couldnt",
-      "published_at": "2026-08-25T10:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7f533f0d9794860f",
-      "name": "Benjamin Netanyahu Iran Attack : मेरे एक बेटे को निशाना बनाया ! इजरायली PM ने ईरान को लेकर किया चौंकाने वाला खुलासा",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7f533f0d9794860f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.206,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "punjabkesari.com",
-      "url": "https://www.punjabkesari.com/world-news/benjamin-netanyahu-iran-attack-one-of-my-sons-was-targeted-israeli-pm-makes-a-shocking-revelation-regarding-iran/",
-      "published_at": "2026-08-25T10:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -4746,17 +4552,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 6
+    },
+    {
+      "timestamp": "2026-08-25T16:51:47.123821Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-08-25T11:02:47.384097Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 5
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
