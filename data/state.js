@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-25T15:06:30.756244Z",
+  "generated_at": "2026-08-25T16:01:18.459704Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@ window.MAGEN_STATE = {
       "score": 1,
       "low": 0,
       "high": 18,
-      "confidence": 44,
+      "confidence": 43,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 5,
+      "score": 4,
       "low": 0,
-      "high": 22,
-      "confidence": 44,
+      "high": 21,
+      "confidence": 43,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 8,
+      "score": 6,
       "low": 0,
-      "high": 25,
-      "confidence": 44,
+      "high": 23,
+      "confidence": 43,
       "status": "לא זוהה אות חריג"
     }
   },
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "13:30",
       "text": "US Launches Economic Offensive to Isolate Iran - Novinite . com",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "novinite.com",
       "signal_id": "d5cb219edbb0be7a"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "13:30",
       "text": "US Not Ruling Out Military Force Amid Economic Pressure On Iran",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "beijingbulletin.com",
       "signal_id": "8f6b4a181d144baa"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "13:30",
       "text": "Four India - based companies bear the brunt of U . S . Iran sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "thehindu.com",
       "signal_id": "82f8959af2beea1c"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "13:30",
       "text": "Can Trump economic war against Iran do what airstrikes and negotiations couldnt ?",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "wlrn.org",
       "signal_id": "1a70d2c36ec0c1db"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d5cb219edbb0be7a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.268,
+      "freshness": 0.206,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.6
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8f6b4a181d144baa",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.268,
+      "freshness": 0.206,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.6
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "82f8959af2beea1c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.268,
+      "freshness": 0.206,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.6
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1a70d2c36ec0c1db",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.268,
+      "freshness": 0.206,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.6
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7f533f0d9794860f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.268,
+      "freshness": 0.206,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,105 +227,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "11b5aca90e7fc114",
-      "name": "Stocks stagger and oil rises as traders eye Iran threat , Nvidia results",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "11b5aca90e7fc114",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.232,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "digitaljournal.com",
-      "url": "https://www.digitaljournal.com/article/stocks-stagger-and-oil-rises-as-traders-eye-iran-threat-nvidia-results/",
-      "published_at": "2026-08-25T10:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3ba6e94202e91e26",
-      "name": "Iran - US war live : Trump unveils  economic D - Day  sanctions as Tehran vows to go on the attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3ba6e94202e91e26",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.232,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "independent.co.uk",
-      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-sanctions-bessent-hormuz-news-b3038608.html",
-      "published_at": "2026-08-25T10:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "15803cae7fcc6c72",
-      "name": "Iran Threatens US Interests After Washington Expands Sanctions and Targets Oil Trade",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "15803cae7fcc6c72",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.188,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ibtimes.co.uk",
-      "url": "https://www.ibtimes.co.uk/us-iran-tensions-escalate-new-sanctions-oil-trade-1816099",
-      "published_at": "2026-08-25T09:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.4,
         "short": 1.2,
-        "extended": 2.1
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -4836,6 +4740,12 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 5,
       "extended": 8
+    },
+    {
+      "timestamp": "2026-08-25T16:01:18.459704Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 6
     }
   ],
   "health": {
@@ -4846,7 +4756,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 8
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
