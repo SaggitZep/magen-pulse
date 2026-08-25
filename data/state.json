@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-25T13:12:26.124618Z",
+  "generated_at": "2026-08-25T14:08:03.313385Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -14,17 +14,17 @@
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 6,
       "low": 0,
-      "high": 25,
+      "high": 23,
       "confidence": 46,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
+      "score": 10,
       "low": 0,
-      "high": 30,
+      "high": 27,
       "confidence": 46,
       "status": "נמוך"
     }
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "13:30",
       "text": "US Launches Economic Offensive to Isolate Iran - Novinite . com",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "novinite.com",
       "signal_id": "d5cb219edbb0be7a"
@@ -50,7 +50,7 @@
     {
       "time": "13:30",
       "text": "US Not Ruling Out Military Force Amid Economic Pressure On Iran",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "beijingbulletin.com",
       "signal_id": "8f6b4a181d144baa"
@@ -58,7 +58,7 @@
     {
       "time": "13:30",
       "text": "Four India - based companies bear the brunt of U . S . Iran sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "thehindu.com",
       "signal_id": "82f8959af2beea1c"
@@ -66,7 +66,7 @@
     {
       "time": "13:30",
       "text": "Can Trump economic war against Iran do what airstrikes and negotiations couldnt ?",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "wlrn.org",
       "signal_id": "1a70d2c36ec0c1db"
@@ -83,7 +83,7 @@
       "dependency_group": "d5cb219edbb0be7a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.461,
+      "freshness": 0.354,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-25T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "8f6b4a181d144baa",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.461,
+      "freshness": 0.354,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-25T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "82f8959af2beea1c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.461,
+      "freshness": 0.354,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-25T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "1a70d2c36ec0c1db",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.461,
+      "freshness": 0.354,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-25T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "7f533f0d9794860f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.461,
+      "freshness": 0.354,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-25T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "11b5aca90e7fc114",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.4,
+      "freshness": 0.307,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-08-25T10:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "3ba6e94202e91e26",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.4,
+      "freshness": 0.307,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@
       "published_at": "2026-08-25T10:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@
       "dependency_group": "15803cae7fcc6c72",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.323,
+      "freshness": 0.248,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@
       "published_at": "2026-08-25T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -339,7 +339,7 @@
       "dependency_group": "cc9e9ce7e2c60b57",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.243,
+      "freshness": 0.186,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +355,9 @@
       "published_at": "2026-08-25T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -371,7 +371,7 @@
       "dependency_group": "5984f83934426f3c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.243,
+      "freshness": 0.186,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -387,169 +387,9 @@
       "published_at": "2026-08-25T08:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8969e7515cde2d5f",
-      "name": "Trump  economic D - Day  threats become warnings for countries to sever financial ties with Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8969e7515cde2d5f",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.196,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wdrb.com",
-      "url": "https://www.wdrb.com/news/national/trumps-economic-d-day-threats-become-warnings-for-countries-to-sever-financial-ties-with-iran/article_13ebd2c9-09ee-5fbf-b5d4-28c7df18be5c.html",
-      "published_at": "2026-08-25T07:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f7a77c41d175d1ac",
-      "name": "Secret Service aware of Iranian state media video threatening life of Barron Trump",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f7a77c41d175d1ac",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.196,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "edition.cnn.com",
-      "url": "https://edition.cnn.com/2026/08/24/politics/iran-barron-trump-threat-intl-hnk",
-      "published_at": "2026-08-25T07:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d499434e8662053a",
-      "name": "Trump treats threats as warnings for countries to sever ties with Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d499434e8662053a",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.196,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "tribtoday.com",
-      "url": "https://www.tribtoday.com/news/national-news-apwire/2026/08/trump-treats-threats-as-warnings-for-countries-to-sever-ties-with-iran/",
-      "published_at": "2026-08-25T07:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "665c5857cb7e9e53",
-      "name": "US announces new sanctions on Iran , threatens to punish countries , entities trading with it",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "665c5857cb7e9e53",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.196,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "premiumtimesng.com",
-      "url": "https://www.premiumtimesng.com/foreign/905226-us-announces-new-sanctions-on-iran-threatens-to-punish-countries-entities-trading-with-it.html",
-      "published_at": "2026-08-25T07:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "38962adc8303dca7",
-      "name": "US launches  Economic Outcast  campaign to isolate Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "38962adc8303dca7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.196,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "omanobserver.om",
-      "url": "https://www.omanobserver.om/article/1195044/world/region/us-launches-economic-outcast-campaign-to-isolate-iran",
-      "published_at": "2026-08-25T07:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.3,
         "short": 1.1,
-        "extended": 1.9
+        "extended": 1.8
       },
       "carried_forward": true
     }
@@ -5048,6 +4888,12 @@
       "immediate": 2,
       "short": 8,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-08-25T14:08:03.313385Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 10
     }
   ],
   "health": {
@@ -5057,8 +4903,8 @@
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 15
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "carried_forward": 10
       },
       "manual": {
         "ok": true,
