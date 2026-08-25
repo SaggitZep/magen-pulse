@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-25T06:22:47.524522Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-25T07:25:30.648423Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 66,
+      "high": 19,
+      "confidence": 48,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 10,
       "low": 0,
       "high": 26,
-      "confidence": 66,
+      "confidence": 48,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 66,
+      "score": 16,
+      "low": 0,
+      "high": 32,
+      "confidence": 48,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "08:00",
       "text": "Barron Trump Threat Signals Iran Escalating Focus on First Family After Targeting the President and Melania",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "ibtimes.co.uk",
       "signal_id": "c313e44f4e4edbf5"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "08:30",
       "text": "US imposes sanctions on nearly 60 entities , individuals and vessels linked to Iran military activities , oil trade",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "beijingbulletin.com",
       "signal_id": "26ec027765f21861"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "08:30",
       "text": "US Not Ruling Out Military Force Amid Economic Pressure On Iran",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "australiannews.net",
       "signal_id": "8f6b4a181d144baa"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "08:00",
       "text": "Iran Sanctions Threat Puts Trump on Collision Course With China",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "slguardian.org",
       "signal_id": "a8ca9c1349e7616a"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c313e44f4e4edbf5",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.674,
+      "freshness": 0.5,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.5
+      },
+      "carried_forward": true
     },
     {
       "id": "26ec027765f21861",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "26ec027765f21861",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.778,
+      "freshness": 0.577,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T05:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
+      },
+      "carried_forward": true
     },
     {
       "id": "8f6b4a181d144baa",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8f6b4a181d144baa",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.778,
+      "freshness": 0.577,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T05:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
+      },
+      "carried_forward": true
     },
     {
       "id": "a8ca9c1349e7616a",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a8ca9c1349e7616a",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.674,
+      "freshness": 0.5,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,72 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
-    },
-    {
-      "id": "005e8f0a7e7e7cb3",
-      "name": "Trump Iran Trap : Operation Economic Outcast , Escalating Sanctions and the Looming Threat of Military Strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "005e8f0a7e7e7cb3",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.584,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.5
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "openthemagazine.com",
-      "url": "https://openthemagazine.com/world/trumps-iran-trap-operation-economic-outcast-escalating-sanctions-and-the-looming-threat-of-military-strikes",
-      "published_at": "2026-08-25T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      }
-    },
-    {
-      "id": "75d375bd1c3dcd65",
-      "name": "China is the biggest buyer of Iran oil . Could US sanctions threaten those ties ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "75d375bd1c3dcd65",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.584,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aol.co.uk",
-      "url": "https://www.aol.co.uk/articles/china-biggest-buyer-iran-oil-024459000.html",
-      "published_at": "2026-08-25T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      }
+      "carried_forward": true
     },
     {
       "id": "504ec47a633dae01",
@@ -269,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "504ec47a633dae01",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.674,
+      "freshness": 0.5,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +227,75 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      }
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "005e8f0a7e7e7cb3",
+      "name": "Trump Iran Trap : Operation Economic Outcast , Escalating Sanctions and the Looming Threat of Military Strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "005e8f0a7e7e7cb3",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.434,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "openthemagazine.com",
+      "url": "https://openthemagazine.com/world/trumps-iran-trap-operation-economic-outcast-escalating-sanctions-and-the-looming-threat-of-military-strikes",
+      "published_at": "2026-08-25T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "75d375bd1c3dcd65",
+      "name": "China is the biggest buyer of Iran oil . Could US sanctions threaten those ties ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "75d375bd1c3dcd65",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.434,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aol.co.uk",
+      "url": "https://www.aol.co.uk/articles/china-biggest-buyer-iran-oil-024459000.html",
+      "published_at": "2026-08-25T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      },
+      "carried_forward": true
     },
     {
       "id": "11b5aca90e7fc114",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "11b5aca90e7fc114",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.584,
+      "freshness": 0.434,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.5
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      },
+      "carried_forward": true
     },
     {
       "id": "5d87b44726080cf6",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5d87b44726080cf6",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.507,
+      "freshness": 0.376,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.2
+      },
+      "carried_forward": true
     },
     {
       "id": "ab65a226cf002615",
@@ -362,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ab65a226cf002615",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.507,
+      "freshness": 0.376,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.2
+      },
+      "carried_forward": true
     },
     {
       "id": "c738f086f511d6b5",
@@ -393,7 +403,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c738f086f511d6b5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.507,
+      "freshness": 0.376,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "5987ea607ce5a057",
@@ -424,7 +435,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5987ea607ce5a057",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.472,
+      "freshness": 0.35,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,10 +451,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "42751e7fe48b28a6",
@@ -455,7 +467,7 @@ window.MAGEN_STATE = {
       "dependency_group": "42751e7fe48b28a6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.472,
+      "freshness": 0.35,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,10 +483,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "822f7cfc2018a1b3",
@@ -486,7 +499,7 @@ window.MAGEN_STATE = {
       "dependency_group": "822f7cfc2018a1b3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.354,
+      "freshness": 0.263,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,10 +515,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T02:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     },
     {
       "id": "00c20d4839adad72",
@@ -517,7 +531,7 @@ window.MAGEN_STATE = {
       "dependency_group": "00c20d4839adad72",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.354,
+      "freshness": 0.263,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,10 +547,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T02:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -4979,17 +4994,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-25T07:25:30.648423Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 16
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-25T06:22:47.524522Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 15
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 15
       },
       "manual": {
         "ok": true,
