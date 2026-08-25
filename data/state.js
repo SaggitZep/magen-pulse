@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-25T01:46:43.698458Z",
+  "generated_at": "2026-08-25T02:48:54.738022Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 16,
-      "low": 3,
-      "high": 29,
+      "score": 29,
+      "low": 16,
+      "high": 42,
       "confidence": 65,
-      "status": "נמוך"
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 20,
-      "low": 7,
-      "high": 33,
+      "score": 31,
+      "low": 18,
+      "high": 44,
       "confidence": 65,
-      "status": "נמוך"
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
+      "score": 30,
+      "low": 17,
+      "high": 43,
       "confidence": 65,
-      "status": "נמוך"
+      "status": "מוגבר"
     }
   },
   "coverage": {
@@ -36,43 +36,74 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "עלייה מהירה",
-    "points_60m": 12
+    "points_60m": 13
   },
   "changes": [
     {
+      "time": "04:45",
+      "text": "240 US - Israeli attacks on Iranian medical facilities ! - Workers Revolutionary Party",
+      "impact": "השפעה מיידית מחושבת: +18.2",
+      "direction": "up",
+      "source": "wrp.org.uk",
+      "signal_id": "855b4a889f5b8eec"
+    },
+    {
       "time": "02:30",
       "text": "Treasury launches  Operation Economic Outcast  against Iran - Israel & Jewish News",
-      "impact": "השפעה מיידית מחושבת: +12.8",
+      "impact": "השפעה מיידית מחושבת: +9.6",
       "direction": "up",
       "source": "jns.org",
       "signal_id": "27ffcd4ecfde842b"
     },
     {
-      "time": "04:15",
-      "text": "Trump admin launches  economic D - Day  against Iran",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "time": "04:45",
+      "text": "🎥US warns the world to cut financial ties to Iran or face retaliation",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "kcci.com",
-      "signal_id": "00c20d4839adad72"
+      "source": "littleapplepost.com",
+      "signal_id": "0c1c433588df4bee"
     },
     {
-      "time": "02:15",
-      "text": "US launches  economic D - Day  against Iran , threatens sanctions on its global partners",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "04:45",
+      "text": "Bessent threatens new Iran secondary sanctions – NBC 6 South Florida",
+      "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "albawaba.net",
-      "signal_id": "d2bdc90ab96a03df"
-    },
-    {
-      "time": "02:30",
-      "text": "U . S . Sanctions Iran : Military , Cyber , Oil Targeted",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "miragenews.com",
-      "signal_id": "dff12258acd930bf"
+      "source": "nbcmiami.com",
+      "signal_id": "dacb23670eb77964"
     }
   ],
   "signals": [
+    {
+      "id": "855b4a889f5b8eec",
+      "name": "240 US - Israeli attacks on Iranian medical facilities ! - Workers Revolutionary Party",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "855b4a889f5b8eec",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.738,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "wrp.org.uk",
+      "url": "https://wrp.org.uk/features/240-us-israeli-attacks-on-iranian-medical-facilities/",
+      "published_at": "2026-08-25T01:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 18.2,
+        "short": 14.2,
+        "extended": 6.0
+      }
+    },
     {
       "id": "27ffcd4ecfde842b",
       "name": "Treasury launches  Operation Economic Outcast  against Iran - Israel & Jewish News",
@@ -83,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "27ffcd4ecfde842b",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.521,
+      "freshness": 0.388,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +130,133 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T23:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 12.8,
-        "short": 10.0,
-        "extended": 4.2
+        "immediate": 9.6,
+        "short": 7.5,
+        "extended": 3.2
+      }
+    },
+    {
+      "id": "0c1c433588df4bee",
+      "name": "🎥US warns the world to cut financial ties to Iran or face retaliation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0c1c433588df4bee",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.738,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "littleapplepost.com",
+      "url": "https://littleapplepost.com/posts/2d6ffb6c-eed7-4298-9788-2cd2a6e0ec25",
+      "published_at": "2026-08-25T01:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "dacb23670eb77964",
+      "name": "Bessent threatens new Iran secondary sanctions – NBC 6 South Florida",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dacb23670eb77964",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.738,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nbcmiami.com",
+      "url": "https://www.nbcmiami.com/news/national-international/bessent-iran-sanctions-d-day-trump/3849955/",
+      "published_at": "2026-08-25T01:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "5959d9392af1c7eb",
+      "name": "U . S . threatens  economic D - Day  sanctions on Iran - People Daily Online",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5959d9392af1c7eb",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.738,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "en.people.cn",
+      "url": "http://en.people.cn/n3/2026/0825/c90000-20491977.html",
+      "published_at": "2026-08-25T01:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "ca1a9edbb1fae9d1",
+      "name": "Trump claims Iran  collapsing  as US threatens more economic sanctions – Daily Trust",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ca1a9edbb1fae9d1",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.738,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailytrust.com",
+      "url": "https://dailytrust.com/trump-claims-iran-collapsing-as-us-threatens-more-economic-sanctions/",
+      "published_at": "2026-08-25T01:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
       }
     },
     {
@@ -114,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "00c20d4839adad72",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.86,
+      "freshness": 0.738,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,14 +280,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "kcci.com",
-      "url": "https://www.kcci.com/article/trump-economic-d-day-iran-sanctions/73514906",
-      "published_at": "2026-08-25T01:15:00Z",
+      "source": "wbaltv.com",
+      "url": "https://www.wbaltv.com/article/trump-economic-d-day-iran-sanctions/73514906",
+      "published_at": "2026-08-25T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
       }
     },
     {
@@ -145,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d2bdc90ab96a03df",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.486,
+      "freshness": 0.361,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
       }
     },
     {
@@ -176,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "dff12258acd930bf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.521,
+      "freshness": 0.388,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,71 +347,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T23:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
-    },
-    {
-      "id": "3472a9f2e639a283",
-      "name": "US threatens countries doing business with Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3472a9f2e639a283",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.452,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "standard.net.au",
-      "url": "https://www.standard.net.au/story/9336610/us-threatens-countries-doing-business-with-iran/",
-      "published_at": "2026-08-24T23:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      }
-    },
-    {
-      "id": "57266943e041942e",
-      "name": "Iran threatens to fine , detain vessels violating Hormuz transit rules | Hellenic Shipping News Worldwide",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "57266943e041942e",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.452,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hellenicshippingnews.com",
-      "url": "https://www.hellenicshippingnews.com/iran-threatens-to-fine-detain-vessels-violating-hormuz-transit-rules/",
-      "published_at": "2026-08-24T23:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       }
     },
     {
@@ -269,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d3b7bda0e967f549",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.486,
+      "freshness": 0.361,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +378,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
       }
     },
     {
@@ -300,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fb4ee9636fd48955",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.486,
+      "freshness": 0.361,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,9 +409,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       }
     },
     {
@@ -331,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b1220a5c1a0fe7b2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.486,
+      "freshness": 0.361,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,22 +440,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       }
     },
     {
-      "id": "8969e7515cde2d5f",
-      "name": "Trump  economic D - Day  threats become warnings for countries to sever financial ties with Iran",
+      "id": "3472a9f2e639a283",
+      "name": "US threatens countries doing business with Iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "8969e7515cde2d5f",
+      "dependency_group": "3472a9f2e639a283",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.421,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -373,76 +466,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "union-bulletin.com",
-      "url": "https://www.union-bulletin.com/news/world/trumps-economic-d-day-threats-become-warnings-for-countries-to-sever-financial-ties-with-iran/article_f105e87e-4a42-5679-9cdd-4795ca113eb6.html",
-      "published_at": "2026-08-24T22:45:00Z",
+      "source": "standard.net.au",
+      "url": "https://www.standard.net.au/story/9336610/us-threatens-countries-doing-business-with-iran/",
+      "published_at": "2026-08-24T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "eeb5ca28ddc1d4e5",
-      "name": "U . S . threatens  economic D - Day  sanctions on Iran - Xinhua",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "eeb5ca28ddc1d4e5",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.392,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "english.news.cn",
-      "url": "https://english.news.cn/northamerica/20260825/d726f2a843fb408189979118f9763383/c.html",
-      "published_at": "2026-08-24T22:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.3
-      }
-    },
-    {
-      "id": "39429a33ac13970b",
-      "name": "U . S . threatens countries doing business with Iran , but holds off on penalties for now",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "39429a33ac13970b",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.392,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "japantoday.com",
-      "url": "https://japantoday.com/category/world/us-threatens-countries-doing-business-with-iran-but-holds-off-on-penalties-for-now1",
-      "published_at": "2026-08-24T22:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.3
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       }
     },
     {
@@ -455,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d4a73a080729a7a3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.452,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,9 +502,40 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-24T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
+      }
+    },
+    {
+      "id": "57266943e041942e",
+      "name": "Iran threatens to fine , detain vessels violating Hormuz transit rules | Hellenic Shipping News Worldwide",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "57266943e041942e",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.336,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hellenicshippingnews.com",
+      "url": "https://www.hellenicshippingnews.com/iran-threatens-to-fine-detain-vessels-violating-hormuz-transit-rules/",
+      "published_at": "2026-08-24T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       }
     }
   ],
@@ -4881,17 +4943,23 @@ window.MAGEN_STATE = {
       "immediate": 16,
       "short": 20,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-08-25T02:48:54.738022Z",
+      "immediate": 29,
+      "short": 31,
+      "extended": 30
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-25T01:46:43.698458Z",
+    "last_success": "2026-08-25T02:48:54.738022Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 13
+        "relevant": 15
       },
       "manual": {
         "ok": true,
