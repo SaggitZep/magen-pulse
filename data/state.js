@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-08-25T02:48:54.738022Z",
+  "generated_at": "2026-08-25T03:38:24.151395Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 29,
-      "low": 16,
-      "high": 42,
-      "confidence": 65,
-      "status": "מוגבר"
+      "score": 18,
+      "low": 5,
+      "high": 31,
+      "confidence": 68,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 31,
-      "low": 18,
-      "high": 44,
-      "confidence": 65,
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 68,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 30,
-      "low": 17,
-      "high": 43,
-      "confidence": 65,
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 68,
       "status": "מוגבר"
     }
   },
@@ -35,41 +35,41 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מהירה",
-    "points_60m": 13
+    "level": "ירידה",
+    "points_60m": -11
   },
   "changes": [
     {
       "time": "04:45",
       "text": "240 US - Israeli attacks on Iranian medical facilities ! - Workers Revolutionary Party",
-      "impact": "השפעה מיידית מחושבת: +18.2",
+      "impact": "השפעה מיידית מחושבת: +14.4",
       "direction": "up",
       "source": "wrp.org.uk",
       "signal_id": "855b4a889f5b8eec"
     },
     {
-      "time": "02:30",
-      "text": "Treasury launches  Operation Economic Outcast  against Iran - Israel & Jewish News",
-      "impact": "השפעה מיידית מחושבת: +9.6",
+      "time": "05:45",
+      "text": "US launches  economic D - Day  against Iran",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "jns.org",
-      "signal_id": "27ffcd4ecfde842b"
+      "source": "siasat.com",
+      "signal_id": "822f7cfc2018a1b3"
+    },
+    {
+      "time": "05:45",
+      "text": "Trump admin launches  economic D - Day  against Iran",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "wgal.com",
+      "signal_id": "00c20d4839adad72"
     },
     {
       "time": "04:45",
       "text": "🎥US warns the world to cut financial ties to Iran or face retaliation",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "littleapplepost.com",
       "signal_id": "0c1c433588df4bee"
-    },
-    {
-      "time": "04:45",
-      "text": "Bessent threatens new Iran secondary sanctions – NBC 6 South Florida",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "nbcmiami.com",
-      "signal_id": "dacb23670eb77964"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "855b4a889f5b8eec",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.738,
+      "freshness": 0.583,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,40 +99,71 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 18.2,
-        "short": 14.2,
-        "extended": 6.0
+        "immediate": 14.4,
+        "short": 11.2,
+        "extended": 4.8
       }
     },
     {
-      "id": "27ffcd4ecfde842b",
-      "name": "Treasury launches  Operation Economic Outcast  against Iran - Israel & Jewish News",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "822f7cfc2018a1b3",
+      "name": "US launches  economic D - Day  against Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "27ffcd4ecfde842b",
-      "strength": 0.5,
+      "dependency_group": "822f7cfc2018a1b3",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.388,
+      "freshness": 0.775,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "jns.org",
-      "url": "https://www.jns.org/news/u-s-news/treasury-launches-operation-economic-outcast-against-iran",
-      "published_at": "2026-08-24T23:30:00Z",
+      "source": "siasat.com",
+      "url": "https://www.siasat.com/us-launches-economic-d-day-against-iran-3530281/",
+      "published_at": "2026-08-25T02:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 9.6,
-        "short": 7.5,
-        "extended": 3.2
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "00c20d4839adad72",
+      "name": "Trump admin launches  economic D - Day  against Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "00c20d4839adad72",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.775,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wgal.com",
+      "url": "https://www.wgal.com/article/trump-economic-d-day-iran-sanctions/73514906",
+      "published_at": "2026-08-25T02:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.6
       }
     },
     {
@@ -145,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0c1c433588df4bee",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.738,
+      "freshness": 0.583,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       }
     },
     {
@@ -176,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "dacb23670eb77964",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.738,
+      "freshness": 0.583,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       }
     },
     {
@@ -207,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5959d9392af1c7eb",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.738,
+      "freshness": 0.583,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       }
     },
     {
@@ -238,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ca1a9edbb1fae9d1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.738,
+      "freshness": 0.583,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,288 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-25T01:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
-      }
-    },
-    {
-      "id": "00c20d4839adad72",
-      "name": "Trump admin launches  economic D - Day  against Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "00c20d4839adad72",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.738,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wbaltv.com",
-      "url": "https://www.wbaltv.com/article/trump-economic-d-day-iran-sanctions/73514906",
-      "published_at": "2026-08-25T01:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
-      }
-    },
-    {
-      "id": "d2bdc90ab96a03df",
-      "name": "US launches  economic D - Day  against Iran , threatens sanctions on its global partners",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d2bdc90ab96a03df",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.361,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "albawaba.net",
-      "url": "https://www.albawaba.net/news/us-launches-%E2%80%98economic-d-day%E2%80%99-against-1635702",
-      "published_at": "2026-08-24T23:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      }
-    },
-    {
-      "id": "dff12258acd930bf",
-      "name": "U . S . Sanctions Iran : Military , Cyber , Oil Targeted",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "dff12258acd930bf",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.388,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "miragenews.com",
-      "url": "https://www.miragenews.com/us-sanctions-iran-military-cyber-oil-targeted-1732373/",
-      "published_at": "2026-08-24T23:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
-    },
-    {
-      "id": "d3b7bda0e967f549",
-      "name": "U . S . Threatens Iran Trading Partners in New Economic Pressure Campaign",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d3b7bda0e967f549",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.361,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gcaptain.com",
-      "url": "https://gcaptain.com/u-s-threatens-irans-trading-partners-in-new-economic-pressure-campaign/",
-      "published_at": "2026-08-24T23:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      }
-    },
-    {
-      "id": "fb4ee9636fd48955",
-      "name": "Trump Administration Launches Sweeping New Iran Sanctions Campaign Targeting Shipping and Oil Trade",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fb4ee9636fd48955",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.361,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gcaptain.com",
-      "url": "https://gcaptain.com/trump-administration-launches-sweeping-new-iran-sanctions-campaign-targeting-shipping-and-oil-trade/",
-      "published_at": "2026-08-24T23:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
-    },
-    {
-      "id": "b1220a5c1a0fe7b2",
-      "name": "MAXIMUM PRESSURE : U . S . Launches  Largest Financial Blockade Ever  Against Iran – The Yeshiva World",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b1220a5c1a0fe7b2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.361,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2589138/maximum-pressure-u-s-launches-largest-financial-blockade-ever-against-iran.html",
-      "published_at": "2026-08-24T23:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
-    },
-    {
-      "id": "3472a9f2e639a283",
-      "name": "US threatens countries doing business with Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3472a9f2e639a283",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.336,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "standard.net.au",
-      "url": "https://www.standard.net.au/story/9336610/us-threatens-countries-doing-business-with-iran/",
-      "published_at": "2026-08-24T23:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    },
-    {
-      "id": "d4a73a080729a7a3",
-      "name": "US could carry out further strikes on Iran if needed : Hegseth",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d4a73a080729a7a3",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.336,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/us-israel-iran-war/us-could-carry-out-further-strikes-on-iran-if-needed-hegseth/4036341",
-      "published_at": "2026-08-24T23:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      }
-    },
-    {
-      "id": "57266943e041942e",
-      "name": "Iran threatens to fine , detain vessels violating Hormuz transit rules | Hellenic Shipping News Worldwide",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "57266943e041942e",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.336,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hellenicshippingnews.com",
-      "url": "https://www.hellenicshippingnews.com/iran-threatens-to-fine-detain-vessels-violating-hormuz-transit-rules/",
-      "published_at": "2026-08-24T23:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
       }
     }
   ],
@@ -4949,17 +4701,23 @@ window.MAGEN_STATE = {
       "immediate": 29,
       "short": 31,
       "extended": 30
+    },
+    {
+      "timestamp": "2026-08-25T03:38:24.151395Z",
+      "immediate": 18,
+      "short": 22,
+      "extended": 24
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-08-25T02:48:54.738022Z",
+    "last_success": "2026-08-25T03:38:24.151395Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 15
+        "relevant": 7
       },
       "manual": {
         "ok": true,
