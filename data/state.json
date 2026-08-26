@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-26T14:30:36.466395Z",
+  "generated_at": "2026-08-26T16:04:44.140510Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 0,
       "low": 0,
-      "high": 19,
-      "confidence": 45,
+      "high": 20,
+      "confidence": 28,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 5,
+      "score": 1,
       "low": 0,
-      "high": 22,
-      "confidence": 45,
+      "high": 21,
+      "confidence": 28,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 9,
+      "score": 2,
       "low": 0,
-      "high": 26,
-      "confidence": 45,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 28,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -35,41 +35,17 @@
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "ירידה",
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "13:30",
       "text": "How the Iranian Shahed Drone Transformed War With China Help",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "hindustantimes.com",
       "signal_id": "01052a767372aaf4"
-    },
-    {
-      "time": "11:45",
-      "text": "Marco Rubio : US temporarily halting strike on Iran in favor of economic sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "1d046478380e7c46"
-    },
-    {
-      "time": "12:45",
-      "text": "Iran , Oman Move Toward Temporary Hormuz Shipping Corridor - Novinite . com",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "novinite.com",
-      "signal_id": "8d5f5e9bb9365ea7"
-    },
-    {
-      "time": "12:00",
-      "text": "Trump threatens Iran partners : How do secondary sanctions work ? | Business and Economy News",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "aljazeera.com",
-      "signal_id": "4e6c7bff047aff5f"
     }
   ],
   "signals": [
@@ -83,7 +59,7 @@
       "dependency_group": "01052a767372aaf4",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.318,
+      "freshness": 0.203,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,137 +75,9 @@
       "published_at": "2026-08-26T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1d046478380e7c46",
-      "name": "Marco Rubio : US temporarily halting strike on Iran in favor of economic sanctions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1d046478380e7c46",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.193,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "http://www.jpost.com/middle-east/iran-news/article-906609",
-      "published_at": "2026-08-26T08:45:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8d5f5e9bb9365ea7",
-      "name": "Iran , Oman Move Toward Temporary Hormuz Shipping Corridor - Novinite . com",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8d5f5e9bb9365ea7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.257,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "novinite.com",
-      "url": "https://www.novinite.com/articles/240298/Iran,+Oman+Move+Toward+Temporary+Hormuz+Shipping+Corridor",
-      "published_at": "2026-08-26T09:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4e6c7bff047aff5f",
-      "name": "Trump threatens Iran partners : How do secondary sanctions work ? | Business and Economy News",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4e6c7bff047aff5f",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.207,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/economy/2026/8/26/trump-threatens-irans-partners-how-do-secondary-sanctions-work",
-      "published_at": "2026-08-26T09:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "01acbbc9712ebf93",
-      "name": "No new Iran strikes for now , Rubio tells allies as US tightens economic pressure",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "01acbbc9712ebf93",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.207,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260826/4490731.html",
-      "published_at": "2026-08-26T09:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.0
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     }
@@ -4926,6 +4774,12 @@
       "immediate": 2,
       "short": 5,
       "extended": 9
+    },
+    {
+      "timestamp": "2026-08-26T16:04:44.140510Z",
+      "immediate": 0,
+      "short": 1,
+      "extended": 2
     }
   ],
   "health": {
@@ -4936,7 +4790,7 @@
       "gdelt": {
         "ok": false,
         "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 5
+        "carried_forward": 1
       },
       "manual": {
         "ok": true,
