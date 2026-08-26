@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-26T08:21:46.930748Z",
+  "generated_at": "2026-08-26T09:10:16.291431Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 1,
       "low": 0,
-      "high": 19,
-      "confidence": 45,
+      "high": 18,
+      "confidence": 44,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
+      "score": 5,
       "low": 0,
-      "high": 23,
-      "confidence": 45,
+      "high": 22,
+      "confidence": 44,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 10,
+      "score": 8,
       "low": 0,
-      "high": 27,
-      "confidence": 45,
+      "high": 25,
+      "confidence": 44,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "08:00",
       "text": "US holds off on new Iran strikes , turns to economic squeeze",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "ynetnews.com",
       "signal_id": "4a4a3f819fbfcee1"
@@ -50,7 +50,7 @@
     {
       "time": "08:00",
       "text": "Iranian strikes caused billions in damage to US intelligence sites : Report",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "fba20f6802086eba"
@@ -58,7 +58,7 @@
     {
       "time": "07:30",
       "text": "The United States has sanctioned four India - based companies and three Indian nationals for importing petroleum and petrochemical products from Iran , as part of a campaign announced on Monday to cut off Tehran revenue ",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "dailypioneer.com",
       "signal_id": "e3e2d0c95a1a2f83"
@@ -66,7 +66,7 @@
     {
       "time": "07:00",
       "text": "Four India - based companies engulfed in Trump economic offensive against Iran",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "economictimes.indiatimes.com",
       "signal_id": "bbf45a756cc001b2"
@@ -83,7 +83,7 @@
       "dependency_group": "4a4a3f819fbfcee1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.383,
+      "freshness": 0.304,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-26T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "fba20f6802086eba",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.383,
+      "freshness": 0.304,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-26T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "e3e2d0c95a1a2f83",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.332,
+      "freshness": 0.263,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-26T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "bbf45a756cc001b2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.287,
+      "freshness": 0.228,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-26T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.8
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "9bb3f22437152f44",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.249,
+      "freshness": 0.198,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,73 +227,9 @@
       "published_at": "2026-08-26T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "437b9fcf1c9d00d0",
-      "name": "US Iran War News Live Updates : Iran keeps Hormuz closed despite Oman deal ; Trump warns of military response",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "437b9fcf1c9d00d0",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.201,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-news-live-updates-donald-trump-warning-strait-of-hormuz-mines-cleared-middle-east-conflict-barron-trump-tehran-latest-news/liveblog/133527138.cms",
-      "published_at": "2026-08-26T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3645f2d3a665a9e9",
-      "name": "Report : Why Iran fanbase is fractured after World Cup journey",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3645f2d3a665a9e9",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.216,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailymail.com",
-      "url": "https://www.dailymail.com/vertical-galleries/article-15901121/Report-Irans-fanbase-fractured-World-Cup-journey.html",
-      "published_at": "2026-08-26T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.1
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -4942,6 +4878,12 @@
       "immediate": 2,
       "short": 6,
       "extended": 10
+    },
+    {
+      "timestamp": "2026-08-26T09:10:16.291431Z",
+      "immediate": 1,
+      "short": 5,
+      "extended": 8
     }
   ],
   "health": {
@@ -4951,8 +4893,8 @@
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 7
+        "error": "<urlopen error timed out>",
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
