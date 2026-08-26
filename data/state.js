@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-26T09:59:33.721652Z",
+  "generated_at": "2026-08-26T10:46:57.922141Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 1,
       "low": 0,
-      "high": 19,
-      "confidence": 39,
+      "high": 20,
+      "confidence": 31,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
+      "score": 2,
       "low": 0,
-      "high": 22,
-      "confidence": 39,
+      "high": 21,
+      "confidence": 31,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 7,
+      "score": 4,
       "low": 0,
-      "high": 25,
-      "confidence": 39,
+      "high": 23,
+      "confidence": 31,
       "status": "לא זוהה אות חריג"
     }
   },
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "08:00",
       "text": "US holds off on new Iran strikes , turns to economic squeeze",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "ynetnews.com",
       "signal_id": "4a4a3f819fbfcee1"
@@ -50,26 +50,10 @@ window.MAGEN_STATE = {
     {
       "time": "08:00",
       "text": "Iranian strikes caused billions in damage to US intelligence sites : Report",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "fba20f6802086eba"
-    },
-    {
-      "time": "07:30",
-      "text": "The United States has sanctioned four India - based companies and three Indian nationals for importing petroleum and petrochemical products from Iran , as part of a campaign announced on Monday to cut off Tehran revenue ",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "dailypioneer.com",
-      "signal_id": "e3e2d0c95a1a2f83"
-    },
-    {
-      "time": "07:00",
-      "text": "Four India - based companies engulfed in Trump economic offensive against Iran",
-      "impact": "השפעה מיידית מחושבת: +0.3",
-      "direction": "up",
-      "source": "economictimes.indiatimes.com",
-      "signal_id": "bbf45a756cc001b2"
     }
   ],
   "signals": [
@@ -83,7 +67,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4a4a3f819fbfcee1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.24,
+      "freshness": 0.192,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +83,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
       },
       "carried_forward": true
     },
@@ -115,7 +99,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fba20f6802086eba",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.24,
+      "freshness": 0.192,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,73 +115,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e3e2d0c95a1a2f83",
-      "name": "The United States has sanctioned four India - based companies and three Indian nationals for importing petroleum and petrochemical products from Iran , as part of a campaign announced on Monday to cut off Tehran revenue ",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e3e2d0c95a1a2f83",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.208,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailypioneer.com",
-      "url": "https://dailypioneer.com/news/the-united-states-has-sanctioned-four-india-based-companies-and-three-indian-nationals-for-importing-petroleum-and-petrochemical-products-from-iran-as-part-of-a-campaign-announced-on-monday-to-cut-off-tehran-s-revenue",
-      "published_at": "2026-08-26T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "bbf45a756cc001b2",
-      "name": "Four India - based companies engulfed in Trump economic offensive against Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bbf45a756cc001b2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.18,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/four-india-based-companies-engulfed-in-trumps-economic-offensive-against-iran/articleshow/133528011.cms",
-      "published_at": "2026-08-26T04:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.3,
-        "short": 1.0,
-        "extended": 1.8
+        "short": 1.1,
+        "extended": 1.9
       },
       "carried_forward": true
     }
@@ -4858,6 +4778,12 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 7
+    },
+    {
+      "timestamp": "2026-08-26T10:46:57.922141Z",
+      "immediate": 1,
+      "short": 2,
+      "extended": 4
     }
   ],
   "health": {
@@ -4867,8 +4793,8 @@ window.MAGEN_STATE = {
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 4
+        "error": "<urlopen error timed out>",
+        "carried_forward": 2
       },
       "manual": {
         "ok": true,
