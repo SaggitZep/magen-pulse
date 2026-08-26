@@ -1,73 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-26T10:46:57.922141Z",
+  "mode": "live",
+  "generated_at": "2026-08-26T11:17:44.598934Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 4,
       "low": 0,
-      "high": 20,
-      "confidence": 31,
+      "high": 17,
+      "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 2,
+      "score": 12,
       "low": 0,
-      "high": 21,
-      "confidence": 31,
-      "status": "לא זוהה אות חריג"
+      "high": 25,
+      "confidence": 65,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 4,
-      "low": 0,
-      "high": 23,
-      "confidence": 31,
-      "status": "לא זוהה אות חריג"
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 65,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 3
   },
   "changes": [
     {
-      "time": "08:00",
-      "text": "US holds off on new Iran strikes , turns to economic squeeze",
-      "impact": "השפעה מיידית מחושבת: +0.3",
+      "time": "13:30",
+      "text": "How the Iranian Shahed Drone Transformed War With China Help",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "ynetnews.com",
-      "signal_id": "4a4a3f819fbfcee1"
+      "source": "hindustantimes.com",
+      "signal_id": "01052a767372aaf4"
     },
     {
-      "time": "08:00",
-      "text": "Iranian strikes caused billions in damage to US intelligence sites : Report",
-      "impact": "השפעה מיידית מחושבת: +0.3",
+      "time": "11:45",
+      "text": "Marco Rubio : US temporarily halting strike on Iran in favor of economic sanctions",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
-      "source": "aa.com.tr",
-      "signal_id": "fba20f6802086eba"
+      "source": "jpost.com",
+      "signal_id": "1d046478380e7c46"
+    },
+    {
+      "time": "12:45",
+      "text": "Iran , Oman Move Toward Temporary Hormuz Shipping Corridor - Novinite . com",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "novinite.com",
+      "signal_id": "8d5f5e9bb9365ea7"
+    },
+    {
+      "time": "12:00",
+      "text": "Trump threatens Iran partners : How do secondary sanctions work ? | Business and Economy News",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "aljazeera.com",
+      "signal_id": "4e6c7bff047aff5f"
     }
   ],
   "signals": [
     {
-      "id": "4a4a3f819fbfcee1",
-      "name": "US holds off on new Iran strikes , turns to economic squeeze",
+      "id": "01052a767372aaf4",
+      "name": "How the Iranian Shahed Drone Transformed War With China Help",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "4a4a3f819fbfcee1",
-      "strength": 0.4,
+      "dependency_group": "01052a767372aaf4",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.192,
+      "freshness": 0.797,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -78,28 +94,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/bjtphajdme",
-      "published_at": "2026-08-26T05:00:00Z",
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/world-news/how-the-iranian-shahed-drone-transformed-war-with-china-s-help-101787733325076.html",
+      "published_at": "2026-08-26T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
-      },
-      "carried_forward": true
+        "immediate": 1.6,
+        "short": 5.5,
+        "extended": 9.4
+      }
     },
     {
-      "id": "fba20f6802086eba",
-      "name": "Iranian strikes caused billions in damage to US intelligence sites : Report",
+      "id": "1d046478380e7c46",
+      "name": "Marco Rubio : US temporarily halting strike on Iran in favor of economic sanctions",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "fba20f6802086eba",
+      "dependency_group": "1d046478380e7c46",
       "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.192,
+      "reliability": 0.74,
+      "freshness": 0.483,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -110,16 +125,232 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/us-israel-iran-war/iranian-strikes-caused-billions-in-damage-to-us-intelligence-sites-report/4037513",
-      "published_at": "2026-08-26T05:00:00Z",
+      "source": "jpost.com",
+      "url": "http://www.jpost.com/middle-east/iran-news/article-906609",
+      "published_at": "2026-08-26T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "8d5f5e9bb9365ea7",
+      "name": "Iran , Oman Move Toward Temporary Hormuz Shipping Corridor - Novinite . com",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8d5f5e9bb9365ea7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.643,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "novinite.com",
+      "url": "https://www.novinite.com/articles/240298/Iran,+Oman+Move+Toward+Temporary+Hormuz+Shipping+Corridor",
+      "published_at": "2026-08-26T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "4e6c7bff047aff5f",
+      "name": "Trump threatens Iran partners : How do secondary sanctions work ? | Business and Economy News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4e6c7bff047aff5f",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.519,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aljazeera.com",
+      "url": "https://www.aljazeera.com/economy/2026/8/26/trump-threatens-irans-partners-how-do-secondary-sanctions-work",
+      "published_at": "2026-08-26T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "01acbbc9712ebf93",
+      "name": "No new Iran strikes for now , Rubio tells allies as US tightens economic pressure",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "01acbbc9712ebf93",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.519,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260826/4490731.html",
+      "published_at": "2026-08-26T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "7b4e6652cbad5ca7",
+      "name": "US Has No Immediate Plans for New Military Strikes on Iran : US Secretary of State",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7b4e6652cbad5ca7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.39,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "khaama.com",
+      "url": "https://www.khaama.com/us-has-no-immediate-plans-for-new-military-strikes-on-iran-us-secretary-of-state/",
+      "published_at": "2026-08-26T08:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "82a5920ebeacf341",
+      "name": "US Has  no Immediate Plan For New Strikes On Iran - Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "82a5920ebeacf341",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.39,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "i24news.tv",
+      "url": "https://www.i24news.tv/en/news/international/americas/artc-us-has-no-immediate-plans-for-new-strikes-on-iran-report",
+      "published_at": "2026-08-26T08:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "8fc3e46cb06cb87c",
+      "name": "Qatar , Iran discuss proposal for temporary shipping corridor through Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8fc3e46cb06cb87c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.39,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeastmonitor.com",
+      "url": "https://www.middleeastmonitor.com/20260826-qatar-iran-discuss-proposal-for-temporary-shipping-corridor-through-strait-of-hormuz/",
+      "published_at": "2026-08-26T08:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "801ab396f0d8c1b8",
+      "name": "Iran threatens response ahead of US sanctions announcement",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "801ab396f0d8c1b8",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.39,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "naharnet.com",
+      "url": "https://naharnet.com/stories/en/322038-iran-threatens-response-ahead-of-us-sanctions-announcement",
+      "published_at": "2026-08-26T08:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
     }
   ],
   "history": [
@@ -4784,17 +5015,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 2,
       "extended": 4
+    },
+    {
+      "timestamp": "2026-08-26T11:17:44.598934Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-08-26T05:46:51.532292Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-26T11:17:44.598934Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "<urlopen error timed out>",
-        "carried_forward": 2
+        "ok": true,
+        "items": 150,
+        "relevant": 9
       },
       "manual": {
         "ok": true,
