@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-26T09:10:16.291431Z",
+  "generated_at": "2026-08-26T09:59:33.721652Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 1,
       "low": 0,
-      "high": 18,
-      "confidence": 44,
+      "high": 19,
+      "confidence": 39,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 5,
+      "score": 4,
       "low": 0,
       "high": 22,
-      "confidence": 44,
+      "confidence": 39,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 8,
+      "score": 7,
       "low": 0,
       "high": 25,
-      "confidence": 44,
-      "status": "נמוך"
+      "confidence": 39,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -36,13 +36,13 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "08:00",
       "text": "US holds off on new Iran strikes , turns to economic squeeze",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "ynetnews.com",
       "signal_id": "4a4a3f819fbfcee1"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "08:00",
       "text": "Iranian strikes caused billions in damage to US intelligence sites : Report",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "fba20f6802086eba"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:00",
       "text": "Four India - based companies engulfed in Trump economic offensive against Iran",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "economictimes.indiatimes.com",
       "signal_id": "bbf45a756cc001b2"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4a4a3f819fbfcee1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.304,
+      "freshness": 0.24,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fba20f6802086eba",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.304,
+      "freshness": 0.24,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.0
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e3e2d0c95a1a2f83",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.263,
+      "freshness": 0.208,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -164,8 +164,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
+        "short": 1.2,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bbf45a756cc001b2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.228,
+      "freshness": 0.18,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,41 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9bb3f22437152f44",
-      "name": "Four India - based companies bear the brunt of U Iran sanctions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9bb3f22437152f44",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.198,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "idrw.org",
-      "url": "https://idrw.org/four-india-based-companies-bear-the-brunt-of-us-iran-sanctions/",
-      "published_at": "2026-08-26T03:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.3,
-        "short": 1.1,
-        "extended": 2.0
+        "short": 1.0,
+        "extended": 1.8
       },
       "carried_forward": true
     }
@@ -4884,6 +4852,12 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 5,
       "extended": 8
+    },
+    {
+      "timestamp": "2026-08-26T09:59:33.721652Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 7
     }
   ],
   "health": {
@@ -4893,8 +4867,8 @@ window.MAGEN_STATE = {
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "<urlopen error timed out>",
-        "carried_forward": 5
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "carried_forward": 4
       },
       "manual": {
         "ok": true,
