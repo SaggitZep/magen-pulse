@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-26T07:29:27.783070Z",
+  "generated_at": "2026-08-26T08:21:46.930748Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@
       "score": 2,
       "low": 0,
       "high": 19,
-      "confidence": 47,
+      "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 6,
       "low": 0,
-      "high": 25,
-      "confidence": 47,
+      "high": 23,
+      "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
+      "score": 10,
       "low": 0,
-      "high": 30,
-      "confidence": 47,
+      "high": 27,
+      "confidence": 45,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "08:00",
       "text": "US holds off on new Iran strikes , turns to economic squeeze",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "ynetnews.com",
       "signal_id": "4a4a3f819fbfcee1"
@@ -50,7 +50,7 @@
     {
       "time": "08:00",
       "text": "Iranian strikes caused billions in damage to US intelligence sites : Report",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "fba20f6802086eba"
@@ -58,7 +58,7 @@
     {
       "time": "07:30",
       "text": "The United States has sanctioned four India - based companies and three Indian nationals for importing petroleum and petrochemical products from Iran , as part of a campaign announced on Monday to cut off Tehran revenue ",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "dailypioneer.com",
       "signal_id": "e3e2d0c95a1a2f83"
@@ -66,7 +66,7 @@
     {
       "time": "07:00",
       "text": "Four India - based companies engulfed in Trump economic offensive against Iran",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "economictimes.indiatimes.com",
       "signal_id": "bbf45a756cc001b2"
@@ -83,7 +83,7 @@
       "dependency_group": "4a4a3f819fbfcee1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.491,
+      "freshness": 0.383,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-26T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "fba20f6802086eba",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.491,
+      "freshness": 0.383,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-26T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "e3e2d0c95a1a2f83",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.425,
+      "freshness": 0.332,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-26T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.3
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "bbf45a756cc001b2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.369,
+      "freshness": 0.287,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-26T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "9bb3f22437152f44",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.32,
+      "freshness": 0.249,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-08-26T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "437b9fcf1c9d00d0",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.258,
+      "freshness": 0.201,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-08-26T02:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "3645f2d3a665a9e9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.277,
+      "freshness": 0.216,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,41 +291,9 @@
       "published_at": "2026-08-26T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "bba8d699799d5926",
-      "name": "US shifts Iran war strategy from fresh strikes to sanctions as Trump seeks to squeeze Tehran : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bba8d699799d5926",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.224,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/us-shifts-iran-war-strategy-from-fresh-strikes-to-sanctions-as-trump-seeks-to-squeeze-tehran-report/articleshow/133527278.cms",
-      "published_at": "2026-08-26T02:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.4,
         "short": 1.3,
-        "extended": 2.2
+        "extended": 2.1
       },
       "carried_forward": true
     }
@@ -4968,6 +4936,12 @@
       "immediate": 2,
       "short": 8,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-08-26T08:21:46.930748Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 10
     }
   ],
   "health": {
@@ -4978,7 +4952,7 @@
       "gdelt": {
         "ok": false,
         "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 8
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
