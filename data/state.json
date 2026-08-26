@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-26T11:53:23.064185Z",
+  "generated_at": "2026-08-26T12:49:11.312906Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
       "high": 19,
-      "confidence": 49,
+      "confidence": 47,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 8,
       "low": 0,
-      "high": 27,
-      "confidence": 49,
+      "high": 25,
+      "confidence": 47,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 49,
+      "score": 14,
+      "low": 0,
+      "high": 31,
+      "confidence": 47,
       "status": "נמוך"
     }
   },
@@ -42,7 +42,7 @@
     {
       "time": "13:30",
       "text": "How the Iranian Shahed Drone Transformed War With China Help",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "hindustantimes.com",
       "signal_id": "01052a767372aaf4"
@@ -50,7 +50,7 @@
     {
       "time": "11:45",
       "text": "Marco Rubio : US temporarily halting strike on Iran in favor of economic sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "1d046478380e7c46"
@@ -58,7 +58,7 @@
     {
       "time": "12:45",
       "text": "Iran , Oman Move Toward Temporary Hormuz Shipping Corridor - Novinite . com",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "novinite.com",
       "signal_id": "8d5f5e9bb9365ea7"
@@ -66,7 +66,7 @@
     {
       "time": "12:00",
       "text": "Trump threatens Iran partners : How do secondary sanctions work ? | Business and Economy News",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "aljazeera.com",
       "signal_id": "4e6c7bff047aff5f"
@@ -83,7 +83,7 @@
       "dependency_group": "01052a767372aaf4",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.672,
+      "freshness": 0.515,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-08-26T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 7.9
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "1d046478380e7c46",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.408,
+      "freshness": 0.313,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-08-26T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "8d5f5e9bb9365ea7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.543,
+      "freshness": 0.416,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-08-26T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.4
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "4e6c7bff047aff5f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.438,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-08-26T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "01acbbc9712ebf93",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.438,
+      "freshness": 0.336,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,105 +227,9 @@
       "published_at": "2026-08-26T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7b4e6652cbad5ca7",
-      "name": "US Has No Immediate Plans for New Military Strikes on Iran : US Secretary of State",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7b4e6652cbad5ca7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.329,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "khaama.com",
-      "url": "https://www.khaama.com/us-has-no-immediate-plans-for-new-military-strikes-on-iran-us-secretary-of-state/",
-      "published_at": "2026-08-26T08:00:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
         "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "82a5920ebeacf341",
-      "name": "US Has  no Immediate Plan For New Strikes On Iran - Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "82a5920ebeacf341",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.329,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "i24news.tv",
-      "url": "https://www.i24news.tv/en/news/international/americas/artc-us-has-no-immediate-plans-for-new-strikes-on-iran-report",
-      "published_at": "2026-08-26T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8fc3e46cb06cb87c",
-      "name": "Qatar , Iran discuss proposal for temporary shipping corridor through Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8fc3e46cb06cb87c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.329,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeastmonitor.com",
-      "url": "https://www.middleeastmonitor.com/20260826-qatar-iran-discuss-proposal-for-temporary-shipping-corridor-through-strait-of-hormuz/",
-      "published_at": "2026-08-26T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "extended": 3.3
       },
       "carried_forward": true
     },
@@ -339,7 +243,7 @@
       "dependency_group": "801ab396f0d8c1b8",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.329,
+      "freshness": 0.252,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +259,105 @@
       "published_at": "2026-08-26T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "7b4e6652cbad5ca7",
+      "name": "US Has No Immediate Plans for New Military Strikes on Iran : US Secretary of State",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7b4e6652cbad5ca7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.252,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "khaama.com",
+      "url": "https://www.khaama.com/us-has-no-immediate-plans-for-new-military-strikes-on-iran-us-secretary-of-state/",
+      "published_at": "2026-08-26T08:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "82a5920ebeacf341",
+      "name": "US Has  no Immediate Plan For New Strikes On Iran - Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "82a5920ebeacf341",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.252,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "i24news.tv",
+      "url": "https://www.i24news.tv/en/news/international/americas/artc-us-has-no-immediate-plans-for-new-strikes-on-iran-report",
+      "published_at": "2026-08-26T08:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "8fc3e46cb06cb87c",
+      "name": "Qatar , Iran discuss proposal for temporary shipping corridor through Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8fc3e46cb06cb87c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.252,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeastmonitor.com",
+      "url": "https://www.middleeastmonitor.com/20260826-qatar-iran-discuss-proposal-for-temporary-shipping-corridor-through-strait-of-hormuz/",
+      "published_at": "2026-08-26T08:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     }
@@ -5036,6 +5036,12 @@
       "immediate": 3,
       "short": 11,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-08-26T12:49:11.312906Z",
+      "immediate": 2,
+      "short": 8,
+      "extended": 14
     }
   ],
   "health": {
