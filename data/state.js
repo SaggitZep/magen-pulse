@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-08-26T05:46:51.532292Z",
+  "mode": "degraded",
+  "generated_at": "2026-08-26T06:25:07.214221Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 3,
       "low": 0,
-      "high": 17,
-      "confidence": 66,
+      "high": 19,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 11,
       "low": 0,
-      "high": 26,
-      "confidence": 66,
+      "high": 27,
+      "confidence": 50,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 8,
+      "score": 18,
+      "low": 2,
       "high": 34,
-      "confidence": 66,
+      "confidence": 50,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 4
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "08:00",
       "text": "US holds off on new Iran strikes , turns to economic squeeze",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "ynetnews.com",
       "signal_id": "4a4a3f819fbfcee1"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "08:00",
       "text": "Iranian strikes caused billions in damage to US intelligence sites : Report",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "fba20f6802086eba"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:30",
       "text": "The United States has sanctioned four India - based companies and three Indian nationals for importing petroleum and petrochemical products from Iran , as part of a campaign announced on Monday to cut off Tehran revenue ",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "dailypioneer.com",
       "signal_id": "e3e2d0c95a1a2f83"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "07:00",
       "text": "Four India - based companies engulfed in Trump economic offensive against Iran",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "economictimes.indiatimes.com",
       "signal_id": "bbf45a756cc001b2"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4a4a3f819fbfcee1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.8,
+      "freshness": 0.667,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.9
-      }
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      },
+      "carried_forward": true
     },
     {
       "id": "fba20f6802086eba",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fba20f6802086eba",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.8,
+      "freshness": 0.667,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.9
-      }
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      },
+      "carried_forward": true
     },
     {
       "id": "e3e2d0c95a1a2f83",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e3e2d0c95a1a2f83",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.694,
+      "freshness": 0.578,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T04:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
+      },
+      "carried_forward": true
     },
     {
       "id": "bbf45a756cc001b2",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bbf45a756cc001b2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.601,
+      "freshness": 0.501,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T04:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      }
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 4.9
+      },
+      "carried_forward": true
     },
     {
       "id": "9bb3f22437152f44",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9bb3f22437152f44",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.521,
+      "freshness": 0.434,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T03:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      },
+      "carried_forward": true
     },
     {
       "id": "437b9fcf1c9d00d0",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "437b9fcf1c9d00d0",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.421,
+      "freshness": 0.351,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T02:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     },
     {
       "id": "3645f2d3a665a9e9",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3645f2d3a665a9e9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.452,
+      "freshness": 0.377,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T03:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "bba8d699799d5926",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "bba8d699799d5926",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.365,
+      "freshness": 0.304,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T02:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.0
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -4948,17 +4956,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-08-26T06:25:07.214221Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-08-26T05:46:51.532292Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 8
+        "ok": false,
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "carried_forward": 8
       },
       "manual": {
         "ok": true,
