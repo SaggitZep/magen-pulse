@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-26T16:04:44.140510Z",
+  "generated_at": "2026-08-26T17:00:32.976418Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 0,
       "low": 0,
-      "high": 20,
-      "confidence": 28,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 1,
+      "score": 0,
       "low": 0,
-      "high": 21,
-      "confidence": 28,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 2,
+      "score": 0,
       "low": 0,
       "high": 22,
-      "confidence": 28,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     }
   },
@@ -35,53 +35,11 @@
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "יציב",
+    "points_60m": 0
   },
-  "changes": [
-    {
-      "time": "13:30",
-      "text": "How the Iranian Shahed Drone Transformed War With China Help",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "hindustantimes.com",
-      "signal_id": "01052a767372aaf4"
-    }
-  ],
-  "signals": [
-    {
-      "id": "01052a767372aaf4",
-      "name": "How the Iranian Shahed Drone Transformed War With China Help",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "01052a767372aaf4",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.203,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/how-the-iranian-shahed-drone-transformed-war-with-china-s-help-101787733325076.html",
-      "published_at": "2026-08-26T10:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -4780,17 +4738,23 @@
       "immediate": 0,
       "short": 1,
       "extended": 2
+    },
+    {
+      "timestamp": "2026-08-26T17:00:32.976418Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-08-26T11:17:44.598934Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 1
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
