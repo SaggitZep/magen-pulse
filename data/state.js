@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-26T13:44:21.092194Z",
+  "generated_at": "2026-08-26T14:30:36.466395Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -14,17 +14,17 @@ window.MAGEN_STATE = {
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
+      "score": 5,
       "low": 0,
-      "high": 23,
+      "high": 22,
       "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
+      "score": 9,
       "low": 0,
-      "high": 28,
+      "high": 26,
       "confidence": 45,
       "status": "נמוך"
     }
@@ -42,7 +42,7 @@ window.MAGEN_STATE = {
     {
       "time": "13:30",
       "text": "How the Iranian Shahed Drone Transformed War With China Help",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "hindustantimes.com",
       "signal_id": "01052a767372aaf4"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "11:45",
       "text": "Marco Rubio : US temporarily halting strike on Iran in favor of economic sanctions",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "1d046478380e7c46"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "12:45",
       "text": "Iran , Oman Move Toward Temporary Hormuz Shipping Corridor - Novinite . com",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "novinite.com",
       "signal_id": "8d5f5e9bb9365ea7"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "12:00",
       "text": "Trump threatens Iran partners : How do secondary sanctions work ? | Business and Economy News",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "aljazeera.com",
       "signal_id": "4e6c7bff047aff5f"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "01052a767372aaf4",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.396,
+      "freshness": 0.318,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.8
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1d046478380e7c46",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.24,
+      "freshness": 0.193,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8d5f5e9bb9365ea7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.32,
+      "freshness": 0.257,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4e6c7bff047aff5f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.258,
+      "freshness": 0.207,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-08-26T09:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.3
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "01acbbc9712ebf93",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.258,
+      "freshness": 0.207,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -228,136 +228,8 @@ window.MAGEN_STATE = {
       "active": true,
       "computed": {
         "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "801ab396f0d8c1b8",
-      "name": "Iran threatens response ahead of US sanctions announcement",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "801ab396f0d8c1b8",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.194,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "naharnet.com",
-      "url": "https://naharnet.com/stories/en/322038-iran-threatens-response-ahead-of-us-sanctions-announcement",
-      "published_at": "2026-08-26T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7b4e6652cbad5ca7",
-      "name": "US Has No Immediate Plans for New Military Strikes on Iran : US Secretary of State",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7b4e6652cbad5ca7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.194,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "khaama.com",
-      "url": "https://www.khaama.com/us-has-no-immediate-plans-for-new-military-strikes-on-iran-us-secretary-of-state/",
-      "published_at": "2026-08-26T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "82a5920ebeacf341",
-      "name": "US Has  no Immediate Plan For New Strikes On Iran - Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "82a5920ebeacf341",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.194,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "i24news.tv",
-      "url": "https://www.i24news.tv/en/news/international/americas/artc-us-has-no-immediate-plans-for-new-strikes-on-iran-report",
-      "published_at": "2026-08-26T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8fc3e46cb06cb87c",
-      "name": "Qatar , Iran discuss proposal for temporary shipping corridor through Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8fc3e46cb06cb87c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.194,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeastmonitor.com",
-      "url": "https://www.middleeastmonitor.com/20260826-qatar-iran-discuss-proposal-for-temporary-shipping-corridor-through-strait-of-hormuz/",
-      "published_at": "2026-08-26T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -5048,6 +4920,12 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 6,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-08-26T14:30:36.466395Z",
+      "immediate": 2,
+      "short": 5,
+      "extended": 9
     }
   ],
   "health": {
@@ -5058,7 +4936,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 9
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
