@@ -1,45 +1,327 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-08-26T05:02:50.162499Z",
+  "mode": "live",
+  "generated_at": "2026-08-26T05:46:51.532292Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 4,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 17,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
+      "score": 13,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "high": 26,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 66,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 4
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "08:00",
+      "text": "US holds off on new Iran strikes , turns to economic squeeze",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "ynetnews.com",
+      "signal_id": "4a4a3f819fbfcee1"
+    },
+    {
+      "time": "08:00",
+      "text": "Iranian strikes caused billions in damage to US intelligence sites : Report",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "aa.com.tr",
+      "signal_id": "fba20f6802086eba"
+    },
+    {
+      "time": "07:30",
+      "text": "The United States has sanctioned four India - based companies and three Indian nationals for importing petroleum and petrochemical products from Iran , as part of a campaign announced on Monday to cut off Tehran revenue ",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "dailypioneer.com",
+      "signal_id": "e3e2d0c95a1a2f83"
+    },
+    {
+      "time": "07:00",
+      "text": "Four India - based companies engulfed in Trump economic offensive against Iran",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "economictimes.indiatimes.com",
+      "signal_id": "bbf45a756cc001b2"
+    }
+  ],
+  "signals": [
+    {
+      "id": "4a4a3f819fbfcee1",
+      "name": "US holds off on new Iran strikes , turns to economic squeeze",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4a4a3f819fbfcee1",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.8,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ynetnews.com",
+      "url": "https://www.ynetnews.com/article/bjtphajdme",
+      "published_at": "2026-08-26T05:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.9
+      }
+    },
+    {
+      "id": "fba20f6802086eba",
+      "name": "Iranian strikes caused billions in damage to US intelligence sites : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fba20f6802086eba",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.8,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/us-israel-iran-war/iranian-strikes-caused-billions-in-damage-to-us-intelligence-sites-report/4037513",
+      "published_at": "2026-08-26T05:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.9
+      }
+    },
+    {
+      "id": "e3e2d0c95a1a2f83",
+      "name": "The United States has sanctioned four India - based companies and three Indian nationals for importing petroleum and petrochemical products from Iran , as part of a campaign announced on Monday to cut off Tehran revenue ",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e3e2d0c95a1a2f83",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.694,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailypioneer.com",
+      "url": "https://dailypioneer.com/news/the-united-states-has-sanctioned-four-india-based-companies-and-three-indian-nationals-for-importing-petroleum-and-petrochemical-products-from-iran-as-part-of-a-campaign-announced-on-monday-to-cut-off-tehran-s-revenue",
+      "published_at": "2026-08-26T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "bbf45a756cc001b2",
+      "name": "Four India - based companies engulfed in Trump economic offensive against Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bbf45a756cc001b2",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.601,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/four-india-based-companies-engulfed-in-trumps-economic-offensive-against-iran/articleshow/133528011.cms",
+      "published_at": "2026-08-26T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      }
+    },
+    {
+      "id": "9bb3f22437152f44",
+      "name": "Four India - based companies bear the brunt of U Iran sanctions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9bb3f22437152f44",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.521,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "idrw.org",
+      "url": "https://idrw.org/four-india-based-companies-bear-the-brunt-of-us-iran-sanctions/",
+      "published_at": "2026-08-26T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "437b9fcf1c9d00d0",
+      "name": "US Iran War News Live Updates : Iran keeps Hormuz closed despite Oman deal ; Trump warns of military response",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "437b9fcf1c9d00d0",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.421,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-news-live-updates-donald-trump-warning-strait-of-hormuz-mines-cleared-middle-east-conflict-barron-trump-tehran-latest-news/liveblog/133527138.cms",
+      "published_at": "2026-08-26T02:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
+      }
+    },
+    {
+      "id": "3645f2d3a665a9e9",
+      "name": "Report : Why Iran fanbase is fractured after World Cup journey",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3645f2d3a665a9e9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.452,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailymail.com",
+      "url": "https://www.dailymail.com/vertical-galleries/article-15901121/Report-Irans-fanbase-fractured-World-Cup-journey.html",
+      "published_at": "2026-08-26T03:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
+    },
+    {
+      "id": "bba8d699799d5926",
+      "name": "US shifts Iran war strategy from fresh strikes to sanctions as Trump seeks to squeeze Tehran : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bba8d699799d5926",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.365,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/us-shifts-iran-war-strategy-from-fresh-strikes-to-sanctions-as-trump-seeks-to-squeeze-tehran-report/articleshow/133527278.cms",
+      "published_at": "2026-08-26T02:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -4660,17 +4942,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-08-26T05:46:51.532292Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-08-25T11:02:47.384097Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-08-26T05:46:51.532292Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 8
       },
       "manual": {
         "ok": true,
