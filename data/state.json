@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-28T00:01:27.015664Z",
+  "generated_at": "2026-08-28T11:17:16.439903Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -4774,6 +4774,12 @@
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-08-28T11:17:16.439903Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
@@ -4783,7 +4789,7 @@
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "error": "<urlopen error timed out>",
         "carried_forward": 0
       },
       "manual": {
