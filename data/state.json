@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-28T11:17:16.439903Z",
+  "generated_at": "2026-08-28T21:27:44.454795Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -4780,6 +4780,12 @@
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-08-28T21:27:44.454795Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
@@ -4789,7 +4795,7 @@
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "<urlopen error timed out>",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
         "carried_forward": 0
       },
       "manual": {
