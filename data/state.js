@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-29T21:11:19.177230Z",
+  "generated_at": "2026-08-29T23:23:29.430763Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -4816,6 +4816,12 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-08-29T23:23:29.430763Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
@@ -4825,7 +4831,7 @@ window.MAGEN_STATE = {
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "<urlopen error timed out>",
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
         "carried_forward": 0
       },
       "manual": {
