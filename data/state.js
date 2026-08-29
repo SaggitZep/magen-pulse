@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-08-28T21:27:44.454795Z",
+  "generated_at": "2026-08-29T03:20:35.882993Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -4786,6 +4786,12 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-08-29T03:20:35.882993Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
@@ -4795,7 +4801,7 @@ window.MAGEN_STATE = {
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
         "carried_forward": 0
       },
       "manual": {
