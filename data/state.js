@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-09-01T23:23:17.698901Z",
+  "generated_at": "2026-09-02T01:13:47.572099Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -4921,6 +4921,12 @@ window.MAGEN_STATE = {
     },
     {
       "timestamp": "2026-09-01T23:23:17.698901Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
+    },
+    {
+      "timestamp": "2026-09-02T01:13:47.572099Z",
       "immediate": 0,
       "short": 0,
       "extended": 0
