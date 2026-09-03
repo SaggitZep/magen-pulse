@@ -1,45 +1,389 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-09-03T15:13:19.771782Z",
+  "mode": "live",
+  "generated_at": "2026-09-03T18:43:56.684749Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 3,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 17,
+      "confidence": 63,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
+      "score": 9,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "high": 23,
+      "confidence": 63,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
+      "score": 14,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "high": 28,
+      "confidence": 63,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 3
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "18:45",
+      "text": "U . S . strike on Iranian wedding kills four , triggers region - wide missile barrage – NaturalNews . com",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "naturalnews.com",
+      "signal_id": "95f262fbfbe0fd34"
+    },
+    {
+      "time": "18:30",
+      "text": "Number of Iranian military personnel reported killed by US strikes this week rises to 13",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "al-monitor.com",
+      "signal_id": "4490eb897f231661"
+    },
+    {
+      "time": "19:15",
+      "text": "U . S .- Iran strikes raise fears of renewed war across the Middle East",
+      "impact": "השפעה מיידית מחושבת: +0.8",
+      "direction": "up",
+      "source": "kaieteurnewsonline.com",
+      "signal_id": "fbb652aa204ed95b"
+    },
+    {
+      "time": "18:15",
+      "text": "Iran military death toll rises to 13 after US strikes",
+      "impact": "השפעה מיידית מחושבת: +0.8",
+      "direction": "up",
+      "source": "jpost.com",
+      "signal_id": "9afc8b7a1dba7e08"
+    }
+  ],
+  "signals": [
+    {
+      "id": "95f262fbfbe0fd34",
+      "name": "U . S . strike on Iranian wedding kills four , triggers region - wide missile barrage – NaturalNews . com",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "95f262fbfbe0fd34",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.427,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-09-03-us-strike-iranian-wedding-region-missile-barrage.html",
+      "published_at": "2026-09-03T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "4490eb897f231661",
+      "name": "Number of Iranian military personnel reported killed by US strikes this week rises to 13",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4490eb897f231661",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.397,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/09/number-iranian-military-personnel-reported-killed-us-strikes-week-rises-13",
+      "published_at": "2026-09-03T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.2
+      }
+    },
+    {
+      "id": "fbb652aa204ed95b",
+      "name": "U . S .- Iran strikes raise fears of renewed war across the Middle East",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fbb652aa204ed95b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.492,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kaieteurnewsonline.com",
+      "url": "https://kaieteurnewsonline.com/2026/09/03/u-s-iran-strikes-raise-fears-of-renewed-war-across-the-middle-east/",
+      "published_at": "2026-09-03T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
+    },
+    {
+      "id": "9afc8b7a1dba7e08",
+      "name": "Iran military death toll rises to 13 after US strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9afc8b7a1dba7e08",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.37,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jpost.com",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-907510",
+      "published_at": "2026-09-03T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
+    },
+    {
+      "id": "6af6c7ec5abfbeec",
+      "name": "UAE cuts off trade with Iran after ballistic - missile attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6af6c7ec5abfbeec",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.397,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "heritagefl.com",
+      "url": "https://www.heritagefl.com/story/2026/09/04/news/uae-cuts-off-trade-with-iran-after-ballistic-missile-attack/23892.html",
+      "published_at": "2026-09-03T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
+      }
+    },
+    {
+      "id": "af0c913202647248",
+      "name": "US strikes degrade Iran Strait of Hormuz capabilities , ISW says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "af0c913202647248",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.37,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jpost.com",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-907503",
+      "published_at": "2026-09-03T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
+    },
+    {
+      "id": "238ad78df0e6172a",
+      "name": "Iran hosts funeral for victims reportedly killed by U . S . air strike during wedding , fires on Kuwait",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "238ad78df0e6172a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.427,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theglobeandmail.com",
+      "url": "https://www.theglobeandmail.com/world/article-iran-war-funeral-victims-killed-during-wedding-us-air-strike-kuwait/",
+      "published_at": "2026-09-03T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
+    },
+    {
+      "id": "cb23c3f1870d5594",
+      "name": "Iran warns US  dark days ahead  in threat to cripple oil supplies | World | News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cb23c3f1870d5594",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.37,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "express.co.uk",
+      "url": "https://www.express.co.uk/news/world/2245256/iran-us-oil-shortages-warning",
+      "published_at": "2026-09-03T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "c6bf11f5e0e0e2ba",
+      "name": "Iran Guards chief vows to avenge victims killed in wedding strike",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c6bf11f5e0e0e2ba",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.427,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "freemalaysiatoday.com",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/09/03/iran-s-guards-chief-vows-to-avenge-victims-killed-in-wedding-strike",
+      "published_at": "2026-09-03T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
+    },
+    {
+      "id": "830bffd63450a064",
+      "name": "Iran fires on its Gulf neighbors , retaliating for US strikes after a wedding was hit",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "830bffd63450a064",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.37,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theitem.com",
+      "url": "http://theitem.com/stories/iran-fires-on-its-gulf-neighbors-retaliating-for-us-strikes-after-a-wedding-was-hit,446792",
+      "published_at": "2026-09-03T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -4990,17 +5334,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-09-03T18:43:56.684749Z",
+      "immediate": 3,
+      "short": 9,
+      "extended": 14
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-08-26T11:17:44.598934Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-09-03T18:43:56.684749Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 10
       },
       "manual": {
         "ok": true,
