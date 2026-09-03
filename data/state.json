@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-09-03T18:43:56.684749Z",
+  "mode": "degraded",
+  "generated_at": "2026-09-03T21:27:47.778679Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 1,
       "low": 0,
-      "high": 17,
-      "confidence": 63,
+      "high": 18,
+      "confidence": 44,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 4,
       "low": 0,
-      "high": 23,
-      "confidence": 63,
-      "status": "נמוך"
+      "high": 21,
+      "confidence": 44,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
+      "score": 7,
       "low": 0,
-      "high": 28,
-      "confidence": 63,
-      "status": "נמוך"
+      "high": 24,
+      "confidence": 44,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 3
+    "level": "ירידה",
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "18:45",
       "text": "U . S . strike on Iranian wedding kills four , triggers region - wide missile barrage – NaturalNews . com",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "naturalnews.com",
       "signal_id": "95f262fbfbe0fd34"
@@ -50,7 +50,7 @@
     {
       "time": "18:30",
       "text": "Number of Iranian military personnel reported killed by US strikes this week rises to 13",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "al-monitor.com",
       "signal_id": "4490eb897f231661"
@@ -58,18 +58,18 @@
     {
       "time": "19:15",
       "text": "U . S .- Iran strikes raise fears of renewed war across the Middle East",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "kaieteurnewsonline.com",
       "signal_id": "fbb652aa204ed95b"
     },
     {
-      "time": "18:15",
-      "text": "Iran military death toll rises to 13 after US strikes",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "18:30",
+      "text": "UAE cuts off trade with Iran after ballistic - missile attack",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "9afc8b7a1dba7e08"
+      "source": "heritagefl.com",
+      "signal_id": "6af6c7ec5abfbeec"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@
       "dependency_group": "95f262fbfbe0fd34",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.427,
+      "freshness": 0.195,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@
       "published_at": "2026-09-03T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.3
+      },
+      "carried_forward": true
     },
     {
       "id": "4490eb897f231661",
@@ -114,7 +115,7 @@
       "dependency_group": "4490eb897f231661",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.397,
+      "freshness": 0.182,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@
       "published_at": "2026-09-03T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
+      },
+      "carried_forward": true
     },
     {
       "id": "fbb652aa204ed95b",
@@ -145,7 +147,7 @@
       "dependency_group": "fbb652aa204ed95b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.492,
+      "freshness": 0.225,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,41 +163,11 @@
       "published_at": "2026-09-03T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
-    },
-    {
-      "id": "9afc8b7a1dba7e08",
-      "name": "Iran military death toll rises to 13 after US strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9afc8b7a1dba7e08",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.37,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-907510",
-      "published_at": "2026-09-03T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
+      "carried_forward": true
     },
     {
       "id": "6af6c7ec5abfbeec",
@@ -207,7 +179,7 @@
       "dependency_group": "6af6c7ec5abfbeec",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.397,
+      "freshness": 0.182,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,41 +195,11 @@
       "published_at": "2026-09-03T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "af0c913202647248",
-      "name": "US strikes degrade Iran Strait of Hormuz capabilities , ISW says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "af0c913202647248",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.37,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-907503",
-      "published_at": "2026-09-03T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
+      "carried_forward": true
     },
     {
       "id": "238ad78df0e6172a",
@@ -269,7 +211,7 @@
       "dependency_group": "238ad78df0e6172a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.427,
+      "freshness": 0.195,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,41 +227,11 @@
       "published_at": "2026-09-03T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
-    },
-    {
-      "id": "cb23c3f1870d5594",
-      "name": "Iran warns US  dark days ahead  in threat to cripple oil supplies | World | News",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cb23c3f1870d5594",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.37,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "express.co.uk",
-      "url": "https://www.express.co.uk/news/world/2245256/iran-us-oil-shortages-warning",
-      "published_at": "2026-09-03T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
+      "carried_forward": true
     },
     {
       "id": "c6bf11f5e0e0e2ba",
@@ -331,7 +243,7 @@
       "dependency_group": "c6bf11f5e0e0e2ba",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.427,
+      "freshness": 0.195,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,41 +259,11 @@
       "published_at": "2026-09-03T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
-    },
-    {
-      "id": "830bffd63450a064",
-      "name": "Iran fires on its Gulf neighbors , retaliating for US strikes after a wedding was hit",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "830bffd63450a064",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.37,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theitem.com",
-      "url": "http://theitem.com/stories/iran-fires-on-its-gulf-neighbors-retaliating-for-us-strikes-after-a-wedding-was-hit,446792",
-      "published_at": "2026-09-03T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+      "carried_forward": true
     }
   ],
   "history": [
@@ -5340,17 +5222,23 @@
       "immediate": 3,
       "short": 9,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-09-03T21:27:47.778679Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 7
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-09-03T18:43:56.684749Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 10
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 6
       },
       "manual": {
         "ok": true,
