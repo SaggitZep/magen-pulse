@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-09-04T20:54:31.177149Z",
+  "mode": "degraded",
+  "generated_at": "2026-09-04T22:59:28.282086Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 30,
-      "low": 17,
-      "high": 43,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 17,
+      "low": 0,
+      "high": 34,
+      "confidence": 47,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 33,
-      "low": 20,
-      "high": 46,
-      "confidence": 69,
-      "status": "מוגבר"
+      "score": 19,
+      "low": 3,
+      "high": 35,
+      "confidence": 48,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 31,
-      "low": 18,
-      "high": 44,
-      "confidence": 69,
-      "status": "מוגבר"
+      "score": 18,
+      "low": 2,
+      "high": 34,
+      "confidence": 48,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 30
+    "level": "ירידה",
+    "points_60m": -13
   },
   "changes": [
     {
       "time": "23:15",
       "text": "Iran says much of oil , gas refining capacity damaged in US - Israeli attacks rebuilt",
-      "impact": "השפעה מיידית מחושבת: +20.4",
+      "impact": "השפעה מיידית מחושבת: +11.3",
       "direction": "up",
       "source": "middleeastmonitor.com",
       "signal_id": "9b7697dc0b774bd5"
@@ -50,7 +50,7 @@
     {
       "time": "20:00",
       "text": "Iran preparing coordinated attack with Hezbollah , proxies , Israeli report says",
-      "impact": "השפעה מיידית מחושבת: +8.1",
+      "impact": "השפעה מיידית מחושבת: +4.5",
       "direction": "up",
       "source": "naharnet.com:443",
       "signal_id": "7f95d4808b68a65a"
@@ -58,7 +58,7 @@
     {
       "time": "22:45",
       "text": "US says unaware of reported Iranian missile attack on its bases in Jordan",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "ce58f6361caf13a2"
@@ -66,7 +66,7 @@
     {
       "time": "22:45",
       "text": "Report : IRGC launches ballistic missile attack on US bases in Jordan",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
       "source": "israelnationalnews.com",
       "signal_id": "7d59bc41f9da238b"
@@ -83,7 +83,7 @@
       "dependency_group": "9b7697dc0b774bd5",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.828,
+      "freshness": 0.457,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@
       "published_at": "2026-09-04T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 20.4,
-        "short": 15.9,
-        "extended": 6.8
-      }
+        "immediate": 11.3,
+        "short": 8.8,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "7f95d4808b68a65a",
@@ -114,7 +115,7 @@
       "dependency_group": "7f95d4808b68a65a",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.327,
+      "freshness": 0.181,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -130,10 +131,11 @@
       "published_at": "2026-09-04T17:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 8.1,
-        "short": 6.3,
-        "extended": 2.7
-      }
+        "immediate": 4.5,
+        "short": 3.5,
+        "extended": 1.5
+      },
+      "carried_forward": true
     },
     {
       "id": "ce58f6361caf13a2",
@@ -145,7 +147,7 @@
       "dependency_group": "ce58f6361caf13a2",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.718,
+      "freshness": 0.396,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@
       "published_at": "2026-09-04T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
+      },
+      "carried_forward": true
     },
     {
       "id": "7d59bc41f9da238b",
@@ -176,7 +179,7 @@
       "dependency_group": "7d59bc41f9da238b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.718,
+      "freshness": 0.396,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@
       "published_at": "2026-09-04T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
+      },
+      "carried_forward": true
     },
     {
       "id": "5a47ed6040d854c9",
@@ -207,7 +211,7 @@
       "dependency_group": "5a47ed6040d854c9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.89,
+      "freshness": 0.491,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@
       "published_at": "2026-09-04T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
-      }
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      },
+      "carried_forward": true
     },
     {
       "id": "46837aeab0c7873f",
@@ -238,7 +243,7 @@
       "dependency_group": "46837aeab0c7873f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.718,
+      "freshness": 0.396,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@
       "published_at": "2026-09-04T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
-      }
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      },
+      "carried_forward": true
     },
     {
       "id": "1be29e6be2702fd6",
@@ -269,7 +275,7 @@
       "dependency_group": "1be29e6be2702fd6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.718,
+      "freshness": 0.396,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@
       "published_at": "2026-09-04T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     },
     {
       "id": "fb71ef3394d406f6",
@@ -300,7 +307,7 @@
       "dependency_group": "fb71ef3394d406f6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.623,
+      "freshness": 0.343,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@
       "published_at": "2026-09-04T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "fd4f501acd955f3e",
@@ -331,7 +339,7 @@
       "dependency_group": "fd4f501acd955f3e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.623,
+      "freshness": 0.343,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@
       "published_at": "2026-09-04T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "d03d07ba87bae3c0",
@@ -362,7 +371,7 @@
       "dependency_group": "d03d07ba87bae3c0",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.54,
+      "freshness": 0.298,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@
       "published_at": "2026-09-04T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      },
+      "carried_forward": true
     },
     {
       "id": "c5437a7dfaf9e7d0",
@@ -393,7 +403,7 @@
       "dependency_group": "c5437a7dfaf9e7d0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.623,
+      "freshness": 0.343,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@
       "published_at": "2026-09-04T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     },
     {
       "id": "73824a822b3430e8",
@@ -424,7 +435,7 @@
       "dependency_group": "73824a822b3430e8",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.468,
+      "freshness": 0.258,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,10 +451,11 @@
       "published_at": "2026-09-04T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -5450,17 +5462,23 @@
       "immediate": 30,
       "short": 33,
       "extended": 31
+    },
+    {
+      "timestamp": "2026-09-04T22:59:28.282086Z",
+      "immediate": 17,
+      "short": 19,
+      "extended": 18
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-09-04T20:54:31.177149Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 12
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 12
       },
       "manual": {
         "ok": true,
