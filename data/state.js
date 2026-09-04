@@ -1,153 +1,151 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-09-04T06:07:50.850661Z",
+  "mode": "live",
+  "generated_at": "2026-09-04T11:18:27.321064Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
-      "low": 0,
-      "high": 19,
-      "confidence": 39,
-      "status": "לא זוהה אות חריג"
+      "score": 31,
+      "low": 18,
+      "high": 44,
+      "confidence": 67,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
-      "low": 0,
-      "high": 22,
-      "confidence": 39,
-      "status": "לא זוהה אות חריג"
+      "score": 32,
+      "low": 19,
+      "high": 45,
+      "confidence": 67,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 6,
-      "low": 0,
-      "high": 24,
-      "confidence": 39,
-      "status": "לא זוהה אות חריג"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -24
+    "level": "זינוק חריג",
+    "points_60m": 30
   },
   "changes": [
     {
-      "time": "03:45",
-      "text": "US , Iran attack each other in fiercest exchange since July",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "12:45",
+      "text": "Oil rises as Israel threatens Iran again",
+      "impact": "השפעה מיידית מחושבת: +17.4",
       "direction": "up",
-      "source": "birminghamstar.com",
-      "signal_id": "092901710983684f"
+      "source": "tribune.com.pk",
+      "signal_id": "9753090619c100ef"
     },
     {
-      "time": "03:45",
-      "text": "US probes Iran wedding strike that analysis shows was likely direct hit by US munition",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "11:45",
+      "text": "Israel Threatens Fresh Strikes on Iran Energy and Civilian Infrastructure",
+      "impact": "השפעה מיידית מחושבת: +13.1",
       "direction": "up",
-      "source": "yahoo.com",
-      "signal_id": "4041e4700d04d330"
+      "source": "khaama.com",
+      "signal_id": "2de7ec48c6d19507"
     },
     {
-      "time": "03:30",
-      "text": "Vance : US wont talk to Iran until it stops attacking commercial ships",
-      "impact": "השפעה מיידית מחושבת: +0.3",
+      "time": "13:15",
+      "text": "Iranian strikes on Jordan test the bonds between the US and one of its staunchest Mideast allies",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "israelnationalnews.com",
-      "signal_id": "a3b726ef7a122e74"
+      "source": "dailygazette.com",
+      "signal_id": "b270254aa5882e5b"
     },
     {
-      "time": "03:30",
-      "text": "Iran Strikes Keep Oil Near $91",
-      "impact": "השפעה מיידית מחושבת: +0.3",
+      "time": "13:15",
+      "text": "Jordan alliance with the US makes the kingdom a target for Iranian strikes",
+      "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "rigzone.com",
-      "signal_id": "a9771146bd0fdb59"
+      "source": "dailyadvance.com",
+      "signal_id": "2d0a6b720c6ae3fe"
     }
   ],
   "signals": [
     {
-      "id": "092901710983684f",
-      "name": "US , Iran attack each other in fiercest exchange since July",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
+      "id": "9753090619c100ef",
+      "name": "Oil rises as Israel threatens Iran again",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "092901710983684f",
-      "strength": 0.4,
+      "dependency_group": "9753090619c100ef",
+      "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.215,
+      "freshness": 0.641,
       "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
       },
       "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
       },
-      "source": "birminghamstar.com",
-      "url": "http://www.birminghamstar.com/news/279282097/iran-us-exchange-heavy-fire-as-war-fears-rise-again",
-      "published_at": "2026-09-04T00:45:00Z",
+      "source": "tribune.com.pk",
+      "url": "https://tribune.com.pk/story/2627336/oil-rises-as-israel-threatens-iran-again",
+      "published_at": "2026-09-04T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 17.4,
+        "short": 13.6,
+        "extended": 5.7
+      }
     },
     {
-      "id": "4041e4700d04d330",
-      "name": "US probes Iran wedding strike that analysis shows was likely direct hit by US munition",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
+      "id": "2de7ec48c6d19507",
+      "name": "Israel Threatens Fresh Strikes on Iran Energy and Civilian Infrastructure",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "4041e4700d04d330",
-      "strength": 0.4,
+      "dependency_group": "2de7ec48c6d19507",
+      "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.215,
+      "freshness": 0.482,
       "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
       },
       "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
       },
-      "source": "yahoo.com",
-      "url": "https://www.yahoo.com/news/articles/us-probes-iran-wedding-strike-235700084.html",
-      "published_at": "2026-09-04T00:45:00Z",
+      "source": "khaama.com",
+      "url": "https://www.khaama.com/israel-threatens-fresh-strikes-on-irans-energy-and-civilian-infrastructure/",
+      "published_at": "2026-09-04T08:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
+        "immediate": 13.1,
+        "short": 10.2,
+        "extended": 4.3
+      }
     },
     {
-      "id": "a3b726ef7a122e74",
-      "name": "Vance : US wont talk to Iran until it stops attacking commercial ships",
+      "id": "b270254aa5882e5b",
+      "name": "Iranian strikes on Jordan test the bonds between the US and one of its staunchest Mideast allies",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a3b726ef7a122e74",
+      "dependency_group": "b270254aa5882e5b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.2,
+      "freshness": 0.739,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,28 +156,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "israelnationalnews.com",
-      "url": "https://www.israelnationalnews.com/news/432683",
-      "published_at": "2026-09-04T00:30:00Z",
+      "source": "dailygazette.com",
+      "url": "https://www.dailygazette.com/the_recorder/ap/national/iranian-strikes-on-jordan-test-the-bonds-between-the-us-and-one-of-its-staunchest/article_4cac0cf7-a702-5dba-b1dc-be4d5e4cf081.html",
+      "published_at": "2026-09-04T10:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
     },
     {
-      "id": "a9771146bd0fdb59",
-      "name": "Iran Strikes Keep Oil Near $91",
+      "id": "2d0a6b720c6ae3fe",
+      "name": "Jordan alliance with the US makes the kingdom a target for Iranian strikes",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a9771146bd0fdb59",
+      "dependency_group": "2d0a6b720c6ae3fe",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.2,
+      "freshness": 0.739,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -190,16 +187,449 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "rigzone.com",
-      "url": "https://www.rigzone.com/news/wire/iran_strikes_keep_oil_near_91-03-sep-2026-184535-article/",
-      "published_at": "2026-09-04T00:30:00Z",
+      "source": "dailyadvance.com",
+      "url": "http://www.dailyadvance.com/news/national/jordans-alliance-with-the-us-makes-the-kingdom-a-target-for-iranian-strikes/article_46b61310-9838-511e-8630-1ccdbf6ec3e7.html",
+      "published_at": "2026-09-04T10:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "83f1085443677e9f",
+      "name": "Trump turns to dual economic and military approach to squeeze Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "83f1085443677e9f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.688,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "orovillemr.com",
+      "url": "https://www.orovillemr.com/2026/09/03/trump-attempts-to-end-iran-war/",
+      "published_at": "2026-09-04T10:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "17e7eb05beda2ca6",
+      "name": "Us Laser Weapons Iran , ईरान के  यूक्रेन क‍िलर  शाहेद ड्रोन का खात्‍मा करेगा अमेरिकी  ट‍िड्डी , ट्रंप सेना को मिला तोड़ , दिया ऑर्डर - us army bets on laser weapons awards contract for locust x3 countering iran shahed dr",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "17e7eb05beda2ca6",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.597,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "navbharattimes.indiatimes.com",
+      "url": "https://navbharattimes.indiatimes.com/world/middle-east/us-army-bets-on-laser-weapons-awards-contract-for-locust-x3-countering-iran-shahed-drones/articleshow/133756793.cms",
+      "published_at": "2026-09-04T09:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.1
+      }
+    },
+    {
+      "id": "c061777944641f26",
+      "name": "Iranian commander vows response over US strike on wedding ceremony",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c061777944641f26",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.641,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "pakobserver.net",
+      "url": "https://pakobserver.net/iranian-commander-vows-response-over-us-strike-on-wedding-ceremony/",
+      "published_at": "2026-09-04T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "6305ced40d50ae80",
+      "name": "US Investigates Deadly Iran Wedding Strike After Analysis Suggests Direct Hit By American Munition",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6305ced40d50ae80",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.641,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "i24news.tv",
+      "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-us-investigates-deadly-iran-wedding-strike-after-analysis-suggests-direct-hit-by-american-munition",
+      "published_at": "2026-09-04T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "537d0f7322075c33",
+      "name": "Deadly strike on Iranian wedding was likely a direct hit by a US munition , analysis shows",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "537d0f7322075c33",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.597,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tribune.com.pk",
+      "url": "https://tribune.com.pk/story/2627398/deadly-strike-on-iranian-wedding-was-likely-a-direct-hit-by-a-us-munition-analysis-shows",
+      "published_at": "2026-09-04T09:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      }
+    },
+    {
+      "id": "9677242cfc875b7c",
+      "name": "Vance Blames High Gas Prices on Iran Shipping Attacks ; Netanyahu Says Toppling Regime Israel  Central Mission",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9677242cfc875b7c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.517,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "cbn.com",
+      "url": "https://cbn.com/news/israel/vance-blames-high-gas-prices-iran-shipping-attacks-netanyahu-says-toppling-regime",
+      "published_at": "2026-09-04T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "5c400b256c404da5",
+      "name": "Iran targets Kuwait in retaliation for US strikes , other Mideast news",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5c400b256c404da5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.556,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "coloradohometownweekly.com",
+      "url": "https://www.coloradohometownweekly.com/2026/09/03/iran-kuwait-us-mideast-news/",
+      "published_at": "2026-09-04T09:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "ed8800d16ea62edd",
+      "name": "Iran military fires barrage at Kuwait | Northwest Arkansas Democrat - Gazette",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ed8800d16ea62edd",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.517,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nwaonline.com",
+      "url": "https://www.nwaonline.com/news/2026/sep/04/iran-military-fires-barrage-at-kuwait/",
+      "published_at": "2026-09-04T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "61c9446fbe731352",
+      "name": "Iran - US war latest : Vance says  sometimes things happen  after US accused of killing five in wedding strike",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "61c9446fbe731352",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.556,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "independent.co.uk",
+      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-strikes-kuwait-hormuz-b3044536.html",
+      "published_at": "2026-09-04T09:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "39834621343947db",
+      "name": "US probes Iran wedding strike likely caused by American munition",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "39834621343947db",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.517,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailysabah.com",
+      "url": "https://www.dailysabah.com/world/mid-east/us-probes-iran-wedding-strike-likely-caused-by-american-munition",
+      "published_at": "2026-09-04T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "4f8a6709f8ec86da",
+      "name": "Iranian strikes on Jordan test bonds with US",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4f8a6709f8ec86da",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.517,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "naharnet.com:443",
+      "url": "https://www.naharnet.com:443/stories/en/322260-iranian-strikes-on-jordan-test-bonds-with-us",
+      "published_at": "2026-09-04T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "d431143979dc993a",
+      "name": "Iran hits US targets as Washington says probing wedding strike",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d431143979dc993a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.389,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jacarandafm.com",
+      "url": "https://www.jacarandafm.com/news/news/iran-hits-us-as-washington-probing-wedding-strike/",
+      "published_at": "2026-09-04T08:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "0b496703f25eb4c3",
+      "name": "Trump turns to a dual economic and military approach in latest attempt to squeeze Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0b496703f25eb4c3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.389,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "mymotherlode.com",
+      "url": "https://mymotherlode.com/news/world/11113143/trump-turns-to-a-dual-economic-and-military-approach-in-latest-attempt-to-squeeze-iran.html",
+      "published_at": "2026-09-04T08:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "28d6037c95a07a7e",
+      "name": "UK saved from nuclear attack by America war against Iran , claims Donald Trump",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "28d6037c95a07a7e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.362,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "lbc.co.uk",
+      "url": "https://www.lbc.co.uk/article/uk-nuclear-attack-iran-donald-trump-5Hjdgxj_2/",
+      "published_at": "2026-09-04T07:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
     }
   ],
   "history": [
@@ -5182,17 +5612,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 6
+    },
+    {
+      "timestamp": "2026-09-04T11:18:27.321064Z",
+      "immediate": 31,
+      "short": 32,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-09-04T01:19:22.741060Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-09-04T11:18:27.321064Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 4
+        "ok": true,
+        "items": 150,
+        "relevant": 18
       },
       "manual": {
         "ok": true,
