@@ -1,45 +1,575 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-09-03T23:30:24.630398Z",
+  "mode": "live",
+  "generated_at": "2026-09-04T01:19:22.741060Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 67,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 29,
+      "low": 16,
+      "high": 42,
+      "confidence": 67,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "זינוק חריג",
+    "points_60m": 25
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "01:30",
+      "text": "Report : Iran warns US against Israeli attack on Ali al - Taher",
+      "impact": "השפעה מיידית מחושבת: +12.1",
+      "direction": "up",
+      "source": "naharnet.com",
+      "signal_id": "163b1c29272ecdbf"
+    },
+    {
+      "time": "01:30",
+      "text": "Iran Chief Justice Mohseni - Ejei calls for global unity , peace ; condemns US - Israel strikes on Islamic Republic",
+      "impact": "השפעה מיידית מחושבת: +11.0",
+      "direction": "up",
+      "source": "middleeaststar.com",
+      "signal_id": "dfcdea61592f289a"
+    },
+    {
+      "time": "03:45",
+      "text": "US , Iran attack each other in fiercest exchange since July",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "birminghamstar.com",
+      "signal_id": "092901710983684f"
+    },
+    {
+      "time": "03:45",
+      "text": "US probes Iran wedding strike that analysis shows was likely direct hit by US munition",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "yahoo.com",
+      "signal_id": "4041e4700d04d330"
+    }
+  ],
+  "signals": [
+    {
+      "id": "163b1c29272ecdbf",
+      "name": "Report : Iran warns US against Israeli attack on Ali al - Taher",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "163b1c29272ecdbf",
+      "strength": 0.55,
+      "reliability": 0.56,
+      "freshness": 0.446,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "naharnet.com",
+      "url": "https://naharnet.com/stories/en/322246-report-iran-warns-us-against-israeli-attack-on-ali-al-taher",
+      "published_at": "2026-09-03T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 12.1,
+        "short": 9.4,
+        "extended": 4.0
+      }
+    },
+    {
+      "id": "dfcdea61592f289a",
+      "name": "Iran Chief Justice Mohseni - Ejei calls for global unity , peace ; condemns US - Israel strikes on Islamic Republic",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dfcdea61592f289a",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.446,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "middleeaststar.com",
+      "url": "http://www.middleeaststar.com/news/279284533/iran-chief-justice-mohseni-ejei-calls-for-global-unity-peace-condemns-us-israel-strikes-on-islamic-republic",
+      "published_at": "2026-09-03T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 11.0,
+        "short": 8.6,
+        "extended": 3.6
+      }
+    },
+    {
+      "id": "092901710983684f",
+      "name": "US , Iran attack each other in fiercest exchange since July",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "092901710983684f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.849,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "birminghamstar.com",
+      "url": "http://www.birminghamstar.com/news/279282097/iran-us-exchange-heavy-fire-as-war-fears-rise-again",
+      "published_at": "2026-09-04T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "4041e4700d04d330",
+      "name": "US probes Iran wedding strike that analysis shows was likely direct hit by US munition",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4041e4700d04d330",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.849,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yahoo.com",
+      "url": "https://www.yahoo.com/news/articles/us-probes-iran-wedding-strike-235700084.html",
+      "published_at": "2026-09-04T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "a3b726ef7a122e74",
+      "name": "Vance : US wont talk to Iran until it stops attacking commercial ships",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a3b726ef7a122e74",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.79,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/news/432683",
+      "published_at": "2026-09-04T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.6,
+        "extended": 7.8
+      }
+    },
+    {
+      "id": "a9771146bd0fdb59",
+      "name": "Iran Strikes Keep Oil Near $91",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a9771146bd0fdb59",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.79,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "rigzone.com",
+      "url": "https://www.rigzone.com/news/wire/iran_strikes_keep_oil_near_91-03-sep-2026-184535-article/",
+      "published_at": "2026-09-04T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.6,
+        "extended": 7.8
+      }
+    },
+    {
+      "id": "3626d718d1e80e2f",
+      "name": "U . S . probes strike on Iran wedding party : Vance - Xinhua",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3626d718d1e80e2f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.685,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "english.news.cn",
+      "url": "https://english.news.cn/northamerica/20260904/c678f84e0d6441688dcad4dbee6249d9/c.html",
+      "published_at": "2026-09-04T00:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "d431143979dc993a",
+      "name": "Iran hits US targets as Washington says probing wedding strike",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d431143979dc993a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.638,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "citynewsokc.com",
+      "url": "https://www.citynewsokc.com/townnews/politics/iran-hits-us-targets-as-washington-says-probing-wedding-strike/article_3b51bd52-d4e8-5993-aef7-8e9423497a29.html",
+      "published_at": "2026-09-03T23:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "0b496703f25eb4c3",
+      "name": "Trump turns to a dual economic and military approach in latest attempt to squeeze Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0b496703f25eb4c3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.638,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "isp.netscape.com:443",
+      "url": "https://isp.netscape.com:443/news/world/story/0001/20260903/73779f36e4b09480c5430d72f4385e23",
+      "published_at": "2026-09-03T23:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "e78603d57724eb6e",
+      "name": "Vance insists no Iran peace until regime stops attacking ships in Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e78603d57724eb6e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.638,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "lbc.co.uk",
+      "url": "https://www.lbc.co.uk/article/jd-vance-iran-peace-deal-wedding-strike-5HjdgxF_2/",
+      "published_at": "2026-09-03T23:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "2d87dff5d6e806d1",
+      "name": "US escorts 40 oil tankers through Hormuz ; Trump says Iran attacks wont last  too long",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2d87dff5d6e806d1",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.446,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tradearabia.com:443",
+      "url": "https://tradearabia.com:443/News/467508/US-escorts-40-oil-tankers-through-Hormuz-Trump-says-Iran-attacks-won-t-last-%E2%80%98too-long%E2%80%99",
+      "published_at": "2026-09-03T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "3eaa49df24e02ac5",
+      "name": "Iran  Sinful Attack Get a Place in Kuwait School History Books",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3eaa49df24e02ac5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.446,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arabtimesonline.com",
+      "url": "https://www.arabtimesonline.com/news/irans-sinful-attacks-get-a-place-in-kuwaits-school-history-books/",
+      "published_at": "2026-09-03T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "231c19ecbd2b9e1c",
+      "name": "Donald Trump claims he  saved the united kingdom from a nuclear attack  by waging a war on Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "231c19ecbd2b9e1c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.446,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailymail.com",
+      "url": "https://www.dailymail.com/news/article-16103563/Donald-Trump-saved-UK-nuclear-attack-war-Iran.html",
+      "published_at": "2026-09-03T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "88936b3fffca4247",
+      "name": "Kuwait claims right to defend as Iran attack cycle continues",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "88936b3fffca4247",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.446,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arabtimesonline.com",
+      "url": "https://www.arabtimesonline.com/news/kuwait-claims-right-to-defend-as-iran-attack-cycle-continues/",
+      "published_at": "2026-09-03T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "9814a801333dad7b",
+      "name": "Funerals held in Iran after reported US wedding attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9814a801333dad7b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.416,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "westernadvocate.com.au",
+      "url": "https://www.westernadvocate.com.au/story/9343565/funerals-held-in-iran-after-reported-us-wedding-attack/",
+      "published_at": "2026-09-03T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "ef72517213781f39",
+      "name": "Vance : US probing airstrike that Iran says hit a wedding party",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ef72517213781f39",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.416,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "militarytimes.com",
+      "url": "https://www.militarytimes.com/news/pentagon-congress/2026/09/03/vance-us-probing-airstrike-that-iran-says-hit-a-wedding-party/",
+      "published_at": "2026-09-03T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -5008,17 +5538,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-09-04T01:19:22.741060Z",
+      "immediate": 25,
+      "short": 29,
+      "extended": 28
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-09-03T18:43:56.684749Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-09-04T01:19:22.741060Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 16
       },
       "manual": {
         "ok": true,
