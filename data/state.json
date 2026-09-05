@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-09-05T21:42:50.765613Z",
+  "generated_at": "2026-09-05T23:23:31.378724Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 15,
-      "low": 2,
-      "high": 28,
-      "confidence": 65,
-      "status": "נמוך"
+      "score": 6,
+      "low": 0,
+      "high": 19,
+      "confidence": 66,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 65,
+      "score": 18,
+      "low": 5,
+      "high": 31,
+      "confidence": 66,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 65,
+      "score": 29,
+      "low": 16,
+      "high": 42,
+      "confidence": 66,
       "status": "מוגבר"
     }
   },
@@ -36,72 +36,227 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -19
+    "points_60m": -9
   },
   "changes": [
     {
-      "time": "21:45",
-      "text": "Israel sees rising risk of Iranian attack as Tehran weighs escalation before US midte",
-      "impact": "השפעה מיידית מחושבת: +10.6",
+      "time": "02:00",
+      "text": "Iran targets US ships , oil tankers in retaliation for US strikes , IRGC claims",
+      "impact": "השפעה מיידית מחושבת: +2.0",
       "direction": "up",
-      "source": "ynetnews.com",
-      "signal_id": "12751ead54f22f4f"
+      "source": "jpost.com",
+      "signal_id": "f0e2e1623d21fd97"
     },
     {
-      "time": "00:15",
-      "text": "NOW : U . S . Forces Struck 3 Iranian Tankers After the IRGC Launched Missiles at American Warships | News Radio 1200 WOAI",
+      "time": "02:00",
+      "text": "US strikes 3 Iranian oil tankers after saying warships were targeted with ballistic missiles",
       "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "woai.iheart.com",
-      "signal_id": "95b20b78bf95ea27"
+      "source": "local10.com",
+      "signal_id": "ddb008b646a2b292"
     },
     {
-      "time": "00:15",
-      "text": "US military strikes three Iranian oil tankers as Tehran vows  tougher reprisals",
+      "time": "02:00",
+      "text": "US leaves 3 Iranian oil tankers  permanently disabled  after Iranian regime targets American ships with ballistic missiles | Human Events",
+      "impact": "השפעה מיידית מחושבת: +1.8",
+      "direction": "up",
+      "source": "humanevents.com",
+      "signal_id": "0c4907f7e9c04d61"
+    },
+    {
+      "time": "02:00",
+      "text": "Iran IRGC says hit 3 oilers in Hormuz Strait , 3 U . S . vessels elsewhere in retaliatory strikes",
       "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "newindianexpress.com",
-      "signal_id": "80359c16b8ac269d"
-    },
-    {
-      "time": "23:00",
-      "text": "US military says it destroyed 3 Iranian oil tankers after missile attacks",
-      "impact": "השפעה מיידית מחושבת: +1.3",
-      "direction": "up",
-      "source": "azernews.az",
-      "signal_id": "faa7096038b0bf68"
+      "source": "bignewsnetwork.com",
+      "signal_id": "a46d237a6fdb4c63"
     }
   ],
   "signals": [
     {
-      "id": "12751ead54f22f4f",
-      "name": "Israel sees rising risk of Iranian attack as Tehran weighs escalation before US midte",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "f0e2e1623d21fd97",
+      "name": "Iran targets US ships , oil tankers in retaliation for US strikes , IRGC claims",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "12751ead54f22f4f",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.429,
+      "dependency_group": "f0e2e1623d21fd97",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.894,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/syttgtf00fg",
-      "published_at": "2026-09-05T18:45:00Z",
+      "source": "jpost.com",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-907652",
+      "published_at": "2026-09-05T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 10.6,
-        "short": 8.2,
-        "extended": 3.5
+        "immediate": 2.0,
+        "short": 6.8,
+        "extended": 11.6
+      }
+    },
+    {
+      "id": "ddb008b646a2b292",
+      "name": "US strikes 3 Iranian oil tankers after saying warships were targeted with ballistic missiles",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ddb008b646a2b292",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.894,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "local10.com",
+      "url": "https://www.local10.com/business/2026/09/05/us-strikes-3-iranian-oil-tankers-after-saying-warships-were-targeted-with-ballistic-missiles/",
+      "published_at": "2026-09-05T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.2,
+        "extended": 10.6
+      }
+    },
+    {
+      "id": "0c4907f7e9c04d61",
+      "name": "US leaves 3 Iranian oil tankers  permanently disabled  after Iranian regime targets American ships with ballistic missiles | Human Events",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0c4907f7e9c04d61",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.894,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "humanevents.com",
+      "url": "https://humanevents.com/2026/09/05/us-leaves-3-iranian-oil-tankers-permanently-disabled-after-iranian-regime-targets-american-ships-with-ballistic-missiles",
+      "published_at": "2026-09-05T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.2,
+        "extended": 10.6
+      }
+    },
+    {
+      "id": "a46d237a6fdb4c63",
+      "name": "Iran IRGC says hit 3 oilers in Hormuz Strait , 3 U . S . vessels elsewhere in retaliatory strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a46d237a6fdb4c63",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.894,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bignewsnetwork.com",
+      "url": "http://www.bignewsnetwork.com/news/279288755/iran-irgc-says-hit-3-oilers-in-hormuz-strait-3-us-vessels-elsewhere-in-retaliatory-strikes",
+      "published_at": "2026-09-05T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "ff6d2cebc0429cb7",
+      "name": "US strikes 3 Iranian oil tankers after IRGC attack on American naval ship",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ff6d2cebc0429cb7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.894,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "koreatimes.co.kr",
+      "url": "https://www.koreatimes.co.kr/world/20260906/us-strikes-3-iranian-oil-tankers-after-irgc-attack-on-american-naval-ship",
+      "published_at": "2026-09-05T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "7d3e90c410437c5d",
+      "name": "Iran slams US strikes on IRGC Oil Tankers in West Asia , calls it",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7d3e90c410437c5d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.894,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bignewsnetwork.com",
+      "url": "http://www.bignewsnetwork.com/news/279288762/iran-slams-us-strikes-on-irgc-oil-tankers-in-west-asia-calls-it-war-crime",
+      "published_at": "2026-09-05T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
       }
     },
     {
@@ -114,7 +269,7 @@
       "dependency_group": "95b20b78bf95ea27",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.876,
+      "freshness": 0.542,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +285,9 @@
       "published_at": "2026-09-05T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.1,
-        "extended": 10.4
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
       }
     },
     {
@@ -145,7 +300,7 @@
       "dependency_group": "80359c16b8ac269d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.876,
+      "freshness": 0.542,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +316,9 @@
       "published_at": "2026-09-05T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
       }
     },
     {
@@ -176,7 +331,7 @@
       "dependency_group": "faa7096038b0bf68",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.613,
+      "freshness": 0.379,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +347,9 @@
       "published_at": "2026-09-05T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
       }
     },
     {
@@ -207,7 +362,7 @@
       "dependency_group": "d5e6ccef4f3afc6c",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.613,
+      "freshness": 0.379,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +378,9 @@
       "published_at": "2026-09-05T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.3
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
       }
     },
     {
@@ -238,7 +393,7 @@
       "dependency_group": "91267fe31e124281",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.571,
+      "freshness": 0.353,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,40 +409,9 @@
       "published_at": "2026-09-05T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
-    },
-    {
-      "id": "ddb008b646a2b292",
-      "name": "US strikes 3 Iranian oil tankers after saying warships were targeted with ballistic missiles",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ddb008b646a2b292",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.571,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "reflector.com",
-      "url": "http://www.reflector.com/news/national/us-strikes-3-iranian-oil-tankers-after-saying-warships-were-targeted-with-ballistic-missiles/article_86f32995-3cec-5e8c-84de-1fbd1e2a78dd.html",
-      "published_at": "2026-09-05T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     },
     {
@@ -300,7 +424,7 @@
       "dependency_group": "9e3fa7443e457358",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.531,
+      "freshness": 0.329,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,9 +440,9 @@
       "published_at": "2026-09-05T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     },
     {
@@ -331,7 +455,7 @@
       "dependency_group": "e5c464cfc3a5626b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.613,
+      "freshness": 0.379,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,9 +471,9 @@
       "published_at": "2026-09-05T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       }
     },
     {
@@ -362,7 +486,7 @@
       "dependency_group": "f881e731176fbf6d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.613,
+      "freshness": 0.379,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,9 +502,9 @@
       "published_at": "2026-09-05T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       }
     },
     {
@@ -393,7 +517,7 @@
       "dependency_group": "085093163fb99d88",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.613,
+      "freshness": 0.379,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,226 +533,9 @@
       "published_at": "2026-09-05T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      }
-    },
-    {
-      "id": "5ff1d49d4addd79c",
-      "name": "US strikes three Iranian oil tankers after IRGC attack on US ships , CENTCOM says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5ff1d49d4addd79c",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.461,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-907641",
-      "published_at": "2026-09-05T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      }
-    },
-    {
-      "id": "fec736d838f6da38",
-      "name": "US military hits 3 Iranian oil tankers after saying Navy warships were targeted",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fec736d838f6da38",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.613,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ideastream.org",
-      "url": "https://www.ideastream.org/2026-09-05/us-military-hits-3-iranian-oil-tankers-after-saying-navy-warships-were-targeted",
-      "published_at": "2026-09-05T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      }
-    },
-    {
-      "id": "30dee22a221225cb",
-      "name": "US military says it struck three Iranian oil tankers",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "30dee22a221225cb",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.571,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "canberratimes.com.au",
-      "url": "https://www.canberratimes.com.au/story/9344473/us-military-says-it-struck-three-iranian-oil-tankers/",
-      "published_at": "2026-09-05T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
-    },
-    {
-      "id": "39f316519f333404",
-      "name": "US strikes 3 Iranian oil tankers in retaliation for targeting warships",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "39f316519f333404",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.571,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kvia.com",
-      "url": "https://kvia.com/news/2026/09/05/us-strikes-3-iranian-oil-tankers-in-retaliation-for-targeting-warships/",
-      "published_at": "2026-09-05T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
-    },
-    {
-      "id": "97254a103a489170",
-      "name": "US hits 3 Iranian tankers after IRGC fires missiles at Navy warships",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "97254a103a489170",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.429,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/hycus5toge",
-      "published_at": "2026-09-05T18:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
-    },
-    {
-      "id": "c177407fca721e26",
-      "name": "CENTCOM Invokes  Chicago Rule to Deal With Iranian Missile Attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c177407fca721e26",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.429,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "redstate.com",
-      "url": "https://redstate.com/streiff/2026/09/05/centcom-invokes-chicago-rules-to-deal-with-iranian-missile-attacks-n2206547",
-      "published_at": "2026-09-05T18:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
-    },
-    {
-      "id": "39bce49973b901c7",
-      "name": "US strikes three Iranian oil tankers after IRGC attack on naval ships",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "39bce49973b901c7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.531,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "sana.sy",
-      "url": "https://sana.sy/en/international/2340612/",
-      "published_at": "2026-09-05T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       }
     },
     {
@@ -641,7 +548,7 @@
       "dependency_group": "977027edb1b7550b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.531,
+      "freshness": 0.329,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -657,22 +564,22 @@
       "published_at": "2026-09-05T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
       }
     },
     {
-      "id": "6f46f3a1a6c3c8e7",
-      "name": "US strikes three Iranian oil tankers after two of its warships targeted with missiles",
+      "id": "fec736d838f6da38",
+      "name": "US military hits 3 Iranian oil tankers after saying Navy warships were targeted",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "6f46f3a1a6c3c8e7",
-      "strength": 0.48,
+      "dependency_group": "fec736d838f6da38",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.461,
+      "freshness": 0.379,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -683,27 +590,89 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "independent.co.uk",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/us-iran-war-oil-tanker-attack-kharg-island-b3045256.html",
-      "published_at": "2026-09-05T19:00:00Z",
+      "source": "ideastream.org",
+      "url": "https://www.ideastream.org/2026-09-05/us-military-hits-3-iranian-oil-tankers-after-saying-navy-warships-were-targeted",
+      "published_at": "2026-09-05T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       }
     },
     {
-      "id": "013a0e09ffbf5335",
-      "name": "Iran threatens to expand strikes if US keeps  harassing  its ships",
+      "id": "30dee22a221225cb",
+      "name": "US military says it struck three Iranian oil tankers",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "013a0e09ffbf5335",
+      "dependency_group": "30dee22a221225cb",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.353,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "canberratimes.com.au",
+      "url": "https://www.canberratimes.com.au/story/9344473/us-military-says-it-struck-three-iranian-oil-tankers/",
+      "published_at": "2026-09-05T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
+      }
+    },
+    {
+      "id": "39f316519f333404",
+      "name": "US strikes 3 Iranian oil tankers in retaliation for targeting warships",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "39f316519f333404",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.353,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kvia.com",
+      "url": "https://kvia.com/news/2026/09/05/us-strikes-3-iranian-oil-tankers-in-retaliation-for-targeting-warships/",
+      "published_at": "2026-09-05T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
+      }
+    },
+    {
+      "id": "b1c80ee5e971bac7",
+      "name": "IRGC Threatens to Halt Regional Energy Exports over Renewed US Blockade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b1c80ee5e971bac7",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.429,
+      "freshness": 0.329,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -714,58 +683,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/bymnp0yumg",
-      "published_at": "2026-09-05T18:45:00Z",
+      "source": "qatarliving.com",
+      "url": "https://www.qatarliving.com/en/article/irgc-threatens-to-halt-regional-energy-exports-over-renewed-us-blockade",
+      "published_at": "2026-09-05T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       }
     },
     {
-      "id": "58451c94c2aedbc9",
-      "name": "US says it destroyed 3 Iranian oil tankers after IRGC missile attacks on navy ships | Indiablooms - First Portal on Digital News Management",
+      "id": "4e536a451bb2e40b",
+      "name": "Iran military vows  more severe  reprisals if US attacks continue",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "58451c94c2aedbc9",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.399,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "indiablooms.com",
-      "url": "https://www.indiablooms.com/world/us-says-it-destroyed-3-iranian-oil-tankers-after-irgc-missile-attacks-on-navy-ships/details",
-      "published_at": "2026-09-05T18:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "491f4ee29df1dedf",
-      "name": "US military says it destroyed 3 Iranian oil tankers",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "491f4ee29df1dedf",
+      "dependency_group": "4e536a451bb2e40b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.461,
+      "freshness": 0.379,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -776,293 +714,14 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "freemalaysiatoday.com",
-      "url": "https://www.freemalaysiatoday.com/category/world/2026/09/05/us-military-says-it-destroyed-3-iranian-oil-tankers",
-      "published_at": "2026-09-05T19:00:00Z",
+      "source": "vanguardngr.com",
+      "url": "https://www.vanguardngr.com/2026/09/iran-military-vows-more-severe-reprisals-if-us-attacks-continue/",
+      "published_at": "2026-09-05T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "c997df0b4b53a7dc",
-      "name": "U . S . strikes 3 Iranian oil tankers after Iran fires at Navy ships",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c997df0b4b53a7dc",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.461,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "upi.com",
-      "url": "https://www.upi.com/Top_News/US/2026/09/05/military-hits-iran-ships/8531788629308/",
-      "published_at": "2026-09-05T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "56ac738d984a0c84",
-      "name": "CENTCOM claims to strike 3 Iranian oil tankers after IRGC targets 2 US warships ; Hegseth warns of further action",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "56ac738d984a0c84",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.399,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20260905/4495185.html",
-      "published_at": "2026-09-05T18:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "fa6c98f3e60f87d9",
-      "name": "U . S . strikes 3 Iranian oil tankers after attack on American Navy ships",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fa6c98f3e60f87d9",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.461,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "staradvertiser.com",
-      "url": "https://www.staradvertiser.com/2026/09/05/breaking-news/u-s-strikes-3-iranian-oil-tankers-after-attack-on-american-navy-ships/",
-      "published_at": "2026-09-05T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "348766a8c51367e1",
-      "name": "U . S . Strikes Three Iranian Tankers After Iran Attacks Aircraft Carrier",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "348766a8c51367e1",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.461,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "breitbart.com",
-      "url": "https://www.breitbart.com/national-security/2026/09/05/u-s-strikes-three-iranian-tankers-after-iran-attacks-aircraft-carrier/",
-      "published_at": "2026-09-05T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "1ca9a155624e6267",
-      "name": "Pentagon says 3 Iranian tankers hit after attacks on US warships",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1ca9a155624e6267",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.461,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wptv.com",
-      "url": "https://www.wptv.com/us-news/iran-war/pentagon-says-3-iranian-tankers-hit-after-attacks-on-us-warships",
-      "published_at": "2026-09-05T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "202b07d166a02f0b",
-      "name": "Iran condemns US strikes on oil tankers as  illegal , aggressive",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "202b07d166a02f0b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.429,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/us-israel-iran-war/iran-condemns-us-strikes-on-oil-tankers-as-illegal-aggressive/4048392",
-      "published_at": "2026-09-05T18:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
-    },
-    {
-      "id": "e12b8d327000b4ae",
-      "name": "US military strikes Iranian oil tankers after Navy warships targeted",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e12b8d327000b4ae",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.399,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wsbradio.com",
-      "url": "https://www.wsbradio.com/news/world/us-military-hits-3/Q2MR6HYOMA3EJBH2SPFCBIKXQY/",
-      "published_at": "2026-09-05T18:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "762242a6e83e4927",
-      "name": "U . S . Central Command Destroys Three Iranian Tankers After IRGC Fires Upon U . S . Navy Vessels",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "762242a6e83e4927",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.399,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theconservativetreehouse.com",
-      "url": "https://theconservativetreehouse.com/blog/2026/09/05/u-s-central-command-destroys-three-iranian-tankers-after-irgc-fires-upon-u-s-navy-vessels/",
-      "published_at": "2026-09-05T18:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "611d727cf302ffa3",
-      "name": "US strikes hit three Iranian oil tankers off Kharg Island",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "611d727cf302ffa3",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.429,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "rte.ie",
-      "url": "https://www.rte.ie/news/2026/0905/1590444-us-iran/",
-      "published_at": "2026-09-05T18:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       }
     }
   ],
@@ -6124,17 +5783,23 @@
       "immediate": 15,
       "short": 22,
       "extended": 24
+    },
+    {
+      "timestamp": "2026-09-05T23:23:31.378724Z",
+      "immediate": 6,
+      "short": 18,
+      "extended": 29
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-09-05T21:42:50.765613Z",
+    "last_success": "2026-09-05T23:23:31.378724Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 32
+        "relevant": 21
       },
       "manual": {
         "ok": true,
