@@ -1,45 +1,482 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-09-05T09:08:34.792824Z",
+  "mode": "live",
+  "generated_at": "2026-09-05T12:43:31.365571Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 67,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 27,
+      "low": 14,
+      "high": 40,
+      "confidence": 67,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "זינוק חריג",
+    "points_60m": 23
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "14:30",
+      "text": "Why is Trump threatening to strike Iran Pickaxe Mountain again , now ? | US - Israel war on Iran News",
+      "impact": "השפעה מיידית מחושבת: +19.1",
+      "direction": "up",
+      "source": "aljazeera.com",
+      "signal_id": "8cd3854e4ab03f52"
+    },
+    {
+      "time": "14:30",
+      "text": "Iranian tanker hit by US attack near Iran Kharg Island , Tasnim says",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "al-monitor.com",
+      "signal_id": "5be121634cb13074"
+    },
+    {
+      "time": "14:30",
+      "text": "Iran warns US to exit Gulf as Trump threatens strikes on Mount Koh Kalang tunnel site",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "bankingnews.gr",
+      "signal_id": "c77b4cfa98d246a4"
+    },
+    {
+      "time": "15:00",
+      "text": "IRGC : Claims of attack on nuclear facilities in Isfahan are false",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "en.apa.az",
+      "signal_id": "c41ee493c236d0cf"
+    }
+  ],
+  "signals": [
+    {
+      "id": "8cd3854e4ab03f52",
+      "name": "Why is Trump threatening to strike Iran Pickaxe Mountain again , now ? | US - Israel war on Iran News",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8cd3854e4ab03f52",
+      "strength": 0.55,
+      "reliability": 0.56,
+      "freshness": 0.705,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/9/5/why-is-trump-threatening-to-strike-irans-pickaxe-mountain-again-now",
+      "published_at": "2026-09-05T11:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 19.1,
+        "short": 14.9,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "5be121634cb13074",
+      "name": "Iranian tanker hit by US attack near Iran Kharg Island , Tasnim says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5be121634cb13074",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.705,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/09/iranian-tanker-hit-us-attack-near-irans-kharg-island-tasnim-says",
+      "published_at": "2026-09-05T11:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
+    {
+      "id": "c77b4cfa98d246a4",
+      "name": "Iran warns US to exit Gulf as Trump threatens strikes on Mount Koh Kalang tunnel site",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c77b4cfa98d246a4",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.705,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bankingnews.gr",
+      "url": "https://www.bankingnews.gr/diethni/articles/897544/iran-warns-us-to-exit-gulf-as-trump-threatens-strikes-on-mount-koh-kalang-tunnel-site",
+      "published_at": "2026-09-05T11:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.8
+      }
+    },
+    {
+      "id": "c41ee493c236d0cf",
+      "name": "IRGC : Claims of attack on nuclear facilities in Isfahan are false",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c41ee493c236d0cf",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.813,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "en.apa.az",
+      "url": "https://en.apa.az/asia/irgc-claims-of-attack-on-nuclear-facilities-in-isfahan-are-false-522982",
+      "published_at": "2026-09-05T12:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "ba6e3945f6d18614",
+      "name": "Iranian tanker reportedly hit by U . S . attack near Iran Kharg Island",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ba6e3945f6d18614",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.813,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/09/05/iranian-tanker-reportedly-hit-by-us-attack-near-irans-kharg-island.html",
+      "published_at": "2026-09-05T12:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "d5f9483b91d3db77",
+      "name": "Iranian tanker hit by US attack near Kharg Island",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d5f9483b91d3db77",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.611,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "omanobserver.om",
+      "url": "https://www.omanobserver.om/article/1195623/world/region/iranian-tanker-hit-by-us-attack-near-kharg-island",
+      "published_at": "2026-09-05T11:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "e43bb5b1c8a0f0d7",
+      "name": "US missile hits Iranian oil tanker near Kharg Island : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e43bb5b1c8a0f0d7",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.459,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/middle-east/us-missile-hits-iranian-oil-tanker-near-kharg-island-report/4047983",
+      "published_at": "2026-09-05T10:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
+    },
+    {
+      "id": "caf735c0dcbc6e95",
+      "name": "Iran claims to target 370 US aircraft and drones during war",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "caf735c0dcbc6e95",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.398,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dunyanews.tv",
+      "url": "https://dunyanews.tv/en/World/971372-iran-claims-to-target-370-us-aircraft-and-drones-during-war",
+      "published_at": "2026-09-05T09:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
+      }
+    },
+    {
+      "id": "e4eb8a9c4aa13df6",
+      "name": "US forces strike Iranian Oil Tanker near Kharg Island",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e4eb8a9c4aa13df6",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.398,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "pakobserver.net",
+      "url": "https://pakobserver.net/us-forces-strike-iranian-oil-tanker-near-kharg-island/",
+      "published_at": "2026-09-05T09:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "3bf1e4b8267aef58",
+      "name": "अमेरिका ने ईरान के तेल टैंकर पर किया हमला , खार्ग द्वीप के पास गिराईं चार मिसाइलें - us attacks on iranian oil tanker near kharg island with four missiles america iran war live",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3bf1e4b8267aef58",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.345,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jagran.com",
+      "url": "https://www.jagran.com/world/middle-east-us-attacks-on-iranian-oil-tanker-near-kharg-island-with-four-missiles-america-iran-war-live-40363162.html",
+      "published_at": "2026-09-05T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "f89ef03dec609aac",
+      "name": "U . S . probes Iran wedding strike that analysis shows was likely direct hit by US munition",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f89ef03dec609aac",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.427,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "spokesman.com",
+      "url": "https://www.spokesman.com/stories/2026/sep/04/us-probes-iran-wedding-strike-that-analysis-shows-/",
+      "published_at": "2026-09-05T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
+    },
+    {
+      "id": "80f90e9262df437f",
+      "name": "Donald Trump Threatens Iran Nuclear Site Attack ; US Intelligence Alert",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "80f90e9262df437f",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.345,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "divyamarathi.bhaskar.com",
+      "url": "https://divyamarathi.bhaskar.com/international/news/donald-trump-iran-nuclear-site-threat-pickax-mountain-attack-138937053.html",
+      "published_at": "2026-09-05T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "7c3e5190cee0c6aa",
+      "name": "Trump Warns US Could  Hit  Iran Underground Pickaxe Mountain Nuclear Site Soon",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7c3e5190cee0c6aa",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.345,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "heraldgoa.in",
+      "url": "https://www.heraldgoa.in/globe-nation/trump-warns-us-could-hit-irans-underground-pickaxe-mountain-nuclear-site-soon/487819/",
+      "published_at": "2026-09-05T09:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -5068,17 +5505,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-09-05T12:43:31.365571Z",
+      "immediate": 23,
+      "short": 27,
+      "extended": 28
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-09-04T20:54:31.177149Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-09-05T12:43:31.365571Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 13
       },
       "manual": {
         "ok": true,
