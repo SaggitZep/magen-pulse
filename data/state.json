@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-09-04T22:59:28.282086Z",
+  "generated_at": "2026-09-05T00:51:39.540563Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 17,
+      "score": 8,
       "low": 0,
-      "high": 34,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 25,
+      "confidence": 45,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 19,
-      "low": 3,
-      "high": 35,
-      "confidence": 48,
+      "score": 10,
+      "low": 0,
+      "high": 27,
+      "confidence": 44,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 2,
-      "high": 34,
-      "confidence": 48,
+      "score": 10,
+      "low": 0,
+      "high": 27,
+      "confidence": 44,
       "status": "נמוך"
     }
   },
@@ -36,29 +36,21 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -13
+    "points_60m": -9
   },
   "changes": [
     {
       "time": "23:15",
       "text": "Iran says much of oil , gas refining capacity damaged in US - Israeli attacks rebuilt",
-      "impact": "השפעה מיידית מחושבת: +11.3",
+      "impact": "השפעה מיידית מחושבת: +6.6",
       "direction": "up",
       "source": "middleeastmonitor.com",
       "signal_id": "9b7697dc0b774bd5"
     },
     {
-      "time": "20:00",
-      "text": "Iran preparing coordinated attack with Hezbollah , proxies , Israeli report says",
-      "impact": "השפעה מיידית מחושבת: +4.5",
-      "direction": "up",
-      "source": "naharnet.com:443",
-      "signal_id": "7f95d4808b68a65a"
-    },
-    {
       "time": "22:45",
       "text": "US says unaware of reported Iranian missile attack on its bases in Jordan",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "aa.com.tr",
       "signal_id": "ce58f6361caf13a2"
@@ -66,10 +58,18 @@
     {
       "time": "22:45",
       "text": "Report : IRGC launches ballistic missile attack on US bases in Jordan",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "israelnationalnews.com",
       "signal_id": "7d59bc41f9da238b"
+    },
+    {
+      "time": "23:30",
+      "text": "The Latest : US tightens economic squeeze on Iran after a week of renewed strikes",
+      "impact": "השפעה מיידית מחושבת: +0.5",
+      "direction": "up",
+      "source": "santamariatimes.com",
+      "signal_id": "5a47ed6040d854c9"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@
       "dependency_group": "9b7697dc0b774bd5",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.457,
+      "freshness": 0.268,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,41 +99,9 @@
       "published_at": "2026-09-04T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.3,
-        "short": 8.8,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7f95d4808b68a65a",
-      "name": "Iran preparing coordinated attack with Hezbollah , proxies , Israeli report says",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7f95d4808b68a65a",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "naharnet.com:443",
-      "url": "https://www.naharnet.com:443/stories/en/322263-iran-preparing-coordinated-attack-with-hezbollah-proxies-israeli-report-says",
-      "published_at": "2026-09-04T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 4.5,
-        "short": 3.5,
-        "extended": 1.5
+        "immediate": 6.6,
+        "short": 5.2,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -147,7 +115,7 @@
       "dependency_group": "ce58f6361caf13a2",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.396,
+      "freshness": 0.232,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +131,9 @@
       "published_at": "2026-09-04T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -179,7 +147,7 @@
       "dependency_group": "7d59bc41f9da238b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.396,
+      "freshness": 0.232,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +163,9 @@
       "published_at": "2026-09-04T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -211,7 +179,7 @@
       "dependency_group": "5a47ed6040d854c9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.491,
+      "freshness": 0.288,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +195,9 @@
       "published_at": "2026-09-04T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -243,7 +211,7 @@
       "dependency_group": "46837aeab0c7873f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.396,
+      "freshness": 0.232,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +227,9 @@
       "published_at": "2026-09-04T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     },
@@ -275,7 +243,7 @@
       "dependency_group": "1be29e6be2702fd6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.396,
+      "freshness": 0.232,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +259,9 @@
       "published_at": "2026-09-04T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.3
       },
       "carried_forward": true
     },
@@ -307,7 +275,7 @@
       "dependency_group": "fb71ef3394d406f6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.343,
+      "freshness": 0.201,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +291,9 @@
       "published_at": "2026-09-04T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -339,7 +307,7 @@
       "dependency_group": "fd4f501acd955f3e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.343,
+      "freshness": 0.201,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,41 +323,9 @@
       "published_at": "2026-09-04T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d03d07ba87bae3c0",
-      "name": "Iran launches missiles toward Jordan ,  powerful explosion  reported",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d03d07ba87bae3c0",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.298,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/syhpkod00fe",
-      "published_at": "2026-09-04T18:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -403,7 +339,7 @@
       "dependency_group": "c5437a7dfaf9e7d0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.343,
+      "freshness": 0.201,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -419,41 +355,9 @@
       "published_at": "2026-09-04T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "73824a822b3430e8",
-      "name": "US sanctions Turkey - based bank over Iran ties",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "73824a822b3430e8",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.258,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "al-monitor.com",
-      "url": "https://www.al-monitor.com/originals/2026/09/us-sanctions-turkey-based-bank-over-iran-ties",
-      "published_at": "2026-09-04T18:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     }
@@ -5468,6 +5372,12 @@
       "immediate": 17,
       "short": 19,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-09-05T00:51:39.540563Z",
+      "immediate": 8,
+      "short": 10,
+      "extended": 10
     }
   ],
   "health": {
@@ -5478,7 +5388,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 12
+        "carried_forward": 9
       },
       "manual": {
         "ok": true,
