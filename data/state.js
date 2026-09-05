@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-09-05T00:51:39.540563Z",
+  "generated_at": "2026-09-05T05:11:59.264045Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 8,
+      "score": 0,
       "low": 0,
-      "high": 25,
-      "confidence": 45,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 0,
       "low": 0,
-      "high": 27,
-      "confidence": 44,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 10,
+      "score": 0,
       "low": 0,
-      "high": 27,
-      "confidence": 44,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -36,332 +36,10 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -9
+    "points_60m": -8
   },
-  "changes": [
-    {
-      "time": "23:15",
-      "text": "Iran says much of oil , gas refining capacity damaged in US - Israeli attacks rebuilt",
-      "impact": "השפעה מיידית מחושבת: +6.6",
-      "direction": "up",
-      "source": "middleeastmonitor.com",
-      "signal_id": "9b7697dc0b774bd5"
-    },
-    {
-      "time": "22:45",
-      "text": "US says unaware of reported Iranian missile attack on its bases in Jordan",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "aa.com.tr",
-      "signal_id": "ce58f6361caf13a2"
-    },
-    {
-      "time": "22:45",
-      "text": "Report : IRGC launches ballistic missile attack on US bases in Jordan",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "israelnationalnews.com",
-      "signal_id": "7d59bc41f9da238b"
-    },
-    {
-      "time": "23:30",
-      "text": "The Latest : US tightens economic squeeze on Iran after a week of renewed strikes",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "santamariatimes.com",
-      "signal_id": "5a47ed6040d854c9"
-    }
-  ],
-  "signals": [
-    {
-      "id": "9b7697dc0b774bd5",
-      "name": "Iran says much of oil , gas refining capacity damaged in US - Israeli attacks rebuilt",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9b7697dc0b774bd5",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.268,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "middleeastmonitor.com",
-      "url": "https://www.middleeastmonitor.com/20260904-iran-says-much-of-oil-gas-refining-capacity-damaged-in-us-israeli-attacks-rebuilt/",
-      "published_at": "2026-09-04T20:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 6.6,
-        "short": 5.2,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ce58f6361caf13a2",
-      "name": "US says unaware of reported Iranian missile attack on its bases in Jordan",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ce58f6361caf13a2",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.232,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/americas/us-says-unaware-of-reported-iranian-missile-attack-on-its-bases-in-jordan/4047717",
-      "published_at": "2026-09-04T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7d59bc41f9da238b",
-      "name": "Report : IRGC launches ballistic missile attack on US bases in Jordan",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7d59bc41f9da238b",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.232,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "israelnationalnews.com",
-      "url": "https://www.israelnationalnews.com/flashes/692984",
-      "published_at": "2026-09-04T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5a47ed6040d854c9",
-      "name": "The Latest : US tightens economic squeeze on Iran after a week of renewed strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5a47ed6040d854c9",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.288,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "santamariatimes.com",
-      "url": "https://santamariatimes.com/ap/national/the-latest-us-tightens-economic-squeeze-on-iran-after-a-week-of-renewed-strikes/article_0c448dd4-1b45-50a2-ace7-70d21d464da8.html",
-      "published_at": "2026-09-04T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "46837aeab0c7873f",
-      "name": "Iran prepared for  any confrontation  as  threat is not over",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "46837aeab0c7873f",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.232,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "pakistantoday.com.pk",
-      "url": "https://www.pakistantoday.com.pk/2026/09/04/iran-prepared-for-any-confrontation-as-threat-is-not-over-air-defence-commander",
-      "published_at": "2026-09-04T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1be29e6be2702fd6",
-      "name": "Women gathered in Iranian town for wedding . Then deadly US strike hit",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1be29e6be2702fd6",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.232,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "eptrail.com",
-      "url": "https://www.eptrail.com/2026/09/04/iran-wedding-strike/",
-      "published_at": "2026-09-04T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "fb71ef3394d406f6",
-      "name": "Iran shifting military doctrine toward preemptive attack : Army spokesman",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fb71ef3394d406f6",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.201,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeastmonitor.com",
-      "url": "https://www.middleeastmonitor.com/20260904-iran-shifting-military-doctrine-toward-preemptive-attack-army-spokesman/",
-      "published_at": "2026-09-04T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "fd4f501acd955f3e",
-      "name": "Japan says Iran used geography to impose heavy costs at relatively low military expense",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fd4f501acd955f3e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.201,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeastmonitor.com",
-      "url": "https://www.middleeastmonitor.com/20260904-japan-says-iran-used-geography-to-impose-heavy-costs-at-relatively-low-military-expense/",
-      "published_at": "2026-09-04T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c5437a7dfaf9e7d0",
-      "name": "Jordan alliance with US makes kingdom a target for Iranian strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c5437a7dfaf9e7d0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.201,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "pilotonline.com",
-      "url": "https://www.pilotonline.com/2026/09/04/jordan-us-alliance-iran/",
-      "published_at": "2026-09-04T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -5378,17 +5056,23 @@ window.MAGEN_STATE = {
       "immediate": 8,
       "short": 10,
       "extended": 10
+    },
+    {
+      "timestamp": "2026-09-05T05:11:59.264045Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-09-04T20:54:31.177149Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 9
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
