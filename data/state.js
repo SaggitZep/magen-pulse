@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-09-06T06:06:17.171961Z",
+  "mode": "degraded",
+  "generated_at": "2026-09-06T10:57:50.724864Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 1,
       "low": 0,
       "high": 18,
-      "confidence": 69,
+      "confidence": 44,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 17,
-      "low": 4,
-      "high": 30,
-      "confidence": 69,
-      "status": "נמוך"
+      "score": 4,
+      "low": 0,
+      "high": 21,
+      "confidence": 44,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 28,
-      "low": 15,
-      "high": 41,
-      "confidence": 69,
-      "status": "מוגבר"
+      "score": 7,
+      "low": 0,
+      "high": 24,
+      "confidence": 44,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "ירידה",
+    "points_60m": -4
   },
   "changes": [
     {
       "time": "09:00",
       "text": "IRGC says several ballistic missiles fired at US aircraft carrier , destroyer harassing Iranian ships",
-      "impact": "השפעה מיידית מחושבת: +2.0",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "hindustantimes.com",
       "signal_id": "c99418d41dc845af"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "08:30",
       "text": "U . S . strikes Iranian oil tankers in retaliation for missile attacks on Navy ships",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "wamc.org",
       "signal_id": "436f3d99bde03e50"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "08:15",
       "text": "US strikes three Iranian oil tankers after aircraft carrier targeted with ballistic missiles",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "aol.co.uk",
       "signal_id": "01ab458bdb71a140"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "08:00",
       "text": "Iran Guards say attacked US naval drone : state media",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "bssnews.net",
       "signal_id": "6d6ab05000d9a23b"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c99418d41dc845af",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.971,
+      "freshness": 0.242,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T06:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 2.0,
-        "short": 6.7,
-        "extended": 11.5
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
+      },
+      "carried_forward": true
     },
     {
       "id": "436f3d99bde03e50",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "436f3d99bde03e50",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.841,
+      "freshness": 0.21,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T05:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.8,
-        "extended": 9.9
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
     },
     {
       "id": "01ab458bdb71a140",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "01ab458bdb71a140",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.783,
+      "freshness": 0.195,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.3
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.3
+      },
+      "carried_forward": true
     },
     {
       "id": "6d6ab05000d9a23b",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6d6ab05000d9a23b",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.729,
+      "freshness": 0.182,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,41 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T05:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
-      }
-    },
-    {
-      "id": "eefd31679acc735a",
-      "name": "US - Iran Ship Attacks Escalate Battle for Control of Strait of Hormuz , Threaten Global Oil Flows",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "eefd31679acc735a",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.729,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gulfnews.com",
-      "url": "https://gulfnews.com/world/mena/us-iran-war-tanker-strikes-open-dangerous-new-phase-in-hormuz-as-tehran-threatens-us-warships-1.500664548",
-      "published_at": "2026-09-06T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.1
-      }
+      "carried_forward": true
     },
     {
       "id": "cf976b2de115bbf6",
@@ -238,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "cf976b2de115bbf6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.841,
+      "freshness": 0.21,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +227,43 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T05:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.3
-      }
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "eefd31679acc735a",
+      "name": "US - Iran Ship Attacks Escalate Battle for Control of Strait of Hormuz , Threaten Global Oil Flows",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "eefd31679acc735a",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.182,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gulfnews.com",
+      "url": "https://gulfnews.com/world/mena/us-iran-war-tanker-strikes-open-dangerous-new-phase-in-hormuz-as-tehran-threatens-us-warships-1.500664548",
+      "published_at": "2026-09-06T05:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
+      },
+      "carried_forward": true
     },
     {
       "id": "60f595c8fe463cd3",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "60f595c8fe463cd3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.783,
+      "freshness": 0.195,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
+      },
+      "carried_forward": true
     },
     {
       "id": "8ea76e686b59a4a2",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8ea76e686b59a4a2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.783,
+      "freshness": 0.195,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
+      },
+      "carried_forward": true
     },
     {
       "id": "abf0f5ab7ce26265",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "abf0f5ab7ce26265",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.783,
+      "freshness": 0.195,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,134 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T05:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
-    },
-    {
-      "id": "66227c90c797290f",
-      "name": "Iran Says Missiles Fired at US Warships",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "66227c90c797290f",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.442,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "deccanchronicle.com",
-      "url": "https://www.deccanchronicle.com/west-asia/iran-says-missiles-fired-at-us-warships-1985198",
-      "published_at": "2026-09-06T03:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      }
-    },
-    {
-      "id": "cf973ef09e33f2bf",
-      "name": "Escalation in Hormuz : Iran Claims Strikes on Six U . S . Vessels Following Tanker Destruction",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cf973ef09e33f2bf",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.442,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cubaheadlines.com",
-      "url": "https://www.cubaheadlines.com/articles/339675",
-      "published_at": "2026-09-06T03:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "565af86942cfaf89",
-      "name": "THE NEW YORK TIMES : U . S . strikes three Iranian  shadow network  oil tankers , military says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "565af86942cfaf89",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.442,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "perthnow.com.au",
-      "url": "https://www.perthnow.com.au/news/world/the-new-york-times-us-strikes-three-iranian-shadow-network-oil-tankers-military-says-c-22830584",
-      "published_at": "2026-09-06T03:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "8d0264b7286912d4",
-      "name": "Oil ends week higher on renewed US - Iran strikes , diesel hits record",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8d0264b7286912d4",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.442,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "asiaone.com",
-      "url": "https://www.asiaone.com/money/oil-ends-week-higher-renewed-us-iran-strikes-diesel-hits-record",
-      "published_at": "2026-09-06T03:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
+      "carried_forward": true
     }
   ],
   "history": [
@@ -5553,17 +5438,23 @@ window.MAGEN_STATE = {
       "immediate": 5,
       "short": 17,
       "extended": 28
+    },
+    {
+      "timestamp": "2026-09-06T10:57:50.724864Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 7
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-09-06T06:06:17.171961Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 13
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 9
       },
       "manual": {
         "ok": true,
