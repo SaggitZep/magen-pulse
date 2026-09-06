@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-09-06T10:57:50.724864Z",
+  "generated_at": "2026-09-06T14:07:27.111943Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 0,
       "low": 0,
-      "high": 18,
-      "confidence": 44,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
+      "score": 0,
       "low": 0,
-      "high": 21,
-      "confidence": 44,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 7,
+      "score": 0,
       "low": 0,
-      "high": 24,
-      "confidence": 44,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     }
   },
@@ -35,333 +35,11 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -4
+    "level": "יציב",
+    "points_60m": -1
   },
-  "changes": [
-    {
-      "time": "09:00",
-      "text": "IRGC says several ballistic missiles fired at US aircraft carrier , destroyer harassing Iranian ships",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "hindustantimes.com",
-      "signal_id": "c99418d41dc845af"
-    },
-    {
-      "time": "08:30",
-      "text": "U . S . strikes Iranian oil tankers in retaliation for missile attacks on Navy ships",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "wamc.org",
-      "signal_id": "436f3d99bde03e50"
-    },
-    {
-      "time": "08:15",
-      "text": "US strikes three Iranian oil tankers after aircraft carrier targeted with ballistic missiles",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "aol.co.uk",
-      "signal_id": "01ab458bdb71a140"
-    },
-    {
-      "time": "08:00",
-      "text": "Iran Guards say attacked US naval drone : state media",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "bssnews.net",
-      "signal_id": "6d6ab05000d9a23b"
-    }
-  ],
-  "signals": [
-    {
-      "id": "c99418d41dc845af",
-      "name": "IRGC says several ballistic missiles fired at US aircraft carrier , destroyer harassing Iranian ships",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c99418d41dc845af",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.242,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/irgc-says-several-ballistic-missiles-fired-at-us-aircraft-carrier-destroyer-harassing-iranian-ships-101788659530971.html",
-      "published_at": "2026-09-06T06:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "436f3d99bde03e50",
-      "name": "U . S . strikes Iranian oil tankers in retaliation for missile attacks on Navy ships",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "436f3d99bde03e50",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.21,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wamc.org",
-      "url": "https://www.wamc.org/2026-09-05/u-s-strikes-iranian-oil-tankers-in-retaliation-for-missile-attacks-on-navy-ships",
-      "published_at": "2026-09-06T05:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "01ab458bdb71a140",
-      "name": "US strikes three Iranian oil tankers after aircraft carrier targeted with ballistic missiles",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "01ab458bdb71a140",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.195,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aol.co.uk",
-      "url": "https://www.aol.co.uk/articles/us-strikes-three-iranian-oil-040612000.html",
-      "published_at": "2026-09-06T05:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6d6ab05000d9a23b",
-      "name": "Iran Guards say attacked US naval drone : state media",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6d6ab05000d9a23b",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.182,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bssnews.net",
-      "url": "https://www.bssnews.net/news-flash/421428",
-      "published_at": "2026-09-06T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "cf976b2de115bbf6",
-      "name": "Iran : Attackerat amerikansk drönare",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cf976b2de115bbf6",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.21,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aftonbladet.se",
-      "url": "https://www.aftonbladet.se/nyheter/a/Rr77qd/aftonbladet-direkt?pinnedEntry=1491467",
-      "published_at": "2026-09-06T05:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "eefd31679acc735a",
-      "name": "US - Iran Ship Attacks Escalate Battle for Control of Strait of Hormuz , Threaten Global Oil Flows",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "eefd31679acc735a",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.182,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gulfnews.com",
-      "url": "https://gulfnews.com/world/mena/us-iran-war-tanker-strikes-open-dangerous-new-phase-in-hormuz-as-tehran-threatens-us-warships-1.500664548",
-      "published_at": "2026-09-06T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "60f595c8fe463cd3",
-      "name": "Iran IRGC says hit 3 oilers in Hormuz Strait , 3 U . S . vessels elsewhere in retaliatory strikes -- China Economic Net",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "60f595c8fe463cd3",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.195,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "en.ce.cn",
-      "url": "http://en.ce.cn/main/latest/202609/t20260906_3196638.shtml",
-      "published_at": "2026-09-06T05:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8ea76e686b59a4a2",
-      "name": "US strikes Iran - linked oil tanker : CENTCOM releases dramatic footage of ship sinking off Gulf of Oman",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8ea76e686b59a4a2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.195,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofoman.com",
-      "url": "https://timesofoman.com/article/176515-us-strikes-iran-linked-oil-tanker-centcom-releases-dramatic-footage-of-ship-sinking-off-gulf-of-oman",
-      "published_at": "2026-09-06T05:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "abf0f5ab7ce26265",
-      "name": "US strikes Iran oil tankers in dangerous war escalation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "abf0f5ab7ce26265",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.195,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "afr.com",
-      "url": "https://www.afr.com/world/middle-east/us-strikes-iran-s-shadow-fleet-in-dangerous-war-escalation-20260906-p60usm",
-      "published_at": "2026-09-06T05:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -5444,17 +5122,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 7
+    },
+    {
+      "timestamp": "2026-09-06T14:07:27.111943Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-09-06T06:06:17.171961Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 9
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
