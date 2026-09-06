@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-09-05T23:23:31.378724Z",
+  "mode": "degraded",
+  "generated_at": "2026-09-06T01:18:17.344048Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 6,
+      "score": 3,
       "low": 0,
-      "high": 19,
-      "confidence": 66,
+      "high": 20,
+      "confidence": 46,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 18,
-      "low": 5,
-      "high": 31,
-      "confidence": 66,
+      "score": 11,
+      "low": 0,
+      "high": 28,
+      "confidence": 46,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 29,
-      "low": 16,
-      "high": 42,
-      "confidence": 66,
-      "status": "מוגבר"
+      "score": 18,
+      "low": 1,
+      "high": 35,
+      "confidence": 46,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -9
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "02:00",
       "text": "Iran targets US ships , oil tankers in retaliation for US strikes , IRGC claims",
-      "impact": "השפעה מיידית מחושבת: +2.0",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "f0e2e1623d21fd97"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "02:00",
       "text": "US strikes 3 Iranian oil tankers after saying warships were targeted with ballistic missiles",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "local10.com",
       "signal_id": "ddb008b646a2b292"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "02:00",
       "text": "US leaves 3 Iranian oil tankers  permanently disabled  after Iranian regime targets American ships with ballistic missiles | Human Events",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
       "source": "humanevents.com",
       "signal_id": "0c4907f7e9c04d61"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "02:00",
       "text": "Iran IRGC says hit 3 oilers in Hormuz Strait , 3 U . S . vessels elsewhere in retaliatory strikes",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "bignewsnetwork.com",
       "signal_id": "a46d237a6fdb4c63"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f0e2e1623d21fd97",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.894,
+      "freshness": 0.518,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 2.0,
-        "short": 6.8,
-        "extended": 11.6
-      }
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.7
+      },
+      "carried_forward": true
     },
     {
       "id": "ddb008b646a2b292",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ddb008b646a2b292",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.894,
+      "freshness": 0.518,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.2,
-        "extended": 10.6
-      }
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      },
+      "carried_forward": true
     },
     {
       "id": "0c4907f7e9c04d61",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0c4907f7e9c04d61",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.894,
+      "freshness": 0.518,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.2,
-        "extended": 10.6
-      }
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      },
+      "carried_forward": true
     },
     {
       "id": "a46d237a6fdb4c63",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a46d237a6fdb4c63",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.894,
+      "freshness": 0.518,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      },
+      "carried_forward": true
     },
     {
       "id": "ff6d2cebc0429cb7",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "ff6d2cebc0429cb7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.894,
+      "freshness": 0.518,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      },
+      "carried_forward": true
     },
     {
       "id": "7d3e90c410437c5d",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7d3e90c410437c5d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.894,
+      "freshness": 0.518,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      },
+      "carried_forward": true
     },
     {
       "id": "95b20b78bf95ea27",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "95b20b78bf95ea27",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.542,
+      "freshness": 0.314,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.8,
-        "extended": 6.4
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      },
+      "carried_forward": true
     },
     {
       "id": "80359c16b8ac269d",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "80359c16b8ac269d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.542,
+      "freshness": 0.314,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     },
     {
       "id": "faa7096038b0bf68",
@@ -331,7 +339,7 @@ window.MAGEN_STATE = {
       "dependency_group": "faa7096038b0bf68",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.379,
+      "freshness": 0.22,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,10 +355,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     },
     {
       "id": "d5e6ccef4f3afc6c",
@@ -362,7 +371,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d5e6ccef4f3afc6c",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.379,
+      "freshness": 0.22,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,10 +387,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     },
     {
       "id": "91267fe31e124281",
@@ -393,7 +403,7 @@ window.MAGEN_STATE = {
       "dependency_group": "91267fe31e124281",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.353,
+      "freshness": 0.205,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,10 +419,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
+      },
+      "carried_forward": true
     },
     {
       "id": "9e3fa7443e457358",
@@ -424,7 +435,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9e3fa7443e457358",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.329,
+      "freshness": 0.19,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,10 +451,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
+      },
+      "carried_forward": true
     },
     {
       "id": "e5c464cfc3a5626b",
@@ -455,7 +467,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e5c464cfc3a5626b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.379,
+      "freshness": 0.22,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -471,10 +483,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
+      },
+      "carried_forward": true
     },
     {
       "id": "f881e731176fbf6d",
@@ -486,7 +499,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f881e731176fbf6d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.379,
+      "freshness": 0.22,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -502,10 +515,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
+      },
+      "carried_forward": true
     },
     {
       "id": "085093163fb99d88",
@@ -517,7 +531,7 @@ window.MAGEN_STATE = {
       "dependency_group": "085093163fb99d88",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.379,
+      "freshness": 0.22,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -533,41 +547,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    },
-    {
-      "id": "977027edb1b7550b",
-      "name": "Jordan Deepens US Alliance Despite Iranian Strikes and Regional Risks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "977027edb1b7550b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.329,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailypioneer.com",
-      "url": "https://dailypioneer.com/news/jordan-faces-iranian-attacks-over-military-ties-with-us",
-      "published_at": "2026-09-05T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      }
+      "carried_forward": true
     },
     {
       "id": "fec736d838f6da38",
@@ -579,7 +563,7 @@ window.MAGEN_STATE = {
       "dependency_group": "fec736d838f6da38",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.379,
+      "freshness": 0.22,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -595,72 +579,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    },
-    {
-      "id": "30dee22a221225cb",
-      "name": "US military says it struck three Iranian oil tankers",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "30dee22a221225cb",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.353,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "canberratimes.com.au",
-      "url": "https://www.canberratimes.com.au/story/9344473/us-military-says-it-struck-three-iranian-oil-tankers/",
-      "published_at": "2026-09-05T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
-      }
-    },
-    {
-      "id": "39f316519f333404",
-      "name": "US strikes 3 Iranian oil tankers in retaliation for targeting warships",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "39f316519f333404",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.353,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kvia.com",
-      "url": "https://kvia.com/news/2026/09/05/us-strikes-3-iranian-oil-tankers-in-retaliation-for-targeting-warships/",
-      "published_at": "2026-09-05T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
-      }
+      "carried_forward": true
     },
     {
       "id": "b1c80ee5e971bac7",
@@ -672,7 +595,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b1c80ee5e971bac7",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.329,
+      "freshness": 0.19,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -688,10 +611,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
+      },
+      "carried_forward": true
     },
     {
       "id": "4e536a451bb2e40b",
@@ -703,7 +627,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4e536a451bb2e40b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.379,
+      "freshness": 0.22,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -719,10 +643,107 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-05T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "977027edb1b7550b",
+      "name": "Jordan Deepens US Alliance Despite Iranian Strikes and Regional Risks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "977027edb1b7550b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.19,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailypioneer.com",
+      "url": "https://dailypioneer.com/news/jordan-faces-iranian-attacks-over-military-ties-with-us",
+      "published_at": "2026-09-05T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "30dee22a221225cb",
+      "name": "US military says it struck three Iranian oil tankers",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "30dee22a221225cb",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.205,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "canberratimes.com.au",
+      "url": "https://www.canberratimes.com.au/story/9344473/us-military-says-it-struck-three-iranian-oil-tankers/",
+      "published_at": "2026-09-05T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
+      },
+      "carried_forward": true
+    },
+    {
+      "id": "39f316519f333404",
+      "name": "US strikes 3 Iranian oil tankers in retaliation for targeting warships",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "39f316519f333404",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.205,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kvia.com",
+      "url": "https://kvia.com/news/2026/09/05/us-strikes-3-iranian-oil-tankers-in-retaliation-for-targeting-warships/",
+      "published_at": "2026-09-05T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -5789,17 +5810,23 @@ window.MAGEN_STATE = {
       "immediate": 6,
       "short": 18,
       "extended": 29
+    },
+    {
+      "timestamp": "2026-09-06T01:18:17.344048Z",
+      "immediate": 3,
+      "short": 11,
+      "extended": 18
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-09-05T23:23:31.378724Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 21
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 21
       },
       "manual": {
         "ok": true,
