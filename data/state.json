@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-09-06T14:07:27.111943Z",
+  "generated_at": "2026-09-06T17:03:32.223669Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -36,7 +36,7 @@
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [],
   "signals": [],
@@ -5125,6 +5125,12 @@
     },
     {
       "timestamp": "2026-09-06T14:07:27.111943Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
+    },
+    {
+      "timestamp": "2026-09-06T17:03:32.223669Z",
       "immediate": 0,
       "short": 0,
       "extended": 0
