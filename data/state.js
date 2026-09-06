@@ -1,45 +1,885 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-09-06T21:21:53.873364Z",
+  "mode": "live",
+  "generated_at": "2026-09-06T22:58:05.080835Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 16,
+      "low": 3,
+      "high": 29,
+      "confidence": 67,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 67,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 29,
+      "low": 16,
+      "high": 42,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "זינוק חריג",
+    "points_60m": 16
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "23:30",
+      "text": "Israel Assesses Iran Applying Oct . 7 Lessons to Plan Multi - Front Attack",
+      "impact": "השפעה מיידית מחושבת: +12.2",
+      "direction": "up",
+      "source": "themedialine.org",
+      "signal_id": "5d28273b7f158914"
+    },
+    {
+      "time": "01:30",
+      "text": "US strikes 3 Iranian oil tankers after missiles fired at Navy ships",
+      "impact": "השפעה מיידית מחושבת: +1.8",
+      "direction": "up",
+      "source": "fox2detroit.com",
+      "signal_id": "a691983d3d3bc767"
+    },
+    {
+      "time": "01:15",
+      "text": "U . S . Strikes Three Iranian Oil Tankers After Missile Attack on Navy Ships",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "kotaradio.com",
+      "signal_id": "7e55c92def871375"
+    },
+    {
+      "time": "01:30",
+      "text": "Iran says response to further attacks will be  more painful  – The Irish Times",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "irishtimes.com",
+      "signal_id": "041c5115567ff98c"
+    }
+  ],
+  "signals": [
+    {
+      "id": "5d28273b7f158914",
+      "name": "Israel Assesses Iran Applying Oct . 7 Lessons to Plan Multi - Front Attack",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5d28273b7f158914",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.494,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "themedialine.org",
+      "url": "https://themedialine.org/headlines/israel-assesses-iran-applying-oct-7-lessons-to-plan-multi-front-attack/",
+      "published_at": "2026-09-06T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 12.2,
+        "short": 9.5,
+        "extended": 4.0
+      }
+    },
+    {
+      "id": "a691983d3d3bc767",
+      "name": "US strikes 3 Iranian oil tankers after missiles fired at Navy ships",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a691983d3d3bc767",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.875,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "fox2detroit.com",
+      "url": "https://www.fox2detroit.com/news/us-strikes-3-iranian-oil-tankers-after-missiles-fired-navy-ships",
+      "published_at": "2026-09-06T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.1,
+        "extended": 10.3
+      }
+    },
+    {
+      "id": "7e55c92def871375",
+      "name": "U . S . Strikes Three Iranian Oil Tankers After Missile Attack on Navy Ships",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7e55c92def871375",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.815,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kotaradio.com",
+      "url": "https://www.kotaradio.com/2026/09/06/u-s-strikes-three-iranian-oil-tankers-after-missile-attack-on-navy-ships/",
+      "published_at": "2026-09-06T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.6
+      }
+    },
+    {
+      "id": "041c5115567ff98c",
+      "name": "Iran says response to further attacks will be  more painful  – The Irish Times",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "041c5115567ff98c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.875,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "irishtimes.com",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/09/06/iran-says-response-to-further-attacks-will-be-more-painful/",
+      "published_at": "2026-09-06T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "6bc57eaf2281ec01",
+      "name": "Deadly Iran wedding strike likely due to U . S . bomb missing a nearby target",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6bc57eaf2281ec01",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.875,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "inquirer.com",
+      "url": "https://www.inquirer.com/news/nation-world/iran-us-war-wedding-hit-missile-pentagon-investigate-missed-target-20260906.html",
+      "published_at": "2026-09-06T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "02f37c51842a05f9",
+      "name": "EE . UU . advierte con destruir el programa nuclear iraní en medio de choques en Ormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "02f37c51842a05f9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.875,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "lahora.gt",
+      "url": "https://lahora.gt/internacionales/agenciaefe/2026/09/06/ee-uu-advierte-con-destruir-el-programa-nuclear-irani-en-medio-de-choques-en-ormuz/",
+      "published_at": "2026-09-06T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "85beac2dad2f521f",
+      "name": "Voters in key midterm races push back on data centers , and the U . S . strikes Iranian oil tankers : Weekend Rundown",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "85beac2dad2f521f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.875,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nbcnews.com",
+      "url": "https://www.nbcnews.com/news/us-news/weekend-rundown-september-6-rcna596242",
+      "published_at": "2026-09-06T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "5e3139c09b5fcb79",
+      "name": "US and Iran trade retaliatory attacks on ships as conflict flares | Hellenic Shipping News Worldwide",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5e3139c09b5fcb79",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.815,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hellenicshippingnews.com",
+      "url": "https://www.hellenicshippingnews.com/us-and-iran-trade-retaliatory-attacks-on-ships-as-conflict-flares/",
+      "published_at": "2026-09-06T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "88c49ff884693ed3",
+      "name": "Iran claims a strike on a US ship in the Strait of Hormuz but the US denies it",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "88c49ff884693ed3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.815,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kztv10.com",
+      "url": "https://www.kztv10.com/us-news/iran-war/iran-claims-a-strike-on-a-us-ship-in-the-strait-of-hormuz-but-the-us-denies-it",
+      "published_at": "2026-09-06T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "260cfbd73fd07814",
+      "name": "Houthi Militias Face Military Collapse Amid Proxy Conflict for Iranian Interests",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "260cfbd73fd07814",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.815,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "khabaragency.net",
+      "url": "https://www.khabaragency.net/news252560.html",
+      "published_at": "2026-09-06T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "310aa0da128ed1d8",
+      "name": "Three Iranian vessels hit , US military says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "310aa0da128ed1d8",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.706,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "eldoradonews.com",
+      "url": "https://www.eldoradonews.com/news/2026/sep/06/three-iranian-vessels-hit-us-military-says/",
+      "published_at": "2026-09-06T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
+    },
+    {
+      "id": "693975366f23af7c",
+      "name": "Iran says response to further attacks will be  more painful",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "693975366f23af7c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.706,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "breakingnews.ie",
+      "url": "https://www.breakingnews.ie/world/iran-says-response-to-further-attacks-will-be-more-painful-1947960.html",
+      "published_at": "2026-09-06T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
+    },
+    {
+      "id": "d1600ee1346f3682",
+      "name": "Iran Warns of  More Painful  Retaliation After US Strikes Three Oil Tankers in Gulf , Raising Fears of Wider Escalation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d1600ee1346f3682",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.494,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ibtimes.co.uk",
+      "url": "https://www.ibtimes.co.uk/us-iran-tensions-oil-tankers-targeted-1818118",
+      "published_at": "2026-09-06T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "85ed47b83e8c8cf2",
+      "name": "Iran warns of  painful response  to further US attacks amid sanctions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "85ed47b83e8c8cf2",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.494,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "business-standard.com",
+      "url": "https://www.business-standard.com/world-news/iran-warns-of-painful-response-to-further-us-attacks-amid-sanctions-126090600807_1.html",
+      "published_at": "2026-09-06T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "c2135d1178469989",
+      "name": "Iran threatens  more painful response  to any further US strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c2135d1178469989",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.46,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "abc.net.au",
+      "url": "https://www.abc.net.au/news/2026-09-07/iran-us-war-strikes-middle-east-hormuz/107122562",
+      "published_at": "2026-09-06T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "f05b1153f36ed935",
+      "name": "Iran claims strike on US ship in Strait of Hormuz as fighting escalates",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f05b1153f36ed935",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.494,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "azfamily.com",
+      "url": "https://www.azfamily.com/2026/09/06/iran-claims-strike-us-ship-strait-hormuz-fighting-escalates/",
+      "published_at": "2026-09-06T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      }
+    },
+    {
+      "id": "a26d10e5304bde5c",
+      "name": "Iran touts military response as US maintains blockade , hits tankers - Grenada Chronicle – Daily Grenada And Caribbean News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a26d10e5304bde5c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.494,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "grenadachronicle.com",
+      "url": "https://grenadachronicle.com/iran-touts-military-response-as-us-maintains-blockade-hits-tankers/",
+      "published_at": "2026-09-06T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      }
+    },
+    {
+      "id": "f958bb76aaea3b27",
+      "name": "Trump official says  there may not be a nuclear agreement  with Iran - Grenada Chronicle – Daily Grenada And Caribbean News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f958bb76aaea3b27",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.494,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "grenadachronicle.com",
+      "url": "https://grenadachronicle.com/trump-official-says-there-may-not-be-a-nuclear-agreement-with-iran/",
+      "published_at": "2026-09-06T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      }
+    },
+    {
+      "id": "75d25d656e1ba26d",
+      "name": "Iran Revolutionary Guards claim US surveillance aerostat destroyed in Iraq drone strike",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "75d25d656e1ba26d",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.346,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/us-israel-iran-war/iran-s-revolutionary-guards-claim-us-surveillance-aerostat-destroyed-in-iraq-drone-strike/4049021",
+      "published_at": "2026-09-06T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "ef40ca8c0517dcf6",
+      "name": "IRGC announces attack on child - killing US aircraft carrier and destroyer",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ef40ca8c0517dcf6",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.399,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "islamicinvitationturkey.com",
+      "url": "https://www.islamicinvitationturkey.com/irgc-announces-attack-on-child-killing-us-aircraft-carrier-and-destroyer/",
+      "published_at": "2026-09-06T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "da0453068bd6eade",
+      "name": "US strikes 3 Iranian oil tankers , one near Kharg Island",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "da0453068bd6eade",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.428,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "israelherald.com",
+      "url": "http://www.israelherald.com/news/279288452/us-hits-three-iranian-tankers-one-near-kharg",
+      "published_at": "2026-09-06T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
+    },
+    {
+      "id": "d07995f250d99ea1",
+      "name": "Iran threatens greater force if US launches more attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d07995f250d99ea1",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.346,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "torontosun.com",
+      "url": "https://torontosun.com/news/world/iran-threatens-greater-force-if-us-launches-more-attacks",
+      "published_at": "2026-09-06T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
+      }
+    },
+    {
+      "id": "039ee65554f2651c",
+      "name": "Netanyahu vows to strike Iran as popularity declines 50 days before elections",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "039ee65554f2651c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.346,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/us-israel-iran-war/netanyahu-vows-to-strike-iran-as-popularity-declines-50-days-before-elections/4049045",
+      "published_at": "2026-09-06T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
+    },
+    {
+      "id": "cc9b1e86be689502",
+      "name": "Iran warns of  faster , heavier , more painful response  to US attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cc9b1e86be689502",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.322,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "the-star.co.ke",
+      "url": "https://www.the-star.co.ke/news/world/2026-09-06-iran-warns-of-heavier-response-to-us-attacks",
+      "published_at": "2026-09-06T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
+    },
+    {
+      "id": "eeea27fda5a0559e",
+      "name": "Is Iran Planning an October 7 - Style Multi - Front Attack on Israel ? Inside Tehran New Coordinated Strategy with Hezbollah , Hamas , Houthis and Iraqi Militias",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "eeea27fda5a0559e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.322,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gulfnews.com",
+      "url": "https://gulfnews.com/world/mena/is-iran-planning-an-october-7-style-multi-front-attack-on-israel-1.500665041",
+      "published_at": "2026-09-06T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
+      }
+    },
+    {
+      "id": "f5c9553023ebdcea",
+      "name": "The Iranian school struck in the war earliest attacks is now a memorial for children",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f5c9553023ebdcea",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.322,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newindianexpress.com",
+      "url": "https://www.newindianexpress.com/world/2026/Sep/06/the-iranian-school-struck-in-the-wars-earliest-attacks-is-now-a-memorial-for-children",
+      "published_at": "2026-09-06T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -5146,17 +5986,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-09-06T22:58:05.080835Z",
+      "immediate": 16,
+      "short": 24,
+      "extended": 29
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-09-06T06:06:17.171961Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-09-06T22:58:05.080835Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 26
       },
       "manual": {
         "ok": true,
