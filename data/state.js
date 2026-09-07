@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-09-06T22:58:05.080835Z",
+  "generated_at": "2026-09-07T00:53:07.387729Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 16,
-      "low": 3,
-      "high": 29,
-      "confidence": 67,
-      "status": "נמוך"
+      "score": 5,
+      "low": 0,
+      "high": 18,
+      "confidence": 68,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 17,
+      "low": 4,
+      "high": 30,
+      "confidence": 68,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 29,
-      "low": 16,
-      "high": 42,
-      "confidence": 67,
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 68,
       "status": "מוגבר"
     }
   },
@@ -35,73 +35,197 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 16
+    "level": "ירידה",
+    "points_60m": -11
   },
   "changes": [
     {
-      "time": "23:30",
-      "text": "Israel Assesses Iran Applying Oct . 7 Lessons to Plan Multi - Front Attack",
-      "impact": "השפעה מיידית מחושבת: +12.2",
-      "direction": "up",
-      "source": "themedialine.org",
-      "signal_id": "5d28273b7f158914"
-    },
-    {
-      "time": "01:30",
-      "text": "US strikes 3 Iranian oil tankers after missiles fired at Navy ships",
+      "time": "03:45",
+      "text": "Iran threatens greater force if US launches more attacks",
       "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "fox2detroit.com",
-      "signal_id": "a691983d3d3bc767"
+      "source": "newstalkzb.co.nz",
+      "signal_id": "d07995f250d99ea1"
     },
     {
-      "time": "01:15",
-      "text": "U . S . Strikes Three Iranian Oil Tankers After Missile Attack on Navy Ships",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "time": "03:45",
+      "text": "Iran to announce restricted zone outside Strait of Hormuz , warns of  more painful  retaliation",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "kotaradio.com",
-      "signal_id": "7e55c92def871375"
+      "source": "businesstimes.com.sg",
+      "signal_id": "5735c8faca24a344"
     },
     {
-      "time": "01:30",
-      "text": "Iran says response to further attacks will be  more painful  – The Irish Times",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "time": "03:45",
+      "text": "Bye Bye , Kharg : Trump posts AI image of Iran oil hub under attack",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "irishtimes.com",
-      "signal_id": "041c5115567ff98c"
+      "source": "albawaba.net",
+      "signal_id": "a3bddbfb3b0f01a4"
+    },
+    {
+      "time": "03:45",
+      "text": "Oil gains as US attacks on Iranian ships raise escalation risks",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "businesstimes.com.sg",
+      "signal_id": "e07ef38d1ed1cfd3"
     }
   ],
   "signals": [
     {
-      "id": "5d28273b7f158914",
-      "name": "Israel Assesses Iran Applying Oct . 7 Lessons to Plan Multi - Front Attack",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
+      "id": "d07995f250d99ea1",
+      "name": "Iran threatens greater force if US launches more attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "5d28273b7f158914",
-      "strength": 0.5,
+      "dependency_group": "d07995f250d99ea1",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.494,
+      "freshness": 0.962,
       "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
       "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
       },
-      "source": "themedialine.org",
-      "url": "https://themedialine.org/headlines/israel-assesses-iran-applying-oct-7-lessons-to-plan-multi-front-attack/",
-      "published_at": "2026-09-06T20:30:00Z",
+      "source": "newstalkzb.co.nz",
+      "url": "https://www.newstalkzb.co.nz/news/world/iran-threatens-greater-force-if-us-launches-more-attacks/",
+      "published_at": "2026-09-07T00:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 12.2,
-        "short": 9.5,
-        "extended": 4.0
+        "immediate": 1.8,
+        "short": 6.3,
+        "extended": 10.7
+      }
+    },
+    {
+      "id": "5735c8faca24a344",
+      "name": "Iran to announce restricted zone outside Strait of Hormuz , warns of  more painful  retaliation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5735c8faca24a344",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.962,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "businesstimes.com.sg",
+      "url": "https://www.businesstimes.com.sg/international/iran-announce-restricted-zone-outside-strait-hormuz-warns-more-painful-retaliation",
+      "published_at": "2026-09-07T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.8,
+        "short": 6.3,
+        "extended": 10.7
+      }
+    },
+    {
+      "id": "a3bddbfb3b0f01a4",
+      "name": "Bye Bye , Kharg : Trump posts AI image of Iran oil hub under attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a3bddbfb3b0f01a4",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.962,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "albawaba.net",
+      "url": "https://www.albawaba.net/news/bye-bye-kharg-trump-posts-ai-image-iran-1636544",
+      "published_at": "2026-09-07T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.6,
+        "extended": 9.5
+      }
+    },
+    {
+      "id": "e07ef38d1ed1cfd3",
+      "name": "Oil gains as US attacks on Iranian ships raise escalation risks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e07ef38d1ed1cfd3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.962,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "businesstimes.com.sg",
+      "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-gains-us-attacks-iranian-ships-raise-escalation-risks",
+      "published_at": "2026-09-07T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.6,
+        "extended": 9.5
+      }
+    },
+    {
+      "id": "9a898fc8e83f3154",
+      "name": "Oil extends gains after US and Iran strike ships",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9a898fc8e83f3154",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.962,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/energy/articles/oil-extends-gains-us-iran-001532615.html",
+      "published_at": "2026-09-07T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.6,
+        "extended": 9.5
       }
     },
     {
@@ -114,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a691983d3d3bc767",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.875,
+      "freshness": 0.506,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.1,
-        "extended": 10.3
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
       }
     },
     {
@@ -145,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7e55c92def871375",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.815,
+      "freshness": 0.471,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T22:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.7,
-        "extended": 9.6
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
       }
     },
     {
@@ -176,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "041c5115567ff98c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.875,
+      "freshness": 0.506,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
       }
     },
     {
@@ -207,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6bc57eaf2281ec01",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.875,
+      "freshness": 0.506,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +347,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
       }
     },
     {
@@ -238,7 +362,7 @@ window.MAGEN_STATE = {
       "dependency_group": "02f37c51842a05f9",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.875,
+      "freshness": 0.506,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,9 +378,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
       }
     },
     {
@@ -269,7 +393,7 @@ window.MAGEN_STATE = {
       "dependency_group": "85beac2dad2f521f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.875,
+      "freshness": 0.506,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,9 +409,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T22:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
       }
     },
     {
@@ -300,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5e3139c09b5fcb79",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.815,
+      "freshness": 0.471,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,9 +440,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T22:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     },
     {
@@ -331,7 +455,7 @@ window.MAGEN_STATE = {
       "dependency_group": "88c49ff884693ed3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.815,
+      "freshness": 0.471,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -347,9 +471,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T22:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     },
     {
@@ -362,7 +486,7 @@ window.MAGEN_STATE = {
       "dependency_group": "260cfbd73fd07814",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.815,
+      "freshness": 0.471,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -378,9 +502,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T22:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     },
     {
@@ -393,7 +517,7 @@ window.MAGEN_STATE = {
       "dependency_group": "310aa0da128ed1d8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.706,
+      "freshness": 0.408,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -409,9 +533,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
       }
     },
     {
@@ -424,7 +548,7 @@ window.MAGEN_STATE = {
       "dependency_group": "693975366f23af7c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.706,
+      "freshness": 0.408,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -440,443 +564,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-06T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
-      }
-    },
-    {
-      "id": "d1600ee1346f3682",
-      "name": "Iran Warns of  More Painful  Retaliation After US Strikes Three Oil Tankers in Gulf , Raising Fears of Wider Escalation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d1600ee1346f3682",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.494,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ibtimes.co.uk",
-      "url": "https://www.ibtimes.co.uk/us-iran-tensions-oil-tankers-targeted-1818118",
-      "published_at": "2026-09-06T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "85ed47b83e8c8cf2",
-      "name": "Iran warns of  painful response  to further US attacks amid sanctions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "85ed47b83e8c8cf2",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.494,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "business-standard.com",
-      "url": "https://www.business-standard.com/world-news/iran-warns-of-painful-response-to-further-us-attacks-amid-sanctions-126090600807_1.html",
-      "published_at": "2026-09-06T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "c2135d1178469989",
-      "name": "Iran threatens  more painful response  to any further US strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c2135d1178469989",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.46,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "abc.net.au",
-      "url": "https://www.abc.net.au/news/2026-09-07/iran-us-war-strikes-middle-east-hormuz/107122562",
-      "published_at": "2026-09-06T20:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
-    },
-    {
-      "id": "f05b1153f36ed935",
-      "name": "Iran claims strike on US ship in Strait of Hormuz as fighting escalates",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f05b1153f36ed935",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.494,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "azfamily.com",
-      "url": "https://www.azfamily.com/2026/09/06/iran-claims-strike-us-ship-strait-hormuz-fighting-escalates/",
-      "published_at": "2026-09-06T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      }
-    },
-    {
-      "id": "a26d10e5304bde5c",
-      "name": "Iran touts military response as US maintains blockade , hits tankers - Grenada Chronicle – Daily Grenada And Caribbean News",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a26d10e5304bde5c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.494,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "grenadachronicle.com",
-      "url": "https://grenadachronicle.com/iran-touts-military-response-as-us-maintains-blockade-hits-tankers/",
-      "published_at": "2026-09-06T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      }
-    },
-    {
-      "id": "f958bb76aaea3b27",
-      "name": "Trump official says  there may not be a nuclear agreement  with Iran - Grenada Chronicle – Daily Grenada And Caribbean News",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f958bb76aaea3b27",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.494,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "grenadachronicle.com",
-      "url": "https://grenadachronicle.com/trump-official-says-there-may-not-be-a-nuclear-agreement-with-iran/",
-      "published_at": "2026-09-06T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      }
-    },
-    {
-      "id": "75d25d656e1ba26d",
-      "name": "Iran Revolutionary Guards claim US surveillance aerostat destroyed in Iraq drone strike",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "75d25d656e1ba26d",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.346,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/us-israel-iran-war/iran-s-revolutionary-guards-claim-us-surveillance-aerostat-destroyed-in-iraq-drone-strike/4049021",
-      "published_at": "2026-09-06T19:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
         "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "ef40ca8c0517dcf6",
-      "name": "IRGC announces attack on child - killing US aircraft carrier and destroyer",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ef40ca8c0517dcf6",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.399,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "islamicinvitationturkey.com",
-      "url": "https://www.islamicinvitationturkey.com/irgc-announces-attack-on-child-killing-us-aircraft-carrier-and-destroyer/",
-      "published_at": "2026-09-06T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "da0453068bd6eade",
-      "name": "US strikes 3 Iranian oil tankers , one near Kharg Island",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "da0453068bd6eade",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.428,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "israelherald.com",
-      "url": "http://www.israelherald.com/news/279288452/us-hits-three-iranian-tankers-one-near-kharg",
-      "published_at": "2026-09-06T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
-    },
-    {
-      "id": "d07995f250d99ea1",
-      "name": "Iran threatens greater force if US launches more attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d07995f250d99ea1",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.346,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "torontosun.com",
-      "url": "https://torontosun.com/news/world/iran-threatens-greater-force-if-us-launches-more-attacks",
-      "published_at": "2026-09-06T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.8
-      }
-    },
-    {
-      "id": "039ee65554f2651c",
-      "name": "Netanyahu vows to strike Iran as popularity declines 50 days before elections",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "039ee65554f2651c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.346,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/us-israel-iran-war/netanyahu-vows-to-strike-iran-as-popularity-declines-50-days-before-elections/4049045",
-      "published_at": "2026-09-06T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
-    },
-    {
-      "id": "cc9b1e86be689502",
-      "name": "Iran warns of  faster , heavier , more painful response  to US attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cc9b1e86be689502",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.322,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "the-star.co.ke",
-      "url": "https://www.the-star.co.ke/news/world/2026-09-06-iran-warns-of-heavier-response-to-us-attacks",
-      "published_at": "2026-09-06T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
-    },
-    {
-      "id": "eeea27fda5a0559e",
-      "name": "Is Iran Planning an October 7 - Style Multi - Front Attack on Israel ? Inside Tehran New Coordinated Strategy with Hezbollah , Hamas , Houthis and Iraqi Militias",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "eeea27fda5a0559e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.322,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gulfnews.com",
-      "url": "https://gulfnews.com/world/mena/is-iran-planning-an-october-7-style-multi-front-attack-on-israel-1.500665041",
-      "published_at": "2026-09-06T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      }
-    },
-    {
-      "id": "f5c9553023ebdcea",
-      "name": "The Iranian school struck in the war earliest attacks is now a memorial for children",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f5c9553023ebdcea",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.322,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newindianexpress.com",
-      "url": "https://www.newindianexpress.com/world/2026/Sep/06/the-iranian-school-struck-in-the-wars-earliest-attacks-is-now-a-memorial-for-children",
-      "published_at": "2026-09-06T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
+        "extended": 4.0
       }
     }
   ],
@@ -5992,17 +5682,23 @@ window.MAGEN_STATE = {
       "immediate": 16,
       "short": 24,
       "extended": 29
+    },
+    {
+      "timestamp": "2026-09-07T00:53:07.387729Z",
+      "immediate": 5,
+      "short": 17,
+      "extended": 28
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-09-06T22:58:05.080835Z",
+    "last_success": "2026-09-07T00:53:07.387729Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 26
+        "relevant": 16
       },
       "manual": {
         "ok": true,
