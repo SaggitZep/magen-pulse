@@ -1,45 +1,513 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-09-07T16:14:32.329409Z",
+  "mode": "live",
+  "generated_at": "2026-09-07T20:02:17.848825Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 5,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 18,
+      "confidence": 69,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 69,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 69,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 5
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "22:30",
+      "text": "Strike our assets and you get struck : Iran warns US of retaliation over fresh attacks",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "hindustantimes.com",
+      "signal_id": "0436495366b40581"
+    },
+    {
+      "time": "22:15",
+      "text": "Strike our assets and you get struck , Iranian Parliament Speaker warns US",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "morungexpress.com",
+      "signal_id": "62066104b4e87575"
+    },
+    {
+      "time": "22:30",
+      "text": "Sorg efter bröllopsattack i Iran :  Fruktansvärd syn",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "dn.se",
+      "signal_id": "edbf2d57ba6abf4d"
+    },
+    {
+      "time": "21:45",
+      "text": "US military strikes three Iranian tankers in retaliation for missile attacks",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "abc57.com",
+      "signal_id": "91267fe31e124281"
+    }
+  ],
+  "signals": [
+    {
+      "id": "0436495366b40581",
+      "name": "Strike our assets and you get struck : Iran warns US of retaliation over fresh attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0436495366b40581",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.857,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/world-news/strike-our-assets-and-you-get-struck-iran-warns-us-of-retaliation-over-fresh-attacks-101788791715202.html",
+      "published_at": "2026-09-07T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.6,
+        "extended": 9.5
+      }
+    },
+    {
+      "id": "62066104b4e87575",
+      "name": "Strike our assets and you get struck , Iranian Parliament Speaker warns US",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "62066104b4e87575",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.798,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "morungexpress.com",
+      "url": "https://morungexpress.com/strike-our-assets-and-you-get-struck-iranian-parliament-speaker-warns-us",
+      "published_at": "2026-09-07T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "edbf2d57ba6abf4d",
+      "name": "Sorg efter bröllopsattack i Iran :  Fruktansvärd syn",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "edbf2d57ba6abf4d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.857,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dn.se",
+      "url": "https://www.dn.se/varlden/sorg-efter-brollopsattack-fruktansvard-syn/",
+      "published_at": "2026-09-07T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "91267fe31e124281",
+      "name": "US military strikes three Iranian tankers in retaliation for missile attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "91267fe31e124281",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.692,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "abc57.com",
+      "url": "https://www.abc57.com/news/us-military-strikes-three-iranian-tankers-in-retaliation-for-missile-attacks",
+      "published_at": "2026-09-07T18:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "9b6a0c26d2312ee9",
+      "name": "Strike our assets and you get struck : Iran issues stark warning to US , highlights thriving energy production chain",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9b6a0c26d2312ee9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.798,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iraqsun.com",
+      "url": "http://www.iraqsun.com/news/279291905/strike-our-assets-and-you-get-struck-iran-issues-stark-warning-to-us-highlights-thriving-energy-production-chain",
+      "published_at": "2026-09-07T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.9
+      }
+    },
+    {
+      "id": "a494821caf8c4efa",
+      "name": "Iran Warns of  More Painful  Retaliation After US Strikes Three Oil Tankers in Gulf",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a494821caf8c4efa",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.692,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jp.ibtimes.com",
+      "url": "https://jp.ibtimes.com/iran-warns-more-painful-retaliation-after-us-strikes-three-oil-tankers-gulf-104199",
+      "published_at": "2026-09-07T18:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "0b98cf80d62a0ec1",
+      "name": "US denies that Iran struck an uncrewed US military ship in the Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0b98cf80d62a0ec1",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.743,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "abccolumbia.com",
+      "url": "https://www.abccolumbia.com/2026/09/07/us-denies-that-iran-struck-an-uncrewed-us-military-ship-in-the-strait-of-hormuz/",
+      "published_at": "2026-09-07T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "06e6d221dba3b905",
+      "name": "Oil prices rise to 6 - week high amid U . S .- Iran strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "06e6d221dba3b905",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.743,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bnnbloomberg.ca",
+      "url": "https://www.bnnbloomberg.ca/markets/oil/2026/09/07/oil-prices-rise-to-six-week-highs-on-worsening-middle-east-conflict/",
+      "published_at": "2026-09-07T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "0415554405d7d1b5",
+      "name": "USA utreder dödlig bröllopsattack i Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0415554405d7d1b5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.743,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "svd.se",
+      "url": "https://www.svd.se/a/bO6Bzq/sorg-efter-brollopsattack-fruktansvard-syn",
+      "published_at": "2026-09-07T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "5d1c01f3fef8f030",
+      "name": "Iran to Declare New Hormuz Restricted Zone After Tanker Strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5d1c01f3fef8f030",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.644,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/273091/20260907/us-strikes-3-iranian-tankers-after-iran-fires-missiles-navy-warships.htm",
+      "published_at": "2026-09-07T18:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "07bc774e1c53493f",
+      "name": "Israeli Strikes Kill 11 in Lebanon as Iran War Second Front Flares",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "07bc774e1c53493f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.644,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/273103/20260907/israeli-strikes-kill-11-lebanon-iran-wars-second-front-flares.htm",
+      "published_at": "2026-09-07T18:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "3c22eb497a67ecc6",
+      "name": "Iran Threatens South Korea with  Serious Consequence for Deploying to Strait of Hormuz",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3c22eb497a67ecc6",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.484,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "breitbart.com",
+      "url": "https://www.breitbart.com/national-security/2026/09/07/iran-threatens-south-korea-with-serious-consequences-for-deploying-to-strait-of-hormuz/",
+      "published_at": "2026-09-07T17:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
+    },
+    {
+      "id": "3ed4ad5ea253baaf",
+      "name": "Iran vows to respond to strikes , says US energy companie facilities  exposed",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3ed4ad5ea253baaf",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.391,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "geo.tv",
+      "url": "https://www.geo.tv/latest/681019-iran-vows-to-respond-to-us-strikes-says-us-energy-companies-facilities-are-exposed",
+      "published_at": "2026-09-07T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "a40e88dab72d44d2",
+      "name": "Iran warns of  painful response  if it suffers further attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a40e88dab72d44d2",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.339,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kaieteurnewsonline.com",
+      "url": "https://kaieteurnewsonline.com/2026/09/07/iran-warns-of-painful-response-if-it-suffers-further-attacks/",
+      "published_at": "2026-09-07T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.8
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -5176,17 +5644,23 @@
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-09-07T20:02:17.848825Z",
+      "immediate": 5,
+      "short": 15,
+      "extended": 24
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-09-07T00:53:07.387729Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-09-07T20:02:17.848825Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 14
       },
       "manual": {
         "ok": true,
