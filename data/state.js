@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-09-08T00:46:24.396305Z",
+  "generated_at": "2026-09-08T05:24:34.504591Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,23 +9,23 @@ window.MAGEN_STATE = {
       "score": 5,
       "low": 0,
       "high": 18,
-      "confidence": 68,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 17,
-      "low": 4,
-      "high": 30,
-      "confidence": 68,
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 28,
-      "low": 15,
-      "high": 41,
-      "confidence": 68,
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 67,
       "status": "מוגבר"
     }
   },
@@ -35,86 +35,55 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 3
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
-      "time": "03:30",
-      "text": "Iran says improved ballistic missile shows it will take preemptive action against threats",
-      "impact": "השפעה מיידית מחושבת: +2.1",
-      "direction": "up",
-      "source": "wsls.com",
-      "signal_id": "8c1e22872c18b970"
-    },
-    {
-      "time": "03:00",
-      "text": "LIran montre les muscles avec son missile balistique perfectionné",
+      "time": "07:30",
+      "text": "Iran touts new missile , vows swifter strikes",
       "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "lactualite.com",
-      "signal_id": "4184559c69892f5b"
+      "source": "vindy.com",
+      "signal_id": "e332404551bfc11f"
     },
     {
-      "time": "03:30",
-      "text": "Iran moves to restrict shipping in Strait of Hormuz",
+      "time": "07:30",
+      "text": "U . S . Central Command Reveals Drone - Boat Presence Inside Iranian Waters",
       "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "europesun.com",
-      "signal_id": "4a5adef5269da7e0"
+      "source": "maritime-executive.com",
+      "signal_id": "19745350ae017acd"
     },
     {
-      "time": "01:00",
-      "text": "Iran threatens Gulf escalation over Trump maritime blockade",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "time": "07:00",
+      "text": "Iran says it plans new Gulf  exclusion zone , threatens US with new missiles",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "edition.cnn.com",
-      "signal_id": "dd7f0bbfe6b98220"
+      "source": "thehindubusinessline.com",
+      "signal_id": "27c03b0eca97c667"
+    },
+    {
+      "time": "07:00",
+      "text": "Iran says improved ballistic missile shows it will take preemptive action against threats – Taylorville Daily News",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "taylorvilledailynews.com",
+      "signal_id": "436fda7d130da048"
     }
   ],
   "signals": [
     {
-      "id": "8c1e22872c18b970",
-      "name": "Iran says improved ballistic missile shows it will take preemptive action against threats",
+      "id": "e332404551bfc11f",
+      "name": "Iran touts new missile , vows swifter strikes",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "8c1e22872c18b970",
-      "strength": 0.53,
-      "reliability": 0.56,
-      "freshness": 0.925,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wsls.com",
-      "url": "https://www.wsls.com/news/world/2026/09/07/iran-says-improved-ballistic-missile-shows-it-will-take-preemptive-action-against-threats/",
-      "published_at": "2026-09-08T00:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 2.1,
-        "short": 7.1,
-        "extended": 12.1
-      }
-    },
-    {
-      "id": "4184559c69892f5b",
-      "name": "LIran montre les muscles avec son missile balistique perfectionné",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4184559c69892f5b",
+      "dependency_group": "e332404551bfc11f",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.802,
+      "freshness": 0.771,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,14 +94,324 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "lactualite.com",
-      "url": "https://lactualite.com/actualites/liran-montre-les-muscles-avec-son-missile-balistique-perfectionne/",
-      "published_at": "2026-09-08T00:00:00Z",
+      "source": "vindy.com",
+      "url": "https://www.vindy.com/news/national-news/2026/09/iran-touts-new-missile-vows-swifter-strikes/",
+      "published_at": "2026-09-08T04:30:00Z",
       "active": true,
       "computed": {
         "immediate": 1.6,
-        "short": 5.6,
-        "extended": 9.5
+        "short": 5.4,
+        "extended": 9.1
+      }
+    },
+    {
+      "id": "19745350ae017acd",
+      "name": "U . S . Central Command Reveals Drone - Boat Presence Inside Iranian Waters",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "19745350ae017acd",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.771,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "maritime-executive.com",
+      "url": "https://maritime-executive.com/article/u-s-central-command-reveals-drone-boat-presence-inside-iranian-waters",
+      "published_at": "2026-09-08T04:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.1
+      }
+    },
+    {
+      "id": "27c03b0eca97c667",
+      "name": "Iran says it plans new Gulf  exclusion zone , threatens US with new missiles",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "27c03b0eca97c667",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.668,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thehindubusinessline.com",
+      "url": "https://www.thehindubusinessline.com/news/world/iran-says-it-plans-new-gulf-exclusion-zone-threatens-us-with-new-missiles/article71441119.ece",
+      "published_at": "2026-09-08T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "436fda7d130da048",
+      "name": "Iran says improved ballistic missile shows it will take preemptive action against threats – Taylorville Daily News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "436fda7d130da048",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.668,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "taylorvilledailynews.com",
+      "url": "https://www.taylorvilledailynews.com/iran-says-improved-ballistic-missile-shows-it-will-take-preemptive-action-against-threats/",
+      "published_at": "2026-09-08T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "50536e1db48a5732",
+      "name": "Operational posture recalibrated : Iran threatens Gulf exclusion zone as US CENTCOM redirects 94 ships in blockade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "50536e1db48a5732",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.668,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "azerbaijannews.net",
+      "url": "http://www.azerbaijannews.net/news/279292862/operational-posture-recalibrated-iran-threatens-gulf-exclusion-zone-as-us-centcom-redirects-94-ships-in-blockade",
+      "published_at": "2026-09-08T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "ef64d2409110c981",
+      "name": "U . S .: Hormuz  Fully Open , Under Navy Control  as Iran Issues New Threats",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ef64d2409110c981",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.668,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "breitbart.com",
+      "url": "https://www.breitbart.com/politics/2026/09/07/u-s-strait-of-hormuz-fully-open-under-u-s-navy-control-as-iran-threatens-new-maritime-exclusion-zone/",
+      "published_at": "2026-09-08T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "8c671bc1696df685",
+      "name": "Oil holds near $100 as traders await Iran - Oman deal on Strait of Hormuz shipping",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8c671bc1696df685",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.668,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "livemint.com",
+      "url": "https://www.livemint.com/market/brent-oil-near-100-as-iran-says-hormuz-deal-with-oman-close-11788829819840.html",
+      "published_at": "2026-09-08T04:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
+    },
+    {
+      "id": "f5e944f3515db220",
+      "name": "Iran : Téhéran présente un missile balistique amélioré et affirme pouvoir agir « préventivement » face aux menaces",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f5e944f3515db220",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.502,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "defimedia.info",
+      "url": "https://defimedia.info/iran-teheran-presente-un-missile-balistique-ameliore-et-affirme-pouvoir-agir-preventivement-face",
+      "published_at": "2026-09-08T03:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 5.9
+      }
+    },
+    {
+      "id": "ae9b1c4fdcd83b95",
+      "name": "Iran warns of more attacks | The National",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ae9b1c4fdcd83b95",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.435,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thenational.com.pg",
+      "url": "https://www.thenational.com.pg/iran-warns-of-more-attacks/",
+      "published_at": "2026-09-08T02:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
+    },
+    {
+      "id": "ccc45104fe5354af",
+      "name": "US redirects 94 vessels as Iran warns of maritime exclusion zone in Gulf",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ccc45104fe5354af",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.378,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/news/defence/us-redirects-94-vessels-as-iran-warns-of-maritime-exclusion-zone-in-gulf/articleshow/133902623.cms",
+      "published_at": "2026-09-08T02:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
+    },
+    {
+      "id": "2e60e0062a859a95",
+      "name": "Iran warns US  economic warfare  could trigger Gulf maritime exclusion zone",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2e60e0062a859a95",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.378,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/middle-east/iran-warns-us-economic-warfare-could-trigger-gulf-maritime-exclusion-zone/4050197",
+      "published_at": "2026-09-08T02:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     },
     {
@@ -145,7 +424,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4a5adef5269da7e0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.925,
+      "freshness": 0.378,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -156,138 +435,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "europesun.com",
-      "url": "http://www.europesun.com/news/279292228/iran-plans-new-strait-of-hormuz-shipping-corridor",
-      "published_at": "2026-09-08T00:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.1
-      }
-    },
-    {
-      "id": "dd7f0bbfe6b98220",
-      "name": "Iran threatens Gulf escalation over Trump maritime blockade",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "dd7f0bbfe6b98220",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.453,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "edition.cnn.com",
-      "url": "https://edition.cnn.com/2026/09/07/middleeast/trump-blockade-iran-military-escalation-intl-latam",
-      "published_at": "2026-09-07T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      }
-    },
-    {
-      "id": "48c85c77c31c5ae8",
-      "name": "Oil prices surge as US - Iran strikes intensify in Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "48c85c77c31c5ae8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.453,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "finance.yahoo.com",
-      "url": "https://finance.yahoo.com/energy/articles/oil-prices-surge-us-iran-211712560.html",
-      "published_at": "2026-09-07T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "d4a96c0e5fd967a7",
-      "name": "Deadly airstrike on Iran wedding was likely US bomb missing its target , says report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d4a96c0e5fd967a7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.34,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "independent.co.uk",
-      "url": "https://www.independent.co.uk/news/world/middle-east/iran-wedding-strike-us-bomb-missing-target-b3046102.html",
-      "published_at": "2026-09-07T21:00:00Z",
+      "source": "haitisun.com",
+      "url": "http://www.haitisun.com/news/279292228/iran-plans-new-strait-of-hormuz-shipping-corridor",
+      "published_at": "2026-09-08T02:00:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      }
-    },
-    {
-      "id": "f5c9553023ebdcea",
-      "name": "The Iranian school struck in the war earliest attacks is now a memorial for children",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f5c9553023ebdcea",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.365,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yahoo.com",
-      "url": "https://www.yahoo.com/news/world/articles/iranian-school-struck-wars-earliest-133513283.html",
-      "published_at": "2026-09-07T21:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "short": 2.2,
+        "extended": 3.7
       }
     }
   ],
@@ -5445,17 +5600,23 @@ window.MAGEN_STATE = {
       "immediate": 5,
       "short": 17,
       "extended": 28
+    },
+    {
+      "timestamp": "2026-09-08T05:24:34.504591Z",
+      "immediate": 5,
+      "short": 15,
+      "extended": 25
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-09-08T00:46:24.396305Z",
+    "last_success": "2026-09-08T05:24:34.504591Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 7
+        "relevant": 12
       },
       "manual": {
         "ok": true,
