@@ -1,59 +1,51 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-09-08T18:03:30.545098Z",
+  "mode": "degraded",
+  "generated_at": "2026-09-08T21:10:42.292093Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 1,
       "low": 0,
-      "high": 17,
-      "confidence": 54,
+      "high": 21,
+      "confidence": 30,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 2,
       "low": 0,
       "high": 22,
-      "confidence": 54,
+      "confidence": 30,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 12,
+      "score": 3,
       "low": 0,
-      "high": 27,
-      "confidence": 54,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 30,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "20:30",
       "text": "Iranian president vows to continue resistance until  aggressor regret attacks – Middle East Monitor",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "middleeastmonitor.com",
       "signal_id": "e4f3c26ab78852fd"
-    },
-    {
-      "time": "17:30",
-      "text": "Iran - backed Houthis attack Saudi oil facilities , injuring dozens",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "cbc.ca",
-      "signal_id": "ce39d0c0c254da3f"
     }
   ],
   "signals": [
@@ -67,7 +59,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e4f3c26ab78852fd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.853,
+      "freshness": 0.35,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -83,41 +75,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-08T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
-      }
-    },
-    {
-      "id": "ce39d0c0c254da3f",
-      "name": "Iran - backed Houthis attack Saudi oil facilities , injuring dozens",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ce39d0c0c254da3f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.362,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cbc.ca",
-      "url": "https://www.cbc.ca/news/world/saudi-houthi-attacks-9.7335307",
-      "published_at": "2026-09-08T14:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+        "short": 2.0,
+        "extended": 3.4
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -5298,17 +5260,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 7,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-09-08T21:10:42.292093Z",
+      "immediate": 1,
+      "short": 2,
+      "extended": 3
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-09-08T18:03:30.545098Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 105,
-        "relevant": 2
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 1
       },
       "manual": {
         "ok": true,
