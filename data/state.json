@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-09-09T21:47:40.219469Z",
+  "generated_at": "2026-09-09T23:35:49.607850Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 1,
       "low": 0,
-      "high": 19,
-      "confidence": 47,
+      "high": 18,
+      "confidence": 44,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 5,
       "low": 0,
-      "high": 25,
-      "confidence": 47,
+      "high": 22,
+      "confidence": 44,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
+      "score": 8,
       "low": 0,
-      "high": 30,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 25,
+      "confidence": 44,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -35,14 +35,14 @@
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -3
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "21:45",
       "text": "U . S . military says it destroyed 5 more Iranian oil tankers after missile attacks on Navy warship",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "santafenewmexican.com",
       "signal_id": "22a99d093ce94ae0"
@@ -50,7 +50,7 @@
     {
       "time": "21:45",
       "text": "Iran Threatens Tankers in Kuwait and Bahrain as IRGC Responds to US Attacks",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "maritime-executive.com",
       "signal_id": "db30abd3a9264336"
@@ -58,7 +58,7 @@
     {
       "time": "21:45",
       "text": "Iran and US hit tankers in biggest wave of attacks on shipping since war began",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "mvariety.com",
       "signal_id": "92736c5d168043e7"
@@ -66,7 +66,7 @@
     {
       "time": "21:45",
       "text": "Iranian Regime Says It Ready to Escalate Military Conflict",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "wcbm.com",
       "signal_id": "a6bc0a74376e387e"
@@ -83,7 +83,7 @@
       "dependency_group": "22a99d093ce94ae0",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.419,
+      "freshness": 0.25,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +99,9 @@
       "published_at": "2026-09-09T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 3.0
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "db30abd3a9264336",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.419,
+      "freshness": 0.25,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-09-09T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "92736c5d168043e7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.419,
+      "freshness": 0.25,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,9 +163,9 @@
       "published_at": "2026-09-09T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -179,7 +179,7 @@
       "dependency_group": "a6bc0a74376e387e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.419,
+      "freshness": 0.25,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,9 +195,9 @@
       "published_at": "2026-09-09T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -211,7 +211,7 @@
       "dependency_group": "d54f1713f512400a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.419,
+      "freshness": 0.25,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -227,9 +227,9 @@
       "published_at": "2026-09-09T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -243,7 +243,7 @@
       "dependency_group": "faf75d3e8bafc567",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.419,
+      "freshness": 0.25,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,9 +259,9 @@
       "published_at": "2026-09-09T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -275,7 +275,7 @@
       "dependency_group": "4f5dd93a669c6622",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.39,
+      "freshness": 0.233,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -291,9 +291,9 @@
       "published_at": "2026-09-09T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.8
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.3
       },
       "carried_forward": true
     },
@@ -307,7 +307,7 @@
       "dependency_group": "065d5394c82c5f66",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.363,
+      "freshness": 0.217,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -323,9 +323,9 @@
       "published_at": "2026-09-09T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
       },
       "carried_forward": true
     },
@@ -339,7 +339,7 @@
       "dependency_group": "4a49e5c1f0f8690e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.363,
+      "freshness": 0.217,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -355,9 +355,9 @@
       "published_at": "2026-09-09T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.1
       },
       "carried_forward": true
     },
@@ -371,7 +371,7 @@
       "dependency_group": "b5a4af02a430270d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.338,
+      "freshness": 0.202,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -387,9 +387,9 @@
       "published_at": "2026-09-09T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     },
@@ -403,7 +403,7 @@
       "dependency_group": "ebbd90b550e959c2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.315,
+      "freshness": 0.188,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -419,9 +419,9 @@
       "published_at": "2026-09-09T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
       },
       "carried_forward": true
     },
@@ -435,7 +435,7 @@
       "dependency_group": "d2fd2fa3b2a6ec40",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.315,
+      "freshness": 0.188,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -451,9 +451,9 @@
       "published_at": "2026-09-09T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
       },
       "carried_forward": true
     },
@@ -467,7 +467,7 @@
       "dependency_group": "2d2860fd554b92a8",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.315,
+      "freshness": 0.188,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -483,9 +483,9 @@
       "published_at": "2026-09-09T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
       },
       "carried_forward": true
     },
@@ -499,7 +499,7 @@
       "dependency_group": "329eded48845be4a",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.315,
+      "freshness": 0.188,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -515,41 +515,9 @@
       "published_at": "2026-09-09T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8c32ce2d4377637e",
-      "name": "Iran claims to have attacked 10 ships near strait of Hormuz after US strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8c32ce2d4377637e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.205,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aol.co.uk",
-      "url": "https://www.aol.co.uk/articles/iran-claims-attacked-10-ships-153203000.html",
-      "published_at": "2026-09-09T16:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
+        "short": 1.1,
+        "extended": 1.9
       },
       "carried_forward": true
     }
@@ -5780,6 +5748,12 @@
       "immediate": 2,
       "short": 8,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-09-09T23:35:49.607850Z",
+      "immediate": 1,
+      "short": 5,
+      "extended": 8
     }
   ],
   "health": {
@@ -5790,7 +5764,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 15
+        "carried_forward": 14
       },
       "manual": {
         "ok": true,
