@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-09-10T11:51:42.760828Z",
+  "generated_at": "2026-09-10T15:42:57.724170Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 0,
       "low": 0,
-      "high": 18,
-      "confidence": 43,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
+      "score": 0,
       "low": 0,
-      "high": 21,
-      "confidence": 43,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 6,
+      "score": 0,
       "low": 0,
-      "high": 23,
-      "confidence": 43,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     }
   },
@@ -35,205 +35,11 @@
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -4
+    "level": "יציב",
+    "points_60m": -1
   },
-  "changes": [
-    {
-      "time": "09:00",
-      "text": "Pakistan warns Iran to rein in Houthis as Riyadh strikes back",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "134f8115d6ab1073"
-    },
-    {
-      "time": "09:15",
-      "text": "US warplanes damaged in Iranian strikes on military base in Jordan : Report",
-      "impact": "השפעה מיידית מחושבת: +0.3",
-      "direction": "up",
-      "source": "presstv.co.uk",
-      "signal_id": "292033543b6f41da"
-    },
-    {
-      "time": "09:00",
-      "text": "editor pick tensions flare as Iran , U . S . step up strikes",
-      "impact": "השפעה מיידית מחושבת: +0.3",
-      "direction": "up",
-      "source": "thehindu.com",
-      "signal_id": "e60d0adaff891981"
-    },
-    {
-      "time": "09:00",
-      "text": "Iran strikes ships , expands no - go zone outside the Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +0.3",
-      "direction": "up",
-      "source": "newstalkzb.co.nz",
-      "signal_id": "b9b5926a5fbd1007"
-    }
-  ],
-  "signals": [
-    {
-      "id": "134f8115d6ab1073",
-      "name": "Pakistan warns Iran to rein in Houthis as Riyadh strikes back",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "134f8115d6ab1073",
-      "strength": 0.45,
-      "reliability": 0.74,
-      "freshness": 0.187,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "http://www.jpost.com/international/article-908193",
-      "published_at": "2026-09-10T06:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "292033543b6f41da",
-      "name": "US warplanes damaged in Iranian strikes on military base in Jordan : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "292033543b6f41da",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.201,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/09/10/776004/US-warplanes-damaged-Iranian-strikes-Jordan",
-      "published_at": "2026-09-10T06:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e60d0adaff891981",
-      "name": "editor pick tensions flare as Iran , U . S . step up strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e60d0adaff891981",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.187,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thehindu.com",
-      "url": "https://www.thehindu.com/newsletter/editors-pick-tensions-flare-as-iran-us-step-up-strikes/article71448488.ece",
-      "published_at": "2026-09-10T06:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b9b5926a5fbd1007",
-      "name": "Iran strikes ships , expands no - go zone outside the Strait of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b9b5926a5fbd1007",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.187,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newstalkzb.co.nz",
-      "url": "https://www.newstalkzb.co.nz/news/world/iran-strikes-ships-expands-no-go-zone-outside-the-strait-of-hormuz/",
-      "published_at": "2026-09-10T06:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "bb39aad3efbb5820",
-      "name": "Iran claims attacks on 10 ships near Hormuz , expands no - go zone as oil tops $100",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bb39aad3efbb5820",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.187,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/iran-claims-attacks-on-10-ships-near-hormuz-expands-no-go-zone-as-oil-tops-100-article-14026737.html",
-      "published_at": "2026-09-10T06:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -5484,17 +5290,23 @@
       "immediate": 1,
       "short": 4,
       "extended": 6
+    },
+    {
+      "timestamp": "2026-09-10T15:42:57.724170Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-09-10T06:36:37.800884Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 5
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
