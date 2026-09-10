@@ -1,89 +1,89 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-09-09T23:35:49.607850Z",
+  "mode": "live",
+  "generated_at": "2026-09-10T01:29:14.065365Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 6,
       "low": 0,
-      "high": 18,
-      "confidence": 44,
+      "high": 19,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 5,
-      "low": 0,
-      "high": 22,
-      "confidence": 44,
-      "status": "לא זוהה אות חריג"
+      "score": 18,
+      "low": 5,
+      "high": 31,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 8,
-      "low": 0,
-      "high": 25,
-      "confidence": 44,
-      "status": "לא זוהה אות חריג"
+      "score": 29,
+      "low": 16,
+      "high": 42,
+      "confidence": 66,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 5
   },
   "changes": [
     {
-      "time": "21:45",
-      "text": "U . S . military says it destroyed 5 more Iranian oil tankers after missile attacks on Navy warship",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "04:00",
+      "text": "Iran likely to reverse - engineer captured US underwater drone",
+      "impact": "השפעה מיידית מחושבת: +2.3",
       "direction": "up",
-      "source": "santafenewmexican.com",
-      "signal_id": "22a99d093ce94ae0"
+      "source": "al-monitor.com",
+      "signal_id": "f6847b3b926cbb9e"
     },
     {
-      "time": "21:45",
-      "text": "Iran Threatens Tankers in Kuwait and Bahrain as IRGC Responds to US Attacks",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "04:00",
+      "text": "Pakistan Warns Iran to Rein in Houthis as Riyadh Strikes Back",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "maritime-executive.com",
-      "signal_id": "db30abd3a9264336"
+      "source": "algemeiner.com",
+      "signal_id": "134f8115d6ab1073"
     },
     {
-      "time": "21:45",
-      "text": "Iran and US hit tankers in biggest wave of attacks on shipping since war began",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "04:00",
+      "text": "Netanyahu threatens Iran from occupied Syrian mountain",
+      "impact": "השפעה מיידית מחושבת: +1.7",
       "direction": "up",
-      "source": "mvariety.com",
+      "source": "middleeaststar.com",
+      "signal_id": "8668e8dc4d892dee"
+    },
+    {
+      "time": "04:00",
+      "text": "Iran and US Hit Tankers in Biggest Wave of Attacks on Shipping Since War Began",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "algemeiner.com",
       "signal_id": "92736c5d168043e7"
-    },
-    {
-      "time": "21:45",
-      "text": "Iranian Regime Says It Ready to Escalate Military Conflict",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "wcbm.com",
-      "signal_id": "a6bc0a74376e387e"
     }
   ],
   "signals": [
     {
-      "id": "22a99d093ce94ae0",
-      "name": "U . S . military says it destroyed 5 more Iranian oil tankers after missile attacks on Navy warship",
+      "id": "f6847b3b926cbb9e",
+      "name": "Iran likely to reverse - engineer captured US underwater drone",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "22a99d093ce94ae0",
+      "dependency_group": "f6847b3b926cbb9e",
       "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.25,
+      "reliability": 0.74,
+      "freshness": 0.87,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,28 +94,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "santafenewmexican.com",
-      "url": "https://www.santafenewmexican.com/news/u-s-military-says-it-destroyed-5-more-iranian-oil-tankers-after-missile-attacks-on/article_00bc31c3-f009-5336-b38c-0370a71f939c.html",
-      "published_at": "2026-09-09T18:45:00Z",
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/09/iran-likely-reverse-engineer-captured-us-underwater-drone",
+      "published_at": "2026-09-10T01:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 3.0
-      },
-      "carried_forward": true
+        "immediate": 2.3,
+        "short": 8.0,
+        "extended": 13.6
+      }
     },
     {
-      "id": "db30abd3a9264336",
-      "name": "Iran Threatens Tankers in Kuwait and Bahrain as IRGC Responds to US Attacks",
+      "id": "134f8115d6ab1073",
+      "name": "Pakistan Warns Iran to Rein in Houthis as Riyadh Strikes Back",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "db30abd3a9264336",
+      "dependency_group": "134f8115d6ab1073",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.25,
+      "freshness": 0.87,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,20 +125,50 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "maritime-executive.com",
-      "url": "https://maritime-executive.com/article/iran-threatens-tankers-in-kuwait-and-bahrain-as-irgc-responds-to-us-attacks",
-      "published_at": "2026-09-09T18:45:00Z",
+      "source": "algemeiner.com",
+      "url": "https://www.algemeiner.com/2026/09/09/pakistan-warns-iran-rein-in-houthis-riyadh-strikes-back/",
+      "published_at": "2026-09-10T01:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.6
+      }
+    },
+    {
+      "id": "8668e8dc4d892dee",
+      "name": "Netanyahu threatens Iran from occupied Syrian mountain",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8668e8dc4d892dee",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.87,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeaststar.com",
+      "url": "http://www.middleeaststar.com/news/279297067/netanyahu-threatens-iran-from-occupied-syrian-mountain",
+      "published_at": "2026-09-10T01:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.7,
+        "extended": 9.6
+      }
     },
     {
       "id": "92736c5d168043e7",
-      "name": "Iran and US hit tankers in biggest wave of attacks on shipping since war began",
+      "name": "Iran and US Hit Tankers in Biggest Wave of Attacks on Shipping Since War Began",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
@@ -147,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "92736c5d168043e7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.25,
+      "freshness": 0.87,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,16 +187,387 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "mvariety.com",
-      "url": "https://www.mvariety.com/news/national/iran-and-us-hit-tankers-in-biggest-wave-of-attacks-on-shipping-since-war-began/article_c9af89a7-0df3-4226-aa6a-5a42fda63e76.html",
-      "published_at": "2026-09-09T18:45:00Z",
+      "source": "algemeiner.com",
+      "url": "https://www.algemeiner.com/2026/09/09/iran-us-hit-tankers-biggest-wave-attacks-shipping-since-war-began/",
+      "published_at": "2026-09-10T01:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.5
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "aae9c2ebde652f82",
+      "name": "Iran condemns US attacks on oil tankers , calls for UN action over",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "aae9c2ebde652f82",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.87,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeaststar.com",
+      "url": "http://www.middleeaststar.com/news/279297078/iran-condemns-us-attacks-on-oil-tankers-calls-for-un-action-over-grave-violation-of-security",
+      "published_at": "2026-09-10T01:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "bcee11d42b2c9c9b",
+      "name": "Nuclear watchdog refers Iran to UN Security Council over  non - compliance",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bcee11d42b2c9c9b",
+      "strength": 0.4,
+      "reliability": 0.88,
+      "freshness": 0.397,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bbc.co.uk",
+      "url": "https://www.bbc.co.uk/news/articles/ckgwj4kl5lno",
+      "published_at": "2026-09-09T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "bdc977f5b9bf65f0",
+      "name": "Iran referred to UN Security Council for nuclear non - compliance",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bdc977f5b9bf65f0",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.654,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yahoo.com",
+      "url": "https://www.yahoo.com/news/politics/articles/iran-referred-un-security-council-202853420.html",
+      "published_at": "2026-09-10T00:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "ce11bdbbb7777180",
+      "name": "Iran Targets 10 Ships in Strait of Hormuz in Massive Attack on Global Shipping",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ce11bdbbb7777180",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.567,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "foreignpolicy.com",
+      "url": "https://foreignpolicy.com/2026/09/09/iran-strikes-shipping-strait-hormuz-jordan-us-oil-prices/?tpcc=recirc_trending062921",
+      "published_at": "2026-09-09T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
+    {
+      "id": "b76f27423955c990",
+      "name": "Iran condemns US attacks on oil tankers , calls for UN action over  grave violation  of security",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b76f27423955c990",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.609,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aninews.in",
+      "url": "https://aninews.in/news/world/middle-east/iran-condemns-us-attacks-on-oil-tankers-calls-for-un-action-over-grave-violation-of-security20260910032418/",
+      "published_at": "2026-09-09T23:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "8277436206106cf6",
+      "name": "Iran fires electro - optical missile for the first time on US warships",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8277436206106cf6",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.457,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nypost.com",
+      "url": "https://nypost.com/2026/09/09/world-news/iran-fires-electro-optical-missile-for-the-first-time-on-us-warships/",
+      "published_at": "2026-09-09T22:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
+    },
+    {
+      "id": "88dfc099c3225809",
+      "name": "Iran Is Forging A New Ring Of Proxies To Threaten U . S . Allies In The Gulf",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "88dfc099c3225809",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.426,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2596029/iran-is-forging-a-new-ring-of-proxies-to-threaten-u-s-allies-in-the-gulf.html",
+      "published_at": "2026-09-09T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.7
+      }
+    },
+    {
+      "id": "58704852095e4ccd",
+      "name": "Iran is beefing up Pickaxe Mountain nuclear base as Trump threatens to strike it",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "58704852095e4ccd",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.397,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nypost.com",
+      "url": "https://nypost.com/2026/09/09/world-news/iran-is-beefing-up-pickaxe-mountain-nuclear-base-as-trump-threatens-to-strike-it/",
+      "published_at": "2026-09-09T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "1dd376b183679885",
+      "name": "US , Iran Strike Oil Tankers In Biggest Attack Wave",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1dd376b183679885",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.397,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "marinelink.com",
+      "url": "https://www.marinelink.com/news/us-iran-strike-oil-tankers-biggest-attack-542833",
+      "published_at": "2026-09-09T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "02e6ae37f743abf3",
+      "name": "Youre Going To See a Lot More : Trump Threatens More Attacks on Iranian Tankers",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "02e6ae37f743abf3",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.369,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.antiwar.com",
+      "url": "https://news.antiwar.com/2026/09/09/youre-going-to-see-a-lot-more-trump-threatens-more-attacks-on-iranian-tankers/",
+      "published_at": "2026-09-09T22:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "8d5758e6718d23bb",
+      "name": "UN Nuclear Watchdog Board Reports Iran to the UN Security Council for the First Time in 20 Years",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8d5758e6718d23bb",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.397,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "military.com",
+      "url": "https://www.military.com/un-nuclear-watchdog-board-reports-iran-to-the-un-security-council-for-the-first-time-in-20-years",
+      "published_at": "2026-09-09T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "af89dd386d89c6c8",
+      "name": "Iraqi Oil Tanker Hit Amidst US - Iran Attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "af89dd386d89c6c8",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.397,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "marinelink.com",
+      "url": "https://www.marinelink.com/news/iraqi-oil-tanker-hit-amidst-usiran-542834",
+      "published_at": "2026-09-09T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
     },
     {
       "id": "a6bc0a74376e387e",
@@ -179,7 +579,7 @@ window.MAGEN_STATE = {
       "dependency_group": "a6bc0a74376e387e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.25,
+      "freshness": 0.344,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -190,28 +590,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "wcbm.com",
-      "url": "https://wcbm.com/national-headline/iranian-regime-says-its-ready-to-escalate-military-conflict/",
-      "published_at": "2026-09-09T18:45:00Z",
+      "source": "townhall.com",
+      "url": "https://townhall.com/news/jeff-charles/2026/09/09/iranian-regime-says-its-ready-to-escalate-military-conflict-n2682692",
+      "published_at": "2026-09-09T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.5
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
     },
     {
-      "id": "d54f1713f512400a",
-      "name": "US Military  Destroy Even More Iranian Oil Tankers",
+      "id": "1ac71669bc7ef7ea",
+      "name": "King Mohammed VI Condemns Iranian Attacks on Jordan , Reaffirms Full Solidarity",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "d54f1713f512400a",
+      "dependency_group": "1ac71669bc7ef7ea",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.25,
+      "freshness": 0.369,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -222,28 +621,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "wcbm.com",
-      "url": "https://wcbm.com/national-headline/us-military-destroys-even-more-iranian-oil-tankers/",
-      "published_at": "2026-09-09T18:45:00Z",
+      "source": "moroccoworldnews.com",
+      "url": "https://www.moroccoworldnews.com/2026/09/337774/king-mohammed-vi-condemns-iranian-attacks-on-jordan-reaffirms-full-solidarity/",
+      "published_at": "2026-09-09T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.5
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
     },
     {
-      "id": "faf75d3e8bafc567",
-      "name": "UN nuclear watchdog board reports Iran to the UN Security Council",
+      "id": "b35eb0347320d6ea",
+      "name": "Hormuz Shipping Still Sluggish as US - Iran Strikes Push Oil Above $100",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "faf75d3e8bafc567",
+      "dependency_group": "b35eb0347320d6ea",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.25,
+      "freshness": 0.369,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,272 +652,15 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "reporterherald.com",
-      "url": "https://www.reporterherald.com/2026/09/09/iran-nuclear-watchdog/",
-      "published_at": "2026-09-09T18:45:00Z",
+      "source": "wwd.com",
+      "url": "https://wwd.com/sourcing-journal/logistics/strait-of-hormuz-us-iran-war-strikes-oil-prices-100-ocean-freight-traffic-1239204188/",
+      "published_at": "2026-09-09T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4f5dd93a669c6622",
-      "name": "US strikes oil tankers off coast of Iran | Hellenic Shipping News Worldwide",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4f5dd93a669c6622",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.233,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hellenicshippingnews.com",
-      "url": "https://www.hellenicshippingnews.com/us-strikes-oil-tankers-off-coast-of-iran/",
-      "published_at": "2026-09-09T18:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "065d5394c82c5f66",
-      "name": "Iran warns of  more intense war  as US strikes tankers , Tehran vows to step up counterattacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "065d5394c82c5f66",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.217,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/iran-warns-of-more-intense-war-as-us-strikes-tankers-tehran-vows-to-step-up-counterattacks-article-14026470.html",
-      "published_at": "2026-09-09T18:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4a49e5c1f0f8690e",
-      "name": "UN nuclear watchdog reports Iran to Security Council for first time in 20 years",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4a49e5c1f0f8690e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.217,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/un-nuclear-watchdog-reports-iran-to-security-council-for-first-time-in-20-years-article-14026479.html",
-      "published_at": "2026-09-09T18:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b5a4af02a430270d",
-      "name": "Scores wounded as Iran - backed Houthis attack Saudi Arabia in major regional escalation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b5a4af02a430270d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.202,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "abc57.com",
-      "url": "https://www.abc57.com/news/scores-wounded-as-iran-backed-houthis-attack-saudi-arabia-in-major-regional-escalation",
-      "published_at": "2026-09-09T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ebbd90b550e959c2",
-      "name": "U . S . denies claims Iran struck two American vessels in retaliation for earlier strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ebbd90b550e959c2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.188,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cnbcafrica.com",
-      "url": "https://www.cnbcafrica.com/2026/u-s-denies-claims-iran-struck-two-american-vessels-in-retaliation-for-earlier-strikes",
-      "published_at": "2026-09-09T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d2fd2fa3b2a6ec40",
-      "name": "US , Iran Trade Strikes On Shipping As Oil Prices Surge Above $100 A Barrel",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d2fd2fa3b2a6ec40",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.188,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "eurasiareview.com",
-      "url": "https://www.eurasiareview.com/09092026-us-iran-trade-strikes-on-shipping-as-oil-prices-surge-above-100-a-barrel/",
-      "published_at": "2026-09-09T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2d2860fd554b92a8",
-      "name": "What is Jordan Al - Azraq base and why is Iran targeting it ? | US - Israel war on Iran News",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2d2860fd554b92a8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.188,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/news/2026/9/9/what-is-jordans-al-azraq-base-and-why-is-iran-targeting-it",
-      "published_at": "2026-09-09T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "329eded48845be4a",
-      "name": "Satellite images show surge in construction at Iran nuclear site on Pickaxe mountain as war with US reignites",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "329eded48845be4a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.188,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/satellite-images-shows-surge-in-construction-at-irans-nuclear-site-on-pickaxe-mountain-natanz-as-war-with-us-reignites-101788970864443.html",
-      "published_at": "2026-09-09T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
-      },
-      "carried_forward": true
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      }
     }
   ],
   "history": [
@@ -5754,17 +5895,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 5,
       "extended": 8
+    },
+    {
+      "timestamp": "2026-09-10T01:29:14.065365Z",
+      "immediate": 6,
+      "short": 18,
+      "extended": 29
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-09-09T19:15:21.731182Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-09-10T01:29:14.065365Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 14
+        "ok": true,
+        "items": 150,
+        "relevant": 19
       },
       "manual": {
         "ok": true,
