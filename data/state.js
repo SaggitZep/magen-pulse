@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-09-10T21:14:30.799151Z",
+  "generated_at": "2026-09-10T23:16:14.207813Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 2,
       "low": 0,
       "high": 20,
-      "confidence": 46,
+      "confidence": 37,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 9,
+      "score": 5,
       "low": 0,
-      "high": 26,
-      "confidence": 46,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 37,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
+      "score": 9,
       "low": 0,
-      "high": 32,
-      "confidence": 46,
+      "high": 27,
+      "confidence": 37,
       "status": "נמוך"
     }
   },
@@ -35,14 +35,14 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -3
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "21:00",
       "text": "גורמים בארה  ב ובמזרח התיכון :  איראן חידשה את ייצור הטילים במתקנים תת - קרקעיים",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "ynet.co.il",
       "signal_id": "d4c7ffbd80d9510a"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:45",
       "text": "American $20MILLION fighter jet loses a wing after Trump issues chilling threat to Iran ... as fleet takes a beating by barrage of missiles",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "dailymail.com",
       "signal_id": "d2040d94c8625ea5"
@@ -58,18 +58,10 @@ window.MAGEN_STATE = {
     {
       "time": "21:15",
       "text": "Iran - backed Houthi rebels take strategic port city in Yemen , raising threat to Red Sea shipping",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "ksat.com",
       "signal_id": "dd86a45eb3ff9d0c"
-    },
-    {
-      "time": "20:00",
-      "text": "Iran likely to reverse - engineer captured US underwater drone",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "navytimes.com",
-      "signal_id": "f6847b3b926cbb9e"
     }
   ],
   "signals": [
@@ -83,7 +75,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d4c7ffbd80d9510a",
       "strength": 0.48,
       "reliability": 0.74,
-      "freshness": 0.396,
+      "freshness": 0.222,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,9 +91,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-10T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.5
       },
       "carried_forward": true
     },
@@ -115,7 +107,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d2040d94c8625ea5",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.369,
+      "freshness": 0.207,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +123,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-10T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
       },
       "carried_forward": true
     },
@@ -147,7 +139,7 @@ window.MAGEN_STATE = {
       "dependency_group": "dd86a45eb3ff9d0c",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.425,
+      "freshness": 0.238,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,297 +155,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-10T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f6847b3b926cbb9e",
-      "name": "Iran likely to reverse - engineer captured US underwater drone",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f6847b3b926cbb9e",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.298,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "navytimes.com",
-      "url": "https://www.navytimes.com/industry/techwatch/2026/09/10/iran-likely-to-reverse-engineer-captured-us-underwater-drone/",
-      "published_at": "2026-09-10T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d4e94ab9ae552fa3",
-      "name": "Iran and U . S . hit tankers in biggest wave of attacks on shipping since war began",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d4e94ab9ae552fa3",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.32,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kaieteurnewsonline.com",
-      "url": "https://kaieteurnewsonline.com/2026/09/10/iran-and-u-s-hit-tankers-in-biggest-wave-of-attacks-on-shipping-since-war-began/",
-      "published_at": "2026-09-10T17:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e19fa63b032cf2e0",
-      "name": "Iran Seizes U . S . Underwater Drone , Raising Reverse - Engineering Concerns",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e19fa63b032cf2e0",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.24,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jp.ibtimes.com",
-      "url": "https://jp.ibtimes.com/iran-seizes-us-underwater-drone-104321",
-      "published_at": "2026-09-10T16:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "7de9f977988d817e",
-      "name": "UN nuclear watchdog spots construction activity at Iran suspected nuclear site :  There are some indications that …",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7de9f977988d817e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.298,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/iaea-un-nuclear-watchdog-construction-activity-at-iran-s-suspected-nuclear-site-there-are-some-indications-that-101789052312499.html",
-      "published_at": "2026-09-10T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e3c2c4b230e5d8a4",
-      "name": "U . S . Air Force Aircraft Damaged in Iranian Strikes On Jordan Air Base",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e3c2c4b230e5d8a4",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.24,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "el-balad.com",
-      "url": "https://www.el-balad.com/17050090",
-      "published_at": "2026-09-10T16:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8563a03ed8dc2fee",
-      "name": "Iran - backed Houthi rebels take over a strategic port city in Yemen , posing a new threat to shipping",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8563a03ed8dc2fee",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.194,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "therecord.com",
-      "url": "https://www.therecord.com/news/world/middle-east/houthi-rebels-reach-a-strategic-port-city-in-yemen-and-other-mideast-developments/article_4fbf2d57-d686-5cbf-95ab-faf8012752ae.html",
-      "published_at": "2026-09-10T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "803d33d54d2c4bed",
-      "name": "Fresh threat to Red Sea shipping ? Iran backed Houthis seize Yemen port city Mocha",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "803d33d54d2c4bed",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "businesstoday.in",
-      "url": "https://www.businesstoday.in/world/story/fresh-threat-to-red-sea-shipping-iran-backed-houthis-seize-yemen-port-city-mocha-554694-2026-09-10",
-      "published_at": "2026-09-10T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8f86a7a3cfdd05d1",
-      "name": "Katz threatens attacks on Iranian energy infrastructure in Rosh Hashanah message",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8f86a7a3cfdd05d1",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yahoo.com",
-      "url": "https://www.yahoo.com/news/politics/articles/katz-threatens-attacks-iranian-energy-143759310.html",
-      "published_at": "2026-09-10T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "a9abc0e26295769f",
-      "name": "Katz : Any Iranian attack will bring blows Tehran  has not yet suffered  | JNS",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a9abc0e26295769f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "clevelandjewishnews.com",
-      "url": "https://www.clevelandjewishnews.com/jns/katz-any-iranian-attack-will-bring-blows-tehran-has-not-yet-suffered/article_7ba52edf-e09c-5353-8936-471036466b10.html",
-      "published_at": "2026-09-10T15:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.0,
-        "extended": 1.8
+        "short": 1.5,
+        "extended": 2.6
       },
       "carried_forward": true
     }
@@ -5726,6 +5430,12 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 9,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-09-10T23:16:14.207813Z",
+      "immediate": 2,
+      "short": 5,
+      "extended": 9
     }
   ],
   "health": {
@@ -5736,7 +5446,7 @@ window.MAGEN_STATE = {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 12
+        "carried_forward": 3
       },
       "manual": {
         "ok": true,
