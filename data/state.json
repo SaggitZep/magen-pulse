@@ -1,64 +1,56 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-09-10T06:36:37.800884Z",
+  "mode": "degraded",
+  "generated_at": "2026-09-10T11:51:42.760828Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 1,
       "low": 0,
       "high": 18,
-      "confidence": 67,
+      "confidence": 43,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 17,
-      "low": 4,
-      "high": 30,
-      "confidence": 67,
-      "status": "נמוך"
+      "score": 4,
+      "low": 0,
+      "high": 21,
+      "confidence": 43,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 27,
-      "low": 14,
-      "high": 40,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 6,
+      "low": 0,
+      "high": 23,
+      "confidence": 43,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "ירידה",
+    "points_60m": -4
   },
   "changes": [
     {
       "time": "09:00",
       "text": "Pakistan warns Iran to rein in Houthis as Riyadh strikes back",
-      "impact": "השפעה מיידית מחושבת: +2.1",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "134f8115d6ab1073"
     },
     {
-      "time": "08:45",
-      "text": "Underwater drone capture gives Tehran opportunity to reverse engineer vessel",
-      "impact": "השפעה מיידית מחושבת: +1.6",
-      "direction": "up",
-      "source": "middleeasteye.net",
-      "signal_id": "38ae8022e2838787"
-    },
-    {
       "time": "09:15",
       "text": "US warplanes damaged in Iranian strikes on military base in Jordan : Report",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "292033543b6f41da"
@@ -66,10 +58,18 @@
     {
       "time": "09:00",
       "text": "editor pick tensions flare as Iran , U . S . step up strikes",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "thehindu.com",
       "signal_id": "e60d0adaff891981"
+    },
+    {
+      "time": "09:00",
+      "text": "Iran strikes ships , expands no - go zone outside the Strait of Hormuz",
+      "impact": "השפעה מיידית מחושבת: +0.3",
+      "direction": "up",
+      "source": "newstalkzb.co.nz",
+      "signal_id": "b9b5926a5fbd1007"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@
       "dependency_group": "134f8115d6ab1073",
       "strength": 0.45,
       "reliability": 0.74,
-      "freshness": 0.84,
+      "freshness": 0.187,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,41 +99,11 @@
       "published_at": "2026-09-10T06:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 2.1,
-        "short": 7.2,
-        "extended": 12.3
-      }
-    },
-    {
-      "id": "38ae8022e2838787",
-      "name": "Underwater drone capture gives Tehran opportunity to reverse engineer vessel",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "38ae8022e2838787",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.782,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/underwater-drone-capture-gives-tehran-opportunity-reverse-engineer",
-      "published_at": "2026-09-10T05:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.2
-      }
+      "carried_forward": true
     },
     {
       "id": "292033543b6f41da",
@@ -145,7 +115,7 @@
       "dependency_group": "292033543b6f41da",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.902,
+      "freshness": 0.201,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +131,11 @@
       "published_at": "2026-09-10T06:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.9
-      }
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
+      },
+      "carried_forward": true
     },
     {
       "id": "e60d0adaff891981",
@@ -176,7 +147,7 @@
       "dependency_group": "e60d0adaff891981",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.84,
+      "freshness": 0.187,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +163,11 @@
       "published_at": "2026-09-10T06:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.3
-      }
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.8
+      },
+      "carried_forward": true
     },
     {
       "id": "b9b5926a5fbd1007",
@@ -207,7 +179,7 @@
       "dependency_group": "b9b5926a5fbd1007",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.84,
+      "freshness": 0.187,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +195,11 @@
       "published_at": "2026-09-10T06:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.3
-      }
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.8
+      },
+      "carried_forward": true
     },
     {
       "id": "bb39aad3efbb5820",
@@ -238,7 +211,7 @@
       "dependency_group": "bb39aad3efbb5820",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.84,
+      "freshness": 0.187,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,475 +227,11 @@
       "published_at": "2026-09-10T06:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.3
-      }
-    },
-    {
-      "id": "1713d744cb45e744",
-      "name": "US war against Iran enters new phase with strikes on oil tankers",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1713d744cb45e744",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.782,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.8
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wsws.org",
-      "url": "https://www.wsws.org/en/articles/2026/09/10/faap-s10.html",
-      "published_at": "2026-09-10T05:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
-    },
-    {
-      "id": "270f5547a2fe2704",
-      "name": "Iran likely to reverse - engineer captured US drone",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "270f5547a2fe2704",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.631,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "centralwesterndaily.com.au",
-      "url": "https://www.centralwesterndaily.com.au/story/9347382/iran-likely-to-reverse-engineer-captured-us-drone/",
-      "published_at": "2026-09-10T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
-    },
-    {
-      "id": "bdc977f5b9bf65f0",
-      "name": "Iran referred to UN Security Council for nuclear non - compliance",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bdc977f5b9bf65f0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.728,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "capitalfm.africa",
-      "url": "https://capitalfm.africa/iran-referred-to-un-security-council-for-nuclear-non-compliance/",
-      "published_at": "2026-09-10T05:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
-      }
-    },
-    {
-      "id": "53e661a4a6e3cf0d",
-      "name": "US and Iran hit tankers in biggest wave of attacks on shipping",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "53e661a4a6e3cf0d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.588,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arynews.tv",
-      "url": "https://arynews.tv/us-and-iran-hit-tankers-in-biggest-wave-of-attacks-on-shipping",
-      "published_at": "2026-09-10T04:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      }
-    },
-    {
-      "id": "92736c5d168043e7",
-      "name": "Iran and US hit tankers in biggest wave of attacks on shipping since war began",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "92736c5d168043e7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.547,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "asiaone.com",
-      "url": "https://www.asiaone.com/world/iran-us-hit-tankers-biggest-wave-attacks-shipping-war-began",
-      "published_at": "2026-09-10T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      }
-    },
-    {
-      "id": "1234ae9942e923fa",
-      "name": "Iran and US strike tankers in biggest shipping attack since war began",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1234ae9942e923fa",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.547,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theuknews.com",
-      "url": "http://www.theuknews.com/news/279296964/iran-and-us-strike-tankers-in-biggest-shipping-attack-since-war-began",
-      "published_at": "2026-09-10T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      }
-    },
-    {
-      "id": "f75c7e5671926a5d",
-      "name": "US suffered major aircraft losses after Iran strike on Jordan base : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f75c7e5671926a5d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.474,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/us-suffered-major-aircraft-losses-after-iran-strike-on-jordan-base-report/articleshow/133992358.cms",
-      "published_at": "2026-09-10T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "673df1f76cefc1ef",
-      "name": "Iran strikes ships , expands no - go zone outside Hormuz strait",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "673df1f76cefc1ef",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.474,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gulfnews.com",
-      "url": "https://gulfnews.com/world/mena/iran-strikes-ships-expands-no-go-zone-outside-hormuz-strait-1.500668624",
-      "published_at": "2026-09-10T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "ca22c8fc53b38f32",
-      "name": "Iran attacks on US warships show limits of tanker reprisals",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ca22c8fc53b38f32",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.442,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "businesstimes.com.sg",
-      "url": "https://www.businesstimes.com.sg/international/iran-attacks-us-warships-show-limits-tanker-reprisals",
-      "published_at": "2026-09-10T03:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "f017108766104a17",
-      "name": "REGIONAL FLASHPOINT : Pakistan Warns Iran To Rein In Houthis As Saudi Arabia Strikes Back",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f017108766104a17",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.356,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2596465/regional-flashpoint-pakistan-warns-iran-to-rein-in-houthis-as-saudi-arabia-strikes-back.html",
-      "published_at": "2026-09-10T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "03bd3018997ec88f",
-      "name": "Several US fighter jets damaged in Iranian strikes on Jordan : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "03bd3018997ec88f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.411,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/americas/several-us-fighter-jets-damaged-in-iranian-strikes-on-jordan-report/4052699",
-      "published_at": "2026-09-10T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "141f56d8c3d2b41b",
-      "name": "Iran Tightens Hormuz Restrictions as U . S . Tanker Strikes , AUV Seizure Raise the Stakes – NIAC",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "141f56d8c3d2b41b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.356,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "niacouncil.org",
-      "url": "https://niacouncil.org/iran-tightens-hormuz-restrictions-as-u-s-tanker-strikes-auv-seizure-raise-the-stakes/",
-      "published_at": "2026-09-10T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      }
-    },
-    {
-      "id": "783248a5d7704736",
-      "name": "U . S . Racing To Develop Massive New Bunker - Buster Capable Of Destroying Iran  Impenetrable  Nuclear Site – The Yeshiva World",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "783248a5d7704736",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.356,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2596145/u-s-racing-to-develop-massive-new-bunker-buster-capable-of-destroying-irans-impenetrable-nuclear-site.html",
-      "published_at": "2026-09-10T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      }
-    },
-    {
-      "id": "7f8b198ab6d4da45",
-      "name": "iran - US - oil - hormuz - supply - trump - military",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7f8b198ab6d4da45",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.356,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cnbc.com",
-      "url": "https://www.cnbc.com/2026/09/10/iran-us-oil-hormuz-supply-trump-military-brent-wti.html",
-      "published_at": "2026-09-10T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      }
-    },
-    {
-      "id": "0f7d4da71a8174d2",
-      "name": "Explosions reported across Iran coast ; blasts heard at Saudi air base",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0f7d4da71a8174d2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.332,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "business-standard.com",
-      "url": "https://www.business-standard.com/world-news/explosions-reported-across-iran-s-coast-blasts-heard-at-saudi-air-base-126091000093_1.html",
-      "published_at": "2026-09-10T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      }
+      "carried_forward": true
     }
   ],
   "history": [
@@ -5969,17 +5478,23 @@
       "immediate": 5,
       "short": 17,
       "extended": 27
+    },
+    {
+      "timestamp": "2026-09-10T11:51:42.760828Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 6
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-09-10T06:36:37.800884Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 21
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
