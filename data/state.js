@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-09-11T18:36:47.027508Z",
+  "mode": "degraded",
+  "generated_at": "2026-09-11T21:21:00.818122Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 2,
       "low": 0,
-      "high": 17,
-      "confidence": 67,
+      "high": 19,
+      "confidence": 45,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 6,
       "low": 0,
-      "high": 26,
-      "confidence": 67,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 45,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 67,
+      "score": 10,
+      "low": 0,
+      "high": 27,
+      "confidence": 45,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 4
+    "level": "ירידה",
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "20:45",
       "text": "Iran resumes ballistic missile production",
-      "impact": "השפעה מיידית מחושבת: +1.6",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "azernews.az",
       "signal_id": "f405b6f8ba3ed46f"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "20:45",
       "text": "Iran says Oman to host regional meeting on Hormuz shipping on Monday",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "middleeastmonitor.com",
       "signal_id": "025025870e5c4133"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "19:45",
       "text": "How U . S . Naval Base Destruction Will Impact Iran War",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "newsweek.com",
       "signal_id": "91a9d14f50081178"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "18:45",
       "text": "US refutes claims that Iran captured Saildrone USV",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "militarytimes.com",
       "signal_id": "9a8ce72207391ea8"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f405b6f8ba3ed46f",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.781,
+      "freshness": 0.357,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-11T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.6,
-        "short": 5.4,
-        "extended": 9.2
-      }
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      },
+      "carried_forward": true
     },
     {
       "id": "025025870e5c4133",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "025025870e5c4133",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.781,
+      "freshness": 0.357,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-11T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      },
+      "carried_forward": true
     },
     {
       "id": "91a9d14f50081178",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "91a9d14f50081178",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.587,
+      "freshness": 0.269,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-11T16:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      }
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.7
+      },
+      "carried_forward": true
     },
     {
       "id": "9a8ce72207391ea8",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9a8ce72207391ea8",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.441,
+      "freshness": 0.202,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-11T15:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
+      },
+      "carried_forward": true
     },
     {
       "id": "0070b617c457c90e",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0070b617c457c90e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.474,
+      "freshness": 0.217,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-11T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.1
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -5533,17 +5538,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-09-11T21:21:00.818122Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 10
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-09-11T18:36:47.027508Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 5
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
