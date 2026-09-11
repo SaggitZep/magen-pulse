@@ -1,45 +1,234 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-09-11T15:10:39.780402Z",
+  "mode": "live",
+  "generated_at": "2026-09-11T18:36:47.027508Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 4,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 17,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
+      "score": 13,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "high": 26,
+      "confidence": 67,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 67,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 4
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "20:45",
+      "text": "Iran resumes ballistic missile production",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "azernews.az",
+      "signal_id": "f405b6f8ba3ed46f"
+    },
+    {
+      "time": "20:45",
+      "text": "Iran says Oman to host regional meeting on Hormuz shipping on Monday",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "middleeastmonitor.com",
+      "signal_id": "025025870e5c4133"
+    },
+    {
+      "time": "19:45",
+      "text": "How U . S . Naval Base Destruction Will Impact Iran War",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "newsweek.com",
+      "signal_id": "91a9d14f50081178"
+    },
+    {
+      "time": "18:45",
+      "text": "US refutes claims that Iran captured Saildrone USV",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "militarytimes.com",
+      "signal_id": "9a8ce72207391ea8"
+    }
+  ],
+  "signals": [
+    {
+      "id": "f405b6f8ba3ed46f",
+      "name": "Iran resumes ballistic missile production",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f405b6f8ba3ed46f",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.781,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "azernews.az",
+      "url": "https://www.azernews.az/region/263750.html",
+      "published_at": "2026-09-11T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
+    {
+      "id": "025025870e5c4133",
+      "name": "Iran says Oman to host regional meeting on Hormuz shipping on Monday",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "025025870e5c4133",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.781,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeastmonitor.com",
+      "url": "https://www.middleeastmonitor.com/20260911-iran-says-oman-to-host-regional-meeting-on-hormuz-shipping-on-monday/",
+      "published_at": "2026-09-11T17:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "91a9d14f50081178",
+      "name": "How U . S . Naval Base Destruction Will Impact Iran War",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "91a9d14f50081178",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.587,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newsweek.com",
+      "url": "https://www.newsweek.com/how-us-naval-base-damage-will-impact-iran-war-12430796",
+      "published_at": "2026-09-11T16:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "9a8ce72207391ea8",
+      "name": "US refutes claims that Iran captured Saildrone USV",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9a8ce72207391ea8",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.441,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "militarytimes.com",
+      "url": "https://www.militarytimes.com/industry/techwatch/2026/09/11/us-refutes-claims-that-iran-captured-saildrone-usv/",
+      "published_at": "2026-09-11T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      }
+    },
+    {
+      "id": "0070b617c457c90e",
+      "name": "Oil tanker rates hit record highs following Iran , US shipping attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0070b617c457c90e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.474,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "933thedrive.com",
+      "url": "https://www.933thedrive.com/2026/09/11/oil-tanker-rates-hit-record-highs-following-iran-us-shipping-attacks/",
+      "published_at": "2026-09-11T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -5338,17 +5527,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-09-11T18:36:47.027508Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-09-11T06:09:54.165398Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-09-11T18:36:47.027508Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 5
       },
       "manual": {
         "ok": true,
