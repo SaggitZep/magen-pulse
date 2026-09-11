@@ -1,140 +1,54 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-09-11T06:09:54.165398Z",
+  "mode": "degraded",
+  "generated_at": "2026-09-11T11:25:42.342471Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 13,
+      "score": 0,
       "low": 0,
-      "high": 26,
-      "confidence": 65,
-      "status": "נמוך"
+      "high": 20,
+      "confidence": 27,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 20,
-      "low": 7,
-      "high": 33,
-      "confidence": 65,
-      "status": "נמוך"
+      "score": 1,
+      "low": 0,
+      "high": 21,
+      "confidence": 27,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 65,
-      "status": "מוגבר"
+      "score": 2,
+      "low": 0,
+      "high": 22,
+      "confidence": 27,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מהירה",
-    "points_60m": 13
+    "level": "ירידה",
+    "points_60m": -13
   },
   "changes": [
     {
-      "time": "05:30",
-      "text": "The Middle East 9 / 10 / 2026 …. Israeli Gaza Attack …. Iran vs Israel ?",
-      "impact": "השפעה מיידית מחושבת: +8.6",
-      "direction": "up",
-      "source": "politicaldog101.com",
-      "signal_id": "94bf8bfad09430f1"
-    },
-    {
-      "time": "08:00",
-      "text": "Iran has resumed ballistic missile production , report says",
-      "impact": "השפעה מיידית מחושבת: +1.5",
-      "direction": "up",
-      "source": "thenationalnews.com",
-      "signal_id": "6da8b69774b6c94e"
-    },
-    {
       "time": "08:45",
       "text": "Iran attack on Jordan base damaged US military aircraft",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "maitlandmercury.com.au",
       "signal_id": "74e513c683795966"
-    },
-    {
-      "time": "07:45",
-      "text": "Iran IRGC says hit US sea drone in Hormuz Strait",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "siasat.com",
-      "signal_id": "5d259a2810d2b1a3"
     }
   ],
   "signals": [
-    {
-      "id": "94bf8bfad09430f1",
-      "name": "The Middle East 9 / 10 / 2026 …. Israeli Gaza Attack …. Iran vs Israel ?",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "94bf8bfad09430f1",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.351,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "politicaldog101.com",
-      "url": "https://politicaldog101.com/2026/09/the-middle-east-9-10-2026-israeli-gaza-attacks-iran-vs-israel/",
-      "published_at": "2026-09-11T02:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 8.6,
-        "short": 6.7,
-        "extended": 2.9
-      }
-    },
-    {
-      "id": "6da8b69774b6c94e",
-      "name": "Iran has resumed ballistic missile production , report says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6da8b69774b6c94e",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.717,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thenationalnews.com",
-      "url": "https://www.thenationalnews.com/news/us/2026/09/10/iran-has-resumed-ballistic-missile-production-report-says/",
-      "published_at": "2026-09-11T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      }
-    },
     {
       "id": "74e513c683795966",
       "name": "Iran attack on Jordan base damaged US military aircraft",
@@ -145,7 +59,7 @@ window.MAGEN_STATE = {
       "dependency_group": "74e513c683795966",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.888,
+      "freshness": 0.197,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,351 +75,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-11T05:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.8
-      }
-    },
-    {
-      "id": "5d259a2810d2b1a3",
-      "name": "Iran IRGC says hit US sea drone in Hormuz Strait",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5d259a2810d2b1a3",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.667,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "siasat.com",
-      "url": "https://www.siasat.com/irans-irgc-says-hit-us-sea-drone-in-hormuz-strait-3540170/",
-      "published_at": "2026-09-11T04:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.9
-      }
-    },
-    {
-      "id": "8037e6aa1d783ef1",
-      "name": "US aircraft damaged in Iranian strikes on Jordan air base , no casualties",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8037e6aa1d783ef1",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.77,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "business-standard.com",
-      "url": "https://www.business-standard.com/world-news/us-aircraft-damaged-in-iranian-strikes-on-jordan-air-base-no-casualties-126091100040_1.html",
-      "published_at": "2026-09-11T05:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
-      }
-    },
-    {
-      "id": "92736c5d168043e7",
-      "name": "Iran and US hit tankers in biggest wave of attacks on shipping since war began",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "92736c5d168043e7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.717,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "airforcetimes.com",
-      "url": "https://www.airforcetimes.com/news/your-air-force/2026/09/09/iran-and-us-hit-tankers-in-biggest-wave-of-attacks-on-shipping-since-war-began/",
-      "published_at": "2026-09-11T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      }
-    },
-    {
-      "id": "a58dd8c92281e30e",
-      "name": "Iran destroys US spy Saildrone in Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a58dd8c92281e30e",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.579,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iraqsun.com",
-      "url": "http://www.iraqsun.com/news/279299630/iran-destroys-us-spy-saildrone-in-hormuz",
-      "published_at": "2026-09-11T04:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
-    },
-    {
-      "id": "569820acd1e18eae",
-      "name": "Iranian Missile Strikes Damage US Aircraft at Jordan Muwaffaq Salti Air Base After Tanker Attacks : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "569820acd1e18eae",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.405,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gulfnews.com",
-      "url": "https://gulfnews.com/world/mena/iranian-strikes-damage-us-aircraft-at-jordan-base-report-1.500670461",
-      "published_at": "2026-09-11T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
-    },
-    {
-      "id": "f17f9e3d0df84221",
-      "name": "Iran Deploys IRGC Officers to Yemen as Houthis Threaten Bab el - Mandeb Strait and Global Shipping",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f17f9e3d0df84221",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.405,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gulfnews.com",
-      "url": "https://gulfnews.com/world/mena/iran-deploys-hundreds-of-irgc-officers-to-yemen-to-target-bab-al-mandab-strait-1.500670468",
-      "published_at": "2026-09-11T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "99f60764fc1b0649",
-      "name": "Iran Hancurkan Kapal Mata - Mata Saildrone AS di Pintu Masuk Selat Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "99f60764fc1b0649",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.377,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "international.sindonews.com",
-      "url": "https://international.sindonews.com/read/1748631/43/iran-hancurkan-kapal-mata-mata-saildrone-as-di-pintu-masuk-selat-hormuz-1789088964",
-      "published_at": "2026-09-11T02:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "ccaefb9bb3d94b1a",
-      "name": "US official confirms : Iranian attack damaged US warplanes at Jordan air base",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ccaefb9bb3d94b1a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.405,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "israelnationalnews.com",
-      "url": "https://www.israelnationalnews.com/news/433043",
-      "published_at": "2026-09-11T03:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      }
-    },
-    {
-      "id": "4c5be9bd968b1c50",
-      "name": "US Military Aircraft Damaged In Iranian Strikes On Base In Jordan",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4c5be9bd968b1c50",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.327,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "shanghaisun.com",
-      "url": "http://www.shanghaisun.com/news/279299404/us-military-aircraft-damaged-in-iranian-strikes-on-base-in-jordan",
-      "published_at": "2026-09-11T02:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      }
-    },
-    {
-      "id": "87c9b1fd42b903e6",
-      "name": "They blew the hell out of Bahrain : US official admits Iran damaged US base",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "87c9b1fd42b903e6",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.327,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/they-blew-the-hell-out-of-bahrain-us-official-admits-iran-damaged-us-base/articleshow/134039389.cms",
-      "published_at": "2026-09-11T02:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      }
-    },
-    {
-      "id": "edbf8010c58f0ec4",
-      "name": "Another choke point for oil ? Iran - backed Houthis seize Yemen port of Mocha , threaten Red Sea shipping",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "edbf8010c58f0ec4",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.327,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "livemint.com",
-      "url": "https://www.livemint.com/news/world/another-choke-point-for-oil-iran-backed-houthis-seize-yemen-port-of-mocha-threaten-red-sea-shipping-11789089191512.html",
-      "published_at": "2026-09-11T02:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
+      "carried_forward": true
     }
   ],
   "history": [
@@ -5794,17 +5368,23 @@ window.MAGEN_STATE = {
       "immediate": 13,
       "short": 20,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-09-11T11:25:42.342471Z",
+      "immediate": 0,
+      "short": 1,
+      "extended": 2
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-09-11T06:09:54.165398Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 14
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 1
       },
       "manual": {
         "ok": true,
