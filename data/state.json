@@ -1,105 +1,73 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-09-11T23:25:39.129706Z",
+  "mode": "live",
+  "generated_at": "2026-09-12T01:29:20.834005Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 1,
       "low": 0,
-      "high": 20,
-      "confidence": 31,
+      "high": 17,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 2,
+      "score": 5,
       "low": 0,
       "high": 21,
-      "confidence": 31,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 4,
+      "score": 8,
       "low": 0,
-      "high": 23,
-      "confidence": 31,
+      "high": 24,
+      "confidence": 50,
       "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": -1
+    "points_60m": 0
   },
   "changes": [
     {
-      "time": "20:45",
-      "text": "Iran resumes ballistic missile production",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "02:00",
+      "text": "UAE Moves To  War - Proof  Data Centers After Iranian Retaliatory Strikes",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
-      "source": "azernews.az",
-      "signal_id": "f405b6f8ba3ed46f"
+      "source": "zerohedge.com",
+      "signal_id": "47818d493ebe9cc6"
     },
     {
-      "time": "20:45",
-      "text": "Iran says Oman to host regional meeting on Hormuz shipping on Monday",
-      "impact": "השפעה מיידית מחושבת: +0.3",
+      "time": "00:30",
+      "text": "Multiple U . S . military aircraft damaged in Iranian strikes on military base in Jordan",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
-      "source": "middleeastmonitor.com",
-      "signal_id": "025025870e5c4133"
+      "source": "sott.net",
+      "signal_id": "96b83377d64eea18"
     }
   ],
   "signals": [
     {
-      "id": "f405b6f8ba3ed46f",
-      "name": "Iran resumes ballistic missile production",
+      "id": "47818d493ebe9cc6",
+      "name": "UAE Moves To  War - Proof  Data Centers After Iranian Retaliatory Strikes",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "f405b6f8ba3ed46f",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.197,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "azernews.az",
-      "url": "https://www.azernews.az/region/263750.html",
-      "published_at": "2026-09-11T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "025025870e5c4133",
-      "name": "Iran says Oman to host regional meeting on Hormuz shipping on Monday",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "025025870e5c4133",
+      "dependency_group": "47818d493ebe9cc6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.197,
+      "freshness": 0.491,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -110,16 +78,46 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "middleeastmonitor.com",
-      "url": "https://www.middleeastmonitor.com/20260911-iran-says-oman-to-host-regional-meeting-on-hormuz-shipping-on-monday/",
-      "published_at": "2026-09-11T17:45:00Z",
+      "source": "zerohedge.com",
+      "url": "https://www.zerohedge.com/geopolitical/uae-moves-war-proof-data-centers-after-iranian-retaliatory-strikes",
+      "published_at": "2026-09-11T23:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
+    },
+    {
+      "id": "96b83377d64eea18",
+      "name": "Multiple U . S . military aircraft damaged in Iranian strikes on military base in Jordan",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "96b83377d64eea18",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.32,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sott.net",
+      "url": "https://www.sott.net/article/508345-Multiple-US-military-aircraft-damaged-in-Iranian-strikes-on-military-base-in-Jordan",
+      "published_at": "2026-09-11T21:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.5,
+        "short": 1.9,
+        "extended": 3.2
+      }
     }
   ],
   "history": [
@@ -5438,17 +5436,23 @@
       "immediate": 1,
       "short": 2,
       "extended": 4
+    },
+    {
+      "timestamp": "2026-09-12T01:29:20.834005Z",
+      "immediate": 1,
+      "short": 5,
+      "extended": 8
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-09-11T18:36:47.027508Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-09-12T01:29:20.834005Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 2
+        "ok": true,
+        "items": 150,
+        "relevant": 2
       },
       "manual": {
         "ok": true,
