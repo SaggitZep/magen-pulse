@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-09-12T21:36:06.967278Z",
+  "generated_at": "2026-09-12T23:24:23.699447Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 7,
       "low": 0,
-      "high": 17,
-      "confidence": 66,
+      "high": 20,
+      "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
-      "low": 0,
-      "high": 26,
-      "confidence": 66,
+      "score": 19,
+      "low": 6,
+      "high": 32,
+      "confidence": 65,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 66,
-      "status": "נמוך"
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 65,
+      "status": "מוגבר"
     }
   },
   "coverage": {
@@ -35,44 +35,137 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 3
   },
   "changes": [
     {
-      "time": "23:30",
-      "text": "Iranian Regime Reportedly Building Ballistic Missiles Again",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "time": "00:45",
+      "text": "Iraq accepts Iran joint - probe request on drone launchers",
+      "impact": "השפעה מיידית מחושבת: +3.7",
       "direction": "up",
-      "source": "townhall.com",
-      "signal_id": "d1be2fdcdbf2e0d4"
+      "source": "en.apa.az",
+      "signal_id": "6ff02c13cc366f33"
     },
     {
-      "time": "23:00",
+      "time": "00:45",
       "text": "Saudi Arabia has few options as it faces mounting threats from Iran and its allies",
       "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "vaildaily.com",
+      "source": "chicagotribune.com",
       "signal_id": "5e82ef89b7abe886"
     },
     {
-      "time": "23:30",
-      "text": "Attack on Saudi pipeline blamed on Iran - backed militias in Iraq",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "time": "01:00",
+      "text": "No problems with UAE ; problem with US bases : Iran President Pezeshkian",
+      "impact": "השפעה מיידית מחושבת: +1.1",
       "direction": "up",
-      "source": "wjcl.com",
-      "signal_id": "f2667b602cf1320e"
+      "source": "calcuttanews.net",
+      "signal_id": "c5bb1d534f444690"
     },
     {
-      "time": "23:15",
-      "text": "Attack that closed key Saudi pipeline is blamed on Iran - backed militias in Iraq",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "time": "23:30",
+      "text": "Iranian Regime Reportedly Building Ballistic Missiles Again",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
-      "source": "the-messenger.com",
-      "signal_id": "1aff96288a6d2c44"
+      "source": "townhall.com",
+      "signal_id": "d1be2fdcdbf2e0d4"
     }
   ],
   "signals": [
+    {
+      "id": "6ff02c13cc366f33",
+      "name": "Iraq accepts Iran joint - probe request on drone launchers",
+      "finding": "דיווח על יכולת, פריסה או היערכות צבאית איראנית.",
+      "category": "capability",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6ff02c13cc366f33",
+      "strength": 0.54,
+      "reliability": 0.56,
+      "freshness": 0.623,
+      "max_effect": {
+        "immediate": 34,
+        "short": 48,
+        "extended": 42
+      },
+      "relevance": {
+        "immediate": 0.58,
+        "short": 1.0,
+        "extended": 0.84
+      },
+      "source": "en.apa.az",
+      "url": "https://en.apa.az/asia/iraq-accepts-irans-joint-probe-request-on-drone-launchers-524032",
+      "published_at": "2026-09-12T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 3.7,
+        "short": 9.0,
+        "extended": 6.6
+      }
+    },
+    {
+      "id": "5e82ef89b7abe886",
+      "name": "Saudi Arabia has few options as it faces mounting threats from Iran and its allies",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5e82ef89b7abe886",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.623,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "chicagotribune.com",
+      "url": "https://www.chicagotribune.com/2026/09/12/saudi-arabia-has-few-options/",
+      "published_at": "2026-09-12T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 6.9
+      }
+    },
+    {
+      "id": "c5bb1d534f444690",
+      "name": "No problems with UAE ; problem with US bases : Iran President Pezeshkian",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c5bb1d534f444690",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.669,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "calcuttanews.net",
+      "url": "http://www.calcuttanews.net/news/279303431/no-problems-with-uae-problem-with-us-bases-iran-president-pezeshkian",
+      "published_at": "2026-09-12T22:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
+    },
     {
       "id": "d1be2fdcdbf2e0d4",
       "name": "Iranian Regime Reportedly Building Ballistic Missiles Again",
@@ -83,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d1be2fdcdbf2e0d4",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.73,
+      "freshness": 0.436,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,40 +192,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-12T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.6
-      }
-    },
-    {
-      "id": "5e82ef89b7abe886",
-      "name": "Saudi Arabia has few options as it faces mounting threats from Iran and its allies",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5e82ef89b7abe886",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.633,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "vaildaily.com",
-      "url": "https://www.vaildaily.com/news/nation-world/saudi-arabia-has-few-options-as-it-faces-mounting-threats-from-iran-and-its-allies/",
-      "published_at": "2026-09-12T20:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 7.0
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.2
       }
     },
     {
@@ -145,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f2667b602cf1320e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.73,
+      "freshness": 0.436,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +223,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-12T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
       }
     },
     {
@@ -176,7 +238,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1aff96288a6d2c44",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.68,
+      "freshness": 0.406,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +254,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-12T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
       }
     },
     {
@@ -207,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8001c4ff917f339c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.68,
+      "freshness": 0.406,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-12T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
       }
     },
     {
@@ -238,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6e9e1336027078ee",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.73,
+      "freshness": 0.436,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,164 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-12T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
-      }
-    },
-    {
-      "id": "e619b42f0dcb83c1",
-      "name": "Iran - backed militias in Iraq are accused of attacking Saudi pipeline",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e619b42f0dcb83c1",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.443,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wsbradio.com",
-      "url": "https://www.wsbradio.com/news/world/iraq-races-contain/ASCOSWRKEI77HDB25VP26GEHYM/",
-      "published_at": "2026-09-12T18:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "e07e4cb51d47bd1c",
-      "name": "Iran got Chinese satellite images before deadly strike on US troops : report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e07e4cb51d47bd1c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.475,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thefrontierpost.com",
-      "url": "https://thefrontierpost.com/iran-got-chinese-satellite-images-before-deadly-strike-on-us-troops-report/",
-      "published_at": "2026-09-12T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "be450c569d94b237",
-      "name": "Trump says Iran likely responsible for attack that shut vital Saudi oil pipeline",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "be450c569d94b237",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.384,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "channel3000.com",
-      "url": "https://www.channel3000.com/news/trump-says-iran-likely-responsible-for-attack-that-shut-vital-saudi-oil-pipeline/article_4e0e3c38-e94b-5952-b725-d3001c2fc05a.html",
-      "published_at": "2026-09-12T18:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
-    },
-    {
-      "id": "24fc2784120f2922",
-      "name": "US attacks on Lamerd a clear case of war crime : Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "24fc2784120f2922",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.412,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/09/12/776164/Iran-Baghaei-Lamerd-attacks-US-war-crime",
-      "published_at": "2026-09-12T18:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "93435c974b1fa9cb",
-      "name": "טראמפ : איראן כנראה אחראית למתקפה בסעודיה",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "93435c974b1fa9cb",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.357,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "mako.co.il",
-      "url": "https://www.mako.co.il/special-mako-news/Article-e0ef58d1cf490a1026.htm",
-      "published_at": "2026-09-12T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
+        "short": 2.5,
+        "extended": 4.3
       }
     }
   ],
@@ -5773,17 +5680,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-09-12T23:24:23.699447Z",
+      "immediate": 7,
+      "short": 19,
+      "extended": 23
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-09-12T21:36:06.967278Z",
+    "last_success": "2026-09-12T23:24:23.699447Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 11
+        "relevant": 8
       },
       "manual": {
         "ok": true,
