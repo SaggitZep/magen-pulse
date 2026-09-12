@@ -1,45 +1,265 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-09-12T06:26:21.525799Z",
+  "mode": "live",
+  "generated_at": "2026-09-12T11:12:09.454608Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 4,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 17,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
+      "score": 12,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "high": 25,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 20,
+      "low": 7,
+      "high": 33,
+      "confidence": 66,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "עלייה מתונה",
+    "points_60m": 4
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "13:15",
+      "text": "Saudi Arabia has few options as it faces mounting threats from Iran and its allies",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "postregister.com",
+      "signal_id": "5e82ef89b7abe886"
+    },
+    {
+      "time": "13:15",
+      "text": "Iraq races to contain fallout after local Iran - backed militias accused of attacking Saudi pipeline – Winnipeg Free Press",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "winnipegfreepress.com",
+      "signal_id": "59e3a9cb4dd4d22c"
+    },
+    {
+      "time": "12:15",
+      "text": "US links Chinese satellite imagery to Iranian strike that killed 3 soldiers : Report",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "middleeastmonitor.com",
+      "signal_id": "f98b2eeb785898a0"
+    },
+    {
+      "time": "11:15",
+      "text": "Iraq suspends flights to Iran , closes border crossings after Saudi drone attack",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "iraqinews.com",
+      "signal_id": "82ca00cd203c420d"
+    }
+  ],
+  "signals": [
+    {
+      "id": "5e82ef89b7abe886",
+      "name": "Saudi Arabia has few options as it faces mounting threats from Iran and its allies",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5e82ef89b7abe886",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.762,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "postregister.com",
+      "url": "http://www.postregister.com/businessreport/business/saudi-arabia-has-few-options-as-it-faces-mounting-threats-from-iran-and-its-allies/article_fa24a098-eee8-5c49-b37c-b2f8fe2f89e8.html",
+      "published_at": "2026-09-12T10:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "59e3a9cb4dd4d22c",
+      "name": "Iraq races to contain fallout after local Iran - backed militias accused of attacking Saudi pipeline – Winnipeg Free Press",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "59e3a9cb4dd4d22c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.762,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "winnipegfreepress.com",
+      "url": "https://www.winnipegfreepress.com/world/2026/09/12/iraq-races-to-contain-fallout-after-local-iran-backed-militias-accused-of-attacking-saudi-pipeline",
+      "published_at": "2026-09-12T10:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "f98b2eeb785898a0",
+      "name": "US links Chinese satellite imagery to Iranian strike that killed 3 soldiers : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f98b2eeb785898a0",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.572,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeastmonitor.com",
+      "url": "https://www.middleeastmonitor.com/20260912-us-links-chinese-satellite-imagery-to-iranian-strike-that-killed-3-soldiers-report/",
+      "published_at": "2026-09-12T09:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
+    {
+      "id": "82ca00cd203c420d",
+      "name": "Iraq suspends flights to Iran , closes border crossings after Saudi drone attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "82ca00cd203c420d",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.43,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iraqinews.com",
+      "url": "https://www.iraqinews.com/iraq/iraq-suspends-flights-to-iran-closes-border-crossings-after-saudi-drone-attack/",
+      "published_at": "2026-09-12T08:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "161950c03bcc1d8e",
+      "name": "UAE AI Data Center Project Revamped Amid Rising Iranian Attacks , ETTelecom",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "161950c03bcc1d8e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.462,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "telecom.economictimes.indiatimes.com",
+      "url": "https://telecom.economictimes.indiatimes.com/news/internet/uae-revises-ai-data-center-plan-after-iranian-attacks/134105570",
+      "published_at": "2026-09-12T08:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "a20ccaad50ea845a",
+      "name": "Studentët iranianë kthehen nga Rusia me njohuri mbase vdekjeprurëse rreth dronëve , IA - s dhe më tepër",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a20ccaad50ea845a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.462,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gazetaexpress.com",
+      "url": "https://www.gazetaexpress.com/studentet-iraniane-kthehen-nga-rusia-me-njohuri-mbase-vdekjeprurese-rreth-droneve-ia-s-dhe-me-teper/",
+      "published_at": "2026-09-12T08:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -5368,17 +5588,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-09-12T11:12:09.454608Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-09-12T01:29:20.834005Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-09-12T11:12:09.454608Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
