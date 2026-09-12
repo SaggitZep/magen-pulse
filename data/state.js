@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-09-12T19:29:26.956861Z",
+  "generated_at": "2026-09-12T21:36:06.967278Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -14,19 +14,19 @@ window.MAGEN_STATE = {
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
-      "low": 1,
-      "high": 27,
+      "score": 13,
+      "low": 0,
+      "high": 26,
       "confidence": 66,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 23,
-      "low": 10,
-      "high": 36,
+      "score": 21,
+      "low": 8,
+      "high": 34,
       "confidence": 66,
-      "status": "מוגבר"
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -35,55 +35,55 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
-      "time": "22:00",
-      "text": "Attack on Saudi pipeline blamed on Iran - backed militias in Iraq",
+      "time": "23:30",
+      "text": "Iranian Regime Reportedly Building Ballistic Missiles Again",
       "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "kmbc.com",
+      "source": "townhall.com",
+      "signal_id": "d1be2fdcdbf2e0d4"
+    },
+    {
+      "time": "23:00",
+      "text": "Saudi Arabia has few options as it faces mounting threats from Iran and its allies",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "vaildaily.com",
+      "signal_id": "5e82ef89b7abe886"
+    },
+    {
+      "time": "23:30",
+      "text": "Attack on Saudi pipeline blamed on Iran - backed militias in Iraq",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "wjcl.com",
       "signal_id": "f2667b602cf1320e"
     },
     {
-      "time": "22:00",
+      "time": "23:15",
       "text": "Attack that closed key Saudi pipeline is blamed on Iran - backed militias in Iraq",
-      "impact": "השפעה מיידית מחושבת: +1.5",
-      "direction": "up",
-      "source": "dailyadvance.com",
-      "signal_id": "1aff96288a6d2c44"
-    },
-    {
-      "time": "21:45",
-      "text": "Iran - backed militias in Iraq are accused of attacking Saudi pipeline",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "wsbradio.com",
-      "signal_id": "e619b42f0dcb83c1"
-    },
-    {
-      "time": "20:15",
-      "text": "Saudi pipeline strike reveals reach of Iran Iraqi proxies",
       "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "e63d0663a0112317"
+      "source": "the-messenger.com",
+      "signal_id": "1aff96288a6d2c44"
     }
   ],
   "signals": [
     {
-      "id": "f2667b602cf1320e",
-      "name": "Attack on Saudi pipeline blamed on Iran - backed militias in Iraq",
+      "id": "d1be2fdcdbf2e0d4",
+      "name": "Iranian Regime Reportedly Building Ballistic Missiles Again",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "f2667b602cf1320e",
-      "strength": 0.4,
+      "dependency_group": "d1be2fdcdbf2e0d4",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.869,
+      "freshness": 0.73,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,14 +94,76 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "kmbc.com",
-      "url": "https://www.kmbc.com/article/iraq-iran-militias-attack-key-saudi-pipeline-oil/73698794",
-      "published_at": "2026-09-12T19:00:00Z",
+      "source": "townhall.com",
+      "url": "https://townhall.com/news/jeff-charles/2026/09/12/iranian-regime-reportedly-building-ballistic-missiles-again-n2682853",
+      "published_at": "2026-09-12T20:30:00Z",
       "active": true,
       "computed": {
         "immediate": 1.5,
-        "short": 5.0,
+        "short": 5.1,
         "extended": 8.6
+      }
+    },
+    {
+      "id": "5e82ef89b7abe886",
+      "name": "Saudi Arabia has few options as it faces mounting threats from Iran and its allies",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5e82ef89b7abe886",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.633,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "vaildaily.com",
+      "url": "https://www.vaildaily.com/news/nation-world/saudi-arabia-has-few-options-as-it-faces-mounting-threats-from-iran-and-its-allies/",
+      "published_at": "2026-09-12T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
+    },
+    {
+      "id": "f2667b602cf1320e",
+      "name": "Attack on Saudi pipeline blamed on Iran - backed militias in Iraq",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f2667b602cf1320e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.73,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wjcl.com",
+      "url": "https://www.wjcl.com/article/iraq-iran-militias-attack-key-saudi-pipeline-oil/73698794",
+      "published_at": "2026-09-12T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
       }
     },
     {
@@ -114,7 +176,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1aff96288a6d2c44",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.869,
+      "freshness": 0.68,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,14 +187,76 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "dailyadvance.com",
-      "url": "http://www.dailyadvance.com/news/world/attack-that-closed-key-saudi-pipeline-is-blamed-on-iran-backed-militias-in-iraq/article_0bba9c74-19b1-5734-a29b-5f9ffa1e065f.html",
-      "published_at": "2026-09-12T19:00:00Z",
+      "source": "the-messenger.com",
+      "url": "https://www.the-messenger.com/news/world/article_e0013bf5-6d9c-55b1-a38c-763792cf5d06.html",
+      "published_at": "2026-09-12T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.6
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "8001c4ff917f339c",
+      "name": "U . S . military says 100 ships redirected in past two months of Iran blockade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8001c4ff917f339c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.68,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thehindu.com",
+      "url": "https://www.thehindu.com/news/international/us-military-says-100-ships-redirected-in-past-two-months-of-iran-blockade/article71461351.ece",
+      "published_at": "2026-09-12T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "6e9e1336027078ee",
+      "name": "Trump links Iran war to September 11 attacks as pressure on Tehran deepens",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6e9e1336027078ee",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.73,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jordantimes.com",
+      "url": "https://jordantimes.com/news/world/trump-links-iran-war-to-september-11attacks-as-pressure-on-tehran-deepens",
+      "published_at": "2026-09-12T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
       }
     },
     {
@@ -145,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e619b42f0dcb83c1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.809,
+      "freshness": 0.443,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,22 +285,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-12T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.7,
-        "extended": 8.0
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       }
     },
     {
-      "id": "e63d0663a0112317",
-      "name": "Saudi pipeline strike reveals reach of Iran Iraqi proxies",
+      "id": "e07e4cb51d47bd1c",
+      "name": "Iran got Chinese satellite images before deadly strike on US troops : report",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e63d0663a0112317",
+      "dependency_group": "e07e4cb51d47bd1c",
       "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.527,
+      "reliability": 0.56,
+      "freshness": 0.475,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -187,14 +311,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "jpost.com",
-      "url": "http://www.jpost.com/middle-east/article-908422",
-      "published_at": "2026-09-12T17:15:00Z",
+      "source": "thefrontierpost.com",
+      "url": "https://thefrontierpost.com/iran-got-chinese-satellite-images-before-deadly-strike-on-us-troops-report/",
+      "published_at": "2026-09-12T19:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.9
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
       }
     },
     {
@@ -207,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "be450c569d94b237",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.702,
+      "freshness": 0.384,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,84 +347,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-12T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
       }
     },
     {
-      "id": "7e4761aa880e3ba6",
-      "name": "Chinese sources gave satelite imagery to Iran for strikes on US bases",
+      "id": "24fc2784120f2922",
+      "name": "US attacks on Lamerd a clear case of war crime : Iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "7e4761aa880e3ba6",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.425,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/international/article-908417",
-      "published_at": "2026-09-12T16:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "b152d9797bf1bff7",
-      "name": "Iran strikes U . S . spy drone in Strait of Hormuz , escalating maritime crisis – NaturalNews . com",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b152d9797bf1bff7",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.369,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-09-12-iran-strikes-us-spy-drone-strait-of-hormuz.html",
-      "published_at": "2026-09-12T16:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "ec0cd26567b19a9d",
-      "name": "Saudi pipeline attack update : East - west Saudi oil pipeline attack is blamed on Iran - backed militias in Iraq",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ec0cd26567b19a9d",
+      "dependency_group": "24fc2784120f2922",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.491,
+      "freshness": 0.412,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -311,151 +373,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "abc7.com",
-      "url": "https://abc7.com/post/saudi-pipeline-attack-iraq-races-contain-fallout-iran-backed-militias-accused-attacking-east-west-oil/19823178/",
-      "published_at": "2026-09-12T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
-    },
-    {
-      "id": "f45aab273b65e768",
-      "name": "Pezeshkian rejects US nuclear charge , says  enrichment  was an alibi to attack Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f45aab273b65e768",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.457,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "businesstoday.in",
-      "url": "https://www.businesstoday.in/world/story/pezeshkian-rejects-us-nuclear-charge-says-enrichment-was-an-alibi-to-attack-iran-555200-2026-09-12",
-      "published_at": "2026-09-12T16:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
-    },
-    {
-      "id": "97cc171c34f7c1bc",
-      "name": "Al - Tayyib border area between Iraq and Iran has been closed after drones attacked Saudi pipeline – Ya Libnan",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "97cc171c34f7c1bc",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.396,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yalibnan.com",
-      "url": "https://yalibnan.com/2026/09/12/al-tayyib-border-area-between-iraq-and-iran-has-been-closed-after-drones-attacked-saudi-pipeline/",
-      "published_at": "2026-09-12T16:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "1458cf25f85fd0df",
-      "name": "Iran got Chinese images of US base , 3 American soldiers were killed",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1458cf25f85fd0df",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.491,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "albawaba.net",
-      "url": "https://www.albawaba.net/news/iran-got-chinese-images-us-base-3-1636918",
-      "published_at": "2026-09-12T17:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
-      }
-    },
-    {
-      "id": "f29b93b1cd2bfd57",
-      "name": "Saudi pipeline attack : Iraq races to contain fallout after Iran - backed militias accused of attacking east - west Saudi oil pipeline",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f29b93b1cd2bfd57",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.396,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "abc13.com",
-      "url": "https://abc13.com/post/saudi-pipeline-attack-iraq-races-contain-fallout-iran-backed-militias-accused-attacking-east-west-oil/19823178/",
-      "published_at": "2026-09-12T16:15:00Z",
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/09/12/776164/Iran-Baghaei-Lamerd-attacks-US-war-crime",
+      "published_at": "2026-09-12T18:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
+        "short": 2.4,
+        "extended": 4.1
       }
     },
     {
-      "id": "9f60df060f8b2df8",
-      "name": "WSJ : Iran received Chinese satellite images before deadly strike on US troops",
+      "id": "93435c974b1fa9cb",
+      "name": "טראמפ : איראן כנראה אחראית למתקפה בסעודיה",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "9f60df060f8b2df8",
+      "dependency_group": "93435c974b1fa9cb",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.369,
+      "freshness": 0.357,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -466,45 +404,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "freemalaysiatoday.com",
-      "url": "https://www.freemalaysiatoday.com/category/world/2026/09/12/wsj-iran-received-chinese-satellite-images-before-deadly-strike-on-us-troops",
-      "published_at": "2026-09-12T16:00:00Z",
+      "source": "mako.co.il",
+      "url": "https://www.mako.co.il/special-mako-news/Article-e0ef58d1cf490a1026.htm",
+      "published_at": "2026-09-12T18:00:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
         "short": 2.1,
-        "extended": 3.6
-      }
-    },
-    {
-      "id": "29b2c4df8cccb7b4",
-      "name": "Arab News | Iran got Chinese satellite images before deadly strike on US troops : report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "29b2c4df8cccb7b4",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.32,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabnews.com",
-      "url": "https://www.arabnews.com/world/iran-got-chinese-satellite-images-before-deadly-strike-on-us-troops-report-3001481",
-      "published_at": "2026-09-12T15:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
+        "extended": 3.5
       }
     }
   ],
@@ -5860,17 +5767,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 14,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-09-12T21:36:06.967278Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 21
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-09-12T19:29:26.956861Z",
+    "last_success": "2026-09-12T21:36:06.967278Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 14
+        "relevant": 11
       },
       "manual": {
         "ok": true,
