@@ -1,125 +1,45 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-09-13T06:32:25.261417Z",
+  "mode": "degraded",
+  "generated_at": "2026-09-13T12:16:11.620115Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 0,
       "low": 0,
-      "high": 17,
-      "confidence": 56,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 0,
       "low": 0,
-      "high": 23,
-      "confidence": 56,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 13,
+      "score": 0,
       "low": 0,
-      "high": 28,
-      "confidence": 56,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
     "points_60m": -2
   },
-  "changes": [
-    {
-      "time": "09:00",
-      "text": "Iran used Chinese information to attack US target : WSJ | New Spotlight Magazine",
-      "impact": "השפעה מיידית מחושבת: +1.5",
-      "direction": "up",
-      "source": "spotlightnepal.com",
-      "signal_id": "9cb7d43d8a552ff4"
-    },
-    {
-      "time": "07:15",
-      "text": "Iran Says Oman Hormuz Route Deal Comes Monday as Bahrain Base Damaged",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "hngn.com",
-      "signal_id": "15099bf545882986"
-    }
-  ],
-  "signals": [
-    {
-      "id": "9cb7d43d8a552ff4",
-      "name": "Iran used Chinese information to attack US target : WSJ | New Spotlight Magazine",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9cb7d43d8a552ff4",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.857,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "spotlightnepal.com",
-      "url": "https://www.spotlightnepal.com/2026/09/13/iran-used-chinese-information-attack-us-target-wsj/",
-      "published_at": "2026-09-13T06:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.4
-      }
-    },
-    {
-      "id": "15099bf545882986",
-      "name": "Iran Says Oman Hormuz Route Deal Comes Monday as Bahrain Base Damaged",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "15099bf545882986",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.52,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hngn.com",
-      "url": "https://www.hngn.com/articles/273170/20260912/oil-tops-100-iran-widens-hormuz-zone-iaea-refers-tehran-un.htm",
-      "published_at": "2026-09-13T04:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -5496,17 +5416,23 @@
       "immediate": 2,
       "short": 8,
       "extended": 13
+    },
+    {
+      "timestamp": "2026-09-13T12:16:11.620115Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-09-13T06:32:25.261417Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 2
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
