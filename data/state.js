@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-09-13T12:16:11.620115Z",
+  "generated_at": "2026-09-13T16:30:09.016062Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -35,8 +35,8 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [],
   "signals": [],
@@ -5419,6 +5419,12 @@ window.MAGEN_STATE = {
     },
     {
       "timestamp": "2026-09-13T12:16:11.620115Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
+    },
+    {
+      "timestamp": "2026-09-13T16:30:09.016062Z",
       "immediate": 0,
       "short": 0,
       "extended": 0
