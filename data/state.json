@@ -1,153 +1,73 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-09-13T01:22:46.157677Z",
+  "mode": "live",
+  "generated_at": "2026-09-13T06:32:25.261417Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 2,
       "low": 0,
-      "high": 21,
-      "confidence": 46,
+      "high": 17,
+      "confidence": 56,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 8,
       "low": 0,
-      "high": 28,
-      "confidence": 46,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 56,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 14,
+      "score": 13,
       "low": 0,
-      "high": 31,
-      "confidence": 46,
+      "high": 28,
+      "confidence": 56,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -3
+    "points_60m": -2
   },
   "changes": [
     {
-      "time": "00:45",
-      "text": "Iraq accepts Iran joint - probe request on drone launchers",
-      "impact": "השפעה מיידית מחושבת: +2.1",
+      "time": "09:00",
+      "text": "Iran used Chinese information to attack US target : WSJ | New Spotlight Magazine",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "en.apa.az",
-      "signal_id": "6ff02c13cc366f33"
+      "source": "spotlightnepal.com",
+      "signal_id": "9cb7d43d8a552ff4"
     },
     {
-      "time": "00:45",
-      "text": "Saudi Arabia has few options as it faces mounting threats from Iran and its allies",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "07:15",
+      "text": "Iran Says Oman Hormuz Route Deal Comes Monday as Bahrain Base Damaged",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
-      "source": "chicagotribune.com",
-      "signal_id": "5e82ef89b7abe886"
-    },
-    {
-      "time": "01:00",
-      "text": "No problems with UAE ; problem with US bases : Iran President Pezeshkian",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "calcuttanews.net",
-      "signal_id": "c5bb1d534f444690"
-    },
-    {
-      "time": "23:30",
-      "text": "Iranian Regime Reportedly Building Ballistic Missiles Again",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "townhall.com",
-      "signal_id": "d1be2fdcdbf2e0d4"
+      "source": "hngn.com",
+      "signal_id": "15099bf545882986"
     }
   ],
   "signals": [
     {
-      "id": "6ff02c13cc366f33",
-      "name": "Iraq accepts Iran joint - probe request on drone launchers",
-      "finding": "דיווח על יכולת, פריסה או היערכות צבאית איראנית.",
-      "category": "capability",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6ff02c13cc366f33",
-      "strength": 0.54,
-      "reliability": 0.56,
-      "freshness": 0.355,
-      "max_effect": {
-        "immediate": 34,
-        "short": 48,
-        "extended": 42
-      },
-      "relevance": {
-        "immediate": 0.58,
-        "short": 1.0,
-        "extended": 0.84
-      },
-      "source": "en.apa.az",
-      "url": "https://en.apa.az/asia/iraq-accepts-irans-joint-probe-request-on-drone-launchers-524032",
-      "published_at": "2026-09-12T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 2.1,
-        "short": 5.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "5e82ef89b7abe886",
-      "name": "Saudi Arabia has few options as it faces mounting threats from Iran and its allies",
+      "id": "9cb7d43d8a552ff4",
+      "name": "Iran used Chinese information to attack US target : WSJ | New Spotlight Magazine",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "5e82ef89b7abe886",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.355,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "chicagotribune.com",
-      "url": "https://www.chicagotribune.com/2026/09/12/saudi-arabia-has-few-options/",
-      "published_at": "2026-09-12T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "c5bb1d534f444690",
-      "name": "No problems with UAE ; problem with US bases : Iran President Pezeshkian",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c5bb1d534f444690",
+      "dependency_group": "9cb7d43d8a552ff4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.381,
+      "freshness": 0.857,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,60 +78,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "calcuttanews.net",
-      "url": "http://www.calcuttanews.net/news/279303431/no-problems-with-uae-problem-with-us-bases-iran-president-pezeshkian",
-      "published_at": "2026-09-12T22:00:00Z",
+      "source": "spotlightnepal.com",
+      "url": "https://www.spotlightnepal.com/2026/09/13/iran-used-chinese-information-attack-us-target-wsj/",
+      "published_at": "2026-09-13T06:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.8
-      },
-      "carried_forward": true
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.4
+      }
     },
     {
-      "id": "d1be2fdcdbf2e0d4",
-      "name": "Iranian Regime Reportedly Building Ballistic Missiles Again",
+      "id": "15099bf545882986",
+      "name": "Iran Says Oman Hormuz Route Deal Comes Monday as Bahrain Base Damaged",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "d1be2fdcdbf2e0d4",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.248,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "townhall.com",
-      "url": "https://townhall.com/news/jeff-charles/2026/09/12/iranian-regime-reportedly-building-ballistic-missiles-again-n2682853",
-      "published_at": "2026-09-12T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f2667b602cf1320e",
-      "name": "Attack on Saudi pipeline blamed on Iran - backed militias in Iraq",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f2667b602cf1320e",
+      "dependency_group": "15099bf545882986",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.248,
+      "freshness": 0.52,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -222,112 +109,15 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "wjcl.com",
-      "url": "https://www.wjcl.com/article/iraq-iran-militias-attack-key-saudi-pipeline-oil/73698794",
-      "published_at": "2026-09-12T20:30:00Z",
+      "source": "hngn.com",
+      "url": "https://www.hngn.com/articles/273170/20260912/oil-tops-100-iran-widens-hormuz-zone-iaea-refers-tehran-un.htm",
+      "published_at": "2026-09-13T04:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1aff96288a6d2c44",
-      "name": "Attack that closed key Saudi pipeline is blamed on Iran - backed militias in Iraq",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1aff96288a6d2c44",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.231,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "the-messenger.com",
-      "url": "https://www.the-messenger.com/news/world/article_e0013bf5-6d9c-55b1-a38c-763792cf5d06.html",
-      "published_at": "2026-09-12T20:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8001c4ff917f339c",
-      "name": "U . S . military says 100 ships redirected in past two months of Iran blockade",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8001c4ff917f339c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.231,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thehindu.com",
-      "url": "https://www.thehindu.com/news/international/us-military-says-100-ships-redirected-in-past-two-months-of-iran-blockade/article71461351.ece",
-      "published_at": "2026-09-12T20:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6e9e1336027078ee",
-      "name": "Trump links Iran war to September 11 attacks as pressure on Tehran deepens",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6e9e1336027078ee",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.248,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jordantimes.com",
-      "url": "https://jordantimes.com/news/world/trump-links-iran-war-to-september-11attacks-as-pressure-on-tehran-deepens",
-      "published_at": "2026-09-12T20:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
     }
   ],
   "history": [
@@ -5700,17 +5490,23 @@
       "immediate": 4,
       "short": 11,
       "extended": 14
+    },
+    {
+      "timestamp": "2026-09-13T06:32:25.261417Z",
+      "immediate": 2,
+      "short": 8,
+      "extended": 13
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-09-12T23:24:23.699447Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-09-13T06:32:25.261417Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "ok": true,
+        "items": 150,
+        "relevant": 2
       },
       "manual": {
         "ok": true,
