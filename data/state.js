@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-09-12T23:24:23.699447Z",
+  "mode": "degraded",
+  "generated_at": "2026-09-13T01:22:46.157677Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 7,
+      "score": 4,
       "low": 0,
-      "high": 20,
-      "confidence": 65,
+      "high": 21,
+      "confidence": 46,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 19,
-      "low": 6,
-      "high": 32,
-      "confidence": 65,
+      "score": 11,
+      "low": 0,
+      "high": 28,
+      "confidence": 46,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 23,
-      "low": 10,
-      "high": 36,
-      "confidence": 65,
-      "status": "מוגבר"
+      "score": 14,
+      "low": 0,
+      "high": 31,
+      "confidence": 46,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 3
+    "level": "ירידה",
+    "points_60m": -3
   },
   "changes": [
     {
       "time": "00:45",
       "text": "Iraq accepts Iran joint - probe request on drone launchers",
-      "impact": "השפעה מיידית מחושבת: +3.7",
+      "impact": "השפעה מיידית מחושבת: +2.1",
       "direction": "up",
       "source": "en.apa.az",
       "signal_id": "6ff02c13cc366f33"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "00:45",
       "text": "Saudi Arabia has few options as it faces mounting threats from Iran and its allies",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "chicagotribune.com",
       "signal_id": "5e82ef89b7abe886"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "01:00",
       "text": "No problems with UAE ; problem with US bases : Iran President Pezeshkian",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
       "source": "calcuttanews.net",
       "signal_id": "c5bb1d534f444690"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "23:30",
       "text": "Iranian Regime Reportedly Building Ballistic Missiles Again",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "townhall.com",
       "signal_id": "d1be2fdcdbf2e0d4"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6ff02c13cc366f33",
       "strength": 0.54,
       "reliability": 0.56,
-      "freshness": 0.623,
+      "freshness": 0.355,
       "max_effect": {
         "immediate": 34,
         "short": 48,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-12T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 3.7,
-        "short": 9.0,
-        "extended": 6.6
-      }
+        "immediate": 2.1,
+        "short": 5.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "5e82ef89b7abe886",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5e82ef89b7abe886",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.623,
+      "freshness": 0.355,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-12T21:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
-      }
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      },
+      "carried_forward": true
     },
     {
       "id": "c5bb1d534f444690",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c5bb1d534f444690",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.669,
+      "freshness": 0.381,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-12T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.9,
-        "extended": 6.6
-      }
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.8
+      },
+      "carried_forward": true
     },
     {
       "id": "d1be2fdcdbf2e0d4",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d1be2fdcdbf2e0d4",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.436,
+      "freshness": 0.248,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-12T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.2
-      }
+        "immediate": 0.5,
+        "short": 1.7,
+        "extended": 2.9
+      },
+      "carried_forward": true
     },
     {
       "id": "f2667b602cf1320e",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "f2667b602cf1320e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.436,
+      "freshness": 0.248,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-12T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
+      },
+      "carried_forward": true
     },
     {
       "id": "1aff96288a6d2c44",
@@ -238,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1aff96288a6d2c44",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.406,
+      "freshness": 0.231,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-12T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.3
+      },
+      "carried_forward": true
     },
     {
       "id": "8001c4ff917f339c",
@@ -269,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8001c4ff917f339c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.406,
+      "freshness": 0.231,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +291,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-12T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.3
+      },
+      "carried_forward": true
     },
     {
       "id": "6e9e1336027078ee",
@@ -300,7 +307,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6e9e1336027078ee",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.436,
+      "freshness": 0.248,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,10 +323,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-12T20:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
+        "immediate": 0.4,
+        "short": 1.4,
+        "extended": 2.4
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -5686,17 +5694,23 @@ window.MAGEN_STATE = {
       "immediate": 7,
       "short": 19,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-09-13T01:22:46.157677Z",
+      "immediate": 4,
+      "short": 11,
+      "extended": 14
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-09-12T23:24:23.699447Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 8
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 8
       },
       "manual": {
         "ok": true,
