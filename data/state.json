@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-09-14T13:58:31.494118Z",
+  "generated_at": "2026-09-14T19:16:11.819653Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -5461,6 +5461,12 @@
     },
     {
       "timestamp": "2026-09-14T13:58:31.494118Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
+    },
+    {
+      "timestamp": "2026-09-14T19:16:11.819653Z",
       "immediate": 0,
       "short": 0,
       "extended": 0
