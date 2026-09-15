@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-09-14T22:36:09.755309Z",
+  "generated_at": "2026-09-15T00:56:15.771103Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -5476,12 +5476,18 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-09-15T00:56:15.771103Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-09-14T22:36:09.755309Z",
+    "last_success": "2026-09-15T00:56:15.771103Z",
     "sources": {
       "gdelt": {
         "ok": true,
