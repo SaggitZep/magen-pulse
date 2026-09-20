@@ -1,45 +1,164 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-09-20T21:28:22.184535Z",
+  "mode": "live",
+  "generated_at": "2026-09-20T23:27:25.948595Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 3,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 18,
+      "confidence": 58,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
+      "score": 10,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "high": 25,
+      "confidence": 58,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 17,
+      "low": 2,
+      "high": 32,
+      "confidence": 58,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 3
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "02:00",
+      "text": "Iran sets terms for US talks as Houthis step up attacks on Saudi Arabia | Hellenic Shipping News Worldwide",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "hellenicshippingnews.com",
+      "signal_id": "db50615fa277c5cf"
+    },
+    {
+      "time": "00:00",
+      "text": "Iran warns US and its allies against new attack , threatens retaliation",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "timesofindia.indiatimes.com",
+      "signal_id": "a74e2cc0490795da"
+    },
+    {
+      "time": "22:45",
+      "text": "Iran Warns US Ships in Indian Ocean Will Be Attacked if War Resumes",
+      "impact": "השפעה מיידית מחושבת: +0.7",
+      "direction": "up",
+      "source": "khaama.com",
+      "signal_id": "9372fbf68638c176"
+    }
+  ],
+  "signals": [
+    {
+      "id": "db50615fa277c5cf",
+      "name": "Iran sets terms for US talks as Houthis step up attacks on Saudi Arabia | Hellenic Shipping News Worldwide",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "db50615fa277c5cf",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.878,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hellenicshippingnews.com",
+      "url": "https://www.hellenicshippingnews.com/iran-sets-terms-for-us-talks-as-houthis-step-up-attacks-on-saudi-arabia/",
+      "published_at": "2026-09-20T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "a74e2cc0490795da",
+      "name": "Iran warns US and its allies against new attack , threatens retaliation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a74e2cc0490795da",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.496,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-warns-us-allies-against-new-attack-threatens-retaliation/articleshow/134374995.cms",
+      "published_at": "2026-09-20T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "9372fbf68638c176",
+      "name": "Iran Warns US Ships in Indian Ocean Will Be Attacked if War Resumes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9372fbf68638c176",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.347,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "khaama.com",
+      "url": "https://www.khaama.com/iran-warns-us-ships-in-indian-ocean-will-be-attacked-if-war-resumes/",
+      "published_at": "2026-09-20T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -5716,17 +5835,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-09-20T23:27:25.948595Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-09-19T21:47:14.791458Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-09-20T23:27:25.948595Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 3
       },
       "manual": {
         "ok": true,
