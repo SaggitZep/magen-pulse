@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-09-21T01:33:03.944568Z",
+  "generated_at": "2026-09-21T07:07:41.910324Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 5,
       "low": 0,
-      "high": 18,
-      "confidence": 47,
+      "high": 17,
+      "confidence": 70,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
-      "low": 0,
-      "high": 21,
-      "confidence": 47,
-      "status": "לא זוהה אות חריג"
+      "score": 15,
+      "low": 3,
+      "high": 27,
+      "confidence": 70,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 6,
-      "low": 0,
-      "high": 23,
-      "confidence": 47,
-      "status": "לא זוהה אות חריג"
+      "score": 24,
+      "low": 12,
+      "high": 36,
+      "confidence": 70,
+      "status": "מוגבר"
     }
   },
   "coverage": {
@@ -35,39 +35,55 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "עלייה מתונה",
+    "points_60m": 4
   },
   "changes": [
     {
-      "time": "02:00",
-      "text": "Iran sets terms for US talks as Houthis step up attacks on Saudi Arabia | Hellenic Shipping News Worldwide",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "09:30",
+      "text": "Iran and US trade threats after Houthi attacks escalate regional conflict | Ariana News",
+      "impact": "השפעה מיידית מחושבת: +1.6",
       "direction": "up",
-      "source": "hellenicshippingnews.com",
-      "signal_id": "db50615fa277c5cf"
+      "source": "ariananews.af",
+      "signal_id": "16df18bc0ad76e82"
     },
     {
-      "time": "02:00",
-      "text": "77 Ships Blacklisted , None Deterred : Inside Iran Failing Hormuz Toll Regime | Hellenic Shipping News Worldwide",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "time": "09:15",
+      "text": "Trump , Iran trade threats as conflict drags on with no end in sight",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "hellenicshippingnews.com",
-      "signal_id": "a781b882814e488b"
+      "source": "middle-east-online.com",
+      "signal_id": "01ab3d24e9fc1f07"
+    },
+    {
+      "time": "09:15",
+      "text": "Iran warns US , regional countries of  painful  strikes if they make any mistake",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "mid-day.com",
+      "signal_id": "f8cfca0744efc8da"
+    },
+    {
+      "time": "09:00",
+      "text": "IRGC says it downed another US MQ - 1 drone over Hormuz Strait",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "middleeasteye.net",
+      "signal_id": "a9164582d4fd530f"
     }
   ],
   "signals": [
     {
-      "id": "db50615fa277c5cf",
-      "name": "Iran sets terms for US talks as Houthis step up attacks on Saudi Arabia | Hellenic Shipping News Worldwide",
+      "id": "16df18bc0ad76e82",
+      "name": "Iran and US trade threats after Houthi attacks escalate regional conflict | Ariana News",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "db50615fa277c5cf",
-      "strength": 0.4,
+      "dependency_group": "16df18bc0ad76e82",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.482,
+      "freshness": 0.836,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -78,27 +94,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "hellenicshippingnews.com",
-      "url": "https://www.hellenicshippingnews.com/iran-sets-terms-for-us-talks-as-houthis-step-up-attacks-on-saudi-arabia/",
-      "published_at": "2026-09-20T23:00:00Z",
+      "source": "ariananews.af",
+      "url": "https://www.ariananews.af/iran-and-us-trade-threats-after-houthi-attacks-escalate-regional-conflict/",
+      "published_at": "2026-09-21T06:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.3
       }
     },
     {
-      "id": "a781b882814e488b",
-      "name": "77 Ships Blacklisted , None Deterred : Inside Iran Failing Hormuz Toll Regime | Hellenic Shipping News Worldwide",
+      "id": "01ab3d24e9fc1f07",
+      "name": "Trump , Iran trade threats as conflict drags on with no end in sight",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a781b882814e488b",
-      "strength": 0.4,
+      "dependency_group": "01ab3d24e9fc1f07",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.482,
+      "freshness": 0.778,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -109,14 +125,262 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "hellenicshippingnews.com",
-      "url": "https://www.hellenicshippingnews.com/77-ships-blacklisted-none-deterred-inside-irans-failing-hormuz-toll-regime/",
-      "published_at": "2026-09-20T23:00:00Z",
+      "source": "middle-east-online.com",
+      "url": "https://www.middle-east-online.com/en/trump-iran-trade-threats-conflict-drags-no-end-sight",
+      "published_at": "2026-09-21T06:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "f8cfca0744efc8da",
+      "name": "Iran warns US , regional countries of  painful  strikes if they make any mistake",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f8cfca0744efc8da",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.778,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "mid-day.com",
+      "url": "https://www.mid-day.com/news/world-news/article/iran-warns-us-regional-countries-of-painful-strikes-if-they-support-military-action-against-tehran-23651041",
+      "published_at": "2026-09-21T06:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "a9164582d4fd530f",
+      "name": "IRGC says it downed another US MQ - 1 drone over Hormuz Strait",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a9164582d4fd530f",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.724,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeasteye.net",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-downed-destroyed-another-us-mq-1-drone-over-hormuz-strait",
+      "published_at": "2026-09-21T06:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "3b5d48d908f94858",
+      "name": "Trump threatens  blowing up  all of Iran , whilst Houthis target a Saudi oil facility ; crude prices initially firmer , but have since fallen - Newsquawk EU Market Open",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3b5d48d908f94858",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.778,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "zerohedge.com",
+      "url": "https://www.zerohedge.com/markets/trump-threatens-blowing-all-iran-whilst-houthis-target-saudi-oil-facility-crude-prices",
+      "published_at": "2026-09-21T06:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "30e531896fbe1134",
+      "name": "Iran , US trade threats after Houthi attacks escalate regional conflict - Middle East and Africa",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "30e531896fbe1134",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.724,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thejakartapost.com",
+      "url": "http://www.thejakartapost.com/world/2026/09/21/iran-us-trade-threats-after-houthi-attacks-escalate-regional-conflict",
+      "published_at": "2026-09-21T06:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.0
+      }
+    },
+    {
+      "id": "7311f9871ff86e99",
+      "name": "The Peril of Trump Final Act : Would He Use a Tactical Nuclear Weapon in Iran ? « nuclear - news",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7311f9871ff86e99",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.836,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nuclear-news.net",
+      "url": "https://nuclear-news.net/2026/09/21/5-a-the-peril-of-trumps-final-act-would-he-use-a-tactical-nuclear-weapon-in-iran/",
+      "published_at": "2026-09-21T06:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "ed0378f79a83833b",
+      "name": "Iran war cost grows to $43 . 6 billion in new US military estimate",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ed0378f79a83833b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.836,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "texarkanagazette.com",
+      "url": "https://www.texarkanagazette.com/news/2026/sep/20/iran-wars-cost-grows-to-436-billion-in-new-us/",
+      "published_at": "2026-09-21T06:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "15401c24d9e5ba67",
+      "name": "Trump threatens to wipe out Iran as Tehran warns of  painful  response",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "15401c24d9e5ba67",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.544,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/09/21/us-iran-war-trump-hormuz.html",
+      "published_at": "2026-09-21T05:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.5,
+        "extended": 6.0
+      }
+    },
+    {
+      "id": "487adc6717355c61",
+      "name": "सहयोगी देशों को भी मानेंगे युद्ध का हिस्सा , रहम नहीं करेंगे ; ईरान की अमेरिका को खुली धमकी - iran warns us painful response to any new military action",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "487adc6717355c61",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.409,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jagran.com",
+      "url": "https://www.jagran.com/world/middle-east-iran-warns-us-painful-response-to-any-new-military-action-40379875.html",
+      "published_at": "2026-09-21T04:00:00Z",
       "active": true,
       "computed": {
         "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "short": 2.7,
+        "extended": 4.5
       }
     }
   ],
@@ -5808,17 +6072,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 6
+    },
+    {
+      "timestamp": "2026-09-21T07:07:41.910324Z",
+      "immediate": 5,
+      "short": 15,
+      "extended": 24
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-09-21T01:33:03.944568Z",
+    "last_success": "2026-09-21T07:07:41.910324Z",
     "sources": {
       "gdelt": {
         "ok": true,
-        "items": 98,
-        "relevant": 2
+        "items": 150,
+        "relevant": 10
       },
       "manual": {
         "ok": true,
