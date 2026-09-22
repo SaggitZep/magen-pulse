@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-09-21T22:48:10.042741Z",
+  "generated_at": "2026-09-22T01:19:20.590210Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -5752,6 +5752,12 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-09-22T01:19:20.590210Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
@@ -5761,7 +5767,7 @@ window.MAGEN_STATE = {
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
+        "error": "Invalid \\escape: line 1 column 33716 (char 33715)",
         "carried_forward": 0
       },
       "manual": {
