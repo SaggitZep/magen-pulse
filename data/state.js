@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-09-22T12:00:34.480031Z",
+  "mode": "degraded",
+  "generated_at": "2026-09-22T16:51:14.873481Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 0,
       "low": 0,
-      "high": 16,
-      "confidence": 54,
+      "high": 20,
+      "confidence": 26,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
+      "score": 1,
       "low": 0,
-      "high": 19,
-      "confidence": 54,
+      "high": 21,
+      "confidence": 26,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 7,
+      "score": 2,
       "low": 0,
       "high": 22,
-      "confidence": 54,
+      "confidence": 26,
       "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -3
+    "level": "יציב",
+    "points_60m": -1
   },
   "changes": [
     {
       "time": "14:00",
       "text": "G7 strongly condemns Houthi strikes on Saudi , calls on Iran to end support",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "bignewsnetwork.com",
       "signal_id": "34f25a5176cb4fdf"
@@ -59,7 +59,7 @@ window.MAGEN_STATE = {
       "dependency_group": "34f25a5176cb4fdf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.749,
+      "freshness": 0.188,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -75,10 +75,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-22T11:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.4
-      }
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.9
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -5811,17 +5812,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 7
+    },
+    {
+      "timestamp": "2026-09-22T16:51:14.873481Z",
+      "immediate": 0,
+      "short": 1,
+      "extended": 2
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-09-22T12:00:34.480031Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 1
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 1
       },
       "manual": {
         "ok": true,
