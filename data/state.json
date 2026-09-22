@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-09-22T06:25:02.648699Z",
+  "generated_at": "2026-09-22T12:00:34.480031Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 1,
       "low": 0,
-      "high": 18,
-      "confidence": 63,
+      "high": 16,
+      "confidence": 54,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
+      "score": 4,
       "low": 0,
-      "high": 27,
-      "confidence": 63,
-      "status": "נמוך"
+      "high": 19,
+      "confidence": 54,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 8,
-      "high": 36,
-      "confidence": 63,
-      "status": "נמוך"
+      "score": 7,
+      "low": 0,
+      "high": 22,
+      "confidence": 54,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -35,47 +35,31 @@
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 4
+    "level": "ירידה",
+    "points_60m": -3
   },
   "changes": [
     {
-      "time": "08:45",
-      "text": "Iran … Trump War …. 9 / 21 / 2026 ….. Houthi ….. Brits to help Saudi Military ….",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "politicaldog101.com",
-      "signal_id": "70de8fb6afcfb675"
-    },
-    {
-      "time": "08:45",
-      "text": "Bloomberg : US - Iran War tops $7 . 1 billion , Guam - based submarines pulled away",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "guampdn.com",
-      "signal_id": "36956f38776b8832"
-    },
-    {
-      "time": "08:00",
-      "text": "All Iranian airlines will be shut down around the world : US threatens secondary sanctions against foreign airports , fuel suppliers",
+      "time": "14:00",
+      "text": "G7 strongly condemns Houthi strikes on Saudi , calls on Iran to end support",
       "impact": "השפעה מיידית מחושבת: +1.3",
       "direction": "up",
-      "source": "aninews.in",
-      "signal_id": "ba09d4b8802aaf3e"
+      "source": "bignewsnetwork.com",
+      "signal_id": "34f25a5176cb4fdf"
     }
   ],
   "signals": [
     {
-      "id": "70de8fb6afcfb675",
-      "name": "Iran … Trump War …. 9 / 21 / 2026 ….. Houthi ….. Brits to help Saudi Military ….",
+      "id": "34f25a5176cb4fdf",
+      "name": "G7 strongly condemns Houthi strikes on Saudi , calls on Iran to end support",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "70de8fb6afcfb675",
+      "dependency_group": "34f25a5176cb4fdf",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.826,
+      "freshness": 0.749,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -86,71 +70,9 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "politicaldog101.com",
-      "url": "https://politicaldog101.com/2026/09/iran-trump-war-9-21-2026-houthis-brits-to-help-saudi-military/",
-      "published_at": "2026-09-22T05:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.1
-      }
-    },
-    {
-      "id": "36956f38776b8832",
-      "name": "Bloomberg : US - Iran War tops $7 . 1 billion , Guam - based submarines pulled away",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "36956f38776b8832",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.826,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "guampdn.com",
-      "url": "https://www.guampdn.com/news/bloomberg-us-iran-war-tops-7-1-billion-guam-based-submarines-pulled-away/article_b5f6500f-80a1-45a0-bd5f-92b2e81ea20f.html",
-      "published_at": "2026-09-22T05:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.1
-      }
-    },
-    {
-      "id": "ba09d4b8802aaf3e",
-      "name": "All Iranian airlines will be shut down around the world : US threatens secondary sanctions against foreign airports , fuel suppliers",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ba09d4b8802aaf3e",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.667,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aninews.in",
-      "url": "https://aninews.in/news/world/us/all-iranian-airlines-will-be-shut-down-around-the-world-us-threatens-secondary-sanctions-against-foreign-airports-fuel-suppliers20260922060847/",
-      "published_at": "2026-09-22T05:00:00Z",
+      "source": "bignewsnetwork.com",
+      "url": "http://www.bignewsnetwork.com/news/279323060/g7-strongly-condemns-houthi-strikes-on-saudi-calls-on-iran-to-end-support",
+      "published_at": "2026-09-22T11:00:00Z",
       "active": true,
       "computed": {
         "immediate": 1.3,
@@ -5883,17 +5805,23 @@
       "immediate": 4,
       "short": 13,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-09-22T12:00:34.480031Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 7
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-09-22T06:25:02.648699Z",
+    "last_success": "2026-09-22T12:00:34.480031Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 3
+        "relevant": 1
       },
       "manual": {
         "ok": true,
