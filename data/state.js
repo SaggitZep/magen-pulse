@@ -1,45 +1,234 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-09-23T20:32:48.461507Z",
+  "mode": "live",
+  "generated_at": "2026-09-23T23:07:09.259583Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 13,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "high": 27,
+      "confidence": 61,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 17,
+      "low": 3,
+      "high": 31,
+      "confidence": 61,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 19,
+      "low": 5,
+      "high": 33,
+      "confidence": 62,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מהירה",
+    "points_60m": 13
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "23:15",
+      "text": "In UN Speech , Iran President Displays Pictures of Children Killed by US , Brings Attention to Israel Nuclear Arsenal",
+      "impact": "השפעה מיידית מחושבת: +10.9",
+      "direction": "up",
+      "source": "news.antiwar.com",
+      "signal_id": "0d4a90db11f29571"
+    },
+    {
+      "time": "01:45",
+      "text": "Trump threatens to  annihilate  if Iran deal is not reached soon",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "newbernsj.com",
+      "signal_id": "19f4aebcf8796518"
+    },
+    {
+      "time": "23:15",
+      "text": "After Trump annihilation threat , Pezeshkian says Iran wont surrender",
+      "impact": "השפעה מיידית מחושבת: +0.8",
+      "direction": "up",
+      "source": "business-standard.com",
+      "signal_id": "0f09f00303366821"
+    },
+    {
+      "time": "23:15",
+      "text": "Iran Prez Pezeshkian defends country right to civil nuclear enrichment",
+      "impact": "השפעה מיידית מחושבת: +0.8",
+      "direction": "up",
+      "source": "business-standard.com",
+      "signal_id": "e202e4b03457d480"
+    }
+  ],
+  "signals": [
+    {
+      "id": "0d4a90db11f29571",
+      "name": "In UN Speech , Iran President Displays Pictures of Children Killed by US , Brings Attention to Israel Nuclear Arsenal",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0d4a90db11f29571",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.441,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "news.antiwar.com",
+      "url": "https://news.antiwar.com/2026/09/23/in-un-speech-irans-president-displays-pictures-of-children-killed-by-us-brings-attention-to-israels-nuclear-arsenal/",
+      "published_at": "2026-09-23T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 10.9,
+        "short": 8.5,
+        "extended": 3.6
+      }
+    },
+    {
+      "id": "19f4aebcf8796518",
+      "name": "Trump threatens to  annihilate  if Iran deal is not reached soon",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "19f4aebcf8796518",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.9,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newbernsj.com",
+      "url": "https://www.newbernsj.com/trump-threatens-to-annihilate-if-iran-deal-is-not-reached-soon/article_b4a9e01b-775d-505c-9dff-207eb8fd871e.html",
+      "published_at": "2026-09-23T22:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.9,
+        "extended": 10.0
+      }
+    },
+    {
+      "id": "0f09f00303366821",
+      "name": "After Trump annihilation threat , Pezeshkian says Iran wont surrender",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0f09f00303366821",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.441,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "business-standard.com",
+      "url": "https://www.business-standard.com/world-news/after-trump-s-annihilation-threat-pezeshkian-says-iran-won-t-surrender-126092301557_1.html",
+      "published_at": "2026-09-23T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      }
+    },
+    {
+      "id": "e202e4b03457d480",
+      "name": "Iran Prez Pezeshkian defends country right to civil nuclear enrichment",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e202e4b03457d480",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.441,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "business-standard.com",
+      "url": "https://www.business-standard.com/world-news/no-to-nuclear-weapons-no-to-deprivation-of-nuclear-knowledge-iran-prez-126092301537_1.html",
+      "published_at": "2026-09-23T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.3
+      }
+    },
+    {
+      "id": "4d823c918e9ce287",
+      "name": "Iran enlists boys as young as 12 in  Self - Sacrifice  paramilitary brigades amid growing mobilization",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4d823c918e9ce287",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.41,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "oann.com",
+      "url": "https://www.oann.com/newsroom/iran-enlists-boys-as-young-as-12-in-self-sacrifice-paramilitary-brigades-amid-growing-mobilization/",
+      "published_at": "2026-09-23T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -5818,17 +6007,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-09-23T23:07:09.259583Z",
+      "immediate": 13,
+      "short": 17,
+      "extended": 19
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-09-23T01:25:39.833045Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-09-23T23:07:09.259583Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 5
       },
       "manual": {
         "ok": true,
