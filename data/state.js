@@ -1,45 +1,358 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-09-22T22:54:08.395223Z",
+  "mode": "live",
+  "generated_at": "2026-09-23T01:25:39.833045Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 4,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 17,
+      "confidence": 65,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 65,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 65,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 4
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "04:00",
+      "text": "Trump threatens to annihilate Iran , amid push for deal",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "theadvocate.com.au",
+      "signal_id": "de5adf375fef0be8"
+    },
+    {
+      "time": "04:00",
+      "text": "Trump says US , Iran met for 3 hours after he threatened to  annihilate  Iran",
+      "impact": "השפעה מיידית מחושבת: +1.7",
+      "direction": "up",
+      "source": "kmbc.com",
+      "signal_id": "52a3bac34b53a812"
+    },
+    {
+      "time": "02:30",
+      "text": "Trump UNGA Speech : Threats to  Annihilate  Iran , Calls for ICC Boycott",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "foreignpolicy.com",
+      "signal_id": "9d1e33298b1dc8ba"
+    },
+    {
+      "time": "02:00",
+      "text": "Trump hails  productive  Iran talks , then renews threat as Tehran sets Hormuz terms",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "ynetnews.com",
+      "signal_id": "a845a881ff340fa4"
+    }
+  ],
+  "signals": [
+    {
+      "id": "de5adf375fef0be8",
+      "name": "Trump threatens to annihilate Iran , amid push for deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "de5adf375fef0be8",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.885,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theadvocate.com.au",
+      "url": "https://www.theadvocate.com.au/story/9355618/trump-threatens-to-annihilate-iran-amid-push-for-deal/",
+      "published_at": "2026-09-23T01:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.8
+      }
+    },
+    {
+      "id": "52a3bac34b53a812",
+      "name": "Trump says US , Iran met for 3 hours after he threatened to  annihilate  Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "52a3bac34b53a812",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.885,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "kmbc.com",
+      "url": "https://www.kmbc.com/article/trump-us-iran-meeting-un-speech-new-york/73841676",
+      "published_at": "2026-09-23T01:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.7,
+        "short": 5.8,
+        "extended": 9.8
+      }
+    },
+    {
+      "id": "9d1e33298b1dc8ba",
+      "name": "Trump UNGA Speech : Threats to  Annihilate  Iran , Calls for ICC Boycott",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9d1e33298b1dc8ba",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.577,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "foreignpolicy.com",
+      "url": "https://foreignpolicy.com/2026/09/22/trump-unga-speech-annihilate-iran-icc-rogue-war-crimes/",
+      "published_at": "2026-09-22T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "a845a881ff340fa4",
+      "name": "Trump hails  productive  Iran talks , then renews threat as Tehran sets Hormuz terms",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a845a881ff340fa4",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.5,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ynetnews.com",
+      "url": "https://www.ynetnews.com/article/rywqbvxqmg",
+      "published_at": "2026-09-22T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "c6565ab7eaf2c8bf",
+      "name": "Tehran Dangles Peace Deal Hours Before Trump Threatens To  Annihilate  Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c6565ab7eaf2c8bf",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.5,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailycaller.com",
+      "url": "https://dailycaller.com/2026/09/22/iran-peace-offer-hormuz-donald-trump-un-annihilate/",
+      "published_at": "2026-09-22T23:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "04feb796e2e9bb0f",
+      "name": "WATCH : Tehran dangles peace deal hours before Trump threatens to  annihilate  Iran * WorldNetDaily * by Francis Kapper , Daily Caller News Foundation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "04feb796e2e9bb0f",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.403,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wnd.com",
+      "url": "https://www.wnd.com/2026/09/watch-tehran-dangles-peace-deal-hours-before-trump/",
+      "published_at": "2026-09-22T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.5
+      }
+    },
+    {
+      "id": "35738bf2a00125ed",
+      "name": "Iran offers to unblock Hormuz within 7 days in diplomacy push | Hellenic Shipping News Worldwide",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "35738bf2a00125ed",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.433,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hellenicshippingnews.com",
+      "url": "https://www.hellenicshippingnews.com/iran-offers-to-unblock-hormuz-within-7-days-in-diplomacy-push/",
+      "published_at": "2026-09-22T22:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
+    },
+    {
+      "id": "ed38cf4d0656b66e",
+      "name": "Iran warns US against new attack , says Washington will gain  nothing but failure",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ed38cf4d0656b66e",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.35,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/09/22/776814/iran-fully-ready-for-any-us-attack-on-pickaxe-mountain-irgc",
+      "published_at": "2026-09-22T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "e1b04aae024e21e8",
+      "name": "Trump Tells UN :  Big Decision  Coming on Iran , Threatens To  Annihilate the Islamic Republic  and Drive Regime  Into Hell With No Chance of Survival",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e1b04aae024e21e8",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.35,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "freebeacon.com",
+      "url": "https://freebeacon.com/latest-news/trump-tells-un-big-decision-coming-on-iran-threatens-to-annihilate-the-islamic-republic-and-drive-regime-into-hell-with-no-chance-of-survival/",
+      "published_at": "2026-09-22T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -5788,17 +6101,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-09-23T01:25:39.833045Z",
+      "immediate": 4,
+      "short": 15,
+      "extended": 24
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-09-22T12:00:34.480031Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-09-23T01:25:39.833045Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 9
       },
       "manual": {
         "ok": true,
