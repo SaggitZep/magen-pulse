@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-09-23T23:07:09.259583Z",
+  "mode": "degraded",
+  "generated_at": "2026-09-24T01:24:55.984930Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 13,
+      "score": 7,
       "low": 0,
-      "high": 27,
-      "confidence": 61,
-      "status": "נמוך"
+      "high": 25,
+      "confidence": 41,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 17,
-      "low": 3,
-      "high": 31,
-      "confidence": 61,
+      "score": 9,
+      "low": 0,
+      "high": 27,
+      "confidence": 41,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 5,
-      "high": 33,
-      "confidence": 62,
+      "score": 10,
+      "low": 0,
+      "high": 27,
+      "confidence": 42,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מהירה",
-    "points_60m": 13
+    "level": "ירידה",
+    "points_60m": -6
   },
   "changes": [
     {
       "time": "23:15",
       "text": "In UN Speech , Iran President Displays Pictures of Children Killed by US , Brings Attention to Israel Nuclear Arsenal",
-      "impact": "השפעה מיידית מחושבת: +10.9",
+      "impact": "השפעה מיידית מחושבת: +5.6",
       "direction": "up",
       "source": "news.antiwar.com",
       "signal_id": "0d4a90db11f29571"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "01:45",
       "text": "Trump threatens to  annihilate  if Iran deal is not reached soon",
-      "impact": "השפעה מיידית מחושבת: +1.7",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
       "source": "newbernsj.com",
       "signal_id": "19f4aebcf8796518"
@@ -58,7 +58,7 @@ window.MAGEN_STATE = {
     {
       "time": "23:15",
       "text": "After Trump annihilation threat , Pezeshkian says Iran wont surrender",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "0f09f00303366821"
@@ -66,7 +66,7 @@ window.MAGEN_STATE = {
     {
       "time": "23:15",
       "text": "Iran Prez Pezeshkian defends country right to civil nuclear enrichment",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "business-standard.com",
       "signal_id": "e202e4b03457d480"
@@ -83,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0d4a90db11f29571",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.441,
+      "freshness": 0.229,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-23T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 10.9,
-        "short": 8.5,
-        "extended": 3.6
-      }
+        "immediate": 5.6,
+        "short": 4.4,
+        "extended": 1.9
+      },
+      "carried_forward": true
     },
     {
       "id": "19f4aebcf8796518",
@@ -114,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "19f4aebcf8796518",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.9,
+      "freshness": 0.467,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-23T22:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.7,
-        "short": 5.9,
-        "extended": 10.0
-      }
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.2
+      },
+      "carried_forward": true
     },
     {
       "id": "0f09f00303366821",
@@ -145,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "0f09f00303366821",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.441,
+      "freshness": 0.229,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-23T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
+      },
+      "carried_forward": true
     },
     {
       "id": "e202e4b03457d480",
@@ -176,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "e202e4b03457d480",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.441,
+      "freshness": 0.229,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-23T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.3
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.3
+      },
+      "carried_forward": true
     },
     {
       "id": "4d823c918e9ce287",
@@ -207,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4d823c918e9ce287",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.41,
+      "freshness": 0.213,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-09-23T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.0
-      }
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
+      },
+      "carried_forward": true
     }
   ],
   "history": [
@@ -6013,17 +6018,23 @@ window.MAGEN_STATE = {
       "immediate": 13,
       "short": 17,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-09-24T01:24:55.984930Z",
+      "immediate": 7,
+      "short": 9,
+      "extended": 10
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-09-23T23:07:09.259583Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 5
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 5
       },
       "manual": {
         "ok": true,
