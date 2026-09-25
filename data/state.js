@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-09-25T07:02:54.373475Z",
+  "generated_at": "2026-09-25T12:44:56.646675Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 34,
-      "low": 22,
-      "high": 46,
-      "confidence": 70,
-      "status": "מוגבר"
+      "score": 2,
+      "low": 0,
+      "high": 17,
+      "confidence": 58,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 34,
-      "low": 22,
-      "high": 46,
-      "confidence": 70,
-      "status": "מוגבר"
+      "score": 7,
+      "low": 0,
+      "high": 22,
+      "confidence": 58,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 34,
-      "low": 22,
-      "high": 46,
-      "confidence": 70,
-      "status": "מוגבר"
+      "score": 12,
+      "low": 0,
+      "high": 27,
+      "confidence": 58,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -35,148 +35,55 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 34
+    "level": "ירידה",
+    "points_60m": -32
   },
   "changes": [
     {
-      "time": "08:45",
-      "text": "Israel welcomes sixth submarine as IDF chief warns Iran remains a threat",
-      "impact": "השפעה מיידית מחושבת: +18.7",
+      "time": "12:30",
+      "text": "Us Laser Weapon Hormuz , होर्मुज में ईरानी ड्रोन को दनादन भस्म कर रहा अमेरिका , जंग में उतारा लेजर वेपन , क‍ितना ताकतवर ? - us navy deploys laser weapons strait of hormuz xbox controllers to destroy iranian drone - Middl",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
-      "source": "jns.org",
-      "signal_id": "9e00aea956477bef"
+      "source": "navbharattimes.indiatimes.com",
+      "signal_id": "4490894c42b6c2a3"
     },
     {
-      "time": "09:00",
-      "text": "War Was Imposed on Iran , US - Israeli Attacks Derailed Diplomacy Pezeshkian",
-      "impact": "השפעה מיידית מחושבת: +18.3",
+      "time": "12:30",
+      "text": "Iranian President Denies Nuclear Ambitions | News Radio 94 . 3 WSC",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
-      "source": "sputnikglobe.com",
-      "signal_id": "58e64f6f048c4d7d"
+      "source": "943wsc.iheart.com",
+      "signal_id": "499b1343019b4f78"
     },
     {
-      "time": "08:45",
-      "text": "Netanyahu Fiery UNGA Speech : Walkout Protest , Iran Strike Defense and Clash with Mamdani Over Israel Actions",
-      "impact": "השפעה מיידית מחושבת: +17.0",
+      "time": "12:15",
+      "text": "Iranian President Denies Nuclear Ambitions",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
-      "source": "openthemagazine.com",
-      "signal_id": "cb8d3b470b8a62d0"
+      "source": "650keni.iheart.com",
+      "signal_id": "63d6d1dfba398350"
     },
     {
-      "time": "09:30",
-      "text": "Iranian President Denies Nuclear Ambitions | NewsRadio WKCY",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "time": "12:15",
+      "text": "Iranian President Denies Nuclear Ambitions | News Talk 550 KFYI",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
-      "source": "newsradiowkcy.iheart.com",
-      "signal_id": "845e7947c698c044"
+      "source": "kfyi.iheart.com",
+      "signal_id": "b4f54ec15146ce60"
     }
   ],
   "signals": [
     {
-      "id": "9e00aea956477bef",
-      "name": "Israel welcomes sixth submarine as IDF chief warns Iran remains a threat",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9e00aea956477bef",
-      "strength": 0.55,
-      "reliability": 0.56,
-      "freshness": 0.69,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "jns.org",
-      "url": "https://www.jns.org/news/israel-news/israel-welcomes-sixth-submarine-as-idf-chief-warns-iran-remains-a-threat",
-      "published_at": "2026-09-25T05:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 18.7,
-        "short": 14.6,
-        "extended": 6.2
-      }
-    },
-    {
-      "id": "58e64f6f048c4d7d",
-      "name": "War Was Imposed on Iran , US - Israeli Attacks Derailed Diplomacy Pezeshkian",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "58e64f6f048c4d7d",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.741,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "sputnikglobe.com",
-      "url": "https://sputnikglobe.com/20260925/war-was-imposed-on-iran-us-israeli-attacks-derailed-diplomacy--pezeshkian-1124785464.html",
-      "published_at": "2026-09-25T06:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 18.3,
-        "short": 14.2,
-        "extended": 6.0
-      }
-    },
-    {
-      "id": "cb8d3b470b8a62d0",
-      "name": "Netanyahu Fiery UNGA Speech : Walkout Protest , Iran Strike Defense and Clash with Mamdani Over Israel Actions",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cb8d3b470b8a62d0",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.69,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "openthemagazine.com",
-      "url": "https://openthemagazine.com/world/unga-walkout-iran-warning-and-mamdani-clash-netanyahus-combative-un-address",
-      "published_at": "2026-09-25T05:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 17.0,
-        "short": 13.3,
-        "extended": 5.6
-      }
-    },
-    {
-      "id": "845e7947c698c044",
-      "name": "Iranian President Denies Nuclear Ambitions | NewsRadio WKCY",
+      "id": "4490894c42b6c2a3",
+      "name": "Us Laser Weapon Hormuz , होर्मुज में ईरानी ड्रोन को दनादन भस्म कर रहा अमेरिका , जंग में उतारा लेजर वेपन , क‍ितना ताकतवर ? - us navy deploys laser weapons strait of hormuz xbox controllers to destroy iranian drone - Middl",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "845e7947c698c044",
-      "strength": 0.4,
+      "dependency_group": "4490894c42b6c2a3",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.855,
+      "freshness": 0.395,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -187,14 +94,45 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "newsradiowkcy.iheart.com",
-      "url": "https://newsradiowkcy.iheart.com/content/2026-09-25-iranian-president-denies-nuclear-ambitions/",
-      "published_at": "2026-09-25T06:30:00Z",
+      "source": "navbharattimes.indiatimes.com",
+      "url": "https://navbharattimes.indiatimes.com/world/middle-east/us-navy-deploys-laser-weapons-strait-of-hormuz-xbox-controllers-to-destroy-iranian-drone/articleshow/134480172.cms",
+      "published_at": "2026-09-25T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
+      }
+    },
+    {
+      "id": "499b1343019b4f78",
+      "name": "Iranian President Denies Nuclear Ambitions | News Radio 94 . 3 WSC",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "499b1343019b4f78",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.395,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "943wsc.iheart.com",
+      "url": "https://943wsc.iheart.com/content/2026-09-25-iranian-president-denies-nuclear-ambitions/",
+      "published_at": "2026-09-25T09:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     },
     {
@@ -207,7 +145,7 @@ window.MAGEN_STATE = {
       "dependency_group": "63d6d1dfba398350",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.855,
+      "freshness": 0.368,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -218,27 +156,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "55krc.iheart.com",
-      "url": "https://55krc.iheart.com/content/2026-09-25-iranian-president-denies-nuclear-ambitions/",
-      "published_at": "2026-09-25T06:30:00Z",
+      "source": "650keni.iheart.com",
+      "url": "https://650keni.iheart.com/content/2026-09-25-iranian-president-denies-nuclear-ambitions/",
+      "published_at": "2026-09-25T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       }
     },
     {
-      "id": "339afdd0ed49c6ca",
-      "name": "Iran President Nuclear Weapons , ईरान क्‍या बनाएगा परमाणु बम ? ट्रंप की चेतावनी का ईरानी राष्‍ट्रपति ने दिया करारा जवाब , क‍िया बड़ा ऐलान - iran president masoud pezeshkian denies nuclear weapon ambition says it will dil",
+      "id": "b4f54ec15146ce60",
+      "name": "Iranian President Denies Nuclear Ambitions | News Talk 550 KFYI",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "339afdd0ed49c6ca",
+      "dependency_group": "b4f54ec15146ce60",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.855,
+      "freshness": 0.368,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -249,324 +187,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "navbharattimes.indiatimes.com",
-      "url": "https://navbharattimes.indiatimes.com/world/america/iran-president-masoud-pezeshkian-denies-nuclear-weapon-ambition-says-it-will-dilute-uranium/articleshow/134476240.cms",
-      "published_at": "2026-09-25T06:30:00Z",
+      "source": "kfyi.iheart.com",
+      "url": "https://kfyi.iheart.com/content/2026-09-25-iranian-president-denies-nuclear-ambitions/",
+      "published_at": "2026-09-25T09:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
-      }
-    },
-    {
-      "id": "cc2e4cbef8f8c7f3",
-      "name": "Iranian President Denies Nuclear Ambitions | Newsradio WOOD 1300 and 106 . 9 FM",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cc2e4cbef8f8c7f3",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.796,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "woodradio.iheart.com",
-      "url": "https://woodradio.iheart.com/content/2026-09-25-iranian-president-denies-nuclear-ambitions/",
-      "published_at": "2026-09-25T06:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.6,
-        "extended": 7.8
-      }
-    },
-    {
-      "id": "2e24bb27fa10073d",
-      "name": "Chinese dual - use electronics are helping Iran and Russia build deadlier drones",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2e24bb27fa10073d",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.642,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kjrh.com",
-      "url": "https://www.kjrh.com/world/asia/chinese-dual-use-electronics-are-helping-iran-and-russia-build-deadlier-drones-despite-u-s-sanctions",
-      "published_at": "2026-09-25T05:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
-      }
-    },
-    {
-      "id": "bed74e0cc1cb144a",
-      "name": "UPDATES : US War on Iran , Day 211 - Houthis Fire Missiles on Saudi Arabia",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bed74e0cc1cb144a",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.598,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "eaworldview.com",
-      "url": "https://eaworldview.com/2026/09/us-war-iran-houthis-saudi-arabia/",
-      "published_at": "2026-09-25T05:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      }
-    },
-    {
-      "id": "2be20a4776446a50",
-      "name": "Iran Offers 7 - Day Plan To End West Asia Conflict , Reopen Strait Of Hormuz And Resume Nuclear Talks With US",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2be20a4776446a50",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.69,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "freepressjournal.in",
-      "url": "https://www.freepressjournal.in/world/iran-offers-7-day-plan-to-end-west-asia-conflict-reopen-strait-of-hormuz-and-resume-nuclear-talks-with-us",
-      "published_at": "2026-09-25T05:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
-    },
-    {
-      "id": "2b55adfc91dc2ec3",
-      "name": "Iranian President Denies Nuclear Ambitions | NewsTalk 1320 KWHN",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2b55adfc91dc2ec3",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.69,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kwhn.iheart.com",
-      "url": "https://kwhn.iheart.com/content/2026-09-25-iranian-president-denies-nuclear-ambitions/",
-      "published_at": "2026-09-25T05:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
-    },
-    {
-      "id": "12857134e5fb1dc0",
-      "name": "Iranian President Denies Nuclear Ambitions | News Radio 103 . 1 and 810 WGY",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "12857134e5fb1dc0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.642,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "wgy.iheart.com",
-      "url": "https://wgy.iheart.com/content/2026-09-25-iranian-president-denies-nuclear-ambitions/",
-      "published_at": "2026-09-25T05:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
-    },
-    {
-      "id": "695e36ae75b99d9c",
-      "name": "Oil prices fall as markets look to Iran truce , but remain wary of attacks on oil facilities",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "695e36ae75b99d9c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.642,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "asiaone.com",
-      "url": "https://www.asiaone.com/money/oil-prices-fall-markets-look-iran-truce-remain-wary-attacks-oil-facilities",
-      "published_at": "2026-09-25T05:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
-    },
-    {
-      "id": "f443287763dc45db",
-      "name": "Iranian President Denies Nuclear Ambitions | KOA 850 AM & 94 . 1 FM",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f443287763dc45db",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.598,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "koacolorado.iheart.com",
-      "url": "https://koacolorado.iheart.com/content/2026-09-25-iranian-president-denies-nuclear-ambitions/",
-      "published_at": "2026-09-25T05:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      }
-    },
-    {
-      "id": "f2441e148367dd83",
-      "name": "Colombia Breaks Diplomatic Relations With Iran Over Security and Nuclear Concerns",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f2441e148367dd83",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.598,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "slguardian.org",
-      "url": "https://slguardian.org/colombia-breaks-diplomatic-relations-with-iran-over-security-and-nuclear-concerns/",
-      "published_at": "2026-09-25T05:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 5.9
-      }
-    },
-    {
-      "id": "5e78ec0ae7bf74b1",
-      "name": "Iranian president blames US for Middle East conflict , denies nuclear ambitions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5e78ec0ae7bf74b1",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.483,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dunyanews.tv",
-      "url": "https://dunyanews.tv/en/World/974567-iranian-president-blames-us-for-middle-east-conflict-denies-nuclear-a",
-      "published_at": "2026-09-25T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
       }
     }
   ],
@@ -6402,17 +6030,23 @@ window.MAGEN_STATE = {
       "immediate": 34,
       "short": 34,
       "extended": 34
+    },
+    {
+      "timestamp": "2026-09-25T12:44:56.646675Z",
+      "immediate": 2,
+      "short": 7,
+      "extended": 12
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-09-25T07:02:54.373475Z",
+    "last_success": "2026-09-25T12:44:56.646675Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 17
+        "relevant": 4
       },
       "manual": {
         "ok": true,
