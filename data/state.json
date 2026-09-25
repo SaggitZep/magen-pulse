@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-09-24T23:29:49.116383Z",
+  "generated_at": "2026-09-25T01:51:53.642878Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 8,
+      "score": 0,
       "low": 0,
-      "high": 25,
-      "confidence": 45,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 0,
       "low": 0,
-      "high": 28,
-      "confidence": 45,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 12,
+      "score": 0,
       "low": 0,
-      "high": 29,
-      "confidence": 45,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -36,300 +36,10 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -11
+    "points_60m": -8
   },
-  "changes": [
-    {
-      "time": "22:00",
-      "text": "Israel Netanyahu says at UN that attacking Iran was  one of the easiest decision he ever made",
-      "impact": "השפעה מיידית מחושבת: +6.8",
-      "direction": "up",
-      "source": "newsday.com",
-      "signal_id": "3430ac3ddddce7c9"
-    },
-    {
-      "time": "22:00",
-      "text": "Chinese Drone - Component Pipeline To Iran Raises Stakes For Trump - Xi Talks",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "worthynews.com",
-      "signal_id": "dce9df57a5fe2fa5"
-    },
-    {
-      "time": "22:45",
-      "text": "Netanyahu says attacking Iran  one of easiest decisions Ive ever had to make",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "thenorthernecho.co.uk",
-      "signal_id": "e70f3169baa8cc44"
-    },
-    {
-      "time": "22:15",
-      "text": "Oil Rises as Iran Threat to Widen War Dims Hormuz Deal Hopes",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "military.com",
-      "signal_id": "8123784424afb870"
-    }
-  ],
-  "signals": [
-    {
-      "id": "3430ac3ddddce7c9",
-      "name": "Israel Netanyahu says at UN that attacking Iran was  one of the easiest decision he ever made",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3430ac3ddddce7c9",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.277,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "newsday.com",
-      "url": "https://www.newsday.com/news/nation/israel-palestinians-abbas-netanyahu-c19394",
-      "published_at": "2026-09-24T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 6.8,
-        "short": 5.3,
-        "extended": 2.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "dce9df57a5fe2fa5",
-      "name": "Chinese Drone - Component Pipeline To Iran Raises Stakes For Trump - Xi Talks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "dce9df57a5fe2fa5",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.277,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "worthynews.com",
-      "url": "https://www.worthynews.com/117768-chinese-drone-component-pipeline-to-iran-raises-stakes-for-trump-xi-talks",
-      "published_at": "2026-09-24T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e70f3169baa8cc44",
-      "name": "Netanyahu says attacking Iran  one of easiest decisions Ive ever had to make",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e70f3169baa8cc44",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.343,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thenorthernecho.co.uk",
-      "url": "https://www.thenorthernecho.co.uk/news/national/26580444.netanyahu-says-attacking-iran-one-easiest-decisions-ever-make/",
-      "published_at": "2026-09-24T19:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.4
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8123784424afb870",
-      "name": "Oil Rises as Iran Threat to Widen War Dims Hormuz Deal Hopes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8123784424afb870",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.297,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "military.com",
-      "url": "https://www.military.com/oil-rises-as-iran-threat-to-widen-war-dims-hormuz-deal-hopes",
-      "published_at": "2026-09-24T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "eaa2f3e85ee1fe2c",
-      "name": "US Walks Out of United Nations as Iran President Shows Bombed Girl School Strike Photos",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "eaa2f3e85ee1fe2c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.297,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "military.com",
-      "url": "https://www.military.com/us-walks-out-united-nations-iran-president-shows-bombed-girls-school-strike-photos",
-      "published_at": "2026-09-24T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8732188a8b1da5e7",
-      "name": "Iranian flights cancelled as new US  D - Day  sanctions take effect , Saudis say they shoot down Houthi missiles",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8732188a8b1da5e7",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.18,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "tribune.com.pk",
-      "url": "https://tribune.com.pk/story/2631215/iranian-flights-cancelled-as-new-us-d-day-sanctions-take-effect",
-      "published_at": "2026-09-24T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "fab5466afba89b89",
-      "name": "IAEA inspectors cannot return to Iran amid US threats : Russia",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fab5466afba89b89",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.18,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/09/24/776933/IAEA-inspectors-Iran-US-threats--Russia",
-      "published_at": "2026-09-24T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "3004eafa4f0ec1bf",
-      "name": "איראן , המתקפה המדינית והפתעה בנאום : דנון חושף מה צפוי באו  ם",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3004eafa4f0ec1bf",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.18,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "inn.co.il",
-      "url": "https://www.inn.co.il/news/707033",
-      "published_at": "2026-09-24T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.0,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -6150,17 +5860,23 @@
       "immediate": 8,
       "short": 11,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-09-25T01:51:53.642878Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-09-24T20:38:52.625257Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
