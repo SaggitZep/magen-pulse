@@ -1,42 +1,42 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-09-25T17:36:41.524896Z",
+  "mode": "live",
+  "generated_at": "2026-09-25T20:46:30.274162Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 0,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 19,
+      "confidence": 35,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
       "score": 0,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 19,
+      "confidence": 35,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
       "score": 0,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 19,
+      "confidence": 35,
       "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [],
   "signals": [],
@@ -5884,17 +5884,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-09-25T20:46:30.274162Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-09-25T12:44:56.646675Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-09-25T20:46:30.274162Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 0,
+        "relevant": 0
       },
       "manual": {
         "ok": true,
