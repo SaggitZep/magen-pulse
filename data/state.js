@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-09-27T15:40:32.180748Z",
+  "generated_at": "2026-09-27T19:18:45.373733Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 0,
       "low": 0,
-      "high": 20,
-      "confidence": 40,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 0,
       "low": 0,
-      "high": 25,
-      "confidence": 40,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 9,
+      "score": 0,
       "low": 0,
-      "high": 27,
-      "confidence": 40,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -36,172 +36,10 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -16
+    "points_60m": -2
   },
-  "changes": [
-    {
-      "time": "13:45",
-      "text": "Iran army voices readiness for potential renewed US attack",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "cyprus-mail.com",
-      "signal_id": "57c6b93eda9615b8"
-    },
-    {
-      "time": "13:30",
-      "text": "Iran warns of renewed US attack , says it is  ready to inflict greater damage",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "timesofindia.indiatimes.com",
-      "signal_id": "2b19f91f487638d0"
-    },
-    {
-      "time": "13:30",
-      "text": "Men arrested for explosive offenses at united kingdom airbase used for US strikes on Iran",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "politico.eu",
-      "signal_id": "195d7bd0cd5163c9"
-    },
-    {
-      "time": "13:30",
-      "text": "Britisk politi har anholdt flere nær militærbase brugt af united states i krigen mod Iran",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "jyllands-posten.dk",
-      "signal_id": "1debf30e905eceb6"
-    }
-  ],
-  "signals": [
-    {
-      "id": "57c6b93eda9615b8",
-      "name": "Iran army voices readiness for potential renewed US attack",
-      "finding": "דיווח על יכולת, פריסה או היערכות צבאית איראנית.",
-      "category": "capability",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "57c6b93eda9615b8",
-      "strength": 0.46,
-      "reliability": 0.56,
-      "freshness": 0.245,
-      "max_effect": {
-        "immediate": 34,
-        "short": 48,
-        "extended": 42
-      },
-      "relevance": {
-        "immediate": 0.58,
-        "short": 1.0,
-        "extended": 0.84
-      },
-      "source": "cyprus-mail.com",
-      "url": "https://cyprus-mail.com/2026/09/27/irans-army-voices-readiness-for-potential-renewed-us-attack",
-      "published_at": "2026-09-27T10:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 3.0,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2b19f91f487638d0",
-      "name": "Iran warns of renewed US attack , says it is  ready to inflict greater damage",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2b19f91f487638d0",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.228,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-warns-of-renewed-us-attack-says-it-is-ready-to-inflict-greater-damage/articleshow/134517812.cms",
-      "published_at": "2026-09-27T10:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "195d7bd0cd5163c9",
-      "name": "Men arrested for explosive offenses at united kingdom airbase used for US strikes on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "195d7bd0cd5163c9",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.228,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "politico.eu",
-      "url": "https://www.politico.eu/article/major-incident-uk-air-base-us-forces-raf-fairford/",
-      "published_at": "2026-09-27T10:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1debf30e905eceb6",
-      "name": "Britisk politi har anholdt flere nær militærbase brugt af united states i krigen mod Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1debf30e905eceb6",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.228,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jyllands-posten.dk",
-      "url": "https://jyllands-posten.dk/international/europa/ECE19682398/britisk-politi-har-anholdt-flere-naer-militaerbase-brugt-af-usa-i-krigen-mod-iran/?fp-exp=60300005&fp-alg=603000050",
-      "published_at": "2026-09-27T10:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -6118,17 +5956,23 @@ window.MAGEN_STATE = {
       "immediate": 2,
       "short": 7,
       "extended": 9
+    },
+    {
+      "timestamp": "2026-09-27T19:18:45.373733Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-09-27T11:08:42.302489Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 4
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
