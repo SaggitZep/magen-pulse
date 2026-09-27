@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-09-27T05:51:19.267069Z",
+  "generated_at": "2026-09-27T11:08:42.302489Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
-      "low": 0,
-      "high": 16,
-      "confidence": 54,
-      "status": "לא זוהה אות חריג"
+      "score": 18,
+      "low": 5,
+      "high": 31,
+      "confidence": 67,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 5,
-      "low": 0,
-      "high": 20,
-      "confidence": 54,
-      "status": "לא זוהה אות חריג"
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 8,
-      "low": 0,
-      "high": 23,
-      "confidence": 54,
-      "status": "לא זוהה אות חריג"
+      "score": 31,
+      "low": 18,
+      "high": 44,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
@@ -35,31 +35,117 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 1
+    "level": "זינוק חריג",
+    "points_60m": 17
   },
   "changes": [
     {
-      "time": "08:00",
-      "text": "Iran Leader Mojtaba Khamenei Was Pulled From Rubble After Hospital Strike , Claim Says",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "time": "11:15",
+      "text": "Mojtaba Khamenei  pulled from rubble  after US - Israeli strikes hit Tehran hospital : Report",
+      "impact": "השפעה מיידית מחושבת: +10.8",
       "direction": "up",
-      "source": "freepressjournal.in",
-      "signal_id": "e8d90817a1febce4"
+      "source": "timesofindia.indiatimes.com",
+      "signal_id": "bf7a9cdf38f3e0ca"
+    },
+    {
+      "time": "13:45",
+      "text": "Iran army voices readiness for potential renewed US attack",
+      "impact": "השפעה מיידית מחושבת: +4.5",
+      "direction": "up",
+      "source": "cyprus-mail.com",
+      "signal_id": "57c6b93eda9615b8"
+    },
+    {
+      "time": "13:30",
+      "text": "Iran warns of renewed US attack , says it is  ready to inflict greater damage",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "timesofindia.indiatimes.com",
+      "signal_id": "2b19f91f487638d0"
+    },
+    {
+      "time": "13:30",
+      "text": "Men arrested for explosive offenses at united kingdom airbase used for US strikes on Iran",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "politico.eu",
+      "signal_id": "195d7bd0cd5163c9"
     }
   ],
   "signals": [
     {
-      "id": "e8d90817a1febce4",
-      "name": "Iran Leader Mojtaba Khamenei Was Pulled From Rubble After Hospital Strike , Claim Says",
+      "id": "bf7a9cdf38f3e0ca",
+      "name": "Mojtaba Khamenei  pulled from rubble  after US - Israeli strikes hit Tehran hospital : Report",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bf7a9cdf38f3e0ca",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.437,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/mojtaba-khamenei-pulled-from-rubble-after-us-israeli-strikes-hit-tehran-hospital-report/articleshow/134516364.cms",
+      "published_at": "2026-09-27T08:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 10.8,
+        "short": 8.4,
+        "extended": 3.6
+      }
+    },
+    {
+      "id": "57c6b93eda9615b8",
+      "name": "Iran army voices readiness for potential renewed US attack",
+      "finding": "דיווח על יכולת, פריסה או היערכות צבאית איראנית.",
+      "category": "capability",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "57c6b93eda9615b8",
+      "strength": 0.46,
+      "reliability": 0.56,
+      "freshness": 0.893,
+      "max_effect": {
+        "immediate": 34,
+        "short": 48,
+        "extended": 42
+      },
+      "relevance": {
+        "immediate": 0.58,
+        "short": 1.0,
+        "extended": 0.84
+      },
+      "source": "cyprus-mail.com",
+      "url": "https://cyprus-mail.com/2026/09/27/irans-army-voices-readiness-for-potential-renewed-us-attack",
+      "published_at": "2026-09-27T10:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.5,
+        "short": 11.0,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "2b19f91f487638d0",
+      "name": "Iran warns of renewed US attack , says it is  ready to inflict greater damage",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e8d90817a1febce4",
-      "strength": 0.4,
+      "dependency_group": "2b19f91f487638d0",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.783,
+      "freshness": 0.832,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -70,14 +156,169 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "freepressjournal.in",
-      "url": "https://www.freepressjournal.in/world/iran-leader-mojtaba-khamenei-was-pulled-from-rubble-after-hospital-strike-claim-says",
-      "published_at": "2026-09-27T05:00:00Z",
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-warns-of-renewed-us-attack-says-it-is-ready-to-inflict-greater-damage/articleshow/134517812.cms",
+      "published_at": "2026-09-27T10:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
+      }
+    },
+    {
+      "id": "195d7bd0cd5163c9",
+      "name": "Men arrested for explosive offenses at united kingdom airbase used for US strikes on Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "195d7bd0cd5163c9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.832,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "politico.eu",
+      "url": "https://www.politico.eu/article/major-incident-uk-air-base-us-forces-raf-fairford/",
+      "published_at": "2026-09-27T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "1debf30e905eceb6",
+      "name": "Britisk politi har anholdt flere nær militærbase brugt af united states i krigen mod Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1debf30e905eceb6",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.832,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jyllands-posten.dk",
+      "url": "https://jyllands-posten.dk/international/europa/ECE19682398/britisk-politi-har-anholdt-flere-naer-militaerbase-brugt-af-usa-i-krigen-mod-iran/?fp-exp=60300005&fp-alg=603000050",
+      "published_at": "2026-09-27T10:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "167f0bdf710244a3",
+      "name": "Iran denies plans for military action over flight restrictions",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "167f0bdf710244a3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.437,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "siasat.com",
+      "url": "https://www.siasat.com/iran-denies-plans-for-military-action-over-flight-restrictions-3548953/",
+      "published_at": "2026-09-27T08:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
+    },
+    {
+      "id": "52ca18ee3d59a6f9",
+      "name": "Así es el dron Gerbera que Rusia utiliza y ha llegado a Polonia : más barato que el Shahed iraní y capaz de conectarse con otros drones",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "52ca18ee3d59a6f9",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.353,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "20minutos.es",
+      "url": "https://www.20minutos.es/internacional/asi-es-dron-gerbera-que-rusia-utiliza-ha-llegado-polonia-mas-barato-que-shahed-irani-capaz-conectarse-con-otros-drones_7041290_0.html",
+      "published_at": "2026-09-27T07:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
+    },
+    {
+      "id": "b8fe488f840abef9",
+      "name": "Iran Revolutionary Guards Warn of Strikes on US Ships in Indian Ocean in Any New War",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b8fe488f840abef9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.379,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "khaama.com",
+      "url": "https://www.khaama.com/irans-revolutionary-guards-warn-of-strikes-on-us-ships-in-indian-ocean-in-any-new-war/",
+      "published_at": "2026-09-27T07:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
       }
     }
   ],
@@ -5985,17 +6226,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 5,
       "extended": 8
+    },
+    {
+      "timestamp": "2026-09-27T11:08:42.302489Z",
+      "immediate": 18,
+      "short": 28,
+      "extended": 31
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-09-27T05:51:19.267069Z",
+    "last_success": "2026-09-27T11:08:42.302489Z",
     "sources": {
       "gdelt": {
         "ok": true,
-        "items": 117,
-        "relevant": 1
+        "items": 150,
+        "relevant": 8
       },
       "manual": {
         "ok": true,
