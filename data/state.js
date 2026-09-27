@@ -1,45 +1,389 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-09-27T19:18:45.373733Z",
+  "mode": "live",
+  "generated_at": "2026-09-27T22:24:00.325934Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 4,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 17,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 66,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "עלייה מתונה",
+    "points_60m": 4
   },
-  "changes": [],
-  "signals": [],
+  "changes": [
+    {
+      "time": "00:15",
+      "text": "Iran holds line on diplomacy as Hormuz missile strike raises risk before open",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "investinglive.com",
+      "signal_id": "fa305b676defa7a1"
+    },
+    {
+      "time": "00:45",
+      "text": "5 men arrested near united kingdom air base used by US in Iran war on suspicion of preparing a terrorist act",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "sgvtribune.com",
+      "signal_id": "dba08918def4f1b7"
+    },
+    {
+      "time": "00:45",
+      "text": "Iran says it wont soften Hormuz demands after Trump rejects proposal | Hellenic Shipping News Worldwide",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "hellenicshippingnews.com",
+      "signal_id": "47b77263a49faceb"
+    },
+    {
+      "time": "23:00",
+      "text": "Iranian - American student threatened after probing El - Sayed on IRGC",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "jpost.com",
+      "signal_id": "be51f0e7f942fe9c"
+    }
+  ],
+  "signals": [
+    {
+      "id": "fa305b676defa7a1",
+      "name": "Iran holds line on diplomacy as Hormuz missile strike raises risk before open",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "fa305b676defa7a1",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.72,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "investinglive.com",
+      "url": "https://investinglive.com/commodities/iran-holds-line-on-diplomacy-as-hormuz-missile-strike-raises-risk-before-open/",
+      "published_at": "2026-09-27T21:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
+    },
+    {
+      "id": "dba08918def4f1b7",
+      "name": "5 men arrested near united kingdom air base used by US in Iran war on suspicion of preparing a terrorist act",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dba08918def4f1b7",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.83,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sgvtribune.com",
+      "url": "https://www.sgvtribune.com/2026/09/27/5-men-arrested-near-uk-air-base-used-by-us-in-iran-war-on-suspicion-of-preparing-a-terrorist-act/",
+      "published_at": "2026-09-27T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "47b77263a49faceb",
+      "name": "Iran says it wont soften Hormuz demands after Trump rejects proposal | Hellenic Shipping News Worldwide",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "47b77263a49faceb",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.83,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hellenicshippingnews.com",
+      "url": "https://www.hellenicshippingnews.com/iran-says-it-wont-soften-hormuz-demands-after-trump-rejects-proposal/",
+      "published_at": "2026-09-27T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "be51f0e7f942fe9c",
+      "name": "Iranian - American student threatened after probing El - Sayed on IRGC",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "be51f0e7f942fe9c",
+      "strength": 0.45,
+      "reliability": 0.74,
+      "freshness": 0.504,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jpost.com",
+      "url": "https://www.jpost.com/international/article-909893",
+      "published_at": "2026-09-27T20:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "b41b3578fb98311a",
+      "name": "UK Investigates Potential Iranian Link over Suspected Air Base Bomb Plot",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b41b3578fb98311a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.541,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "breitbart.com",
+      "url": "https://www.breitbart.com/europe/2026/09/27/uk-terror-police-investigate-potential-iranian-link-over-suspected-bombing-plot-on-base-used-by-u-s-air-force/",
+      "published_at": "2026-09-27T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
+    },
+    {
+      "id": "f09547e6c9a7db7b",
+      "name": "Five Arrested Near united kingdom RAF Fairford Air Base Used for US Strikes on Iran in Suspected Terror Plot",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f09547e6c9a7db7b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.541,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gulfnews.com",
+      "url": "https://gulfnews.com/world/europe/five-arrested-near-uk-air-base-used-for-us-strikes-on-iran-1.500689836",
+      "published_at": "2026-09-27T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
+    },
+    {
+      "id": "a589d74583640a42",
+      "name": "Trump Rejects Iran Hormuz Peace Proposal As War Threatens Global Oil Flows",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a589d74583640a42",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.469,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "naija247news.com",
+      "url": "https://naija247news.com/trump-rejects-irans-hormuz-peace-proposal-as-war-threatens-global-oil-flows/",
+      "published_at": "2026-09-27T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
+      }
+    },
+    {
+      "id": "071a75b04ebfa5ea",
+      "name": "Iranian Army Chief : War Not Over Yet ; Enemy Must Be Ready for Strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "071a75b04ebfa5ea",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.469,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "khaskhabar.com",
+      "url": "https://www.khaskhabar.com/news/world-news/news-iranian-army-chief-war-not-over-yet-enemy-must-be-ready-for-strikes-news-hindi-1-848307-KKN.html",
+      "published_at": "2026-09-27T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "6c01a4035585cfd2",
+      "name": "Arab News | 4 Iranian drone experts killed , 756 operations against Houthi military positions over 72 hours : Yemen army",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6c01a4035585cfd2",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.328,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arabnews.com",
+      "url": "https://www.arabnews.com/middle-east/4-iranian-drone-experts-killed-756-operations-against-houthi-military-positions-over-72-hours-yemen-army-3003424",
+      "published_at": "2026-09-27T18:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "f351db94ec5e0fcd",
+      "name": "Allarme terrorismo in una base Raf usata da bombardieri united states contro lIran - Notizie",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f351db94ec5e0fcd",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.328,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ansa.it",
+      "url": "https://www.ansa.it/sito/notizie/mondo/2026/09/27/allarme-terrorismo-in-una-base-raf-usata-da-bombardieri-usa-contro-liran_91d9e309-9fb5-4940-99e1-9370a923d619.html",
+      "published_at": "2026-09-27T18:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 1.9,
+        "extended": 3.2
+      }
+    }
+  ],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -5962,17 +6306,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-09-27T22:24:00.325934Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 23
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-09-27T11:08:42.302489Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-09-27T22:24:00.325934Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 10
       },
       "manual": {
         "ok": true,
