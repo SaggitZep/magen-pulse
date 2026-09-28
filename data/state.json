@@ -1,164 +1,45 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-09-28T01:03:16.008999Z",
+  "mode": "degraded",
+  "generated_at": "2026-09-28T06:46:20.369686Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 0,
       "low": 0,
-      "high": 17,
-      "confidence": 54,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 7,
+      "score": 0,
       "low": 0,
       "high": 22,
-      "confidence": 54,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 11,
+      "score": 0,
       "low": 0,
-      "high": 26,
-      "confidence": 54,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
     "points_60m": -2
   },
-  "changes": [
-    {
-      "time": "00:15",
-      "text": "Iran holds line on diplomacy as Hormuz missile strike raises risk before open",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "investinglive.com",
-      "signal_id": "fa305b676defa7a1"
-    },
-    {
-      "time": "00:45",
-      "text": "Iran says it wont soften Hormuz demands after Trump rejects proposal | Hellenic Shipping News Worldwide",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "hellenicshippingnews.com",
-      "signal_id": "47b77263a49faceb"
-    },
-    {
-      "time": "00:45",
-      "text": "5 men arrested near united kingdom air base used by US in Iran war on suspicion of preparing a terrorist act",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "sgvtribune.com",
-      "signal_id": "dba08918def4f1b7"
-    }
-  ],
-  "signals": [
-    {
-      "id": "fa305b676defa7a1",
-      "name": "Iran holds line on diplomacy as Hormuz missile strike raises risk before open",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fa305b676defa7a1",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.337,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "investinglive.com",
-      "url": "https://investinglive.com/commodities/iran-holds-line-on-diplomacy-as-hormuz-missile-strike-raises-risk-before-open/",
-      "published_at": "2026-09-27T21:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      }
-    },
-    {
-      "id": "47b77263a49faceb",
-      "name": "Iran says it wont soften Hormuz demands after Trump rejects proposal | Hellenic Shipping News Worldwide",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "47b77263a49faceb",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.389,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hellenicshippingnews.com",
-      "url": "https://www.hellenicshippingnews.com/iran-says-it-wont-soften-hormuz-demands-after-trump-rejects-proposal/",
-      "published_at": "2026-09-27T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.8
-      }
-    },
-    {
-      "id": "dba08918def4f1b7",
-      "name": "5 men arrested near united kingdom air base used by US in Iran war on suspicion of preparing a terrorist act",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "dba08918def4f1b7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.389,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "sgvtribune.com",
-      "url": "https://www.sgvtribune.com/2026/09/27/5-men-arrested-near-uk-air-base-used-by-us-in-iran-war-on-suspicion-of-preparing-a-terrorist-act/",
-      "published_at": "2026-09-27T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.8
-      }
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -6093,17 +5974,23 @@
       "immediate": 2,
       "short": 7,
       "extended": 11
+    },
+    {
+      "timestamp": "2026-09-28T06:46:20.369686Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-09-28T01:03:16.008999Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 62,
-        "relevant": 3
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
