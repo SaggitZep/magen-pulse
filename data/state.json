@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-09-29T13:11:00.647186Z",
+  "generated_at": "2026-09-29T18:40:02.056972Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -6010,6 +6010,12 @@
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-09-29T18:40:02.056972Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
@@ -6019,7 +6025,7 @@
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "error": "HTTP Error 429: Too Many Requests",
         "carried_forward": 0
       },
       "manual": {
