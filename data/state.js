@@ -1,52 +1,297 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-10-02T06:29:51.377883Z",
+  "mode": "live",
+  "generated_at": "2026-10-02T13:05:48.301841Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 3,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 16,
+      "confidence": 64,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
+      "score": 10,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "high": 23,
+      "confidence": 64,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 16,
+      "low": 3,
+      "high": 29,
+      "confidence": 64,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -24
+    "level": "עלייה מתונה",
+    "points_60m": 3
   },
-  "changes": [],
-  "signals": [],
-  "history": [
+  "changes": [
     {
-      "timestamp": "2026-07-24T17:51:50.966801Z",
-      "immediate": 5,
-      "short": 17,
-      "extended": 28
+      "time": "13:45",
+      "text": "Iran weighs options as US pressure , nuclear impasse deepen",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "jpost.com",
+      "signal_id": "6e7436b2723ca079"
     },
+    {
+      "time": "13:45",
+      "text": "Trump vows to hit Iran  very hard  if linked to flydubai pilot stabbing attack",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "tert.am",
+      "signal_id": "26da2bee15115cdf"
+    },
+    {
+      "time": "13:45",
+      "text": "US Reinforcing Military Presence In Middle East As Iran Tensions Rise",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "orlandoecho.com",
+      "signal_id": "73a1784a7985a0bd"
+    },
+    {
+      "time": "13:45",
+      "text": "Trump Vows to Hit Iran Hard if Linked to Flydubai Attack - Latest News In Nigeria , Nigeria News Today , Your Online Nigerian Newspaper",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "nigerianeye.com",
+      "signal_id": "01263170fb13d3c9"
+    }
+  ],
+  "signals": [
+    {
+      "id": "6e7436b2723ca079",
+      "name": "Iran weighs options as US pressure , nuclear impasse deepen",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6e7436b2723ca079",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.511,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jpost.com",
+      "url": "http://www.jpost.com/middle-east/iran-news/article-910402",
+      "published_at": "2026-10-02T10:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.7
+      }
+    },
+    {
+      "id": "26da2bee15115cdf",
+      "name": "Trump vows to hit Iran  very hard  if linked to flydubai pilot stabbing attack",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "26da2bee15115cdf",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.511,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tert.am",
+      "url": "https://tert.am/en/news/2026/10/02/Donald%20Trump/4285605",
+      "published_at": "2026-10-02T10:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "73a1784a7985a0bd",
+      "name": "US Reinforcing Military Presence In Middle East As Iran Tensions Rise",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "73a1784a7985a0bd",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.511,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "orlandoecho.com",
+      "url": "http://www.orlandoecho.com/news/279347225/us-reinforcing-military-presence-in-middle-east-as-iran-tensions-rise",
+      "published_at": "2026-10-02T10:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "01263170fb13d3c9",
+      "name": "Trump Vows to Hit Iran Hard if Linked to Flydubai Attack - Latest News In Nigeria , Nigeria News Today , Your Online Nigerian Newspaper",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "01263170fb13d3c9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.511,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nigerianeye.com",
+      "url": "https://www.nigerianeye.com/2026/10/trump-vows-to-hit-iran-hard-if-linked.html",
+      "published_at": "2026-10-02T10:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "045fa4a66bf93bff",
+      "name": "Trump suspects Iran in jet attack | The Arkansas Democrat - Gazette - Arkansa Best News Source",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "045fa4a66bf93bff",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.511,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arkansasonline.com",
+      "url": "https://www.arkansasonline.com/news/2026/oct/02/trump-suspects-iran-in-jet-attack/",
+      "published_at": "2026-10-02T10:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "bedb08ae36e1536f",
+      "name": "ट्रंप ने दी ईरान पर बड़े हमले की चेतावनी , अमेरिका भेज रहा 9 हजार सैनिक - trump warns of major attack on iran us sending 9000 troops",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bedb08ae36e1536f",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.413,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "punjabkesari.in",
+      "url": "https://www.punjabkesari.in/international/news/trump-warns-of-major-attack-on-iran-us-sending-9000-troops-2385467",
+      "published_at": "2026-10-02T10:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "836b64001f9bc05b",
+      "name": "UK Arrests British - Iranian Man In Air Base Investigation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "836b64001f9bc05b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.384,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "londonmercury.com",
+      "url": "http://www.londonmercury.com/news/279346950/uk-arrests-british-iranian-man-in-air-base-investigation",
+      "published_at": "2026-10-02T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      }
+    }
+  ],
+  "history": [
     {
       "timestamp": "2026-07-24T18:53:44.127282Z",
       "immediate": 10,
@@ -6088,17 +6333,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-10-02T13:05:48.301841Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 16
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-10-02T00:50:34.682692Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-10-02T13:05:48.301841Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "The read operation timed out",
-        "carried_forward": 0
+        "ok": true,
+        "items": 125,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
