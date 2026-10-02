@@ -1,513 +1,45 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-10-02T00:50:34.682692Z",
+  "mode": "degraded",
+  "generated_at": "2026-10-02T06:29:51.377883Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 28,
-      "low": 15,
-      "high": 41,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 28,
-      "low": 15,
-      "high": 41,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 24
+    "level": "ירידה",
+    "points_60m": -24
   },
-  "changes": [
-    {
-      "time": "03:15",
-      "text": "Israel Warned united kingdom of Iran Terror Attack . united kingdom Sanctioned Israel and Released Terrorists .",
-      "impact": "השפעה מיידית מחושבת: +20.8",
-      "direction": "up",
-      "source": "pjmedia.com",
-      "signal_id": "554bdf572f057c64"
-    },
-    {
-      "time": "03:15",
-      "text": "U . K .- Iranian man held over U . K . airbase incident",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "thehindu.com",
-      "signal_id": "0439407a718e1159"
-    },
-    {
-      "time": "02:15",
-      "text": "Trump vows to hit Iran  very hard  if linked to flydubai attack",
-      "impact": "השפעה מיידית מחושבת: +1.4",
-      "direction": "up",
-      "source": "al-monitor.com",
-      "signal_id": "5160c711b5368a24"
-    },
-    {
-      "time": "03:00",
-      "text": "UK Arrests British - Iranian Man In Airbase Investigation",
-      "impact": "השפעה מיידית מחושבת: +1.3",
-      "direction": "up",
-      "source": "londonmercury.com",
-      "signal_id": "5ca87ef0bc019ddb"
-    }
-  ],
-  "signals": [
-    {
-      "id": "554bdf572f057c64",
-      "name": "Israel Warned united kingdom of Iran Terror Attack . united kingdom Sanctioned Israel and Released Terrorists .",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "554bdf572f057c64",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.844,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "pjmedia.com",
-      "url": "https://pjmedia.com/catherinesalgado/2026/10/01/israel-warned-uk-of-iran-terror-attack-uk-sanctioned-israel-and-released-terrorists-n4957861",
-      "published_at": "2026-10-02T00:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 20.8,
-        "short": 16.2,
-        "extended": 6.9
-      }
-    },
-    {
-      "id": "0439407a718e1159",
-      "name": "U . K .- Iranian man held over U . K . airbase incident",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0439407a718e1159",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.844,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thehindu.com",
-      "url": "https://www.thehindu.com/news/international/uk-iranian-man-held-over-uk-airbase-incident/article71534825.ece",
-      "published_at": "2026-10-02T00:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.3
-      }
-    },
-    {
-      "id": "5160c711b5368a24",
-      "name": "Trump vows to hit Iran  very hard  if linked to flydubai attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5160c711b5368a24",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.634,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "al-monitor.com",
-      "url": "https://www.al-monitor.com/originals/2026/10/trump-vows-hit-iran-very-hard-if-linked-flydubai-attack",
-      "published_at": "2026-10-01T23:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.3
-      }
-    },
-    {
-      "id": "5ca87ef0bc019ddb",
-      "name": "UK Arrests British - Iranian Man In Airbase Investigation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5ca87ef0bc019ddb",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.786,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "londonmercury.com",
-      "url": "http://www.londonmercury.com/news/279346406/uk-arrests-british-iranian-man-in-airbase-investigation",
-      "published_at": "2026-10-02T00:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
-    },
-    {
-      "id": "a099c19f20d170c2",
-      "name": "Based on what Im hearing , yes : Trump says flydubai co - pilot linked to Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a099c19f20d170c2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.786,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "austinglobe.com",
-      "url": "http://www.austinglobe.com/news/279346501/based-on-what-im-hearing-yes-trump-says-flydubai-co-pilot-linked-to-iran",
-      "published_at": "2026-10-02T00:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
-    },
-    {
-      "id": "efac633ac8cc88b1",
-      "name": "Third aircraft carrier and thousands of troops head to Mideast as Trump weighs new Iran strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "efac633ac8cc88b1",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.681,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "japantoday.com",
-      "url": "https://japantoday.com/category/world/us-is-moving-thousands-of-troops-aboard-ships-to-the-mideast-as-trump-weighs-new-strikes-on-iran",
-      "published_at": "2026-10-01T23:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
-    },
-    {
-      "id": "679328407d811278",
-      "name": "US moving thousands of troops to Mideast , Trump weighs strikes on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "679328407d811278",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.634,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "pilotonline.com",
-      "url": "https://www.pilotonline.com/2026/10/01/trump-moving-troops-iran/",
-      "published_at": "2026-10-01T23:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
-      }
-    },
-    {
-      "id": "b3b6cd2a546784d5",
-      "name": "Iran warns US against further attacks , says move would amount to  suicide",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b3b6cd2a546784d5",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.444,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "islamicinvitationturkey.com",
-      "url": "https://www.islamicinvitationturkey.com/iran-warns-us-against-further-attacks-says-move-would-amount-to-suicide/",
-      "published_at": "2026-10-01T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 4.9
-      }
-    },
-    {
-      "id": "b6cafb68c5b2408f",
-      "name": "Iran summons united kingdom envoy over  baseles claims linking Tehran to alleged airbase sabotage plot",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b6cafb68c5b2408f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.444,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "islamicinvitationturkey.com",
-      "url": "https://www.islamicinvitationturkey.com/iran-summons-uk-envoy-over-baseless-claims-linking-tehran-to-alleged-airbase-sabotage-plot/",
-      "published_at": "2026-10-01T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "eb75ed983da7513b",
-      "name": "🚨 MAJOR DEVELOPMENT : Trump Says Iran , IRGC  Could Have Been  Behind Flydubai Terror Attack – The Yeshiva World",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "eb75ed983da7513b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.444,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2604690/%F0%9F%9A%A8-major-development-trump-says-iran-irgc-could-have-been-behind-flydubai-terror-attack.html",
-      "published_at": "2026-10-01T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "b2eafc0d626f374f",
-      "name": "Iran calls US claim that it ordered Araghchi to leave New York  baseless",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b2eafc0d626f374f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.444,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "islamicinvitationturkey.com",
-      "url": "https://www.islamicinvitationturkey.com/iran-calls-us-claim-that-it-ordered-araghchi-to-leave-new-york-baseless/",
-      "published_at": "2026-10-01T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "9209fd9eeb765c83",
-      "name": "U . S . shipping 9 , 000 troops to Mideast as Trump weighs strikes on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9209fd9eeb765c83",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.444,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "latimes.com",
-      "url": "https://www.latimes.com/world-nation/story/2026-10-01/u-s-shipping-9-000-troops-to-mideast-as-trump-weighs-strikes-on-iran",
-      "published_at": "2026-10-01T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "9795e369669c50b4",
-      "name": "NATO Chief Calls US Iran Nuclear Strikes  Absolutely Essential",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9795e369669c50b4",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.413,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theuknews.com",
-      "url": "http://www.theuknews.com/news/279345941/nato-chief-calls-us-iran-nuclear-strikes-absolutely-essential",
-      "published_at": "2026-10-01T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "4b038b984845b46c",
-      "name": "Theyll be hit very hard : Trump sends 9 , 000 troops to the Middle East after warning Iran strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4b038b984845b46c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.385,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "fortune.com",
-      "url": "https://fortune.com/2026/10/01/trump-9000-troops-third-aircraft-carrier-middle-east-iran-strike/",
-      "published_at": "2026-10-01T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
     {
       "timestamp": "2026-07-24T17:51:50.966801Z",
@@ -6550,17 +6082,23 @@
       "immediate": 24,
       "short": 28,
       "extended": 28
+    },
+    {
+      "timestamp": "2026-10-02T06:29:51.377883Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-10-02T00:50:34.682692Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 14
+        "ok": false,
+        "error": "The read operation timed out",
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
