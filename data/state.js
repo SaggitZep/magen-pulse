@@ -1,37 +1,37 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-10-11T00:30:19.930856Z",
+  "mode": "degraded",
+  "generated_at": "2026-10-11T06:23:22.374176Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 0,
       "low": 0,
-      "high": 19,
-      "confidence": 35,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
       "score": 0,
       "low": 0,
-      "high": 19,
-      "confidence": 35,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
       "score": 0,
       "low": 0,
-      "high": 19,
-      "confidence": 35,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
@@ -41,12 +41,6 @@ window.MAGEN_STATE = {
   "changes": [],
   "signals": [],
   "history": [
-    {
-      "timestamp": "2026-07-27T12:00:17.544461Z",
-      "immediate": 2,
-      "short": 6,
-      "extended": 10
-    },
     {
       "timestamp": "2026-07-27T15:08:32.009361Z",
       "immediate": 0,
@@ -6088,17 +6082,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-10-11T06:23:22.374176Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-10-11T00:30:19.930856Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 0,
-        "relevant": 0
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
