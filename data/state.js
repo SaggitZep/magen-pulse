@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-10-12T17:01:50.397432Z",
+  "generated_at": "2026-10-12T23:36:17.274730Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -41,12 +41,6 @@ window.MAGEN_STATE = {
   "changes": [],
   "signals": [],
   "history": [
-    {
-      "timestamp": "2026-07-27T23:47:07.262894Z",
-      "immediate": 0,
-      "short": 0,
-      "extended": 0
-    },
     {
       "timestamp": "2026-07-28T01:16:10.122679Z",
       "immediate": 5,
@@ -6088,6 +6082,12 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-10-12T23:36:17.274730Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
@@ -6097,7 +6097,7 @@ window.MAGEN_STATE = {
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+        "error": "HTTP Error 429: Too Many Requests",
         "carried_forward": 0
       },
       "manual": {
