@@ -1,37 +1,37 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-10-15T00:08:07.967756Z",
+  "mode": "live",
+  "generated_at": "2026-10-15T04:39:51.521437Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 0,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 19,
+      "confidence": 35,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
       "score": 0,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 19,
+      "confidence": 35,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
       "score": 0,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 19,
+      "confidence": 35,
       "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
@@ -41,12 +41,6 @@ window.MAGEN_STATE = {
   "changes": [],
   "signals": [],
   "history": [
-    {
-      "timestamp": "2026-07-28T22:31:10.491357Z",
-      "immediate": 30,
-      "short": 29,
-      "extended": 22
-    },
     {
       "timestamp": "2026-07-28T23:34:45.811769Z",
       "immediate": 34,
@@ -6088,17 +6082,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-10-15T04:39:51.521437Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-10-14T21:34:39.514268Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-10-15T04:39:51.521437Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 0,
+        "relevant": 0
       },
       "manual": {
         "ok": true,
