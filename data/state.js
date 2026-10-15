@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-10-15T18:29:02.994052Z",
+  "generated_at": "2026-10-15T21:43:07.450544Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 11,
-      "low": 0,
-      "high": 24,
-      "confidence": 66,
-      "status": "נמוך"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 69,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 18,
-      "low": 5,
-      "high": 31,
-      "confidence": 67,
-      "status": "נמוך"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 69,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 22,
-      "low": 9,
-      "high": 35,
-      "confidence": 67,
+      "score": 33,
+      "low": 20,
+      "high": 46,
+      "confidence": 69,
       "status": "מוגבר"
     }
   },
@@ -35,55 +35,55 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מהירה",
-    "points_60m": 7
+    "level": "זינוק חריג",
+    "points_60m": 23
   },
   "changes": [
     {
-      "time": "17:30",
-      "text": "US - Iran stalemate : What are Trump next military options ? | US - Israel war on Iran News",
-      "impact": "השפעה מיידית מחושבת: +7.9",
+      "time": "22:45",
+      "text": "Israel studying Russian drones used in Ukraine war to counter Iranian threats",
+      "impact": "השפעה מיידית מחושבת: +23.4",
       "direction": "up",
-      "source": "aljazeera.com",
-      "signal_id": "e6246bcb36c61555"
+      "source": "jpost.com",
+      "signal_id": "edde73a89de43eaa"
     },
     {
-      "time": "20:30",
-      "text": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "time": "21:30",
+      "text": "Trump and Netanyahu unlikely to strike Iran before elections , but Israel fears surpri",
+      "impact": "השפעה מיידית מחושבת: +9.8",
       "direction": "up",
-      "source": "britainnews.net",
-      "signal_id": "50a83d76515428bd"
+      "source": "ynetnews.com",
+      "signal_id": "8eb986a71c2446fb"
     },
     {
-      "time": "20:30",
-      "text": "Saudi diplomat says Iran encourages Houthi escalation of attacks on the kingdom – Winnipeg Free Press",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "time": "00:15",
+      "text": "Ousted general warned of years - long missile defense shortage before Iran war",
+      "impact": "השפעה מיידית מחושבת: +1.8",
       "direction": "up",
-      "source": "winnipegfreepress.com",
-      "signal_id": "98640c21beacb56c"
+      "source": "cbsnews.com",
+      "signal_id": "f0a1aa8fbcba80dd"
     },
     {
-      "time": "20:15",
-      "text": "Iran military says oil tanker on fire in Gulf of Oman",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "time": "00:15",
+      "text": "Iran precision strikes picked apart Gulf infrastructure , blunting US war plans",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "jordantimes.com",
-      "signal_id": "befb290e180dda37"
+      "source": "tribune.com.pk",
+      "signal_id": "d026e00956efd5c3"
     }
   ],
   "signals": [
     {
-      "id": "e6246bcb36c61555",
-      "name": "US - Iran stalemate : What are Trump next military options ? | US - Israel war on Iran News",
+      "id": "edde73a89de43eaa",
+      "name": "Israel studying Russian drones used in Ukraine war to counter Iranian threats",
       "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
       "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e6246bcb36c61555",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.32,
+      "dependency_group": "edde73a89de43eaa",
+      "strength": 0.63,
+      "reliability": 0.74,
+      "freshness": 0.57,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -94,27 +94,58 @@ window.MAGEN_STATE = {
         "short": 0.88,
         "extended": 0.56
       },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options",
-      "published_at": "2026-10-15T14:30:00Z",
+      "source": "jpost.com",
+      "url": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-911861",
+      "published_at": "2026-10-15T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 7.9,
-        "short": 6.2,
-        "extended": 2.6
+        "immediate": 23.4,
+        "short": 18.2,
+        "extended": 7.7
       }
     },
     {
-      "id": "50a83d76515428bd",
-      "name": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+      "id": "8eb986a71c2446fb",
+      "name": "Trump and Netanyahu unlikely to strike Iran before elections , but Israel fears surpri",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8eb986a71c2446fb",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.399,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "ynetnews.com",
+      "url": "https://www.ynetnews.com/article/skigpycimg",
+      "published_at": "2026-10-15T18:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 9.8,
+        "short": 7.7,
+        "extended": 3.3
+      }
+    },
+    {
+      "id": "f0a1aa8fbcba80dd",
+      "name": "Ousted general warned of years - long missile defense shortage before Iran war",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "50a83d76515428bd",
-      "strength": 0.4,
+      "dependency_group": "f0a1aa8fbcba80dd",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.755,
+      "freshness": 0.875,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,27 +156,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "britainnews.net",
-      "url": "http://www.britainnews.net/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-      "published_at": "2026-10-15T17:30:00Z",
+      "source": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/randy-george-missile-defense-shortage-iran-china/",
+      "published_at": "2026-10-15T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.4
+        "immediate": 1.8,
+        "short": 6.1,
+        "extended": 10.3
       }
     },
     {
-      "id": "98640c21beacb56c",
-      "name": "Saudi diplomat says Iran encourages Houthi escalation of attacks on the kingdom – Winnipeg Free Press",
+      "id": "d026e00956efd5c3",
+      "name": "Iran precision strikes picked apart Gulf infrastructure , blunting US war plans",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "98640c21beacb56c",
+      "dependency_group": "d026e00956efd5c3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.755,
+      "freshness": 0.875,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -156,76 +187,14 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "winnipegfreepress.com",
-      "url": "https://www.winnipegfreepress.com/business/2026/10/15/saudi-diplomat-says-iran-encourages-houthi-escalation-of-attacks-on-the-kingdom",
-      "published_at": "2026-10-15T17:30:00Z",
+      "source": "tribune.com.pk",
+      "url": "https://tribune.com.pk/story/2635072/irans-precision-strikes-picked-apart-gulf-infrastructure-blunting-us-war-plans",
+      "published_at": "2026-10-15T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.4
-      }
-    },
-    {
-      "id": "befb290e180dda37",
-      "name": "Iran military says oil tanker on fire in Gulf of Oman",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "befb290e180dda37",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.703,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jordantimes.com",
-      "url": "https://jordantimes.com/news/region/irans-military-says-oil-tanker-on-fire-in-gulf-of-oman",
-      "published_at": "2026-10-15T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
-      }
-    },
-    {
-      "id": "f1abe01c78c1e849",
-      "name": "U . S . Considers Using  Mother Of All Bomb Against Iran Nuclear Facilities",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f1abe01c78c1e849",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.703,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "worthynews.com",
-      "url": "https://www.worthynews.com/118240-u-s-considers-using-mother-of-all-bombs-against-irans-nuclear-facilities",
-      "published_at": "2026-10-15T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.1,
-        "extended": 6.9
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.6
       }
     },
     {
@@ -238,7 +207,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b33124b9ace0c05e",
       "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.492,
+      "freshness": 0.657,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -249,27 +218,244 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20261015/4511429.html",
-      "published_at": "2026-10-15T16:00:00Z",
+      "source": "iranherald.com",
+      "url": "http://www.iranherald.com/news/279376803/bombs-and-missiles-cannot-force-surrender-iran-president-pezeshkian-calls-for-national-unity-amid-us-strike-threats",
+      "published_at": "2026-10-15T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.6
+      }
+    },
+    {
+      "id": "e71baf68849a486d",
+      "name": "Donald Trump weighs up using  mother of all bomb against Iran as US plans new strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e71baf68849a486d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.758,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "mirror.co.uk",
+      "url": "https://www.mirror.co.uk/news/us-news/donald-trump-bomb-iran-strikes-37777431",
+      "published_at": "2026-10-15T20:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "e8a7a18d81311483",
+      "name": "Saudi diplomat says Iran encourages Houthi escalation of attacks on the kingdom",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e8a7a18d81311483",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.758,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "mymotherlode.com",
+      "url": "https://mymotherlode.com/news/world/11224541/saudi-diplomat-says-iran-encourages-houthi-escalation-of-attacks-on-the-kingdom.html",
+      "published_at": "2026-10-15T20:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "239334e51f5e8e4f",
+      "name": "Article : The Mother of All Bombs or the Mother of All Bluffs ? Washington Iran Strategy Meets the Limits of Military Power",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "239334e51f5e8e4f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.758,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "opednews.com",
+      "url": "https://www.opednews.com/populum/page.php?f=The-Mother-of-All-Bombs--Bluffing_Bomb-Scare_Bombing_History-261015-51.html",
+      "published_at": "2026-10-15T20:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "1a825434afb1ec72",
+      "name": "Iran - aligned Houthis strike Yemeni presidential palace in escalating campaign against Saudi Arabia",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1a825434afb1ec72",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.706,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ktvz.com",
+      "url": "https://ktvz.com/news/national-world/cnn-world/2026/10/15/iran-aligned-houthis-target-yemeni-presidential-palace-prime-minister-remains-unharmed/",
+      "published_at": "2026-10-15T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
+    },
+    {
+      "id": "50a83d76515428bd",
+      "name": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "50a83d76515428bd",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.706,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "beijingbulletin.com",
+      "url": "http://www.beijingbulletin.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+      "published_at": "2026-10-15T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
+    },
+    {
+      "id": "d28ea1940cb5ab41",
+      "name": "How Iran helped Houthis build missiles and drones - The HinduBusinessLine",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d28ea1940cb5ab41",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.531,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thehindubusinessline.com",
+      "url": "https://www.thehindubusinessline.com/news/world/how-iran-helped-houthis-build-weapons-capability-and-challenge-saudi-arabias-defences/article71589719.ece",
+      "published_at": "2026-10-15T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "7bc85c6133e4a968",
+      "name": "Pentagon Eyes  Mother Of All Bomb For Future Iran Strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7bc85c6133e4a968",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.657,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "zerohedge.com",
+      "url": "http://www.zerohedge.com/geopolitical/pentagon-eyes-mother-all-bombs-future-iran-strikes",
+      "published_at": "2026-10-15T20:15:00Z",
       "active": true,
       "computed": {
         "immediate": 1.1,
         "short": 3.8,
-        "extended": 6.4
+        "extended": 6.5
       }
     },
     {
-      "id": "1c8d6beed7dd7e5b",
-      "name": "US Plans Potential  Mother of All Bomb Attack on Iran",
+      "id": "594158fd40ed928d",
+      "name": "WAR ATMOSPHERE : Senior Iranian Officials Reportedly Tell Regional Diplomats They Are Convinced U . S . Will Attack – The Yeshiva World",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "1c8d6beed7dd7e5b",
+      "dependency_group": "594158fd40ed928d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.528,
+      "freshness": 0.399,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -280,58 +466,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "pakobserver.net",
-      "url": "https://pakobserver.net/us-plans-potential-mother-of-all-bombs-attack-on-iran/",
-      "published_at": "2026-10-15T16:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      }
-    },
-    {
-      "id": "fb02845d0d57af36",
-      "name": "US plans strikes on Iran using  mother of all bomb : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "fb02845d0d57af36",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.426,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "siasat.com",
-      "url": "https://www.siasat.com/us-plans-strikes-on-iran-using-mother-of-all-bombs-report-3558890/",
-      "published_at": "2026-10-15T15:30:00Z",
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/liveblogs/live-blog/2610569/war-atmosphere-senior-iranian-officials-reportedly-tell-regional-diplomats-they-are-convinced-u-s-will-attack.html",
+      "published_at": "2026-10-15T18:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "short": 2.3,
+        "extended": 3.9
       }
     },
     {
-      "id": "90d7b65c979d106f",
-      "name": "Trump weighs  mother of all bomb strike on Iran nuclear and energy sites : What is it ?",
+      "id": "4ae3d07201255424",
+      "name": "Iran military says oil tanker on fire in Gulf of Oman – The Frontier Post",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "90d7b65c979d106f",
+      "dependency_group": "4ae3d07201255424",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.426,
+      "freshness": 0.399,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -342,24 +497,49 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "livemint.com",
-      "url": "https://www.livemint.com/news/us-news/trump-weighs-mother-of-all-bombs-strike-on-iran-s-nuclear-and-energy-sites-what-is-it-11792072512785.html",
-      "published_at": "2026-10-15T15:30:00Z",
+      "source": "thefrontierpost.com",
+      "url": "https://thefrontierpost.com/irans-military-says-oil-tanker-on-fire-in-gulf-of-oman/",
+      "published_at": "2026-10-15T18:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "short": 2.3,
+        "extended": 3.9
+      }
+    },
+    {
+      "id": "87e6f5c9483e1b80",
+      "name": "Saudi Arabia accuses Iran of encouraging Houthis as attacks intensify",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "87e6f5c9483e1b80",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.399,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thefrontierpost.com",
+      "url": "https://thefrontierpost.com/saudi-arabia-accuses-iran-of-encouraging-houthis-as-attacks-intensify/",
+      "published_at": "2026-10-15T18:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.9
       }
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-07-29T07:27:39.275284Z",
-      "immediate": 2,
-      "short": 6,
-      "extended": 11
-    },
     {
       "timestamp": "2026-07-29T10:14:37.454884Z",
       "immediate": 5,
@@ -6401,17 +6581,23 @@ window.MAGEN_STATE = {
       "immediate": 11,
       "short": 18,
       "extended": 22
+    },
+    {
+      "timestamp": "2026-10-15T21:43:07.450544Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 33
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-10-15T18:29:02.994052Z",
+    "last_success": "2026-10-15T21:43:07.450544Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 9
+        "relevant": 15
       },
       "manual": {
         "ok": true,
