@@ -1,52 +1,297 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-10-15T09:27:49.007134Z",
+  "mode": "live",
+  "generated_at": "2026-10-15T14:21:51.089547Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 4,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 17,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
+      "score": 13,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "high": 26,
+      "confidence": 68,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 68,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 4
   },
-  "changes": [],
-  "signals": [],
-  "history": [
+  "changes": [
     {
-      "timestamp": "2026-07-29T01:10:06.958535Z",
-      "immediate": 5,
-      "short": 17,
-      "extended": 28
+      "time": "15:45",
+      "text": "Iran launches missiles at US airbase in Iraq , warns against retaliation",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "paradisepost.com",
+      "signal_id": "1787b8492a3e19ac"
     },
+    {
+      "time": "16:15",
+      "text": "Trump plots fresh strikes on Iran - Blueprint Newspapers Limited",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "blueprint.ng",
+      "signal_id": "cc11baa4dbbc2dbc"
+    },
+    {
+      "time": "15:30",
+      "text": "Bombs , missiles cannot force Iranian nation to surrender : President Pezeshkian",
+      "impact": "השפעה מיידית מחושבת: +1.2",
+      "direction": "up",
+      "source": "presstv.co.uk",
+      "signal_id": "6d7dc485cd8ae6d1"
+    },
+    {
+      "time": "15:30",
+      "text": "Iran may not order every Houthi attack , but backing Yemen rebels carries consequences",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "thenationalnews.com",
+      "signal_id": "91194d961bc3b445"
+    }
+  ],
+  "signals": [
+    {
+      "id": "1787b8492a3e19ac",
+      "name": "Iran launches missiles at US airbase in Iraq , warns against retaliation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1787b8492a3e19ac",
+      "strength": 0.53,
+      "reliability": 0.56,
+      "freshness": 0.631,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "paradisepost.com",
+      "url": "https://www.paradisepost.com/2020/01/07/iran-warns-us-not-retaliate-over-missile-attack-in-iraq/",
+      "published_at": "2026-10-15T12:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.8,
+        "extended": 8.2
+      }
+    },
+    {
+      "id": "cc11baa4dbbc2dbc",
+      "name": "Trump plots fresh strikes on Iran - Blueprint Newspapers Limited",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cc11baa4dbbc2dbc",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.727,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "blueprint.ng",
+      "url": "https://blueprint.ng/trump-plots-fresh-strikes-on-iran/",
+      "published_at": "2026-10-15T13:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
+      }
+    },
+    {
+      "id": "6d7dc485cd8ae6d1",
+      "name": "Bombs , missiles cannot force Iranian nation to surrender : President Pezeshkian",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6d7dc485cd8ae6d1",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.587,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/10/15/778367/Iran-Pezeshkian-bombs-missiles-cannot-force-surrender",
+      "published_at": "2026-10-15T12:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 6.9
+      }
+    },
+    {
+      "id": "91194d961bc3b445",
+      "name": "Iran may not order every Houthi attack , but backing Yemen rebels carries consequences",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "91194d961bc3b445",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.587,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thenationalnews.com",
+      "url": "https://www.thenationalnews.com/opinion/comment/2026/10/15/iran-houthis-saudi-arabia/",
+      "published_at": "2026-10-15T12:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "a72d3f39ddad5c91",
+      "name": "Iran Revolutionary Guards warn US would  regret  any new attack – Middle East Monitor",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a72d3f39ddad5c91",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.587,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeastmonitor.com",
+      "url": "https://www.middleeastmonitor.com/20261015-irans-revolutionary-guards-warn-us-would-regret-any-new-attack/",
+      "published_at": "2026-10-15T12:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "976aab9bc57067ca",
+      "name": "Iran has the ability to thwart US ground attack plans , says Iranian general",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "976aab9bc57067ca",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.587,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailythepatriot.com",
+      "url": "https://dailythepatriot.com/iran-has-the-ability-to-thwart-us-ground-attack-plans-says-iranian-general/",
+      "published_at": "2026-10-15T12:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "9106b7aa5501acc4",
+      "name": "US Weighs Using  Mother of All Bomb in New Iran Strike Plans : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9106b7aa5501acc4",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.587,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "themedialine.org",
+      "url": "https://themedialine.org/headlines/us-weighs-using-mother-of-all-bombs-in-new-iran-strike-plans-report/",
+      "published_at": "2026-10-15T12:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
+    }
+  ],
+  "history": [
     {
       "timestamp": "2026-07-29T04:32:57.916734Z",
       "immediate": 15,
@@ -6088,17 +6333,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-10-15T14:21:51.089547Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-10-15T04:39:51.521437Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-10-15T14:21:51.089547Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
