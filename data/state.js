@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-10-15T14:21:51.089547Z",
+  "generated_at": "2026-10-15T18:29:02.994052Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 4,
+      "score": 11,
       "low": 0,
-      "high": 17,
-      "confidence": 68,
-      "status": "לא זוהה אות חריג"
+      "high": 24,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 13,
-      "low": 0,
-      "high": 26,
-      "confidence": 68,
+      "score": 18,
+      "low": 5,
+      "high": 31,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 68,
-      "status": "נמוך"
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 67,
+      "status": "מוגבר"
     }
   },
   "coverage": {
@@ -35,86 +35,86 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 4
+    "level": "עלייה מהירה",
+    "points_60m": 7
   },
   "changes": [
     {
-      "time": "15:45",
-      "text": "Iran launches missiles at US airbase in Iraq , warns against retaliation",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "time": "17:30",
+      "text": "US - Iran stalemate : What are Trump next military options ? | US - Israel war on Iran News",
+      "impact": "השפעה מיידית מחושבת: +7.9",
       "direction": "up",
-      "source": "paradisepost.com",
-      "signal_id": "1787b8492a3e19ac"
+      "source": "aljazeera.com",
+      "signal_id": "e6246bcb36c61555"
     },
     {
-      "time": "16:15",
-      "text": "Trump plots fresh strikes on Iran - Blueprint Newspapers Limited",
+      "time": "20:30",
+      "text": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "britainnews.net",
+      "signal_id": "50a83d76515428bd"
+    },
+    {
+      "time": "20:30",
+      "text": "Saudi diplomat says Iran encourages Houthi escalation of attacks on the kingdom – Winnipeg Free Press",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "winnipegfreepress.com",
+      "signal_id": "98640c21beacb56c"
+    },
+    {
+      "time": "20:15",
+      "text": "Iran military says oil tanker on fire in Gulf of Oman",
       "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "blueprint.ng",
-      "signal_id": "cc11baa4dbbc2dbc"
-    },
-    {
-      "time": "15:30",
-      "text": "Bombs , missiles cannot force Iranian nation to surrender : President Pezeshkian",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "presstv.co.uk",
-      "signal_id": "6d7dc485cd8ae6d1"
-    },
-    {
-      "time": "15:30",
-      "text": "Iran may not order every Houthi attack , but backing Yemen rebels carries consequences",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "thenationalnews.com",
-      "signal_id": "91194d961bc3b445"
+      "source": "jordantimes.com",
+      "signal_id": "befb290e180dda37"
     }
   ],
   "signals": [
     {
-      "id": "1787b8492a3e19ac",
-      "name": "Iran launches missiles at US airbase in Iraq , warns against retaliation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
+      "id": "e6246bcb36c61555",
+      "name": "US - Iran stalemate : What are Trump next military options ? | US - Israel war on Iran News",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "1787b8492a3e19ac",
-      "strength": 0.53,
+      "dependency_group": "e6246bcb36c61555",
+      "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.631,
+      "freshness": 0.32,
       "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
       },
       "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
       },
-      "source": "paradisepost.com",
-      "url": "https://www.paradisepost.com/2020/01/07/iran-warns-us-not-retaliate-over-missile-attack-in-iraq/",
-      "published_at": "2026-10-15T12:45:00Z",
+      "source": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options",
+      "published_at": "2026-10-15T14:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
+        "immediate": 7.9,
+        "short": 6.2,
+        "extended": 2.6
       }
     },
     {
-      "id": "cc11baa4dbbc2dbc",
-      "name": "Trump plots fresh strikes on Iran - Blueprint Newspapers Limited",
+      "id": "50a83d76515428bd",
+      "name": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "cc11baa4dbbc2dbc",
+      "dependency_group": "50a83d76515428bd",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.727,
+      "freshness": 0.755,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,27 +125,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "blueprint.ng",
-      "url": "https://blueprint.ng/trump-plots-fresh-strikes-on-iran/",
-      "published_at": "2026-10-15T13:15:00Z",
+      "source": "britainnews.net",
+      "url": "http://www.britainnews.net/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+      "published_at": "2026-10-15T17:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.4
       }
     },
     {
-      "id": "6d7dc485cd8ae6d1",
-      "name": "Bombs , missiles cannot force Iranian nation to surrender : President Pezeshkian",
+      "id": "98640c21beacb56c",
+      "name": "Saudi diplomat says Iran encourages Houthi escalation of attacks on the kingdom – Winnipeg Free Press",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "6d7dc485cd8ae6d1",
-      "strength": 0.48,
+      "dependency_group": "98640c21beacb56c",
+      "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.587,
+      "freshness": 0.755,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -156,9 +156,40 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/10/15/778367/Iran-Pezeshkian-bombs-missiles-cannot-force-surrender",
-      "published_at": "2026-10-15T12:30:00Z",
+      "source": "winnipegfreepress.com",
+      "url": "https://www.winnipegfreepress.com/business/2026/10/15/saudi-diplomat-says-iran-encourages-houthi-escalation-of-attacks-on-the-kingdom",
+      "published_at": "2026-10-15T17:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "befb290e180dda37",
+      "name": "Iran military says oil tanker on fire in Gulf of Oman",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "befb290e180dda37",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.703,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jordantimes.com",
+      "url": "https://jordantimes.com/news/region/irans-military-says-oil-tanker-on-fire-in-gulf-of-oman",
+      "published_at": "2026-10-15T17:15:00Z",
       "active": true,
       "computed": {
         "immediate": 1.2,
@@ -167,16 +198,16 @@ window.MAGEN_STATE = {
       }
     },
     {
-      "id": "91194d961bc3b445",
-      "name": "Iran may not order every Houthi attack , but backing Yemen rebels carries consequences",
+      "id": "f1abe01c78c1e849",
+      "name": "U . S . Considers Using  Mother Of All Bomb Against Iran Nuclear Facilities",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "91194d961bc3b445",
+      "dependency_group": "f1abe01c78c1e849",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.587,
+      "freshness": 0.703,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -187,27 +218,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "thenationalnews.com",
-      "url": "https://www.thenationalnews.com/opinion/comment/2026/10/15/iran-houthis-saudi-arabia/",
-      "published_at": "2026-10-15T12:30:00Z",
+      "source": "worthynews.com",
+      "url": "https://www.worthynews.com/118240-u-s-considers-using-mother-of-all-bombs-against-irans-nuclear-facilities",
+      "published_at": "2026-10-15T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 6.9
       }
     },
     {
-      "id": "a72d3f39ddad5c91",
-      "name": "Iran Revolutionary Guards warn US would  regret  any new attack – Middle East Monitor",
+      "id": "b33124b9ace0c05e",
+      "name": "Bombs and missiles cannot force surrender : Iran President Pezeshkian calls for national unity amid US strike threats",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a72d3f39ddad5c91",
-      "strength": 0.4,
+      "dependency_group": "b33124b9ace0c05e",
+      "strength": 0.53,
       "reliability": 0.56,
-      "freshness": 0.587,
+      "freshness": 0.492,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -218,27 +249,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "middleeastmonitor.com",
-      "url": "https://www.middleeastmonitor.com/20261015-irans-revolutionary-guards-warn-us-would-regret-any-new-attack/",
-      "published_at": "2026-10-15T12:30:00Z",
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20261015/4511429.html",
+      "published_at": "2026-10-15T16:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.4
       }
     },
     {
-      "id": "976aab9bc57067ca",
-      "name": "Iran has the ability to thwart US ground attack plans , says Iranian general",
+      "id": "1c8d6beed7dd7e5b",
+      "name": "US Plans Potential  Mother of All Bomb Attack on Iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "976aab9bc57067ca",
+      "dependency_group": "1c8d6beed7dd7e5b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.587,
+      "freshness": 0.528,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -249,27 +280,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "dailythepatriot.com",
-      "url": "https://dailythepatriot.com/iran-has-the-ability-to-thwart-us-ground-attack-plans-says-iranian-general/",
-      "published_at": "2026-10-15T12:30:00Z",
+      "source": "pakobserver.net",
+      "url": "https://pakobserver.net/us-plans-potential-mother-of-all-bombs-attack-on-iran/",
+      "published_at": "2026-10-15T16:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.2
       }
     },
     {
-      "id": "9106b7aa5501acc4",
-      "name": "US Weighs Using  Mother of All Bomb in New Iran Strike Plans : Report",
+      "id": "fb02845d0d57af36",
+      "name": "US plans strikes on Iran using  mother of all bomb : Report",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "9106b7aa5501acc4",
+      "dependency_group": "fb02845d0d57af36",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.587,
+      "freshness": 0.426,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -280,24 +311,49 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "themedialine.org",
-      "url": "https://themedialine.org/headlines/us-weighs-using-mother-of-all-bombs-in-new-iran-strike-plans-report/",
-      "published_at": "2026-10-15T12:30:00Z",
+      "source": "siasat.com",
+      "url": "https://www.siasat.com/us-plans-strikes-on-iran-using-mother-of-all-bombs-report-3558890/",
+      "published_at": "2026-10-15T15:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
+      }
+    },
+    {
+      "id": "90d7b65c979d106f",
+      "name": "Trump weighs  mother of all bomb strike on Iran nuclear and energy sites : What is it ?",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "90d7b65c979d106f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.426,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "livemint.com",
+      "url": "https://www.livemint.com/news/us-news/trump-weighs-mother-of-all-bombs-strike-on-iran-s-nuclear-and-energy-sites-what-is-it-11792072512785.html",
+      "published_at": "2026-10-15T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.2
       }
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-07-29T04:32:57.916734Z",
-      "immediate": 15,
-      "short": 22,
-      "extended": 27
-    },
     {
       "timestamp": "2026-07-29T07:27:39.275284Z",
       "immediate": 2,
@@ -6339,17 +6395,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 13,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-10-15T18:29:02.994052Z",
+      "immediate": 11,
+      "short": 18,
+      "extended": 22
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-10-15T14:21:51.089547Z",
+    "last_success": "2026-10-15T18:29:02.994052Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 7
+        "relevant": 9
       },
       "manual": {
         "ok": true,
