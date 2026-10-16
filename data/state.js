@@ -1,109 +1,70 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-10-16T09:09:41.442753Z",
+  "mode": "degraded",
+  "generated_at": "2026-10-16T13:59:12.884974Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 18,
-      "low": 5,
-      "high": 31,
-      "confidence": 67,
-      "status": "נמוך"
+      "score": 1,
+      "low": 0,
+      "high": 21,
+      "confidence": 30,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 20,
-      "low": 7,
-      "high": 33,
-      "confidence": 67,
-      "status": "נמוך"
+      "score": 2,
+      "low": 0,
+      "high": 22,
+      "confidence": 30,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 20,
-      "low": 7,
-      "high": 33,
-      "confidence": 67,
-      "status": "נמוך"
+      "score": 4,
+      "low": 0,
+      "high": 24,
+      "confidence": 30,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 18
+    "level": "ירידה",
+    "points_60m": -17
   },
   "changes": [
     {
-      "time": "10:30",
-      "text": "Israel unlikely to attack Iran before elections",
-      "impact": "השפעה מיידית מחושבת: +15.3",
-      "direction": "up",
-      "source": "middleeaststar.com",
-      "signal_id": "3587d6608a013993"
-    },
-    {
       "time": "11:00",
       "text": "בעל הבית באיראן משתגע : תוכניות תקיפה עם  אם כל הפצצות",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "kikar.co.il",
       "signal_id": "3341578b65937b4e"
     },
     {
-      "time": "10:15",
-      "text": "Ousted US general warned before Iran war of missile defense shortages lasting until 2030 : Report",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "aa.com.tr",
-      "signal_id": "b61b49b2d0642020"
-    },
-    {
       "time": "11:00",
       "text": "Trump dismisses going nuclear on Iran , possible ground invasion",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "news.webindia123.com",
       "signal_id": "d0f8821c11ea0780"
+    },
+    {
+      "time": "11:00",
+      "text": "טראמפ חושף :  לא סומך על נתניהו  • תוכניות תקיפה באיראן",
+      "impact": "השפעה מיידית מחושבת: +0.3",
+      "direction": "up",
+      "source": "kikar.co.il",
+      "signal_id": "248adb2d0af9a38c"
     }
   ],
   "signals": [
-    {
-      "id": "3587d6608a013993",
-      "name": "Israel unlikely to attack Iran before elections",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3587d6608a013993",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.622,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "middleeaststar.com",
-      "url": "http://www.middleeaststar.com/news/279377831/israel-unlikely-to-attack-iran-before-elections-media",
-      "published_at": "2026-10-16T07:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 15.3,
-        "short": 12.0,
-        "extended": 5.1
-      }
-    },
     {
       "id": "3341578b65937b4e",
       "name": "בעל הבית באיראן משתגע : תוכניות תקיפה עם  אם כל הפצצות",
@@ -114,7 +75,7 @@ window.MAGEN_STATE = {
       "dependency_group": "3341578b65937b4e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.718,
+      "freshness": 0.181,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,41 +91,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-16T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      }
-    },
-    {
-      "id": "b61b49b2d0642020",
-      "name": "Ousted US general warned before Iran war of missile defense shortages lasting until 2030 : Report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b61b49b2d0642020",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.579,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.3,
+        "short": 1.0,
+        "extended": 1.8
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "aa.com.tr",
-      "url": "https://aa.com.tr/en/americas/ousted-us-general-warned-before-iran-war-of-missile-defense-shortages-lasting-until-2030-report/4090522",
-      "published_at": "2026-10-16T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
+      "carried_forward": true
     },
     {
       "id": "d0f8821c11ea0780",
@@ -176,7 +107,7 @@ window.MAGEN_STATE = {
       "dependency_group": "d0f8821c11ea0780",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.718,
+      "freshness": 0.181,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +123,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-16T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      }
+        "immediate": 0.3,
+        "short": 1.0,
+        "extended": 1.8
+      },
+      "carried_forward": true
     },
     {
       "id": "248adb2d0af9a38c",
@@ -207,7 +139,7 @@ window.MAGEN_STATE = {
       "dependency_group": "248adb2d0af9a38c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.718,
+      "freshness": 0.181,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,205 +155,14 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-16T08:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.1
-      }
-    },
-    {
-      "id": "39132bc0067924dd",
-      "name": "LIVE Updates : Hormuz ship attacks surge as Trump says Iran war will end very soon",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "39132bc0067924dd",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.622,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.3,
+        "short": 1.0,
+        "extended": 1.8
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.az",
-      "url": "https://news.az/news/live-updates-hormuz-ship-attacks-surge-as-trump-says-iran-war-will-end-very-soon",
-      "published_at": "2026-10-16T07:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
-    },
-    {
-      "id": "5453a1d548cc6fa7",
-      "name": "IRAN WAR ALERT : Unusual Military Activity Detected As Netanyahu Briefs Trump ; U . S . Weighs Massive New Strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5453a1d548cc6fa7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.579,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2610652/iran-war-alert-unusual-military-activity-detected-as-netanyahu-briefs-trump-u-s-weighs-massive-new-strikes.html",
-      "published_at": "2026-10-16T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
-      }
-    },
-    {
-      "id": "15a8e419c88bbfcf",
-      "name": "Trump rules out nuclear strike on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "15a8e419c88bbfcf",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.579,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "samaa.tv",
-      "url": "https://www.samaa.tv/2087358549-trump-rules-out-nuclear-strike-pezeshkian-says-iran-won-t-surrender",
-      "published_at": "2026-10-16T07:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
-      }
-    },
-    {
-      "id": "de0056682b98e53a",
-      "name": "US President Trump said Iran had asked for a halt to US attacks ; European bourses set for a firmer open after the recent tech sell off - Newsquawk EU Market Open",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "de0056682b98e53a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.539,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "zerohedge.com",
-      "url": "http://www.zerohedge.com/markets/us-president-trump-said-iran-had-asked-halt-us-attacks-european-bourses-set-firmer-open",
-      "published_at": "2026-10-16T07:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
-    },
-    {
-      "id": "b481863b57ceb989",
-      "name": "Marco Rubio accuses Cuba of helping Iran and other  malign actor to attack US",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b481863b57ceb989",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.539,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thenationalnews.com",
-      "url": "https://www.thenationalnews.com/news/us/2026/10/15/marco-rubio-accuses-cuba-of-helping-iran-and-other-malign-actors-to-attack-us/",
-      "published_at": "2026-10-16T07:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
-    },
-    {
-      "id": "2c8bcdeea754bb43",
-      "name": "Biggest Non - Nuclear Bomb in Iran Plans ; Trump Rules Out Nukes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2c8bcdeea754bb43",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.405,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hngn.com",
-      "url": "https://www.hngn.com/articles/273521/20261015/biggest-non-nuclear-bomb-iran-plans-trump-rules-out-nukes.htm",
-      "published_at": "2026-10-16T06:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      }
+      "carried_forward": true
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-07-29T16:37:10.722567Z",
-      "immediate": 22,
-      "short": 24,
-      "extended": 22
-    },
     {
       "timestamp": "2026-07-29T17:57:01.722830Z",
       "immediate": 12,
@@ -6463,17 +6204,23 @@ window.MAGEN_STATE = {
       "immediate": 18,
       "short": 20,
       "extended": 20
+    },
+    {
+      "timestamp": "2026-10-16T13:59:12.884974Z",
+      "immediate": 1,
+      "short": 2,
+      "extended": 4
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-10-16T09:09:41.442753Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 11
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 3
       },
       "manual": {
         "ok": true,
