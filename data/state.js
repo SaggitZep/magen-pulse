@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-10-16T13:59:12.884974Z",
+  "generated_at": "2026-10-16T17:57:39.407021Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 0,
       "low": 0,
-      "high": 21,
-      "confidence": 30,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 2,
+      "score": 0,
       "low": 0,
       "high": 22,
-      "confidence": 30,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 4,
+      "score": 0,
       "low": 0,
-      "high": 24,
-      "confidence": 30,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     }
   },
@@ -35,140 +35,12 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -17
+    "level": "יציב",
+    "points_60m": -1
   },
-  "changes": [
-    {
-      "time": "11:00",
-      "text": "בעל הבית באיראן משתגע : תוכניות תקיפה עם  אם כל הפצצות",
-      "impact": "השפעה מיידית מחושבת: +0.3",
-      "direction": "up",
-      "source": "kikar.co.il",
-      "signal_id": "3341578b65937b4e"
-    },
-    {
-      "time": "11:00",
-      "text": "Trump dismisses going nuclear on Iran , possible ground invasion",
-      "impact": "השפעה מיידית מחושבת: +0.3",
-      "direction": "up",
-      "source": "news.webindia123.com",
-      "signal_id": "d0f8821c11ea0780"
-    },
-    {
-      "time": "11:00",
-      "text": "טראמפ חושף :  לא סומך על נתניהו  • תוכניות תקיפה באיראן",
-      "impact": "השפעה מיידית מחושבת: +0.3",
-      "direction": "up",
-      "source": "kikar.co.il",
-      "signal_id": "248adb2d0af9a38c"
-    }
-  ],
-  "signals": [
-    {
-      "id": "3341578b65937b4e",
-      "name": "בעל הבית באיראן משתגע : תוכניות תקיפה עם  אם כל הפצצות",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3341578b65937b4e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kikar.co.il",
-      "url": "https://www.kikar.co.il/news/israel-us-iran-moab-bomb-strike-plans",
-      "published_at": "2026-10-16T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.0,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d0f8821c11ea0780",
-      "name": "Trump dismisses going nuclear on Iran , possible ground invasion",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d0f8821c11ea0780",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20261016/4511581.html",
-      "published_at": "2026-10-16T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.0,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "248adb2d0af9a38c",
-      "name": "טראמפ חושף :  לא סומך על נתניהו  • תוכניות תקיפה באיראן",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "248adb2d0af9a38c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kikar.co.il",
-      "url": "https://www.kikar.co.il/world-news/trump-netanyahu-iran-zelenskyy-newsmax-interview",
-      "published_at": "2026-10-16T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.0,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
-    {
-      "timestamp": "2026-07-29T17:57:01.722830Z",
-      "immediate": 12,
-      "short": 15,
-      "extended": 14
-    },
     {
       "timestamp": "2026-07-29T19:38:15.415515Z",
       "immediate": 13,
@@ -6210,17 +6082,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 2,
       "extended": 4
+    },
+    {
+      "timestamp": "2026-10-16T17:57:39.407021Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-10-16T09:09:41.442753Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 3
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
