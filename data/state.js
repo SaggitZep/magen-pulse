@@ -1,105 +1,112 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-10-17T17:02:26.192964Z",
+  "mode": "live",
+  "generated_at": "2026-10-17T19:18:25.268521Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
-      "low": 0,
-      "high": 20,
-      "confidence": 34,
-      "status": "לא זוהה אות חריג"
+      "score": 25,
+      "low": 11,
+      "high": 39,
+      "confidence": 63,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
-      "low": 0,
-      "high": 23,
-      "confidence": 34,
-      "status": "לא זוהה אות חריג"
+      "score": 24,
+      "low": 10,
+      "high": 38,
+      "confidence": 61,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 7,
-      "low": 0,
-      "high": 26,
-      "confidence": 34,
-      "status": "לא זוהה אות חריג"
+      "score": 19,
+      "low": 5,
+      "high": 33,
+      "confidence": 60,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -2
+    "level": "זינוק חריג",
+    "points_60m": 24
   },
   "changes": [
     {
-      "time": "16:30",
-      "text": "Iran missiles determine equation , forced US to say  Yes , sir !: Acting defense minister",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "20:45",
+      "text": "Gil Hoffman : Israel must treat media war as seriously as Iran nuclear threat",
+      "impact": "השפעה מיידית מחושבת: +23.0",
       "direction": "up",
-      "source": "presstv.co.uk",
-      "signal_id": "29b80de64ca55b9a"
+      "source": "jpost.com",
+      "signal_id": "ffe0a0c3972eaebc"
     },
     {
-      "time": "15:15",
-      "text": "Iran - backed Houthis strike Yemen Aden : What that means - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "21:30",
+      "text": "Iran - US conflict raises threats to global shipping",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "dominicanrepublicpost.com",
-      "signal_id": "2bdb63ad6aca379e"
+      "source": "nashvilleherald.com",
+      "signal_id": "f0529e920c53efd7"
+    },
+    {
+      "time": "18:30",
+      "text": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels",
+      "impact": "השפעה מיידית מחושבת: +0.6",
+      "direction": "up",
+      "source": "aljazeera.com",
+      "signal_id": "dc08810ff4537097"
     }
   ],
   "signals": [
     {
-      "id": "29b80de64ca55b9a",
-      "name": "Iran missiles determine equation , forced US to say  Yes , sir !: Acting defense minister",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
+      "id": "ffe0a0c3972eaebc",
+      "name": "Gil Hoffman : Israel must treat media war as seriously as Iran nuclear threat",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "29b80de64ca55b9a",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.364,
+      "dependency_group": "ffe0a0c3972eaebc",
+      "strength": 0.55,
+      "reliability": 0.74,
+      "freshness": 0.641,
       "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
       },
       "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
       },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/10/17/778515/Iran-missile-power-United-States-mother-of-all-bombs-Trump",
-      "published_at": "2026-10-17T13:30:00Z",
+      "source": "jpost.com",
+      "url": "http://www.jpost.com/israel-news/article-911877",
+      "published_at": "2026-10-17T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      },
-      "carried_forward": true
+        "immediate": 23.0,
+        "short": 17.9,
+        "extended": 7.6
+      }
     },
     {
-      "id": "2bdb63ad6aca379e",
-      "name": "Iran - backed Houthis strike Yemen Aden : What that means - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "id": "f0529e920c53efd7",
+      "name": "Iran - US conflict raises threats to global shipping",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "2bdb63ad6aca379e",
-      "strength": 0.4,
+      "dependency_group": "f0529e920c53efd7",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.254,
+      "freshness": 0.794,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -110,25 +117,49 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "dominicanrepublicpost.com",
-      "url": "https://dominicanrepublicpost.com/iran-backed-houthis-strike-yemens-aden-what-that-means/",
-      "published_at": "2026-10-17T12:15:00Z",
+      "source": "nashvilleherald.com",
+      "url": "http://www.nashvilleherald.com/news/279377132/iran-us-conflict-raises-threats-to-global-shipping",
+      "published_at": "2026-10-17T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "dc08810ff4537097",
+      "name": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "dc08810ff4537097",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.337,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels",
+      "published_at": "2026-10-17T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.3
+      }
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-07-30T07:17:25.872903Z",
-      "immediate": 4,
-      "short": 15,
-      "extended": 24
-    },
     {
       "timestamp": "2026-07-30T09:56:47.219065Z",
       "immediate": 2,
@@ -6170,17 +6201,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 7
+    },
+    {
+      "timestamp": "2026-10-17T19:18:25.268521Z",
+      "immediate": 25,
+      "short": 24,
+      "extended": 19
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-10-17T13:59:10.747837Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-10-17T19:18:25.268521Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 2
+        "ok": true,
+        "items": 150,
+        "relevant": 3
       },
       "manual": {
         "ok": true,
