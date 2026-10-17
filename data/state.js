@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-10-17T13:59:10.747837Z",
+  "mode": "degraded",
+  "generated_at": "2026-10-17T17:02:26.192964Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 1,
       "low": 0,
-      "high": 17,
-      "confidence": 59,
+      "high": 20,
+      "confidence": 34,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 4,
       "low": 0,
-      "high": 25,
-      "confidence": 59,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 34,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 4,
-      "high": 32,
-      "confidence": 59,
-      "status": "נמוך"
+      "score": 7,
+      "low": 0,
+      "high": 26,
+      "confidence": 34,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 3
+    "level": "ירידה",
+    "points_60m": -2
   },
   "changes": [
     {
       "time": "16:30",
       "text": "Iran missiles determine equation , forced US to say  Yes , sir !: Acting defense minister",
-      "impact": "השפעה מיידית מחושבת: +1.8",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "presstv.co.uk",
       "signal_id": "29b80de64ca55b9a"
@@ -50,18 +50,10 @@ window.MAGEN_STATE = {
     {
       "time": "15:15",
       "text": "Iran - backed Houthis strike Yemen Aden : What that means - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "dominicanrepublicpost.com",
       "signal_id": "2bdb63ad6aca379e"
-    },
-    {
-      "time": "13:00",
-      "text": "Iran - aligned Houthis launch deadly attack on Yemeni presidential palace in escalating campaign against Saudi Arabia",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "egyptindependent.com",
-      "signal_id": "b942329ed045cf95"
     }
   ],
   "signals": [
@@ -75,7 +67,7 @@ window.MAGEN_STATE = {
       "dependency_group": "29b80de64ca55b9a",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.87,
+      "freshness": 0.364,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -91,10 +83,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-17T13:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.8,
-        "short": 6.0,
-        "extended": 10.3
-      }
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      },
+      "carried_forward": true
     },
     {
       "id": "2bdb63ad6aca379e",
@@ -106,7 +99,7 @@ window.MAGEN_STATE = {
       "dependency_group": "2bdb63ad6aca379e",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.609,
+      "freshness": 0.254,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -122,50 +115,14 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-17T12:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.5,
-        "extended": 6.0
-      }
-    },
-    {
-      "id": "b942329ed045cf95",
-      "name": "Iran - aligned Houthis launch deadly attack on Yemeni presidential palace in escalating campaign against Saudi Arabia",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b942329ed045cf95",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.32,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "egyptindependent.com",
-      "url": "https://www.egyptindependent.com/iran-aligned-houthis-launch-deadly-attack-on-yemeni-presidential-palace-in-escalating-campaign-against-saudi-arabia/",
-      "published_at": "2026-10-17T10:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      }
+      "carried_forward": true
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-07-30T04:24:18.240054Z",
-      "immediate": 2,
-      "short": 6,
-      "extended": 11
-    },
     {
       "timestamp": "2026-07-30T07:17:25.872903Z",
       "immediate": 4,
@@ -6207,17 +6164,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 11,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-10-17T17:02:26.192964Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 7
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-10-17T13:59:10.747837Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 3
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 2
       },
       "manual": {
         "ok": true,
