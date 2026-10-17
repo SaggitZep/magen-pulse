@@ -1,109 +1,54 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-10-17T01:29:14.650928Z",
+  "mode": "degraded",
+  "generated_at": "2026-10-17T06:06:05.088200Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 13,
+      "score": 0,
       "low": 0,
-      "high": 26,
-      "confidence": 65,
-      "status": "נמוך"
+      "high": 20,
+      "confidence": 27,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 19,
-      "low": 6,
-      "high": 32,
-      "confidence": 65,
-      "status": "נמוך"
+      "score": 1,
+      "low": 0,
+      "high": 21,
+      "confidence": 27,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 66,
-      "status": "נמוך"
+      "score": 2,
+      "low": 0,
+      "high": 22,
+      "confidence": 27,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -6
+    "points_60m": -13
   },
   "changes": [
     {
-      "time": "00:30",
-      "text": "COUNTERING IRANIAN DRONES : Ukraine Transfers Russian - Used Weapons to Israel for Examination",
-      "impact": "השפעה מיידית מחושבת: +9.1",
-      "direction": "up",
-      "source": "theyeshivaworld.com",
-      "signal_id": "b354ce85fd2d86f1"
-    },
-    {
       "time": "04:00",
       "text": "Iran denies Saudi accusation of involvement in Houthi attacks",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "channelnewsasia.com",
       "signal_id": "de168459349c69c6"
-    },
-    {
-      "time": "03:00",
-      "text": "Iran denies backing Houthi attacks on Saudi Arabia amid fresh missile , drone interceptions",
-      "impact": "השפעה מיידית מחושבת: +1.3",
-      "direction": "up",
-      "source": "geo.tv",
-      "signal_id": "1dd75457547b25e3"
-    },
-    {
-      "time": "02:30",
-      "text": "Saudis Accuse Iran - Backed Houthi Terrorists of Attacking Medina",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "breitbart.com",
-      "signal_id": "716746efcd4ec516"
     }
   ],
   "signals": [
-    {
-      "id": "b354ce85fd2d86f1",
-      "name": "COUNTERING IRANIAN DRONES : Ukraine Transfers Russian - Used Weapons to Israel for Examination",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b354ce85fd2d86f1",
-      "strength": 0.58,
-      "reliability": 0.56,
-      "freshness": 0.32,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2610821/countering-iranian-drones-ukraine-transfers-russian-used-weapons-to-israel-for-examination.html",
-      "published_at": "2026-10-16T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 9.1,
-        "short": 7.1,
-        "extended": 3.0
-      }
-    },
     {
       "id": "de168459349c69c6",
       "name": "Iran denies Saudi accusation of involvement in Houthi attacks",
@@ -114,7 +59,7 @@ window.MAGEN_STATE = {
       "dependency_group": "de168459349c69c6",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.87,
+      "freshness": 0.233,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,236 +75,14 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-17T01:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.6
-      }
-    },
-    {
-      "id": "1dd75457547b25e3",
-      "name": "Iran denies backing Houthi attacks on Saudi Arabia amid fresh missile , drone interceptions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1dd75457547b25e3",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.654,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.3
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "geo.tv",
-      "url": "https://www.geo.tv/latest/686927-iran-rejects-saudi-accusation-of-fuelling-houthi-escalation-as-attacks-target-kingdom-yemen",
-      "published_at": "2026-10-17T00:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
-    },
-    {
-      "id": "716746efcd4ec516",
-      "name": "Saudis Accuse Iran - Backed Houthi Terrorists of Attacking Medina",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "716746efcd4ec516",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.567,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "breitbart.com",
-      "url": "https://www.breitbart.com/national-security/2026/10/15/saudis-accuse-iran-backed-houthi-terrorists-of-attacking-islams-holy-city-of-medina/",
-      "published_at": "2026-10-16T23:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
-    },
-    {
-      "id": "f3824ae455a3a4f6",
-      "name": "Ukraine drone strikes and Iran war split blame on skyrocketing diesel prices",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f3824ae455a3a4f6",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.426,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "washingtonexaminer.com",
-      "url": "http://www.washingtonexaminer.com/policy/energy-and-environment/4769370/ukraine-strikes-iran-war-split-blame-diesel-prices/",
-      "published_at": "2026-10-16T22:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.0
-      }
-    },
-    {
-      "id": "4e63fabd6e3414f7",
-      "name": "Iran boosts military defenses , braces for renewed U . S . strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4e63fabd6e3414f7",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.528,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "columbian.com",
-      "url": "https://www.columbian.com/news/2026/oct/16/iran-boosts-military-defenses-braces-for-renewed-u-s-strikes/",
-      "published_at": "2026-10-16T23:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.2
-      }
-    },
-    {
-      "id": "10386b1b9a204a82",
-      "name": "Saudi Arabia says Houthi attacks violate terms of rapprochement with Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "10386b1b9a204a82",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.426,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-says-houthi-attacks-violate-terms-rapprochement-iran",
-      "published_at": "2026-10-16T22:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
-      }
-    },
-    {
-      "id": "074fbc23ca2fd4d0",
-      "name": "UNUSUAL IRANIAN ACTIVITY : Netanyahu Briefs Trump as U . S . Reviews Strike Plans , Officials See No Immediate Threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "074fbc23ca2fd4d0",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.32,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2610815/unusual-iranian-activity-netanyahu-briefs-trump-as-u-s-reviews-strike-plans-officials-see-no-immediate-threat.html",
-      "published_at": "2026-10-16T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      }
-    },
-    {
-      "id": "879113a358f8d32d",
-      "name": "Iran denies role in Houthi attacks on Saudi Arabia , offers mediation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "879113a358f8d32d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.32,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailysabah.com",
-      "url": "https://www.dailysabah.com/world/mid-east/iran-denies-role-in-houthi-attacks-on-saudi-arabia-offers-mediation",
-      "published_at": "2026-10-16T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.9,
-        "extended": 3.2
-      }
+      "carried_forward": true
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-07-29T22:40:42.975293Z",
-      "immediate": 25,
-      "short": 28,
-      "extended": 27
-    },
     {
       "timestamp": "2026-07-29T23:44:57.195841Z",
       "immediate": 19,
@@ -6401,17 +6124,23 @@ window.MAGEN_STATE = {
       "immediate": 13,
       "short": 19,
       "extended": 21
+    },
+    {
+      "timestamp": "2026-10-17T06:06:05.088200Z",
+      "immediate": 0,
+      "short": 1,
+      "extended": 2
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-10-17T01:29:14.650928Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 9
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 1
       },
       "manual": {
         "ok": true,
