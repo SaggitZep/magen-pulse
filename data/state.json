@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-10-17T19:18:25.268521Z",
+  "generated_at": "2026-10-17T21:32:55.004350Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 25,
-      "low": 11,
-      "high": 39,
-      "confidence": 63,
-      "status": "מוגבר"
+      "score": 15,
+      "low": 2,
+      "high": 28,
+      "confidence": 65,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 24,
-      "low": 10,
-      "high": 38,
-      "confidence": 61,
-      "status": "מוגבר"
+      "score": 19,
+      "low": 6,
+      "high": 32,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 5,
-      "high": 33,
-      "confidence": 60,
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 66,
       "status": "נמוך"
     }
   },
@@ -35,33 +35,41 @@
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 24
+    "level": "ירידה",
+    "points_60m": -10
   },
   "changes": [
     {
       "time": "20:45",
       "text": "Gil Hoffman : Israel must treat media war as seriously as Iran nuclear threat",
-      "impact": "השפעה מיידית מחושבת: +23.0",
+      "impact": "השפעה מיידית מחושבת: +12.1",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "ffe0a0c3972eaebc"
     },
     {
-      "time": "21:30",
-      "text": "Iran - US conflict raises threats to global shipping",
+      "time": "00:00",
+      "text": "Iran attacks on Hormuz shipping  unsuccessful , Centcom says",
       "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "nashvilleherald.com",
-      "signal_id": "f0529e920c53efd7"
+      "source": "middleeasteye.net",
+      "signal_id": "8f74a12257834b81"
     },
     {
-      "time": "18:30",
-      "text": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "time": "22:30",
+      "text": "Iran FM says Tehran ready for dialogue based on mutual respect , credible guarantees",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
-      "source": "aljazeera.com",
-      "signal_id": "dc08810ff4537097"
+      "source": "iraqsun.com",
+      "signal_id": "b656218baf8a7ed5"
+    },
+    {
+      "time": "22:00",
+      "text": "Ship attacks in Strait of Hormuz hit record high since Iran war began",
+      "impact": "השפעה מיידית מחושבת: +0.8",
+      "direction": "up",
+      "source": "nypost.com",
+      "signal_id": "cbeb3109d8e082b3"
     }
   ],
   "signals": [
@@ -75,7 +83,7 @@
       "dependency_group": "ffe0a0c3972eaebc",
       "strength": 0.55,
       "reliability": 0.74,
-      "freshness": 0.641,
+      "freshness": 0.338,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -91,9 +99,102 @@
       "published_at": "2026-10-17T17:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 23.0,
-        "short": 17.9,
-        "extended": 7.6
+        "immediate": 12.1,
+        "short": 9.4,
+        "extended": 4.0
+      }
+    },
+    {
+      "id": "8f74a12257834b81",
+      "name": "Iran attacks on Hormuz shipping  unsuccessful , Centcom says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8f74a12257834b81",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.855,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeasteye.net",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-attacks-hormuz-shipping-unsuccessful-centcom-says-0",
+      "published_at": "2026-10-17T21:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "b656218baf8a7ed5",
+      "name": "Iran FM says Tehran ready for dialogue based on mutual respect , credible guarantees",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b656218baf8a7ed5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.557,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "iraqsun.com",
+      "url": "http://www.iraqsun.com/news/279381409/iran-fm-says-tehran-ready-for-dialogue-based-on-mutual-respect-credible-guarantees",
+      "published_at": "2026-10-17T19:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "cbeb3109d8e082b3",
+      "name": "Ship attacks in Strait of Hormuz hit record high since Iran war began",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cbeb3109d8e082b3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.483,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nypost.com",
+      "url": "https://nypost.com/2026/10/17/world-news/ship-attacks-in-strait-of-hormuz-hit-record-high-since-iran-war-began/",
+      "published_at": "2026-10-17T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
       }
     },
     {
@@ -106,7 +207,7 @@
       "dependency_group": "f0529e920c53efd7",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.794,
+      "freshness": 0.419,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -122,22 +223,22 @@
       "published_at": "2026-10-17T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
       }
     },
     {
-      "id": "dc08810ff4537097",
-      "name": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels",
+      "id": "81c2a067ef62f0c3",
+      "name": "CENTCOM Spox : Vast Majority of Iran Hormuz Attacks Fail",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "dc08810ff4537097",
+      "dependency_group": "81c2a067ef62f0c3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.337,
+      "freshness": 0.483,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -148,24 +249,49 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels",
-      "published_at": "2026-10-17T15:30:00Z",
+      "source": "redstate.com",
+      "url": "https://redstate.com/wardclark/2026/10/17/centcom-vast-majority-of-iran-hormuz-attacks-fail-n2208263",
+      "published_at": "2026-10-17T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.8,
+        "extended": 4.8
+      }
+    },
+    {
+      "id": "9930ff12eb21f3b9",
+      "name": "Discover Iran : Arak , a former military fortress that evolved into a major Iranian industrial center",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9930ff12eb21f3b9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.363,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/10/17/778527/discover-iran-arak-former-military-fortress-evolved-major-iranian-industrial-center",
+      "published_at": "2026-10-17T18:00:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
+        "short": 2.1,
+        "extended": 3.6
       }
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-07-30T09:56:47.219065Z",
-      "immediate": 2,
-      "short": 7,
-      "extended": 12
-    },
     {
       "timestamp": "2026-07-30T11:59:09.185701Z",
       "immediate": 21,
@@ -6207,17 +6333,23 @@
       "immediate": 25,
       "short": 24,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-10-17T21:32:55.004350Z",
+      "immediate": 15,
+      "short": 19,
+      "extended": 21
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-10-17T19:18:25.268521Z",
+    "last_success": "2026-10-17T21:32:55.004350Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 3
+        "relevant": 7
       },
       "manual": {
         "ok": true,
