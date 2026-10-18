@@ -1,48 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-10-17T23:23:11.317979Z",
+  "mode": "degraded",
+  "generated_at": "2026-10-18T01:23:40.100490Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 1,
       "low": 0,
-      "high": 17,
-      "confidence": 50,
+      "high": 20,
+      "confidence": 32,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 5,
+      "score": 3,
       "low": 0,
-      "high": 21,
-      "confidence": 50,
+      "high": 22,
+      "confidence": 32,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 8,
+      "score": 5,
       "low": 0,
       "high": 24,
-      "confidence": 50,
-      "status": "נמוך"
+      "confidence": 32,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -14
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
       "time": "00:00",
       "text": "Iran attacks on Hormuz shipping  unsuccessful , Centcom says",
-      "impact": "השפעה מיידית מחושבת: +0.9",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "middleeasteye.net",
       "signal_id": "8f74a12257834b81"
@@ -50,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "22:30",
       "text": "Iran FM says Tehran ready for dialogue based on mutual respect , credible guarantees",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "iraqsun.com",
       "signal_id": "b656218baf8a7ed5"
@@ -67,7 +67,7 @@ window.MAGEN_STATE = {
       "dependency_group": "8f74a12257834b81",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.506,
+      "freshness": 0.285,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -83,10 +83,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-17T21:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.9,
-        "short": 2.9,
-        "extended": 5.0
-      }
+        "immediate": 0.5,
+        "short": 1.6,
+        "extended": 2.8
+      },
+      "carried_forward": true
     },
     {
       "id": "b656218baf8a7ed5",
@@ -98,7 +99,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b656218baf8a7ed5",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.329,
+      "freshness": 0.186,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -114,19 +115,14 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-17T19:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      }
+        "immediate": 0.3,
+        "short": 1.1,
+        "extended": 1.8
+      },
+      "carried_forward": true
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-07-30T14:26:34.060610Z",
-      "immediate": 8,
-      "short": 23,
-      "extended": 29
-    },
     {
       "timestamp": "2026-07-30T16:10:22.660214Z",
       "immediate": 7,
@@ -6168,17 +6164,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 5,
       "extended": 8
+    },
+    {
+      "timestamp": "2026-10-18T01:23:40.100490Z",
+      "immediate": 1,
+      "short": 3,
+      "extended": 5
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-10-17T23:23:11.317979Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 70,
-        "relevant": 2
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 2
       },
       "manual": {
         "ok": true,
