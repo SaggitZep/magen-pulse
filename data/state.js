@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-10-18T01:23:40.100490Z",
+  "generated_at": "2026-10-18T06:23:48.011031Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 0,
       "low": 0,
-      "high": 20,
-      "confidence": 32,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 3,
+      "score": 0,
       "low": 0,
       "high": 22,
-      "confidence": 32,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 5,
+      "score": 0,
       "low": 0,
-      "high": 24,
-      "confidence": 32,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     }
   },
@@ -36,99 +36,11 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "יציב",
-    "points_60m": 0
+    "points_60m": -1
   },
-  "changes": [
-    {
-      "time": "00:00",
-      "text": "Iran attacks on Hormuz shipping  unsuccessful , Centcom says",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "middleeasteye.net",
-      "signal_id": "8f74a12257834b81"
-    },
-    {
-      "time": "22:30",
-      "text": "Iran FM says Tehran ready for dialogue based on mutual respect , credible guarantees",
-      "impact": "השפעה מיידית מחושבת: +0.3",
-      "direction": "up",
-      "source": "iraqsun.com",
-      "signal_id": "b656218baf8a7ed5"
-    }
-  ],
-  "signals": [
-    {
-      "id": "8f74a12257834b81",
-      "name": "Iran attacks on Hormuz shipping  unsuccessful , Centcom says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8f74a12257834b81",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.285,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-attacks-hormuz-shipping-unsuccessful-centcom-says",
-      "published_at": "2026-10-17T21:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.6,
-        "extended": 2.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b656218baf8a7ed5",
-      "name": "Iran FM says Tehran ready for dialogue based on mutual respect , credible guarantees",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b656218baf8a7ed5",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.186,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iraqsun.com",
-      "url": "http://www.iraqsun.com/news/279381409/iran-fm-says-tehran-ready-for-dialogue-based-on-mutual-respect-credible-guarantees",
-      "published_at": "2026-10-17T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
-    {
-      "timestamp": "2026-07-30T16:10:22.660214Z",
-      "immediate": 7,
-      "short": 20,
-      "extended": 27
-    },
     {
       "timestamp": "2026-07-30T17:51:33.514500Z",
       "immediate": 5,
@@ -6170,17 +6082,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 3,
       "extended": 5
+    },
+    {
+      "timestamp": "2026-10-18T06:23:48.011031Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-10-17T23:23:11.317979Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 2
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
