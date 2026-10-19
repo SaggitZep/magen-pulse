@@ -1,52 +1,359 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-10-19T10:20:10.356936Z",
+  "mode": "live",
+  "generated_at": "2026-10-19T17:03:55.732973Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 33,
+      "low": 20,
+      "high": 46,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -3
+    "level": "זינוק חריג",
+    "points_60m": 34
   },
-  "changes": [],
-  "signals": [],
-  "history": [
+  "changes": [
     {
-      "timestamp": "2026-07-31T09:42:19.428636Z",
-      "immediate": 0,
-      "short": 0,
-      "extended": 0
+      "time": "19:15",
+      "text": "Israel prepared to attack Iran without US",
+      "impact": "השפעה מיידית מחושבת: +19.5",
+      "direction": "up",
+      "source": "arabherald.com",
+      "signal_id": "58a234ba59e4ff8d"
     },
+    {
+      "time": "18:15",
+      "text": "IRAN WARNING : Netanyahu Threatens Stronger Strikes If Tehran Attacks Israel",
+      "impact": "השפעה מיידית מחושבת: +16.1",
+      "direction": "up",
+      "source": "theyeshivaworld.com",
+      "signal_id": "56059a6d64b2a24d"
+    },
+    {
+      "time": "17:15",
+      "text": "Iran warns U . S ., Israel of more severe military response - Xinhua",
+      "impact": "השפעה מיידית מחושבת: +12.1",
+      "direction": "up",
+      "source": "english.news.cn",
+      "signal_id": "cc8888da431ca670"
+    },
+    {
+      "time": "19:30",
+      "text": "Trump can strike Iran again . He cannot bomb Hormuz open",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "middleeastmonitor.com",
+      "signal_id": "19b30a88dbdf418c"
+    }
+  ],
+  "signals": [
+    {
+      "id": "58a234ba59e4ff8d",
+      "name": "Israel prepared to attack Iran without US",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "58a234ba59e4ff8d",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.792,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "arabherald.com",
+      "url": "http://www.arabherald.com/news/279385475/israel-prepared-to-attack-iran-without-us-netanyahu",
+      "published_at": "2026-10-19T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 19.5,
+        "short": 15.2,
+        "extended": 6.5
+      }
+    },
+    {
+      "id": "56059a6d64b2a24d",
+      "name": "IRAN WARNING : Netanyahu Threatens Stronger Strikes If Tehran Attacks Israel",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "56059a6d64b2a24d",
+      "strength": 0.55,
+      "reliability": 0.56,
+      "freshness": 0.595,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2611582/iran-warning-netanyahu-threatens-stronger-strikes-if-tehran-attacks-israel.html",
+      "published_at": "2026-10-19T15:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 16.1,
+        "short": 12.6,
+        "extended": 5.3
+      }
+    },
+    {
+      "id": "cc8888da431ca670",
+      "name": "Iran warns U . S ., Israel of more severe military response - Xinhua",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cc8888da431ca670",
+      "strength": 0.55,
+      "reliability": 0.56,
+      "freshness": 0.447,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "english.news.cn",
+      "url": "https://english.news.cn/20261019/3a1cfab025ec45c1870cdb093cc7c2ee/c.html",
+      "published_at": "2026-10-19T14:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 12.1,
+        "short": 9.5,
+        "extended": 4.0
+      }
+    },
+    {
+      "id": "19b30a88dbdf418c",
+      "name": "Trump can strike Iran again . He cannot bomb Hormuz open",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "19b30a88dbdf418c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.851,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeastmonitor.com",
+      "url": "https://www.middleeastmonitor.com/20261019-trump-can-strike-iran-again-he-cannot-bomb-hormuz-open/",
+      "published_at": "2026-10-19T16:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "c9664dffa0c133e1",
+      "name": "Iran warns of  far more severe  response if attacked again",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c9664dffa0c133e1",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.639,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "samaa.tv",
+      "url": "https://www.samaa.tv/2087358735-iran-warns-of-far-more-severe-response-if-attacked-again",
+      "published_at": "2026-10-19T15:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.1
+      }
+    },
+    {
+      "id": "4bd0ef235ede105e",
+      "name": "Strait of Hormuz scoured for spilt cargo after Iran attacks container ships",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4bd0ef235ede105e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.687,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theguardian.com",
+      "url": "https://www.theguardian.com/world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships",
+      "published_at": "2026-10-19T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "a59b6531354966ad",
+      "name": "After Trump threat , Araghchi warns Iran has unfinished business",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a59b6531354966ad",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.516,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "clevelandjewishnews.com",
+      "url": "https://www.clevelandjewishnews.com/news/world_news/after-trump-threat-araghchi-warns-iran-has-unfinished-business/article_1f205e4f-9fef-5697-9377-8d911e473c76.html",
+      "published_at": "2026-10-19T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      }
+    },
+    {
+      "id": "23da6c6c190b1ece",
+      "name": "US missions across Mideast warn of Iranian threats , Houthi escalation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "23da6c6c190b1ece",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.516,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "clevelandjewishnews.com",
+      "url": "https://www.clevelandjewishnews.com/news/world_news/us-missions-across-mideast-warn-of-iranian-threats-houthi-escalation/article_f166ff0c-5360-562f-a627-587d60536e2d.html",
+      "published_at": "2026-10-19T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.7
+      }
+    },
+    {
+      "id": "efe1b2678974d13d",
+      "name": "U . S . missions in West Asia issue security alert over possible Iran - backed attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "efe1b2678974d13d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.516,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thehindu.com",
+      "url": "https://www.thehindu.com/news/international/us-missions-in-west-asia-issue-security-alert-over-possible-iran-backed-attacks/article71602754.ece",
+      "published_at": "2026-10-19T14:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    }
+  ],
+  "history": [
     {
       "timestamp": "2026-07-31T11:49:42.889478Z",
       "immediate": 14,
@@ -6088,17 +6395,23 @@
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-10-19T17:03:55.732973Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 33
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-10-19T04:41:25.186572Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-10-19T17:03:55.732973Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 9
       },
       "manual": {
         "ok": true,
