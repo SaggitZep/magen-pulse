@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-10-18T21:56:23.371186Z",
+  "generated_at": "2026-10-19T00:08:16.886753Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 11,
+      "score": 6,
       "low": 0,
-      "high": 28,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 24,
+      "confidence": 40,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
+      "score": 8,
       "low": 0,
-      "high": 31,
-      "confidence": 47,
-      "status": "נמוך"
+      "high": 26,
+      "confidence": 40,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
+      "score": 8,
       "low": 0,
-      "high": 32,
-      "confidence": 47,
+      "high": 26,
+      "confidence": 40,
       "status": "נמוך"
     }
   },
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -18
+    "points_60m": -5
   },
   "changes": [
     {
       "time": "21:15",
       "text": "Iran … Trump … Conflict / War …. Middle East … 10 / 18 / 2026 … Iran Warns US / Israel against More attacks ….",
-      "impact": "השפעה מיידית מחושבת: +9.4",
+      "impact": "השפעה מיידית מחושבת: +5.0",
       "direction": "up",
       "source": "politicaldog101.com",
       "signal_id": "d0e943d5f55d112f"
@@ -50,7 +50,7 @@
     {
       "time": "21:45",
       "text": "Iran Names UN - Sanctioned Missile Chief As Defense Minister",
-      "impact": "השפעה מיידית מחושבת: +0.8",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "europesun.com",
       "signal_id": "9197b6520b21644f"
@@ -58,18 +58,18 @@
     {
       "time": "21:30",
       "text": "Netanyahu vows to eliminate Iranian threat with Trump within two years",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "moneycontrol.com",
       "signal_id": "8c6504d565d6963d"
     },
     {
-      "time": "21:00",
-      "text": "IRAN ON FRONTLINES : IRGC Officers Reportedly Direct Houthi Attacks As Advanced Drones Fuel Yemen Offensive",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "21:30",
+      "text": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels  | Peak Oil News and Message Boards",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
-      "source": "theyeshivaworld.com",
-      "signal_id": "0a6356d3d718b6dc"
+      "source": "peakoil.com",
+      "signal_id": "a92cca74379a64ea"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@
       "dependency_group": "d0e943d5f55d112f",
       "strength": 0.55,
       "reliability": 0.56,
-      "freshness": 0.348,
+      "freshness": 0.186,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,9 @@
       "published_at": "2026-10-18T18:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 9.4,
-        "short": 7.4,
-        "extended": 3.1
+        "immediate": 5.0,
+        "short": 3.9,
+        "extended": 1.7
       },
       "carried_forward": true
     },
@@ -115,7 +115,7 @@
       "dependency_group": "9197b6520b21644f",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.402,
+      "freshness": 0.215,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -131,9 +131,9 @@
       "published_at": "2026-10-18T18:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.8,
-        "short": 2.8,
-        "extended": 4.8
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.5
       },
       "carried_forward": true
     },
@@ -147,7 +147,7 @@
       "dependency_group": "8c6504d565d6963d",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.374,
+      "freshness": 0.2,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -163,73 +163,9 @@
       "published_at": "2026-10-18T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0a6356d3d718b6dc",
-      "name": "IRAN ON FRONTLINES : IRGC Officers Reportedly Direct Houthi Attacks As Advanced Drones Fuel Yemen Offensive",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0a6356d3d718b6dc",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.324,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2611148/iran-on-frontlines-irgc-officers-reportedly-direct-houthi-attacks-as-advanced-drones-fuel-yemen-offensive.html",
-      "published_at": "2026-10-18T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "bee5aca46fdc46d4",
-      "name": "IRGC adviser :  Father of Iranian missile ready to hit enemy energy infrastructure across region",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bee5aca46fdc46d4",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.302,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/10/18/778630/Iran-IRGC-Naqdi-missiles",
-      "published_at": "2026-10-18T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
       "carried_forward": true
     },
@@ -243,7 +179,7 @@
       "dependency_group": "a92cca74379a64ea",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.374,
+      "freshness": 0.2,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -259,116 +195,14 @@
       "published_at": "2026-10-18T18:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "08601ec549cb6d6c",
-      "name": "Iran Faces Rising Threat From Within as Baluch Insurgency Escalates",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "08601ec549cb6d6c",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.302,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "oilprice.com",
-      "url": "https://oilprice.com/Geopolitics/Middle-East/Iran-Faces-Rising-Threat-From-Within-as-Baluch-Insurgency-Escalates.html",
-      "published_at": "2026-10-18T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "1dd3b71dde0973ca",
-      "name": "Iran Army , IRGC chiefs call for stronger military capabilities under new defense minister",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1dd3b71dde0973ca",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.302,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/10/18/778625/Iran-army-IRGC-chiefs-congratulate-newly-appointed-defense-minister-call-for-stronger-defense-capabilities",
-      "published_at": "2026-10-18T17:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "ff175fa06abec3ee",
-      "name": "Iran new Defence Minister Akhlaghi threatens  enormous damage  if U . S . attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ff175fa06abec3ee",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.281,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thehindu.com",
-      "url": "https://www.thehindu.com/news/international/irans-new-defence-minister-akhlaghi-threatens-enormous-damage-if-us-attacks/article71600872.ece",
-      "published_at": "2026-10-18T17:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
       "carried_forward": true
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-07-31T00:12:04.276077Z",
-      "immediate": 16,
-      "short": 22,
-      "extended": 25
-    },
     {
       "timestamp": "2026-07-31T03:55:14.472929Z",
       "immediate": 2,
@@ -6410,6 +6244,12 @@
       "immediate": 11,
       "short": 14,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-10-19T00:08:16.886753Z",
+      "immediate": 6,
+      "short": 8,
+      "extended": 8
     }
   ],
   "health": {
@@ -6420,7 +6260,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 9
+        "carried_forward": 4
       },
       "manual": {
         "ok": true,
