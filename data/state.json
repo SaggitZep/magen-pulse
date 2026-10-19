@@ -1,153 +1,81 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-10-19T00:08:16.886753Z",
+  "mode": "live",
+  "generated_at": "2026-10-19T04:41:25.186572Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 6,
+      "score": 3,
       "low": 0,
-      "high": 24,
-      "confidence": 40,
+      "high": 18,
+      "confidence": 57,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 10,
       "low": 0,
-      "high": 26,
-      "confidence": 40,
-      "status": "לא זוהה אות חריג"
+      "high": 25,
+      "confidence": 57,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 8,
-      "low": 0,
-      "high": 26,
-      "confidence": 40,
+      "score": 16,
+      "low": 1,
+      "high": 31,
+      "confidence": 57,
       "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -5
+    "points_60m": -3
   },
   "changes": [
     {
-      "time": "21:15",
-      "text": "Iran … Trump … Conflict / War …. Middle East … 10 / 18 / 2026 … Iran Warns US / Israel against More attacks ….",
-      "impact": "השפעה מיידית מחושבת: +5.0",
+      "time": "06:45",
+      "text": "Netanyahu thanks Trump for endorsement , cites Iran threat ahead of election",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "politicaldog101.com",
-      "signal_id": "d0e943d5f55d112f"
+      "source": "business-standard.com",
+      "signal_id": "4b81b44c3306df1f"
     },
     {
-      "time": "21:45",
-      "text": "Iran Names UN - Sanctioned Missile Chief As Defense Minister",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "05:00",
+      "text": "Never had a greater friend in White House : Netanyahu invokes Trump endorsement to rally voters over Iran threat",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
-      "source": "europesun.com",
-      "signal_id": "9197b6520b21644f"
+      "source": "arabherald.com",
+      "signal_id": "86e21812a014bd59"
     },
     {
-      "time": "21:30",
-      "text": "Netanyahu vows to eliminate Iranian threat with Trump within two years",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "04:15",
+      "text": "Netanyahu tells Americans : Iran access to nuclear arms worse than rising gas prices",
+      "impact": "השפעה מיידית מחושבת: +0.6",
       "direction": "up",
-      "source": "moneycontrol.com",
-      "signal_id": "8c6504d565d6963d"
-    },
-    {
-      "time": "21:30",
-      "text": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels  | Peak Oil News and Message Boards",
-      "impact": "השפעה מיידית מחושבת: +0.3",
-      "direction": "up",
-      "source": "peakoil.com",
-      "signal_id": "a92cca74379a64ea"
+      "source": "middleeasteye.net",
+      "signal_id": "65f54cbf8e4c9c97"
     }
   ],
   "signals": [
     {
-      "id": "d0e943d5f55d112f",
-      "name": "Iran … Trump … Conflict / War …. Middle East … 10 / 18 / 2026 … Iran Warns US / Israel against More attacks ….",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d0e943d5f55d112f",
-      "strength": 0.55,
-      "reliability": 0.56,
-      "freshness": 0.186,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "politicaldog101.com",
-      "url": "https://politicaldog101.com/2026/10/iran-trump-conflict-war-middle-east-10-18-2026-iran-warns-us-israel-against-more-attacks/",
-      "published_at": "2026-10-18T18:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 5.0,
-        "short": 3.9,
-        "extended": 1.7
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "9197b6520b21644f",
-      "name": "Iran Names UN - Sanctioned Missile Chief As Defense Minister",
+      "id": "4b81b44c3306df1f",
+      "name": "Netanyahu thanks Trump for endorsement , cites Iran threat ahead of election",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "9197b6520b21644f",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.215,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "europesun.com",
-      "url": "http://www.europesun.com/news/279382861/iran-names-un-sanctioned-missile-chief-as-defense-minister",
-      "published_at": "2026-10-18T18:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "8c6504d565d6963d",
-      "name": "Netanyahu vows to eliminate Iranian threat with Trump within two years",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8c6504d565d6963d",
+      "dependency_group": "4b81b44c3306df1f",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.2,
+      "freshness": 0.764,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,28 +86,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/netanyahu-vows-to-eliminate-iranian-threat-with-trump-within-two-years-article-14054925.html",
-      "published_at": "2026-10-18T18:30:00Z",
+      "source": "business-standard.com",
+      "url": "https://www.business-standard.com/world-news/netanyahu-thanks-trump-for-endorsement-cites-iran-threat-ahead-of-election-126101900034_1.html",
+      "published_at": "2026-10-19T03:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
     },
     {
-      "id": "a92cca74379a64ea",
-      "name": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels  | Peak Oil News and Message Boards",
+      "id": "86e21812a014bd59",
+      "name": "Never had a greater friend in White House : Netanyahu invokes Trump endorsement to rally voters over Iran threat",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a92cca74379a64ea",
-      "strength": 0.4,
+      "dependency_group": "86e21812a014bd59",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.2,
+      "freshness": 0.464,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -190,25 +117,49 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "peakoil.com",
-      "url": "https://peakoil.com/publicpolicy/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels",
-      "published_at": "2026-10-18T18:30:00Z",
+      "source": "arabherald.com",
+      "url": "http://www.arabherald.com/news/279383682/never-had-a-greater-friend-in-white-house-netanyahu-invokes-trump-endorsement-to-rally-voters-over-iran-threat",
+      "published_at": "2026-10-19T02:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "65f54cbf8e4c9c97",
+      "name": "Netanyahu tells Americans : Iran access to nuclear arms worse than rising gas prices",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "65f54cbf8e4c9c97",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.374,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeasteye.net",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-tells-americans-irans-access-nuclear-arms-worse-rising-gas",
+      "published_at": "2026-10-19T01:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.2,
+        "extended": 3.7
+      }
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-07-31T03:55:14.472929Z",
-      "immediate": 2,
-      "short": 5,
-      "extended": 9
-    },
     {
       "timestamp": "2026-07-31T06:52:15.780556Z",
       "immediate": 0,
@@ -6250,17 +6201,23 @@
       "immediate": 6,
       "short": 8,
       "extended": 8
+    },
+    {
+      "timestamp": "2026-10-19T04:41:25.186572Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 16
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-10-18T19:42:08.408932Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-10-19T04:41:25.186572Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 4
+        "ok": true,
+        "items": 150,
+        "relevant": 3
       },
       "manual": {
         "ok": true,
