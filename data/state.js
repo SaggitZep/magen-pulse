@@ -1,171 +1,46 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-10-19T04:41:25.186572Z",
+  "mode": "degraded",
+  "generated_at": "2026-10-19T10:20:10.356936Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 0,
       "low": 0,
-      "high": 18,
-      "confidence": 57,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 0,
       "low": 0,
-      "high": 25,
-      "confidence": 57,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 16,
-      "low": 1,
-      "high": 31,
-      "confidence": 57,
-      "status": "נמוך"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
     "points_60m": -3
   },
-  "changes": [
-    {
-      "time": "06:45",
-      "text": "Netanyahu thanks Trump for endorsement , cites Iran threat ahead of election",
-      "impact": "השפעה מיידית מחושבת: +1.5",
-      "direction": "up",
-      "source": "business-standard.com",
-      "signal_id": "4b81b44c3306df1f"
-    },
-    {
-      "time": "05:00",
-      "text": "Never had a greater friend in White House : Netanyahu invokes Trump endorsement to rally voters over Iran threat",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "arabherald.com",
-      "signal_id": "86e21812a014bd59"
-    },
-    {
-      "time": "04:15",
-      "text": "Netanyahu tells Americans : Iran access to nuclear arms worse than rising gas prices",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "middleeasteye.net",
-      "signal_id": "65f54cbf8e4c9c97"
-    }
-  ],
-  "signals": [
-    {
-      "id": "4b81b44c3306df1f",
-      "name": "Netanyahu thanks Trump for endorsement , cites Iran threat ahead of election",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4b81b44c3306df1f",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.764,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "business-standard.com",
-      "url": "https://www.business-standard.com/world-news/netanyahu-thanks-trump-for-endorsement-cites-iran-threat-ahead-of-election-126101900034_1.html",
-      "published_at": "2026-10-19T03:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
-      }
-    },
-    {
-      "id": "86e21812a014bd59",
-      "name": "Never had a greater friend in White House : Netanyahu invokes Trump endorsement to rally voters over Iran threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "86e21812a014bd59",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.464,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabherald.com",
-      "url": "http://www.arabherald.com/news/279383682/never-had-a-greater-friend-in-white-house-netanyahu-invokes-trump-endorsement-to-rally-voters-over-iran-threat",
-      "published_at": "2026-10-19T02:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
-    },
-    {
-      "id": "65f54cbf8e4c9c97",
-      "name": "Netanyahu tells Americans : Iran access to nuclear arms worse than rising gas prices",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "65f54cbf8e4c9c97",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.374,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeasteye.net",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-tells-americans-irans-access-nuclear-arms-worse-rising-gas",
-      "published_at": "2026-10-19T01:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
-    {
-      "timestamp": "2026-07-31T06:52:15.780556Z",
-      "immediate": 0,
-      "short": 0,
-      "extended": 0
-    },
     {
       "timestamp": "2026-07-31T09:42:19.428636Z",
       "immediate": 0,
@@ -6207,17 +6082,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 16
+    },
+    {
+      "timestamp": "2026-10-19T10:20:10.356936Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-10-19T04:41:25.186572Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 3
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
