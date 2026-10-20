@@ -1,303 +1,46 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-10-20T00:36:27.106913Z",
+  "mode": "degraded",
+  "generated_at": "2026-10-20T05:21:47.327106Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 0,
       "low": 0,
-      "high": 16,
-      "confidence": 64,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 0,
       "low": 0,
-      "high": 23,
-      "confidence": 64,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
-      "low": 4,
-      "high": 30,
-      "confidence": 64,
-      "status": "נמוך"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -4
+    "points_60m": -3
   },
-  "changes": [
-    {
-      "time": "02:15",
-      "text": "U . S . ISSUES MIDEAST ALERT : American Embassies Warn Of Possible Iranian And Houthi Attacks",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "theyeshivaworld.com",
-      "signal_id": "98856d6c9b7fbf69"
-    },
-    {
-      "time": "01:45",
-      "text": "Iran pols finally admit they want nuclear weapons :  It a necessity more important than bread",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "nypost.com",
-      "signal_id": "14fa76a7e1a1e674"
-    },
-    {
-      "time": "01:45",
-      "text": "Why Invading Iran Could Become America Biggest Military Mistake",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "oilprice.com",
-      "signal_id": "e086e1f2b334bc56"
-    },
-    {
-      "time": "00:45",
-      "text": "Exclusive : Iran , a Coiled Cobra Ready to Strike",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "greanvillepost.com",
-      "signal_id": "e250199cfc305bf9"
-    }
-  ],
-  "signals": [
-    {
-      "id": "98856d6c9b7fbf69",
-      "name": "U . S . ISSUES MIDEAST ALERT : American Embassies Warn Of Possible Iranian And Houthi Attacks",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "98856d6c9b7fbf69",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.679,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2611795/u-s-issues-mideast-alert-american-embassies-warn-of-possible-iranian-and-houthi-attacks.html",
-      "published_at": "2026-10-19T23:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 3.9,
-        "extended": 6.7
-      }
-    },
-    {
-      "id": "14fa76a7e1a1e674",
-      "name": "Iran pols finally admit they want nuclear weapons :  It a necessity more important than bread",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "14fa76a7e1a1e674",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.588,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nypost.com",
-      "url": "https://nypost.com/2026/10/19/world-news/iran-pols-finally-admit-they-want-nuclear-weapons-its-a-necessity-more-important-than-bread/",
-      "published_at": "2026-10-19T22:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      }
-    },
-    {
-      "id": "e086e1f2b334bc56",
-      "name": "Why Invading Iran Could Become America Biggest Military Mistake",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e086e1f2b334bc56",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.588,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "oilprice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Why-Invading-Iran-Could-Become-Americas-Biggest-Military-Mistake.html",
-      "published_at": "2026-10-19T22:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      }
-    },
-    {
-      "id": "e250199cfc305bf9",
-      "name": "Exclusive : Iran , a Coiled Cobra Ready to Strike",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e250199cfc305bf9",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.442,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "greanvillepost.com",
-      "url": "https://www.greanvillepost.com/exclusive-iran-a-coiled-cobra-ready-to-strike/",
-      "published_at": "2026-10-19T21:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "a1e28b782496015e",
-      "name": "United States Cautions Citizens in the Middle East Amid Rising Houthi Aggression and Iranian Threats",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "a1e28b782496015e",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.412,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cubaheadlines.com",
-      "url": "https://www.cubaheadlines.com/articles/343295",
-      "published_at": "2026-10-19T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
-    },
-    {
-      "id": "e12e5d28d6c7011c",
-      "name": "Iran summons EU , German ambassadors over baseless accusations",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e12e5d28d6c7011c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.412,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/10/19/778732/Iran-Foreign-Ministry-summoning-EU-German-envoys-Yousefi",
-      "published_at": "2026-10-19T21:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "7b24c5be273504ac",
-      "name": "Iran urges U . S . to accept Hormuz reopening proposal | Hellenic Shipping News Worldwide",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7b24c5be273504ac",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.383,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hellenicshippingnews.com",
-      "url": "https://www.hellenicshippingnews.com/iran-urges-u-s-to-accept-hormuz-reopening-proposal/",
-      "published_at": "2026-10-19T21:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.2,
-        "extended": 3.8
-      }
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
-    {
-      "timestamp": "2026-07-31T15:49:48.988064Z",
-      "immediate": 1,
-      "short": 5,
-      "extended": 8
-    },
     {
       "timestamp": "2026-07-31T17:18:23.986552Z",
       "immediate": 4,
@@ -6339,17 +6082,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 10,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-10-20T05:21:47.327106Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-10-20T00:36:27.106913Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 7
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
