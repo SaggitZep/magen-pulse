@@ -1,121 +1,89 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-10-19T21:29:49.403549Z",
+  "mode": "live",
+  "generated_at": "2026-10-20T00:36:27.106913Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 7,
+      "score": 3,
       "low": 0,
-      "high": 25,
-      "confidence": 40,
+      "high": 16,
+      "confidence": 64,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 8,
+      "score": 10,
       "low": 0,
-      "high": 26,
-      "confidence": 40,
-      "status": "לא זוהה אות חריג"
+      "high": 23,
+      "confidence": 64,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 8,
-      "low": 0,
-      "high": 26,
-      "confidence": 40,
-      "status": "לא זוהה אות חריג"
+      "score": 17,
+      "low": 4,
+      "high": 30,
+      "confidence": 64,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -27
+    "points_60m": -4
   },
   "changes": [
     {
-      "time": "19:15",
-      "text": "Israel prepared to attack Iran without US",
-      "impact": "השפעה מיידית מחושבת: +5.5",
+      "time": "02:15",
+      "text": "U . S . ISSUES MIDEAST ALERT : American Embassies Warn Of Possible Iranian And Houthi Attacks",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "arabherald.com",
-      "signal_id": "58a234ba59e4ff8d"
+      "source": "theyeshivaworld.com",
+      "signal_id": "98856d6c9b7fbf69"
     },
     {
-      "time": "19:30",
-      "text": "Trump can strike Iran again . He cannot bomb Hormuz open",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "01:45",
+      "text": "Iran pols finally admit they want nuclear weapons :  It a necessity more important than bread",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
-      "source": "middleeastmonitor.com",
-      "signal_id": "19b30a88dbdf418c"
+      "source": "nypost.com",
+      "signal_id": "14fa76a7e1a1e674"
     },
     {
-      "time": "18:30",
-      "text": "Iran warns of  far more severe  response if attacked again",
-      "impact": "השפעה מיידית מחושבת: +0.3",
+      "time": "01:45",
+      "text": "Why Invading Iran Could Become America Biggest Military Mistake",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
-      "source": "samaa.tv",
-      "signal_id": "c9664dffa0c133e1"
+      "source": "oilprice.com",
+      "signal_id": "e086e1f2b334bc56"
     },
     {
-      "time": "18:45",
-      "text": "Strait of Hormuz scoured for spilt cargo after Iran attacks container ships",
-      "impact": "השפעה מיידית מחושבת: +0.3",
+      "time": "00:45",
+      "text": "Exclusive : Iran , a Coiled Cobra Ready to Strike",
+      "impact": "השפעה מיידית מחושבת: +0.8",
       "direction": "up",
-      "source": "theguardian.com",
-      "signal_id": "4bd0ef235ede105e"
+      "source": "greanvillepost.com",
+      "signal_id": "e250199cfc305bf9"
     }
   ],
   "signals": [
     {
-      "id": "58a234ba59e4ff8d",
-      "name": "Israel prepared to attack Iran without US",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "58a234ba59e4ff8d",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.223,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "arabherald.com",
-      "url": "http://www.arabherald.com/news/279385475/israel-prepared-to-attack-iran-without-us-netanyahu",
-      "published_at": "2026-10-19T16:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 5.5,
-        "short": 4.3,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "19b30a88dbdf418c",
-      "name": "Trump can strike Iran again . He cannot bomb Hormuz open",
+      "id": "98856d6c9b7fbf69",
+      "name": "U . S . ISSUES MIDEAST ALERT : American Embassies Warn Of Possible Iranian And Houthi Attacks",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "19b30a88dbdf418c",
+      "dependency_group": "98856d6c9b7fbf69",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.24,
+      "freshness": 0.679,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -126,28 +94,120 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "middleeastmonitor.com",
-      "url": "https://www.middleeastmonitor.com/20261019-trump-can-strike-iran-again-he-cannot-bomb-hormuz-open/",
-      "published_at": "2026-10-19T16:30:00Z",
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2611795/u-s-issues-mideast-alert-american-embassies-warn-of-possible-iranian-and-houthi-attacks.html",
+      "published_at": "2026-10-19T23:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.4,
-        "extended": 2.4
-      },
-      "carried_forward": true
+        "immediate": 1.2,
+        "short": 3.9,
+        "extended": 6.7
+      }
     },
     {
-      "id": "c9664dffa0c133e1",
-      "name": "Iran warns of  far more severe  response if attacked again",
+      "id": "14fa76a7e1a1e674",
+      "name": "Iran pols finally admit they want nuclear weapons :  It a necessity more important than bread",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "c9664dffa0c133e1",
+      "dependency_group": "14fa76a7e1a1e674",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.588,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nypost.com",
+      "url": "https://nypost.com/2026/10/19/world-news/iran-pols-finally-admit-they-want-nuclear-weapons-its-a-necessity-more-important-than-bread/",
+      "published_at": "2026-10-19T22:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "e086e1f2b334bc56",
+      "name": "Why Invading Iran Could Become America Biggest Military Mistake",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e086e1f2b334bc56",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.588,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "oilprice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Why-Invading-Iran-Could-Become-Americas-Biggest-Military-Mistake.html",
+      "published_at": "2026-10-19T22:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "e250199cfc305bf9",
+      "name": "Exclusive : Iran , a Coiled Cobra Ready to Strike",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e250199cfc305bf9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.442,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "greanvillepost.com",
+      "url": "https://www.greanvillepost.com/exclusive-iran-a-coiled-cobra-ready-to-strike/",
+      "published_at": "2026-10-19T21:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "a1e28b782496015e",
+      "name": "United States Cautions Citizens in the Middle East Amid Rising Houthi Aggression and Iranian Threats",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a1e28b782496015e",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.18,
+      "freshness": 0.412,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -158,28 +218,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "samaa.tv",
-      "url": "https://www.samaa.tv/2087358735-iran-warns-of-far-more-severe-response-if-attacked-again",
-      "published_at": "2026-10-19T15:30:00Z",
+      "source": "cubaheadlines.com",
+      "url": "https://www.cubaheadlines.com/articles/343295",
+      "published_at": "2026-10-19T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
     },
     {
-      "id": "4bd0ef235ede105e",
-      "name": "Strait of Hormuz scoured for spilt cargo after Iran attacks container ships",
+      "id": "e12e5d28d6c7011c",
+      "name": "Iran summons EU , German ambassadors over baseless accusations",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "4bd0ef235ede105e",
+      "dependency_group": "e12e5d28d6c7011c",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.194,
+      "freshness": 0.412,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -190,25 +249,49 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "theguardian.com",
-      "url": "https://www.theguardian.com/world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships",
-      "published_at": "2026-10-19T15:45:00Z",
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/10/19/778732/Iran-Foreign-Ministry-summoning-EU-German-envoys-Yousefi",
+      "published_at": "2026-10-19T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.9
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "7b24c5be273504ac",
+      "name": "Iran urges U . S . to accept Hormuz reopening proposal | Hellenic Shipping News Worldwide",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7b24c5be273504ac",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.383,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
       },
-      "carried_forward": true
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hellenicshippingnews.com",
+      "url": "https://www.hellenicshippingnews.com/iran-urges-u-s-to-accept-hormuz-reopening-proposal/",
+      "published_at": "2026-10-19T21:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.2,
+        "extended": 3.8
+      }
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-07-31T13:42:15.366212Z",
-      "immediate": 8,
-      "short": 13,
-      "extended": 15
-    },
     {
       "timestamp": "2026-07-31T15:49:48.988064Z",
       "immediate": 1,
@@ -6250,17 +6333,23 @@
       "immediate": 7,
       "short": 8,
       "extended": 8
+    },
+    {
+      "timestamp": "2026-10-20T00:36:27.106913Z",
+      "immediate": 3,
+      "short": 10,
+      "extended": 17
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-10-19T17:03:55.732973Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-10-20T00:36:27.106913Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 4
+        "ok": true,
+        "items": 150,
+        "relevant": 7
       },
       "manual": {
         "ok": true,
