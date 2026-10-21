@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-10-21T15:38:51.781953Z",
+  "generated_at": "2026-10-21T19:39:15.768189Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 0,
       "low": 0,
-      "high": 20,
-      "confidence": 36,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
+      "score": 0,
       "low": 0,
-      "high": 23,
-      "confidence": 36,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 6,
+      "score": 0,
       "low": 0,
-      "high": 25,
-      "confidence": 36,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     }
   },
@@ -35,140 +35,12 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -4
+    "level": "יציב",
+    "points_60m": -1
   },
-  "changes": [
-    {
-      "time": "13:00",
-      "text": "Iran strikes PAK in latest attack on Kurdish Iranian opposition groups",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "c2342d9df478706a"
-    },
-    {
-      "time": "12:45",
-      "text": "Iran terror leaders should be losing sleep over Trump MOAB threat",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "foxnews.com",
-      "signal_id": "f9ef057c27b924f1"
-    },
-    {
-      "time": "13:00",
-      "text": "Al - Akhbar : US issues final warning to Iran over strikes on nuclear facilities",
-      "impact": "השפעה מיידית מחושבת: +0.3",
-      "direction": "up",
-      "source": "en.apa.az",
-      "signal_id": "6c234e47863de19f"
-    }
-  ],
-  "signals": [
-    {
-      "id": "c2342d9df478706a",
-      "name": "Iran strikes PAK in latest attack on Kurdish Iranian opposition groups",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c2342d9df478706a",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.199,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "http://www.jpost.com/middle-east/iran-news/article-912396",
-      "published_at": "2026-10-21T10:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f9ef057c27b924f1",
-      "name": "Iran terror leaders should be losing sleep over Trump MOAB threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f9ef057c27b924f1",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.185,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "foxnews.com",
-      "url": "https://www.foxnews.com/opinion/trumps-moab-threat-could-put-irans-deepest-bunkers-americas-crosshairs",
-      "published_at": "2026-10-21T09:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.2,
-        "extended": 2.1
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "6c234e47863de19f",
-      "name": "Al - Akhbar : US issues final warning to Iran over strikes on nuclear facilities",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6c234e47863de19f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.199,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "en.apa.az",
-      "url": "https://en.apa.az/asia/al-akhbar-us-issues-final-warning-to-iran-over-strikes-on-nuclear-facilities-531349",
-      "published_at": "2026-10-21T10:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.2,
-        "extended": 2.0
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
-    {
-      "timestamp": "2026-08-01T07:35:32.071744Z",
-      "immediate": 17,
-      "short": 24,
-      "extended": 28
-    },
     {
       "timestamp": "2026-08-01T09:36:22.435818Z",
       "immediate": 10,
@@ -6210,17 +6082,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 6
+    },
+    {
+      "timestamp": "2026-10-21T19:39:15.768189Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-10-21T10:36:58.784120Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 3
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
