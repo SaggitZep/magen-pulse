@@ -1,52 +1,359 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-10-21T19:39:15.768189Z",
+  "mode": "live",
+  "generated_at": "2026-10-21T22:46:56.518570Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 67,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 28,
+      "low": 15,
+      "high": 41,
+      "confidence": 68,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 26,
+      "low": 13,
+      "high": 39,
+      "confidence": 68,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": -1
+    "level": "זינוק חריג",
+    "points_60m": 25
   },
-  "changes": [],
-  "signals": [],
-  "history": [
+  "changes": [
     {
-      "timestamp": "2026-08-01T09:36:22.435818Z",
-      "immediate": 10,
-      "short": 14,
-      "extended": 17
+      "time": "22:00",
+      "text": "Benjamin Netanyahu : Iran , proxies may interfere in Israeli elections , threatens force",
+      "impact": "השפעה מיידית מחושבת: +12.1",
+      "direction": "up",
+      "source": "jpost.com",
+      "signal_id": "f1ededdf773cdc13"
     },
+    {
+      "time": "23:15",
+      "text": "Israeli military conducts massive  power projection  near Iran border . Netanyahu is determined to over throw its regime – Ya Libnan",
+      "impact": "השפעה מיידית מחושבת: +12.0",
+      "direction": "up",
+      "source": "yalibnan.com",
+      "signal_id": "1028da8f66d4900d"
+    },
+    {
+      "time": "01:15",
+      "text": "US sanctions Greece -, Panama - based law firm over aid to Iranian shipping",
+      "impact": "השפעה מיידית מחושבת: +1.9",
+      "direction": "up",
+      "source": "al-monitor.com",
+      "signal_id": "5ae6de687b6d1291"
+    },
+    {
+      "time": "00:30",
+      "text": "Netanyahu threatens regime change in Iran",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "middleeasteye.net",
+      "signal_id": "1c3a86cfe6b3cff4"
+    }
+  ],
+  "signals": [
+    {
+      "id": "f1ededdf773cdc13",
+      "name": "Benjamin Netanyahu : Iran , proxies may interfere in Israeli elections , threatens force",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f1ededdf773cdc13",
+      "strength": 0.55,
+      "reliability": 0.74,
+      "freshness": 0.339,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "jpost.com",
+      "url": "http://www.jpost.com/israel-election-2026/article-912451",
+      "published_at": "2026-10-21T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 12.1,
+        "short": 9.5,
+        "extended": 4.0
+      }
+    },
+    {
+      "id": "1028da8f66d4900d",
+      "name": "Israeli military conducts massive  power projection  near Iran border . Netanyahu is determined to over throw its regime – Ya Libnan",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1028da8f66d4900d",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.485,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "yalibnan.com",
+      "url": "https://yalibnan.com/2026/10/21/israeli-military-conducts-massive-power-projection-near-irans-border-netanyahu-is-determined-to-over-throw-its-regime/",
+      "published_at": "2026-10-21T20:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 12.0,
+        "short": 9.3,
+        "extended": 4.0
+      }
+    },
+    {
+      "id": "5ae6de687b6d1291",
+      "name": "US sanctions Greece -, Panama - based law firm over aid to Iranian shipping",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5ae6de687b6d1291",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.859,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/10/us-sanctions-greece-panama-based-law-firm-over-aid-iranian-shipping",
+      "published_at": "2026-10-21T22:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.9,
+        "short": 6.6,
+        "extended": 11.2
+      }
+    },
+    {
+      "id": "1c3a86cfe6b3cff4",
+      "name": "Netanyahu threatens regime change in Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1c3a86cfe6b3cff4",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.693,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeasteye.net",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-threatens-regime-change-iran",
+      "published_at": "2026-10-21T21:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "9a7921d7246d0e82",
+      "name": "Gulf exports more oil than it did before Iran war despite surge in Hormuz attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9a7921d7246d0e82",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.693,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middleeasteye.net",
+      "url": "https://www.middleeasteye.net/news/gulf-exports-more-oil-it-did-iran-war-despite-surge-hormuz-attacks",
+      "published_at": "2026-10-21T21:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "c9777db9356fe9db",
+      "name": "Trump Delayed Netanyahu Planned Iran Strikes Until After US Midterms : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c9777db9356fe9db",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.645,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "freepressjournal.in",
+      "url": "https://www.freepressjournal.in/world/trump-delayed-netanyahus-planned-iran-strikes-until-after-us-midterms-report",
+      "published_at": "2026-10-21T21:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "4c5008d1d209dd0b",
+      "name": "U . S . Sanctions Law Firm , Shipping Agents and Nine Vessels in Iran Shadow Fleet Crackdown",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4c5008d1d209dd0b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.645,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "gcaptain.com",
+      "url": "https://gcaptain.com/u-s-sanctions-law-firm-shipping-agents-and-nine-vessels-in-iran-shadow-fleet-crackdown/",
+      "published_at": "2026-10-21T21:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "52b82088ecd949ce",
+      "name": "Father of bomb : Iran claims new weapon as US weighs MOAB strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "52b82088ecd949ce",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.42,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bdnews24.com",
+      "url": "https://bdnews24.com/world/middle-east/pte9wve13w",
+      "published_at": "2026-10-21T19:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "7bb69325a26d2a87",
+      "name": "Parliament speaker meets Leader to discuss economic , military war against Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7bb69325a26d2a87",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.339,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/10/21/778886/Iranian-parliament-speaker-meets-Leader-",
+      "published_at": "2026-10-21T19:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.3
+      }
+    }
+  ],
+  "history": [
     {
       "timestamp": "2026-08-01T11:06:17.544525Z",
       "immediate": 6,
@@ -6088,17 +6395,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-10-21T22:46:56.518570Z",
+      "immediate": 25,
+      "short": 28,
+      "extended": 26
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-10-21T10:36:58.784120Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-10-21T22:46:56.518570Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 9
       },
       "manual": {
         "ok": true,
