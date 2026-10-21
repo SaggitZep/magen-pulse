@@ -1,48 +1,48 @@
 {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-10-21T10:36:58.784120Z",
+  "mode": "degraded",
+  "generated_at": "2026-10-21T15:38:51.781953Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 5,
+      "score": 1,
       "low": 0,
-      "high": 18,
-      "confidence": 67,
+      "high": 20,
+      "confidence": 36,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 15,
-      "low": 2,
-      "high": 28,
-      "confidence": 67,
-      "status": "נמוך"
+      "score": 4,
+      "low": 0,
+      "high": 23,
+      "confidence": 36,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 6,
+      "low": 0,
+      "high": 25,
+      "confidence": 36,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -3
+    "points_60m": -4
   },
   "changes": [
     {
       "time": "13:00",
       "text": "Iran strikes PAK in latest attack on Kurdish Iranian opposition groups",
-      "impact": "השפעה מיידית מחושבת: +1.9",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "jpost.com",
       "signal_id": "c2342d9df478706a"
@@ -50,7 +50,7 @@
     {
       "time": "12:45",
       "text": "Iran terror leaders should be losing sleep over Trump MOAB threat",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "foxnews.com",
       "signal_id": "f9ef057c27b924f1"
@@ -58,18 +58,10 @@
     {
       "time": "13:00",
       "text": "Al - Akhbar : US issues final warning to Iran over strikes on nuclear facilities",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "en.apa.az",
       "signal_id": "6c234e47863de19f"
-    },
-    {
-      "time": "12:30",
-      "text": "Iran Nuclear Talks Statement ; Mohsin Rezai Warning On Uranium Enrichment",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "divyabhaskar.co.in",
-      "signal_id": "60df57cb533217e2"
     }
   ],
   "signals": [
@@ -83,7 +75,7 @@
       "dependency_group": "c2342d9df478706a",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.839,
+      "freshness": 0.199,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -99,10 +91,11 @@
       "published_at": "2026-10-21T10:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.9,
-        "short": 6.4,
-        "extended": 10.9
-      }
+        "immediate": 0.4,
+        "short": 1.5,
+        "extended": 2.6
+      },
+      "carried_forward": true
     },
     {
       "id": "f9ef057c27b924f1",
@@ -114,7 +107,7 @@
       "dependency_group": "f9ef057c27b924f1",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.781,
+      "freshness": 0.185,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +123,11 @@
       "published_at": "2026-10-21T09:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      }
+        "immediate": 0.4,
+        "short": 1.2,
+        "extended": 2.1
+      },
+      "carried_forward": true
     },
     {
       "id": "6c234e47863de19f",
@@ -145,7 +139,7 @@
       "dependency_group": "6c234e47863de19f",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.839,
+      "freshness": 0.199,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,267 +155,14 @@
       "published_at": "2026-10-21T10:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.3
-      }
-    },
-    {
-      "id": "60df57cb533217e2",
-      "name": "Iran Nuclear Talks Statement ; Mohsin Rezai Warning On Uranium Enrichment",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "60df57cb533217e2",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.727,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.3,
+        "short": 1.2,
+        "extended": 2.0
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "divyabhaskar.co.in",
-      "url": "https://www.divyabhaskar.co.in/international/news/iran-nuclear-talks-us-statement-mohsin-rezai-uranium-enrichment-139438947.html",
-      "published_at": "2026-10-21T09:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
-      }
-    },
-    {
-      "id": "51a8aab91438ac18",
-      "name": "Report : Trump Opposed Netanyahu Proposed Early October Strikes on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "51a8aab91438ac18",
-      "strength": 0.4,
-      "reliability": 0.8,
-      "freshness": 0.411,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "haaretz.com",
-      "url": "https://www.haaretz.com/middle-east-news/iran/2026-10-21/ty-article/report-trump-opposed-netanyahus-proposed-early-october-strikes-on-iran/000001a1-5cd6-d99f-a3e5-7df7c3350000",
-      "published_at": "2026-10-21T07:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      }
-    },
-    {
-      "id": "d91123a0cca55bf5",
-      "name": "🚨DRAMATIC REPORT : Netanyahu Pushing For Massive New Strikes Against Iran , Planned Offensive Shelved Due To Trump Opposition",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d91123a0cca55bf5",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.546,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "theyeshivaworld.com",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2612785/%F0%9F%9A%A8dramatic-report-netanyahu-pushing-for-massive-new-strikes-against-iran-planned-offensive-shelved-due-to-trump-opposition.html",
-      "published_at": "2026-10-21T08:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.2,
-        "extended": 5.4
-      }
-    },
-    {
-      "id": "16c4e70e802e8d8c",
-      "name": "Iran Vows to Retaliate Against Any US Strike on Pickaxe Mountain",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "16c4e70e802e8d8c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.474,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "english.aawsat.com",
-      "url": "https://english.aawsat.com/world/5331837-iran-vows-retaliate-against-any-us-strike-pickaxe-mountain",
-      "published_at": "2026-10-21T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "5e61e64f7717693e",
-      "name": "Report : Netanyahu planned massive Iran attack , but Trump blocked it",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5e61e64f7717693e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.474,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ynetnews.com",
-      "url": "https://www.ynetnews.com/article/hkbuyph2fx",
-      "published_at": "2026-10-21T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.7
-      }
-    },
-    {
-      "id": "f7f159b8c22506af",
-      "name": "Zelensky Says Russia Supplied Drones and Satellite Intelligence to Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f7f159b8c22506af",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.411,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kyivpost.com",
-      "url": "https://www.kyivpost.com/post/87677",
-      "published_at": "2026-10-21T07:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      }
-    },
-    {
-      "id": "56028a42820f4dd3",
-      "name": "Head of Iran Security Council Says Enriched Nuclear Materials Will Not Leave Country",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "56028a42820f4dd3",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.331,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "sputnikglobe.com",
-      "url": "https://sputnikglobe.com/20261021/head-of-irans-security-council-says-enriched-nuclear-materials-will-not-leave-country-1124913190.html",
-      "published_at": "2026-10-21T06:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      }
-    },
-    {
-      "id": "7a2a9c4857fa5d27",
-      "name": "Compromis - surpriză între SUA și Iran : Bani din cele 6 miliarde de dolari înghețate , în schimbul accesului AIEA la siturile nucleare",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7a2a9c4857fa5d27",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.356,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "antena3.ro",
-      "url": "https://www.antena3.ro/externe/compromis-surpriza-intre-sua-si-iran-bani-din-cele-6-miliarde-de-dolari-inghetate-in-schimbul-accesului-aiea-la-siturile-nucleare-808029.html",
-      "published_at": "2026-10-21T07:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      }
+      "carried_forward": true
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-08-01T04:59:14.894352Z",
-      "immediate": 0,
-      "short": 0,
-      "extended": 0
-    },
     {
       "timestamp": "2026-08-01T07:35:32.071744Z",
       "immediate": 17,
@@ -6463,17 +6204,23 @@
       "immediate": 5,
       "short": 15,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-10-21T15:38:51.781953Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 6
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-10-21T10:36:58.784120Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 11
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 3
       },
       "manual": {
         "ok": true,
