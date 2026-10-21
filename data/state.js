@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-10-21T05:39:07.161997Z",
+  "generated_at": "2026-10-21T10:36:58.784120Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 8,
+      "score": 5,
       "low": 0,
-      "high": 21,
+      "high": 18,
       "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
+      "score": 15,
+      "low": 2,
+      "high": 28,
       "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 27,
-      "low": 14,
-      "high": 40,
-      "confidence": 66,
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 67,
       "status": "מוגבר"
     }
   },
@@ -35,86 +35,55 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מהירה",
-    "points_60m": 8
+    "level": "ירידה",
+    "points_60m": -3
   },
   "changes": [
     {
-      "time": "07:45",
-      "text": "Nuclear issue is an excuse : Araghchi says Iranian military readiness deters US aggression",
-      "impact": "השפעה מיידית מחושבת: +3.9",
+      "time": "13:00",
+      "text": "Iran strikes PAK in latest attack on Kurdish Iranian opposition groups",
+      "impact": "השפעה מיידית מחושבת: +1.9",
       "direction": "up",
-      "source": "batonrougepost.com",
-      "signal_id": "c03891a0c5dc6b11"
+      "source": "jpost.com",
+      "signal_id": "c2342d9df478706a"
     },
     {
-      "time": "08:00",
-      "text": "2 men rearrested in united kingdom on suspicion of assisting Iran over suspected plot at a US - run air base",
+      "time": "12:45",
+      "text": "Iran terror leaders should be losing sleep over Trump MOAB threat",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "foxnews.com",
+      "signal_id": "f9ef057c27b924f1"
+    },
+    {
+      "time": "13:00",
+      "text": "Al - Akhbar : US issues final warning to Iran over strikes on nuclear facilities",
       "impact": "השפעה מיידית מחושבת: +1.4",
       "direction": "up",
-      "source": "nsnews.com",
-      "signal_id": "99768bccf0b2d7c6"
+      "source": "en.apa.az",
+      "signal_id": "6c234e47863de19f"
     },
     {
-      "time": "07:45",
-      "text": "Donald Trump Jr Privately Opposed Iran War As Trump Weighs Fresh Strikes : Report",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "time": "12:30",
+      "text": "Iran Nuclear Talks Statement ; Mohsin Rezai Warning On Uranium Enrichment",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "outlookindia.com",
-      "signal_id": "e823496cfd66e7f9"
-    },
-    {
-      "time": "07:00",
-      "text": "Rússia moderniza drones iranianos Geran para guerra na Ucrânia",
-      "impact": "השפעה מיידית מחושבת: +1.3",
-      "direction": "up",
-      "source": "gazetadopovo.com.br",
-      "signal_id": "64e575ed4d02421a"
+      "source": "divyabhaskar.co.in",
+      "signal_id": "60df57cb533217e2"
     }
   ],
   "signals": [
     {
-      "id": "c03891a0c5dc6b11",
-      "name": "Nuclear issue is an excuse : Araghchi says Iranian military readiness deters US aggression",
-      "finding": "דיווח על יכולת, פריסה או היערכות צבאית איראנית.",
-      "category": "capability",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c03891a0c5dc6b11",
-      "strength": 0.46,
-      "reliability": 0.56,
-      "freshness": 0.773,
-      "max_effect": {
-        "immediate": 34,
-        "short": 48,
-        "extended": 42
-      },
-      "relevance": {
-        "immediate": 0.58,
-        "short": 1.0,
-        "extended": 0.84
-      },
-      "source": "batonrougepost.com",
-      "url": "http://www.batonrougepost.com/news/279388545/nuclear-issue-is-an-excuse-araghchi-says-iranian-military-readiness-deters-us-aggression",
-      "published_at": "2026-10-21T04:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 3.9,
-        "short": 9.6,
-        "extended": 7.0
-      }
-    },
-    {
-      "id": "99768bccf0b2d7c6",
-      "name": "2 men rearrested in united kingdom on suspicion of assisting Iran over suspected plot at a US - run air base",
+      "id": "c2342d9df478706a",
+      "name": "Iran strikes PAK in latest attack on Kurdish Iranian opposition groups",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "99768bccf0b2d7c6",
+      "dependency_group": "c2342d9df478706a",
       "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.83,
+      "reliability": 0.74,
+      "freshness": 0.839,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,27 +94,89 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "nsnews.com",
-      "url": "https://www.nsnews.com/world-news/2-men-rearrested-in-uk-on-suspicion-of-assisting-iran-over-suspected-plot-at-a-us-run-air-base-12915519",
-      "published_at": "2026-10-21T05:00:00Z",
+      "source": "jpost.com",
+      "url": "http://www.jpost.com/middle-east/iran-news/article-912396",
+      "published_at": "2026-10-21T10:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.9,
+        "short": 6.4,
+        "extended": 10.9
+      }
+    },
+    {
+      "id": "f9ef057c27b924f1",
+      "name": "Iran terror leaders should be losing sleep over Trump MOAB threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f9ef057c27b924f1",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.781,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "foxnews.com",
+      "url": "https://www.foxnews.com/opinion/trumps-moab-threat-could-put-irans-deepest-bunkers-americas-crosshairs",
+      "published_at": "2026-10-21T09:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.1,
+        "extended": 8.7
+      }
+    },
+    {
+      "id": "6c234e47863de19f",
+      "name": "Al - Akhbar : US issues final warning to Iran over strikes on nuclear facilities",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6c234e47863de19f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.839,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "en.apa.az",
+      "url": "https://en.apa.az/asia/al-akhbar-us-issues-final-warning-to-iran-over-strikes-on-nuclear-facilities-531349",
+      "published_at": "2026-10-21T10:00:00Z",
       "active": true,
       "computed": {
         "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
+        "short": 4.9,
+        "extended": 8.3
       }
     },
     {
-      "id": "e823496cfd66e7f9",
-      "name": "Donald Trump Jr Privately Opposed Iran War As Trump Weighs Fresh Strikes : Report",
+      "id": "60df57cb533217e2",
+      "name": "Iran Nuclear Talks Statement ; Mohsin Rezai Warning On Uranium Enrichment",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e823496cfd66e7f9",
+      "dependency_group": "60df57cb533217e2",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.773,
+      "freshness": 0.727,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -156,27 +187,151 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "outlookindia.com",
-      "url": "https://www.outlookindia.com/international/donald-trump-jr-privately-opposed-iran-war-as-trump-weighs-fresh-strikes-report",
-      "published_at": "2026-10-21T04:45:00Z",
+      "source": "divyabhaskar.co.in",
+      "url": "https://www.divyabhaskar.co.in/international/news/iran-nuclear-talks-us-statement-mohsin-rezai-uranium-enrichment-139438947.html",
+      "published_at": "2026-10-21T09:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
+        "immediate": 1.2,
+        "short": 4.2,
+        "extended": 7.2
       }
     },
     {
-      "id": "64e575ed4d02421a",
-      "name": "Rússia moderniza drones iranianos Geran para guerra na Ucrânia",
+      "id": "51a8aab91438ac18",
+      "name": "Report : Trump Opposed Netanyahu Proposed Early October Strikes on Iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "64e575ed4d02421a",
+      "dependency_group": "51a8aab91438ac18",
+      "strength": 0.4,
+      "reliability": 0.8,
+      "freshness": 0.411,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "haaretz.com",
+      "url": "https://www.haaretz.com/middle-east-news/iran/2026-10-21/ty-article/report-trump-opposed-netanyahus-proposed-early-october-strikes-on-iran/000001a1-5cd6-d99f-a3e5-7df7c3350000",
+      "published_at": "2026-10-21T07:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "d91123a0cca55bf5",
+      "name": "🚨DRAMATIC REPORT : Netanyahu Pushing For Massive New Strikes Against Iran , Planned Offensive Shelved Due To Trump Opposition",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d91123a0cca55bf5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.546,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2612785/%F0%9F%9A%A8dramatic-report-netanyahu-pushing-for-massive-new-strikes-against-iran-planned-offensive-shelved-due-to-trump-opposition.html",
+      "published_at": "2026-10-21T08:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.4
+      }
+    },
+    {
+      "id": "16c4e70e802e8d8c",
+      "name": "Iran Vows to Retaliate Against Any US Strike on Pickaxe Mountain",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "16c4e70e802e8d8c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.474,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "english.aawsat.com",
+      "url": "https://english.aawsat.com/world/5331837-iran-vows-retaliate-against-any-us-strike-pickaxe-mountain",
+      "published_at": "2026-10-21T08:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
+      }
+    },
+    {
+      "id": "5e61e64f7717693e",
+      "name": "Report : Netanyahu planned massive Iran attack , but Trump blocked it",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5e61e64f7717693e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.474,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ynetnews.com",
+      "url": "https://www.ynetnews.com/article/hkbuyph2fx",
+      "published_at": "2026-10-21T08:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.7
+      }
+    },
+    {
+      "id": "f7f159b8c22506af",
+      "name": "Zelensky Says Russia Supplied Drones and Satellite Intelligence to Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f7f159b8c22506af",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.624,
+      "freshness": 0.411,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -187,27 +342,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "gazetadopovo.com.br",
-      "url": "https://www.gazetadopovo.com.br/mundo/russia-transforma-drones-iranianos-em-armas-mais-letais-para-atacar-a-ucrania/",
-      "published_at": "2026-10-21T04:00:00Z",
+      "source": "kyivpost.com",
+      "url": "https://www.kyivpost.com/post/87677",
+      "published_at": "2026-10-21T07:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.4
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       }
     },
     {
-      "id": "5a2b93a10714d47d",
-      "name": "സമ്പുഷ്ടീകരിച്ച യുറേനിയം വിട്ടുനൽകില്ല , നിബന്ധനകൾ അംഗീകരിക്കാതെ അമേരിക്കയുമായി ചർച്ചയില്ല ; നിലപാട് കടുപ്പിച്ച് ഇറാൻ |  No enriched nuclear material will leave Iran : Tehran tells Pakistan army chief Asim Munir amid US ",
+      "id": "56028a42820f4dd3",
+      "name": "Head of Iran Security Council Says Enriched Nuclear Materials Will Not Leave Country",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "5a2b93a10714d47d",
+      "dependency_group": "56028a42820f4dd3",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.773,
+      "freshness": 0.331,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -218,151 +373,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "madhyamam.com",
-      "url": "https://www.madhyamam.com/world/iran-refuses-to-export-enriched-uranium-peace-talks-1565015",
-      "published_at": "2026-10-21T04:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.6
-      }
-    },
-    {
-      "id": "687fac89bad5318b",
-      "name": "No enriched nuclear material will leave Iran : Tehran tells Pakistan army chief Asim Munir amid US peace deal deadlock",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "687fac89bad5318b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.624,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/no-enriched-nuclear-material-uranium-will-leave-iran-tehran-tells-pakistan-army-chief-asim-munir-amid-us-peace-deal-deadlock-101792544816680.html",
-      "published_at": "2026-10-21T04:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      }
-    },
-    {
-      "id": "5610f47c167765cd",
-      "name": "Why Invading Iran Could Become America Biggest Military Mistake - OpEd",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5610f47c167765cd",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.406,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "eurasiareview.com",
-      "url": "https://www.eurasiareview.com/21102026-why-invading-iran-could-become-americas-biggest-military-mistake-oped/",
-      "published_at": "2026-10-21T02:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      }
-    },
-    {
-      "id": "46dab621252783d9",
-      "name": "With War In Limbo , Influential Iranian Officials Openly Call For A Nuclear Bomb - Analysis",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "46dab621252783d9",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.378,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "eurasiareview.com",
-      "url": "https://www.eurasiareview.com/21102026-with-war-in-limbo-influential-iranian-officials-openly-call-for-a-nuclear-bomb-analysis/",
-      "published_at": "2026-10-21T02:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    },
-    {
-      "id": "e0bcc0f24b4e773a",
-      "name": "UK police re - arrest two suspects in Iranian plot targeting US bomber base",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e0bcc0f24b4e773a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.328,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "israelnationalnews.com",
-      "url": "https://www.israelnationalnews.com/news/434923",
-      "published_at": "2026-10-21T01:45:00Z",
+      "source": "sputnikglobe.com",
+      "url": "https://sputnikglobe.com/20261021/head-of-irans-security-council-says-enriched-nuclear-materials-will-not-leave-country-1124913190.html",
+      "published_at": "2026-10-21T06:45:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
         "short": 1.9,
-        "extended": 3.2
+        "extended": 3.3
       }
     },
     {
-      "id": "95df431673275749",
-      "name": "UK police re - arrest two men over suspected Iranian involvement in RAF base incident",
+      "id": "7a2a9c4857fa5d27",
+      "name": "Compromis - surpriză între SUA și Iran : Bani din cele 6 miliarde de dolari înghețate , în schimbul accesului AIEA la siturile nucleare",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "95df431673275749",
+      "dependency_group": "7a2a9c4857fa5d27",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.328,
+      "freshness": 0.356,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -373,24 +404,18 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "middle-east-online.com",
-      "url": "https://www.middle-east-online.com/en/uk-police-re-arrest-two-men-over-suspected-iranian-involvement-raf-base-incident",
-      "published_at": "2026-10-21T01:45:00Z",
+      "source": "antena3.ro",
+      "url": "https://www.antena3.ro/externe/compromis-surpriza-intre-sua-si-iran-bani-din-cele-6-miliarde-de-dolari-inghetate-in-schimbul-accesului-aiea-la-siturile-nucleare-808029.html",
+      "published_at": "2026-10-21T07:00:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
+        "short": 2.1,
+        "extended": 3.5
       }
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-08-01T01:26:05.054738Z",
-      "immediate": 34,
-      "short": 31,
-      "extended": 21
-    },
     {
       "timestamp": "2026-08-01T04:59:14.894352Z",
       "immediate": 0,
@@ -6432,17 +6457,23 @@ window.MAGEN_STATE = {
       "immediate": 8,
       "short": 21,
       "extended": 27
+    },
+    {
+      "timestamp": "2026-10-21T10:36:58.784120Z",
+      "immediate": 5,
+      "short": 15,
+      "extended": 25
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-10-21T05:39:07.161997Z",
+    "last_success": "2026-10-21T10:36:58.784120Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 10
+        "relevant": 11
       },
       "manual": {
         "ok": true,
