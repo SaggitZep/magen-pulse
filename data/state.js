@@ -1,272 +1,46 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-10-22T11:53:08.879514Z",
+  "mode": "degraded",
+  "generated_at": "2026-10-22T16:44:05.755803Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 19,
-      "low": 6,
-      "high": 32,
-      "confidence": 65,
-      "status": "נמוך"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 20,
-      "low": 7,
-      "high": 33,
-      "confidence": 64,
-      "status": "נמוך"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 18,
-      "low": 4,
-      "high": 32,
-      "confidence": 63,
-      "status": "נמוך"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -15
+    "points_60m": -19
   },
-  "changes": [
-    {
-      "time": "13:30",
-      "text": "US and Israel draw up plans for renewed strikes on Iran after elections",
-      "impact": "השפעה מיידית מחושבת: +16.6",
-      "direction": "up",
-      "source": "irishtimes.com",
-      "signal_id": "724fcd86a65ea824"
-    },
-    {
-      "time": "12:30",
-      "text": "Special Interview | Netanyahu warns : Iranian threat far from over , beware of  fake right",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "israelnationalnews.com",
-      "signal_id": "d4fcc1ac67163413"
-    },
-    {
-      "time": "12:15",
-      "text": "IRGC Navy says four offending vessels hit in northern Persian Gulf , three others strike mines west of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +0.8",
-      "direction": "up",
-      "source": "presstv.co.uk",
-      "signal_id": "e84ba7c76e6f9adb"
-    },
-    {
-      "time": "11:00",
-      "text": "Iran IRGC claims four oil ships hit , three others strike mines in Hormuz",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "business-standard.com",
-      "signal_id": "d89a7ac634b5869f"
-    }
-  ],
-  "signals": [
-    {
-      "id": "724fcd86a65ea824",
-      "name": "US and Israel draw up plans for renewed strikes on Iran after elections",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "724fcd86a65ea824",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.673,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "irishtimes.com",
-      "url": "https://www.irishtimes.com/world/us/2026/10/22/us-and-israel-draw-up-plans-for-renewed-strikes-on-iran-after-elections/",
-      "published_at": "2026-10-22T10:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 16.6,
-        "short": 12.9,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "d4fcc1ac67163413",
-      "name": "Special Interview | Netanyahu warns : Iranian threat far from over , beware of  fake right",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d4fcc1ac67163413",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.506,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "israelnationalnews.com",
-      "url": "https://www.israelnationalnews.com/news/434997",
-      "published_at": "2026-10-22T09:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.6
-      }
-    },
-    {
-      "id": "e84ba7c76e6f9adb",
-      "name": "IRGC Navy says four offending vessels hit in northern Persian Gulf , three others strike mines west of Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e84ba7c76e6f9adb",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.471,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/10/22/778916/IRGC-Navy-four-vessels-hit-Persian-Gulf",
-      "published_at": "2026-10-22T09:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.7,
-        "extended": 4.6
-      }
-    },
-    {
-      "id": "d89a7ac634b5869f",
-      "name": "Iran IRGC claims four oil ships hit , three others strike mines in Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d89a7ac634b5869f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.329,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "business-standard.com",
-      "url": "https://www.business-standard.com/world-news/iran-s-irgc-claims-four-oil-ships-hit-three-others-strike-mines-in-hormuz-126102200404_1.html",
-      "published_at": "2026-10-22T08:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      }
-    },
-    {
-      "id": "7e61eb133c38c277",
-      "name": "Not negotiating : Trump says  something will happen fairly soon  with Iran , as US mulls fresh strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7e61eb133c38c277",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.354,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeaststar.com",
-      "url": "http://www.middleeaststar.com/news/279391425/not-negotiating-trump-says-something-will-happen-fairly-soon-with-iran-as-us-mulls-fresh-strikes",
-      "published_at": "2026-10-22T08:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
-      }
-    },
-    {
-      "id": "3fa696a4905864e4",
-      "name": "Iran IRGC says 4 ships hit , set ablaze in Gulf ; 3 others strike mines near Hormuz",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3fa696a4905864e4",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.354,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "middleeaststar.com",
-      "url": "http://www.middleeaststar.com/news/279391539/iran-irgc-says-4-ships-hit-set-ablaze-in-gulf-3-others-strike-mines-near-hormuz",
-      "published_at": "2026-10-22T08:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.5
-      }
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
-    {
-      "timestamp": "2026-08-01T15:13:03.077291Z",
-      "immediate": 0,
-      "short": 0,
-      "extended": 0
-    },
     {
       "timestamp": "2026-08-01T16:16:11.360570Z",
       "immediate": 34,
@@ -6308,17 +6082,23 @@ window.MAGEN_STATE = {
       "immediate": 19,
       "short": 20,
       "extended": 18
+    },
+    {
+      "timestamp": "2026-10-22T16:44:05.755803Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-10-22T11:53:08.879514Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 6
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
