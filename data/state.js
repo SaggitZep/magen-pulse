@@ -1,56 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-10-21T22:46:56.518570Z",
+  "mode": "degraded",
+  "generated_at": "2026-10-22T01:02:36.245914Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 8,
+      "low": 0,
+      "high": 25,
+      "confidence": 47,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 28,
-      "low": 15,
-      "high": 41,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 11,
+      "low": 0,
+      "high": 28,
+      "confidence": 47,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 26,
-      "low": 13,
-      "high": 39,
-      "confidence": 68,
-      "status": "מוגבר"
+      "score": 13,
+      "low": 0,
+      "high": 30,
+      "confidence": 47,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 25
+    "level": "ירידה",
+    "points_60m": -17
   },
   "changes": [
     {
-      "time": "22:00",
-      "text": "Benjamin Netanyahu : Iran , proxies may interfere in Israeli elections , threatens force",
-      "impact": "השפעה מיידית מחושבת: +12.1",
-      "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "f1ededdf773cdc13"
-    },
-    {
       "time": "23:15",
       "text": "Israeli military conducts massive  power projection  near Iran border . Netanyahu is determined to over throw its regime – Ya Libnan",
-      "impact": "השפעה מיידית מחושבת: +12.0",
+      "impact": "השפעה מיידית מחושבת: +6.3",
       "direction": "up",
       "source": "yalibnan.com",
       "signal_id": "1028da8f66d4900d"
@@ -58,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "01:15",
       "text": "US sanctions Greece -, Panama - based law firm over aid to Iranian shipping",
-      "impact": "השפעה מיידית מחושבת: +1.9",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
       "source": "al-monitor.com",
       "signal_id": "5ae6de687b6d1291"
@@ -66,44 +58,21 @@ window.MAGEN_STATE = {
     {
       "time": "00:30",
       "text": "Netanyahu threatens regime change in Iran",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "middleeasteye.net",
       "signal_id": "1c3a86cfe6b3cff4"
+    },
+    {
+      "time": "00:30",
+      "text": "Gulf exports more oil than it did before Iran war despite surge in Hormuz attacks",
+      "impact": "השפעה מיידית מחושבת: +0.6",
+      "direction": "up",
+      "source": "middleeasteye.net",
+      "signal_id": "9a7921d7246d0e82"
     }
   ],
   "signals": [
-    {
-      "id": "f1ededdf773cdc13",
-      "name": "Benjamin Netanyahu : Iran , proxies may interfere in Israeli elections , threatens force",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f1ededdf773cdc13",
-      "strength": 0.55,
-      "reliability": 0.74,
-      "freshness": 0.339,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "jpost.com",
-      "url": "http://www.jpost.com/israel-election-2026/article-912451",
-      "published_at": "2026-10-21T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 12.1,
-        "short": 9.5,
-        "extended": 4.0
-      }
-    },
     {
       "id": "1028da8f66d4900d",
       "name": "Israeli military conducts massive  power projection  near Iran border . Netanyahu is determined to over throw its regime – Ya Libnan",
@@ -114,7 +83,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1028da8f66d4900d",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.485,
+      "freshness": 0.254,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -130,10 +99,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-21T20:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 12.0,
-        "short": 9.3,
-        "extended": 4.0
-      }
+        "immediate": 6.3,
+        "short": 4.9,
+        "extended": 2.1
+      },
+      "carried_forward": true
     },
     {
       "id": "5ae6de687b6d1291",
@@ -145,7 +115,7 @@ window.MAGEN_STATE = {
       "dependency_group": "5ae6de687b6d1291",
       "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.859,
+      "freshness": 0.45,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +131,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-21T22:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.9,
-        "short": 6.6,
-        "extended": 11.2
-      }
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.9
+      },
+      "carried_forward": true
     },
     {
       "id": "1c3a86cfe6b3cff4",
@@ -176,7 +147,7 @@ window.MAGEN_STATE = {
       "dependency_group": "1c3a86cfe6b3cff4",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.693,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,10 +163,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-21T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.5,
-        "extended": 7.7
-      }
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      },
+      "carried_forward": true
     },
     {
       "id": "9a7921d7246d0e82",
@@ -207,7 +179,7 @@ window.MAGEN_STATE = {
       "dependency_group": "9a7921d7246d0e82",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.693,
+      "freshness": 0.363,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,10 +195,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-21T21:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.8
-      }
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.6
+      },
+      "carried_forward": true
     },
     {
       "id": "c9777db9356fe9db",
@@ -238,7 +211,7 @@ window.MAGEN_STATE = {
       "dependency_group": "c9777db9356fe9db",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.645,
+      "freshness": 0.338,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -254,10 +227,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-21T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.3
+      },
+      "carried_forward": true
     },
     {
       "id": "4c5008d1d209dd0b",
@@ -269,7 +243,7 @@ window.MAGEN_STATE = {
       "dependency_group": "4c5008d1d209dd0b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.645,
+      "freshness": 0.338,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -285,10 +259,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-21T21:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.4
-      }
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.3
+      },
+      "carried_forward": true
     },
     {
       "id": "52b82088ecd949ce",
@@ -300,7 +275,7 @@ window.MAGEN_STATE = {
       "dependency_group": "52b82088ecd949ce",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.42,
+      "freshness": 0.22,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -316,50 +291,14 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-21T19:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "7bb69325a26d2a87",
-      "name": "Parliament speaker meets Leader to discuss economic , military war against Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "7bb69325a26d2a87",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.339,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "presstv.co.uk",
-      "url": "https://www.presstv.co.uk/Detail/2026/10/21/778886/Iranian-parliament-speaker-meets-Leader-",
-      "published_at": "2026-10-21T19:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
-      }
+      "carried_forward": true
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-08-01T11:06:17.544525Z",
-      "immediate": 6,
-      "short": 9,
-      "extended": 11
-    },
     {
       "timestamp": "2026-08-01T12:13:32.924162Z",
       "immediate": 1,
@@ -6401,17 +6340,23 @@ window.MAGEN_STATE = {
       "immediate": 25,
       "short": 28,
       "extended": 26
+    },
+    {
+      "timestamp": "2026-10-22T01:02:36.245914Z",
+      "immediate": 8,
+      "short": 11,
+      "extended": 13
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-10-21T22:46:56.518570Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 9
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 7
       },
       "manual": {
         "ok": true,
