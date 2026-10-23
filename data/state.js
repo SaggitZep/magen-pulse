@@ -1,365 +1,46 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-10-23T06:55:54.705683Z",
+  "mode": "degraded",
+  "generated_at": "2026-10-23T12:34:47.128493Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 67,
-      "status": "מוגבר"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 26,
-      "low": 13,
-      "high": 39,
-      "confidence": 66,
-      "status": "מוגבר"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 66,
-      "status": "מוגבר"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 15
+    "level": "ירידה",
+    "points_60m": -24
   },
-  "changes": [
-    {
-      "time": "09:30",
-      "text": "Israel Defence Forces Chief of Staff says ,  no need to strike Iran before election",
-      "impact": "השפעה מיידית מחושבת: +21.8",
-      "direction": "up",
-      "source": "news.webindia123.com",
-      "signal_id": "78759c7c9a946bd8"
-    },
-    {
-      "time": "09:30",
-      "text": "Iran says 7 oil tankers were attacked in the Strait of Hormuz as fears grow of a return to war",
-      "impact": "השפעה מיידית מחושבת: +1.5",
-      "direction": "up",
-      "source": "kfyrtv.com",
-      "signal_id": "5939f75196470c61"
-    },
-    {
-      "time": "08:00",
-      "text": "Iran War Updates : Trump accuses Iran of lying about strikes on ships to drive up oil prices before midterm – Ya Libnan",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "yalibnan.com",
-      "signal_id": "3e68e49e9017d20e"
-    },
-    {
-      "time": "07:30",
-      "text": "Trump Signals Possible Action Against Iran as Tehran Warns of Wider Retaliation",
-      "impact": "השפעה מיידית מחושבת: +1.0",
-      "direction": "up",
-      "source": "gulfnews.com",
-      "signal_id": "d1765a4f588a4d00"
-    }
-  ],
-  "signals": [
-    {
-      "id": "78759c7c9a946bd8",
-      "name": "Israel Defence Forces Chief of Staff says ,  no need to strike Iran before election",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "78759c7c9a946bd8",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.884,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "news.webindia123.com",
-      "url": "https://news.webindia123.com/news/Articles/World/20261023/4514083.html",
-      "published_at": "2026-10-23T06:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 21.8,
-        "short": 17.0,
-        "extended": 7.2
-      }
-    },
-    {
-      "id": "5939f75196470c61",
-      "name": "Iran says 7 oil tankers were attacked in the Strait of Hormuz as fears grow of a return to war",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5939f75196470c61",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.884,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kfyrtv.com",
-      "url": "https://www.kfyrtv.com/2026/10/22/iran-says-7-oil-tankers-were-attacked-strait-hormuz-fears-grow-return-war/",
-      "published_at": "2026-10-23T06:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 5.1,
-        "extended": 8.7
-      }
-    },
-    {
-      "id": "3e68e49e9017d20e",
-      "name": "Iran War Updates : Trump accuses Iran of lying about strikes on ships to drive up oil prices before midterm – Ya Libnan",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3e68e49e9017d20e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.576,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "yalibnan.com",
-      "url": "https://yalibnan.com/2026/10/23/iran-war-updatestrump-accuses-iran-of-lying-about-strikes-on-ships-to-drive-up-oil-prices-before-midterm/",
-      "published_at": "2026-10-23T05:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.7
-      }
-    },
-    {
-      "id": "d1765a4f588a4d00",
-      "name": "Trump Signals Possible Action Against Iran as Tehran Warns of Wider Retaliation",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d1765a4f588a4d00",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.499,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gulfnews.com",
-      "url": "https://gulfnews.com/world/mena/trump-hints-at-renewed-action-against-iran-fairly-soon-iran-warns-of-wider-retaliation-1.500720562",
-      "published_at": "2026-10-23T04:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.2,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "54e78c88f49e01d9",
-      "name": "Iranian lawmaker calls for nuclear response if US launches new attack",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "54e78c88f49e01d9",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.536,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "israelnationalnews.com",
-      "url": "https://www.israelnationalnews.com/news/435043",
-      "published_at": "2026-10-23T04:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.1,
-        "extended": 5.3
-      }
-    },
-    {
-      "id": "8db4c6de8dde5539",
-      "name": "Donald Trump claims Iran faked Strait of Hormuz attacks to influence midterm elections",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "8db4c6de8dde5539",
-      "strength": 0.4,
-      "reliability": 0.74,
-      "freshness": 0.375,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-912639",
-      "published_at": "2026-10-23T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.9,
-        "extended": 4.9
-      }
-    },
-    {
-      "id": "f4e288e6daed7e50",
-      "name": "World News : US  may strike Iran after polls",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f4e288e6daed7e50",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.375,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "gdnonline.com:443",
-      "url": "https://www.gdnonline.com:443/Details/1410609/US-%E2%80%98may-strike-Iran-after-polls%E2%80%99",
-      "published_at": "2026-10-23T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    },
-    {
-      "id": "75a40c2a12e93817",
-      "name": "Trump Hints at Escalation Against Iran Amid Oil Revenue Crackdown and Maritime Tensions",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "75a40c2a12e93817",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.375,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "openthemagazine.com",
-      "url": "https://openthemagazine.com/world/trump-warns-us-may-go-a-little-further-against-iran-as-treasury-targets-oil-lifeline",
-      "published_at": "2026-10-23T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    },
-    {
-      "id": "ef2a7548b326b1cf",
-      "name": "Iran Araghchi Challenges Macron Over Nuclear Deal as Tehran Restricts Dollar Sales",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "ef2a7548b326b1cf",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.375,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "openthemagazine.com",
-      "url": "https://openthemagazine.com/world/get-your-story-straight-irans-araghchi-takes-aim-at-macron-as-tehran-tightens-dollar-sales",
-      "published_at": "2026-10-23T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.2,
-        "extended": 3.7
-      }
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
-    {
-      "timestamp": "2026-08-01T21:05:21.226302Z",
-      "immediate": 54,
-      "short": 52,
-      "extended": 41
-    },
     {
       "timestamp": "2026-08-01T22:12:01.985541Z",
       "immediate": 43,
@@ -6401,17 +6082,23 @@ window.MAGEN_STATE = {
       "immediate": 24,
       "short": 26,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-10-23T12:34:47.128493Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-10-23T06:55:54.705683Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 9
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
