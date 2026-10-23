@@ -1,52 +1,126 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-10-23T12:34:47.128493Z",
+  "mode": "live",
+  "generated_at": "2026-10-23T17:28:16.351413Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 16,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "high": 32,
+      "confidence": 49,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
+      "score": 13,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "high": 29,
+      "confidence": 49,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
+      "score": 5,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 21,
+      "confidence": 49,
       "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -24
+    "level": "זינוק חריג",
+    "points_60m": 16
   },
-  "changes": [],
-  "signals": [],
-  "history": [
+  "changes": [
     {
-      "timestamp": "2026-08-01T22:12:01.985541Z",
-      "immediate": 43,
-      "short": 40,
-      "extended": 31
+      "time": "18:00",
+      "text": "U . S . and Israel are planning for a possible attack on Iran after the midterms",
+      "impact": "השפעה מיידית מחושבת: +12.2",
+      "direction": "up",
+      "source": "ypradio.org",
+      "signal_id": "a76f2098513dd4de"
     },
+    {
+      "time": "18:00",
+      "text": "Retired general discusses the U . S . and Israeli plan for possible attack on Iran",
+      "impact": "השפעה מיידית מחושבת: +12.2",
+      "direction": "up",
+      "source": "ypradio.org",
+      "signal_id": "cba1bc2fca3772a1"
+    }
+  ],
+  "signals": [
+    {
+      "id": "a76f2098513dd4de",
+      "name": "U . S . and Israel are planning for a possible attack on Iran after the midterms",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a76f2098513dd4de",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.494,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "ypradio.org",
+      "url": "https://www.ypradio.org/2026-10-23/u-s-and-israel-are-planning-for-a-possible-attack-on-iran-after-the-midterms",
+      "published_at": "2026-10-23T15:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 12.2,
+        "short": 9.5,
+        "extended": 4.0
+      }
+    },
+    {
+      "id": "cba1bc2fca3772a1",
+      "name": "Retired general discusses the U . S . and Israeli plan for possible attack on Iran",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cba1bc2fca3772a1",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.494,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "ypradio.org",
+      "url": "https://www.ypradio.org/2026-10-23/retired-general-discusses-the-u-s-and-israeli-plan-for-possible-attack-on-iran",
+      "published_at": "2026-10-23T15:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 12.2,
+        "short": 9.5,
+        "extended": 4.0
+      }
+    }
+  ],
+  "history": [
     {
       "timestamp": "2026-08-01T23:14:29.881755Z",
       "immediate": 33,
@@ -6088,17 +6162,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-10-23T17:28:16.351413Z",
+      "immediate": 16,
+      "short": 13,
+      "extended": 5
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-10-23T06:55:54.705683Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-10-23T17:28:16.351413Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 50,
+        "relevant": 2
       },
       "manual": {
         "ok": true,
