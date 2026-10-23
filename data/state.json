@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-10-22T23:29:22.561704Z",
+  "generated_at": "2026-10-23T01:52:32.126329Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 25,
-      "low": 8,
-      "high": 42,
-      "confidence": 47,
-      "status": "מוגבר"
+      "score": 9,
+      "low": 0,
+      "high": 28,
+      "confidence": 35,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 23,
-      "low": 6,
-      "high": 40,
-      "confidence": 46,
-      "status": "מוגבר"
+      "score": 8,
+      "low": 0,
+      "high": 27,
+      "confidence": 35,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 17,
+      "score": 5,
       "low": 0,
-      "high": 34,
-      "confidence": 46,
-      "status": "נמוך"
+      "high": 24,
+      "confidence": 35,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -36,13 +36,13 @@
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -9
+    "points_60m": -16
   },
   "changes": [
     {
       "time": "23:00",
       "text": "US , Israel Reportedly Plan To Resume Iran Strikes",
-      "impact": "השפעה מיידית מחושבת: +9.1",
+      "impact": "השפעה מיידית מחושבת: +4.6",
       "direction": "up",
       "source": "wrko.iheart.com",
       "signal_id": "1201f8c8333080a8"
@@ -50,23 +50,15 @@
     {
       "time": "23:00",
       "text": "U . S . and Israel are planning for a possible post - midterms attack on Iran : NPR",
-      "impact": "השפעה מיידית מחושבת: +9.1",
+      "impact": "השפעה מיידית מחושבת: +4.6",
       "direction": "up",
       "source": "npr.org",
       "signal_id": "039cd51957eb8abb"
     },
     {
-      "time": "22:15",
-      "text": "US , Israel Reportedly Plan To Resume Iran Strikes | Newstalk 1400 , 104 . 5 , and 105 . 9 WJMX",
-      "impact": "השפעה מיידית מחושבת: +7.3",
-      "direction": "up",
-      "source": "newstalk1400online.iheart.com",
-      "signal_id": "94720cde8fc8433a"
-    },
-    {
       "time": "23:00",
       "text": "Crude Oil Soars Amid Rising Supply Disruption Concerns Due To Possible Fresh U . S .- Iran Attacks",
-      "impact": "השפעה מיידית מחושבת: +0.6",
+      "impact": "השפעה מיידית מחושבת: +0.3",
       "direction": "up",
       "source": "finanzen.ch",
       "signal_id": "24625d6bf57b276b"
@@ -83,7 +75,7 @@
       "dependency_group": "1201f8c8333080a8",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.369,
+      "freshness": 0.187,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +91,9 @@
       "published_at": "2026-10-22T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 9.1,
-        "short": 7.1,
-        "extended": 3.0
+        "immediate": 4.6,
+        "short": 3.6,
+        "extended": 1.5
       },
       "carried_forward": true
     },
@@ -115,7 +107,7 @@
       "dependency_group": "039cd51957eb8abb",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.369,
+      "freshness": 0.187,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -131,41 +123,9 @@
       "published_at": "2026-10-22T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 9.1,
-        "short": 7.1,
-        "extended": 3.0
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "94720cde8fc8433a",
-      "name": "US , Israel Reportedly Plan To Resume Iran Strikes | Newstalk 1400 , 104 . 5 , and 105 . 9 WJMX",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "94720cde8fc8433a",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.298,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "newstalk1400online.iheart.com",
-      "url": "https://newstalk1400online.iheart.com/content/2026-10-22-us-israel-reportedly-plan-to-resume-iran-strikes/",
-      "published_at": "2026-10-22T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 7.3,
-        "short": 5.7,
-        "extended": 2.4
+        "immediate": 4.6,
+        "short": 3.6,
+        "extended": 1.5
       },
       "carried_forward": true
     },
@@ -179,7 +139,7 @@
       "dependency_group": "24625d6bf57b276b",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.369,
+      "freshness": 0.187,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -195,148 +155,14 @@
       "published_at": "2026-10-22T20:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "4fea2defa3b4833f",
-      "name": "होर्मुज में 7 तेल टैंकर क्षतिग्रस्त , ईरान ने अमेरिका को दी ठिकानों पर हमले की चेतावनी - 7 oil tankers damaged in hormuz iran warns us of attacks on its bases",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4fea2defa3b4833f",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.32,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jagran.com",
-      "url": "https://www.jagran.com/world/middle-east-7-oil-tankers-damaged-in-hormuz-iran-warns-us-of-attacks-on-its-bases-40413480.html",
-      "published_at": "2026-10-22T19:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.5
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "397cf88a52a40d5c",
-      "name": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "397cf88a52a40d5c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.298,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thegazette.com",
-      "url": "http://www.thegazette.com/news/national/iran-says-7-oil-tankers-attacked-in-the-strait-of-hormuz-as-fears-grow-of/article_07c02078-eb08-55d7-b0f1-e28234dca5e6.html",
-      "published_at": "2026-10-22T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "b100e2698ebfd68c",
-      "name": "Iranian Agents Sentenced to Long Prison Terms for Attack Plots Against Volker Beck",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "b100e2698ebfd68c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.298,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thecolu.mn",
-      "url": "https://thecolu.mn/5866/iranian-agents-sentenced-to-long-prison-terms-for-attack-plots-against-volker-beck/",
-      "published_at": "2026-10-22T19:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.7,
-        "extended": 2.9
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "f0409f9e2c75374c",
-      "name": "מכין את הקרקע לתקיפה ? טראמפ במסר חריף נגד איראן",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f0409f9e2c75374c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.181,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "srugim.co.il",
-      "url": "http://www.srugim.co.il/101014217-%D7%9E%D7%9B%D7%99%D7%9F-%D7%90%D7%AA-%D7%94%D7%A7%D7%A8%D7%A7%D7%A2-%D7%9C%D7%AA%D7%A7%D7%99%D7%A4%D7%94-%D7%98%D7%A8%D7%90%D7%9E%D7%A4-%D7%91%D7%9E%D7%A1%D7%A8-%D7%97%D7%A8%D7%99%D7%A3-%D7%A0%D7%92%D7%93",
-      "published_at": "2026-10-22T17:30:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.3,
-        "short": 1.0,
+        "short": 1.1,
         "extended": 1.8
       },
       "carried_forward": true
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-08-01T18:33:35.275493Z",
-      "immediate": 34,
-      "short": 34,
-      "extended": 34
-    },
     {
       "timestamp": "2026-08-01T19:56:30.933744Z",
       "immediate": 34,
@@ -6378,6 +6204,12 @@
       "immediate": 25,
       "short": 23,
       "extended": 17
+    },
+    {
+      "timestamp": "2026-10-23T01:52:32.126329Z",
+      "immediate": 9,
+      "short": 8,
+      "extended": 5
     }
   ],
   "health": {
@@ -6388,7 +6220,7 @@
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 8
+        "carried_forward": 3
       },
       "manual": {
         "ok": true,
