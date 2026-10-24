@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-10-24T07:11:51.448432Z",
+  "generated_at": "2026-10-24T12:03:14.090424Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
       "score": 0,
       "low": 0,
-      "high": 20,
-      "confidence": 26,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 1,
+      "score": 0,
       "low": 0,
-      "high": 21,
-      "confidence": 26,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 2,
+      "score": 0,
       "low": 0,
       "high": 22,
-      "confidence": 26,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     }
   },
@@ -35,60 +35,12 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -4
+    "level": "יציב",
+    "points_60m": 0
   },
-  "changes": [
-    {
-      "time": "04:15",
-      "text": "Trump at South Florida rally revives the idea of military intervention in Cuba after Iran",
-      "impact": "השפעה מיידית מחושבת: +0.3",
-      "direction": "up",
-      "source": "ksat.com",
-      "signal_id": "6329ad01cd0202ee"
-    }
-  ],
-  "signals": [
-    {
-      "id": "6329ad01cd0202ee",
-      "name": "Trump at South Florida rally revives the idea of military intervention in Cuba after Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6329ad01cd0202ee",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.183,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "ksat.com",
-      "url": "https://www.ksat.com/news/politics/2026/10/23/trump-at-south-florida-rally-revives-the-idea-of-military-intervention-in-cuba-after-iran/",
-      "published_at": "2026-10-24T01:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.3,
-        "short": 1.1,
-        "extended": 1.8
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
-    {
-      "timestamp": "2026-08-02T09:29:18.425725Z",
-      "immediate": 19,
-      "short": 20,
-      "extended": 18
-    },
     {
       "timestamp": "2026-08-02T11:04:51.564746Z",
       "immediate": 9,
@@ -6130,17 +6082,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 1,
       "extended": 2
+    },
+    {
+      "timestamp": "2026-10-24T12:03:14.090424Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-10-24T01:56:56.901922Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 1
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
