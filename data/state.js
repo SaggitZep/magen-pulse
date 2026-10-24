@@ -1,56 +1,48 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-10-24T21:10:08.689516Z",
+  "mode": "degraded",
+  "generated_at": "2026-10-24T23:18:14.921253Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 10,
+      "score": 1,
       "low": 0,
-      "high": 24,
-      "confidence": 62,
-      "status": "נמוך"
+      "high": 20,
+      "confidence": 36,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 14,
+      "score": 4,
       "low": 0,
-      "high": 28,
-      "confidence": 62,
-      "status": "נמוך"
+      "high": 23,
+      "confidence": 36,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 15,
-      "low": 1,
-      "high": 29,
-      "confidence": 62,
-      "status": "נמוך"
+      "score": 7,
+      "low": 0,
+      "high": 26,
+      "confidence": 36,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -10
+    "points_60m": -9
   },
   "changes": [
     {
-      "time": "20:15",
-      "text": "Iran says wont allow US warships to get close as Trump ponders new attacks | US - Israel war on Iran News",
-      "impact": "השפעה מיידית מחושבת: +8.0",
-      "direction": "up",
-      "source": "aljazeera.com",
-      "signal_id": "f026acfe24dd991d"
-    },
-    {
       "time": "22:15",
       "text": "Pentagon Presents President Trump With Options for Renewed Iran Strikes",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "impact": "השפעה מיידית מחושבת: +0.5",
       "direction": "up",
       "source": "themedialine.org",
       "signal_id": "7600101e9b1db186"
@@ -58,7 +50,7 @@ window.MAGEN_STATE = {
     {
       "time": "21:00",
       "text": "US objective is no more oil , nuclear issues , its total destruction of Iran : Foreign Affairs Expert Waiel Awwad",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "coloradostar.com",
       "signal_id": "21b642901d3d498d"
@@ -66,44 +58,13 @@ window.MAGEN_STATE = {
     {
       "time": "21:00",
       "text": "Resistance Units Reportedly Target Regime Symbols and Basij Sites After Attack on Tehran Market Vendors",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "impact": "השפעה מיידית מחושבת: +0.4",
       "direction": "up",
       "source": "irannewsupdate.com",
       "signal_id": "87860f629a74d999"
     }
   ],
   "signals": [
-    {
-      "id": "f026acfe24dd991d",
-      "name": "Iran says wont allow US warships to get close as Trump ponders new attacks | US - Israel war on Iran News",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f026acfe24dd991d",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.326,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "aljazeera.com",
-      "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks",
-      "published_at": "2026-10-24T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 8.0,
-        "short": 6.3,
-        "extended": 2.7
-      }
-    },
     {
       "id": "7600101e9b1db186",
       "name": "Pentagon Presents President Trump With Options for Renewed Iran Strikes",
@@ -114,7 +75,7 @@ window.MAGEN_STATE = {
       "dependency_group": "7600101e9b1db186",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.578,
+      "freshness": 0.314,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,10 +91,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-24T19:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.3,
-        "extended": 5.7
-      }
+        "immediate": 0.5,
+        "short": 1.8,
+        "extended": 3.1
+      },
+      "carried_forward": true
     },
     {
       "id": "21b642901d3d498d",
@@ -145,7 +107,7 @@ window.MAGEN_STATE = {
       "dependency_group": "21b642901d3d498d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.404,
+      "freshness": 0.22,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,10 +123,11 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-24T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      }
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
+      },
+      "carried_forward": true
     },
     {
       "id": "87860f629a74d999",
@@ -176,7 +139,7 @@ window.MAGEN_STATE = {
       "dependency_group": "87860f629a74d999",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.404,
+      "freshness": 0.22,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,81 +155,14 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-24T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 4.0
-      }
-    },
-    {
-      "id": "4c02de3a3f5d5b5d",
-      "name": "Embassies on alert as Iran ramps up threats , U . S . elections loom",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4c02de3a3f5d5b5d",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.326,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
+        "immediate": 0.4,
+        "short": 1.3,
+        "extended": 2.2
       },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "cnbc.com",
-      "url": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html",
-      "published_at": "2026-10-24T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
-    },
-    {
-      "id": "d14e7ab9d3434003",
-      "name": "Well do a little stopover : Trump revives idea of military intervention in Cuba after Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d14e7ab9d3434003",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.326,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newindianexpress.com",
-      "url": "https://www.newindianexpress.com/world/2026/Oct/24/well-do-a-little-stopover-trump-revives-idea-of-military-intervention-in-cuba-after-iran",
-      "published_at": "2026-10-24T17:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.2
-      }
+      "carried_forward": true
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-08-02T15:20:57.698858Z",
-      "immediate": 0,
-      "short": 0,
-      "extended": 0
-    },
     {
       "timestamp": "2026-08-02T16:27:48.976100Z",
       "immediate": 33,
@@ -6308,17 +6204,23 @@ window.MAGEN_STATE = {
       "immediate": 10,
       "short": 14,
       "extended": 15
+    },
+    {
+      "timestamp": "2026-10-24T23:18:14.921253Z",
+      "immediate": 1,
+      "short": 4,
+      "extended": 7
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
     "last_success": "2026-10-24T21:10:08.689516Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 150,
-        "relevant": 6
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 3
       },
       "manual": {
         "ok": true,
