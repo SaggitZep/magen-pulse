@@ -1,52 +1,328 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-10-23T23:32:31.034609Z",
+  "mode": "live",
+  "generated_at": "2026-10-24T01:56:56.901922Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 4,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 17,
+      "confidence": 68,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
+      "score": 13,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "high": 26,
+      "confidence": 68,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 21,
+      "low": 8,
+      "high": 34,
+      "confidence": 68,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 4
   },
-  "changes": [],
-  "signals": [],
-  "history": [
+  "changes": [
     {
-      "timestamp": "2026-08-02T04:33:55.400945Z",
-      "immediate": 0,
-      "short": 0,
-      "extended": 0
+      "time": "04:15",
+      "text": "Trump at South Florida rally revives the idea of military intervention in Cuba after Iran",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "ksat.com",
+      "signal_id": "6329ad01cd0202ee"
     },
+    {
+      "time": "03:30",
+      "text": "We may do another Epic Fury : Trump warns Iran of potential strike if deal not reached",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "trinidadtimes.com",
+      "signal_id": "19b056a4f8e8dd39"
+    },
+    {
+      "time": "03:30",
+      "text": "US could launch strikes on Iran this weekend , envoy warns",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "article.wn.com",
+      "signal_id": "aa38a27a5dedd9be"
+    },
+    {
+      "time": "03:30",
+      "text": "US envoy raises prospect of Iran strikes this weekend as Trump expresses surprise",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "middle-east-online.com",
+      "signal_id": "b6c09dbd1bbd036e"
+    }
+  ],
+  "signals": [
+    {
+      "id": "6329ad01cd0202ee",
+      "name": "Trump at South Florida rally revives the idea of military intervention in Cuba after Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6329ad01cd0202ee",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.819,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ksat.com",
+      "url": "https://www.ksat.com/news/politics/2026/10/23/trump-at-south-florida-rally-revives-the-idea-of-military-intervention-in-cuba-after-iran/",
+      "published_at": "2026-10-24T01:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.7,
+        "extended": 8.1
+      }
+    },
+    {
+      "id": "19b056a4f8e8dd39",
+      "name": "We may do another Epic Fury : Trump warns Iran of potential strike if deal not reached",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "19b056a4f8e8dd39",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.661,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "trinidadtimes.com",
+      "url": "http://www.trinidadtimes.com/news/279395303/we-may-do-another-epic-fury-trump-warns-iran-of-potential-strike-if-deal-not-reached",
+      "published_at": "2026-10-24T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "aa38a27a5dedd9be",
+      "name": "US could launch strikes on Iran this weekend , envoy warns",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "aa38a27a5dedd9be",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.661,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "article.wn.com",
+      "url": "https://article.wn.com/view/2026/10/24/US_could_launch_strikes_on_Iran_this_weekend_envoy_warns/",
+      "published_at": "2026-10-24T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.3,
+        "extended": 7.3
+      }
+    },
+    {
+      "id": "b6c09dbd1bbd036e",
+      "name": "US envoy raises prospect of Iran strikes this weekend as Trump expresses surprise",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b6c09dbd1bbd036e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.661,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middle-east-online.com",
+      "url": "https://www.middle-east-online.com/en/us-envoy-raises-prospect-iran-strikes-weekend-trump-expresses-surprise",
+      "published_at": "2026-10-24T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      }
+    },
+    {
+      "id": "d64aafcb96d9c11e",
+      "name": "Iran plans to target Gulf undersea cables if attacked : Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d64aafcb96d9c11e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.661,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "article.wn.com",
+      "url": "https://article.wn.com/view/2026/10/24/Iran_plans_to_target_Gulf_undersea_cables_if_attacked_Report/",
+      "published_at": "2026-10-24T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      }
+    },
+    {
+      "id": "2253dae0dcdbb7df",
+      "name": "Trump says US may do another military operation against Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2253dae0dcdbb7df",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.497,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "al-monitor.com",
+      "url": "https://www.al-monitor.com/originals/2026/10/trump-says-us-may-do-another-military-operation-against-iran",
+      "published_at": "2026-10-23T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.8,
+        "extended": 6.5
+      }
+    },
+    {
+      "id": "efbf1787ffeafb82",
+      "name": "Two unauthorized tankers explode in Hormuz , abandoned by crews after mine strikes : IRGC",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "efbf1787ffeafb82",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.533,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "presstv.co.uk",
+      "url": "https://www.presstv.co.uk/Detail/2026/10/23/779042/Two-unauthorized-tankers-explode-in-Hormuz-abandoned-by-crews-after-mine-strikes-IRGC",
+      "published_at": "2026-10-23T23:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.1,
+        "extended": 5.3
+      }
+    },
+    {
+      "id": "c9c04a44090d0e18",
+      "name": "U . S . could strike Iran this weekend , envoy says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c9c04a44090d0e18",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.497,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thehindu.com",
+      "url": "https://www.thehindu.com/news/international/us-could-strike-iran-this-weekend-envoy-says/article71617954.ece",
+      "published_at": "2026-10-23T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
+      }
+    }
+  ],
+  "history": [
     {
       "timestamp": "2026-08-02T07:18:59.329257Z",
       "immediate": 34,
@@ -6088,17 +6364,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-10-24T01:56:56.901922Z",
+      "immediate": 4,
+      "short": 13,
+      "extended": 21
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-10-23T20:37:03.763783Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-10-24T01:56:56.901922Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 8
       },
       "manual": {
         "ok": true,
