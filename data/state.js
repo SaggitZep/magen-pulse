@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-10-24T15:51:50.290443Z",
+  "generated_at": "2026-10-24T18:32:57.412056Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 15,
-      "low": 2,
-      "high": 28,
-      "confidence": 68,
+      "score": 20,
+      "low": 7,
+      "high": 33,
+      "confidence": 66,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 68,
-      "status": "נמוך"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 65,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
       "score": 25,
       "low": 12,
       "high": 38,
-      "confidence": 69,
+      "confidence": 65,
       "status": "מוגבר"
     }
   },
@@ -35,55 +35,55 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 15
+    "level": "עלייה מתונה",
+    "points_60m": 5
   },
   "changes": [
     {
-      "time": "16:15",
-      "text": "Gaza strikes to Iran war : The battles shaping Israel election",
-      "impact": "השפעה מיידית מחושבת: +11.7",
+      "time": "20:15",
+      "text": "Iran says wont allow US warships to get close as Trump ponders new attacks | US - Israel war on Iran News",
+      "impact": "השפעה מיידית מחושבת: +17.0",
       "direction": "up",
-      "source": "hindustantimes.com",
-      "signal_id": "8a1dedb5d566594e"
+      "source": "aljazeera.com",
+      "signal_id": "f026acfe24dd991d"
     },
     {
-      "time": "18:30",
+      "time": "21:00",
       "text": "US objective is no more oil , nuclear issues , its total destruction of Iran : Foreign Affairs Expert Waiel Awwad",
       "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "argentinastar.com",
+      "source": "coloradostar.com",
       "signal_id": "21b642901d3d498d"
     },
     {
-      "time": "18:15",
-      "text": "IRGC claims full control over Hormuz as US contemplates fresh strikes on Iran",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "time": "21:00",
+      "text": "Resistance Units Reportedly Target Regime Symbols and Basij Sites After Attack on Tehran Market Vendors",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "nigeriasun.com",
-      "signal_id": "6491353ffde08742"
+      "source": "irannewsupdate.com",
+      "signal_id": "87860f629a74d999"
     },
     {
-      "time": "17:45",
-      "text": "Iran says wont allow US warships to get close as Trump ponders new attacks - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "time": "19:15",
+      "text": "Read the memo : Iran plotting attacks on American citizens",
+      "impact": "השפעה מיידית מחושבת: +0.9",
       "direction": "up",
-      "source": "dominicanrepublicpost.com",
-      "signal_id": "92a28d07d3eed591"
+      "source": "hayspost.com",
+      "signal_id": "11c4875a7b228555"
     }
   ],
   "signals": [
     {
-      "id": "8a1dedb5d566594e",
-      "name": "Gaza strikes to Iran war : The battles shaping Israel election",
+      "id": "f026acfe24dd991d",
+      "name": "Iran says wont allow US warships to get close as Trump ponders new attacks | US - Israel war on Iran News",
       "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
       "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "8a1dedb5d566594e",
+      "dependency_group": "f026acfe24dd991d",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.474,
+      "freshness": 0.69,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -94,14 +94,14 @@ window.MAGEN_STATE = {
         "short": 0.88,
         "extended": 0.56
       },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/gaza-strikes-to-iran-war-the-battles-shaping-israel-s-election-101792768948091.html",
-      "published_at": "2026-10-24T13:15:00Z",
+      "source": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks",
+      "published_at": "2026-10-24T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 11.7,
-        "short": 9.1,
-        "extended": 3.9
+        "immediate": 17.0,
+        "short": 13.3,
+        "extended": 5.6
       }
     },
     {
@@ -114,7 +114,7 @@ window.MAGEN_STATE = {
       "dependency_group": "21b642901d3d498d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.901,
+      "freshness": 0.855,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,14 +125,138 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "argentinastar.com",
-      "url": "http://www.argentinastar.com/news/279396249/us-objective-is-no-more-oil-nuclear-issues-its-total-destruction-of-iran-foreign-affairs-expert-waiel-awwad",
-      "published_at": "2026-10-24T15:30:00Z",
+      "source": "coloradostar.com",
+      "url": "http://www.coloradostar.com/news/279396249/us-objective-is-no-more-oil-nuclear-issues-its-total-destruction-of-iran-foreign-affairs-expert-waiel-awwad",
+      "published_at": "2026-10-24T18:00:00Z",
       "active": true,
       "computed": {
         "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.9
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "87860f629a74d999",
+      "name": "Resistance Units Reportedly Target Regime Symbols and Basij Sites After Attack on Tehran Market Vendors",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "87860f629a74d999",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.855,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "irannewsupdate.com",
+      "url": "https://irannewsupdate.com/news/iranian-opposition/resistance-units-reportedly-target-regime-symbols-and-basij-sites-after-attack-on-tehran-market-vendors/",
+      "published_at": "2026-10-24T18:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 4.9,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "11c4875a7b228555",
+      "name": "Read the memo : Iran plotting attacks on American citizens",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "11c4875a7b228555",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.518,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hayspost.com",
+      "url": "https://hayspost.com/posts/245cfd4f-bdb2-4c88-8b34-bf556451421a",
+      "published_at": "2026-10-24T16:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "2c1b43b2ac9ed74e",
+      "name": "Iran says wont allow US warships to get close as Trump ponders new attacks - Grenada Chronicle – Daily Grenada And Caribbean News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2c1b43b2ac9ed74e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.449,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "grenadachronicle.com",
+      "url": "https://grenadachronicle.com/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks/",
+      "published_at": "2026-10-24T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "5d8e9f0a65ff806d",
+      "name": "Is Iran planning attacks on Americans ; why is the US on alert ? - Grenada Chronicle – Daily Grenada And Caribbean News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5d8e9f0a65ff806d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.449,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "grenadachronicle.com",
+      "url": "https://grenadachronicle.com/is-iran-planning-attacks-on-americans-why-is-the-us-on-alert/",
+      "published_at": "2026-10-24T15:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
       }
     },
     {
@@ -145,7 +269,7 @@ window.MAGEN_STATE = {
       "dependency_group": "6491353ffde08742",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.839,
+      "freshness": 0.39,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,9 +285,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-24T15:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.9,
-        "extended": 8.3
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 3.8
       }
     },
     {
@@ -176,7 +300,7 @@ window.MAGEN_STATE = {
       "dependency_group": "92a28d07d3eed591",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.727,
+      "freshness": 0.338,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -192,9 +316,9 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-24T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.3
       }
     },
     {
@@ -207,7 +331,7 @@ window.MAGEN_STATE = {
       "dependency_group": "b647bfee5f53b312",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.727,
+      "freshness": 0.338,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -223,22 +347,22 @@ window.MAGEN_STATE = {
       "published_at": "2026-10-24T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.2,
-        "extended": 7.2
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.3
       }
     },
     {
-      "id": "573c87963fb5cc57",
-      "name": "Signs point to renewed major US military ops against Iran",
+      "id": "4b750495b3629383",
+      "name": "US : Iran Plans to Attack Americans in  Advanced Stages",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "573c87963fb5cc57",
+      "dependency_group": "4b750495b3629383",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.631,
+      "freshness": 0.338,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -249,86 +373,18 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "naharnet.com:443",
-      "url": "https://www.naharnet.com:443/stories/en/323319-signs-point-to-renewed-major-us-military-ops-against-iran",
-      "published_at": "2026-10-24T14:15:00Z",
+      "source": "newser.com",
+      "url": "https://www.newser.com/story/398755/us-irans-plans-to-attack-americans-in-advanced-stages.html",
+      "published_at": "2026-10-24T14:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.2
-      }
-    },
-    {
-      "id": "16c4de341efa5c83",
-      "name": "Us and Iran military tensions escalate with MOAB , FOAB",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "16c4de341efa5c83",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.587,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "mathrubhumi.com",
-      "url": "https://www.mathrubhumi.com/news/world/us-iran-military-tensions-moab-foab-seduhz39",
-      "published_at": "2026-10-24T14:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
-      }
-    },
-    {
-      "id": "c0068fc6972fdfd6",
-      "name": "Iran plans strikes on US generals and diplomats , Rubio warned of IRGC threat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c0068fc6972fdfd6",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.382,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bankingnews.gr",
-      "url": "https://www.bankingnews.gr/diethni/articles/906962/iran-plans-strikes-on-us-generals-and-diplomats-rubio-warned-of-irgc-threat",
-      "published_at": "2026-10-24T12:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.2
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.3
       }
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-08-02T12:16:22.915346Z",
-      "immediate": 6,
-      "short": 7,
-      "extended": 8
-    },
     {
       "timestamp": "2026-08-02T14:05:20.752222Z",
       "immediate": 0,
@@ -6370,17 +6426,23 @@ window.MAGEN_STATE = {
       "immediate": 15,
       "short": 21,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-10-24T18:32:57.412056Z",
+      "immediate": 20,
+      "short": 24,
+      "extended": 25
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-10-24T15:51:50.290443Z",
+    "last_success": "2026-10-24T18:32:57.412056Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 8
+        "relevant": 10
       },
       "manual": {
         "ok": true,
