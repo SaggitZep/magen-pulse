@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-10-24T18:32:57.412056Z",
+  "generated_at": "2026-10-24T21:10:08.689516Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 20,
-      "low": 7,
-      "high": 33,
-      "confidence": 66,
+      "score": 10,
+      "low": 0,
+      "high": 24,
+      "confidence": 62,
       "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 65,
-      "status": "מוגבר"
+      "score": 14,
+      "low": 0,
+      "high": 28,
+      "confidence": 62,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 65,
-      "status": "מוגבר"
+      "score": 15,
+      "low": 1,
+      "high": 29,
+      "confidence": 62,
+      "status": "נמוך"
     }
   },
   "coverage": {
@@ -35,22 +35,30 @@
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 5
+    "level": "ירידה",
+    "points_60m": -10
   },
   "changes": [
     {
       "time": "20:15",
       "text": "Iran says wont allow US warships to get close as Trump ponders new attacks | US - Israel war on Iran News",
-      "impact": "השפעה מיידית מחושבת: +17.0",
+      "impact": "השפעה מיידית מחושבת: +8.0",
       "direction": "up",
       "source": "aljazeera.com",
       "signal_id": "f026acfe24dd991d"
     },
     {
+      "time": "22:15",
+      "text": "Pentagon Presents President Trump With Options for Renewed Iran Strikes",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "themedialine.org",
+      "signal_id": "7600101e9b1db186"
+    },
+    {
       "time": "21:00",
       "text": "US objective is no more oil , nuclear issues , its total destruction of Iran : Foreign Affairs Expert Waiel Awwad",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "coloradostar.com",
       "signal_id": "21b642901d3d498d"
@@ -58,18 +66,10 @@
     {
       "time": "21:00",
       "text": "Resistance Units Reportedly Target Regime Symbols and Basij Sites After Attack on Tehran Market Vendors",
-      "impact": "השפעה מיידית מחושבת: +1.5",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
       "source": "irannewsupdate.com",
       "signal_id": "87860f629a74d999"
-    },
-    {
-      "time": "19:15",
-      "text": "Read the memo : Iran plotting attacks on American citizens",
-      "impact": "השפעה מיידית מחושבת: +0.9",
-      "direction": "up",
-      "source": "hayspost.com",
-      "signal_id": "11c4875a7b228555"
     }
   ],
   "signals": [
@@ -83,7 +83,7 @@
       "dependency_group": "f026acfe24dd991d",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.69,
+      "freshness": 0.326,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -99,9 +99,40 @@
       "published_at": "2026-10-24T17:15:00Z",
       "active": true,
       "computed": {
-        "immediate": 17.0,
-        "short": 13.3,
-        "extended": 5.6
+        "immediate": 8.0,
+        "short": 6.3,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "7600101e9b1db186",
+      "name": "Pentagon Presents President Trump With Options for Renewed Iran Strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7600101e9b1db186",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.578,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "themedialine.org",
+      "url": "https://themedialine.org/headlines/pentagon-presents-president-trump-with-options-for-renewed-iran-strikes/",
+      "published_at": "2026-10-24T19:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.7
       }
     },
     {
@@ -114,7 +145,7 @@
       "dependency_group": "21b642901d3d498d",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.855,
+      "freshness": 0.404,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -130,9 +161,9 @@
       "published_at": "2026-10-24T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
+        "immediate": 0.7,
+        "short": 2.3,
+        "extended": 4.0
       }
     },
     {
@@ -145,7 +176,7 @@
       "dependency_group": "87860f629a74d999",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.855,
+      "freshness": 0.404,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -161,146 +192,22 @@
       "published_at": "2026-10-24T18:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.5,
-        "short": 4.9,
-        "extended": 8.4
-      }
-    },
-    {
-      "id": "11c4875a7b228555",
-      "name": "Read the memo : Iran plotting attacks on American citizens",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "11c4875a7b228555",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.518,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hayspost.com",
-      "url": "https://hayspost.com/posts/245cfd4f-bdb2-4c88-8b34-bf556451421a",
-      "published_at": "2026-10-24T16:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.9,
-        "short": 3.0,
-        "extended": 5.1
-      }
-    },
-    {
-      "id": "2c1b43b2ac9ed74e",
-      "name": "Iran says wont allow US warships to get close as Trump ponders new attacks - Grenada Chronicle – Daily Grenada And Caribbean News",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2c1b43b2ac9ed74e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.449,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "grenadachronicle.com",
-      "url": "https://grenadachronicle.com/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks/",
-      "published_at": "2026-10-24T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "5d8e9f0a65ff806d",
-      "name": "Is Iran planning attacks on Americans ; why is the US on alert ? - Grenada Chronicle – Daily Grenada And Caribbean News",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5d8e9f0a65ff806d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.449,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "grenadachronicle.com",
-      "url": "https://grenadachronicle.com/is-iran-planning-attacks-on-americans-why-is-the-us-on-alert/",
-      "published_at": "2026-10-24T15:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.4
-      }
-    },
-    {
-      "id": "6491353ffde08742",
-      "name": "IRGC claims full control over Hormuz as US contemplates fresh strikes on Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6491353ffde08742",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.39,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "nigeriasun.com",
-      "url": "http://www.nigeriasun.com/news/279395973/irgc-claims-full-control-over-hormuz-as-us-contemplates-fresh-strikes-on-iran",
-      "published_at": "2026-10-24T15:15:00Z",
-      "active": true,
-      "computed": {
         "immediate": 0.7,
         "short": 2.3,
-        "extended": 3.8
+        "extended": 4.0
       }
     },
     {
-      "id": "92a28d07d3eed591",
-      "name": "Iran says wont allow US warships to get close as Trump ponders new attacks - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "id": "4c02de3a3f5d5b5d",
+      "name": "Embassies on alert as Iran ramps up threats , U . S . elections loom",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "92a28d07d3eed591",
-      "strength": 0.4,
+      "dependency_group": "4c02de3a3f5d5b5d",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.338,
+      "freshness": 0.326,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -311,27 +218,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "dominicanrepublicpost.com",
-      "url": "https://dominicanrepublicpost.com/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks/",
-      "published_at": "2026-10-24T14:45:00Z",
+      "source": "cnbc.com",
+      "url": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html",
+      "published_at": "2026-10-24T17:15:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
+        "short": 2.1,
+        "extended": 3.6
       }
     },
     {
-      "id": "b647bfee5f53b312",
-      "name": "Is Iran planning attacks on Americans ; why is the US on alert ? - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "id": "d14e7ab9d3434003",
+      "name": "Well do a little stopover : Trump revives idea of military intervention in Cuba after Iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "b647bfee5f53b312",
+      "dependency_group": "d14e7ab9d3434003",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.338,
+      "freshness": 0.326,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -342,55 +249,18 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "dominicanrepublicpost.com",
-      "url": "https://dominicanrepublicpost.com/is-iran-planning-attacks-on-americans-why-is-the-us-on-alert/",
-      "published_at": "2026-10-24T14:45:00Z",
+      "source": "newindianexpress.com",
+      "url": "https://www.newindianexpress.com/world/2026/Oct/24/well-do-a-little-stopover-trump-revives-idea-of-military-intervention-in-cuba-after-iran",
+      "published_at": "2026-10-24T17:15:00Z",
       "active": true,
       "computed": {
         "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
-      }
-    },
-    {
-      "id": "4b750495b3629383",
-      "name": "US : Iran Plans to Attack Americans in  Advanced Stages",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4b750495b3629383",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.338,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newser.com",
-      "url": "https://www.newser.com/story/398755/us-irans-plans-to-attack-americans-in-advanced-stages.html",
-      "published_at": "2026-10-24T14:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.0,
-        "extended": 3.3
+        "short": 1.9,
+        "extended": 3.2
       }
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-08-02T14:05:20.752222Z",
-      "immediate": 0,
-      "short": 0,
-      "extended": 0
-    },
     {
       "timestamp": "2026-08-02T15:20:57.698858Z",
       "immediate": 0,
@@ -6432,17 +6302,23 @@
       "immediate": 20,
       "short": 24,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-10-24T21:10:08.689516Z",
+      "immediate": 10,
+      "short": 14,
+      "extended": 15
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-10-24T18:32:57.412056Z",
+    "last_success": "2026-10-24T21:10:08.689516Z",
     "sources": {
       "gdelt": {
         "ok": true,
         "items": 150,
-        "relevant": 10
+        "relevant": 6
       },
       "manual": {
         "ok": true,
