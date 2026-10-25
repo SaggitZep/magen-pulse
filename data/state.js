@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-10-25T16:01:54.068573Z",
+  "generated_at": "2026-10-25T18:58:12.587175Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 0,
       "low": 0,
-      "high": 18,
-      "confidence": 44,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 5,
+      "score": 0,
       "low": 0,
       "high": 22,
-      "confidence": 44,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 8,
+      "score": 0,
       "low": 0,
-      "high": 25,
-      "confidence": 44,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     }
   },
@@ -35,244 +35,12 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -3
+    "level": "יציב",
+    "points_60m": -1
   },
-  "changes": [
-    {
-      "time": "12:45",
-      "text": "Tehran strikes Iranian Kurdish opposition base in Iraq with drones",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "freemalaysiatoday.com",
-      "signal_id": "d476bbc2a750767b"
-    },
-    {
-      "time": "12:45",
-      "text": "ईरानी सेना : अमेरिकी  लुकास  ड्रोन को मार ग‍िराया | Iranian military : American Lucas drone shot down",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "deshbandhu.co.in",
-      "signal_id": "d858ea4d8d9a2708"
-    },
-    {
-      "time": "13:00",
-      "text": "Iran says US war threats will not change its policies",
-      "impact": "השפעה מיידית מחושבת: +0.5",
-      "direction": "up",
-      "source": "samaa.tv",
-      "signal_id": "70bd9ae84a0ec41b"
-    },
-    {
-      "time": "12:45",
-      "text": "Psychological terror , Trump : I will attack , Obama intervenes - Iran : New proposal is a lie , fiery hell in the Persian Gulf and Israel",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "bankingnews.gr",
-      "signal_id": "2adfee9022f2d2f4"
-    }
-  ],
-  "signals": [
-    {
-      "id": "d476bbc2a750767b",
-      "name": "Tehran strikes Iranian Kurdish opposition base in Iraq with drones",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d476bbc2a750767b",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.221,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "freemalaysiatoday.com",
-      "url": "https://www.freemalaysiatoday.com/category/world/2026/10/25/tehran-strikes-iranian-kurdish-base-in-iraq-with-drones-iranian-media",
-      "published_at": "2026-10-25T10:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "d858ea4d8d9a2708",
-      "name": "ईरानी सेना : अमेरिकी  लुकास  ड्रोन को मार ग‍िराया | Iranian military : American Lucas drone shot down",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d858ea4d8d9a2708",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.221,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "deshbandhu.co.in",
-      "url": "https://www.deshbandhu.co.in/world/iranian-military-american-lucas-drone-shot-down-328060",
-      "published_at": "2026-10-25T10:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "70bd9ae84a0ec41b",
-      "name": "Iran says US war threats will not change its policies",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "70bd9ae84a0ec41b",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.237,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "samaa.tv",
-      "url": "https://www.samaa.tv/2087359086-iran-says-us-war-threats-will-not-change-its-policies",
-      "published_at": "2026-10-25T11:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.5,
-        "short": 1.5,
-        "extended": 2.6
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "2adfee9022f2d2f4",
-      "name": "Psychological terror , Trump : I will attack , Obama intervenes - Iran : New proposal is a lie , fiery hell in the Persian Gulf and Israel",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "2adfee9022f2d2f4",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.221,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "bankingnews.gr",
-      "url": "https://www.bankingnews.gr/diethni/articles/907047/psychological-terror-trump-i-will-attack-obama-intervenes-iran-new-proposal-is-a-lie-fiery-hell-in-the-persian-gulf-and-israel",
-      "published_at": "2026-10-25T10:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "e2cf285a43858d9d",
-      "name": "Iran dismisses Trump warning of fresh attacks :  They will not try again if there any rationality",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e2cf285a43858d9d",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.221,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hindustantimes.com",
-      "url": "https://www.hindustantimes.com/world-news/iran-dismisses-trump-warning-of-fresh-attacks-they-will-not-try-again-if-theres-any-rationality-101792919193264.html",
-      "published_at": "2026-10-25T10:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "0c3a48bebab8ea1b",
-      "name": "ஈரானுக்கு எதிராக மீண்டும் தாக்குதலா ? டிரம்ப் பதில் , Another attack on Iran ? Trump response",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0c3a48bebab8ea1b",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.221,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailythanthi.com",
-      "url": "https://www.dailythanthi.com/news/sirappukatturaigal/another-attack-on-iran-what-did-trump-say-sensational-details",
-      "published_at": "2026-10-25T10:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
-    {
-      "timestamp": "2026-08-02T21:06:42.147000Z",
-      "immediate": 34,
-      "short": 34,
-      "extended": 34
-    },
     {
       "timestamp": "2026-08-02T22:11:22.540988Z",
       "immediate": 31,
@@ -6314,17 +6082,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 5,
       "extended": 8
+    },
+    {
+      "timestamp": "2026-10-25T18:58:12.587175Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-10-25T11:57:03.795514Z",
     "sources": {
       "gdelt": {
         "ok": false,
         "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 6
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
