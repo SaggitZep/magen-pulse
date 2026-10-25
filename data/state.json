@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-10-25T01:20:09.569764Z",
+  "generated_at": "2026-10-25T06:26:17.279293Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 2,
+      "score": 4,
       "low": 0,
-      "high": 18,
-      "confidence": 52,
+      "high": 17,
+      "confidence": 66,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 6,
-      "low": 0,
-      "high": 22,
-      "confidence": 52,
-      "status": "לא זוהה אות חריג"
+      "score": 14,
+      "low": 1,
+      "high": 27,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 10,
-      "low": 0,
-      "high": 26,
-      "confidence": 52,
-      "status": "נמוך"
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 66,
+      "status": "מוגבר"
     }
   },
   "coverage": {
@@ -35,39 +35,55 @@
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 1
+    "level": "עלייה מתונה",
+    "points_60m": 2
   },
   "changes": [
     {
-      "time": "01:30",
-      "text": "Trump Envoy : Iran Strike  Absolutely  Possible This Weekend , After White House Says  Will Not Be Attacking Iran  Before Midterms",
-      "impact": "השפעה מיידית מחושבת: +1.0",
+      "time": "07:30",
+      "text": "US scales back regional missions amid alleged Iranian threat plans",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "2paragraphs.com",
-      "signal_id": "4000a5cdd02eebe7"
+      "source": "zalebs.com",
+      "signal_id": "47231c92423d97d7"
     },
     {
-      "time": "01:00",
-      "text": "US Updates Bahrain Travel Advisory Over Iran - Houthi Threats",
-      "impact": "השפעה מיידית מחושבת: +0.7",
+      "time": "07:30",
+      "text": "Trump Warns Iran Over Nuclear Deal | Potential US Strike Statement",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "theepochtimes.com",
-      "signal_id": "f02259446b91023b"
+      "source": "bhaskar.com",
+      "signal_id": "01e5292405f6372b"
+    },
+    {
+      "time": "07:30",
+      "text": "Trump keeps Iran strike option open , says deal possible ; Tehran accuses US of derailing talks",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "newindianexpress.com",
+      "signal_id": "e8aeae451d740cfe"
+    },
+    {
+      "time": "05:30",
+      "text": "Tehran warns of nuclear options and infrastructure strikes if US attacks Iran",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "jpost.com",
+      "signal_id": "1fadfbbfe6540ce2"
     }
   ],
   "signals": [
     {
-      "id": "4000a5cdd02eebe7",
-      "name": "Trump Envoy : Iran Strike  Absolutely  Possible This Weekend , After White House Says  Will Not Be Attacking Iran  Before Midterms",
+      "id": "47231c92423d97d7",
+      "name": "US scales back regional missions amid alleged Iranian threat plans",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "4000a5cdd02eebe7",
-      "strength": 0.4,
+      "dependency_group": "47231c92423d97d7",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.592,
+      "freshness": 0.765,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -78,27 +94,27 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "2paragraphs.com",
-      "url": "https://2paragraphs.com/2026/10/trump-envoy-iran-strike-absolutely-possible-this-weekend-after-white-house-says-will-not-be-attacking-iran-before-midterms/",
-      "published_at": "2026-10-24T23:30:00Z",
+      "source": "zalebs.com",
+      "url": "https://zalebs.com/business/us-scales-back-regional-missions-amid-alleged-iranian-threat-plans/",
+      "published_at": "2026-10-25T05:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.8
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
       }
     },
     {
-      "id": "f02259446b91023b",
-      "name": "US Updates Bahrain Travel Advisory Over Iran - Houthi Threats",
+      "id": "01e5292405f6372b",
+      "name": "Trump Warns Iran Over Nuclear Deal | Potential US Strike Statement",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "f02259446b91023b",
+      "dependency_group": "01e5292405f6372b",
       "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.386,
+      "freshness": 0.765,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -109,9 +125,226 @@
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "theepochtimes.com",
-      "url": "https://www.theepochtimes.com/us/us-updates-bahrain-travel-advisory-over-iran-houthi-threats-6108412",
-      "published_at": "2026-10-24T22:00:00Z",
+      "source": "bhaskar.com",
+      "url": "https://www.bhaskar.com/g/international/news/trump-iran-nuclear-deal-threat-usa-military-strike-update-139482405.html",
+      "published_at": "2026-10-25T05:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.5
+      }
+    },
+    {
+      "id": "e8aeae451d740cfe",
+      "name": "Trump keeps Iran strike option open , says deal possible ; Tehran accuses US of derailing talks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e8aeae451d740cfe",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.765,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "newindianexpress.com",
+      "url": "https://www.newindianexpress.com/world/2026/Oct/25/trump-keeps-iran-strike-option-open-says-deal-possible-tehran-accuses-us-of-derailing-talks",
+      "published_at": "2026-10-25T05:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "1fadfbbfe6540ce2",
+      "name": "Tehran warns of nuclear options and infrastructure strikes if US attacks Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1fadfbbfe6540ce2",
+      "strength": 0.45,
+      "reliability": 0.74,
+      "freshness": 0.432,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jpost.com",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-912728",
+      "published_at": "2026-10-25T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "7ca627a74b61b2fc",
+      "name": "Maybe tomorrow : Trump hints at fresh Iran strikes , says  beautiful agreement  still possible",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7ca627a74b61b2fc",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.617,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "moneycontrol.com",
+      "url": "https://www.moneycontrol.com/world/maybe-tomorrow-trump-hints-at-fresh-iran-strikes-says-beautiful-agreement-still-possible-article-14059372.html",
+      "published_at": "2026-10-25T04:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "3db0c3a93f6c21c1",
+      "name": "Trump Says US Could Strike Iran Soon , Hints at Deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3db0c3a93f6c21c1",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.432,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "deccanchronicle.com",
+      "url": "https://www.deccanchronicle.com/west-asia/trump-says-us-could-strike-iran-soon-hints-at-deal-1998635",
+      "published_at": "2026-10-25T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
+    },
+    {
+      "id": "e099838a97cf23c2",
+      "name": "Donald Trump Iran Attack : ईरान पर रविवार को हमला या तेहरान से बड़ी डील ? ट्रंप के बयान से बढ़ी दुनिया की चिंता | Trump Iran Attack Sunday Us Iran Deal Middle East Crisis Iran America Tension",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e099838a97cf23c2",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.432,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "patrika.com",
+      "url": "https://www.patrika.com/world-news/trump-iran-attack-sunday-us-iran-deal-middle-east-crisis-iran-america-tension-21006489",
+      "published_at": "2026-10-25T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
+    },
+    {
+      "id": "e3c2d6adf075bac5",
+      "name": "There a possibility ...: Trump says US could strike Iran  maybe tomorrow ; doesnt rule out  big beautiful  deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e3c2d6adf075bac5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.432,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "asiabulletin.com",
+      "url": "http://www.asiabulletin.com/news/279397042/there-a-possibility-trump-says-us-could-strike-iran-maybe-tomorrow-doesnt-rule-out-big-beautiful-deal",
+      "published_at": "2026-10-25T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
+    },
+    {
+      "id": "9c13c083ceb4eaf5",
+      "name": "ഞായറാഴ്ച ഇറാൻ ആക്രമിക്കപ്പെട്ടേക്കാം ; അല്ലെങ്കിൽ മനോഹരമായ കരാറിലെത്താം : ഭീഷണി ആവർത്തിച്ച് ട്രംപ് | Trump hints at possible Sunday Iran attack or deal reached",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9c13c083ceb4eaf5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.432,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "madhyamam.com",
+      "url": "https://www.madhyamam.com/world/trump-hints-at-possible-sunday-iran-attack-or-deal-reached-1566088",
+      "published_at": "2026-10-25T03:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.7,
@@ -121,12 +354,6 @@
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-08-02T17:37:49.698785Z",
-      "immediate": 33,
-      "short": 34,
-      "extended": 32
-    },
     {
       "timestamp": "2026-08-02T18:42:48.520734Z",
       "immediate": 26,
@@ -6168,17 +6395,23 @@
       "immediate": 2,
       "short": 6,
       "extended": 10
+    },
+    {
+      "timestamp": "2026-10-25T06:26:17.279293Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 23
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-10-25T01:20:09.569764Z",
+    "last_success": "2026-10-25T06:26:17.279293Z",
     "sources": {
       "gdelt": {
         "ok": true,
-        "items": 65,
-        "relevant": 2
+        "items": 67,
+        "relevant": 9
       },
       "manual": {
         "ok": true,
