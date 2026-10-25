@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-10-25T06:26:17.279293Z",
+  "generated_at": "2026-10-25T11:57:03.795514Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -9,7 +9,7 @@ window.MAGEN_STATE = {
       "score": 4,
       "low": 0,
       "high": 17,
-      "confidence": 66,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
@@ -17,7 +17,7 @@ window.MAGEN_STATE = {
       "score": 14,
       "low": 1,
       "high": 27,
-      "confidence": 66,
+      "confidence": 67,
       "status": "נמוך"
     },
     "extended": {
@@ -25,7 +25,7 @@ window.MAGEN_STATE = {
       "score": 23,
       "low": 10,
       "high": 36,
-      "confidence": 66,
+      "confidence": 67,
       "status": "מוגבר"
     }
   },
@@ -35,55 +35,55 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 2
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [
     {
-      "time": "07:30",
-      "text": "US scales back regional missions amid alleged Iranian threat plans",
+      "time": "12:45",
+      "text": "Tehran strikes Iranian Kurdish opposition base in Iraq with drones",
       "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "zalebs.com",
-      "signal_id": "47231c92423d97d7"
+      "source": "freemalaysiatoday.com",
+      "signal_id": "d476bbc2a750767b"
     },
     {
-      "time": "07:30",
-      "text": "Trump Warns Iran Over Nuclear Deal | Potential US Strike Statement",
+      "time": "12:45",
+      "text": "ईरानी सेना : अमेरिकी  लुकास  ड्रोन को मार ग‍िराया | Iranian military : American Lucas drone shot down",
       "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "bhaskar.com",
-      "signal_id": "01e5292405f6372b"
+      "source": "deshbandhu.co.in",
+      "signal_id": "d858ea4d8d9a2708"
     },
     {
-      "time": "07:30",
-      "text": "Trump keeps Iran strike option open , says deal possible ; Tehran accuses US of derailing talks",
-      "impact": "השפעה מיידית מחושבת: +1.3",
+      "time": "13:00",
+      "text": "Iran says US war threats will not change its policies",
+      "impact": "השפעה מיידית מחושבת: +1.5",
       "direction": "up",
-      "source": "newindianexpress.com",
-      "signal_id": "e8aeae451d740cfe"
+      "source": "samaa.tv",
+      "signal_id": "70bd9ae84a0ec41b"
     },
     {
-      "time": "05:30",
-      "text": "Tehran warns of nuclear options and infrastructure strikes if US attacks Iran",
-      "impact": "השפעה מיידית מחושבת: +1.1",
+      "time": "12:00",
+      "text": "Iran claims downing US drone over Bandar Abbas after Trump hints at renewed strikes",
+      "impact": "השפעה מיידית מחושבת: +1.2",
       "direction": "up",
-      "source": "jpost.com",
-      "signal_id": "1fadfbbfe6540ce2"
+      "source": "timesofindia.indiatimes.com",
+      "signal_id": "04df23173656fbf0"
     }
   ],
   "signals": [
     {
-      "id": "47231c92423d97d7",
-      "name": "US scales back regional missions amid alleged Iranian threat plans",
+      "id": "d476bbc2a750767b",
+      "name": "Tehran strikes Iranian Kurdish opposition base in Iraq with drones",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "47231c92423d97d7",
-      "strength": 0.45,
+      "dependency_group": "d476bbc2a750767b",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.765,
+      "freshness": 0.71,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -94,27 +94,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "zalebs.com",
-      "url": "https://zalebs.com/business/us-scales-back-regional-missions-amid-alleged-iranian-threat-plans/",
-      "published_at": "2026-10-25T05:30:00Z",
+      "source": "freemalaysiatoday.com",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/10/25/tehran-strikes-iranian-kurdish-base-in-iraq-with-drones-iranian-media",
+      "published_at": "2026-10-25T10:45:00Z",
       "active": true,
       "computed": {
         "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
+        "short": 4.9,
+        "extended": 8.4
       }
     },
     {
-      "id": "01e5292405f6372b",
-      "name": "Trump Warns Iran Over Nuclear Deal | Potential US Strike Statement",
+      "id": "d858ea4d8d9a2708",
+      "name": "ईरानी सेना : अमेरिकी  लुकास  ड्रोन को मार ग‍िराया | Iranian military : American Lucas drone shot down",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "01e5292405f6372b",
-      "strength": 0.45,
+      "dependency_group": "d858ea4d8d9a2708",
+      "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.765,
+      "freshness": 0.71,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,27 +125,89 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "bhaskar.com",
-      "url": "https://www.bhaskar.com/g/international/news/trump-iran-nuclear-deal-threat-usa-military-strike-update-139482405.html",
-      "published_at": "2026-10-25T05:30:00Z",
+      "source": "deshbandhu.co.in",
+      "url": "https://www.deshbandhu.co.in/world/iranian-military-american-lucas-drone-shot-down-328060",
+      "published_at": "2026-10-25T10:45:00Z",
       "active": true,
       "computed": {
         "immediate": 1.5,
-        "short": 5.0,
-        "extended": 8.5
+        "short": 4.9,
+        "extended": 8.4
       }
     },
     {
-      "id": "e8aeae451d740cfe",
-      "name": "Trump keeps Iran strike option open , says deal possible ; Tehran accuses US of derailing talks",
+      "id": "70bd9ae84a0ec41b",
+      "name": "Iran says US war threats will not change its policies",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e8aeae451d740cfe",
+      "dependency_group": "70bd9ae84a0ec41b",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.762,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "samaa.tv",
+      "url": "https://www.samaa.tv/2087359086-iran-says-us-war-threats-will-not-change-its-policies",
+      "published_at": "2026-10-25T11:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.0,
+        "extended": 8.4
+      }
+    },
+    {
+      "id": "04df23173656fbf0",
+      "name": "Iran claims downing US drone over Bandar Abbas after Trump hints at renewed strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "04df23173656fbf0",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.573,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-claims-downing-us-drone-over-bandar-abbas-after-trump-hints-at-renewed-strikes/articleshow/135187048.cms",
+      "published_at": "2026-10-25T10:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.0,
+        "extended": 6.8
+      }
+    },
+    {
+      "id": "2adfee9022f2d2f4",
+      "name": "Psychological terror , Trump : I will attack , Obama intervenes - Iran : New proposal is a lie , fiery hell in the Persian Gulf and Israel",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2adfee9022f2d2f4",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.765,
+      "freshness": 0.71,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -156,27 +218,151 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "newindianexpress.com",
-      "url": "https://www.newindianexpress.com/world/2026/Oct/25/trump-keeps-iran-strike-option-open-says-deal-possible-tehran-accuses-us-of-derailing-talks",
-      "published_at": "2026-10-25T05:30:00Z",
+      "source": "bankingnews.gr",
+      "url": "https://www.bankingnews.gr/diethni/articles/907047/psychological-terror-trump-i-will-attack-obama-intervenes-iran-new-proposal-is-a-lie-fiery-hell-in-the-persian-gulf-and-israel",
+      "published_at": "2026-10-25T10:45:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
       }
     },
     {
-      "id": "1fadfbbfe6540ce2",
-      "name": "Tehran warns of nuclear options and infrastructure strikes if US attacks Iran",
+      "id": "e2cf285a43858d9d",
+      "name": "Iran dismisses Trump warning of fresh attacks :  They will not try again if there any rationality",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "1fadfbbfe6540ce2",
+      "dependency_group": "e2cf285a43858d9d",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.71,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/world-news/iran-dismisses-trump-warning-of-fresh-attacks-they-will-not-try-again-if-theres-any-rationality-101792919193264.html",
+      "published_at": "2026-10-25T10:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
+    },
+    {
+      "id": "0c3a48bebab8ea1b",
+      "name": "ஈரானுக்கு எதிராக மீண்டும் தாக்குதலா ? டிரம்ப் பதில் , Another attack on Iran ? Trump response",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0c3a48bebab8ea1b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.71,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailythanthi.com",
+      "url": "https://www.dailythanthi.com/news/sirappukatturaigal/another-attack-on-iran-what-did-trump-say-sensational-details",
+      "published_at": "2026-10-25T10:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.2,
+        "short": 4.1,
+        "extended": 7.0
+      }
+    },
+    {
+      "id": "40ef772300d4be47",
+      "name": "War or no war , our policies remain unchanged : Iran FM Araghchi amid fresh US strike fears",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "40ef772300d4be47",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.573,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/war-or-no-war-our-policies-remain-unchanged-iran-fm-araghchi-amid-fresh-us-strike-fears/articleshow/135187764.cms",
+      "published_at": "2026-10-25T10:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
+    {
+      "id": "151c28ffada718dc",
+      "name": "Iranians face anxious Wait as threat of attack looms",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "151c28ffada718dc",
       "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.496,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "omanobserver.om",
+      "url": "https://www.omanobserver.om/article/1198502/world/region/iranians-face-anxious-wait-as-threat-of-attack-looms",
+      "published_at": "2026-10-25T09:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "badc71bcb361905e",
+      "name": "Iranian officials confirm plans to target US diplomats , officials with attacks",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "badc71bcb361905e",
+      "strength": 0.4,
       "reliability": 0.74,
-      "freshness": 0.432,
+      "freshness": 0.373,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -188,26 +374,26 @@ window.MAGEN_STATE = {
         "extended": 1.0
       },
       "source": "jpost.com",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-912728",
-      "published_at": "2026-10-25T03:30:00Z",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-912739",
+      "published_at": "2026-10-25T08:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
+        "immediate": 0.8,
+        "short": 2.9,
+        "extended": 4.9
       }
     },
     {
-      "id": "7ca627a74b61b2fc",
-      "name": "Maybe tomorrow : Trump hints at fresh Iran strikes , says  beautiful agreement  still possible",
+      "id": "f0efff843c776e93",
+      "name": "Iran Threatens Gulf Civilian Targets If US , Israel Renew Air Campaign | LIVE BLOG",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "7ca627a74b61b2fc",
-      "strength": 0.4,
+      "dependency_group": "f0efff843c776e93",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.617,
+      "freshness": 0.347,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -218,58 +404,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "moneycontrol.com",
-      "url": "https://www.moneycontrol.com/world/maybe-tomorrow-trump-hints-at-fresh-iran-strikes-says-beautiful-agreement-still-possible-article-14059372.html",
-      "published_at": "2026-10-25T04:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.1
-      }
-    },
-    {
-      "id": "3db0c3a93f6c21c1",
-      "name": "Trump Says US Could Strike Iran Soon , Hints at Deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "3db0c3a93f6c21c1",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.432,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "deccanchronicle.com",
-      "url": "https://www.deccanchronicle.com/west-asia/trump-says-us-could-strike-iran-soon-hints-at-deal-1998635",
-      "published_at": "2026-10-25T03:30:00Z",
+      "source": "i24news.tv",
+      "url": "https://www.i24news.tv/en/news/middle-east/artc-iran-threatens-gulf-civilian-targets-if-us-israel-renew-air-campaign-live-blog",
+      "published_at": "2026-10-25T08:15:00Z",
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
+        "short": 2.3,
+        "extended": 3.8
       }
     },
     {
-      "id": "e099838a97cf23c2",
-      "name": "Donald Trump Iran Attack : ईरान पर रविवार को हमला या तेहरान से बड़ी डील ? ट्रंप के बयान से बढ़ी दुनिया की चिंता | Trump Iran Attack Sunday Us Iran Deal Middle East Crisis Iran America Tension",
+      "id": "acbb2275f30e5cee",
+      "name": "U . S . naval blockade threatens to end Iran oil revenues by December",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "e099838a97cf23c2",
-      "strength": 0.4,
+      "dependency_group": "acbb2275f30e5cee",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.432,
+      "freshness": 0.373,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -280,86 +435,18 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "patrika.com",
-      "url": "https://www.patrika.com/world-news/trump-iran-attack-sunday-us-iran-deal-middle-east-crisis-iran-america-tension-21006489",
-      "published_at": "2026-10-25T03:30:00Z",
+      "source": "foxnews.com",
+      "url": "https://www.foxnews.com/politics/irans-oil-lifeline-drying-up-biggest-pain-may-fall-ordinary-citizens",
+      "published_at": "2026-10-25T08:30:00Z",
       "active": true,
       "computed": {
         "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
-    },
-    {
-      "id": "e3c2d6adf075bac5",
-      "name": "There a possibility ...: Trump says US could strike Iran  maybe tomorrow ; doesnt rule out  big beautiful  deal",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e3c2d6adf075bac5",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.432,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "asiabulletin.com",
-      "url": "http://www.asiabulletin.com/news/279397042/there-a-possibility-trump-says-us-could-strike-iran-maybe-tomorrow-doesnt-rule-out-big-beautiful-deal",
-      "published_at": "2026-10-25T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
-      }
-    },
-    {
-      "id": "9c13c083ceb4eaf5",
-      "name": "ഞായറാഴ്ച ഇറാൻ ആക്രമിക്കപ്പെട്ടേക്കാം ; അല്ലെങ്കിൽ മനോഹരമായ കരാറിലെത്താം : ഭീഷണി ആവർത്തിച്ച് ട്രംപ് | Trump hints at possible Sunday Iran attack or deal reached",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9c13c083ceb4eaf5",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.432,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "madhyamam.com",
-      "url": "https://www.madhyamam.com/world/trump-hints-at-possible-sunday-iran-attack-or-deal-reached-1566088",
-      "published_at": "2026-10-25T03:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.5,
-        "extended": 4.3
+        "short": 2.4,
+        "extended": 4.1
       }
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-08-02T18:42:48.520734Z",
-      "immediate": 26,
-      "short": 30,
-      "extended": 30
-    },
     {
       "timestamp": "2026-08-02T19:59:04.520866Z",
       "immediate": 33,
@@ -6401,17 +6488,23 @@ window.MAGEN_STATE = {
       "immediate": 4,
       "short": 14,
       "extended": 23
+    },
+    {
+      "timestamp": "2026-10-25T11:57:03.795514Z",
+      "immediate": 4,
+      "short": 14,
+      "extended": 23
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-10-25T06:26:17.279293Z",
+    "last_success": "2026-10-25T11:57:03.795514Z",
     "sources": {
       "gdelt": {
         "ok": true,
-        "items": 67,
-        "relevant": 9
+        "items": 150,
+        "relevant": 12
       },
       "manual": {
         "ok": true,
