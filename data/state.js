@@ -1,81 +1,73 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-10-24T23:18:14.921253Z",
+  "mode": "live",
+  "generated_at": "2026-10-25T01:20:09.569764Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 1,
+      "score": 2,
       "low": 0,
-      "high": 20,
-      "confidence": 36,
+      "high": 18,
+      "confidence": 52,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 4,
+      "score": 6,
       "low": 0,
-      "high": 23,
-      "confidence": 36,
+      "high": 22,
+      "confidence": 52,
       "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 7,
+      "score": 10,
       "low": 0,
       "high": 26,
-      "confidence": 36,
-      "status": "לא זוהה אות חריג"
+      "confidence": 52,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -9
+    "level": "יציב",
+    "points_60m": 1
   },
   "changes": [
     {
-      "time": "22:15",
-      "text": "Pentagon Presents President Trump With Options for Renewed Iran Strikes",
-      "impact": "השפעה מיידית מחושבת: +0.5",
+      "time": "01:30",
+      "text": "Trump Envoy : Iran Strike  Absolutely  Possible This Weekend , After White House Says  Will Not Be Attacking Iran  Before Midterms",
+      "impact": "השפעה מיידית מחושבת: +1.0",
       "direction": "up",
-      "source": "themedialine.org",
-      "signal_id": "7600101e9b1db186"
+      "source": "2paragraphs.com",
+      "signal_id": "4000a5cdd02eebe7"
     },
     {
-      "time": "21:00",
-      "text": "US objective is no more oil , nuclear issues , its total destruction of Iran : Foreign Affairs Expert Waiel Awwad",
-      "impact": "השפעה מיידית מחושבת: +0.4",
+      "time": "01:00",
+      "text": "US Updates Bahrain Travel Advisory Over Iran - Houthi Threats",
+      "impact": "השפעה מיידית מחושבת: +0.7",
       "direction": "up",
-      "source": "coloradostar.com",
-      "signal_id": "21b642901d3d498d"
-    },
-    {
-      "time": "21:00",
-      "text": "Resistance Units Reportedly Target Regime Symbols and Basij Sites After Attack on Tehran Market Vendors",
-      "impact": "השפעה מיידית מחושבת: +0.4",
-      "direction": "up",
-      "source": "irannewsupdate.com",
-      "signal_id": "87860f629a74d999"
+      "source": "theepochtimes.com",
+      "signal_id": "f02259446b91023b"
     }
   ],
   "signals": [
     {
-      "id": "7600101e9b1db186",
-      "name": "Pentagon Presents President Trump With Options for Renewed Iran Strikes",
+      "id": "4000a5cdd02eebe7",
+      "name": "Trump Envoy : Iran Strike  Absolutely  Possible This Weekend , After White House Says  Will Not Be Attacking Iran  Before Midterms",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "7600101e9b1db186",
+      "dependency_group": "4000a5cdd02eebe7",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.314,
+      "freshness": 0.592,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -86,28 +78,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "themedialine.org",
-      "url": "https://themedialine.org/headlines/pentagon-presents-president-trump-with-options-for-renewed-iran-strikes/",
-      "published_at": "2026-10-24T19:15:00Z",
+      "source": "2paragraphs.com",
+      "url": "https://2paragraphs.com/2026/10/trump-envoy-iran-strike-absolutely-possible-this-weekend-after-white-house-says-will-not-be-attacking-iran-before-midterms/",
+      "published_at": "2026-10-24T23:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.5,
-        "short": 1.8,
-        "extended": 3.1
-      },
-      "carried_forward": true
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
     },
     {
-      "id": "21b642901d3d498d",
-      "name": "US objective is no more oil , nuclear issues , its total destruction of Iran : Foreign Affairs Expert Waiel Awwad",
+      "id": "f02259446b91023b",
+      "name": "US Updates Bahrain Travel Advisory Over Iran - Houthi Threats",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "21b642901d3d498d",
-      "strength": 0.4,
+      "dependency_group": "f02259446b91023b",
+      "strength": 0.45,
       "reliability": 0.56,
-      "freshness": 0.22,
+      "freshness": 0.386,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -118,57 +109,18 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "coloradostar.com",
-      "url": "http://www.coloradostar.com/news/279396249/us-objective-is-no-more-oil-nuclear-issues-its-total-destruction-of-iran-foreign-affairs-expert-waiel-awwad",
-      "published_at": "2026-10-24T18:00:00Z",
+      "source": "theepochtimes.com",
+      "url": "https://www.theepochtimes.com/us/us-updates-bahrain-travel-advisory-over-iran-houthi-threats-6108412",
+      "published_at": "2026-10-24T22:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
-    },
-    {
-      "id": "87860f629a74d999",
-      "name": "Resistance Units Reportedly Target Regime Symbols and Basij Sites After Attack on Tehran Market Vendors",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "87860f629a74d999",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.22,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "irannewsupdate.com",
-      "url": "https://irannewsupdate.com/news/iranian-opposition/resistance-units-reportedly-target-regime-symbols-and-basij-sites-after-attack-on-tehran-market-vendors/",
-      "published_at": "2026-10-24T18:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.4,
-        "short": 1.3,
-        "extended": 2.2
-      },
-      "carried_forward": true
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-08-02T16:27:48.976100Z",
-      "immediate": 33,
-      "short": 34,
-      "extended": 32
-    },
     {
       "timestamp": "2026-08-02T17:37:49.698785Z",
       "immediate": 33,
@@ -6210,17 +6162,23 @@ window.MAGEN_STATE = {
       "immediate": 1,
       "short": 4,
       "extended": 7
+    },
+    {
+      "timestamp": "2026-10-25T01:20:09.569764Z",
+      "immediate": 2,
+      "short": 6,
+      "extended": 10
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה; מוצגים אותות עדכניים מהעדכון האחרון.",
-    "last_success": "2026-10-24T21:10:08.689516Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-10-25T01:20:09.569764Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 3
+        "ok": true,
+        "items": 65,
+        "relevant": 2
       },
       "manual": {
         "ok": true,
