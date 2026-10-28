@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-10-28T15:55:49.914565Z",
+  "generated_at": "2026-10-28T20:57:50.276272Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -41,12 +41,6 @@
   "changes": [],
   "signals": [],
   "history": [
-    {
-      "timestamp": "2026-08-04T09:18:38.504818Z",
-      "immediate": 24,
-      "short": 26,
-      "extended": 25
-    },
     {
       "timestamp": "2026-08-04T11:37:20.329599Z",
       "immediate": 16,
@@ -6088,12 +6082,18 @@
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-10-28T20:57:50.276272Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-10-28T15:55:49.914565Z",
+    "last_success": "2026-10-28T20:57:50.276272Z",
     "sources": {
       "gdelt": {
         "ok": true,
