@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-10-28T20:57:50.276272Z",
+  "generated_at": "2026-10-29T00:47:04.108478Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -41,12 +41,6 @@ window.MAGEN_STATE = {
   "changes": [],
   "signals": [],
   "history": [
-    {
-      "timestamp": "2026-08-04T11:37:20.329599Z",
-      "immediate": 16,
-      "short": 24,
-      "extended": 31
-    },
     {
       "timestamp": "2026-08-04T13:25:28.767531Z",
       "immediate": 10,
@@ -6088,12 +6082,18 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-10-29T00:47:04.108478Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-10-28T20:57:50.276272Z",
+    "last_success": "2026-10-29T00:47:04.108478Z",
     "sources": {
       "gdelt": {
         "ok": true,
