@@ -1,171 +1,46 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-11-03T03:49:45.325215Z",
+  "mode": "degraded",
+  "generated_at": "2026-11-03T11:29:42.095552Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 3,
+      "score": 0,
       "low": 0,
-      "high": 17,
-      "confidence": 60,
+      "high": 22,
+      "confidence": 18,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 11,
+      "score": 0,
       "low": 0,
-      "high": 25,
-      "confidence": 60,
-      "status": "נמוך"
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 19,
-      "low": 5,
-      "high": 33,
-      "confidence": 60,
-      "status": "נמוך"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מתונה",
-    "points_60m": 3
+    "level": "ירידה",
+    "points_60m": -3
   },
-  "changes": [
-    {
-      "time": "04:15",
-      "text": "Explosions rock Iran Qeshm Island as Tehran claims three US drones downed",
-      "impact": "השפעה מיידית מחושבת: +1.3",
-      "direction": "up",
-      "source": "thehindubusinessline.com",
-      "signal_id": "c36935587b54d84c"
-    },
-    {
-      "time": "04:15",
-      "text": "US military strikes Iran Qeshm Island",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "newcastleherald.com.au",
-      "signal_id": "6f2aeb4363838a8f"
-    },
-    {
-      "time": "04:15",
-      "text": "U . S . strikes Iran Qeshm Island : report",
-      "impact": "השפעה מיידית מחושבת: +1.1",
-      "direction": "up",
-      "source": "thehindu.com",
-      "signal_id": "4dc7ceeb5e7495d6"
-    }
-  ],
-  "signals": [
-    {
-      "id": "c36935587b54d84c",
-      "name": "Explosions rock Iran Qeshm Island as Tehran claims three US drones downed",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c36935587b54d84c",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.637,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thehindubusinessline.com",
-      "url": "https://www.thehindubusinessline.com/news/world/explosions-reported-on-irans-qeshm-island-amid-rising-tensions-with-us/article71659179.ece",
-      "published_at": "2026-11-03T02:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.3,
-        "short": 4.4,
-        "extended": 7.5
-      }
-    },
-    {
-      "id": "6f2aeb4363838a8f",
-      "name": "US military strikes Iran Qeshm Island",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6f2aeb4363838a8f",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.637,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "newcastleherald.com.au",
-      "url": "https://www.newcastleherald.com.au/story/9384711/us-military-strikes-irans-qeshm-island/",
-      "published_at": "2026-11-03T02:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
-    },
-    {
-      "id": "4dc7ceeb5e7495d6",
-      "name": "U . S . strikes Iran Qeshm Island : report",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "4dc7ceeb5e7495d6",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.637,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "thehindu.com",
-      "url": "https://www.thehindu.com/news/international/us-strikes-irans-qeshm-island-report/article71659212.ece",
-      "published_at": "2026-11-03T02:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.7,
-        "extended": 6.3
-      }
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
-    {
-      "timestamp": "2026-08-06T12:20:02.344967Z",
-      "immediate": 1,
-      "short": 4,
-      "extended": 6
-    },
     {
       "timestamp": "2026-08-06T14:44:12.723369Z",
       "immediate": 0,
@@ -6207,17 +6082,23 @@ window.MAGEN_STATE = {
       "immediate": 3,
       "short": 11,
       "extended": 19
+    },
+    {
+      "timestamp": "2026-11-03T11:29:42.095552Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-11-03T03:49:45.325215Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 40,
-        "relevant": 3
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
