@@ -1,52 +1,359 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-11-05T21:27:22.615095Z",
+  "mode": "live",
+  "generated_at": "2026-11-06T01:46:21.279045Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 20,
+      "low": 7,
+      "high": 33,
+      "confidence": 66,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 24,
+      "low": 11,
+      "high": 37,
+      "confidence": 66,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 25,
+      "low": 12,
+      "high": 38,
+      "confidence": 65,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "זינוק חריג",
+    "points_60m": 20
   },
-  "changes": [],
-  "signals": [],
-  "history": [
+  "changes": [
     {
-      "timestamp": "2026-08-07T11:13:15.026658Z",
-      "immediate": 2,
-      "short": 5,
-      "extended": 9
+      "time": "02:30",
+      "text": "World News : US - Israeli forces  draw up plans for Iran strike",
+      "impact": "השפעה מיידית מחושבת: +17.1",
+      "direction": "up",
+      "source": "gdnonline.com:443",
+      "signal_id": "4a71fafa470a360a"
     },
+    {
+      "time": "03:00",
+      "text": "Trump defends Hegseth amid impeachment threat , says US military operations in Iran , Venezuela successful",
+      "impact": "השפעה מיידית מחושבת: +1.5",
+      "direction": "up",
+      "source": "malaysiasun.com",
+      "signal_id": "3dadbf86074df6fd"
+    },
+    {
+      "time": "03:00",
+      "text": "Russia ready to help end war against Iran , Putin condemns bombing of nuclear sites : Iran Security Chief Mohsen Rezaei",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "aninews.in",
+      "signal_id": "36f055d3d961251e"
+    },
+    {
+      "time": "01:30",
+      "text": "Top US commander launches podcast joking about retirement --- as Trump weighs next Iran move",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "nypost.com",
+      "signal_id": "c9032b20b720c768"
+    }
+  ],
+  "signals": [
+    {
+      "id": "4a71fafa470a360a",
+      "name": "World News : US - Israeli forces  draw up plans for Iran strike",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4a71fafa470a360a",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.695,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "gdnonline.com:443",
+      "url": "https://www.gdnonline.com:443/Details/1412030",
+      "published_at": "2026-11-06T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 17.1,
+        "short": 13.4,
+        "extended": 5.7
+      }
+    },
+    {
+      "id": "3dadbf86074df6fd",
+      "name": "Trump defends Hegseth amid impeachment threat , says US military operations in Iran , Venezuela successful",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "3dadbf86074df6fd",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.802,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "malaysiasun.com",
+      "url": "http://www.malaysiasun.com/news/279415124/trump-defends-hegseth-amid-impeachment-threat-says-us-military-operations-in-iran-venezuela-successful",
+      "published_at": "2026-11-06T01:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.9
+      }
+    },
+    {
+      "id": "36f055d3d961251e",
+      "name": "Russia ready to help end war against Iran , Putin condemns bombing of nuclear sites : Iran Security Chief Mohsen Rezaei",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "36f055d3d961251e",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.802,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aninews.in",
+      "url": "https://aninews.in/news/world/europe/russia-ready-to-help-end-war-against-iran-putin-condemns-bombing-of-nuclear-sites-irans-security-chief-mohsen-rezaei20261106025157/",
+      "published_at": "2026-11-06T01:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.6,
+        "extended": 7.9
+      }
+    },
+    {
+      "id": "c9032b20b720c768",
+      "name": "Top US commander launches podcast joking about retirement --- as Trump weighs next Iran move",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c9032b20b720c768",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.522,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nypost.com",
+      "url": "https://nypost.com/2026/11/05/us-news/top-us-commander-launches-podcast-joking-about-retirement-as-trump-weighs-next-iran-move/",
+      "published_at": "2026-11-05T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "75348260c46e1742",
+      "name": "Trump on possible new strikes against Iran : You will know soon enough",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "75348260c46e1742",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.522,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/news/435749",
+      "published_at": "2026-11-05T23:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.0,
+        "extended": 5.1
+      }
+    },
+    {
+      "id": "361065049b810262",
+      "name": "Iran reviews mediator proposals on nuclear program future",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "361065049b810262",
+      "strength": 0.4,
+      "reliability": 0.74,
+      "freshness": 0.34,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "jpost.com",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-914000",
+      "published_at": "2026-11-05T22:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.6,
+        "extended": 4.4
+      }
+    },
+    {
+      "id": "96f8a4b3e18b127e",
+      "name": "IRGC reports intercepting two US spy drones over Qeshm Island",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "96f8a4b3e18b127e",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.34,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "news.az",
+      "url": "https://news.az/news/irgc-reports-intercepting-two-us-spy-drones-over-qeshm-island",
+      "published_at": "2026-11-05T22:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.0
+      }
+    },
+    {
+      "id": "cb6423114317ee47",
+      "name": "Iran Weighs Nuclear Proposals As Qatar Pushes To Avert Renewed US Strikes - Report",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cb6423114317ee47",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.34,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "i24news.tv",
+      "url": "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iran-weighs-nuclear-proposals-as-qatar-pushes-to-avert-renewed-us-strikes-report",
+      "published_at": "2026-11-05T22:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
+    },
+    {
+      "id": "75c64b9f9e9046e3",
+      "name": "Arab News | Iran sent nuclear proposal to the US via Qatar , senior Iranian official says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "75c64b9f9e9046e3",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.34,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arabnews.com",
+      "url": "https://www.arabnews.com/middle-east/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-says-3010067",
+      "published_at": "2026-11-05T22:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.0,
+        "extended": 3.4
+      }
+    }
+  ],
+  "history": [
     {
       "timestamp": "2026-08-07T12:01:38.044429Z",
       "immediate": 1,
@@ -6088,17 +6395,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-11-06T01:46:21.279045Z",
+      "immediate": 20,
+      "short": 24,
+      "extended": 25
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-11-04T23:59:31.420165Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-11-06T01:46:21.279045Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 9
       },
       "manual": {
         "ok": true,
