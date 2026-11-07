@@ -1,52 +1,359 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-11-07T14:16:51.002177Z",
+  "mode": "live",
+  "generated_at": "2026-11-07T18:55:30.423353Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 19,
+      "low": 6,
+      "high": 32,
+      "confidence": 69,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 22,
+      "low": 9,
+      "high": 35,
+      "confidence": 69,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 23,
+      "low": 10,
+      "high": 36,
+      "confidence": 69,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -34
+    "level": "זינוק חריג",
+    "points_60m": 19
   },
-  "changes": [],
-  "signals": [],
-  "history": [
+  "changes": [
     {
-      "timestamp": "2026-08-07T18:30:31.446034Z",
-      "immediate": 15,
-      "short": 21,
-      "extended": 25
+      "time": "19:30",
+      "text": "La montaña Pickaxe , el misterioso complejo nuclear iraní que preocupa a Trump e Israel",
+      "impact": "השפעה מיידית מחושבת: +16.4",
+      "direction": "up",
+      "source": "lasexta.com",
+      "signal_id": "bb893fb7259792d8"
     },
+    {
+      "time": "20:00",
+      "text": "IRGC Says Iran Expanding Range Of Missiles",
+      "impact": "השפעה מיידית מחושבת: +1.6",
+      "direction": "up",
+      "source": "centralasiatimes.com",
+      "signal_id": "14d7448542a2ae00"
+    },
+    {
+      "time": "20:00",
+      "text": "Trump Confirms US Strikes On Iran Qeshm Island",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "centralasiatimes.com",
+      "signal_id": "439ee8224dc143b9"
+    },
+    {
+      "time": "20:00",
+      "text": "Expanding on naval blockade , US military looks to restrict Iranian land commerce",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "yahoo.com",
+      "signal_id": "2c2b502220dd9273"
+    }
+  ],
+  "signals": [
+    {
+      "id": "bb893fb7259792d8",
+      "name": "La montaña Pickaxe , el misterioso complejo nuclear iraní que preocupa a Trump e Israel",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bb893fb7259792d8",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.666,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "lasexta.com",
+      "url": "https://www.lasexta.com/noticias/internacional/montana-pickaxe-misterioso-complejo-nuclear-irani-que-preocupa-trump-israel_202611076aef4f1803bbf30bb04389c3.html",
+      "published_at": "2026-11-07T17:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 16.4,
+        "short": 12.8,
+        "extended": 5.4
+      }
+    },
+    {
+      "id": "14d7448542a2ae00",
+      "name": "IRGC Says Iran Expanding Range Of Missiles",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "14d7448542a2ae00",
+      "strength": 0.48,
+      "reliability": 0.56,
+      "freshness": 0.768,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "centralasiatimes.com",
+      "url": "http://www.centralasiatimes.com/news/279418399/irgc-says-iran-expanding-range-of-missiles",
+      "published_at": "2026-11-07T18:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.6,
+        "short": 5.3,
+        "extended": 9.1
+      }
+    },
+    {
+      "id": "439ee8224dc143b9",
+      "name": "Trump Confirms US Strikes On Iran Qeshm Island",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "439ee8224dc143b9",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.768,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "centralasiatimes.com",
+      "url": "http://www.centralasiatimes.com/news/279418449/trump-confirms-us-strikes-on-iran-qeshm-island",
+      "published_at": "2026-11-07T18:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "2c2b502220dd9273",
+      "name": "Expanding on naval blockade , US military looks to restrict Iranian land commerce",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2c2b502220dd9273",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.768,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "yahoo.com",
+      "url": "https://www.yahoo.com/news/articles/exclusive-expanding-naval-blockade-us-133922238.html",
+      "published_at": "2026-11-07T18:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "55a1b9219fa3b332",
+      "name": "IRGC says it will get ready if Iran decides to alter nuclear doctrine",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "55a1b9219fa3b332",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.768,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "bdnews24.com",
+      "url": "https://bdnews24.com/world/25zh0y8ddg",
+      "published_at": "2026-11-07T18:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "e1b915101a04f36f",
+      "name": "U . S . CENTCOM Launches Task Force Block Ground Transit for Illegal Iranian Shipments | NewsRadio 740 KTRH",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e1b915101a04f36f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.768,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ktrh.iheart.com",
+      "url": "https://ktrh.iheart.com/featured/houston-texas-news/content/2026-11-07-us-centcom-launches-task-force-block-ground-transit-for-illegal-iranian-shipments/",
+      "published_at": "2026-11-07T18:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.6
+      }
+    },
+    {
+      "id": "5be0531e4efb2397",
+      "name": "Iran demands concrete US action before nuclear talks can advance",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5be0531e4efb2397",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.666,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "tert.am",
+      "url": "https://tert.am/en/news/2026/11/07/Iran/4289657",
+      "published_at": "2026-11-07T17:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
+    },
+    {
+      "id": "ac978adc7e96ae66",
+      "name": "U . S . Military Launches Task Force to Restrict Iran Land - Based Arms Trade",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ac978adc7e96ae66",
+      "strength": 0.4,
+      "reliability": 0.8,
+      "freshness": 0.434,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "haaretz.com",
+      "url": "https://www.haaretz.com/middle-east-news/iran/2026-11-07/ty-article/u-s-military-launches-task-force-to-restrict-irans-land-based-arms-trade/000001a1-b663-d146-ada9-fe7f731f0000",
+      "published_at": "2026-11-07T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.6,
+        "extended": 6.1
+      }
+    },
+    {
+      "id": "8daf7fe52b0fcc41",
+      "name": "Rubio Attributes Houthi Military Capabilities to Iranian Support",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "8daf7fe52b0fcc41",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.434,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "english.globalarabnetwork.com",
+      "url": "https://english.globalarabnetwork.com/2026/11/07/rubio-attributes-houthi-military-capabilities-to-iranian-support/",
+      "published_at": "2026-11-07T16:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.5,
+        "extended": 4.3
+      }
+    }
+  ],
+  "history": [
     {
       "timestamp": "2026-08-07T19:36:42.620785Z",
       "immediate": 11,
@@ -6088,17 +6395,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-11-07T18:55:30.423353Z",
+      "immediate": 19,
+      "short": 22,
+      "extended": 23
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-11-07T07:22:51.876954Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-11-07T18:55:30.423353Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 9
       },
       "manual": {
         "ok": true,
