@@ -1,31 +1,31 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-11-07T01:15:41.495007Z",
+  "generated_at": "2026-11-07T07:22:51.876954Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 20,
-      "low": 7,
-      "high": 33,
-      "confidence": 65,
-      "status": "נמוך"
+      "score": 34,
+      "low": 22,
+      "high": 46,
+      "confidence": 70,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 24,
-      "low": 11,
-      "high": 37,
-      "confidence": 65,
+      "score": 34,
+      "low": 22,
+      "high": 46,
+      "confidence": 70,
       "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 25,
-      "low": 12,
-      "high": 38,
-      "confidence": 65,
+      "score": 29,
+      "low": 17,
+      "high": 41,
+      "confidence": 70,
       "status": "מוגבר"
     }
   },
@@ -35,55 +35,55 @@ window.MAGEN_STATE = {
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 20
+    "level": "עלייה מהירה",
+    "points_60m": 14
   },
   "changes": [
     {
-      "time": "02:00",
-      "text": "Israel , Middle East would not exist if I didnt stop Iran from having nuclear weapon : Trump",
-      "impact": "השפעה מיידית מחושבת: +17.2",
+      "time": "08:30",
+      "text": "ഞാനില്ലായിരുന്നെങ്കിൽ ഇസ്രായേലും പശ്ചിമേഷ്യയും ഇന്ന് ഉണ്ടാകുമായിരുന്നില്ല ; ഇറാനെതിരായ നടപടിയിൽ അവകാശവാദവുമായി ട്രംപ് |  Israel , Middle East wouldnt exist today : Trump boasts of stopping Iran nuclear ambitions",
+      "impact": "השפעה מיידית מחושבת: +19.1",
       "direction": "up",
-      "source": "iraqsun.com",
-      "signal_id": "a6497ab1932e5b4a"
+      "source": "madhyamam.com",
+      "signal_id": "6e7c5bbc9d30c59d"
     },
     {
-      "time": "02:00",
-      "text": "Arab News | Iran says it downed US MQ - 1 drone over Qeshm Island",
-      "impact": "השפעה מיידית מחושבת: +1.4",
+      "time": "08:00",
+      "text": "USA : Nya attacker mot Iran – Senaste nytt om kriget mellan Iran , united states och Israel",
+      "impact": "השפעה מיידית מחושבת: +16.6",
       "direction": "up",
-      "source": "arabnews.com",
-      "signal_id": "6a8b40ef0fd330e9"
+      "source": "svt.se",
+      "signal_id": "54048c982db847a3"
     },
     {
-      "time": "02:00",
-      "text": "Pentagon says US troops are poised to strike Iran . Then 5 tankers are hit in the Strait of Hormuz",
-      "impact": "השפעה מיידית מחושבת: +1.2",
+      "time": "08:30",
+      "text": "ലക്ഷ്യം തെറ്റാതെ ആക്രമിക്കും ; ഇറാന് റഷ്യ 90 അത്യാധുനിക മിസൈൽ ലോഞ്ചറുകൾ നൽകും |  Russia to Supply Iran with 90 Advanced Missile Launchers Capable of Precision Strikes",
+      "impact": "השפעה מיידית מחושבת: +4.6",
       "direction": "up",
-      "source": "themarysue.com",
-      "signal_id": "b61285f1e0abf0a0"
+      "source": "madhyamam.com",
+      "signal_id": "b7ff9b64a5b6a2c9"
     },
     {
-      "time": "02:00",
-      "text": "Iran distributes iodine tablets amid fears of possible US strikes on nuclear sites : Report",
-      "impact": "השפעה מיידית מחושבת: +1.2",
-      "direction": "up",
-      "source": "heraldglobe.com",
-      "signal_id": "eeac9f3e726fa366"
+      "time": "08:30",
+      "text": "US - Iran Negotiations Progress Amid JD Vance Push for Ceasefire and Nuclear Talks",
+      "impact": "השפעה מיידית מחושבת: -1.8",
+      "direction": "down",
+      "source": "openthemagazine.com",
+      "signal_id": "f503b4ea84695c2b"
     }
   ],
   "signals": [
     {
-      "id": "a6497ab1932e5b4a",
-      "name": "Israel , Middle East would not exist if I didnt stop Iran from having nuclear weapon : Trump",
+      "id": "6e7c5bbc9d30c59d",
+      "name": "ഞാനില്ലായിരുന്നെങ്കിൽ ഇസ്രായേലും പശ്ചിമേഷ്യയും ഇന്ന് ഉണ്ടാകുമായിരുന്നില്ല ; ഇറാനെതിരായ നടപടിയിൽ അവകാശവാദവുമായി ട്രംപ് |  Israel , Middle East wouldnt exist today : Trump boasts of stopping Iran nuclear ambitions",
       "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
       "category": "direct_intent",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "a6497ab1932e5b4a",
+      "dependency_group": "6e7c5bbc9d30c59d",
       "strength": 0.5,
       "reliability": 0.56,
-      "freshness": 0.697,
+      "freshness": 0.777,
       "max_effect": {
         "immediate": 88,
         "short": 78,
@@ -94,27 +94,120 @@ window.MAGEN_STATE = {
         "short": 0.88,
         "extended": 0.56
       },
-      "source": "iraqsun.com",
-      "url": "http://www.iraqsun.com/news/279416619/israel-middle-east-would-not-exist-if-i-didnt-stop-iran-from-having-nuclear-weapon-trump",
-      "published_at": "2026-11-07T00:00:00Z",
+      "source": "madhyamam.com",
+      "url": "https://www.madhyamam.com/world/trump-iran-nuclear-claims-israel-middle-east-us-military-strikes-1569960",
+      "published_at": "2026-11-07T06:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 17.2,
-        "short": 13.4,
-        "extended": 5.7
+        "immediate": 19.1,
+        "short": 14.9,
+        "extended": 6.3
       }
     },
     {
-      "id": "6a8b40ef0fd330e9",
-      "name": "Arab News | Iran says it downed US MQ - 1 drone over Qeshm Island",
+      "id": "54048c982db847a3",
+      "name": "USA : Nya attacker mot Iran – Senaste nytt om kriget mellan Iran , united states och Israel",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "54048c982db847a3",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.674,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "svt.se",
+      "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-iran-och-konflikten-med-usa-och-israel?inlagg=80e372d298e15a0bccb42b3b01573094",
+      "published_at": "2026-11-07T06:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 16.6,
+        "short": 13.0,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "b7ff9b64a5b6a2c9",
+      "name": "ലക്ഷ്യം തെറ്റാതെ ആക്രമിക്കും ; ഇറാന് റഷ്യ 90 അത്യാധുനിക മിസൈൽ ലോഞ്ചറുകൾ നൽകും |  Russia to Supply Iran with 90 Advanced Missile Launchers Capable of Precision Strikes",
+      "finding": "דיווח על יכולת, פריסה או היערכות צבאית איראנית.",
+      "category": "capability",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "b7ff9b64a5b6a2c9",
+      "strength": 0.54,
+      "reliability": 0.56,
+      "freshness": 0.777,
+      "max_effect": {
+        "immediate": 34,
+        "short": 48,
+        "extended": 42
+      },
+      "relevance": {
+        "immediate": 0.58,
+        "short": 1.0,
+        "extended": 0.84
+      },
+      "source": "madhyamam.com",
+      "url": "https://www.madhyamam.com/world/russia-to-supply-iran-with-90-advanced-missile-launchers-capable-of-precision-strikes-1569951",
+      "published_at": "2026-11-07T06:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 4.6,
+        "short": 11.3,
+        "extended": 8.3
+      }
+    },
+    {
+      "id": "f503b4ea84695c2b",
+      "name": "US - Iran Negotiations Progress Amid JD Vance Push for Ceasefire and Nuclear Talks",
+      "finding": "דיווח המצביע על רגיעה, הכחשה או הפחתת הסלמה.",
+      "category": "regional_escalation",
+      "direction": "down",
+      "evidence_type": "deescalation",
+      "dependency_group": "f503b4ea84695c2b",
+      "strength": 0.54,
+      "reliability": 0.56,
+      "freshness": 0.777,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "openthemagazine.com",
+      "url": "https://openthemagazine.com/world/us-iran-talks-continue-as-jd-vance-pushes-for-a-new-ceasefire",
+      "published_at": "2026-11-07T06:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": -1.8,
+        "short": -6.1,
+        "extended": -10.3
+      }
+    },
+    {
+      "id": "580f79bff496501e",
+      "name": "ഖഷം ദ്വീപിൽ വീണ്ടും യു . എസ് ആക്രമണം ; അമേരിക്കൻ സൈനിക താവളങ്ങൾക്കെതിരെ ഭീഷണിമുഴക്കി ഇറാൻ സൈന്യം | Two missiles strike Iran Qeshm Island , Tasnim news agency says",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "6a8b40ef0fd330e9",
+      "dependency_group": "580f79bff496501e",
       "strength": 0.48,
       "reliability": 0.56,
-      "freshness": 0.697,
+      "freshness": 0.777,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -125,27 +218,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "arabnews.com",
-      "url": "https://www.arabnews.com/middle-east/iran-says-it-downed-us-mq-1-drone-over-qeshm-island-3010264",
-      "published_at": "2026-11-07T00:00:00Z",
+      "source": "madhyamam.com",
+      "url": "https://www.madhyamam.com/world/two-missiles-strike-irans-qeshm-island-tasnim-news-agency-says-1569950",
+      "published_at": "2026-11-07T06:30:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.4,
-        "short": 4.8,
-        "extended": 8.2
+        "immediate": 1.6,
+        "short": 5.4,
+        "extended": 9.2
       }
     },
     {
-      "id": "b61285f1e0abf0a0",
-      "name": "Pentagon says US troops are poised to strike Iran . Then 5 tankers are hit in the Strait of Hormuz",
+      "id": "9570bbe55b7440c0",
+      "name": "US military carries out new targeted strikes on Iran",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "b61285f1e0abf0a0",
+      "dependency_group": "9570bbe55b7440c0",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.697,
+      "freshness": 0.897,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -156,27 +249,27 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "themarysue.com",
-      "url": "https://www.themarysue.com/pentagon-says-thousands-of-us-troops-are-poised-to-strike-iran-then-reports-emerge-of-what-happened-to-five-tankers-in-the-strait-of-hormuz/",
-      "published_at": "2026-11-07T00:00:00Z",
+      "source": "wgal.com",
+      "url": "https://www.wgal.com/article/us-military-new-targeted-strikes-iran-mediators-proposal/74363570",
+      "published_at": "2026-11-07T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.9
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
       }
     },
     {
-      "id": "eeac9f3e726fa366",
-      "name": "Iran distributes iodine tablets amid fears of possible US strikes on nuclear sites : Report",
+      "id": "c8bbeccd1502deb1",
+      "name": "Două rachete au lovit o insulă din sudul Iranului . Explozii în zona Strâmtorii Ormuz / Iranul distribuie pastile cu iod , Irakul activează planurile de intervenție pentru atac nuclear",
       "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
       "category": "regional_escalation",
       "direction": "up",
       "evidence_type": "report",
-      "dependency_group": "eeac9f3e726fa366",
+      "dependency_group": "c8bbeccd1502deb1",
       "strength": 0.4,
       "reliability": 0.56,
-      "freshness": 0.697,
+      "freshness": 0.897,
       "max_effect": {
         "immediate": 20,
         "short": 34,
@@ -187,24 +280,483 @@ window.MAGEN_STATE = {
         "short": 0.76,
         "extended": 1.0
       },
-      "source": "heraldglobe.com",
-      "url": "http://www.heraldglobe.com/news/279416823/iran-distributes-iodine-tablets-amid-fears-of-possible-us-strikes-on-nuclear-sites-report",
-      "published_at": "2026-11-07T00:00:00Z",
+      "source": "romaniatv.net",
+      "url": "https://www.romaniatv.net/doua-rachete-au-lovit-o-insula-din-sudul-iranului-explozii-in-zona-stramtorii-ormuz-iranul-distribuie-pastile-cu-iod-irakul-activeaza-planurile-de-interventie-pentru-atac-nuclear_9903955.html",
+      "published_at": "2026-11-07T07:00:00Z",
       "active": true,
       "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.9
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "ccfa50eb4e001ca5",
+      "name": "No US military personnel killed in seven months of war with Iran - Trump",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ccfa50eb4e001ca5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.897,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "dailypost.ng",
+      "url": "https://dailypost.ng/2026/11/07/no-us-military-personnel-killed-in-seven-months-of-fighting-with-iran-trump/",
+      "published_at": "2026-11-07T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "1dad0bd933671512",
+      "name": "Trump Admits Targeted US Strikes on Iranian Air Defense Facility on Qeshm Island",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "1dad0bd933671512",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.897,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "sputnikglobe.com",
+      "url": "https://sputnikglobe.com/20261107/trump-acknowledges-targeted-us-strikes-on-iranian-air-defense-facility-on-qeshm-island-1125027522.html",
+      "published_at": "2026-11-07T07:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.5,
+        "short": 5.2,
+        "extended": 8.8
+      }
+    },
+    {
+      "id": "f944de3a3b162148",
+      "name": "US issues fresh warning for Americans across Middle East over Houthi attacks , reported Iran threats",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f944de3a3b162148",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.674,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/world-news/us-news/us-issues-fresh-warning-for-americans-across-middle-east-over-houthi-attacks-reported-iran-threats-101794019593544.html",
+      "published_at": "2026-11-07T06:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.5
+      }
+    },
+    {
+      "id": "4d8a43350827fc92",
+      "name": "US offers $20 mn reward for info on  Iran nuclear program : CENTCOM",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4d8a43350827fc92",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.777,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arynews.tv",
+      "url": "https://arynews.tv/us-offers-20-mn-reward-info-irans-nuclear-program-centcom",
+      "published_at": "2026-11-07T06:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "aa7859083f4eb9cd",
+      "name": "Crude gains on worries about renewed US attacks on Iran",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "aa7859083f4eb9cd",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.777,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arynews.tv",
+      "url": "https://arynews.tv/crude-gains-on-worries-about-renewed-us-attacks-on-iran",
+      "published_at": "2026-11-07T06:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "a6a923a5d6a084d6",
+      "name": "US offers $20m reward for intel on Iran nuclear programme | World | News",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a6a923a5d6a084d6",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.777,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "express.co.uk",
+      "url": "https://www.express.co.uk/news/world/2264062/us-20-million-reward-iran",
+      "published_at": "2026-11-07T06:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.5,
+        "extended": 7.7
+      }
+    },
+    {
+      "id": "389fe225e3abb202",
+      "name": "US carries out new targeted strikes on Iran , targeting air defense system",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "389fe225e3abb202",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.674,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "hindustantimes.com",
+      "url": "https://www.hindustantimes.com/world-news/us-news/us-military-carries-out-new-targeted-strikes-on-iran-targeting-air-defense-system-101794018415195.html",
+      "published_at": "2026-11-07T06:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
+    },
+    {
+      "id": "a1d6d62d52ba4b81",
+      "name": "US carries out targeted strikes as Iran leaders weigh proposals",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a1d6d62d52ba4b81",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.674,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wsbradio.com",
+      "url": "https://www.wsbradio.com/news/politics/iran-is-reviewing/DCKLGLLBZAYXHPUEJTEFOOS6FY/",
+      "published_at": "2026-11-07T06:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
+    },
+    {
+      "id": "59ebf2455d14d527",
+      "name": "Iran reviews Qatar proposal to revive nuclear talks with US",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "59ebf2455d14d527",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.674,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "siasat.com",
+      "url": "https://www.siasat.com/iran-reviews-qatar-proposal-to-revive-nuclear-talks-with-us-3571101/",
+      "published_at": "2026-11-07T06:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
+    },
+    {
+      "id": "a1890616068dec80",
+      "name": "United States offers $20 million reward for information on  Iran nuclear program : CENTCOM",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "a1890616068dec80",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.674,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "thehindu.com",
+      "url": "https://www.thehindu.com/news/international/united-states-offers-20-million-reward-for-information-on-irans-nuclear-program-centcom/article71677324.ece",
+      "published_at": "2026-11-07T06:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
+    },
+    {
+      "id": "d03865ce74120850",
+      "name": "ट्रंप के परमाणु ठिकानों पर हमले की आशंका से ईरान अलर्ट : लोगों को बांटी जा रहीं आयोडीन की गोलियां , जानें क्यों ? - iodine tablets us strikes nuclear sites tehran iran nuclear facilities",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "d03865ce74120850",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.674,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "punjabkesari.in",
+      "url": "https://www.punjabkesari.in/international/news/iodine-tablets-us-strikes-nuclear-sites-tehran-iran--nuclear-facilities-2397339",
+      "published_at": "2026-11-07T06:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.9,
+        "extended": 6.6
+      }
+    },
+    {
+      "id": "65d0f01647bbb5da",
+      "name": "US offers $29m for details on Iran nuclear program , as part of Rewards for Justice",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "65d0f01647bbb5da",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.506,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "abc.net.au",
+      "url": "https://www.abc.net.au/news/2026-11-07/us-20-million-rewards-for-justice-iran-nuclear-program-details/107359156",
+      "published_at": "2026-11-07T05:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "ca34f6abbe68dc22",
+      "name": "Here What a Nuclear Strike on Iran Pickaxe Mountain Would Do",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ca34f6abbe68dc22",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.506,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "popularmechanics.com",
+      "url": "https://www.popularmechanics.com/military/a74361822/nuclear-strike-iran/",
+      "published_at": "2026-11-07T05:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "0b4e3b82a7efde57",
+      "name": "U . S . strikes Iranian air defense systems - Trump",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "0b4e3b82a7efde57",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.506,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "trend.az",
+      "url": "https://www.trend.az/world/us/4244006.html",
+      "published_at": "2026-11-07T05:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
+      }
+    },
+    {
+      "id": "bc574fbc0d240e97",
+      "name": "US carries out another round of  minor  strikes on Iran , Trump says",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bc574fbc0d240e97",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.506,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aol.co.uk",
+      "url": "https://www.aol.co.uk/articles/us-carries-another-round-minor-030701000.html",
+      "published_at": "2026-11-07T05:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 2.9,
+        "extended": 5.0
       }
     }
   ],
   "history": [
-    {
-      "timestamp": "2026-08-07T16:34:43.804117Z",
-      "immediate": 23,
-      "short": 27,
-      "extended": 27
-    },
     {
       "timestamp": "2026-08-07T17:34:30.795859Z",
       "immediate": 17,
@@ -6246,17 +6798,23 @@ window.MAGEN_STATE = {
       "immediate": 20,
       "short": 24,
       "extended": 25
+    },
+    {
+      "timestamp": "2026-11-07T07:22:51.876954Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 29
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-11-07T01:15:41.495007Z",
+    "last_success": "2026-11-07T07:22:51.876954Z",
     "sources": {
       "gdelt": {
         "ok": true,
-        "items": 48,
-        "relevant": 4
+        "items": 150,
+        "relevant": 22
       },
       "manual": {
         "ok": true,
