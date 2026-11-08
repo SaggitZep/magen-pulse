@@ -1,32 +1,32 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-11-08T01:52:31.061492Z",
+  "generated_at": "2026-11-08T08:33:24.304417Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 9,
+      "score": 0,
       "low": 0,
-      "high": 24,
-      "confidence": 57,
-      "status": "נמוך"
+      "high": 19,
+      "confidence": 35,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 10,
+      "score": 0,
       "low": 0,
-      "high": 25,
-      "confidence": 57,
-      "status": "נמוך"
+      "high": 19,
+      "confidence": 35,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 10,
+      "score": 0,
       "low": 0,
-      "high": 25,
-      "confidence": 57,
-      "status": "נמוך"
+      "high": 19,
+      "confidence": 35,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -36,206 +36,11 @@ window.MAGEN_STATE = {
   },
   "velocity": {
     "level": "ירידה",
-    "points_60m": -14
+    "points_60m": -9
   },
-  "changes": [
-    {
-      "time": "00:00",
-      "text": "Netanyahu Iran Attack Plan | Trump Stopped Israel PM Mosad Operation",
-      "impact": "השפעה מיידית מחושבת: +8.1",
-      "direction": "up",
-      "source": "bhaskar.com",
-      "signal_id": "16c4e19a165a6842"
-    },
-    {
-      "time": "00:00",
-      "text": "Trump Says U . S . Strikes on Iran Destroyed Air Defense System in  Minutes",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "breitbart.com",
-      "signal_id": "00e40990bfde078e"
-    },
-    {
-      "time": "00:00",
-      "text": "US Military Command Offers $20million Reward For Information On Iran Nuclear Programme",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "saharareporters.com",
-      "signal_id": "aada09658b3f668a"
-    },
-    {
-      "time": "00:00",
-      "text": "US Military Launches New Task Force To Block Iran Ground Routes , Target Weapons Shipments , Others",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "saharareporters.com",
-      "signal_id": "1b5f9d65c494466a"
-    }
-  ],
-  "signals": [
-    {
-      "id": "16c4e19a165a6842",
-      "name": "Netanyahu Iran Attack Plan | Trump Stopped Israel PM Mosad Operation",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "16c4e19a165a6842",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.33,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "bhaskar.com",
-      "url": "https://www.bhaskar.com/international/news/netanyahu-mosad-chief-plan-iran-attack-trump-stop-israel-news-139624855.html",
-      "published_at": "2026-11-07T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 8.1,
-        "short": 6.3,
-        "extended": 2.7
-      }
-    },
-    {
-      "id": "00e40990bfde078e",
-      "name": "Trump Says U . S . Strikes on Iran Destroyed Air Defense System in  Minutes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "00e40990bfde078e",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.33,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "breitbart.com",
-      "url": "https://www.breitbart.com/politics/2026/11/07/trump-u-s-carried-out-minor-strikes-iran-destroyed-anti-aircraft-system-minutes/",
-      "published_at": "2026-11-07T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      }
-    },
-    {
-      "id": "aada09658b3f668a",
-      "name": "US Military Command Offers $20million Reward For Information On Iran Nuclear Programme",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "aada09658b3f668a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.33,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "saharareporters.com",
-      "url": "https://saharareporters.com/2026/11/07/us-military-command-offers-20million-reward-information-irans-nuclear-programme",
-      "published_at": "2026-11-07T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      }
-    },
-    {
-      "id": "1b5f9d65c494466a",
-      "name": "US Military Launches New Task Force To Block Iran Ground Routes , Target Weapons Shipments , Others",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1b5f9d65c494466a",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.33,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "saharareporters.com",
-      "url": "https://saharareporters.com/2026/11/07/us-military-launches-new-task-force-block-irans-ground-routes-target-weapons-shipments",
-      "published_at": "2026-11-07T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      }
-    },
-    {
-      "id": "9a34d400e1e18fd8",
-      "name": "US military looks to curb Iranian land commerce",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "9a34d400e1e18fd8",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.33,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/us-military-looks-to-curb-iranian-land-commerce/articleshow/135646369.cms",
-      "published_at": "2026-11-07T22:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 1.9,
-        "extended": 3.3
-      }
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
-    {
-      "timestamp": "2026-08-07T21:10:50.417840Z",
-      "immediate": 7,
-      "short": 10,
-      "extended": 12
-    },
     {
       "timestamp": "2026-08-07T21:57:38.887064Z",
       "immediate": 2,
@@ -6277,17 +6082,23 @@ window.MAGEN_STATE = {
       "immediate": 9,
       "short": 10,
       "extended": 10
+    },
+    {
+      "timestamp": "2026-11-08T08:33:24.304417Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-11-08T01:52:31.061492Z",
+    "last_success": "2026-11-08T08:33:24.304417Z",
     "sources": {
       "gdelt": {
         "ok": true,
-        "items": 62,
-        "relevant": 5
+        "items": 0,
+        "relevant": 0
       },
       "manual": {
         "ok": true,
