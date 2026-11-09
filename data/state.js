@@ -1,52 +1,266 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-11-08T23:38:21.961591Z",
+  "mode": "live",
+  "generated_at": "2026-11-09T02:59:45.669298Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
+      "score": 4,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
+      "high": 17,
+      "confidence": 67,
       "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
+      "score": 12,
       "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "high": 25,
+      "confidence": 67,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 20,
+      "low": 7,
+      "high": 33,
+      "confidence": 67,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "עלייה מתונה",
+    "points_60m": 4
   },
-  "changes": [],
-  "signals": [],
-  "history": [
+  "changes": [
     {
-      "timestamp": "2026-08-08T00:03:05.027932Z",
-      "immediate": 4,
-      "short": 12,
-      "extended": 21
+      "time": "04:00",
+      "text": "Rubio says Trump war against Iran not  necessarily popular  but needed to stop a nuclear threat",
+      "impact": "השפעה מיידית מחושבת: +1.4",
+      "direction": "up",
+      "source": "wral.com",
+      "signal_id": "c2e5637c66d07df0"
     },
+    {
+      "time": "04:00",
+      "text": "Trump says Iran strikes highly unlikely with strong deal",
+      "impact": "השפעה מיידית מחושבת: +1.3",
+      "direction": "up",
+      "source": "inquisitr.com",
+      "signal_id": "51cc4fdcdc1b978f"
+    },
+    {
+      "time": "03:00",
+      "text": "Trump Says Fresh Strikes on Iran Are  Highly Unlikely  but Claims US Could Destroy 38 Bridges in an Hour",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "ibtimes.co.uk",
+      "signal_id": "e068d5ec383de94c"
+    },
+    {
+      "time": "03:00",
+      "text": "US - Iran war news : Donald Trump says renewed Iran attacks  unlikely  if nuclear program , Strait of Hormuz talks show progress",
+      "impact": "השפעה מיידית מחושבת: +1.0",
+      "direction": "up",
+      "source": "abc13.com",
+      "signal_id": "cf11f29bf014e175"
+    }
+  ],
+  "signals": [
+    {
+      "id": "c2e5637c66d07df0",
+      "name": "Rubio says Trump war against Iran not  necessarily popular  but needed to stop a nuclear threat",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "c2e5637c66d07df0",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.752,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wral.com",
+      "url": "https://www.wral.com/news/ap/f7b50-rubio-says-trumps-war-against-iran-not-necessarily-popular-but-needed-to-stop-a-nuclear-threat/",
+      "published_at": "2026-11-09T02:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.4,
+        "short": 4.9,
+        "extended": 8.3
+      }
+    },
+    {
+      "id": "51cc4fdcdc1b978f",
+      "name": "Trump says Iran strikes highly unlikely with strong deal",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "51cc4fdcdc1b978f",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.752,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "inquisitr.com",
+      "url": "https://www.inquisitr.com/trump-iran-strikes-agreement/",
+      "published_at": "2026-11-09T02:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.3,
+        "short": 4.4,
+        "extended": 7.4
+      }
+    },
+    {
+      "id": "e068d5ec383de94c",
+      "name": "Trump Says Fresh Strikes on Iran Are  Highly Unlikely  but Claims US Could Destroy 38 Bridges in an Hour",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e068d5ec383de94c",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.565,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ibtimes.co.uk",
+      "url": "https://www.ibtimes.co.uk/trump-us-strikes-iran-highly-unlikely-bridge-warning-1830924",
+      "published_at": "2026-11-09T01:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
+    {
+      "id": "cf11f29bf014e175",
+      "name": "US - Iran war news : Donald Trump says renewed Iran attacks  unlikely  if nuclear program , Strait of Hormuz talks show progress",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "cf11f29bf014e175",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.565,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "abc13.com",
+      "url": "https://abc13.com/post/us-iran-war-news-donald-trump-says-renewed-attacks-nuclear-program-strait-hormuz-talks-show-progress/20024909/",
+      "published_at": "2026-11-09T01:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
+    {
+      "id": "2ab3e9c392ffed4a",
+      "name": "Trump says renewed attacks on Iran  highly unlikely  if talks show progress",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "2ab3e9c392ffed4a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.565,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "arabherald.com",
+      "url": "http://www.arabherald.com/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress",
+      "published_at": "2026-11-09T01:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    },
+    {
+      "id": "de7fb5cc08c4a189",
+      "name": "Trump Defends Iran Attack as Democrats Projected to Win Both Chambers",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "de7fb5cc08c4a189",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.565,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "econotimes.com",
+      "url": "https://econotimes.com/Trump-Defends-Iran-Attack-as-Democrats-Projected-to-Win-Both-Chambers-1773423",
+      "published_at": "2026-11-09T01:00:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.3,
+        "extended": 5.6
+      }
+    }
+  ],
+  "history": [
     {
       "timestamp": "2026-08-08T02:18:31.340311Z",
       "immediate": 3,
@@ -6088,17 +6302,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-11-09T02:59:45.669298Z",
+      "immediate": 4,
+      "short": 12,
+      "extended": 20
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-11-08T08:33:24.304417Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-11-09T02:59:45.669298Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 6
       },
       "manual": {
         "ok": true,
