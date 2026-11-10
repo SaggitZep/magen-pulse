@@ -1,7 +1,7 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-11-10T03:47:20.660157Z",
+  "generated_at": "2026-11-10T11:54:30.208639Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -41,12 +41,6 @@ window.MAGEN_STATE = {
   "changes": [],
   "signals": [],
   "history": [
-    {
-      "timestamp": "2026-08-08T05:33:05.365720Z",
-      "immediate": 2,
-      "short": 6,
-      "extended": 10
-    },
     {
       "timestamp": "2026-08-08T06:24:05.787449Z",
       "immediate": 1,
@@ -6085,6 +6079,12 @@ window.MAGEN_STATE = {
     },
     {
       "timestamp": "2026-11-10T03:47:20.660157Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
+    },
+    {
+      "timestamp": "2026-11-10T11:54:30.208639Z",
       "immediate": 0,
       "short": 0,
       "extended": 0
