@@ -1,32 +1,32 @@
 {
   "schema_version": 4,
   "mode": "live",
-  "generated_at": "2026-11-12T10:14:39.775912Z",
+  "generated_at": "2026-11-12T18:27:45.192819Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 11,
+      "score": 0,
       "low": 0,
-      "high": 26,
-      "confidence": 58,
-      "status": "נמוך"
+      "high": 19,
+      "confidence": 35,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 12,
+      "score": 0,
       "low": 0,
-      "high": 27,
-      "confidence": 58,
-      "status": "נמוך"
+      "high": 19,
+      "confidence": 35,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 12,
+      "score": 0,
       "low": 0,
-      "high": 27,
-      "confidence": 58,
-      "status": "נמוך"
+      "high": 19,
+      "confidence": 35,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
@@ -35,207 +35,12 @@
     "expected": 2
   },
   "velocity": {
-    "level": "עלייה מהירה",
-    "points_60m": 11
+    "level": "ירידה",
+    "points_60m": -11
   },
-  "changes": [
-    {
-      "time": "09:00",
-      "text": "Iran tells COP31 it wants compensation for environmental damage from US - Israeli strikes",
-      "impact": "השפעה מיידית מחושבת: +9.8",
-      "direction": "up",
-      "source": "asiaone.com:443",
-      "signal_id": "cbf17daac7703674"
-    },
-    {
-      "time": "08:45",
-      "text": "Iran Warns It May Target U . S . Military Bases Across Europe - Jowhar News Leader",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "jowhar.com",
-      "signal_id": "bc9151924f01735e"
-    },
-    {
-      "time": "09:00",
-      "text": "Iran will not allow enriched nuclear material to leave the country , security chief says",
-      "impact": "השפעה מיידית מחושבת: +0.7",
-      "direction": "up",
-      "source": "asiaone.com:443",
-      "signal_id": "5ad4d4ecb9186c38"
-    },
-    {
-      "time": "08:45",
-      "text": "ഇറാനെതിരെ സൈനിക നീക്കത്തിന് തയ്യാറെടുക്കാൻ നെതന്യാഹുവിന്റെ നിർദേശം ; നീക്കം പ്രതിപക്ഷത്തിന്റെ മുന്നറിയിപ്പിന് പിന്നാലെ | Netanyahu asks military to prepare for Iran 2 . 0 as opposition demands no strikes before next govt",
-      "impact": "השפעה מיידית מחושבת: +0.6",
-      "direction": "up",
-      "source": "madhyamam.com",
-      "signal_id": "11eda07b8deff291"
-    }
-  ],
-  "signals": [
-    {
-      "id": "cbf17daac7703674",
-      "name": "Iran tells COP31 it wants compensation for environmental damage from US - Israeli strikes",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "cbf17daac7703674",
-      "strength": 0.5,
-      "reliability": 0.56,
-      "freshness": 0.396,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "asiaone.com:443",
-      "url": "https://www.asiaone.com:443/asia/iran-tells-cop31-it-wants-compensation-environmental-damage-us-israeli-strikes",
-      "published_at": "2026-11-12T07:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 9.8,
-        "short": 7.6,
-        "extended": 3.2
-      }
-    },
-    {
-      "id": "bc9151924f01735e",
-      "name": "Iran Warns It May Target U . S . Military Bases Across Europe - Jowhar News Leader",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "bc9151924f01735e",
-      "strength": 0.45,
-      "reliability": 0.56,
-      "freshness": 0.368,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "jowhar.com",
-      "url": "https://jowhar.com/iran-warns-it-may-target-u-s-military-bases-across-europe/",
-      "published_at": "2026-11-12T06:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.4,
-        "extended": 4.1
-      }
-    },
-    {
-      "id": "5ad4d4ecb9186c38",
-      "name": "Iran will not allow enriched nuclear material to leave the country , security chief says",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "5ad4d4ecb9186c38",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.396,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "asiaone.com:443",
-      "url": "https://www.asiaone.com:443/asia/iran-will-not-allow-enriched-nuclear-material-leave-country-security-chief-says",
-      "published_at": "2026-11-12T07:00:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.7,
-        "short": 2.3,
-        "extended": 3.9
-      }
-    },
-    {
-      "id": "11eda07b8deff291",
-      "name": "ഇറാനെതിരെ സൈനിക നീക്കത്തിന് തയ്യാറെടുക്കാൻ നെതന്യാഹുവിന്റെ നിർദേശം ; നീക്കം പ്രതിപക്ഷത്തിന്റെ മുന്നറിയിപ്പിന് പിന്നാലെ | Netanyahu asks military to prepare for Iran 2 . 0 as opposition demands no strikes before next govt",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "11eda07b8deff291",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.368,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "madhyamam.com",
-      "url": "https://www.madhyamam.com/world/netanyahu-asks-military-to-prepare-for-iran-strike-1571553",
-      "published_at": "2026-11-12T06:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
-    },
-    {
-      "id": "51a97e9722e1aee0",
-      "name": "סמכויות ממשלת המעבר ליציאה למערכה צבאית באיראן",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "51a97e9722e1aee0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.368,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "kikar.co.il",
-      "url": "https://www.kikar.co.il/political-news/netanyahu-caretaker-government-iran-attack-authority",
-      "published_at": "2026-11-12T06:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.6,
-        "short": 2.1,
-        "extended": 3.6
-      }
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
-    {
-      "timestamp": "2026-08-08T11:50:33.391294Z",
-      "immediate": 2,
-      "short": 8,
-      "extended": 13
-    },
     {
       "timestamp": "2026-08-08T12:29:26.553832Z",
       "immediate": 4,
@@ -6277,17 +6082,23 @@
       "immediate": 11,
       "short": 12,
       "extended": 12
+    },
+    {
+      "timestamp": "2026-11-12T18:27:45.192819Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
     "pipeline": "ok",
     "message": "האיסוף הושלם והנתונים מוצגים.",
-    "last_success": "2026-11-12T10:14:39.775912Z",
+    "last_success": "2026-11-12T18:27:45.192819Z",
     "sources": {
       "gdelt": {
         "ok": true,
-        "items": 93,
-        "relevant": 5
+        "items": 0,
+        "relevant": 0
       },
       "manual": {
         "ok": true,
