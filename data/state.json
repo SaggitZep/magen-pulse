@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-11-13T04:20:25.196278Z",
+  "generated_at": "2026-11-13T12:27:04.362720Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -41,12 +41,6 @@
   "changes": [],
   "signals": [],
   "history": [
-    {
-      "timestamp": "2026-08-08T14:10:16.644792Z",
-      "immediate": 5,
-      "short": 15,
-      "extended": 25
-    },
     {
       "timestamp": "2026-08-08T14:51:01.392608Z",
       "immediate": 4,
@@ -6085,6 +6079,12 @@
     },
     {
       "timestamp": "2026-11-13T04:20:25.196278Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
+    },
+    {
+      "timestamp": "2026-11-13T12:27:04.362720Z",
       "immediate": 0,
       "short": 0,
       "extended": 0
