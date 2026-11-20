@@ -1,52 +1,421 @@
 {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-11-19T23:39:54.618152Z",
+  "mode": "live",
+  "generated_at": "2026-11-20T04:20:05.869462Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 67,
+      "status": "מוגבר"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 34,
+      "low": 21,
+      "high": 47,
+      "confidence": 66,
+      "status": "מוגבר"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 30,
+      "low": 17,
+      "high": 43,
+      "confidence": 65,
+      "status": "מוגבר"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "זינוק חריג",
+    "points_60m": 34
   },
-  "changes": [],
-  "signals": [],
-  "history": [
+  "changes": [
     {
-      "timestamp": "2026-08-09T09:53:30.175859Z",
-      "immediate": 10,
-      "short": 13,
-      "extended": 13
+      "time": "05:45",
+      "text": "ईरान पर फिर हमले की तैयारी में अमेरिका ! इजरायल के साथ मिलकर कार्रवाई के विकल्प तलाश रहे ट्रंप | west - asia - us - iran - tension - trump - israel - joint - military - strike - hormuz",
+      "impact": "השפעה מיידית מחושבת: +20.8",
+      "direction": "up",
+      "source": "deshbandhu.co.in",
+      "signal_id": "5633320474dc2fb8"
     },
+    {
+      "time": "05:30",
+      "text": "Ambassador Leiter : If Trump orders new Iran strikes , Israel will join the US",
+      "impact": "השפעה מיידית מחושבת: +19.4",
+      "direction": "up",
+      "source": "israelnationalnews.com",
+      "signal_id": "7fd75b199de47d46"
+    },
+    {
+      "time": "02:30",
+      "text": "ईरान पर इजरायल के साथ नए हमले पर विचार कर रहे ट्रंप , चीन यात्रा से लौटने के बाद ले सकते हैं फैसला - trump considering fresh attacks on iran in coordination with israel",
+      "impact": "השפעה מיידית מחושבת: +8.2",
+      "direction": "up",
+      "source": "jagran.com",
+      "signal_id": "4cfa59dfe20c3182"
+    },
+    {
+      "time": "04:45",
+      "text": "Iraqi forces strike compromise with powerful pro - Iran militia , security officials say",
+      "impact": "השפעה מיידית מחושבת: +1.1",
+      "direction": "up",
+      "source": "nbcnews.com",
+      "signal_id": "46874a15ce2c7dad"
+    }
+  ],
+  "signals": [
+    {
+      "id": "5633320474dc2fb8",
+      "name": "ईरान पर फिर हमले की तैयारी में अमेरिका ! इजरायल के साथ मिलकर कार्रवाई के विकल्प तलाश रहे ट्रंप | west - asia - us - iran - tension - trump - israel - joint - military - strike - hormuz",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "5633320474dc2fb8",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.846,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "deshbandhu.co.in",
+      "url": "https://www.deshbandhu.co.in/world/west-asia-us-iran-tension-trump-israel-joint-military-strike-hormuz-332186",
+      "published_at": "2026-11-20T03:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 20.8,
+        "short": 16.3,
+        "extended": 6.9
+      }
+    },
+    {
+      "id": "7fd75b199de47d46",
+      "name": "Ambassador Leiter : If Trump orders new Iran strikes , Israel will join the US",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "7fd75b199de47d46",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.788,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/flashes/698019",
+      "published_at": "2026-11-20T03:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 19.4,
+        "short": 15.1,
+        "extended": 6.4
+      }
+    },
+    {
+      "id": "4cfa59dfe20c3182",
+      "name": "ईरान पर इजरायल के साथ नए हमले पर विचार कर रहे ट्रंप , चीन यात्रा से लौटने के बाद ले सकते हैं फैसला - trump considering fresh attacks on iran in coordination with israel",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "4cfa59dfe20c3182",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.334,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "jagran.com",
+      "url": "https://www.jagran.com/world/america-trump-considering-fresh-attacks-on-iran-in-coordination-with-israel-40442271.html",
+      "published_at": "2026-11-20T00:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 8.2,
+        "short": 6.4,
+        "extended": 2.7
+      }
+    },
+    {
+      "id": "46874a15ce2c7dad",
+      "name": "Iraqi forces strike compromise with powerful pro - Iran militia , security officials say",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "46874a15ce2c7dad",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.636,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "nbcnews.com",
+      "url": "https://www.nbcnews.com/world/middle-east/iraqi-forces-strike-compromise-powerful-iran-militia-security-official-rcna610324",
+      "published_at": "2026-11-20T02:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.1,
+        "short": 3.7,
+        "extended": 6.3
+      }
+    },
+    {
+      "id": "360c9fdf3c3bd44a",
+      "name": "Trump Says Hell Discuss Possible Iran Strikes After Jan . 1",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "360c9fdf3c3bd44a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.592,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "econotimes.com",
+      "url": "https://econotimes.com/Trump-Says-He-ll-Discuss-Possible-Iran-Strikes-After-Jan-1-1780005",
+      "published_at": "2026-11-20T02:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "6ce4d208297f9828",
+      "name": "US military spending on conflict with Iran exceeds $48 billion",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6ce4d208297f9828",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.592,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "trend.az",
+      "url": "https://www.trend.az/iran/4248588.html",
+      "published_at": "2026-11-20T02:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "853b87c6868bbf3a",
+      "name": "OPINION - Yemen and Bab al - Mandeb : Second maritime front in the US – Iranian confrontation",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "853b87c6868bbf3a",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.592,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/world/opinion-yemen-and-bab-al-mandeb-second-maritime-front-in-the-us-iranian-confrontation/4131626",
+      "published_at": "2026-11-20T02:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 1.0,
+        "short": 3.4,
+        "extended": 5.8
+      }
+    },
+    {
+      "id": "bac01d8cc024e0b5",
+      "name": "The U . S . and Iran Are Back to Trading Strikes",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "bac01d8cc024e0b5",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.414,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "foreignpolicy.com",
+      "url": "https://foreignpolicy.com/2026/11/19/us-iran-strikes-bahrain-kuwait-trump/?tpcc=recirc_trending062921",
+      "published_at": "2026-11-20T01:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "76c0917d69a76b7b",
+      "name": "NUCLEAR ALARM : U . S . And European Allies Demand Iran Restore Inspections As Uranium Stockpile Remains Unverified",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "76c0917d69a76b7b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.414,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "theyeshivaworld.com",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2625593/nuclear-alarm-u-s-and-european-allies-demand-iran-restore-inspections-as-uranium-stockpile-remains-unverified.html",
+      "published_at": "2026-11-20T01:15:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "ecec6b804097d93b",
+      "name": "Pentagon puts Iran war cost at $48 . 3 billion , excluding base damage",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "ecec6b804097d93b",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.359,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "ky3.com",
+      "url": "https://www.ky3.com/2026/11/20/pentagon-puts-iran-war-cost-483-billion-excluding-base-damage/",
+      "published_at": "2026-11-20T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      }
+    },
+    {
+      "id": "e04547d12077af39",
+      "name": "Iran war costs surpass $48B as lawmakers demand unreleased estimates on base damage",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "e04547d12077af39",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.359,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "wdio.com",
+      "url": "https://www.wdio.com/top-stories/iran-war-costs-surpass-48b-as-lawmakers-demand-unreleased-estimates-on-base-damage/",
+      "published_at": "2026-11-20T00:45:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.6,
+        "short": 2.1,
+        "extended": 3.5
+      }
+    }
+  ],
+  "history": [
     {
       "timestamp": "2026-08-09T10:34:11.246368Z",
       "immediate": 4,
@@ -6088,17 +6457,23 @@
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-11-20T04:20:05.869462Z",
+      "immediate": 34,
+      "short": 34,
+      "extended": 30
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-11-19T07:59:43.557855Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-11-20T04:20:05.869462Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 150,
+        "relevant": 11
       },
       "manual": {
         "ok": true,
