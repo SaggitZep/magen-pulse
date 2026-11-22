@@ -1,52 +1,235 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "degraded",
-  "generated_at": "2026-11-22T17:57:01.854783Z",
+  "mode": "live",
+  "generated_at": "2026-11-22T23:33:09.119092Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 15,
+      "low": 1,
+      "high": 29,
+      "confidence": 61,
+      "status": "נמוך"
     },
     "short": {
       "label": "6 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 16,
+      "low": 2,
+      "high": 30,
+      "confidence": 60,
+      "status": "נמוך"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 0,
-      "low": 0,
-      "high": 22,
-      "confidence": 18,
-      "status": "לא זוהה אות חריג"
+      "score": 15,
+      "low": 1,
+      "high": 29,
+      "confidence": 60,
+      "status": "נמוך"
     }
   },
   "coverage": {
-    "percent": 50,
-    "available": 1,
+    "percent": 100,
+    "available": 2,
     "expected": 2
   },
   "velocity": {
-    "level": "יציב",
-    "points_60m": 0
+    "level": "זינוק חריג",
+    "points_60m": 15
   },
-  "changes": [],
-  "signals": [],
-  "history": [
+  "changes": [
     {
-      "timestamp": "2026-08-09T16:58:58.188836Z",
-      "immediate": 22,
-      "short": 25,
-      "extended": 24
+      "time": "23:30",
+      "text": "Iran files war crime lawsuits in American , European courts over US - Israeli attacks",
+      "impact": "השפעה מיידית מחושבת: +13.7",
+      "direction": "up",
+      "source": "aa.com.tr",
+      "signal_id": "9575fdc3e865143b"
     },
+    {
+      "time": "23:30",
+      "text": "Trump inclined to resume strikes on Iran after New Year if no deal reached",
+      "impact": "השפעה מיידית מחושבת: +0.9",
+      "direction": "up",
+      "source": "aa.com.tr",
+      "signal_id": "6308f2c0c41e0c54"
+    },
+    {
+      "time": "22:30",
+      "text": "Trump threatens fresh strikes on Iran after New Year if talks fail , accuses Tehran of stalling negotiations",
+      "impact": "השפעה מיידית מחושבת: +0.8",
+      "direction": "up",
+      "source": "timesofindia.indiatimes.com",
+      "signal_id": "f37dc086979b236d"
+    },
+    {
+      "time": "22:30",
+      "text": "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began",
+      "impact": "השפעה מיידית מחושבת: +0.7",
+      "direction": "up",
+      "source": "peakoil.com",
+      "signal_id": "59228c03c4a47490"
+    }
+  ],
+  "signals": [
+    {
+      "id": "9575fdc3e865143b",
+      "name": "Iran files war crime lawsuits in American , European courts over US - Israeli attacks",
+      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
+      "category": "direct_intent",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "9575fdc3e865143b",
+      "strength": 0.5,
+      "reliability": 0.56,
+      "freshness": 0.556,
+      "max_effect": {
+        "immediate": 88,
+        "short": 78,
+        "extended": 52
+      },
+      "relevance": {
+        "immediate": 1.0,
+        "short": 0.88,
+        "extended": 0.56
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/middle-east/iran-files-war-crime-lawsuits-in-american-european-courts-over-us-israeli-attacks/4133788",
+      "published_at": "2026-11-22T21:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 13.7,
+        "short": 10.7,
+        "extended": 4.5
+      }
+    },
+    {
+      "id": "6308f2c0c41e0c54",
+      "name": "Trump inclined to resume strikes on Iran after New Year if no deal reached",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "6308f2c0c41e0c54",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.556,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "aa.com.tr",
+      "url": "https://aa.com.tr/en/americas/trump-inclined-to-resume-strikes-on-iran-after-new-year-if-no-deal-reached/4133792",
+      "published_at": "2026-11-22T21:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.9,
+        "short": 3.2,
+        "extended": 5.5
+      }
+    },
+    {
+      "id": "f37dc086979b236d",
+      "name": "Trump threatens fresh strikes on Iran after New Year if talks fail , accuses Tehran of stalling negotiations",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "f37dc086979b236d",
+      "strength": 0.45,
+      "reliability": 0.56,
+      "freshness": 0.418,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/world/us/trump-threatens-fresh-strikes-on-iran-after-new-year-if-talks-fail-accuses-tehran-of-stalling-negotiations/articleshow/136083179.cms",
+      "published_at": "2026-11-22T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.8,
+        "short": 2.7,
+        "extended": 4.6
+      }
+    },
+    {
+      "id": "59228c03c4a47490",
+      "name": "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "59228c03c4a47490",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.418,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "peakoil.com",
+      "url": "https://peakoil.com/publicpolicy/iranian-attacks-in-the-strait-of-hormuz-are-at-the-highest-levels-since-the-conflict-began",
+      "published_at": "2026-11-22T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    },
+    {
+      "id": "43f9ec4a7a1f57be",
+      "name": "Trump signals possible renewed strikes on Iran after New Year if talks fail",
+      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
+      "category": "regional_escalation",
+      "direction": "up",
+      "evidence_type": "report",
+      "dependency_group": "43f9ec4a7a1f57be",
+      "strength": 0.4,
+      "reliability": 0.56,
+      "freshness": 0.418,
+      "max_effect": {
+        "immediate": 20,
+        "short": 34,
+        "extended": 44
+      },
+      "relevance": {
+        "immediate": 0.38,
+        "short": 0.76,
+        "extended": 1.0
+      },
+      "source": "middle-east-online.com",
+      "url": "https://www.middle-east-online.com/en/trump-signals-possible-renewed-strikes-iran-after-new-year-if-talks-fail",
+      "published_at": "2026-11-22T20:30:00Z",
+      "active": true,
+      "computed": {
+        "immediate": 0.7,
+        "short": 2.4,
+        "extended": 4.1
+      }
+    }
+  ],
+  "history": [
     {
       "timestamp": "2026-08-09T17:40:25.189166Z",
       "immediate": 34,
@@ -6088,17 +6271,23 @@ window.MAGEN_STATE = {
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-11-22T23:33:09.119092Z",
+      "immediate": 15,
+      "short": 16,
+      "extended": 15
     }
   ],
   "health": {
-    "pipeline": "degraded",
-    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
-    "last_success": "2026-11-22T02:36:19.363723Z",
+    "pipeline": "ok",
+    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "last_success": "2026-11-22T23:33:09.119092Z",
     "sources": {
       "gdelt": {
-        "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
-        "carried_forward": 0
+        "ok": true,
+        "items": 108,
+        "relevant": 5
       },
       "manual": {
         "ok": true,
