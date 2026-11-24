@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-11-23T14:26:23.441909Z",
+  "generated_at": "2026-11-24T01:52:13.753945Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -35,18 +35,12 @@
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -4
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [],
   "signals": [],
   "history": [
-    {
-      "timestamp": "2026-08-09T19:09:14.427114Z",
-      "immediate": 25,
-      "short": 27,
-      "extended": 25
-    },
     {
       "timestamp": "2026-08-09T19:49:12.193575Z",
       "immediate": 22,
@@ -6088,6 +6082,12 @@
       "immediate": 0,
       "short": 0,
       "extended": 0
+    },
+    {
+      "timestamp": "2026-11-24T01:52:13.753945Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
@@ -6097,7 +6097,7 @@
     "sources": {
       "gdelt": {
         "ok": false,
-        "error": "HTTP Error 429: Too Many Requests",
+        "error": "The read operation timed out",
         "carried_forward": 0
       },
       "manual": {
