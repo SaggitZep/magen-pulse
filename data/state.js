@@ -1,520 +1,46 @@
 window.MAGEN_STATE = {
   "schema_version": 4,
-  "mode": "live",
-  "generated_at": "2026-11-27T00:08:38.678913Z",
+  "mode": "degraded",
+  "generated_at": "2026-11-27T08:34:48.937920Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
       "label": "60 דקות",
-      "score": 21,
-      "low": 8,
-      "high": 34,
-      "confidence": 69,
-      "status": "נמוך"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "short": {
       "label": "6 שעות",
-      "score": 27,
-      "low": 14,
-      "high": 40,
-      "confidence": 69,
-      "status": "מוגבר"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     },
     "extended": {
       "label": "24 שעות",
-      "score": 31,
-      "low": 18,
-      "high": 44,
-      "confidence": 69,
-      "status": "מוגבר"
+      "score": 0,
+      "low": 0,
+      "high": 22,
+      "confidence": 18,
+      "status": "לא זוהה אות חריג"
     }
   },
   "coverage": {
-    "percent": 100,
-    "available": 2,
+    "percent": 50,
+    "available": 1,
     "expected": 2
   },
   "velocity": {
-    "level": "זינוק חריג",
-    "points_60m": 21
+    "level": "ירידה",
+    "points_60m": -21
   },
-  "changes": [
-    {
-      "time": "00:15",
-      "text": "Israeli strikes kill 10 in Gaza as Iranian drones kill 2 Italians in Kuwait , and other Mideast news",
-      "impact": "השפעה מיידית מחושבת: +16.6",
-      "direction": "up",
-      "source": "channel3000.com",
-      "signal_id": "15280b79fa9d88f1"
-    },
-    {
-      "time": "01:45",
-      "text": "Due tecnici italiani della Rheinmetall morti in attacco con drone iraniano in Kuwait , cosa sappiamo finora",
-      "impact": "השפעה מיידית מחושבת: +1.8",
-      "direction": "up",
-      "source": "adnkronos.com",
-      "signal_id": "c2a7cc893ed241a0"
-    },
-    {
-      "time": "01:45",
-      "text": "Dua Teknisi Italia Tewas dalam Serangan Drone di Kuwait , Iran Bantah Terlibat",
-      "impact": "השפעה מיידית מחושבת: +1.8",
-      "direction": "up",
-      "source": "news.republika.co.id",
-      "signal_id": "1fea33cce05affb5"
-    },
-    {
-      "time": "01:45",
-      "text": "Iran attack on Kuwait kills two Italian Rheinmetall workers",
-      "impact": "השפעה מיידית מחושבת: +1.5",
-      "direction": "up",
-      "source": "spokesman.com",
-      "signal_id": "83d090d0d3178146"
-    }
-  ],
-  "signals": [
-    {
-      "id": "15280b79fa9d88f1",
-      "name": "Israeli strikes kill 10 in Gaza as Iranian drones kill 2 Italians in Kuwait , and other Mideast news",
-      "finding": "דיווח על כוונה, איום או פעולה ישירה הקשורים לישראל.",
-      "category": "direct_intent",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "15280b79fa9d88f1",
-      "strength": 0.58,
-      "reliability": 0.56,
-      "freshness": 0.582,
-      "max_effect": {
-        "immediate": 88,
-        "short": 78,
-        "extended": 52
-      },
-      "relevance": {
-        "immediate": 1.0,
-        "short": 0.88,
-        "extended": 0.56
-      },
-      "source": "channel3000.com",
-      "url": "https://www.channel3000.com/news/israeli-strikes-kill-10-in-gaza-as-iranian-drones-kill-2-italians-in-kuwait-and/article_a5139632-05e3-58ac-9a3c-1e4bb454f592.html",
-      "published_at": "2026-11-26T22:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 16.6,
-        "short": 13.0,
-        "extended": 5.5
-      }
-    },
-    {
-      "id": "c2a7cc893ed241a0",
-      "name": "Due tecnici italiani della Rheinmetall morti in attacco con drone iraniano in Kuwait , cosa sappiamo finora",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "c2a7cc893ed241a0",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.894,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "adnkronos.com",
-      "url": "https://www.adnkronos.com/internazionale/esteri/kuwait-attacco-drone-italiani-morti-cosa-sappiamo_5gZ5lXDuqgcBWqfDRvdje3",
-      "published_at": "2026-11-26T23:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.8,
-        "short": 6.2,
-        "extended": 10.6
-      }
-    },
-    {
-      "id": "1fea33cce05affb5",
-      "name": "Dua Teknisi Italia Tewas dalam Serangan Drone di Kuwait , Iran Bantah Terlibat",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "1fea33cce05affb5",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.894,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "news.republika.co.id",
-      "url": "https://news.republika.co.id/berita/tp4uke393/dua-teknisi-italia-tewas-dalam-serangan-drone-di-kuwait-iran-bantah-terlibat",
-      "published_at": "2026-11-26T23:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.8,
-        "short": 6.2,
-        "extended": 10.6
-      }
-    },
-    {
-      "id": "83d090d0d3178146",
-      "name": "Iran attack on Kuwait kills two Italian Rheinmetall workers",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "83d090d0d3178146",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.894,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "spokesman.com",
-      "url": "https://www.spokesman.com/stories/2026/nov/26/iran-attack-on-kuwait-kills-two-italian-rheinmetal/",
-      "published_at": "2026-11-26T23:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.5,
-        "short": 5.2,
-        "extended": 8.8
-      }
-    },
-    {
-      "id": "d458500353f1be20",
-      "name": "Iran has no involvement in Kuwait drone attack , ready for joint investigation : FM - Xinhua",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d458500353f1be20",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.625,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "english.news.cn",
-      "url": "https://english.news.cn/20261127/6afbcbb3d49e41f8a9e234af10b0e29b/c.html",
-      "published_at": "2026-11-26T22:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.4
-      }
-    },
-    {
-      "id": "931969fcf8723f88",
-      "name": "Two Italians killed in Iranian drone strike in Kuwait",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "931969fcf8723f88",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.625,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279459658/two-italians-killed-in-iranian-drone-strike-in-kuwait",
-      "published_at": "2026-11-26T22:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.3,
-        "short": 4.3,
-        "extended": 7.4
-      }
-    },
-    {
-      "id": "f526cf27d87faed9",
-      "name": "Amir condoles Italy leaders over deaths in Iran drone attack horror",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "f526cf27d87faed9",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.582,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabtimesonline.com",
-      "url": "https://www.arabtimesonline.com/news/amir-condoles-italys-leaders-over-deaths-in-iran-drone-attack-horror/",
-      "published_at": "2026-11-26T22:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.9
-      }
-    },
-    {
-      "id": "d781826c142bb7fb",
-      "name": "Kuwait condemns Iranian drone attack , reserves right to self - defense",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d781826c142bb7fb",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.582,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabtimesonline.com",
-      "url": "https://www.arabtimesonline.com/news/kuwait-condemns-iranian-drone-attack-reserves-right-to-self-defense/",
-      "published_at": "2026-11-26T22:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.9
-      }
-    },
-    {
-      "id": "0b760a860a2f0517",
-      "name": "UN chief stands with Kuwait after deadly drone attacks by Iran",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0b760a860a2f0517",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.582,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "arabtimesonline.com",
-      "url": "https://www.arabtimesonline.com/news/un-chief-stands-with-kuwait-after-deadly-drone-attacks-by-iran/",
-      "published_at": "2026-11-26T22:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.2,
-        "short": 4.0,
-        "extended": 6.9
-      }
-    },
-    {
-      "id": "e21f68be8f367b9c",
-      "name": "Two Italians Killed in Kuwait ; Iran Claims Hormuz Mine Strikes",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "e21f68be8f367b9c",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.625,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "hngn.com",
-      "url": "https://www.hngn.com/articles/273970/20261126/two-italians-killed-kuwait-iran-claims-hormuz-mine-strikes.htm",
-      "published_at": "2026-11-26T22:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      }
-    },
-    {
-      "id": "d817f7ee6b9474bd",
-      "name": "Iran military denies claim of attack on vital facility in Kuwait",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "d817f7ee6b9474bd",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.625,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279461429/iran-military-denies-claim-of-attack-on-vital-facility-in-kuwait",
-      "published_at": "2026-11-26T22:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      }
-    },
-    {
-      "id": "0e20a5cc4d0c5ca0",
-      "name": "Update : 2 Italians die of wounds after Iranian attack on vital facility in Kuwait : military",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "0e20a5cc4d0c5ca0",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.625,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "iranherald.com",
-      "url": "http://www.iranherald.com/news/279458839/update-2-italians-die-of-wounds-after-iranian-attack-on-vital-facility-in-kuwait-military",
-      "published_at": "2026-11-26T22:30:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.1,
-        "short": 3.6,
-        "extended": 6.2
-      }
-    },
-    {
-      "id": "eb81efeb383c5b21",
-      "name": "What is behind Iran latest Bahrain and Kuwait strikes ?",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "eb81efeb383c5b21",
-      "strength": 0.4,
-      "reliability": 0.56,
-      "freshness": 0.582,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "dailysabah.com",
-      "url": "https://www.dailysabah.com/opinion/op-ed/what-is-behind-irans-latest-bahrain-and-kuwait-strikes",
-      "published_at": "2026-11-26T22:15:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 1.0,
-        "short": 3.4,
-        "extended": 5.7
-      }
-    },
-    {
-      "id": "6d61b0b62708b132",
-      "name": "Two Italians killed in alleged Iranian drone attack on Kuwait ; Tehran denies involvement",
-      "finding": "דיווח על הסלמה אזורית שעשויה להשפיע על חלון הסיכון.",
-      "category": "regional_escalation",
-      "direction": "up",
-      "evidence_type": "report",
-      "dependency_group": "6d61b0b62708b132",
-      "strength": 0.48,
-      "reliability": 0.56,
-      "freshness": 0.379,
-      "max_effect": {
-        "immediate": 20,
-        "short": 34,
-        "extended": 44
-      },
-      "relevance": {
-        "immediate": 0.38,
-        "short": 0.76,
-        "extended": 1.0
-      },
-      "source": "krdo.com",
-      "url": "https://krdo.com/news/national-world/cnn-world/2026/11/26/iranian-attack-on-kuwait-kills-two-italians-italys-foreign-minister-says/",
-      "published_at": "2026-11-26T20:45:00Z",
-      "active": true,
-      "computed": {
-        "immediate": 0.8,
-        "short": 2.6,
-        "extended": 4.5
-      }
-    }
-  ],
+  "changes": [],
+  "signals": [],
   "history": [
-    {
-      "timestamp": "2026-08-10T02:59:52.286014Z",
-      "immediate": 4,
-      "short": 13,
-      "extended": 22
-    },
     {
       "timestamp": "2026-08-10T04:48:56.777233Z",
       "immediate": 4,
@@ -6556,17 +6082,23 @@ window.MAGEN_STATE = {
       "immediate": 21,
       "short": 27,
       "extended": 31
+    },
+    {
+      "timestamp": "2026-11-27T08:34:48.937920Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
     }
   ],
   "health": {
-    "pipeline": "ok",
-    "message": "האיסוף הושלם והנתונים מוצגים.",
+    "pipeline": "degraded",
+    "message": "מקור האיסוף הזמני לא ענה ואין אותות עדכניים להצגה.",
     "last_success": "2026-11-27T00:08:38.678913Z",
     "sources": {
       "gdelt": {
-        "ok": true,
-        "items": 147,
-        "relevant": 14
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests",
+        "carried_forward": 0
       },
       "manual": {
         "ok": true,
