@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "mode": "degraded",
-  "generated_at": "2026-11-27T08:34:48.937920Z",
+  "generated_at": "2026-11-27T18:28:08.815876Z",
   "next_refresh_minutes": 10,
   "assessment": {
     "immediate": {
@@ -35,18 +35,12 @@
     "expected": 2
   },
   "velocity": {
-    "level": "ירידה",
-    "points_60m": -21
+    "level": "יציב",
+    "points_60m": 0
   },
   "changes": [],
   "signals": [],
   "history": [
-    {
-      "timestamp": "2026-08-10T04:48:56.777233Z",
-      "immediate": 4,
-      "short": 12,
-      "extended": 20
-    },
     {
       "timestamp": "2026-08-10T06:05:49.417154Z",
       "immediate": 3,
@@ -6085,6 +6079,12 @@
     },
     {
       "timestamp": "2026-11-27T08:34:48.937920Z",
+      "immediate": 0,
+      "short": 0,
+      "extended": 0
+    },
+    {
+      "timestamp": "2026-11-27T18:28:08.815876Z",
       "immediate": 0,
       "short": 0,
       "extended": 0
